@@ -75,6 +75,14 @@ def lufs(p):
     return float(re.findall(r'I:\s+(-?[\d.]+) LUFS', r)[-1])
 
 
+def audio_16k(path):
+    """Audio mono a 16 kHz como array float32 (lo decodifica ffmpeg, sin depender de PyAV)."""
+    r = subprocess.run([FF, '-v', 'error', '-i', str(path), '-vn', '-ac', '1', '-ar', '16000', '-f', 'f32le', '-'], capture_output=True)
+    if r.returncode != 0:
+        sys.exit(f'No se pudo leer el audio de {path}: {r.stderr.decode(errors="ignore")[-500:]}')
+    return np.frombuffer(r.stdout, dtype=np.float32)
+
+
 def db(x):
     return 20 * np.log10(max(float(x), 1e-9))
 
@@ -104,7 +112,7 @@ def cmd_transcribir(a):
     w = workdir(a)
     vd = duracion(a.video) if a.video else duracion(w / 'no_vocals.wav')
     m = WhisperModel(a.modelo, device='auto', compute_type='auto')
-    segs, _ = m.transcribe(str(w / 'vocals.wav'), language='es', vad_filter=True, beam_size=5)
+    segs, _ = m.transcribe(audio_16k(w / 'vocals.wav'), language='es', vad_filter=True, beam_size=5)
     out = [{'start': round(s.start, 3), 'end': round(s.end, 3), 'es': s.text.strip()} for s in segs if s.text.strip()]
     for i, s in enumerate(out):
         s['id'] = i + 1
@@ -243,10 +251,10 @@ def cmd_mezclar(a):
     print(f'Sonoridad objetivo de la voz polaca: {objetivo:.1f} LUFS')
     filtro = (f'[1:a]loudnorm=I={objetivo:.1f}:TP=-1.5:LRA=11,aresample={SR},pan=stereo|c0=c0|c1=c0[v];'
               f'[0:a][v]amix=inputs=2:duration=first:normalize=0,'
-              f'apad=whole_dur={vd:.3f},atrim=end={vd:.3f},alimiter=limit=0.89[m]')
+              f'apad=whole_dur={vd:.3f},atrim=end={vd:.3f},alimiter=limit=0.708:level=0[m]')
     run([FF, '-y', '-v', 'error', '-i', w / 'no_vocals.wav', '-i', w / 'voz_pl.wav', '-i', a.video,
          '-filter_complex', filtro, '-map', '2:v:0', '-map', '[m]', '-c:v', 'copy',
-         '-c:a', 'aac', '-b:a', '192k', '-ar', SR, '-metadata:s:a:0', 'language=pol',
+         '-c:a', 'aac', '-b:a', '256k', '-ar', SR, '-metadata:s:a:0', 'language=pol',
          '-movflags', '+faststart', a.salida])
     print(f'Listo: {a.salida} (video sin recomprimir, música original + voz polaca)')
 
@@ -343,10 +351,10 @@ def cmd_qa(a):
     try:
         from faster_whisper import WhisperModel
         m = WhisperModel(a.modelo, device='auto', compute_type='auto')
-        sg, _ = m.transcribe(str(w / 'no_vocals.wav'), language='es', vad_filter=True)
+        sg, _ = m.transcribe(audio_16k(w / 'no_vocals.wav'), language='es', vad_filter=True)
         palabras = sum(len(s.text.split()) for s in sg if s.no_speech_prob < 0.4)
         q.add('Voz española eliminada (reconocimiento sobre la música)', 'OK' if palabras <= 8 else 'FALLO', f'{palabras} palabras detectadas')
-        sg, info = m.transcribe(str(w / 'voz_pl.wav'), language='pl', vad_filter=True)
+        sg, info = m.transcribe(audio_16k(w / 'voz_pl.wav'), language='pl', vad_filter=True)
         oido = ' '.join(s.text for s in sg).lower()
         esperado = ' '.join(s['pl'] for s in segs).lower()
         sim = difflib.SequenceMatcher(None, re.sub(r'\W+', ' ', oido), re.sub(r'\W+', ' ', esperado)).ratio()
