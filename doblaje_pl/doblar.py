@@ -203,8 +203,17 @@ def recortar_silencios(x, umbral=0.003, pad=int(0.02 * SR)):
     return x[max(0, idx[0] - pad): idx[-1] + pad]
 
 
+def pronunciar(texto, reglas):
+    """Reescribe nombres y cifras como se dicen (solo para la voz; el texto traducido no cambia)."""
+    for patron, reemplazo in reglas:
+        texto = re.sub(patron, reemplazo, texto, flags=re.M)
+    return texto
+
+
 def cmd_sintetizar(a):
     w = workdir(a)
+    reglas = json.loads(Path(a.pronunciacion).read_text(encoding='utf-8')) if a.pronunciacion and Path(a.pronunciacion).exists() else []
+    print(f'Diccionario de pronunciación: {len(reglas)} reglas' + ('' if reglas else ' (no se encontró el archivo)'))
     data = cargar_segmentos(w)
     vd, segs = data['video_dur'], data['segments']
     faltan = [s['id'] for s in segs if not s['pl'].strip()]
@@ -216,7 +225,7 @@ def cmd_sintetizar(a):
     for s in segs:
         base = w / 'tts' / f'seg_{s["id"]:04d}'
         raw = base.with_suffix('.wav')
-        tts_a_wav(s['pl'], raw, a, base)
+        tts_a_wav(pronunciar(s['pl'], reglas), raw, a, base)
         x = recortar_silencios(leer_wav(raw))
         t = len(x) / SR
         d_max = s['slot']
@@ -355,9 +364,11 @@ def cmd_qa(a):
         palabras = sum(len(s.text.split()) for s in sg if s.no_speech_prob < 0.4)
         q.add('Voz española eliminada (reconocimiento sobre la música)', 'OK' if palabras <= 8 else 'FALLO', f'{palabras} palabras detectadas')
         sg, info = m.transcribe(audio_16k(w / 'voz_pl.wav'), language='pl', vad_filter=True)
-        oido = ' '.join(s.text for s in sg).lower()
-        esperado = ' '.join(s['pl'] for s in segs).lower()
-        sim = difflib.SequenceMatcher(None, re.sub(r'\W+', ' ', oido), re.sub(r'\W+', ' ', esperado)).ratio()
+        def palabras(t):      # solo palabras comunes: los nombres propios (mayúscula) se verifican escuchando
+            return [x.lower() for x in re.findall(r'\w+', t) if not x[:1].isupper() and not x.isdigit()]
+        oido = ' '.join(s.text for s in sg)
+        esperado = ' '.join(s['pl'] for s in segs)
+        sim = difflib.SequenceMatcher(None, palabras(oido), palabras(esperado), autojunk=False).ratio()
         q.add('Voz polaca dice lo traducido (similitud ≥ 0.80)', 'OK' if sim >= 0.80 else 'FALLO', f'{sim:.2f}')
     except ImportError:
         q.add('Voz española eliminada / voz polaca verificada por reconocimiento', 'OMITIDO', 'instalá faster-whisper para estas dos pruebas')
@@ -384,6 +395,7 @@ def main():
     s.add_argument('--modelo-voz', default='voices/pl_PL-mc_speech-medium.onnx', help='motor piper: archivo .onnx de la voz (default: mc_speech)')
     s.add_argument('--voz', default='pl-PL-MarekNeural', help='motor edge: voz de edge-tts (pl-PL-MarekNeural / pl-PL-ZofiaNeural)')
     s.add_argument('--tts-cmd', help="motor cmd: plantilla con {texto} y {salida}")
+    s.add_argument('--pronunciacion', default='pronunciacion.json', help='json [[patrón, reemplazo], ...] para pronunciar nombres y cifras')
     s.add_argument('--max-acel', type=float, default=1.12, help='aceleración máxima permitida (default 1.12)')
     s.set_defaults(f=cmd_sintetizar)
     s = sub.add_parser('mezclar'); s.add_argument('video'); s.add_argument('salida'); s.set_defaults(f=cmd_mezclar)
