@@ -8,6 +8,7 @@ Flujo:
   1) python doblar.py extraer   video.mp4      -> work/vocals.wav + work/no_vocals.wav (música)
   2) python doblar.py transcribir               -> work/segments.json (texto ES + presupuesto de caracteres)
   3) (traducción: se completa el campo "pl" de cada segmento en work/segments.json)
+  3b) python doblar.py afinar                    -> ajusta los inicios a la voz real (stem de Demucs)
   4) python doblar.py sintetizar                -> work/voz_pl.wav + work/timing.json
   5) python doblar.py mezclar   video.mp4 salida_pl.mp4
   6) python doblar.py qa        video.mp4 salida_pl.mp4   -> work/qa_reporte.md (exit 1 si hay FALLOS)
@@ -113,6 +114,42 @@ def cmd_transcribir(a):
         s['pl'] = ''
     (w / 'segments.json').write_text(json.dumps({'video_dur': vd, 'segments': out}, ensure_ascii=False, indent=1), encoding='utf-8')
     print(f'{len(out)} segmentos -> {w / "segments.json"}. Falta completar "pl" en cada uno.')
+
+
+# ---------------------------------------------------------------- 3) afinar tiempos
+def cmd_afinar(a):
+    """Ajusta el inicio de cada frase al instante real en que empieza la voz española (stem de Demucs)."""
+    w = workdir(a)
+    orig = w / 'segments.orig.json'
+    if orig.exists():
+        shutil.copy(orig, w / 'segments.json')                  # repetible: siempre parte de los tiempos originales
+    else:
+        shutil.copy(w / 'segments.json', orig)
+    data = cargar_segmentos(w)
+    segs, vd = data['segments'], data['video_dur']
+    x = leer_wav(w / 'vocals.wav')
+    hop = int(0.02 * SR)
+    n = len(x) // hop
+    rms = np.sqrt((x[:n * hop].reshape(n, hop) ** 2).mean(axis=1))
+    voz = 20 * np.log10(np.maximum(rms, 1e-9)) > -40          # el stem queda en silencio digital en las pausas
+    calma = 6                                                   # 0.12 s de silencio antes de un inicio
+    ini = np.array([i * 0.02 for i in range(calma, n) if voz[i] and not voz[i - calma:i].any()])
+    cambios, prev = [], -10.0
+    for s in segs:
+        cand = ini[(ini >= s['start'] - a.ventana) & (ini <= s['start'] + a.ventana)]
+        nuevo = float(cand[np.argmin(np.abs(cand - s['start']))]) if len(cand) else s['start']
+        nuevo = round(max(nuevo, prev + 0.5), 3)
+        cambios.append(nuevo - s['start'])
+        s['start'], prev = nuevo, nuevo
+    for i, s in enumerate(segs):
+        nxt = segs[i + 1]['start'] if i + 1 < len(segs) else vd
+        s['end'] = round(nxt, 3)
+        s['slot'] = round(nxt - s['start'] - HOLGURA, 3)
+        s['max_chars_pl'] = int(s['slot'] * CPS_PL)
+    (w / 'segments.json').write_text(json.dumps(data, ensure_ascii=False, indent=1), encoding='utf-8')
+    c = np.array(cambios)
+    print(f'Inicios ajustados a la voz real: {int((np.abs(c) > 0.01).sum())} de {len(segs)} cambiaron. '
+          f'Ajuste mediano {np.median(c):+.2f} s, mayor {c[np.argmax(np.abs(c))]:+.2f} s. Copia original: segments.orig.json')
 
 
 # ---------------------------------------------------------------- 4) sintetizar
@@ -333,6 +370,7 @@ def main():
     sub = p.add_subparsers(dest='cmd', required=True)
     s = sub.add_parser('extraer'); s.add_argument('video'); s.set_defaults(f=cmd_extraer)
     s = sub.add_parser('transcribir'); s.add_argument('--video'); s.add_argument('--modelo', default='large-v3'); s.set_defaults(f=cmd_transcribir)
+    s = sub.add_parser('afinar'); s.add_argument('--ventana', type=float, default=0.4, help='segundos a cada lado donde buscar el inicio real'); s.set_defaults(f=cmd_afinar)
     s = sub.add_parser('sintetizar')
     s.add_argument('--motor', default='piper', choices=['piper', 'edge', 'cmd', 'prueba'])
     s.add_argument('--modelo-voz', default='voices/pl_PL-mc_speech-medium.onnx', help='motor piper: archivo .onnx de la voz (default: mc_speech)')
