@@ -1,0 +1,1004 @@
+{
+ "video_dur": 1855.76,
+ "segments": [
+  {
+   "start": 0.16,
+   "es": "En el violento ecosistema del narcotráfico mexicano existen errores que se pagan con la vida y errores que alteran el curso de la historia criminal de un país entero.",
+   "id": 1,
+   "end": 11.48,
+   "slot": 11.24,
+   "max_chars_pl": 168,
+   "pl": "W brutalnym ekosystemie meksykańskiego narkobiznesu istnieją błędy, które kosztują życie, i błędy, które zmieniają bieg kryminalnej historii całego kraju."
+  },
+  {
+   "start": 11.48,
+   "es": "Gonzalo Inzunza Inzunza, alias El macho Prieto cometió este último.",
+   "id": 2,
+   "end": 17.96,
+   "slot": 6.4,
+   "max_chars_pl": 96,
+   "pl": "Gonzalo Inzunza Inzunza, znany jako „El Macho Prieto”, popełnił ten drugi."
+  },
+  {
+   "start": 17.96,
+   "es": "La noche del 8 de mayo de 2008 en un centro comercial de Culiacán, un convoy de más de 40 camionetas descargó una furia de fuego sin precedentes.",
+   "id": 3,
+   "end": 28.8,
+   "slot": 10.76,
+   "max_chars_pl": 161,
+   "pl": "Wieczorem 8 maja 2008 roku w centrum handlowym w Culiacán konwój ponad 40 pickupów otworzył ogień o niespotykanej dotąd sile."
+  },
+  {
+   "start": 28.8,
+   "es": "500 disparos de AK47 y el estruendo de un lanzagranadas bazuca.",
+   "id": 4,
+   "end": 35.96,
+   "slot": 7.08,
+   "max_chars_pl": 106,
+   "pl": "500 strzałów z AK-47 i huk granatnika typu bazooka."
+  },
+  {
+   "start": 35.96,
+   "es": "En el centro del caos, el cuerpo de Edgar Guzmán López, hijo de Joaquín el Chapo Guzmán, yacía sin vida. Aquel no fue un ataque de un grupo rival, sino el resultado de una confusión catastrófica o una paranoia desmedida por parte de quien debía ser el guardián más feroz de la organización. Inzunza, el hombre de confianza de Ismael. El mayo,",
+   "id": 5,
+   "end": 60.92,
+   "slot": 24.88,
+   "max_chars_pl": 373,
+   "pl": "W środku chaosu leżało martwe ciało Edgara Guzmána Lópeza, syna Joaquína „El Chapo” Guzmána. Nie był to atak wrogiego gangu, lecz skutek katastrofalnej pomyłki albo nadmiernej paranoi człowieka, który miał być najbardziej bezwzględnym strażnikiem organizacji. Inzunza, zaufany człowiek Ismaela „El Mayo”,"
+  },
+  {
+   "start": 60.92,
+   "es": "Zambada acababa de firmar su propia sentencia de muerte al arrebatarle lo más preciado al líder máximo del cártel de Sinaloa para comprender la magnitud de la sombra que Gonzalo Inzunza Inzunza proyectaría sobre el mapa criminal de México, es imperativo retroceder a sus raíces al momento exacto en que la tierra de Sinaloa comenzó a moldear su carácter.",
+   "id": 6,
+   "end": 85.84,
+   "slot": 24.84,
+   "max_chars_pl": 372,
+   "pl": "Zambady, właśnie podpisał na siebie wyrok śmierci, odbierając przywódcy kartelu z Sinaloa to, co miał najcenniejsze. Aby pojąć rozmiar cienia, jaki Gonzalo Inzunza Inzunza rzucił na kryminalną mapę Meksyku, trzeba cofnąć się do jego korzeni, do chwili, gdy ziemia Sinaloa zaczęła kształtować jego charakter."
+  },
+  {
+   "start": 85.84,
+   "es": "Gonzalo no fue un intruso en el mundo del narcotráfico, fue un hijo legítimo de su sistema.",
+   "id": 7,
+   "end": 93.52,
+   "slot": 7.6,
+   "max_chars_pl": 114,
+   "pl": "Gonzalo nie był intruzem w świecie narkobiznesu, lecz prawowitym dzieckiem tego systemu."
+  },
+  {
+   "start": 93.52,
+   "es": "Nació el 17 de agosto de 1971 en Culiacán, una ciudad que para esa época ya se consolidaba como la capital espiritual y operativa del tráfico de drogas en el país. Creció en el corazón del triángulo dorado, esa región montañosa donde la ley del estado se desvanece y es reemplazada por el código de la sierra, un lugar donde el honor se mide en calibres y la lealtad se sella con sangre. A diferencia de muchos sicarios que se ven",
+   "id": 8,
+   "end": 123.96,
+   "slot": 30.36,
+   "max_chars_pl": 455,
+   "pl": "Urodził się 17 sierpnia 1971 roku w Culiacán, mieście, które już wtedy umacniało się jako duchowa i operacyjna stolica handlu narkotykami w kraju. Dorastał w sercu Złotego Trójkąta, w górzystym regionie, gdzie prawo państwa zanika, a jego miejsce zajmuje kodeks sierry, gdzie honor mierzy się kalibrem, a lojalność przypieczętowuje krwią. W przeciwieństwie do wielu płatnych zabójców, którzy"
+  },
+  {
+   "start": 123.96,
+   "es": "obligados a empuñar un arma por hambre o desesperación económica, Gonzalo Inzunza nació con el camino pavimentado hacia el abismo. Su padre, René Inzunza, era un operador de nivel medio en el floreciente negocio de las sustancias ilícitas.",
+   "id": 9,
+   "end": 141.28,
+   "slot": 17.24,
+   "max_chars_pl": 258,
+   "pl": "z głodu lub desperacji musieli chwycić za broń, Gonzalo przyszedł na świat z drogą wybrukowaną prosto ku przepaści. Jego ojciec, René Inzunza, był średnim operatorem w kwitnącym biznesie nielegalnych substancji."
+  },
+  {
+   "start": 141.28,
+   "es": "Esto significó que la infancia de Gonzalo no estuvo rodeada de cuentos infantiles, sino de conversaciones sobre rutas, cargamentos y traiciones.",
+   "id": 10,
+   "end": 151.68,
+   "slot": 10.32,
+   "max_chars_pl": 154,
+   "pl": "Dzieciństwo Gonzala nie upływało więc wśród bajek, lecz wśród rozmów o trasach, ładunkach i zdradach."
+  },
+  {
+   "start": 151.68,
+   "es": "Creció respirando el polvo del desierto y el olor metálico de la pólvora, viendo en las armas no una herramienta de defensa, sino un símbolo de estatus y virilidad.",
+   "id": 11,
+   "end": 163.68,
+   "slot": 11.92,
+   "max_chars_pl": 178,
+   "pl": "Dorastał, wdychając pustynny kurz i metaliczny zapach prochu, widząc w broni nie narzędzie obrony, lecz symbol statusu i męskości."
+  },
+  {
+   "start": 163.68,
+   "es": "Para él, el crimen organizado no era una elección de vida, sino una herencia genética, un destino ineludible del que nunca intentó escapar.",
+   "id": 12,
+   "end": 174.36,
+   "slot": 10.6,
+   "max_chars_pl": 159,
+   "pl": "Dla niego przestępczość zorganizowana nie była wyborem życiowym, lecz genetycznym dziedzictwem, nieuchronnym losem, przed którym nigdy nie próbował uciec."
+  },
+  {
+   "start": 174.36,
+   "es": "El punto de quiebre definitivo en su psicología ocurrió con la muerte prematura de su padre. Este evento no solo lo dejó huérfano de guía, sino que le inyectó una dosis letal de resentimiento contra el mundo. Sin la figura de René para mediar en sus impulsos, la agresividad natural de Gonzalo se desbordó.",
+   "id": 13,
+   "end": 195.04,
+   "slot": 20.6,
+   "max_chars_pl": 309,
+   "pl": "Punktem zwrotnym w jego psychice była przedwczesna śmierć ojca. To wydarzenie nie tylko pozbawiło go przewodnika, lecz wstrzyknęło mu śmiertelną dawkę urazy do świata. Bez René, który łagodził jego impulsy, naturalna agresywność Gonzala wymknęła się spod kontroli."
+  },
+  {
+   "start": 195.04,
+   "es": "El dolor por la pérdida no se tradujo en tristeza, sino en una rabia sorda que buscaba un objetivo. A la corta edad de 19 años, cuando la mayoría de los jóvenes de su edad buscaban un lugar en la sociedad civil, Gonzalo decidió sellar su pacto eterno con la muerte. El escenario de su bautizo de fuego fue una fiesta local en Culiacán,",
+   "id": 14,
+   "end": 217.0,
+   "slot": 21.88,
+   "max_chars_pl": 328,
+   "pl": "Ból po stracie nie zamienił się w smutek, lecz w głuchą wściekłość szukającą celu. W wieku zaledwie 19 lat, gdy większość rówieśników szukała miejsca w społeczeństwie, Gonzalo postanowił przypieczętować wieczny pakt ze śmiercią. Sceną jego chrztu ogniowego była lokalna zabawa w Culiacán,"
+  },
+  {
+   "start": 217.0,
+   "es": "un evento lleno de música y algaravía que terminó en un silencio sepulcral.",
+   "id": 15,
+   "end": 222.519,
+   "slot": 5.439,
+   "max_chars_pl": 81,
+   "pl": "pełna muzyki i wrzawy, która zakończyła się grobową ciszą."
+  },
+  {
+   "start": 222.519,
+   "es": "Ante la mirada atónita de decenas de testigos, sin mostrar un ápice de duda o remordimiento, desenfundó su arma y ejecutó a un hombre a sangre fría por una afrenta menor.",
+   "id": 16,
+   "end": 234.879,
+   "slot": 12.28,
+   "max_chars_pl": 184,
+   "pl": "Na oczach dziesiątek osłupiałych świadków, bez cienia wahania czy skruchy, wyciągnął broń i z zimną krwią zabił człowieka za drobną zniewagę."
+  },
+  {
+   "start": 234.879,
+   "es": "Aquel acto no fue solo un asesinato, fue una declaración de principios. reveló instantáneamente su perfil psicológico.",
+   "id": 17,
+   "end": 244.48,
+   "slot": 9.521,
+   "max_chars_pl": 142,
+   "pl": "Ten czyn nie był zwykłym zabójstwem, lecz deklaracją zasad. Natychmiast ujawnił jego profil psychologiczny."
+  },
+  {
+   "start": 244.48,
+   "es": "Gonzalo no tenía la paciencia para ser un estratega de escritorio ni el carisma para ser un diplomático del crimen. Era un ejecutor nato, un hombre que encontraba resolución en la violencia directa y absoluta. La frialdad demostrada en aquel primer homicidio llamó la atención de las autoridades locales, pero sobre todo de los veteranos de AMPA que vieron en él a un diamante en bruto de la brutalidad. Sin embargo, la presión policial inmediata",
+   "id": 18,
+   "end": 273.84,
+   "slot": 29.28,
+   "max_chars_pl": 439,
+   "pl": "Gonzalo nie miał cierpliwości, by zostać strategiem zza biurka, ani charyzmy dyplomaty świata przestępczego. Był urodzonym egzekutorem, który rozwiązanie znajdował w bezpośredniej, absolutnej przemocy. Chłód okazany przy pierwszym zabójstwie zwrócił uwagę lokalnych władz, a przede wszystkim weteranów półświatka, którzy dostrzegli w nim surowy diament brutalności. Jednak natychmiastowa presja policji"
+  },
+  {
+   "start": 273.84,
+   "es": "lo obligó a tomar una decisión que definiría su carrera. abandonar su cuna en Sinaloa.",
+   "id": 19,
+   "end": 280.56,
+   "slot": 6.64,
+   "max_chars_pl": 99,
+   "pl": "zmusiła go do decyzji, która zdefiniowała jego karierę: opuścić rodzinne Sinaloa."
+  },
+  {
+   "start": 280.56,
+   "es": "Escapó hacia el norte, hacia el estado de Sonora, dejando atrás su identidad de joven impetuoso para transformarse en una entidad casi mítica.",
+   "id": 20,
+   "end": 290.6,
+   "slot": 9.96,
+   "max_chars_pl": 149,
+   "pl": "Uciekł na północ, do stanu Sonora, zostawiając za sobą tożsamość porywczego młodzieńca, by stać się postacią niemal mityczną."
+  },
+  {
+   "start": 290.6,
+   "es": "En Sonora, lejos de la sombra de su padre y del control de sus conocidos, comenzó a forjar el seudónimo que lo haría temblar a nivel nacional, el macho Prieto Este apodo no era solo una referencia a su complexión o apariencia. sino una advertencia sobre su temperamento volátil y su disposición a llevar cualquier conflicto hasta las últimas consecuencias.",
+   "id": 21,
+   "end": 315.6,
+   "slot": 24.92,
+   "max_chars_pl": 373,
+   "pl": "W Sonorze, z dala od cienia ojca i kontroli dawnych znajomych, zaczął kuć pseudonim, który miał sprawić, że zadrży cały kraj: „El Macho Prieto”. Przydomek ten nie odnosił się tylko do jego postury, lecz był ostrzeżeniem przed zmiennym temperamentem i gotowością doprowadzenia każdego konfliktu do końca."
+  },
+  {
+   "start": 315.6,
+   "es": "Durante estos años formativos en el exilio, Inzunza perfeccionó su puntería, sino que desarrolló una visión paramilitar del sicariato.",
+   "id": 22,
+   "end": 325.56,
+   "slot": 9.88,
+   "max_chars_pl": 148,
+   "pl": "W tych latach na wygnaniu Inzunza nie tylko doskonalił celność, lecz rozwinął paramilitarną wizję zabijania na zlecenie."
+  },
+  {
+   "start": 325.56,
+   "es": "Entendió que para sobrevivir en un mundo de lobos no bastaba con ser el más fuerte, había que ser el más cruel. Su estancia en Sonora fue el laboratorio donde mezcló la audacia sinaloense con la disciplina táctica que más tarde lo convertiría en el jefe de escoltas más temido por los rivales del cártel de Sinaloa. Allí, entre los paisajes áridos del norte, la semilla de violencia que se plantó en Culiacán finalmente germinó, dando paso a una de las figuras",
+   "id": 23,
+   "end": 354.759,
+   "slot": 29.119,
+   "max_chars_pl": 436,
+   "pl": "Zrozumiał, że by przetrwać w świecie wilków, nie wystarczy być najsilniejszym — trzeba być najokrutniejszym. Pobyt w Sonorze był laboratorium, w którym połączył śmiałość z Sinaloa z taktyczną dyscypliną, co uczyniło go szefem ochrony budzącym największy strach wśród wrogów kartelu. Tam, wśród suchych krajobrazów północy, ziarno przemocy zasiane w Culiacán wykiełkowało, dając początek jednej z najmroczniejszych i"
+  },
+  {
+   "start": 354.759,
+   "es": "más oscuras y letales de la historia criminal contemporánea.",
+   "id": 24,
+   "end": 359.08,
+   "slot": 4.241,
+   "max_chars_pl": 63,
+   "pl": "najgroźniejszych postaci współczesnej przestępczości."
+  },
+  {
+   "start": 359.08,
+   "es": "La década de los 90 representó un periodo de metamorfosis crítica para el narcotráfico en México. Tras la fragmentación del cártel de Guadalajara y el arresto de Miguel Ángel Félix Gallardo, el mapa criminal se convirtió en un tablero de ajedrez sangriento, donde nuevas figuras buscaban reclamar el trono. En este escenario de inestabilidad, la facción de Sinaloa, liderada por un astuto y reservado Ismael El Mayo Zambada,",
+   "id": 25,
+   "end": 386.919,
+   "slot": 27.759,
+   "max_chars_pl": 416,
+   "pl": "Lata dziewięćdziesiąte były okresem krytycznej metamorfozy meksykańskiego narkobiznesu. Po rozpadzie kartelu z Guadalajary i aresztowaniu Miguela Ángela Félixa Gallarda mapa przestępczości zamieniła się w krwawą szachownicę, na której nowe postacie walczyły o tron. W tej niestabilnej sytuacji frakcja z Sinaloa, kierowana przez sprytnego i skrytego Ismaela „El Mayo” Zambadę,"
+  },
+  {
+   "start": 386.919,
+   "es": "comprendió que la supervivencia de su imperio no dependería únicamente de la logística del tráfico, sino de la capacidad de ejercer una violencia quirúrgica y devastadora.",
+   "id": 26,
+   "end": 398.08,
+   "slot": 11.081,
+   "max_chars_pl": 166,
+   "pl": "zrozumiała, że przetrwanie jej imperium nie zależy tylko od logistyki przemytu, lecz od zdolności do stosowania chirurgicznej i niszczycielskiej przemocy."
+  },
+  {
+   "start": 398.08,
+   "es": "Zambada, conocido por su perfil bajo y su enfoque empresarial, necesitaba un contrapeso, un jefe de seguridad que no solo fuera leal hasta la médula, sino que proyectara una sombra de terror tan densa que paralizara a sus enemigos antes siquiera de apretar el gatillo. El encuentro entre el Mayo e Inzunza no fue casualidad, sino el choque de dos necesidades complementarias.",
+   "id": 27,
+   "end": 424.8,
+   "slot": 26.64,
+   "max_chars_pl": 399,
+   "pl": "Zambada, znany z niskiego profilu i biznesowego podejścia, potrzebował przeciwwagi: szefa ochrony lojalnego do szpiku kości, który rzucałby cień terroru tak gęsty, że paraliżowałby wrogów, zanim pociągną za spust. Spotkanie „El Mayo” z Inzunzą nie było przypadkiem, lecz zderzeniem dwóch uzupełniających się potrzeb."
+  },
+  {
+   "start": 424.8,
+   "es": "Zambada puso sus ojos en aquel hombre que ya arrastraba una reputación de ferocidad legendaria en Sonora y Sinaloa. En Gonzalo Inzunza, el mayo, encontró la herramienta perfecta. un individuo que no poseía las ambiciones políticas de otros lugarenientes, alguien que no cuestionaba la moralidad de las órdenes y cuya sedía no tener un fondo. Inzunza no era un simple gatillero, era un fanático de la confrontación, un hombre que se",
+   "id": 28,
+   "end": 454.759,
+   "slot": 29.879,
+   "max_chars_pl": 448,
+   "pl": "Zambada zwrócił uwagę na człowieka, który w Sonorze i Sinaloa miał już reputację legendarnej dzikości. W Gonzalu Inzunzie „El Mayo” znalazł idealne narzędzie: kogoś bez politycznych ambicji innych poruczników, kto nie kwestionował moralności rozkazów, a jego głód przemocy zdawał się nie mieć dna. Inzunza nie był zwykłym strzelcem, lecz fanatykiem konfrontacji, człowiekiem, który"
+  },
+  {
+   "start": 454.759,
+   "es": "sentía vivo únicamente en el epicentro del conflicto. Su ascenso dentro de la estructura del cártel de Sinaloa fue meteórico.",
+   "id": 29,
+   "end": 464.12,
+   "slot": 9.281,
+   "max_chars_pl": 139,
+   "pl": "czuł się żywy wyłącznie w epicentrum konfliktu. Jego awans w strukturze kartelu z Sinaloa był błyskawiczny."
+  },
+  {
+   "start": 464.12,
+   "es": "Inzunza no tardó en ser nombrado jefe de sicarios, una posición que transformó radicalmente.",
+   "id": 30,
+   "end": 470.919,
+   "slot": 6.719,
+   "max_chars_pl": 100,
+   "pl": "Inzunza szybko został szefem płatnych zabójców, co radykalnie zmieniło tę funkcję."
+  },
+  {
+   "start": 470.919,
+   "es": "Bajo su mando, la seguridad de la organización dejó de ser una horda de hombres armados para convertirse en una maquinaria para militar de precisión.",
+   "id": 31,
+   "end": 480.4,
+   "slot": 9.401,
+   "max_chars_pl": 141,
+   "pl": "Pod jego dowództwem ochrona organizacji przestała być hordą uzbrojonych ludzi i stała się precyzyjną maszyną paramilitarną."
+  },
+  {
+   "start": 480.4,
+   "es": "El macho Prieto entendió antes que muchos de sus contemporáneos que el futuro de la guerra urbana residía en la profesionalización.",
+   "id": 32,
+   "end": 490.319,
+   "slot": 9.839,
+   "max_chars_pl": 147,
+   "pl": "„El Macho Prieto” zrozumiał wcześniej niż wielu jemu współczesnych, że przyszłość wojny miejskiej leży w profesjonalizacji."
+  },
+  {
+   "start": 490.319,
+   "es": "comenzó a reclutar activamente a desertores de los cuerpos de élite del ejército y de las fuerzas especiales de la policía. Hombres que ya poseían entrenamiento en tácticas de asalto, manejo de explosivos y contrainteligencia.",
+   "id": 33,
+   "end": 505.44,
+   "slot": 15.041,
+   "max_chars_pl": 225,
+   "pl": "Zaczął aktywnie werbować dezerterów z elitarnych jednostek armii i sił specjalnych policji. Ludzi, którzy mieli już wyszkolenie w taktyce szturmowej, obsłudze materiałów wybuchowych i kontrwywiadzie."
+  },
+  {
+   "start": 505.44,
+   "es": "Esta integración de exmilitares cambió las reglas del juego. Bajo la tutela de Inzunza, los escuadrones de la muerte de Sinaloa empezaron a operar con una disciplina aterradora. Ya no se trataba solo de tiroteos espontáneos, sino de operativos planificados con inteligencia previa, perímetros de seguridad y armamento de alto poder, que incluía fusiles Barret, calibre 50 y ametralladoras de cinta.",
+   "id": 34,
+   "end": 534.32,
+   "slot": 28.8,
+   "max_chars_pl": 432,
+   "pl": "Włączenie byłych wojskowych zmieniło reguły gry. Pod okiem Inzunzy szwadrony śmierci z Sinaloa zaczęły działać z przerażającą dyscypliną. Nie chodziło już tylko o spontaniczne strzelaniny, lecz o planowane operacje, poprzedzone rozpoznaniem, z obwodami ochronnymi i potężną bronią, w tym karabinami Barrett kalibru 50 i taśmowymi karabinami maszynowymi."
+  },
+  {
+   "start": 534.32,
+   "es": "Inzunza se convirtió en la sombra de El Mayo, el arquitecto de un muro de fuego que protegía los intereses de su jefe, mientras este se encargaba de las negociaciones de alto nivel. Zambada era el cerebro diplomático. El macho Prieto era el puño de hierro que golpeaba la mesa. Su labor principal era la limpieza de plazas.",
+   "id": 35,
+   "end": 556.56,
+   "slot": 22.16,
+   "max_chars_pl": 332,
+   "pl": "Inzunza stał się cieniem „El Mayo”, architektem muru ognia chroniącego interesy szefa, podczas gdy ten zajmował się negocjacjami na wysokim szczeblu. Zambada był dyplomatycznym mózgiem. „El Macho Prieto” — żelazną pięścią uderzającą w stół. Jego główne zadanie to „czyszczenie terytoriów”."
+  },
+  {
+   "start": 556.56,
+   "es": "Este término, eufemismo de masacres sistemáticas, implicaba llegar a territorios en disputa y eliminar radicalmente cualquier rastro de competencia o disidencia.",
+   "id": 36,
+   "end": 568.2,
+   "slot": 11.56,
+   "max_chars_pl": 173,
+   "pl": "To określenie, eufemizm systematycznych masakr, oznaczało wkraczanie na sporne terytoria i bezwzględne eliminowanie wszelkich śladów konkurencji lub sprzeciwu."
+  },
+  {
+   "start": 568.2,
+   "es": "Inzunza no conocía la piedad. Para él la neutralidad no existía. Aquellos que no se alineaban con la hegemonía sinaloense eran borrados del mapa. La leyenda negra de El Macho Prieto creció exponencialmente durante estos años. Se le empezaron a atribuir ejecuciones que destacaban por su crueldad extrema,",
+   "id": 37,
+   "end": 590.36,
+   "slot": 22.08,
+   "max_chars_pl": 331,
+   "pl": "Inzunza nie znał litości. Dla niego neutralność nie istniała. Ci, którzy nie podporządkowali się hegemonii z Sinaloa, byli wymazywani z mapy. Czarna legenda „El Macho Prieto” rosła w tych latach wykładniczo. Zaczęto mu przypisywać egzekucje, które wyróżniały się skrajnym okrucieństwem,"
+  },
+  {
+   "start": 590.36,
+   "es": "diseñadas específicamente para enviar mensajes visuales a los rivales del cártel de Tijuana y más tarde a los hermanos Beltrán Leyva.",
+   "id": 38,
+   "end": 600.079,
+   "slot": 9.639,
+   "max_chars_pl": 144,
+   "pl": "zaprojektowane specjalnie po to, by wysyłać wizualne komunikaty rywalom z kartelu z Tijuany, a później braciom Beltrán Leyva."
+  },
+  {
+   "start": 600.079,
+   "es": "El registro de su violencia es escalofriante.",
+   "id": 39,
+   "end": 603.64,
+   "slot": 3.481,
+   "max_chars_pl": 52,
+   "pl": "Rejestr jego przemocy jest porażający."
+  },
+  {
+   "start": 603.64,
+   "es": "Las autoridades mexicanas y organismos de inteligencia calculan que Inzunza fue el autor material o intelectual de más de 80 ejecuciones directas de alto perfil. Sin embargo, lo que realmente lo diferenciaba de otros sicarios era su absoluta falta de temor hacia las instituciones del Estado. El macho Prieto no evitaba a la autoridad, la desafiaba.",
+   "id": 40,
+   "end": 627.44,
+   "slot": 23.72,
+   "max_chars_pl": 355,
+   "pl": "Władze meksykańskie i służby wywiadowcze szacują, że Inzunza był bezpośrednim lub pośrednim sprawcą ponad 80 głośnych egzekucji. Jednak to, co naprawdę odróżniało go od innych płatnych zabójców, to absolutny brak lęku przed instytucjami państwa. „El Macho Prieto” nie unikał władzy, on rzucał jej wyzwanie."
+  },
+  {
+   "start": 627.44,
+   "es": "En su historial figuran los nombres de numerosos mandos policiales y agentes federales que cometieron el error de intentar irrumpir en su territorio de influencia o de romper acuerdos previamente establecidos. Para Inzunza, una placa no era un escudo, sino un blanco más fácil de identificar.",
+   "id": 41,
+   "end": 647.147,
+   "slot": 19.627,
+   "max_chars_pl": 294,
+   "pl": "W jego historii figurują nazwiska licznych dowódców policji i agentów federalnych, którzy popełnili błąd, próbując wkroczyć na jego terytorium wpływów lub złamać wcześniej ustalone porozumienia. Dla Inzunzy odznaka nie była tarczą, lecz łatwiejszym do rozpoznania celem."
+  },
+  {
+   "start": 647.147,
+   "es": "Uno de los episodios que mejor ilustran su dominio y su temperamento ocurrió cuando unidades de la policía federal intentaron realizar un arresto en una de sus zonas de confort.",
+   "id": 42,
+   "end": 659.639,
+   "slot": 12.412,
+   "max_chars_pl": 186,
+   "pl": "Jeden z epizodów najlepiej ilustrujących jego dominację i temperament miał miejsce, gdy jednostki policji federalnej próbowały dokonać aresztowania w jednej z jego stref wpływów."
+  },
+  {
+   "start": 659.639,
+   "es": "En lugar de oír, Inzunza movilizó a sus hombres en cuestión de minutos, rodeando a las patrullas y obligando a los oficiales bajo amenaza de una muerte inmediata y atroz a contactar a sus superiores para informarles que ese territorio tenía un solo dueño. Su capacidad para humillar a las fuerzas del orden mientras mantenía la protección de los altos mandos del cártel lo convirtió en una figura casi intocable.",
+   "id": 43,
+   "end": 686.72,
+   "slot": 27.001,
+   "max_chars_pl": 405,
+   "pl": "Zamiast uciec, Inzunza w ciągu kilku minut zmobilizował ludzi, okrążył patrole i zmusił funkcjonariuszy, pod groźbą natychmiastowej, okrutnej śmierci, by skontaktowali się z przełożonymi i oznajmili, że to terytorium ma tylko jednego właściciela. Jego zdolność upokarzania sił porządkowych przy jednoczesnej ochronie wysokich dowódców kartelu uczyniła go postacią niemal nietykalną."
+  },
+  {
+   "start": 686.72,
+   "es": "El año 2008 no fue simplemente un periodo de violencia rutinaria en la historia del narcotráfico mexicano. Fue el año del gran cisma, el momento en que las placas tectónicas del inframundo criminal chocaron con una fuerza que alteró el mapa del poder para siempre.",
+   "id": 44,
+   "end": 704.639,
+   "slot": 17.839,
+   "max_chars_pl": 267,
+   "pl": "Rok 2008 nie był zwykłym okresem rutynowej przemocy w historii meksykańskiego narkobiznesu. Był rokiem wielkiego rozłamu, momentem, w którym płyty tektoniczne przestępczego podziemia zderzyły się z siłą, która na zawsze zmieniła mapę władzy."
+  },
+  {
+   "start": 704.639,
+   "es": "La detención de Alfredo Beltrán Leyva, el mochomo en enero de ese año, disparó una acusación de traición directa hacia la figura de Joaquín, el Chapo Guzmán. La alianza más poderosa del continente se fracturó y Culiacán, la joya de la corona, se transformó de la noche a la mañana en un polvorín donde nadie confiaba en su propia sombra.",
+   "id": 45,
+   "end": 728.8,
+   "slot": 24.081,
+   "max_chars_pl": 361,
+   "pl": "Aresztowanie Alfreda Beltrána Leyvy, „El Mochomo”, w styczniu tamtego roku wywołało oskarżenie o bezpośrednią zdradę ze strony Joaquína „El Chapo” Guzmána. Najpotężniejszy sojusz na kontynencie pękł, a Culiacán, perła w koronie, z dnia na dzień zamieniło się w beczkę prochu, w której nikt nie ufał własnemu cieniowi."
+  },
+  {
+   "start": 728.8,
+   "es": "En este clima de paranoia asfixiante, donde cada vehículo con vidrios polarizados era visto como una declaración de guerra, la figura de Gonzalo Inzunza Inzunza, el macho Prieto emergió como el brazo ejecutor más reactivo y peligroso de la organización.",
+   "id": 46,
+   "end": 747.199,
+   "slot": 18.319,
+   "max_chars_pl": 274,
+   "pl": "W tej duszącej atmosferze paranoi, w której każdy pojazd z przyciemnianymi szybami uchodził za wypowiedzenie wojny, Gonzalo Inzunza Inzunza, „El Macho Prieto”, wyłonił się jako najbardziej reaktywne i niebezpieczne ramię wykonawcze organizacji."
+  },
+  {
+   "start": 747.199,
+   "es": "La paranoia no solo afectaba a los líderes de alto nivel, sino que devoraba la cordura de los mandos medios encargados de la seguridad operativa.",
+   "id": 47,
+   "end": 757.079,
+   "slot": 9.8,
+   "max_chars_pl": 147,
+   "pl": "Paranoja nie ograniczała się do przywódców, lecz pożerała zdrowy rozsądek średnich dowódców odpowiedzialnych za bezpieczeństwo."
+  },
+  {
+   "start": 757.079,
+   "es": "Inzunza, cuya naturaleza siempre había sido atrabancada y violenta, se encontraba en un estado de alerta máxima. Su misión era blindar la ciudad de cualquier incursión de los hermanos Beltrán Leyva, quienes habían jurado cobrar con sangre la supuesta entrega de su hermano al gobierno. Fue bajo esta presión insoportable que se gestó la tragedia del 8 de mayo de 2008. Una fecha que quedaría grabada en la memoria colectiva de",
+   "id": 48,
+   "end": 786.24,
+   "slot": 29.081,
+   "max_chars_pl": 436,
+   "pl": "Inzunza, z natury porywczy i brutalny, był w stanie najwyższej gotowości. Jego misją było obronić miasto przed jakimkolwiek wtargnięciem braci Beltrán Leyva, którzy przysięgli zemścić się krwią za rzekome wydanie brata rządowi. To pod tym nieznośnym naciskiem rozegrała się tragedia z 8 maja 2008 roku. Data, która miała zapisać się w zbiorowej pamięci"
+  },
+  {
+   "start": 786.24,
+   "es": "Sinaloa, como la noche en que el cártel se hirió a sí mismo de muerte.",
+   "id": 49,
+   "end": 791.519,
+   "slot": 5.199,
+   "max_chars_pl": 77,
+   "pl": "Sinaloa jako noc, w której kartel zadał sobie śmiertelną ranę."
+  },
+  {
+   "start": 791.519,
+   "es": "Todo comenzó con un reporte de inteligencia de campo mal interpretado.",
+   "id": 50,
+   "end": 796.839,
+   "slot": 5.24,
+   "max_chars_pl": 78,
+   "pl": "Wszystko zaczęło się od błędnie zinterpretowanego meldunku wywiadu."
+  },
+  {
+   "start": 796.839,
+   "es": "Informantes al servicio de El Macho Prieto detectaron un convoy de camionetas sospechosas estacionadas en el centro comercial City Market en el desarrollo urbano Tres Ríos de Culiacán.",
+   "id": 51,
+   "end": 809.76,
+   "slot": 12.841,
+   "max_chars_pl": 192,
+   "pl": "Informatorzy na usługach „El Macho Prieto” wykryli konwój podejrzanych pickupów zaparkowanych przy centrum handlowym City Market w dzielnicy Tres Ríos w Culiacán."
+  },
+  {
+   "start": 809.76,
+   "es": "En el ambiente bélico de la época, la presencia de hombres armados en un lugar público solo podía significar una cosa, una célula de asalto de los Beltrán Leyva, preparándose para un golpe de alto impacto. Fiel a su instinto de golpear primero y preguntar después, Inzunza no buscó la confirmación de Ismael el mayo. Zambada ni esperó la luz verde de sus superiores. movilizó a una fuerza de choque masiva compuesta por más de 40",
+   "id": 52,
+   "end": 840.199,
+   "slot": 30.359,
+   "max_chars_pl": 455,
+   "pl": "W wojennej atmosferze tamtych czasów obecność uzbrojonych ludzi w miejscu publicznym mogła oznaczać tylko jedno: grupę szturmową Beltrán Leyva, szykującą się do uderzenia. Wierny instynktowi, by uderzać pierwszym i pytać potem, Inzunza nie szukał potwierdzenia u Ismaela „El Mayo” Zambady ani nie czekał na zielone światło przełożonych. Zmobilizował potężne siły uderzeniowe, złożone z ponad 40"
+  },
+  {
+   "start": 840.199,
+   "es": "camionetas repletas de sicarios equipados con equipo táctico y armamento de guerra. La agresión fue de una magnitud apocalíptica. Los testigos que se encontraban en las inmediaciones del centro comercial relataron escenas que parecían extraídas de una zona de conflicto en el Medio Oriente. No fue un intercambio de disparos, fue una ejecución masiva mediante una saturación de fuego abrumadora. Se estima que en pocos minutos se realizaron más de 500",
+   "id": 53,
+   "end": 870.959,
+   "slot": 30.68,
+   "max_chars_pl": 460,
+   "pl": "pickupów pełnych płatnych zabójców w sprzęcie taktycznym i z bronią wojenną. Atak miał apokaliptyczną skalę. Świadkowie w pobliżu centrum handlowego opisywali sceny jak ze strefy konfliktu na Bliskim Wschodzie. Nie była to wymiana ognia, lecz masowa egzekucja przez przytłaczające nasycenie ogniem. Szacuje się, że w ciągu kilku minut oddano ponad 500"
+  },
+  {
+   "start": 870.959,
+   "es": "disparos de fusiles AK47, los temidos cuernos de chivo.",
+   "id": 54,
+   "end": 878.199,
+   "slot": 7.16,
+   "max_chars_pl": 107,
+   "pl": "strzałów z karabinów AK-47, zwanych „cuernos de chivo”, czyli „koźlimi rogami”."
+  },
+  {
+   "start": 878.199,
+   "es": "El ataque no se limitó a las armas ligeras. Los hombres de Inzunza utilizaron un lanzagranadas o bazooka cuyo proyectil impactó contra una de las paredes superiores del centro comercial, iluminando la noche con una explosión que se escuchó en gran parte de la ciudad. El pánico fue total. Las familias que cenaban en restaurantes cercanos se tiraron al suelo mientras el estruendo de la fusilería automática parecía no tener fin. Sin",
+   "id": 55,
+   "end": 906.639,
+   "slot": 28.36,
+   "max_chars_pl": 425,
+   "pl": "Atak nie ograniczył się do broni lekkiej. Ludzie Inzunzy użyli granatnika, bazooki, której pocisk uderzył w jedną z górnych ścian centrum handlowego, rozświetlając noc wybuchem słyszalnym w znacznej części miasta. Zapanowała panika. Rodziny jedzące kolację w pobliskich restauracjach rzucały się na ziemię, a huk broni automatycznej zdawał się nie mieć końca. Jednak"
+  },
+  {
+   "start": 906.639,
+   "es": "embargo, cuando el humo de la pólvora comenzó a disiparse y los secos de las ráfagas se apagaron, el silencio que descendió sobre el estacionamiento fue más aterrador que el ruido previo.",
+   "id": 56,
+   "end": 919.759,
+   "slot": 13.04,
+   "max_chars_pl": 195,
+   "pl": "gdy dym prochowy zaczął się rozpraszać, a suche trzaski serii ucichły, cisza, która zapadła na parkingu, była straszniejsza niż wcześniejszy hałas."
+  },
+  {
+   "start": 919.759,
+   "es": "Al acercarse a los vehículos destrozados, los sicarios de Inzunza descubrieron una verdad que les celó la sangre. En el centro de la zona de muerte, entre los restos de una camioneta roja, yacían tres cuerpos jóvenes.",
+   "id": 57,
+   "end": 935.24,
+   "slot": 15.401,
+   "max_chars_pl": 231,
+   "pl": "Gdy zbliżyli się do rozbitych pojazdów, ludzie Inzunzy odkryli prawdę, od której zmroziła im się krew. W centrum strefy śmierci, wśród szczątków czerwonego pickupa, leżały trzy młode ciała."
+  },
+  {
+   "start": 935.24,
+   "es": "Uno de ellos era Edgar Guzmán López, de apenas 22 años, el hijo predilecto de Joaquín el Chapo, Guzmán. Junto a él habían muerto su primo César Ariel Lo era Guzmán y Arturo Caimillo Fuentes, hijo de un ex líder del cártel de Juárez. La realidad golpeó a Inzunza como un mazo. No había aniquilado a una célula enemiga, sino que había asesinado al príncipe del Imperio sinaloense bajo un catastrófico caso de fuego amigo. Los reportes sugieren que",
+   "id": 58,
+   "end": 966.8,
+   "slot": 31.48,
+   "max_chars_pl": 472,
+   "pl": "Jednym z nich był Edgar Guzmán López, zaledwie 22-letni, ulubiony syn Joaquína „El Chapo” Guzmána. Razem z nim zginęli jego kuzyn César Ariel Loera Guzmán i Arturo Carrillo Fuentes, syn byłego szefa kartelu z Juárez. Rzeczywistość uderzyła Inzunzę jak młot. Nie wyeliminował wrogiej komórki, lecz zabił księcia imperium z Sinaloa w katastrofalnym przypadku ognia przyjaznego. Z doniesień wynika, że"
+  },
+  {
+   "start": 966.8,
+   "es": "Edgar Guzmán se encontraba en el lugar esperando a unos amigos y la oscuridad de la zona, sumada a la tensión de la guerra hizo que los vigías de Inzunza confundieran su escolta con un comando rival.",
+   "id": 59,
+   "end": 980.72,
+   "slot": 13.84,
+   "max_chars_pl": 207,
+   "pl": "Edgar Guzmán czekał tam na przyjaciół, a ciemność w tej okolicy, w połączeniu z napięciem wojny, sprawiła, że obserwatorzy Inzunzy wzięli jego ochronę za wrogi oddział."
+  },
+  {
+   "start": 980.72,
+   "es": "La tragedia fue tal que, según las crónicas populares de Culiacán, el Chapo Guzmán quedó tan devastado que compró todas las rosas de la ciudad para el funeral de su hijo, dejando a la capital sinaloense sin flores para la celebración del día de las madres, que ocurriría dos días después.",
+   "id": 60,
+   "end": 1000.399,
+   "slot": 19.599,
+   "max_chars_pl": 293,
+   "pl": "Tragedia była tak wielka, że według popularnych relacji z Culiacán „El Chapo” Guzmán był tak załamany, że wykupił wszystkie róże w mieście na pogrzeb syna, zostawiając stolicę Sinaloa bez kwiatów na obchody Dnia Matki, który przypadał dwa dni później."
+  },
+  {
+   "start": 1000.399,
+   "es": "Para el macho Prieto este evento marcó el fin de su era de oro.",
+   "id": 61,
+   "end": 1005.839,
+   "slot": 5.36,
+   "max_chars_pl": 80,
+   "pl": "Dla „El Macho Prieto” to wydarzenie oznaczało koniec jego złotej ery."
+  },
+  {
+   "start": 1005.839,
+   "es": "Aunque su utilidad militar en la guerra contra los Beltrán Leyva evitó que fuera ejecutado de inmediato, pues el cártel no podía permitirse perder a su mejor guerrero en medio de una guerra civil criminal.",
+   "id": 62,
+   "end": 1019.519,
+   "slot": 13.6,
+   "max_chars_pl": 204,
+   "pl": "Choć jego wojskowa przydatność w wojnie z Beltrán Leyva uchroniła go przed natychmiastową egzekucją — kartel nie mógł stracić najlepszego wojownika w środku przestępczej wojny domowej."
+  },
+  {
+   "start": 1019.519,
+   "es": "El manto de protección absoluta que lo hacía intocable se desvaneció.",
+   "id": 63,
+   "end": 1025.0,
+   "slot": 5.401,
+   "max_chars_pl": 81,
+   "pl": "Płaszcz absolutnej ochrony, który czynił go nietykalnym, zniknął."
+  },
+  {
+   "start": 1025.0,
+   "es": "La relación de confianza con el Chapo se rompió de forma irreparable.",
+   "id": 64,
+   "end": 1029.919,
+   "slot": 4.839,
+   "max_chars_pl": 72,
+   "pl": "Zaufanie „El Chapo” zostało zerwane bezpowrotnie."
+  },
+  {
+   "start": 1029.919,
+   "es": "Inzunza pasó de ser el guardián de la ciudad a ser un activo tóxico, un hombre cuya sola presencia recordaba al líder máximo su pérdida más dolorosa. El macho Prieto fue condenado al ostracismo operativo. Fue el inicio de un destierro hacia las zonas desérticas de Sonora, marcando el comienzo de una decadencia personal y profesional que lo llevaría años más tarde a su propia aniquilación.",
+   "id": 65,
+   "end": 1057.679,
+   "slot": 27.68,
+   "max_chars_pl": 415,
+   "pl": "Inzunza ze strażnika miasta stał się toksycznym ogniwem, człowiekiem, którego sama obecność przypominała przywódcy jego najboleśniejszą stratę. „El Macho Prieto” został skazany na operacyjny ostracyzm. Był to początek zesłania na pustynne tereny Sonory, początek osobistego i zawodowego upadku, który kilka lat później miał doprowadzić do jego unicestwienia."
+  },
+  {
+   "start": 1057.679,
+   "es": "Aquella noche de los 500 balazos no solo mató a un hijo, sino que hirió de muerte la lealtad que sostenía el imperio de Inzunza. Tras la fatídica noche de los 500 balazos, el destino de Gonzalo Inzunza quedó suspendido en un limbo que pocos logran habitar en el mundo del narcotráfico.",
+   "id": 66,
+   "end": 1077.679,
+   "slot": 19.92,
+   "max_chars_pl": 298,
+   "pl": "Ta noc pięciuset kul nie tylko zabiła syna, lecz śmiertelnie zraniła lojalność, na której opierało się imperium Inzunzy. Po feralnej nocy pięciuset kul los Gonzala Inzunzy zawisł w limbo, w którym niewielu potrafi się zadomowić w świecie narkobiznesu."
+  },
+  {
+   "start": 1077.679,
+   "es": "En cualquier otra circunstancia, el asesinato del hijo del líder máximo habría resultado en una ejecución inmediata y ejemplar. Sin embargo, Ismael, El Mayo, Zambada, el estratega frío que siempre anteponía el beneficio de la organización a los impulsos de venganza intervino. Zambada sabía que la guerra contra los Beltrán Leyva y los Zetas estaba en su punto más crítico y que perder a un guerrero de la talla del macho Prieto Era un lujo que",
+   "id": 67,
+   "end": 1107.88,
+   "slot": 30.121,
+   "max_chars_pl": 451,
+   "pl": "W jakiejkolwiek innej sytuacji zabójstwo syna najwyższego przywódcy skończyłoby się natychmiastową, przykładną egzekucją. Jednak Ismael „El Mayo” Zambada, zimny strateg, który zawsze przedkładał dobro organizacji nad impulsy zemsty, interweniował. Wiedział, że wojna z Beltrán Leyva i Los Zetas jest w najbardziej krytycznym punkcie, a utrata wojownika formatu „El Macho Prieto” to luksus, na który kartel nie mógł sobie pozwolić na"
+  },
+  {
+   "start": 1107.88,
+   "es": "el cártel no podía permitirse en ese frente de batalla. La decisión fue salomónica.",
+   "id": 68,
+   "end": 1114.48,
+   "slot": 6.52,
+   "max_chars_pl": 97,
+   "pl": "tym froncie. Decyzja była salomonowa."
+  },
+  {
+   "start": 1114.48,
+   "es": "Inzunza no moriría, pero ya no podría caminar por las calles de Culiacán. Fue condenado a un exilio dorado en las áridas regiones de la frontera norte, operando entre el desierto de Sonora y las ciudades costeras de Baja California.",
+   "id": 69,
+   "end": 1131.24,
+   "slot": 16.68,
+   "max_chars_pl": 250,
+   "pl": "Inzunza nie miał umrzeć, ale nie mógł już chodzić ulicami Culiacán. Skazano go na złote wygnanie w suchych regionach północnej granicy, między pustynią Sonora a nadmorskimi miastami Baja California."
+  },
+  {
+   "start": 1131.24,
+   "es": "Este destierro, sin embargo, no fue interpretado por Inzunza como una segunda oportunidad, sino como una traición silenciosa que terminó de fracturar su ya inestable sique. Lejos del centro de mando, de la estructura que le daba orden y de la mirada vigilante de sus mentores, Gonzalo comenzó un descenso vertiginoso hacia la locura. El hombre, que alguna vez fue un soldado disciplinado y quirúrgico, empezó a consumirse desde adentro.",
+   "id": 70,
+   "end": 1160.559,
+   "slot": 29.239,
+   "max_chars_pl": 438,
+   "pl": "To wygnanie Inzunza odebrał jednak nie jako drugą szansę, lecz jako cichą zdradę, która dokończyła rozbijanie jego i tak chwiejnej psychiki. Z dala od centrum dowodzenia, od struktury, która dawała mu porządek, i od czujnego wzroku mentorów, Gonzalo rozpoczął zawrotny zjazd ku szaleństwu. Człowiek, który był kiedyś zdyscyplinowanym i chirurgicznie precyzyjnym żołnierzem, zaczął się wypalać od środka."
+  },
+  {
+   "start": 1160.559,
+   "es": "La soledad del desierto y el peso de saberse repudiado por el Chapo lo empujaron al consumo desenfrenado de sus propios productos.",
+   "id": 71,
+   "end": 1169.76,
+   "slot": 9.121,
+   "max_chars_pl": 136,
+   "pl": "Samotność pustyni i świadomość odrzucenia przez „El Chapo” pchnęły go do nieposkromionego zażywania własnych produktów."
+  },
+  {
+   "start": 1169.76,
+   "es": "La cocaína y las metanfetaminas se convirtieron en sus únicas confidentes, alimentando una paranoia que transformó su ferocidad en un sadismo errático y sin propósito. En este nuevo escenario, El Macho Prieto dejó de ser el brazo armado de un imperio para convertirse en un señor de la guerra regional con delirios de grandeza. Al sentirse abandonado por la cúpula, decidió que ya no debía lealtad a los códigos no escritos de la organización.",
+   "id": 72,
+   "end": 1199.28,
+   "slot": 29.44,
+   "max_chars_pl": 441,
+   "pl": "Kokaina i metamfetamina stały się jego jedynymi powiernikami, podsycając paranoję, która zamieniła jego dzikość w chaotyczny, bezcelowy sadyzm. W tej nowej sytuacji „El Macho Prieto” przestał być zbrojnym ramieniem imperium, a stał się regionalnym watażką z urojeniami wielkości. Czując się porzuconym przez zwierzchnictwo, uznał, że nie jest już winien lojalności niepisanym kodeksom organizacji."
+  },
+  {
+   "start": 1199.28,
+   "es": "comenzó a diversificar sus actividades criminales de una manera que resultaba intolerable para los estándares de Zambada. Inzunza estableció redes masivas de robo de vehículos y extorsión a negocios locales en ambos lados de la frontera. Delitos que en el argot criminal se conocen como calentar la plaza. Para los grandes capos, el narcotráfico es un negocio de bajo perfil que requiere la complicidad o la indiferencia de la población.",
+   "id": 73,
+   "end": 1228.84,
+   "slot": 29.48,
+   "max_chars_pl": 442,
+   "pl": "Zaczął dywersyfikować swoją przestępczą działalność w sposób nie do przyjęcia według standardów Zambady. Inzunza stworzył rozległe sieci kradzieży pojazdów i wymuszeń na lokalnych firmach po obu stronach granicy. Przestępstwa, które w żargonie nazywa się „rozgrzewaniem plazy”. Dla wielkich bossów narkobiznes to interes o niskim profilu, wymagający współudziału lub obojętności ludności."
+  },
+  {
+   "start": 1228.84,
+   "es": "Para Inzunza, el crimen era una herramienta de dominio absoluto. Sus actividades menores atrajeron una atención innecesaria de las autoridades federales y estadounidenses, poniendo en riesgo las rutas de tráfico de cocaína y heroína, que valían miles de millones de dólares. La decadencia mental de Gonzalo se manifestaba en actos de una crueldad gratuita que aterrorizaban incluso a sus propios subordinados.",
+   "id": 74,
+   "end": 1255.96,
+   "slot": 27.04,
+   "max_chars_pl": 405,
+   "pl": "Dla Inzunzy przestępczość była narzędziem absolutnej dominacji. Jego pomniejsze działania ściągnęły niepotrzebną uwagę władz federalnych i amerykańskich, narażając szlaki przemytu kokainy i heroiny warte miliardy dolarów. Mentalny upadek Gonzala przejawiał się w czynach bezsensownego okrucieństwa, które przerażały nawet jego własnych podwładnych."
+  },
+  {
+   "start": 1255.96,
+   "es": "ya no mataba por estrategia, sino por capricho. Se cuenta que era capaz de ejecutar a civiles inocentes por simples incidentes de tránsito. Un claxon sonado a destiempo o una mirada mal interpretada en un semáforo eran sentencias de muerte inmediatas bajo el cañón de su arma. Su paranoia alcanzó niveles patológicos.",
+   "id": 75,
+   "end": 1278.6,
+   "slot": 22.56,
+   "max_chars_pl": 338,
+   "pl": "Nie zabijał już ze strategii, lecz z kaprysu. Opowiada się, że potrafił zabijać niewinnych cywilów za drobne incydenty drogowe. Źle użyty klakson czy źle zinterpretowane spojrzenie na światłach były natychmiastowym wyrokiem śmierci pod lufą jego broni. Jego paranoja osiągnęła poziom patologiczny."
+  },
+  {
+   "start": 1278.6,
+   "es": "Empezó a ver traidores en cada rincón de sus casas de seguridad.",
+   "id": 76,
+   "end": 1283.799,
+   "slot": 5.119,
+   "max_chars_pl": 76,
+   "pl": "Zaczął widzieć zdrajców w każdym zakątku swoich kryjówek."
+  },
+  {
+   "start": 1283.799,
+   "es": "Socios de años y sicarios leales fueron ejecutados bajo la más mínima sospecha de estar colaborando con el gobierno o con facciones rivales. El miedo, que antes era su arma contra el enemigo, se convirtió en el veneno que carcomía sus propias filas. Uno de los incidentes más reveladores de su pérdida de control fue el asesinato de un conocido agente de bienes raíces en Sonora.",
+   "id": 77,
+   "end": 1310.159,
+   "slot": 26.28,
+   "max_chars_pl": 394,
+   "pl": "Wieloletni wspólnicy i lojalni płatni zabójcy byli rozstrzeliwani przy najmniejszym podejrzeniu współpracy z rządem lub wrogimi frakcjami. Strach, dawniej jego broń przeciw wrogowi, stał się trucizną, która toczyła jego własne szeregi. Jednym z najbardziej wymownych dowodów utraty kontroli było zabójstwo znanego pośrednika w handlu nieruchomościami w Sonorze."
+  },
+  {
+   "start": 1310.159,
+   "es": "Inzunza lo culpó irracionalmente de una redada que las autoridades habían realizado en una de sus propiedades. A pesar de que no existía prueba alguna de su participación.",
+   "id": 78,
+   "end": 1321.679,
+   "slot": 11.44,
+   "max_chars_pl": 171,
+   "pl": "Inzunza irracjonalnie obwinił go o nalot, który władze przeprowadziły na jedną z jego posiadłości, mimo że nie było żadnego dowodu jego udziału."
+  },
+  {
+   "start": 1321.679,
+   "es": "Lo ejecutó a plena luz del día, sin importarle la exposición mediática ni las repercusiones políticas.",
+   "id": 79,
+   "end": 1329.4,
+   "slot": 7.641,
+   "max_chars_pl": 114,
+   "pl": "Zabił go w biały dzień, nie dbając o rozgłos medialny ani konsekwencje polityczne."
+  },
+  {
+   "start": 1329.4,
+   "es": "Para el cártel de Sinaloa, este tipo de comportamiento era el de un perro rabioso. En la lógica del narcotráfico, un sicario que no puede controlar sus impulsos es más peligroso que un enemigo declarado. Para el año 2011, las quejas de otros lugarenientes y de funcionarios gubernamentales que estaban en la nómina del cártel llegaron a un punto de saturación.",
+   "id": 80,
+   "end": 1353.88,
+   "slot": 24.4,
+   "max_chars_pl": 366,
+   "pl": "Dla kartelu z Sinaloa takie zachowanie było zachowaniem wściekłego psa. W logice narkobiznesu płatny zabójca, który nie panuje nad impulsami, jest groźniejszy niż otwarty wróg. W 2011 roku skargi innych poruczników oraz urzędników będących na liście płac kartelu osiągnęły punkt krytyczny."
+  },
+  {
+   "start": 1353.88,
+   "es": "Todos coincidían en lo mismo. El macho Prieto era una carga. Su presencia en Sonora y Baja California estaba rompiendo la paz necesaria para el flujo de mercancías hacia Estados Unidos. Su figura, que alguna vez fue sinónimo de seguridad, ahora era el epicentro de un caos que amenazaba la estabilidad del negocio.",
+   "id": 81,
+   "end": 1375.96,
+   "slot": 22.0,
+   "max_chars_pl": 330,
+   "pl": "Wszyscy zgadzali się co do jednego. „El Macho Prieto” był ciężarem. Jego obecność w Sonorze i Baja California rozbijała pokój niezbędny dla przepływu towarów do Stanów Zjednoczonych. Jego postać, niegdyś synonim bezpieczeństwa, była teraz epicentrum chaosu zagrażającego stabilności interesu."
+  },
+  {
+   "start": 1375.96,
+   "es": "Inzunza se había convertido en un cabo suelto, un vestigio de una era de violencia desmedida que ya no encajaba en los planes de una organización que buscaba profesionalizarse y pasar desapercibida.",
+   "id": 82,
+   "end": 1389.039,
+   "slot": 12.999,
+   "max_chars_pl": 194,
+   "pl": "Inzunza stał się niewygodnym wspólnikiem, reliktem ery nadmiernej przemocy, który nie pasował już do planów organizacji dążącej do profesjonalizacji i niezwracania na siebie uwagi."
+  },
+  {
+   "start": 1389.039,
+   "es": "Llegado el 2013, la cúpula de Sinaloa, con el consenso silencioso de El Mayo y la aprobación remota de un todavía dolido Chapo Guzmán, determinó que el tiempo de Gonzalo Inzunza se había agotado. Ya no servía para la guerra porque su juicio estaba nublado por las drogas y estorbaba para la paz de los negocios porque su sola existencia atraía reflectores indeseados. El exilio, que originalmente fue una medida de protección, se",
+   "id": 83,
+   "end": 1420.4,
+   "slot": 31.281,
+   "max_chars_pl": 469,
+   "pl": "W 2013 roku szczyt kartelu z Sinaloa, za cichym przyzwoleniem „El Mayo” i zdalną aprobatą wciąż pogrążonego w żalu „El Chapo” Guzmána, uznał, że czas Gonzala Inzunzy dobiegł końca. Nie nadawał się już do wojny, bo narkotyki zamgliły jego osąd, i przeszkadzał w pokoju dla interesów, bo samo jego istnienie ściągało niechciane reflektory. Wygnanie, które pierwotnie było środkiem ochronnym,"
+  },
+  {
+   "start": 1420.4,
+   "es": "convirtió en la jaula donde lo dejaron solo para que el gobierno finalmente lo encontrara.",
+   "id": 84,
+   "end": 1425.919,
+   "slot": 5.439,
+   "max_chars_pl": 81,
+   "pl": "stało się klatką, w której zostawiono go samego, aż rząd w końcu go znajdzie."
+  },
+  {
+   "start": 1425.919,
+   "es": "El macho Prieto seguía creyéndose el dueño del desierto, sin darse cuenta de que para sus jefes ya no era más que una pieza sacrificable en el tablero de ajedrez del narcotráfico global. La sentencia estaba dictada. Solo faltaba el verdugo oficial para cerrar el capítulo más oscuro de su propia decadencia.",
+   "id": 85,
+   "end": 1447.6,
+   "slot": 21.601,
+   "max_chars_pl": 324,
+   "pl": "„El Macho Prieto” wciąż uważał się za pana pustyni, nie zdając sobie sprawy, że dla swoich szefów był już tylko poświęcalnym pionkiem na szachownicy globalnego narkobiznesu. Wyrok został wydany. Brakowało tylko oficjalnego kata, by zamknąć najmroczniejszy rozdział jego własnego upadku."
+  },
+  {
+   "start": 1447.6,
+   "es": "El 18 de diciembre de 2013, el destino de Gonzalo Inzunza Inzunza finalmente se encontró con la realidad que él mismo había ayudado a construir durante décadas.",
+   "id": 86,
+   "end": 1460.08,
+   "slot": 12.4,
+   "max_chars_pl": 186,
+   "pl": "18 grudnia 2013 roku los Gonzala Inzunzy Inzunzy w końcu zderzył się z rzeczywistością, którą sam przez dekady pomagał budować."
+  },
+  {
+   "start": 1460.08,
+   "es": "El escenario de su acto final no fue un callejón oscuro de Culiacán, sino las paradisíacas playas de Puerto Peñasco, Sonora, un destino turístico donde el lujo de los resorts contrastaba violentamente con la brutalidad de la guerra que estaba por desatarse.",
+   "id": 87,
+   "end": 1477.279,
+   "slot": 17.119,
+   "max_chars_pl": 256,
+   "pl": "Sceną jego ostatniego aktu nie był ciemny zaułek Culiacán, lecz rajskie plaże Puerto Peñasco w Sonorze, kurort, w którym luksus hoteli kontrastował brutalnie z okrucieństwem wojny, która miała wybuchnąć."
+  },
+  {
+   "start": 1477.279,
+   "es": "Para esa fecha, el macho Prieto ya no era el activo estratégico de antaño, era una pieza que estorbaba en el tablero de Ismael, el mayo, Zambada. La teoría más aceptada en los círculos de inteligencia sugiere que su ubicación no fue el resultado de un descuido fortuito, sino de una entrega calculada.",
+   "id": 88,
+   "end": 1499.32,
+   "slot": 21.961,
+   "max_chars_pl": 329,
+   "pl": "W tym czasie „El Macho Prieto” nie był już strategicznym atutem, lecz zawadzającym pionkiem na szachownicy Ismaela „El Mayo” Zambady. Najszerzej przyjęta teoria w kręgach wywiadu głosi, że jego lokalizacja nie była skutkiem przypadkowego niedbalstwa, lecz wyrachowanego wydania."
+  },
+  {
+   "start": 1499.32,
+   "es": "El cártel de Sinaloa, en un ejercicio de limpieza interna, habría proporcionado las coordenadas exactas de su lugar teniente a la Marina Armada de México, prefiriendo que el Estado hiciera el trabajo sucio de eliminar a un mando que se había vuelto incontrolable. La operación fue diseñada con una precisión quirúrgica que delataba la participación de inteligencia extranjera.",
+   "id": 89,
+   "end": 1522.88,
+   "slot": 23.48,
+   "max_chars_pl": 352,
+   "pl": "Kartel z Sinaloa, w ramach wewnętrznego oczyszczenia, miał przekazać dokładne współrzędne swojego porucznika Marynarce Wojennej Meksyku, wolał bowiem, by to państwo wykonało brudną robotę eliminacji dowódcy, który wymknął się spod kontroli. Operację zaplanowano z chirurgiczną precyzją, zdradzającą udział zagranicznego wywiadu."
+  },
+  {
+   "start": 1522.88,
+   "es": "Drones de vigilancia estadounidense y aviones de rastreo en tiempo real monitoreaban cada movimiento del convoy de Inzunza, compuesto por tres camionetas blindadas de reciente modelo.",
+   "id": 90,
+   "end": 1534.48,
+   "slot": 11.52,
+   "max_chars_pl": 172,
+   "pl": "Amerykańskie drony i samoloty śledzące monitorowały na żywo każdy ruch konwoju Inzunzy, złożonego z trzech nowych opancerzonych pickupów."
+  },
+  {
+   "start": 1534.48,
+   "es": "Las fuerzas especiales de la Marina, en conjunto con la Policía Federal, no buscaban un arresto, buscaban neutralizar una amenaza que contaba con una guardia personal compuesta por desertores de unidades de élite.",
+   "id": 91,
+   "end": 1548.96,
+   "slot": 14.4,
+   "max_chars_pl": 216,
+   "pl": "Siły specjalne Marynarki wraz z Policją Federalną nie chciały aresztowania, lecz zneutralizowania zagrożenia, któremu towarzyszyła osobista ochrona złożona z dezerterów z elitarnych jednostek."
+  },
+  {
+   "start": 1548.96,
+   "es": "El asedio comenzó en la carretera costera, donde un bloqueo sorpresa obligó al convoy a detenerse en seco. Lo que siguió no fue una rendición, sino una explosión de violencia que transformó el aire salino en una densa nube de humo y pólvora.",
+   "id": 92,
+   "end": 1565.84,
+   "slot": 16.8,
+   "max_chars_pl": 252,
+   "pl": "Oblężenie rozpoczęło się na nadmorskiej drodze, gdzie niespodziewana blokada zmusiła konwój do gwałtownego zatrzymania. To, co nastąpiło, nie było kapitulacją, lecz wybuchem przemocy, który zamienił słone powietrze w gęstą chmurę dymu i prochu."
+  },
+  {
+   "start": 1565.84,
+   "es": "Fiel a su temperamento y a la leyenda de invencibilidad que él mismo había cultivado, Inzunza no buscó una salida negociada.",
+   "id": 93,
+   "end": 1574.2,
+   "slot": 8.28,
+   "max_chars_pl": 124,
+   "pl": "Wierny temperamentowi i legendzie niezwyciężonego, którą sam budował, Inzunza nie szukał ugody."
+  },
+  {
+   "start": 1574.2,
+   "es": "Sabía que no había cárcel en México que pudiera contenerlo, o más bien sabía que sus jefes no permitirían que llegara vivo a un interrogatorio.",
+   "id": 94,
+   "end": 1584.2,
+   "slot": 9.92,
+   "max_chars_pl": 148,
+   "pl": "Wiedział, że w Meksyku nie ma więzienia, które by go utrzymało, a raczej że jego szefowie nie pozwolą, by dożył przesłuchania."
+  },
+  {
+   "start": 1584.2,
+   "es": "Ordenó a sus hombres resistir a toda costa. El enfrentamiento se desplazó rápidamente hacia el complejo de villas y hoteles de lujo, un área donde residentes y turistas extranjeros observaban con horror desde sus balcones como la guerra golpeaba sus ventanas.",
+   "id": 95,
+   "end": 1602.48,
+   "slot": 18.2,
+   "max_chars_pl": 273,
+   "pl": "Kazał swoim ludziom opierać się za wszelką cenę. Starcie szybko przeniosło się na kompleks willi i luksusowych hoteli, gdzie mieszkańcy i zagraniczni turyści z przerażeniem patrzyli z balkonów, jak wojna uderza w ich okna."
+  },
+  {
+   "start": 1602.48,
+   "es": "El sonido era ensordecedor. El tableteo rítmico de las ametralladoras se mezclaba con el impacto seco y brutal de los rifles calibre 50, capaces de atravesar paredes de concreto y blindajes de nivel militar. Durante cuatro agónicas horas, Puerto Peñasco se convirtió en un infierno de fuego cruzado. El macho Prieto y sus hombres más leales se atrincheraron en una villa de lujo, convirtiéndola en una fortaleza improvisada. Desde el interior",
+   "id": 96,
+   "end": 1633.588,
+   "slot": 31.028,
+   "max_chars_pl": 465,
+   "pl": "Dźwięk był ogłuszający. Rytmiczny terkot karabinów maszynowych mieszał się z suchym, brutalnym uderzeniem karabinów kalibru 50, zdolnych przebijać betonowe ściany i pancerze wojskowej klasy. Przez cztery agonalne godziny Puerto Peñasco zamieniło się w piekło krzyżowego ognia. „El Macho Prieto” i jego najwierniejsi ludzie zabarykadowali się w luksusowej willi, zamieniając ją w prowizoryczną twierdzę. Z wnętrza"
+  },
+  {
+   "start": 1633.588,
+   "es": "respondían a los avances de la marina con ráfagas interminables y el lanzamiento de granadas de fragmentación que hacían temblar los cimientos del complejo. En el punto más álgido de la batalla se produjo el momento más dramático y revelador de su caída.",
+   "id": 97,
+   "end": 1651.44,
+   "slot": 17.772,
+   "max_chars_pl": 266,
+   "pl": "odpowiadali na natarcie marynarki nieustającymi seriami i granatami odłamkowymi, od których drżały fundamenty kompleksu. W najgorętszym punkcie bitwy nastąpił najbardziej dramatyczny i wymowny moment jego upadku."
+  },
+  {
+   "start": 1651.44,
+   "es": "insunza, acorralado y viendo como sus hombres caían uno a uno, arrebató un radiocomunicador para exigir desesperadamente el apoyo de las células del cártel que operaban en la zona cercana.",
+   "id": 98,
+   "end": 1665.12,
+   "slot": 13.6,
+   "max_chars_pl": 204,
+   "pl": "Osaczony Inzunza, widząc, jak jego ludzie padają jeden po drugim, chwycił radio, by rozpaczliwie żądać wsparcia od komórek kartelu działających w pobliżu."
+  },
+  {
+   "start": 1665.12,
+   "es": "Gritaba coordenadas, pedía refuerzos, exigía la lealtad que él tantas veces había demostrado.",
+   "id": 99,
+   "end": 1672.84,
+   "slot": 7.64,
+   "max_chars_pl": 114,
+   "pl": "Krzyczał współrzędne, prosił o posiłki, domagał się lojalności, którą tyle razy okazywał."
+  },
+  {
+   "start": 1672.84,
+   "es": "Pero del otro lado del radio solo hubo estática y un silencio sepulcral. En ese instante, Inzunza comprendió la magnitud de su tragedia. El silencio no era falta de señal, era la respuesta definitiva de sus jefes. El cártel de Sinaloa lo había dejado solo.",
+   "id": 100,
+   "end": 1692.76,
+   "slot": 19.84,
+   "max_chars_pl": 297,
+   "pl": "Lecz po drugiej stronie radia słychać było tylko szum i grobową ciszę. W tej chwili Inzunza pojął ogrom swojej tragedii. Cisza nie była brakiem zasięgu, lecz ostateczną odpowiedzią jego szefów. Kartel z Sinaloa zostawił go samego."
+  },
+  {
+   "start": 1692.76,
+   "es": "Su sentencia había sido firmada en Culiacán mucho antes de que sonara el primer disparo en Sonora. A pesar del abandono, la resistencia continuó. Los marinos intentaron avanzar bajo la cobertura de un helicóptero Black Hawk.",
+   "id": 101,
+   "end": 1707.84,
+   "slot": 15.0,
+   "max_chars_pl": 225,
+   "pl": "Jego wyrok został podpisany w Culiacán na długo przed pierwszym strzałem w Sonorze. Mimo porzucenia opór trwał. Marynarze próbowali posuwać się naprzód pod osłoną śmigłowca Black Hawk,"
+  },
+  {
+   "start": 1707.84,
+   "es": "el cual fue atacado ferozmente por los sicarios de Inzunza en un intento desesperado por derribarlo. Sin embargo, la superioridad táctica de las fuerzas especiales empezó a imponerse. Un francotirador de la marina, posicionado estratégicamente en una estructura elevada que dominaba el patio de la villa, detectó un movimiento en una de las ventanas superiores. Con una precisión milimétrica, el tirador esperó el momento exacto en que",
+   "id": 102,
+   "end": 1735.84,
+   "slot": 27.92,
+   "max_chars_pl": 418,
+   "pl": "który ludzie Inzunzy zaciekle atakowali, próbując go rozpaczliwie zestrzelić. Mimo to taktyczna przewaga sił specjalnych zaczęła dominować. Snajper marynarki, ustawiony na wyniosłej konstrukcji górującej nad dziedzińcem willi, dostrzegł ruch w jednym z górnych okien. Z milimetrową precyzją strzelec czekał na dokładny moment, w którym"
+  },
+  {
+   "start": 1735.84,
+   "es": "el macho Prieto se asomó para disparar una ráfaga. Un solo impacto fue suficiente para terminar con la vida del hombre, que alguna vez fue el terror de Sinaloa. Lo que sucedió después de su muerte es parte de la mitología criminal. En un último y suicida acto de devoción, sus guardaespaldas sobrevivientes lograron arrastrar su cuerpo herido de muerte a través de un pasillo, tratando de evitar que el cadáver cayera en manos del gobierno.",
+   "id": 103,
+   "end": 1765.48,
+   "slot": 29.56,
+   "max_chars_pl": 443,
+   "pl": "„El Macho Prieto” wychylił się, by oddać serię. Jedno trafienie wystarczyło, by zakończyć życie człowieka, który niegdyś był postrachem Sinaloa. To, co stało się po jego śmierci, należy do przestępczej mitologii. W ostatnim, samobójczym akcie oddania ocalali ochroniarze zdołali przeciągnąć jego śmiertelnie ranne ciało korytarzem, próbując nie dopuścić, by zwłoki wpadły w ręce rządu."
+  },
+  {
+   "start": 1765.48,
+   "es": "Aunque lograron llevarse el cuerpo de la escena inicial, dejaron atrás un rastro de sangre que sería su firma final. Las autoridades confirmaron su deceso horas más tarde mediante el análisis de ADN de las muestras biológicas recolectadas en la villa.",
+   "id": 104,
+   "end": 1782.279,
+   "slot": 16.719,
+   "max_chars_pl": 250,
+   "pl": "Choć udało im się zabrać ciało z pierwotnego miejsca, zostawili za sobą ślad krwi, który stał się jego ostatnim podpisem. Władze potwierdziły jego zgon kilka godzin później na podstawie analizy DNA próbek biologicznych zebranych w willi."
+  },
+  {
+   "start": 1782.279,
+   "es": "Gonzalo Inzunza murió como vivió en medio del caos, la traición y el fuego.",
+   "id": 105,
+   "end": 1789.08,
+   "slot": 6.721,
+   "max_chars_pl": 100,
+   "pl": "Gonzalo Inzunza umarł tak, jak żył: wśród chaosu, zdrady i ognia."
+  },
+  {
+   "start": 1789.08,
+   "es": "Su fin en Puerto Peñasco no solo fue la caída de un capo, sino el cierre de un ciclo de violencia que demostró que en la jerarquía del narcotráfico hasta el guerrero más temido es prescindible cuando se convierte en un obstáculo para los intereses de la organización.",
+   "id": 106,
+   "end": 1806.12,
+   "slot": 16.96,
+   "max_chars_pl": 254,
+   "pl": "Jego koniec w Puerto Peñasco był nie tylko upadkiem bossa, lecz zamknięciem cyklu przemocy, który pokazał, że w hierarchii narkobiznesu nawet najbardziej budzący grozę wojownik jest zbędny, gdy staje się przeszkodą dla interesów organizacji."
+  },
+  {
+   "start": 1806.12,
+   "es": "Aunque sus hombres lograron recuperar su cuerpo en un último acto de lealtad desesperada, las autoridades confirmaron su muerte mediante rastros de sangre y ADN hallados en la escena.",
+   "id": 107,
+   "end": 1819.76,
+   "slot": 13.56,
+   "max_chars_pl": 203,
+   "pl": "Choć jego ludzie zdołali odzyskać ciało w ostatnim akcie rozpaczliwej lojalności, władze potwierdziły jego śmierć na podstawie śladów krwi i DNA znalezionych na miejscu."
+  },
+  {
+   "start": 1819.76,
+   "es": "La caída de Gonzalo Inzunza cerró un capítulo de violencia extrema en la historia del narcotráfico.",
+   "id": 108,
+   "end": 1826.519,
+   "slot": 6.679,
+   "max_chars_pl": 100,
+   "pl": "Upadek Gonzala Inzunzy zamknął rozdział skrajnej przemocy w historii narkobiznesu."
+  },
+  {
+   "start": 1826.519,
+   "es": "Su historia es la prueba de que en el tablero del crimen organizado, los peones más feroces son también los más prescindibles.",
+   "id": 109,
+   "end": 1835.32,
+   "slot": 8.721,
+   "max_chars_pl": 130,
+   "pl": "Jego historia dowodzi, że na szachownicy zorganizowanej przestępczości najbardziej dzikie pionki są też najbardziej zbędne."
+  },
+  {
+   "start": 1835.32,
+   "es": "El macho Prieto pasó de ser el sicario más temido de México a ser una sombra errante, traicionado por los mismos hombres a los que sirvió con sangre.",
+   "id": 110,
+   "end": 1845.72,
+   "slot": 10.32,
+   "max_chars_pl": 154,
+   "pl": "„El Macho Prieto” z najgroźniejszego zabójcy Meksyku stał się błąkającym się cieniem, zdradzonym przez tych, którym służył krwią."
+  },
+  {
+   "start": 1845.72,
+   "es": "Su nombre hoy no es sinónimo de gloria, sino una advertencia sobre el precio que se paga al tocar el linaje de los que realmente mandan.",
+   "id": 111,
+   "end": 1855.76,
+   "slot": 9.96,
+   "max_chars_pl": 149,
+   "pl": "Jego imię nie jest dziś synonimem chwały, lecz ostrzeżeniem przed ceną, jaką płaci się za dotknięcie rodu tych, którzy naprawdę rządzą."
+  }
+ ]
+}

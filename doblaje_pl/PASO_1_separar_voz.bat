@@ -2,7 +2,7 @@
 chcp 65001 >nul
 cd /d "%~dp0"
 echo ==============================================
-echo  PASO 1: instalar, separar la voz y transcribir
+echo  PASO 1: instalar y separar la voz de la musica
 echo ==============================================
 echo.
 
@@ -25,7 +25,7 @@ if not exist doblar.py (
 )
 
 set "VIDEO="
-for %%f in (*.mp4 *.mkv *.mov *.webm) do if not defined VIDEO set "VIDEO=%%f"
+for %%f in (*.mp4 *.mkv *.mov *.webm) do if /i not "%%f"=="video_pl.mp4" if not defined VIDEO set "VIDEO=%%f"
 if not defined VIDEO (
   echo ERROR: no hay ningun video en esta carpeta.
   pause
@@ -34,8 +34,8 @@ if not defined VIDEO (
 echo Video encontrado: %VIDEO%
 echo.
 
-echo [1/3] Instalando programas (puede tardar varios minutos)...
-python -m pip install numpy demucs faster-whisper edge-tts
+echo [1/2] Instalando programas (puede tardar varios minutos, descarga varios GB)...
+python -m pip install numpy demucs edge-tts faster-whisper
 if errorlevel 1 (
   echo ERROR en la instalacion. Saca una captura de esta ventana y mandala.
   pause
@@ -43,7 +43,7 @@ if errorlevel 1 (
 )
 
 echo.
-echo [2/3] Separando la voz de la musica (tarda varios minutos)...
+echo [2/2] Separando la voz de la musica (tarda varios minutos)...
 python doblar.py extraer "%VIDEO%"
 if errorlevel 1 (
   echo ERROR al separar la voz. Saca una captura de esta ventana y mandala.
@@ -52,18 +52,7 @@ if errorlevel 1 (
 )
 
 echo.
-echo [3/3] Transcribiendo el audio...
-python doblar.py transcribir --video "%VIDEO%"
-if errorlevel 1 (
-  echo ERROR al transcribir. Saca una captura de esta ventana y mandala.
-  pause
-  exit /b 1
-)
-
-echo.
 echo ==============================================
-echo  LISTO. Ahora adjunta en el chat el archivo:
-echo     work\segments.json
+echo  LISTO. Ahora ejecuta PASO_2_doblar.bat
 echo ==============================================
-start "" explorer work
 pause

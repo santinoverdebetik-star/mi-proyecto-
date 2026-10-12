@@ -220,13 +220,19 @@ def paquetes_video(p):
 def qa_traduccion(q, segs, glosario):
     vacios = [s['id'] for s in segs if not s['pl'].strip()]
     q.add('Traducción: todos los segmentos traducidos', 'FALLO' if vacios else 'OK', f'vacíos: {vacios}' if vacios else f'{len(segs)} segmentos')
-    es_chars = [s['id'] for s in segs if re.search(r'[ñ¿¡áéíúü]', s['pl'])]
+    # los nombres propios (con mayúscula) pueden llevar tildes o ñ: se ignoran
+    es_chars = [s['id'] for s in segs if re.search(r'[¿¡]', s['pl']) or
+                re.search(r'[ñáéíúü]', ' '.join(w for w in s['pl'].split() if not w[:1].isupper() and not w[:1] in '„"'))]
     q.add('Traducción: sin caracteres exclusivos del español', 'FALLO' if es_chars else 'OK', f'segmentos: {es_chars}' if es_chars else '')
-    num = []
+    inventadas, revisar = [], []
     for s in segs:
-        if not set(re.findall(r'\d+', s['es'])) <= set(re.findall(r'\d+', s['pl'])):
-            num.append(s['id'])
-    q.add('Traducción: cifras y años conservados', 'FALLO' if num else 'OK', f'segmentos: {num}' if num else '')
+        n_es, n_pl = set(re.findall(r'\d+', s['es'])), set(re.findall(r'\d+', s['pl']))
+        if not n_pl <= n_es:
+            inventadas.append(s['id'])            # cifra en el polaco que no está en el original
+        elif not n_es <= n_pl:
+            revisar.append(s['id'])               # cifra escrita con letras: revisar a mano
+    q.add('Traducción: ninguna cifra inventada o alterada', 'FALLO' if inventadas else 'OK', f'segmentos: {inventadas}' if inventadas else '')
+    q.add('Traducción: cifras escritas con letras (revisar a mano)', 'AVISO' if revisar else 'OK', f'segmentos: {revisar}' if revisar else '')
     ratio = [s['id'] for s in segs if s['pl'].strip() and not 0.6 <= len(s['pl']) / max(1, len(s['es'])) <= 2.0]
     q.add('Traducción: longitud razonable respecto al original', 'AVISO' if ratio else 'OK', f'revisar manualmente: {ratio}' if ratio else '')
     gl = []
