@@ -28,8 +28,20 @@ if not defined VIDEO (
 echo Video encontrado: %VIDEO%
 echo.
 
-echo [1/3] Generando la voz polaca (voz masculina Marek, necesita internet)...
-python doblar.py sintetizar --voz pl-PL-MarekNeural
+echo [1/4] Ajustando los tiempos a la voz española real...
+python doblar.py afinar
+if errorlevel 1 (
+  echo ERROR al ajustar los tiempos. Saca una captura de esta ventana y mandala.
+  pause
+  exit /b 1
+)
+
+echo [2/4] Generando la voz polaca mc_speech (Piper, local y gratis)...
+if exist pronunciacion.json (
+  python doblar.py sintetizar --pronunciacion pronunciacion.json
+) else (
+  python doblar.py sintetizar
+)
 if errorlevel 1 (
   echo ERROR al generar la voz. Saca una captura de esta ventana y mandala.
   pause
@@ -37,7 +49,7 @@ if errorlevel 1 (
 )
 
 echo.
-echo [2/3] Mezclando con la musica original (el video no se toca)...
+echo [3/4] Mezclando con la musica original (el video no se toca)...
 python doblar.py mezclar "%VIDEO%" video_pl.mp4
 if errorlevel 1 (
   echo ERROR al mezclar. Saca una captura de esta ventana y mandala.
@@ -46,7 +58,7 @@ if errorlevel 1 (
 )
 
 echo.
-echo [3/3] Control de calidad (la primera vez descarga un modelo, tarda)...
+echo [4/4] Control de calidad (la primera vez descarga un modelo, tarda)...
 if exist glosario.json (
   python doblar.py qa "%VIDEO%" video_pl.mp4 --glosario glosario.json --modelo medium
 ) else (
