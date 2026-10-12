@@ -2,7 +2,7 @@
 """Doblaje ES -> PL de un video: quita la voz española (Demucs), conserva la música
 original, pone voz polaca limpia a velocidad natural y NO toca el video (-c:v copy).
 
-Requisitos (en tu PC):  ffmpeg + ffprobe, y  pip install demucs faster-whisper edge-tts numpy
+Requisitos (en tu PC):  ffmpeg + ffprobe, y  pip install demucs faster-whisper piper-tts numpy
 
 Flujo:
   1) python doblar.py extraer   video.mp4      -> work/vocals.wav + work/no_vocals.wav (música)
@@ -12,7 +12,7 @@ Flujo:
   5) python doblar.py mezclar   video.mp4 salida_pl.mp4
   6) python doblar.py qa        video.mp4 salida_pl.mp4   -> work/qa_reporte.md (exit 1 si hay FALLOS)
 """
-import argparse, asyncio, difflib, json, re, shutil, subprocess, sys, wave
+import argparse, asyncio, difflib, json, os, re, shutil, subprocess, sys, wave
 from pathlib import Path
 
 import numpy as np
@@ -116,12 +116,29 @@ def cmd_transcribir(a):
 
 
 # ---------------------------------------------------------------- 4) sintetizar
+_PIPER = {}
+
+
+def cargar_piper(ruta):
+    if ruta not in _PIPER:
+        from piper import PiperVoice
+        if not Path(ruta).exists():
+            sys.exit(f'Falta la voz de Piper: {ruta}\nBajala de https://huggingface.co/rhasspy/piper-voices (pl/pl_PL/mc_speech/medium)')
+        _PIPER[ruta] = PiperVoice.load(ruta)
+    return _PIPER[ruta]
+
+
 def tts_a_wav(texto, destino, a, tmp):
     """Genera `destino` (wav 48 kHz mono 16 bit) con la voz polaca, a velocidad natural."""
-    if a.motor == 'edge':
+    if a.motor == 'piper':     # voz local y gratis: pl_PL-mc_speech-medium (Piper), velocidad natural
+        crudo = tmp.with_suffix('.piper.wav')
+        with wave.open(str(crudo), 'wb') as f:
+            cargar_piper(a.modelo_voz).synthesize_wav(texto, f)
+    elif a.motor == 'edge':
         import edge_tts
         crudo = tmp.with_suffix('.mp3')
-        asyncio.run(edge_tts.Communicate(texto, a.voz).save(str(crudo)))
+        proxy = os.environ.get('HTTPS_PROXY') or os.environ.get('https_proxy')   # solo hay proxy en entornos de nube
+        asyncio.run(edge_tts.Communicate(texto, a.voz, proxy=proxy).save(str(crudo)))
     elif a.motor == 'cmd':     # voz propia: --tts-cmd 'mi_tts --in {texto} --out {salida}'
         txt = tmp.with_suffix('.txt'); txt.write_text(texto, encoding='utf-8')
         crudo = tmp.with_suffix('.cmd.wav')
@@ -317,8 +334,9 @@ def main():
     s = sub.add_parser('extraer'); s.add_argument('video'); s.set_defaults(f=cmd_extraer)
     s = sub.add_parser('transcribir'); s.add_argument('--video'); s.add_argument('--modelo', default='large-v3'); s.set_defaults(f=cmd_transcribir)
     s = sub.add_parser('sintetizar')
-    s.add_argument('--motor', default='edge', choices=['edge', 'cmd', 'prueba'])
-    s.add_argument('--voz', default='pl-PL-MarekNeural', help='voz de edge-tts (pl-PL-MarekNeural / pl-PL-ZofiaNeural)')
+    s.add_argument('--motor', default='piper', choices=['piper', 'edge', 'cmd', 'prueba'])
+    s.add_argument('--modelo-voz', default='voices/pl_PL-mc_speech-medium.onnx', help='motor piper: archivo .onnx de la voz (default: mc_speech)')
+    s.add_argument('--voz', default='pl-PL-MarekNeural', help='motor edge: voz de edge-tts (pl-PL-MarekNeural / pl-PL-ZofiaNeural)')
     s.add_argument('--tts-cmd', help="motor cmd: plantilla con {texto} y {salida}")
     s.add_argument('--max-acel', type=float, default=1.12, help='aceleración máxima permitida (default 1.12)')
     s.set_defaults(f=cmd_sintetizar)
