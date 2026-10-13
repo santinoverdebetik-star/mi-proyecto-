@@ -291,13 +291,21 @@ def paquetes_video(p):
 def qa_traduccion(q, segs, glosario):
     vacios = [s['id'] for s in segs if not s['pl'].strip()]
     q.add('Traducción: todos los segmentos traducidos', 'FALLO' if vacios else 'OK', f'vacíos: {vacios}' if vacios else f'{len(segs)} segmentos')
-    # los nombres propios (con mayúscula) pueden llevar tildes o ñ: se ignoran
-    es_chars = [s['id'] for s in segs if re.search(r'[¿¡]', s['pl']) or
-                re.search(r'[ñáéíúü]', ' '.join(w for w in s['pl'].split() if not w[:1].isupper() and not w[:1] in '„"'))]
+    # los nombres propios (con mayúscula) y los términos que el original ya trae (p. ej. «alucín») pueden llevar tildes o ñ
+    def con_tilde_ajena(sg):
+        base = {w.lower() for w in re.findall(r'\w+', sg['es']) if len(w) >= 4}
+        malas = [w for w in sg['pl'].split() if not w[:1].isupper() and w[:1] not in '„"' and re.search(r'[ñáéíúü]', w)
+                 and not any(w.lower().strip('.,;:!?„”"').startswith(b) for b in base)]
+        return bool(re.search(r'[¿¡]', sg['pl'])) or bool(malas)
+    es_chars = [s['id'] for s in segs if con_tilde_ajena(s)]
     q.add('Traducción: sin caracteres exclusivos del español', 'FALLO' if es_chars else 'OK', f'segmentos: {es_chars}' if es_chars else '')
+    def numeros(t):       # «577 mil» y «577.000» son la misma cifra
+        t = re.sub(r'(\d+)\s*mil\b', lambda m: str(int(m.group(1)) * 1000), t)
+        t = re.sub(r'(\d{1,3})\.(\d{3})\b', r'\1\2', t)
+        return set(re.findall(r'\d+', t))
     inventadas, revisar = [], []
     for s in segs:
-        n_es, n_pl = set(re.findall(r'\d+', s['es'])), set(re.findall(r'\d+', s['pl']))
+        n_es, n_pl = numeros(s['es']), numeros(s['pl'])
         if not n_pl <= n_es:
             inventadas.append(s['id'])            # cifra en el polaco que no está en el original
         elif not n_es <= n_pl:
