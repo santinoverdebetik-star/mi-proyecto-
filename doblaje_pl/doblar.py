@@ -19,6 +19,7 @@ from pathlib import Path
 import numpy as np
 
 SR = 48000
+ISO3 = {'pl': 'pol', 'de': 'deu', 'en': 'eng', 'pt': 'por', 'fr': 'fra', 'it': 'ita'}   # etiqueta del audio según idioma de destino
 CPS_PL = 14.0          # caracteres/segundo aprox. de una voz polaca a velocidad natural
 HOLGURA = 0.08         # s de aire antes del siguiente segmento
 FF = shutil.which('ffmpeg')
@@ -112,7 +113,7 @@ def cmd_transcribir(a):
     w = workdir(a)
     vd = duracion(a.video) if a.video else duracion(w / 'no_vocals.wav')
     m = WhisperModel(a.modelo, device='auto', compute_type='auto')
-    segs, _ = m.transcribe(audio_16k(w / 'vocals.wav'), language='es', vad_filter=True, beam_size=5)
+    segs, _ = m.transcribe(audio_16k(w / 'vocals.wav'), language=a.idioma, vad_filter=True, beam_size=5)
     out = [{'start': round(s.start, 3), 'end': round(s.end, 3), 'es': s.text.strip()} for s in segs if s.text.strip()]
     for i, s in enumerate(out):
         s['id'] = i + 1
@@ -263,7 +264,7 @@ def cmd_mezclar(a):
               f'apad=whole_dur={vd:.3f},atrim=end={vd:.3f},alimiter=limit=0.708:level=0[m]')
     run([FF, '-y', '-v', 'error', '-i', w / 'no_vocals.wav', '-i', w / 'voz_pl.wav', '-i', a.video,
          '-filter_complex', filtro, '-map', '2:v:0', '-map', '[m]', '-c:v', 'copy',
-         '-c:a', 'aac', '-b:a', '256k', '-ar', SR, '-metadata:s:a:0', 'language=pol',
+         '-c:a', 'aac', '-b:a', '256k', '-ar', SR, '-metadata:s:a:0', f'language={ISO3.get(a.idioma, a.idioma)}',
          '-movflags', '+faststart', a.salida])
     print(f'Listo: {a.salida} (video sin recomprimir, música original + voz polaca)')
 
@@ -288,13 +289,14 @@ def paquetes_video(p):
     return json.loads(r.stdout)['streams'][0]
 
 
-def qa_traduccion(q, segs, glosario):
+def qa_traduccion(q, segs, glosario, idioma='pl'):
     vacios = [s['id'] for s in segs if not s['pl'].strip()]
     q.add('Traducción: todos los segmentos traducidos', 'FALLO' if vacios else 'OK', f'vacíos: {vacios}' if vacios else f'{len(segs)} segmentos')
     # los nombres propios (con mayúscula) y los términos que el original ya trae (p. ej. «alucín») pueden llevar tildes o ñ
+    ajenos = r'[ñáéíú]' if idioma == 'de' else r'[ñáéíúü]'     # en alemán la ü es propia
     def con_tilde_ajena(sg):
         base = {w.lower() for w in re.findall(r'\w+', sg['es']) if len(w) >= 4}
-        malas = [w for w in sg['pl'].split() if not w[:1].isupper() and w[:1] not in '„"' and re.search(r'[ñáéíúü]', w)
+        malas = [w for w in sg['pl'].split() if not w[:1].isupper() and w[:1] not in '„"' and re.search(ajenos, w)
                  and not any(w.lower().strip('.,;:!?„”"').startswith(b) for b in base)]
         return bool(re.search(r'[¿¡]', sg['pl'])) or bool(malas)
     es_chars = [s['id'] for s in segs if con_tilde_ajena(s)]
@@ -341,7 +343,7 @@ def cmd_qa(a):
     ok = len(au) == 1 and au[0]['codec_name'] == 'aac' and int(au[0]['sample_rate']) == SR
     q.add('Audio: 1 pista AAC a 48 kHz', 'OK' if ok else 'FALLO', f'{[(s["codec_name"], s["sample_rate"], s["channels"]) for s in au]}')
     lang = au[0].get('tags', {}).get('language') if au else None
-    q.add('Audio: etiqueta de idioma = pol', 'OK' if lang == 'pol' else 'AVISO', str(lang))
+    q.add(f'Audio: etiqueta de idioma = {ISO3.get(a.idioma, a.idioma)}', 'OK' if lang == ISO3.get(a.idioma, a.idioma) else 'AVISO', str(lang))
     r = run([FF, '-hide_banner', '-i', a.salida, '-map', '0:a:0', '-af', 'volumedetect,ebur128=peak=true', '-f', 'null', '-'], check=False).stderr
     mx = float(re.findall(r'max_volume:\s*(-?[\d.]+) dB', r)[-1])
     q.add('Audio: sin clipping (pico ≤ -0.9 dB)', 'OK' if mx <= -0.9 else 'FALLO', f'max_volume={mx} dB')
@@ -363,7 +365,7 @@ def cmd_qa(a):
     q.add('Cobertura: todos los segmentos tienen voz audible', 'FALLO' if mudos else 'OK', f'sin voz: {mudos}' if mudos else '')
     # --- traducción
     glp = Path(a.glosario) if a.glosario else None
-    qa_traduccion(q, segs, json.loads(glp.read_text(encoding='utf-8')) if glp and glp.exists() else {})
+    qa_traduccion(q, segs, json.loads(glp.read_text(encoding='utf-8')) if glp and glp.exists() else {}, a.idioma)
     # --- pruebas con reconocimiento de voz (si está faster-whisper)
     try:
         from faster_whisper import WhisperModel
@@ -371,13 +373,13 @@ def cmd_qa(a):
         sg, _ = m.transcribe(audio_16k(w / 'no_vocals.wav'), language='es', vad_filter=True)
         palabras = sum(len(s.text.split()) for s in sg if s.no_speech_prob < 0.4)
         q.add('Voz española eliminada (reconocimiento sobre la música)', 'OK' if palabras <= 8 else 'FALLO', f'{palabras} palabras detectadas')
-        sg, info = m.transcribe(audio_16k(w / 'voz_pl.wav'), language='pl', vad_filter=True)
+        sg, info = m.transcribe(audio_16k(w / 'voz_pl.wav'), language=a.idioma, vad_filter=True)
         def palabras(t):      # solo palabras comunes: los nombres propios (mayúscula) se verifican escuchando
             return [x.lower() for x in re.findall(r'\w+', t) if not x[:1].isupper() and not x.isdigit()]
         oido = ' '.join(s.text for s in sg)
         esperado = ' '.join(s['pl'] for s in segs)
         sim = difflib.SequenceMatcher(None, palabras(oido), palabras(esperado), autojunk=False).ratio()
-        q.add('Voz polaca dice lo traducido (similitud ≥ 0.80)', 'OK' if sim >= 0.80 else 'FALLO', f'{sim:.2f}')
+        q.add('La voz doblada dice lo traducido (similitud ≥ 0.80)', 'OK' if sim >= 0.80 else 'FALLO', f'{sim:.2f}')
     except ImportError:
         q.add('Voz española eliminada / voz polaca verificada por reconocimiento', 'OMITIDO', 'instalá faster-whisper para estas dos pruebas')
     # --- informe
@@ -396,7 +398,7 @@ def main():
     p.add_argument('--dir', default='work', help='carpeta de trabajo (default: work)')
     sub = p.add_subparsers(dest='cmd', required=True)
     s = sub.add_parser('extraer'); s.add_argument('video'); s.set_defaults(f=cmd_extraer)
-    s = sub.add_parser('transcribir'); s.add_argument('--video'); s.add_argument('--modelo', default='large-v3'); s.set_defaults(f=cmd_transcribir)
+    s = sub.add_parser('transcribir'); s.add_argument('--video'); s.add_argument('--idioma', default='es', help='idioma hablado en el video (default es)'); s.add_argument('--modelo', default='large-v3'); s.set_defaults(f=cmd_transcribir)
     s = sub.add_parser('afinar'); s.add_argument('--ventana', type=float, default=0.4, help='segundos a cada lado donde buscar el inicio real'); s.set_defaults(f=cmd_afinar)
     s = sub.add_parser('sintetizar')
     s.add_argument('--motor', default='piper', choices=['piper', 'edge', 'cmd', 'prueba'])
@@ -406,8 +408,8 @@ def main():
     s.add_argument('--pronunciacion', default='pronunciacion.json', help='json [[patrón, reemplazo], ...] para pronunciar nombres y cifras')
     s.add_argument('--max-acel', type=float, default=1.12, help='aceleración máxima permitida (default 1.12)')
     s.set_defaults(f=cmd_sintetizar)
-    s = sub.add_parser('mezclar'); s.add_argument('video'); s.add_argument('salida'); s.set_defaults(f=cmd_mezclar)
-    s = sub.add_parser('qa'); s.add_argument('video'); s.add_argument('salida')
+    s = sub.add_parser('mezclar'); s.add_argument('video'); s.add_argument('salida'); s.add_argument('--idioma', default='pl', help='idioma de destino (pl, de, ...)'); s.set_defaults(f=cmd_mezclar)
+    s = sub.add_parser('qa'); s.add_argument('video'); s.add_argument('salida'); s.add_argument('--idioma', default='pl', help='idioma de destino (pl, de, ...)')
     s.add_argument('--glosario', help='json {"término ES": "término PL"}'); s.add_argument('--modelo', default='large-v3'); s.set_defaults(f=cmd_qa)
     a = p.parse_args()
     a.f(a)
