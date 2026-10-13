@@ -204,6 +204,30 @@ def recortar_silencios(x, umbral=0.003, pad=int(0.02 * SR)):
     return x[max(0, idx[0] - pad): idx[-1] + pad]
 
 
+MESES_DE = 'Januar|Februar|März|April|Mai|Juni|Juli|August|September|Oktober|November|Dezember'
+PREP_N = 'am|vom|zum|im|beim|bis|seit|nach|vor|den|dem|um|auf|zu|von|ab|mit|an|in|gegen'   # tras estas palabras el ordinal lleva -n
+
+
+def numeros_de(t):
+    """Cifras, fechas, horas y porcentajes en alemán, escritos como se dicen (con la declinación correcta)."""
+    from num2words import num2words as n
+    de = lambda v, **k: n(int(v), lang='de', **k)
+    t = re.sub(r'(\d{1,2})[:.](\d{2}) Uhr', lambda m: f'{de(m[1])} Uhr {de(m[2])}', t)
+    t = re.sub(rf'vom (\d{{1,2}})\. auf den (\d{{1,2}})\. ({MESES_DE})',
+               lambda m: f'vom {de(m[1], to="ordinal")}n auf den {de(m[2], to="ordinal")}n {m[3]}', t)
+    def fecha(m):
+        prep = m.group(1) or ''
+        dia = de(m.group(2), to='ordinal')
+        if prep.strip().lower() in PREP_N.split('|'):
+            dia += 'n'
+        return f'{prep}{dia} {m.group(3)}'
+    t = re.sub(rf'(\b(?:{PREP_N})\s+)?(\d{{1,2}})\. ({MESES_DE})\b', fecha, t, flags=re.I)
+    t = re.sub(r'\b(1\d{3}|20\d{2})\b', lambda m: de(m[1], to='year'), t)
+    t = re.sub(r'(\d+)\s?%', lambda m: f'{de(m[1])} Prozent', t)
+    t = re.sub(r'\b\d{1,3}\b', lambda m: de(m[0]), t)
+    return t
+
+
 def pronunciar(texto, reglas):
     """Reescribe nombres y cifras como se dicen (solo para la voz; el texto traducido no cambia)."""
     for patron, reemplazo in reglas:
@@ -226,7 +250,10 @@ def cmd_sintetizar(a):
     for s in segs:
         base = w / 'tts' / f'seg_{s["id"]:04d}'
         raw = base.with_suffix('.wav')
-        tts_a_wav(pronunciar(s['pl'], reglas), raw, a, base)
+        texto_voz = pronunciar(s['pl'], reglas)
+        if a.idioma == 'de':
+            texto_voz = numeros_de(texto_voz)
+        tts_a_wav(texto_voz, raw, a, base)
         x = recortar_silencios(leer_wav(raw))
         t = len(x) / SR
         d_max = s['slot']
@@ -405,6 +432,7 @@ def main():
     s.add_argument('--modelo-voz', default='voices/pl_PL-mc_speech-medium.onnx', help='motor piper: archivo .onnx de la voz (default: mc_speech)')
     s.add_argument('--voz', default='pl-PL-MarekNeural', help='motor edge: voz de edge-tts (pl-PL-MarekNeural / pl-PL-ZofiaNeural)')
     s.add_argument('--tts-cmd', help="motor cmd: plantilla con {texto} y {salida}")
+    s.add_argument('--idioma', default='pl', help='idioma de destino (pl, de); de convierte cifras y fechas a palabras')
     s.add_argument('--pronunciacion', default='pronunciacion.json', help='json [[patrón, reemplazo], ...] para pronunciar nombres y cifras')
     s.add_argument('--max-acel', type=float, default=1.12, help='aceleración máxima permitida (default 1.12)')
     s.set_defaults(f=cmd_sintetizar)
