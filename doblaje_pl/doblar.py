@@ -237,6 +237,7 @@ def pronunciar(texto, reglas):
 
 def cmd_sintetizar(a):
     w = workdir(a)
+    solo = {int(x) for x in a.solo.split(',')} if a.solo else set()
     reglas = json.loads(Path(a.pronunciacion).read_text(encoding='utf-8')) if a.pronunciacion and Path(a.pronunciacion).exists() else []
     print(f'Diccionario de pronunciación: {len(reglas)} reglas' + ('' if reglas else ' (no se encontró el archivo)'))
     data = cargar_segmentos(w)
@@ -253,7 +254,8 @@ def cmd_sintetizar(a):
         texto_voz = pronunciar(s['pl'], reglas)
         if a.idioma == 'de':
             texto_voz = numeros_de(texto_voz)
-        tts_a_wav(texto_voz, raw, a, base)
+        if not (solo and s['id'] not in solo and raw.exists()):     # --solo: reutiliza el audio ya generado de las demás frases
+            tts_a_wav(texto_voz, raw, a, base)
         x = recortar_silencios(leer_wav(raw))
         t = len(x) / SR
         d_max = s['slot']
@@ -433,6 +435,7 @@ def main():
     s.add_argument('--voz', default='pl-PL-MarekNeural', help='motor edge: voz de edge-tts (pl-PL-MarekNeural / pl-PL-ZofiaNeural)')
     s.add_argument('--tts-cmd', help="motor cmd: plantilla con {texto} y {salida}")
     s.add_argument('--idioma', default='pl', help='idioma de destino (pl, de); de convierte cifras y fechas a palabras')
+    s.add_argument('--solo', help='ids a regenerar, separados por coma (ej. 101,160); el resto reutiliza su audio')
     s.add_argument('--pronunciacion', default='pronunciacion.json', help='json [[patrón, reemplazo], ...] para pronunciar nombres y cifras')
     s.add_argument('--max-acel', type=float, default=1.12, help='aceleración máxima permitida (default 1.12)')
     s.set_defaults(f=cmd_sintetizar)
