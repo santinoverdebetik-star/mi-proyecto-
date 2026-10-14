@@ -1,0 +1,2282 @@
+{
+ "video_dur": 2044.006168,
+ "segments": [
+  {
+   "start": 0.0,
+   "es": "Agosto de 1944. En un valle cubierto de bosque, en las montañas del Harz, en el centro de Alemania, cuatro hermanos llegan a un hogar infantil que no aparece en ningún cartel.",
+   "id": 1,
+   "end": 12.44,
+   "slot": 12.36,
+   "max_chars_pl": 210,
+   "pl": "August 1944. In einem bewaldeten Tal im Harz, mitten in Deutschland, kommen vier Geschwister in einem Kinderheim an, das auf keinem Schild verzeichnet ist."
+  },
+  {
+   "start": 12.44,
+   "es": "El mayor acaba de cumplir diez años. La más pequeña tiene tres. Nadie les explica por qué están ahí.",
+   "id": 2,
+   "end": 19.38,
+   "slot": 6.86,
+   "max_chars_pl": 116,
+   "pl": "Der Älteste ist gerade zehn geworden. Die Jüngste ist drei. Niemand erklärt ihnen, warum sie dort sind."
+  },
+  {
+   "start": 19.38,
+   "es": "Solo les comunican una regla nueva y es la más extraña de todas. A partir de ese día ya no tienen apellido.",
+   "id": 3,
+   "end": 26.52,
+   "slot": 7.06,
+   "max_chars_pl": 120,
+   "pl": "Man teilt ihnen nur eine neue Regel mit, die seltsamste von allen: Ab heute haben sie keinen Nachnamen mehr."
+  },
+  {
+   "start": 26.52,
+   "es": "Desde ahora son los niños Meister. Su verdadero apellido es el que Adolf Hitler odia más que ningún otro en ese momento.",
+   "id": 4,
+   "end": 33.76,
+   "slot": 7.16,
+   "max_chars_pl": 121,
+   "pl": "Sie heißen jetzt die Meister-Kinder. In Wahrheit tragen sie den Namen, den Adolf Hitler damals am meisten hasst."
+  },
+  {
+   "start": 33.76,
+   "es": "Stauffenberg. Pocas semanas antes, su padre había dejado una bomba bajo la mesa de mapas del Führer.",
+   "id": 5,
+   "end": 39.96,
+   "slot": 6.12,
+   "max_chars_pl": 104,
+   "pl": "Stauffenberg. Wenige Wochen zuvor hatte ihr Vater eine Bombe unter den Kartentisch des Führers gestellt."
+  },
+  {
+   "start": 39.96,
+   "es": "La bomba explotó. Hitler sobrevivió. Y esa misma noche, en un patio de Berlín iluminado por los faros de unos vehículos, su padre fue fusilado.",
+   "id": 6,
+   "end": 49.84,
+   "slot": 9.8,
+   "max_chars_pl": 166,
+   "pl": "Die Bombe explodierte. Hitler überlebte. Und noch in derselben Nacht wurde ihr Vater in einem von Fahrzeugscheinwerfern erleuchteten Hof in Berlin erschossen."
+  },
+  {
+   "start": 49.84,
+   "es": "Casi todas las historias terminan ahí. Los libros terminan ahí. La película de Hollywood termina ahí.",
+   "id": 7,
+   "end": 56.46,
+   "slot": 6.54,
+   "max_chars_pl": 111,
+   "pl": "Die meisten Geschichten enden hier. Die Bücher enden hier. Der Hollywoodfilm endet hier."
+  },
+  {
+   "start": 56.46,
+   "es": "Pero para su familia, esa descarga de fusiles no fue el final. Fue el principio.",
+   "id": 8,
+   "end": 61.82,
+   "slot": 5.28,
+   "max_chars_pl": 89,
+   "pl": "Doch für seine Familie war diese Gewehrsalve nicht das Ende. Sie war der Anfang."
+  },
+  {
+   "start": 61.82,
+   "es": "Dos semanas después, Heinrich Himmler, el jefe de la SS, se plantó ante los jerarcas del partido y pronunció una promesa que hoy hiela la sangre.",
+   "id": 9,
+   "end": 71.1,
+   "slot": 9.2,
+   "max_chars_pl": 156,
+   "pl": "Zwei Wochen später trat Reichsführer SS Heinrich Himmler vor die Parteiführer und gab ein Versprechen ab, das einem heute das Blut gefrieren lässt."
+  },
+  {
+   "start": 71.1,
+   "es": "La familia Stauffenberg sería exterminada hasta el último miembro. Hemos escuchado muchas veces qué pasó con las familias de los verdugos del Tercer Reich, los hijos que heredaron la vergüenza de un apellido maldito.",
+   "id": 10,
+   "end": 83.48,
+   "slot": 12.3,
+   "max_chars_pl": 209,
+   "pl": "Die Familie Stauffenberg wird bis ins letzte Glied ausgerottet werden. Oft haben wir gehört, was aus den Familien der NS-Täter wurde, den Kindern, die die Schande eines verfluchten Namens erbten."
+  },
+  {
+   "start": 83.48,
+   "es": "Esta es la historia inversa. La de una familia castigada no por los crímenes de un padre, sino por el intento de detenerlos.",
+   "id": 11,
+   "end": 90.64,
+   "slot": 7.08,
+   "max_chars_pl": 120,
+   "pl": "Dies ist die umgekehrte Geschichte: eine Familie, bestraft nicht für die Taten eines Vaters, sondern für den Versuch, sie zu beenden."
+  },
+  {
+   "start": 90.64,
+   "es": "Hoy verás que fue de la esposa embarazada a la que encerraron sola en un campo de concentración.",
+   "id": 12,
+   "end": 95.88,
+   "slot": 5.16,
+   "max_chars_pl": 87,
+   "pl": "Heute erfährst du, was aus der schwangeren Ehefrau wurde, die man allein in ein KZ sperrte."
+  },
+  {
+   "start": 95.88,
+   "es": "De la niña que nació prisionera y bajó un nombre falso. De los hijos a los que el régimen planeaba repartir entre familias leales al nazismo.",
+   "id": 13,
+   "end": 104.06,
+   "slot": 8.1,
+   "max_chars_pl": 137,
+   "pl": "Aus dem Mädchen, das als Gefangene geboren wurde, unter falschem Namen. Aus den Kindern, die das Regime auf nazitreue Familien verteilen wollte."
+  },
+  {
+   "start": 104.06,
+   "es": "De los parientes arrastrados de campo en campo como rehenes de la SS. Y de por qué, cuando la guerra terminó, el apellido siguió pesando, porque durante años una parte de Alemania siguió llamándolos los hijos del traidor.",
+   "id": 14,
+   "end": 117.16,
+   "slot": 13.02,
+   "max_chars_pl": 221,
+   "pl": "Aus den Verwandten, die als SS-Geiseln von Lager zu Lager geschleppt wurden. Und warum der Name nach dem Krieg weiter schwer wog, denn jahrelang nannte ein Teil Deutschlands sie die Kinder des Verräters."
+  },
+  {
+   "start": 117.16,
+   "es": "Cinco hijos, una viuda de 30 años y un apellido que el Tercer Reich quiso borrar del mapa.",
+   "id": 15,
+   "end": 123.8,
+   "slot": 6.56,
+   "max_chars_pl": 111,
+   "pl": "Fünf Kinder, eine dreißigjährige Witwe und ein Name, den das Dritte Reich von der Landkarte tilgen wollte."
+  },
+  {
+   "start": 123.8,
+   "es": "Si te interesan las historias que empiezan justo donde terminan los libros de historia, suscríbete ahora y activa la campana.",
+   "id": 16,
+   "end": 130.54,
+   "slot": 6.66,
+   "max_chars_pl": 113,
+   "pl": "Wenn dich Geschichten interessieren, die dort beginnen, wo die Geschichtsbücher enden, abonniere jetzt und aktiviere die Glocke."
+  },
+  {
+   "start": 130.54,
+   "es": "Empezamos. Para entender lo que el régimen quiso destruir, primero hay que entrar en esa familia.",
+   "id": 17,
+   "end": 136.12,
+   "slot": 5.5,
+   "max_chars_pl": 93,
+   "pl": "Fangen wir an. Um zu begreifen, was das Regime zerstören wollte, muss man diese Familie kennen."
+  },
+  {
+   "start": 136.12,
+   "es": "Y para eso hay que viajar a Bamberg, una pequeña ciudad de Baviera de tejados rojos, iglesias barrocas y cuarteles de caballería.",
+   "id": 18,
+   "end": 144.1,
+   "slot": 7.9,
+   "max_chars_pl": 134,
+   "pl": "Dafür reisen wir nach Bamberg, eine kleine Stadt in Bayern mit roten Dächern, Barockkirchen und Kavalleriekasernen."
+  },
+  {
+   "start": 144.1,
+   "es": "Allí vivía una joven llamada Nina, Nina von Lerchenfeld. Había nacido el 27 de agosto de 1913 lejos de Alemania, en Kaunas, en la actual Lituania.",
+   "id": 19,
+   "end": 155.18,
+   "slot": 11.0,
+   "max_chars_pl": 187,
+   "pl": "Dort lebte eine junge Frau namens Nina, Nina von Lerchenfeld. Sie wurde am 27. August 1913 weit weg von Deutschland geboren, in Kaunas, im heutigen Litauen."
+  },
+  {
+   "start": 155.18,
+   "es": "Su padre pertenecía a la nobleza bávara. Su madre, Anna von Stackelberg, venía de la nobleza báltica.",
+   "id": 20,
+   "end": 162.16,
+   "slot": 6.9,
+   "max_chars_pl": 117,
+   "pl": "Ihr Vater gehörte dem bayerischen Adel an. Ihre Mutter, Anna von Stackelberg, stammte aus dem baltischen Adel."
+  },
+  {
+   "start": 162.16,
+   "es": "Nina creció entre idiomas, libros y música y quienes la conocieron la describen como una mujer culta, independiente y poco dada a los convencionalismos.",
+   "id": 21,
+   "end": 171.94,
+   "slot": 9.7,
+   "max_chars_pl": 164,
+   "pl": "Nina wuchs zwischen Sprachen, Büchern und Musik auf. Wer sie kannte, beschreibt sie als gebildete, unabhängige und wenig konventionelle Frau."
+  },
+  {
+   "start": 171.94,
+   "es": "Todo lo contrario de la esposa, sumisa que la propaganda nazi presentaba como modelo.",
+   "id": 22,
+   "end": 176.72,
+   "slot": 4.7,
+   "max_chars_pl": 79,
+   "pl": "Das Gegenteil der gefügigen Ehefrau, die die NS-Propaganda als Vorbild pries."
+  },
+  {
+   "start": 176.72,
+   "es": "Guarda ese detalle en la memoria, porque llegará un día en que su vida dependerá de fingir ser exactamente esa mujer que nunca fue.",
+   "id": 23,
+   "end": 184.1,
+   "slot": 7.3,
+   "max_chars_pl": 124,
+   "pl": "Merk dir dieses Detail, denn es wird ein Tag kommen, an dem ihr Leben davon abhängt, genau diese Frau zu spielen, die sie nie war."
+  },
+  {
+   "start": 184.1,
+   "es": "En Bamberg estaba destinado a un joven oficial de caballería llamado Claus Schenk, conde de Stauffenberg.",
+   "id": 24,
+   "end": 189.9,
+   "slot": 5.72,
+   "max_chars_pl": 97,
+   "pl": "In Bamberg war ein junger Kavallerieoffizier stationiert: Claus Schenk Graf von Stauffenberg."
+  },
+  {
+   "start": 189.9,
+   "es": "Había nacido el 15 de noviembre de 1907 en Suabia, en el seno de una antigua familia católica de la nobleza.",
+   "id": 25,
+   "end": 197.24,
+   "slot": 7.26,
+   "max_chars_pl": 123,
+   "pl": "Er wurde am 15. November 1907 in Schwaben geboren, in eine alte katholische Adelsfamilie."
+  },
+  {
+   "start": 197.24,
+   "es": "Su padre había sido mariscal de la corte del rey de Württemberg. Su madre, Caroline, pertenecía a la familia de los condes de Üxküll.",
+   "id": 26,
+   "end": 205.42,
+   "slot": 8.1,
+   "max_chars_pl": 137,
+   "pl": "Sein Vater war Oberhofmarschall des württembergischen Königs. Seine Mutter Caroline gehörte der Familie der Grafen von Üxküll an."
+  },
+  {
+   "start": 205.42,
+   "es": "Claus tenía dos hermanos mayores, gemelos, Berthold y Alexander, y había pasado los veranos de su infancia en Lautlingen, una casa solariega en los montes del Jura de Suabia, que más adelante se convertirá en uno de los escenarios clave de esta historia.",
+   "id": 27,
+   "end": 220.74,
+   "slot": 15.24,
+   "max_chars_pl": 259,
+   "pl": "Claus hatte zwei ältere Brüder, die Zwillinge Berthold und Alexander, und verbrachte die Kindheitssommer in Lautlingen, einem Gutshaus auf der Schwäbischen Alb, das später zu einem der Schauplätze dieser Geschichte wird."
+  },
+  {
+   "start": 220.74,
+   "es": "Claus y Nina se casaron en Bamberg en 1933, cuando ella tenía apenas 20 años.",
+   "id": 28,
+   "end": 228.2,
+   "slot": 7.38,
+   "max_chars_pl": 125,
+   "pl": "Claus und Nina heirateten 1933 in Bamberg, sie war gerade einmal 20."
+  },
+  {
+   "start": 228.2,
+   "es": "Ese mismo año, Hitler llegaba al poder. Los hijos llegaron uno tras otro.",
+   "id": 29,
+   "end": 233.9,
+   "slot": 5.62,
+   "max_chars_pl": 95,
+   "pl": "Im selben Jahr kam Hitler an die Macht. Die Kinder folgten schnell aufeinander."
+  },
+  {
+   "start": 233.9,
+   "es": "Berthold, el 3 de julio de 1934. Heimeran, en 1936.",
+   "id": 30,
+   "end": 241.2,
+   "slot": 7.22,
+   "max_chars_pl": 122,
+   "pl": "Berthold am 3. Juli 1934. Heimeran 1936."
+  },
+  {
+   "start": 241.2,
+   "es": "Franz Ludwig, el 4 de mayo de 1938. Y Valerie, el 15 de noviembre de 1940, el mismo día en que su padre cumplía 33 años.",
+   "id": 31,
+   "end": 252.42,
+   "slot": 11.14,
+   "max_chars_pl": 189,
+   "pl": "Franz Ludwig am 4. Mai 1938. Und Valerie am 15. November 1940, genau an dem Tag, an dem ihr Vater 33 wurde."
+  },
+  {
+   "start": 252.42,
+   "es": "Pero el padre casi nunca estaba. Claus era un oficial brillante y ambicioso, y su carrera lo llevaba de un destino a otro.",
+   "id": 32,
+   "end": 259.66,
+   "slot": 7.16,
+   "max_chars_pl": 121,
+   "pl": "Doch der Vater war fast nie da. Claus, ein glänzender, ehrgeiziger Offizier, wechselte ständig von Posten zu Posten."
+  },
+  {
+   "start": 259.66,
+   "es": "La Academia de Guerra en Berlín, la invasión de Polonia, la campaña de Francia, el estado mayor del ejército.",
+   "id": 33,
+   "end": 266.72,
+   "slot": 6.98,
+   "max_chars_pl": 118,
+   "pl": "Die Kriegsakademie in Berlin, der Überfall auf Polen, der Frankreichfeldzug, der Generalstab des Heeres."
+  },
+  {
+   "start": 266.72,
+   "es": "Los niños crecían en Bamberg y pasaban los veranos en Lautlingen con la abuela, mientras su padre aparecía de vez en cuando, como un visitante querido y siempre apurado.",
+   "id": 34,
+   "end": 277.3,
+   "slot": 10.5,
+   "max_chars_pl": 178,
+   "pl": "Die Kinder wuchsen in Bamberg auf und verbrachten die Sommer bei der Großmutter in Lautlingen, während ihr Vater nur ab und zu auftauchte, ein geliebter und stets eiliger Gast."
+  },
+  {
+   "start": 277.3,
+   "es": "Y aquí hay que decir algo que muchas versiones románticas prefieren callar. Claus von Stauffenberg no fue siempre un enemigo de Hitler.",
+   "id": 35,
+   "end": 285.4,
+   "slot": 8.02,
+   "max_chars_pl": 136,
+   "pl": "Und hier muss man etwas sagen, das viele romantische Darstellungen lieber verschweigen. Claus von Stauffenberg war nicht immer ein Gegner Hitlers."
+  },
+  {
+   "start": 285.4,
+   "es": "Como buena parte de la oficialidad conservadora, al principio vio con simpatía el rearme y la revancha contra el tratado de Versalles.",
+   "id": 36,
+   "end": 292.94,
+   "slot": 7.46,
+   "max_chars_pl": 126,
+   "pl": "Wie ein Großteil des konservativen Offizierskorps sah er die Aufrüstung und die Revanche für den Versailler Vertrag anfangs mit Sympathie."
+  },
+  {
+   "start": 292.94,
+   "es": "En septiembre de 1939, desde la Polonia recién invadida, le escribió a Nina una carta que hoy los historiadores citan una y otra vez.",
+   "id": 37,
+   "end": 302.44,
+   "slot": 9.42,
+   "max_chars_pl": 160,
+   "pl": "Im September 1939 schrieb er aus dem frisch überfallenen Polen einen Brief an Nina, den Historiker bis heute immer wieder zitieren."
+  },
+  {
+   "start": 302.44,
+   "es": "En ella describía a la población local como una chusma increíble, con muchísimos judíos y mucha mezcla, un pueblo que, según escribió, solo se sentía a gusto bajo el látigo.",
+   "id": 38,
+   "end": 313.08,
+   "slot": 10.56,
+   "max_chars_pl": 179,
+   "pl": "Darin beschrieb er die Bevölkerung als unglaublichen Pöbel, mit sehr vielen Juden und viel Mischung, ein Volk, das sich nach seinen Worten nur unter der Knute wohlfühle."
+  },
+  {
+   "start": 313.08,
+   "es": "El debate sobre esas palabras sigue abierto hasta hoy. Y los niños, como casi todos los niños alemanes de su tiempo, crecieron dentro de ese mundo.",
+   "id": 39,
+   "end": 322.32,
+   "slot": 9.16,
+   "max_chars_pl": 155,
+   "pl": "Die Debatte über diese Worte ist bis heute nicht beendet. Und die Kinder wuchsen, wie fast alle deutschen Kinder ihrer Zeit, in dieser Welt auf."
+  },
+  {
+   "start": 322.32,
+   "es": "Décadas después, el hijo mayor, Berthold, lo reconocería sin rodeos.",
+   "id": 40,
+   "end": 327.36,
+   "slot": 4.96,
+   "max_chars_pl": 84,
+   "pl": "Jahrzehnte später gab der älteste Sohn, Berthold, es unumwunden zu."
+  },
+  {
+   "start": 327.36,
+   "es": "En su casa habían crecido como pequeños nazis. Nadie en aquella familia sospechaba que el hombre que escribía esas cartas acabaría intentando matar al Führer con sus propias manos.",
+   "id": 41,
+   "end": 337.82,
+   "slot": 10.38,
+   "max_chars_pl": 176,
+   "pl": "In ihrem Haus seien sie als kleine Nazis aufgewachsen. Niemand in dieser Familie ahnte, dass der Mann, der diese Briefe schrieb, einmal versuchen würde, den Führer mit eigenen Händen zu töten."
+  },
+  {
+   "start": 337.82,
+   "es": "O, mejor dicho, con la única mano que le iba a quedar. Lo que cambió a Claus von Stauffenberg no fue un solo momento, sino una acumulación.",
+   "id": 42,
+   "end": 346.94,
+   "slot": 9.04,
+   "max_chars_pl": 153,
+   "pl": "Oder besser gesagt, mit der einen Hand, die ihm bleiben würde. Was Claus von Stauffenberg veränderte, war nicht ein einzelner Moment, sondern eine Anhäufung."
+  },
+  {
+   "start": 346.94,
+   "es": "Según sus biógrafos entre 1941 y 1942, desde su puesto en el Estado Mayor tuvo noticia de lo que estaba ocurriendo en el Frente Oriental.",
+   "id": 43,
+   "end": 358.56,
+   "slot": 11.54,
+   "max_chars_pl": 196,
+   "pl": "Nach Aussage seiner Biografen erfuhr er zwischen 1941 und 1942 von seinem Posten im Generalstab aus, was an der Ostfront geschah."
+  },
+  {
+   "start": 358.56,
+   "es": "Los fusilamientos masivos de judíos detrás de las líneas. Los prisioneros de guerra soviéticos que morían de hambre por millones en campos a cielo abierto.",
+   "id": 44,
+   "end": 367.76,
+   "slot": 9.12,
+   "max_chars_pl": 155,
+   "pl": "Die Massenerschießungen von Juden hinter der Front. Die sowjetischen Kriegsgefangenen, die zu Millionen in Lagern unter freiem Himmel verhungerten."
+  },
+  {
+   "start": 367.76,
+   "es": "Y la convicción, cada vez más firme, de que Hitler estaba llevando a Alemania no solo hacia la derrota, sino hacia el crimen.",
+   "id": 45,
+   "end": 375.44,
+   "slot": 7.6,
+   "max_chars_pl": 129,
+   "pl": "Und die immer festere Überzeugung, dass Hitler Deutschland nicht nur in die Niederlage führte, sondern ins Verbrechen."
+  },
+  {
+   "start": 375.44,
+   "es": "A comienzos de 1943 fue enviado a Túnez como oficial de Estado Mayor de la 10ª División Panzer.",
+   "id": 46,
+   "end": 382.58,
+   "slot": 7.06,
+   "max_chars_pl": 120,
+   "pl": "Anfang 1943 wurde er als Generalstabsoffizier der 10. Panzerdivision nach Tunesien geschickt."
+  },
+  {
+   "start": 382.58,
+   "es": "Y el 7 de abril de 1943, cerca de Mesouna, en pleno desierto, unos casas aliados ametrallaron su vehículo.",
+   "id": 47,
+   "end": 391.22,
+   "slot": 8.56,
+   "max_chars_pl": 145,
+   "pl": "Und am 7. April 1943, nahe Mezzouna, mitten in der Wüste, beschossen alliierte Tiefflieger sein Fahrzeug."
+  },
+  {
+   "start": 391.22,
+   "es": "Claus quedó tendido en la arena, cubierto de sangre. En un hospital de campaña en Sfax le amputaron la mano derecha.",
+   "id": 48,
+   "end": 398.6,
+   "slot": 7.3,
+   "max_chars_pl": 124,
+   "pl": "Claus blieb blutüberströmt im Sand liegen. In einem Feldlazarett in Sfax amputierte man ihm die rechte Hand."
+  },
+  {
+   "start": 398.6,
+   "es": "Perdió también dos dedos de la mano izquierda. Y perdió el ojo izquierdo.",
+   "id": 49,
+   "end": 403.54,
+   "slot": 4.86,
+   "max_chars_pl": 82,
+   "pl": "Er verlor auch zwei Finger der linken Hand. Und das linke Auge."
+  },
+  {
+   "start": 403.54,
+   "es": "Imagina la escena. Un teniente coronel de 35 años, aristócrata, jinete, padre de cuatro hijos, que despierta en una cama de hospital y descubre que no puede abrocharse la camisa.",
+   "id": 50,
+   "end": 415.58,
+   "slot": 11.96,
+   "max_chars_pl": 203,
+   "pl": "Stell dir die Szene vor. Ein Oberstleutnant von 35, Aristokrat, Reiter, Vater von vier Kindern, wacht in einem Krankenbett auf und merkt, dass er sich das Hemd nicht zuknöpfen kann."
+  },
+  {
+   "start": 415.58,
+   "es": "Cualquiera habría pensado que su guerra había terminado, que volvería a Bamberg, se retiraría y vería crecer a sus hijos.",
+   "id": 51,
+   "end": 423.12,
+   "slot": 7.46,
+   "max_chars_pl": 126,
+   "pl": "Jeder hätte gedacht, sein Krieg sei vorbei, er kehre nach Bamberg zurück, ziehe sich zurück und sehe seine Kinder aufwachsen."
+  },
+  {
+   "start": 423.12,
+   "es": "Ocurrió exactamente lo contrario. Durante su recuperación, Claus llegó a una conclusión que ya no tendría marcha atrás.",
+   "id": 52,
+   "end": 431.26,
+   "slot": 8.06,
+   "max_chars_pl": 137,
+   "pl": "Es kam genau umgekehrt. Während seiner Genesung kam Claus zu einem Entschluss, der kein Zurück mehr kannte."
+  },
+  {
+   "start": 431.26,
+   "es": "Si nadie con acceso a Hitler se atrevía a actuar, lo haría él. En otoño de 1943, se incorporó en Berlín al Estado Mayor del General Friedrich Ulbricht en la Oficina General del Ejército, en el edificio de la calle Bendler.",
+   "id": 53,
+   "end": 446.46,
+   "slot": 15.12,
+   "max_chars_pl": 257,
+   "pl": "Wenn niemand mit Zugang zu Hitler handelte, würde er es tun. Im Herbst 1943 trat er in Berlin in den Stab von General Friedrich Olbricht im Allgemeinen Heeresamt ein, im Gebäude in der Bendlerstraße."
+  },
+  {
+   "start": 446.46,
+   "es": "Allí entró en contacto pleno con la conspiración militar. Y el 1 de julio de 1944 recibió el ascenso que lo cambiaría todo, coronel y jefe de Estado Mayor del Ejército de Reserva.",
+   "id": 54,
+   "end": 458.94,
+   "slot": 12.4,
+   "max_chars_pl": 210,
+   "pl": "Dort geriet er mitten in die militärische Verschwörung. Und am 1. Juli 1944 erhielt er die Beförderung, die alles ändern sollte: Oberst und Stabschef des Ersatzheeres."
+  },
+  {
+   "start": 458.94,
+   "es": "Ese cargo le daba algo que casi ningún conspirador tenía. Acceso directo a las reuniones de Hitler.",
+   "id": 55,
+   "end": 465.4,
+   "slot": 6.38,
+   "max_chars_pl": 108,
+   "pl": "Dieses Amt gab ihm, was fast kein Verschwörer hatte. Direkten Zugang zu Hitlers Lagebesprechungen."
+  },
+  {
+   "start": 465.4,
+   "es": "¿Y Nina? ¿Qué sabía? Después de la guerra, ella misma se lo explicó a su hijo mayor.",
+   "id": 56,
+   "end": 471.44,
+   "slot": 5.96,
+   "max_chars_pl": 101,
+   "pl": "Und Nina? Was wusste sie? Nach dem Krieg erklärte sie es ihrem ältesten Sohn selbst."
+  },
+  {
+   "start": 471.44,
+   "es": "Sabía que su marido estaba en la resistencia y que preparaba algo grande. Lo que no sabía era que sería él, en persona, quien llevaría la bomba.",
+   "id": 57,
+   "end": 480.58,
+   "slot": 9.06,
+   "max_chars_pl": 154,
+   "pl": "Sie wusste, dass ihr Mann im Widerstand war und etwas Großes vorbereitete. Nicht wusste sie, dass er selbst die Bombe tragen würde."
+  },
+  {
+   "start": 480.58,
+   "es": "Y Claus le había dejado una instrucción muy precisa para el día en que todo saliera mal.",
+   "id": 58,
+   "end": 485.62,
+   "slot": 4.96,
+   "max_chars_pl": 84,
+   "pl": "Und Claus hatte ihr eine genaue Anweisung für den Tag hinterlassen, an dem alles schiefging."
+  },
+  {
+   "start": 485.62,
+   "es": "Si alguna vez la interrogaban, debía presentarse, en palabras de la propia Nina, como una tonta ama de casa, con niños, pañales y ropa sucia.",
+   "id": 59,
+   "end": 495.76,
+   "slot": 10.06,
+   "max_chars_pl": 171,
+   "pl": "Falls man sie verhörte, solle sie sich, in Ninas eigenen Worten, als dumme Hausfrau geben, mit Kindern, Windeln und schmutziger Wäsche."
+  },
+  {
+   "start": 495.76,
+   "es": "En julio de 1944, Nina llevó a sus cuatro hijos a pasar las vacaciones de verano en Lautlingen, en la casa de la abuela.",
+   "id": 60,
+   "end": 504.7,
+   "slot": 8.86,
+   "max_chars_pl": 150,
+   "pl": "Im Juli 1944 brachte Nina ihre vier Kinder zu den Sommerferien nach Lautlingen, ins Haus der Großmutter."
+  },
+  {
+   "start": 504.7,
+   "es": "Estaba embarazada de su quinto hijo. Y en Berlín, su marido ya tenía preparado un maletín con explosivos.",
+   "id": 61,
+   "end": 511.58,
+   "slot": 6.8,
+   "max_chars_pl": 115,
+   "pl": "Sie war mit dem fünften Kind schwanger. Und in Berlin hatte ihr Mann schon eine Aktentasche mit Sprengstoff bereit."
+  },
+  {
+   "start": 511.58,
+   "es": "Nadie en aquella casa de campo imaginaba que en pocos días la gestapo iba a cruzar su puerta.",
+   "id": 62,
+   "end": 517.08,
+   "slot": 5.42,
+   "max_chars_pl": 92,
+   "pl": "Niemand in diesem Landhaus ahnte, dass in wenigen Tagen die Gestapo vor der Tür stehen würde."
+  },
+  {
+   "start": 517.08,
+   "es": "El 20 de julio de 1944, en la guarida del lobo, el cuartel general de Hitler en Prusia Oriental, Claus von Stauffenberg, entró en la barraca donde se celebraba la reunión militar del mediodía.",
+   "id": 63,
+   "end": 530.16,
+   "slot": 13.0,
+   "max_chars_pl": 221,
+   "pl": "Am 20. Juli 1944 betrat Claus von Stauffenberg in der Wolfsschanze, Hitlers Hauptquartier in Ostpreußen, die Baracke, in der die mittägliche Lagebesprechung stattfand."
+  },
+  {
+   "start": 530.16,
+   "es": "Dejó el maletín bajo la pesada mesa de roble, cerca de Hitler, y salió con una excusa.",
+   "id": 64,
+   "end": 535.86,
+   "slot": 5.62,
+   "max_chars_pl": 95,
+   "pl": "Die Aktentasche stellte er unter den schweren Eichentisch, nahe Hitler, und ging unter einem Vorwand hinaus."
+  },
+  {
+   "start": 535.86,
+   "es": "A las 12 y 42 minutos, la bomba explotó. Según la reconstrucción más aceptada, alguien había movido el maletín detrás de uno de los gruesos soportes de la mesa.",
+   "id": 65,
+   "end": 546.44,
+   "slot": 10.5,
+   "max_chars_pl": 178,
+   "pl": "Um 12 Uhr 42 explodierte die Bombe. Nach der gängigsten Rekonstruktion hatte jemand die Aktentasche hinter einen der massiven Tischfüße geschoben."
+  },
+  {
+   "start": 546.44,
+   "es": "La madera absorbió buena parte de la explosión. Cuatro personas murieron por las heridas.",
+   "id": 66,
+   "end": 552.0,
+   "slot": 5.48,
+   "max_chars_pl": 93,
+   "pl": "Das Holz fing einen Großteil der Explosion ab. Vier Menschen starben an ihren Verletzungen."
+  },
+  {
+   "start": 552.0,
+   "es": "Hitler salió con los pantalones hechos girones, los tímpanos dañados y quemaduras leves.",
+   "id": 67,
+   "end": 557.5,
+   "slot": 5.42,
+   "max_chars_pl": 92,
+   "pl": "Hitler kam mit zerfetzten Hosen, beschädigten Trommelfellen und leichten Verbrennungen davon."
+  },
+  {
+   "start": 557.5,
+   "es": "Estaba vivo. Stauffenberg, convencido de que el dictador había muerto, voló de regreso a Berlín para poner en marcha el golpe de estado, la Operación Valkiria.",
+   "id": 68,
+   "end": 567.72,
+   "slot": 10.14,
+   "max_chars_pl": 172,
+   "pl": "Er lebte. Stauffenberg, überzeugt, der Diktator sei tot, flog zurück nach Berlin, um den Staatsstreich, die Operation Walküre, in Gang zu setzen."
+  },
+  {
+   "start": 567.72,
+   "es": "Pero por la tarde las noticias empezaron a llegar desde Prusia Oriental. Hitler vivía.",
+   "id": 69,
+   "end": 573.52,
+   "slot": 5.72,
+   "max_chars_pl": 97,
+   "pl": "Doch am Nachmittag trafen aus Ostpreußen die Nachrichten ein. Hitler lebte."
+  },
+  {
+   "start": 573.52,
+   "es": "Los oficiales que dudaban cambiaron de bando. Y al anochecer, el golpe se derrumbó en el mismo edificio donde había nacido.",
+   "id": 70,
+   "end": 581.06,
+   "slot": 7.46,
+   "max_chars_pl": 126,
+   "pl": "Die zögernden Offiziere wechselten die Seite. Und am Abend brach der Putsch in dem Gebäude zusammen, in dem er geboren worden war."
+  },
+  {
+   "start": 581.06,
+   "es": "Poco después de la medianoche, en el patio del edificio de la calle Bendler, iluminado por los faros de unos vehículos, Claus von Stauffenberg fue fusilado junto al general Olbricht, al coronel Albrecht Mertz von Quirnheim y a su ayudante, el teniente Werner von Haeften.",
+   "id": 71,
+   "end": 598.08,
+   "slot": 16.94,
+   "max_chars_pl": 287,
+   "pl": "Kurz nach Mitternacht wurde Claus von Stauffenberg im Hof des Bendlerblocks, erleuchtet von Fahrzeugscheinwerfern, erschossen, zusammen mit General Olbricht, Oberst Albrecht Mertz von Quirnheim und seinem Adjutanten, Oberleutnant Werner von Haeften."
+  },
+  {
+   "start": 598.08,
+   "es": "Según los testigos, sus últimas palabras fueron un grito. ¡Viva la Sagrada Alemania!",
+   "id": 72,
+   "end": 604.14,
+   "slot": 5.98,
+   "max_chars_pl": 101,
+   "pl": "Nach Zeugenaussagen waren seine letzten Worte ein Ruf. Es lebe das heilige Deutschland!"
+  },
+  {
+   "start": 604.14,
+   "es": "Otros aseguraron haber escuchado la Alemania secreta. Tenía 36 años.",
+   "id": 73,
+   "end": 609.46,
+   "slot": 5.24,
+   "max_chars_pl": 89,
+   "pl": "Andere wollten das geheime Deutschland gehört haben. Er war 36."
+  },
+  {
+   "start": 609.46,
+   "es": "Su hermano Berthold, que estaba en el edificio esa noche, fue detenido allí mismo.",
+   "id": 74,
+   "end": 614.22,
+   "slot": 4.68,
+   "max_chars_pl": 79,
+   "pl": "Sein Bruder Berthold, in jener Nacht im Gebäude, wurde auf der Stelle festgenommen."
+  },
+  {
+   "start": 614.22,
+   "es": "El 10 de agosto sería ahorcado en la prisión berlinesa de Plötzensee. Los cuerpos de los fusilados fueron enterrados esa misma madrugada en un cementerio del barrio de Schöneberg con sus uniformes y sus condecoraciones.",
+   "id": 75,
+   "end": 626.94,
+   "slot": 12.64,
+   "max_chars_pl": 214,
+   "pl": "Am 10. August wurde er im Berliner Gefängnis Plötzensee gehängt. Die Leichen der Erschossenen wurden noch in derselben Nacht auf einem Friedhof in Schöneberg begraben, in ihren Uniformen und mit ihren Orden."
+  },
+  {
+   "start": 626.94,
+   "es": "Pero Himmler no estaba dispuesto a permitir ni siquiera eso. Ordenó desenterrarlos, quemar los cadáveres y esparcir la ceniza sobre unos campos a las afueras de Berlín.",
+   "id": 76,
+   "end": 637.32,
+   "slot": 10.3,
+   "max_chars_pl": 175,
+   "pl": "Doch Himmler wollte nicht einmal das zulassen. Er ließ sie ausgraben, die Leichen verbrennen und die Asche auf Felder am Rand von Berlin streuen."
+  },
+  {
+   "start": 637.32,
+   "es": "No debía quedar una tumba. No debía quedar un lugar donde alguien pudiera dejar una flor.",
+   "id": 77,
+   "end": 642.94,
+   "slot": 5.54,
+   "max_chars_pl": 94,
+   "pl": "Es sollte kein Grab bleiben. Keinen Ort, an dem jemand eine Blume niederlegen konnte."
+  },
+  {
+   "start": 642.94,
+   "es": "Mientras tanto, pasada la una de la madrugada, las radios de toda Alemania emitieron la voz de Hitler.",
+   "id": 78,
+   "end": 649.14,
+   "slot": 6.12,
+   "max_chars_pl": 104,
+   "pl": "Währenddessen, nach ein Uhr nachts, sendeten die Radios in ganz Deutschland Hitlers Stimme."
+  },
+  {
+   "start": 649.14,
+   "es": "Habló de una camarilla muy pequeña de oficiales ambiciosos, sin conciencia y criminales, y pronunció un nombre, el del coronel conde von Stauffenberg.",
+   "id": 79,
+   "end": 658.82,
+   "slot": 9.6,
+   "max_chars_pl": 163,
+   "pl": "Er sprach von einer ganz kleinen Clique ehrgeiziger, gewissenloser und verbrecherischer Offiziere und nannte einen Namen, den des Obersten Graf von Stauffenberg."
+  },
+  {
+   "start": 658.82,
+   "es": "Al día siguiente, Nina reunió a sus hijos. Berthold lo recordaría toda su vida.",
+   "id": 80,
+   "end": 664.46,
+   "slot": 5.56,
+   "max_chars_pl": 94,
+   "pl": "Am nächsten Tag versammelte Nina ihre Kinder. Berthold würde es sein Leben lang im Gedächtnis behalten."
+  },
+  {
+   "start": 664.46,
+   "es": "Su madre les dijo que había sido su padre quien había cometido el atentado.",
+   "id": 81,
+   "end": 669.06,
+   "slot": 4.52,
+   "max_chars_pl": 76,
+   "pl": "Ihre Mutter sagte ihnen, ihr Vater habe das Attentat verübt."
+  },
+  {
+   "start": 669.06,
+   "es": "El niño de 10 años, que había crecido admirando al Führer, preguntó lo único que podía preguntar.",
+   "id": 82,
+   "end": 675.16,
+   "slot": 6.02,
+   "max_chars_pl": 102,
+   "pl": "Der Zehnjährige, der den Führer bewundert hatte, stellte die einzige Frage, die er stellen konnte."
+  },
+  {
+   "start": 675.16,
+   "es": "¿Por qué? ¿Por qué quería matar a Hitler? Nina respondió que su padre creía que tenía que hacerlo por Alemania.",
+   "id": 83,
+   "end": 682.28,
+   "slot": 7.04,
+   "max_chars_pl": 119,
+   "pl": "Warum? Warum wollte er Hitler töten? Nina antwortete, ihr Vater habe geglaubt, er müsse es für Deutschland tun."
+  },
+  {
+   "start": 682.28,
+   "es": "Berthold admitiría después que en ese momento no lo entendieron. Heimeran, de 8 años, se echó a llorar.",
+   "id": 84,
+   "end": 689.48,
+   "slot": 7.12,
+   "max_chars_pl": 121,
+   "pl": "Berthold gab später zu, dass sie es in diesem Moment nicht verstanden. Heimeran, acht Jahre alt, brach in Tränen aus."
+  },
+  {
+   "start": 689.48,
+   "es": "En la noche del 22 al 23 de julio, la Gestapo llegó a Lautlingen y se llevó a Nina.",
+   "id": 85,
+   "end": 695.38,
+   "slot": 5.82,
+   "max_chars_pl": 98,
+   "pl": "In der Nacht vom 22. auf den 23. Juli holte die Gestapo Nina in Lautlingen ab."
+  },
+  {
+   "start": 695.38,
+   "es": "Los niños se quedaron en Lautlingen sin saber cuando volverían a ver a su madre.",
+   "id": 86,
+   "end": 700.38,
+   "slot": 4.92,
+   "max_chars_pl": 83,
+   "pl": "Die Kinder blieben in Lautlingen zurück, ohne zu wissen, wann sie ihre Mutter wiedersehen würden."
+  },
+  {
+   "start": 700.38,
+   "es": "Y eso era solo el primer movimiento. Porque en Berlín, Heinrich Himmler ya estaba preparando algo mucho más grande que una detención.",
+   "id": 87,
+   "end": 708.96,
+   "slot": 8.5,
+   "max_chars_pl": 144,
+   "pl": "Und das war nur der erste Schritt. Denn in Berlin bereitete Heinrich Himmler schon etwas viel Größeres vor als eine Festnahme."
+  },
+  {
+   "start": 708.96,
+   "es": "El 3 de agosto de 1944, en la ciudad de Posen, Himmler habló ante los Gauleiter, los jefes regionales del partido nazi.",
+   "id": 88,
+   "end": 717.8,
+   "slot": 8.76,
+   "max_chars_pl": 148,
+   "pl": "Am 3. August 1944 sprach Himmler in Posen vor den Gauleitern, den Regionalchefs der NSDAP."
+  },
+  {
+   "start": 717.8,
+   "es": "Allí desempolvó una idea que parecía sacada de la Edad Media, la Sippenhaft, la responsabilidad de la sangre.",
+   "id": 89,
+   "end": 724.58,
+   "slot": 6.7,
+   "max_chars_pl": 113,
+   "pl": "Dort holte er eine Idee hervor, die dem Mittelalter entstammen könnte: die Sippenhaft, die Haftung des Blutes."
+  },
+  {
+   "start": 724.58,
+   "es": "Según explicó, entre los antiguos germanos, cuando un hombre cometía traición, toda su estirpe cargaba con la culpa y anunció que el régimen aplicaría ese principio sin contemplaciones.",
+   "id": 90,
+   "end": 736.38,
+   "slot": 11.72,
+   "max_chars_pl": 199,
+   "pl": "Er erklärte, bei den alten Germanen habe bei Verrat die ganze Sippe die Schuld getragen, und kündigte an, das Regime werde dieses Prinzip ohne Rücksicht anwenden."
+  },
+  {
+   "start": 736.38,
+   "es": "Entonces pronunció la frase que resume esta historia. La familia Stauffenberg será exterminada hasta el último miembro.",
+   "id": 91,
+   "end": 743.82,
+   "slot": 7.36,
+   "max_chars_pl": 125,
+   "pl": "Dann sprach er den Satz, der diese Geschichte zusammenfasst. Die Familie Stauffenberg wird bis ins letzte Glied ausgerottet werden."
+  },
+  {
+   "start": 743.82,
+   "es": "La ironía era brutal. Un régimen obsesionado con la sangre, que había clasificado a millones de personas por su sangre, decidía ahora que la culpa también se transmitía por la sangre.",
+   "id": 92,
+   "end": 755.3,
+   "slot": 11.4,
+   "max_chars_pl": 193,
+   "pl": "Die Ironie war brutal. Ein Regime, besessen vom Blut, das Millionen Menschen nach ihrem Blut eingeteilt hatte, entschied nun, dass auch die Schuld im Blut vererbt wird."
+  },
+  {
+   "start": 755.3,
+   "es": "Ya no importaba lo que hubieras hecho importaba de quién eras hijo, hermano, sobrino o nieto.",
+   "id": 93,
+   "end": 761.04,
+   "slot": 5.66,
+   "max_chars_pl": 96,
+   "pl": "Es zählte nicht mehr, was du getan hattest, sondern wessen Sohn, Bruder, Neffe oder Enkel du warst."
+  },
+  {
+   "start": 761.04,
+   "es": "La ola de detenciones fue inmediata. Alexander, el gemelo de Berthold, era historiador y servía como soldado en Grecia.",
+   "id": 94,
+   "end": 769.02,
+   "slot": 7.9,
+   "max_chars_pl": 134,
+   "pl": "Die Verhaftungswelle begann sofort. Alexander, Bertholds Zwillingsbruder, war Historiker und diente als Soldat in Griechenland."
+  },
+  {
+   "start": 769.02,
+   "es": "No había participado en el complot. Sus propios hermanos no se lo habían contado.",
+   "id": 95,
+   "end": 774.02,
+   "slot": 4.92,
+   "max_chars_pl": 83,
+   "pl": "Er hatte nicht am Komplott teilgenommen. Seine eigenen Brüder hatten es ihm nicht erzählt."
+  },
+  {
+   "start": 774.02,
+   "es": "En parte porque Alexander era demasiado franco al hablar y en parte porque su esposa tenía ascendencia judía.",
+   "id": 96,
+   "end": 780.42,
+   "slot": 6.32,
+   "max_chars_pl": 107,
+   "pl": "Zum Teil, weil Alexander zu offenherzig sprach, zum Teil, weil seine Frau jüdische Vorfahren hatte."
+  },
+  {
+   "start": 780.42,
+   "es": "Y eso la hacía especialmente vulnerable. Daba igual. A finales de julio lo detuvieron.",
+   "id": 97,
+   "end": 786.38,
+   "slot": 5.88,
+   "max_chars_pl": 99,
+   "pl": "Und das machte sie besonders verwundbar. Es spielte keine Rolle. Ende Juli verhaftete man ihn."
+  },
+  {
+   "start": 786.38,
+   "es": "Detuvieron también a la madre de Nina, Anna von Lerchenfeld, y a tíos, primos, cuñadas y parientes ancianos que jamás habían pisado el edificio de la calle Bendler.",
+   "id": 98,
+   "end": 796.82,
+   "slot": 10.36,
+   "max_chars_pl": 176,
+   "pl": "Man verhaftete auch Ninas Mutter, Anna von Lerchenfeld, sowie Onkel, Cousins, Schwägerinnen und betagte Verwandte, die nie einen Fuß in die Bendlerstraße gesetzt hatten."
+  },
+  {
+   "start": 796.82,
+   "es": "Su único delito era el apellido. Para algunos, el castigo fue la muerte.",
+   "id": 99,
+   "end": 801.7,
+   "slot": 4.8,
+   "max_chars_pl": 81,
+   "pl": "Ihr einziges Vergehen war der Name. Für einige war die Strafe der Tod."
+  },
+  {
+   "start": 801.7,
+   "es": "Nikolaus von Üxküll, tío materno de Claus, que sí había participado en la conspiración, fue ahorcado en Plötzensee el 14 de septiembre de 1944.",
+   "id": 100,
+   "end": 811.54,
+   "slot": 9.76,
+   "max_chars_pl": 165,
+   "pl": "Nikolaus von Üxküll, Claus' Onkel mütterlicherseits, der tatsächlich an der Verschwörung beteiligt war, wurde am 14. September 1944 in Plötzensee gehängt."
+  },
+  {
+   "start": 811.54,
+   "es": "Peter Jörg von Wartenburg, su primo, había sido ejecutado el 8 de agosto.",
+   "id": 101,
+   "end": 816.36,
+   "slot": 4.74,
+   "max_chars_pl": 80,
+   "pl": "Peter Yorck von Wartenburg, sein Cousin, war am 8. August hingerichtet worden."
+  },
+  {
+   "start": 816.36,
+   "es": "Otro primo, César von Hofacker, enlace de la conspiración en París, fue ejecutado el 20 de diciembre.",
+   "id": 102,
+   "end": 823.5,
+   "slot": 7.06,
+   "max_chars_pl": 120,
+   "pl": "Ein weiterer Cousin, Cäsar von Hofacker, Verbindungsmann der Verschwörung in Paris, wurde am 20. Dezember hingerichtet."
+  },
+  {
+   "start": 823.5,
+   "es": "Hubo una excepción y era tan extraña como reveladora. La esposa de Alexander se llamaba Melitta.",
+   "id": 103,
+   "end": 830.0,
+   "slot": 6.42,
+   "max_chars_pl": 109,
+   "pl": "Es gab eine Ausnahme, so seltsam wie aufschlussreich. Alexanders Frau hieß Melitta."
+  },
+  {
+   "start": 830.0,
+   "es": "Era ingeniera aeronáutica y piloto de pruebas de la Luftwaffe, una de las poquísimas mujeres condecoradas con la cruz de hierro.",
+   "id": 104,
+   "end": 837.88,
+   "slot": 7.8,
+   "max_chars_pl": 132,
+   "pl": "Sie war Flugzeugingenieurin und Testpilotin der Luftwaffe, eine der ganz wenigen Frauen mit dem Eisernen Kreuz."
+  },
+  {
+   "start": 837.88,
+   "es": "También fue detenida, pero a las pocas semanas la soltaron, porque el régimen la necesitaba para sus aviones.",
+   "id": 105,
+   "end": 844.36,
+   "slot": 6.4,
+   "max_chars_pl": 108,
+   "pl": "Auch sie wurde verhaftet, aber nach wenigen Wochen freigelassen, weil das Regime sie für seine Flugzeuge brauchte."
+  },
+  {
+   "start": 844.36,
+   "es": "El rey que despreciaba su ascendencia no podía permitirse prescindir de su talento.",
+   "id": 106,
+   "end": 849.52,
+   "slot": 5.08,
+   "max_chars_pl": 86,
+   "pl": "Das Regime, das ihre Herkunft verachtete, konnte auf ihr Talent nicht verzichten."
+  },
+  {
+   "start": 849.52,
+   "es": "Melitta usó esa libertad para algo que nadie le había pedido, buscar a su familia.",
+   "id": 107,
+   "end": 854.82,
+   "slot": 5.22,
+   "max_chars_pl": 88,
+   "pl": "Melitta nutzte die Freiheit für etwas, das niemand verlangt hatte: ihre Familie zu suchen."
+  },
+  {
+   "start": 854.82,
+   "es": "Y esa búsqueda, como veremos, le costaría la vida. Pero de todas las personas atrapadas en esa red, había una a la que la gestapo vigilaba más que a nadie.",
+   "id": 108,
+   "end": 864.4,
+   "slot": 9.5,
+   "max_chars_pl": 161,
+   "pl": "Und diese Suche sollte sie, wie wir sehen werden, das Leben kosten. Doch von allen in diesem Netz überwachte die Gestapo eine Frau mehr als jede andere."
+  },
+  {
+   "start": 864.4,
+   "es": "Una mujer embarazada, sola, que acababa de quedarse viuda. Tras su detención, Nina fue llevada primero a la cárcel de Rottweil, cerca de Lautlingen.",
+   "id": 109,
+   "end": 874.76,
+   "slot": 10.28,
+   "max_chars_pl": 174,
+   "pl": "Eine schwangere, einsame Frau, gerade Witwe geworden. Nach ihrer Festnahme brachte man Nina zuerst ins Gefängnis nach Rottweil, nahe Lautlingen."
+  },
+  {
+   "start": 874.76,
+   "es": "Allí pasó una semana. Después la trasladaron a Berlín, al cuartel general de la gestapo en la calle Prinz Albrecht, el edificio más temido de Alemania.",
+   "id": 110,
+   "end": 884.46,
+   "slot": 9.62,
+   "max_chars_pl": 163,
+   "pl": "Dort blieb sie eine Woche. Dann verlegte man sie nach Berlin, ins Gestapo-Hauptquartier in der Prinz-Albrecht-Straße, das meistgefürchtete Gebäude Deutschlands."
+  },
+  {
+   "start": 884.46,
+   "es": "Durante tres semanas la interrogaron una y otra vez. Y entonces Nina hizo exactamente lo que su marido le había pedido.",
+   "id": 111,
+   "end": 891.68,
+   "slot": 7.14,
+   "max_chars_pl": 121,
+   "pl": "Drei Wochen lang wurde sie immer wieder verhört. Und dann tat Nina genau, worum ihr Mann sie gebeten hatte."
+  },
+  {
+   "start": 891.68,
+   "es": "La mujer culta, políglota e independiente se convirtió delante de los interrogadores, en una ama de casa simple que solo sabía de niños, pañales y ropa sucia.",
+   "id": 112,
+   "end": 902.92,
+   "slot": 11.16,
+   "max_chars_pl": 189,
+   "pl": "Die gebildete, mehrsprachige, unabhängige Frau verwandelte sich vor den Vernehmern in eine einfache Hausfrau, die nur von Kindern, Windeln und schmutziger Wäsche wusste."
+  },
+  {
+   "start": 902.92,
+   "es": "No les dio nada que la gestapo no supiera ya. Sus biógrafos destacan el valor y el autocontrol que mostró en aquellas semanas, embarazada y sin saber qué había sido de sus hijos.",
+   "id": 113,
+   "end": 913.92,
+   "slot": 10.92,
+   "max_chars_pl": 185,
+   "pl": "Sie gab ihnen nichts, was die Gestapo nicht schon wusste. Ihre Biografen heben den Mut und die Selbstbeherrschung hervor, die sie in jenen Wochen zeigte, schwanger und ohne zu wissen, was aus ihren Kindern geworden war."
+  },
+  {
+   "start": 913.92,
+   "es": "Después pasó por la prisión de la Alexanderplatz, también en Berlín. Y de allí, al campo de concentración de Ravensbrück, el gran campo para mujeres al norte de la capital.",
+   "id": 114,
+   "end": 924.5,
+   "slot": 10.5,
+   "max_chars_pl": 178,
+   "pl": "Danach kam sie ins Gefängnis am Alexanderplatz, ebenfalls in Berlin. Und von dort ins Konzentrationslager Ravensbrück, das große Frauenlager nördlich der Hauptstadt."
+  },
+  {
+   "start": 924.5,
+   "es": "Allí la mantuvieron en régimen de aislamiento, en una celda individual, hasta finales de 1944.",
+   "id": 115,
+   "end": 931.2,
+   "slot": 6.62,
+   "max_chars_pl": 112,
+   "pl": "Dort hielt man sie in Isolationshaft, in einer Einzelzelle, bis Ende 1944."
+  },
+  {
+   "start": 931.2,
+   "es": "Sin noticias de sus hijos, sin noticias de su madre. Mientras su vientre crecía, en enero de 1945, cuando se acercaba la fecha del parto, el régimen enfrentó un problema práctico.",
+   "id": 116,
+   "end": 943.26,
+   "slot": 11.98,
+   "max_chars_pl": 203,
+   "pl": "Ohne Nachricht von ihren Kindern, ohne Nachricht von ihrer Mutter. Während ihr Bauch wuchs, stand das Regime im Januar 1945, als der Geburtstermin nahte, vor einem praktischen Problem."
+  },
+  {
+   "start": 943.26,
+   "es": "No iba a dejar que la viuda de Stauffenberg diera a luz dentro de un campo. Nina fue trasladada a una maternidad nazi en Frankfurt (Oder), en el este de Alemania.",
+   "id": 117,
+   "end": 953.0,
+   "slot": 9.66,
+   "max_chars_pl": 164,
+   "pl": "Die Witwe Stauffenbergs sollte nicht in einem Lager entbinden. Nina wurde in eine NS-Entbindungsklinik in Frankfurt an der Oder im Osten Deutschlands verlegt."
+  },
+  {
+   "start": 953.0,
+   "es": "Y allí, el 27 de enero de 1945, nació una niña.",
+   "id": 118,
+   "end": 958.48,
+   "slot": 5.4,
+   "max_chars_pl": 91,
+   "pl": "Und dort wurde am 27. Januar 1945 ein Mädchen geboren."
+  },
+  {
+   "start": 958.48,
+   "es": "La llamó Konstanze. Ese mismo día, a cientos de kilómetros, el Ejército Rojo entraba en Auschwitz.",
+   "id": 119,
+   "end": 964.8,
+   "slot": 6.24,
+   "max_chars_pl": 106,
+   "pl": "Sie nannte es Konstanze. Am selben Tag, Hunderte Kilometer entfernt, erreichte die Rote Armee Auschwitz."
+  },
+  {
+   "start": 964.8,
+   "es": "Pero el Ejército Rojo también avanzaba hacia Loder. Y la madre y la recién nacida eran prisioneras demasiado valiosas para dejarlas atrás.",
+   "id": 120,
+   "end": 973.48,
+   "slot": 8.6,
+   "max_chars_pl": 146,
+   "pl": "Doch die Rote Armee rückte auch auf Frankfurt an der Oder vor. Und Mutter und Neugeborenes waren zu wertvolle Gefangene, um sie zurückzulassen."
+  },
+  {
+   "start": 973.48,
+   "es": "Nina, enferma por una inflamación grave después del parto, fue subida a un tren hospital rumbo a Berlín.",
+   "id": 121,
+   "end": 980.88,
+   "slot": 7.32,
+   "max_chars_pl": 124,
+   "pl": "Nina, krank von einer schweren Entzündung nach der Geburt, wurde in einen Lazarettzug nach Berlin gebracht."
+  },
+  {
+   "start": 980.88,
+   "es": "Fueron 24 horas de viaje. Los bombardeos obligaron a desviar el transporte, que terminó en Potsdam.",
+   "id": 122,
+   "end": 987.82,
+   "slot": 6.86,
+   "max_chars_pl": 116,
+   "pl": "Es wurden 24 Stunden Fahrt. Die Bombenangriffe zwangen zu einer Umleitung, und der Transport endete in Potsdam."
+  },
+  {
+   "start": 987.82,
+   "es": "El 5 de febrero de 1945, agentes de la Gestapo dejaron en el Hospital Católico de San José, en Potsdam, a una paciente registrada como Señora Schank, con su bebé.",
+   "id": 123,
+   "end": 999.66,
+   "slot": 11.76,
+   "max_chars_pl": 199,
+   "pl": "Am 5. Februar 1945 ließen Gestapo-Beamte im Katholischen St.-Josefs-Krankenhaus in Potsdam eine als Frau Schank gemeldete Patientin mit ihrem Baby zurück."
+  },
+  {
+   "start": 999.66,
+   "es": "Fíjate en ese detalle. Ni siquiera la madre conservaba su nombre. La Gestapo impuso reglas estrictas.",
+   "id": 124,
+   "end": 1006.26,
+   "slot": 6.52,
+   "max_chars_pl": 110,
+   "pl": "Achte auf dieses Detail. Nicht einmal die Mutter behielt ihren Namen. Die Gestapo erließ strenge Regeln."
+  },
+  {
+   "start": 1006.26,
+   "es": "La paciente no podía enviar ni recibir cartas sin permiso. No podía salir del recinto.",
+   "id": 125,
+   "end": 1011.7,
+   "slot": 5.36,
+   "max_chars_pl": 91,
+   "pl": "Briefe nur mit Erlaubnis, weder senden noch empfangen. Das Gelände verlassen durfte sie nicht."
+  },
+  {
+   "start": 1011.7,
+   "es": "Todo lo que ella y la niña necesitaban pasaba por sus manos. Y los agentes aparecían sin aviso para inspeccionar.",
+   "id": 126,
+   "end": 1018.52,
+   "slot": 6.74,
+   "max_chars_pl": 114,
+   "pl": "Alles, was sie und das Mädchen brauchten, ging durch ihre Hände. Und die Beamten kamen unangemeldet zur Kontrolle."
+  },
+  {
+   "start": 1018.52,
+   "es": "El médico jefe del hospital, el Dr. Schank, no tardó en descubrir por unos conocidos quién era en realidad su misteriosa paciente.",
+   "id": 127,
+   "end": 1025.96,
+   "slot": 7.36,
+   "max_chars_pl": 125,
+   "pl": "Der Chefarzt des Krankenhauses, Dr. Schank, erfuhr bald von Bekannten, wer seine geheimnisvolle Patientin wirklich war."
+  },
+  {
+   "start": 1025.96,
+   "es": "La viuda del hombre que había intentado matar a Hitler. Y tomó una decisión silenciosa.",
+   "id": 128,
+   "end": 1031.38,
+   "slot": 5.34,
+   "max_chars_pl": 90,
+   "pl": "Die Witwe des Mannes, der Hitler töten wollte. Und er traf eine stille Entscheidung."
+  },
+  {
+   "start": 1031.38,
+   "es": "Le aseguró todo su apoyo y se reservó para sí mismo la decisión de cuándo madre e hija estarían en condiciones de ser trasladadas.",
+   "id": 129,
+   "end": 1039.64,
+   "slot": 8.18,
+   "max_chars_pl": 139,
+   "pl": "Er sicherte ihr jede Unterstützung zu und behielt sich selbst die Entscheidung vor, wann Mutter und Tochter transportfähig wären."
+  },
+  {
+   "start": 1039.64,
+   "es": "La bebé estaba tan débil que primero una religiosa y después la propia Nina la bautizaron de urgencia por miedo a que no sobreviviera.",
+   "id": 130,
+   "end": 1047.88,
+   "slot": 8.16,
+   "max_chars_pl": 138,
+   "pl": "Das Baby war so schwach, dass erst eine Ordensschwester und dann Nina selbst es aus Angst, es überlebe nicht, notfalls taufte."
+  },
+  {
+   "start": 1047.88,
+   "es": "El 12 de abril de 1945, el capellán del hospital celebró por fin un bautismo formal.",
+   "id": 131,
+   "end": 1054.92,
+   "slot": 6.96,
+   "max_chars_pl": 118,
+   "pl": "Am 12. April 1945 feierte der Krankenhausseelsorger endlich eine förmliche Taufe."
+  },
+  {
+   "start": 1054.92,
+   "es": "La niña fue inscrita como Constanze Schank. Su padrino fue el propio Dr. Schrank.",
+   "id": 132,
+   "end": 1060.3,
+   "slot": 5.3,
+   "max_chars_pl": 90,
+   "pl": "Das Mädchen wurde als Konstanze Schank eingetragen. Ihr Pate war Dr. Schank selbst."
+  },
+  {
+   "start": 1060.3,
+   "es": "Y en plena ceremonia sonó el teléfono. Era la Gestapo. El mensaje, según la historia reconstruida por la prensa de Potsdam, fue seco.",
+   "id": 133,
+   "end": 1068.96,
+   "slot": 8.58,
+   "max_chars_pl": 145,
+   "pl": "Und mitten in der Zeremonie klingelte das Telefon. Es war die Gestapo. Die Nachricht war, wie die Potsdamer Presse später rekonstruierte, knapp."
+  },
+  {
+   "start": 1068.96,
+   "es": "Ya era suficiente. A las 3 de la tarde pasarían a buscarlas a las 2.",
+   "id": 134,
+   "end": 1073.5,
+   "slot": 4.46,
+   "max_chars_pl": 75,
+   "pl": "Es sei genug. Um 3 Uhr nachmittags werde man sie abholen."
+  },
+  {
+   "start": 1073.5,
+   "es": "Después de 66 días en aquel hospital, un policía militar recibió la orden de llevar a Nina y a su bebé.",
+   "id": 135,
+   "end": 1079.86,
+   "slot": 6.28,
+   "max_chars_pl": 106,
+   "pl": "Nach 66 Tagen im Krankenhaus bekam ein Feldjäger den Befehl, Nina und ihr Baby abzuholen."
+  },
+  {
+   "start": 1079.86,
+   "es": "Bajo estricta vigilancia, hasta Schönberg, en el Bosque Bávaro. Recuerda ese nombre, Schönberg, porque allí mismo el régimen tenía retenidos a otros miembros de su familia.",
+   "id": 136,
+   "end": 1090.62,
+   "slot": 10.68,
+   "max_chars_pl": 181,
+   "pl": "Unter strenger Bewachung bis nach Schönberg im Bayerischen Wald. Merk dir diesen Namen, Schönberg, denn dort hielt das Regime auch andere Familienmitglieder fest."
+  },
+  {
+   "start": 1090.62,
+   "es": "Lo que siguió fue una odisea en tren y a pie a través de un país que se desmoronaba.",
+   "id": 137,
+   "end": 1095.66,
+   "slot": 4.96,
+   "max_chars_pl": 84,
+   "pl": "Es folgte eine Odyssee per Bahn und zu Fuß durch ein zerfallendes Land."
+  },
+  {
+   "start": 1095.66,
+   "es": "El grupo terminó varado en Trogen, un pueblo cerca de Hof, en el norte de Baviera.",
+   "id": 138,
+   "end": 1100.66,
+   "slot": 4.92,
+   "max_chars_pl": 83,
+   "pl": "Die Gruppe strandete in Trogen, einem Dorf bei Hof in Nordbayern."
+  },
+  {
+   "start": 1100.66,
+   "es": "Y allí ocurrió algo que habría sido impensable un año antes. Nina logró convencer a su guardián de que se fuera a su casa.",
+   "id": 139,
+   "end": 1107.54,
+   "slot": 6.8,
+   "max_chars_pl": 115,
+   "pl": "Und dort geschah etwas, das ein Jahr zuvor undenkbar gewesen wäre. Nina überzeugte ihren Wächter, nach Hause zu gehen."
+  },
+  {
+   "start": 1107.54,
+   "es": "Y el policía se fue. Poco después, las tropas estadounidenses llegaron a la zona.",
+   "id": 140,
+   "end": 1113.7,
+   "slot": 6.08,
+   "max_chars_pl": 103,
+   "pl": "Und der Polizist ging. Kurz darauf erreichten amerikanische Truppen die Gegend."
+  },
+  {
+   "start": 1113.7,
+   "es": "Nina era libre. Tenía en brazos a una niña de menos de 3 meses que había conocido una maternidad nazi, un tren hospital y un hospital vigilado por la Gestapo.",
+   "id": 141,
+   "end": 1123.9,
+   "slot": 10.12,
+   "max_chars_pl": 172,
+   "pl": "Nina war frei. Sie hatte ein Mädchen von weniger als drei Monaten im Arm, das eine NS-Entbindungsklinik, einen Lazarettzug und ein von der Gestapo bewachtes Krankenhaus kennengelernt hatte."
+  },
+  {
+   "start": 1123.9,
+   "es": "Pero seguía sin saber dónde estaban sus otros 4 hijos. Para responder a esa pregunta, tenemos que volver atrás al verano de 1944 y al valle del Harz donde empezó esta historia.",
+   "id": 142,
+   "end": 1137.18,
+   "slot": 13.2,
+   "max_chars_pl": 224,
+   "pl": "Doch sie wusste immer noch nicht, wo ihre anderen vier Kinder waren. Um das zu beantworten, müssen wir zurück zum Sommer 1944 und in das Tal im Harz, wo diese Geschichte begann."
+  },
+  {
+   "start": 1137.18,
+   "es": "Mientras Nina era interrogada en Berlín, en agosto de 1944, los cuatro niños fueron sacados de Lautlingen por orden de Himmler.",
+   "id": 143,
+   "end": 1145.86,
+   "slot": 8.6,
+   "max_chars_pl": 146,
+   "pl": "Während Nina in Berlin verhört wurde, brachte man im August 1944 die vier Kinder auf Himmlers Befehl aus Lautlingen fort."
+  },
+  {
+   "start": 1145.86,
+   "es": "Su destino era Bad Sachsa, un pueblo de montaña en el Harz. A las afueras, en un valle llamado Bornthal había un conjunto de casas de madera, construidas como hogar de vacaciones infantil al estilo de las granjas de la selva negra.",
+   "id": 144,
+   "end": 1159.9,
+   "slot": 13.96,
+   "max_chars_pl": 237,
+   "pl": "Ihr Ziel war Bad Sachsa, ein Bergdorf im Harz. Am Ortsrand, in einem Tal namens Bornthal, standen Holzhäuser, gebaut als Kinderferienheim im Stil der Schwarzwaldhöfe."
+  },
+  {
+   "start": 1159.9,
+   "es": "Un lugar de postal. Desde mediados de agosto se convirtió en otra cosa.",
+   "id": 145,
+   "end": 1165.26,
+   "slot": 5.28,
+   "max_chars_pl": 89,
+   "pl": "Ein Postkartenidyll. Ab Mitte August wurde es zu etwas anderem."
+  },
+  {
+   "start": 1165.26,
+   "es": "En una cárcel para niños. Allí llegaron, en total, 46 niños y adolescentes.",
+   "id": 146,
+   "end": 1171.38,
+   "slot": 6.04,
+   "max_chars_pl": 102,
+   "pl": "Zu einem Gefängnis für Kinder. Insgesamt kamen dort 46 Kinder und Jugendliche an."
+  },
+  {
+   "start": 1171.38,
+   "es": "El menor tenía un mes de vida. El mayor, 15 años. Eran hijos y nietos de los conspiradores del 20 de julio, de familias como los Hofacker, los Goerdeler o los Tresckow.",
+   "id": 147,
+   "end": 1183.14,
+   "slot": 11.68,
+   "max_chars_pl": 198,
+   "pl": "Das jüngste war einen Monat alt, das älteste 15. Es waren Kinder und Enkel der Verschwörer des 20. Juli, aus Familien wie Hofacker, Goerdeler oder Tresckow."
+  },
+  {
+   "start": 1183.14,
+   "es": "Los separaron por edades y por sexo, los aislaron por completo del mundo exterior y les cambiaron los nombres.",
+   "id": 148,
+   "end": 1189.86,
+   "slot": 6.64,
+   "max_chars_pl": 112,
+   "pl": "Man trennte sie nach Alter und Geschlecht, schottete sie völlig von der Außenwelt ab und änderte ihre Namen."
+  },
+  {
+   "start": 1189.86,
+   "es": "Los Stauffenberg pasaron a ser los Meister. No era solo un cambio en un papel.",
+   "id": 149,
+   "end": 1194.66,
+   "slot": 4.72,
+   "max_chars_pl": 80,
+   "pl": "Aus den Stauffenbergs wurden die Meisters. Es war nicht nur eine Änderung auf dem Papier."
+  },
+  {
+   "start": 1194.66,
+   "es": "Según los historiadores que han estudiado el caso, el plan del régimen era borrar su identidad y, en el caso de los más pequeños, darlos en adopción a familias leales al nacionalsocialismo.",
+   "id": 150,
+   "end": 1205.9,
+   "slot": 11.16,
+   "max_chars_pl": 189,
+   "pl": "Nach Historikern, die den Fall untersucht haben, wollte das Regime ihre Identität auslöschen und die Kleinsten an nationalsozialistisch gesinnte Familien zur Adoption geben."
+  },
+  {
+   "start": 1205.9,
+   "es": "Si la guerra hubiera durado lo suficiente, los hijos de Stauffenberg podrían haber crecido con otro apellido en otra casa, sin saber jamás quién había sido su padre.",
+   "id": 151,
+   "end": 1215.5,
+   "slot": 9.52,
+   "max_chars_pl": 161,
+   "pl": "Hätte der Krieg lange genug gedauert, wären die Stauffenberg-Kinder vielleicht mit einem anderen Namen in einem anderen Haus aufgewachsen, ohne je zu erfahren, wer ihr Vater gewesen war."
+  },
+  {
+   "start": 1215.5,
+   "es": "Educados quizás para odiarlo. Una de aquellas niñas, Christa von Hofacker, de 12 años, escribió un diario en el que describió la vida en el bortal.",
+   "id": 152,
+   "end": 1225.22,
+   "slot": 9.64,
+   "max_chars_pl": 163,
+   "pl": "Vielleicht erzogen, ihn zu hassen. Eines dieser Mädchen, die zwölfjährige Christa von Hofacker, schrieb ein Tagebuch, in dem sie das Leben im Bornthal beschrieb."
+  },
+  {
+   "start": 1225.22,
+   "es": "La disciplina, el aislamiento, la incertidumbre. Ninguno de esos niños sabía si sus madres seguían vivas.",
+   "id": 153,
+   "end": 1232.74,
+   "slot": 7.44,
+   "max_chars_pl": 126,
+   "pl": "Die Disziplin, die Isolation, die Ungewissheit. Keines dieser Kinder wusste, ob seine Mütter noch lebten."
+  },
+  {
+   "start": 1232.74,
+   "es": "A finales de octubre de 1944, Himmler cambió de estrategia.",
+   "id": 154,
+   "end": 1238.46,
+   "slot": 5.64,
+   "max_chars_pl": 95,
+   "pl": "Ende Oktober 1944 änderte Himmler seine Strategie."
+  },
+  {
+   "start": 1238.46,
+   "es": "Algunas madres fueron liberadas y varios niños pudieron volver con sus familias.",
+   "id": 155,
+   "end": 1243.7,
+   "slot": 5.16,
+   "max_chars_pl": 87,
+   "pl": "Einige Mütter wurden entlassen, und mehrere Kinder durften zu ihren Familien zurück."
+  },
+  {
+   "start": 1243.7,
+   "es": "Pero los Stauffenberg no estaban en esa lista. El apellido seguía siendo demasiado peligroso.",
+   "id": 156,
+   "end": 1249.7,
+   "slot": 5.92,
+   "max_chars_pl": 100,
+   "pl": "Doch die Stauffenbergs standen nicht auf dieser Liste. Der Name blieb zu gefährlich."
+  },
+  {
+   "start": 1249.7,
+   "es": "Y en la primavera de 1945 llegó el momento más oscuro.",
+   "id": 157,
+   "end": 1254.9,
+   "slot": 5.12,
+   "max_chars_pl": 87,
+   "pl": "Und im Frühjahr 1945 kam der dunkelste Moment."
+  },
+  {
+   "start": 1254.9,
+   "es": "Por Pascua, la orden fue trasladar a los 18 niños que quedaban al campo de concentración de Buchenwald, donde las SS habían reunido a un gran grupo de prisioneros por razón de parentezco.",
+   "id": 158,
+   "end": 1265.94,
+   "slot": 10.96,
+   "max_chars_pl": 186,
+   "pl": "Zu Ostern erging der Befehl, die 18 verbliebenen Kinder ins KZ Buchenwald zu verlegen, wo die SS eine große Gruppe von Sippenhäftlingen zusammengezogen hatte."
+  },
+  {
+   "start": 1265.94,
+   "es": "Un camión del Wehrmacht debía llevarlos hasta la estación de tren de Nordhausen.",
+   "id": 159,
+   "end": 1270.5,
+   "slot": 4.48,
+   "max_chars_pl": 76,
+   "pl": "Ein Wehrmachtslastwagen sollte sie zum Bahnhof Nordhausen bringen."
+  },
+  {
+   "start": 1270.5,
+   "es": "Pero un retraso lo cambió todo. Poco antes de que llegaran a Nordhausen, la ciudad sufrió un bombardeo devastador y la estación quedó completamente destruida.",
+   "id": 160,
+   "end": 1279.02,
+   "slot": 8.44,
+   "max_chars_pl": 143,
+   "pl": "Doch eine Verzögerung änderte alles. Kurz vor Nordhausen erlitt die Stadt einen verheerenden Bombenangriff, der Bahnhof wurde völlig zerstört."
+  },
+  {
+   "start": 1279.02,
+   "es": "Los niños fueron devueltos a Bad Sachsah. Las bombas aliadas, sin saberlo, acababan de salvarlos.",
+   "id": 161,
+   "end": 1285.9,
+   "slot": 6.8,
+   "max_chars_pl": 115,
+   "pl": "Die Kinder wurden nach Bad Sachsa zurückgebracht. Die alliierten Bomben hatten sie, ohne es zu wissen, gerettet."
+  },
+  {
+   "start": 1285.9,
+   "es": "El 12 de abril de 1945, las tropas estadounidenses ocuparon Bad Sachsah.",
+   "id": 162,
+   "end": 1292.14,
+   "slot": 6.16,
+   "max_chars_pl": 104,
+   "pl": "Am 12. April 1945 besetzten amerikanische Truppen Bad Sachsa."
+  },
+  {
+   "start": 1292.14,
+   "es": "Fíjate en la fecha. Es el mismo día en que en Potsdam, la Gestapo interrumpía el bautismo de Konstanze.",
+   "id": 163,
+   "end": 1298.62,
+   "slot": 6.4,
+   "max_chars_pl": 108,
+   "pl": "Achte auf das Datum. Es ist derselbe Tag, an dem in Potsdam die Gestapo die Taufe Konstanzes unterbrach."
+  },
+  {
+   "start": 1298.62,
+   "es": "El mismo día en que a la madre las sacaban del hospital bajo custodia, sus hijos quedaban fuera del alcance de la SS.",
+   "id": 164,
+   "end": 1305.78,
+   "slot": 7.08,
+   "max_chars_pl": 120,
+   "pl": "Am selben Tag, an dem man die Mutter unter Bewachung aus dem Krankenhaus holte, waren ihre Kinder außer Reichweite der SS."
+  },
+  {
+   "start": 1305.78,
+   "es": "Ninguno de ellos lo sabía. Mientras tanto, los adultos de la familia vivían su propia pesadilla.",
+   "id": 165,
+   "end": 1312.26,
+   "slot": 6.4,
+   "max_chars_pl": 108,
+   "pl": "Keiner von ihnen wusste es. Währenddessen durchlebten die Erwachsenen der Familie ihren eigenen Albtraum."
+  },
+  {
+   "start": 1312.26,
+   "es": "Desde febrero de 1945, la Gestapo había ido reuniendo a los prisioneros por parentesco en un barracón de aislamiento de Buchenwald, separado del campo principal.",
+   "id": 166,
+   "end": 1322.94,
+   "slot": 10.6,
+   "max_chars_pl": 180,
+   "pl": "Seit Februar 1945 hatte die Gestapo die Gefangenen nach Verwandtschaft in einer Isolationsbaracke in Buchenwald gesammelt, getrennt vom Hauptlager."
+  },
+  {
+   "start": 1322.94,
+   "es": "Entre ellos, había varios Stauffenberg y entre ellos estaba Alexander. A comienzos de abril, con los estadounidenses cada vez más cerca, las SS los evacuaron hacia el sur.",
+   "id": 167,
+   "end": 1333.78,
+   "slot": 10.76,
+   "max_chars_pl": 182,
+   "pl": "Unter ihnen waren mehrere Stauffenbergs, darunter Alexander. Anfang April, als die Amerikaner immer näher rückten, evakuierte die SS sie nach Süden."
+  },
+  {
+   "start": 1333.78,
+   "es": "Regensburg, Schönberg, en el Bosque Bávaro, el campo de Dachau, Innsbruck, un convoy de rehenes que las SS arrastraban a través de los Alpes, quizás como moneda de cambio para negociar con los aliados.",
+   "id": 168,
+   "end": 1347.26,
+   "slot": 13.4,
+   "max_chars_pl": 227,
+   "pl": "Regensburg, Schönberg im Bayerischen Wald, das Lager Dachau, Innsbruck: ein Geiselkonvoi, den die SS durch die Alpen schleppte, vielleicht als Faustpfand für Verhandlungen mit den Alliierten."
+  },
+  {
+   "start": 1347.26,
+   "es": "Y aquí la historia vuelve a melita. En los últimos días de la guerra, la piloto de pruebas seguía buscando a su marido.",
+   "id": 169,
+   "end": 1354.3,
+   "slot": 6.96,
+   "max_chars_pl": 118,
+   "pl": "Und hier kehrt die Geschichte zu Melitta zurück. In den letzten Kriegstagen suchte die Testpilotin weiter nach ihrem Mann."
+  },
+  {
+   "start": 1354.3,
+   "es": "Supo que Alexander estaba retenido en Schönberg. El 8 de abril de 1945 despegó en una avioneta de entrenamiento, una Bücker lenta y desarmada, para intentar llegar hasta él.",
+   "id": 170,
+   "end": 1366.74,
+   "slot": 12.36,
+   "max_chars_pl": 210,
+   "pl": "Sie erfuhr, dass Alexander in Schönberg festgehalten wurde. Am 8. April 1945 startete sie in einem langsamen, unbewaffneten Schulflugzeug, einer Bücker, um zu ihm zu gelangen."
+  },
+  {
+   "start": 1366.74,
+   "es": "Cerca de Straßkirchen, en Baviera, un caza la atacó por detrás.",
+   "id": 171,
+   "end": 1371.38,
+   "slot": 4.56,
+   "max_chars_pl": 77,
+   "pl": "Bei Straßkirchen in Bayern griff sie ein Jagdflugzeug von hinten an."
+  },
+  {
+   "start": 1371.38,
+   "es": "Según la mayoría de los investigadores, era un avión estadounidense cuyo piloto la confundió con otro aparato.",
+   "id": 172,
+   "end": 1378.1,
+   "slot": 6.64,
+   "max_chars_pl": 112,
+   "pl": "Nach Ansicht der meisten Forscher war es ein amerikanisches Flugzeug, dessen Pilot sie mit einer anderen Maschine verwechselte."
+  },
+  {
+   "start": 1378.1,
+   "es": "Melitta consiguió aterrizar. Murió dos horas después por las heridas de bala.",
+   "id": 173,
+   "end": 1382.94,
+   "slot": 4.76,
+   "max_chars_pl": 80,
+   "pl": "Melitta gelang die Landung. Zwei Stunden später starb sie an ihren Schussverletzungen."
+  },
+  {
+   "start": 1382.94,
+   "es": "El convoy de rehenes siguió su camino. El 24 de abril, en Dachau, ordenaron a los prisioneros recoger sus cosas y subir a unos autobuses.",
+   "id": 174,
+   "end": 1392.18,
+   "slot": 9.16,
+   "max_chars_pl": 155,
+   "pl": "Der Geiselkonvoi zog weiter. Am 24. April befahl man den Gefangenen in Dachau, ihre Sachen zu packen und in Busse zu steigen."
+  },
+  {
+   "start": 1392.18,
+   "es": "Nadie les dijo a dónde iban. Cruzaron Innsbruck y los Alpes hasta Niederdorf, un pueblo del Tirol del Sur, en el norte de Italia.",
+   "id": 175,
+   "end": 1400.46,
+   "slot": 8.2,
+   "max_chars_pl": 139,
+   "pl": "Niemand sagte ihnen, wohin es ging. Sie überquerten Innsbruck und die Alpen bis Niederdorf, einem Dorf in Südtirol im Norden Italiens."
+  },
+  {
+   "start": 1400.46,
+   "es": "Aquel convoy era uno de los grupos de prisioneros más extraños de toda la guerra, 139 personas de 17 países.",
+   "id": 176,
+   "end": 1408.9,
+   "slot": 8.36,
+   "max_chars_pl": 142,
+   "pl": "Dieser Konvoi war eine der seltsamsten Gefangenengruppen des ganzen Krieges, 139 Menschen aus 17 Ländern."
+  },
+  {
+   "start": 1408.9,
+   "es": "Estaban el antiguo canciller de Austria, Kurt Schuschnigg, el antiguo primer ministro de Francia, Leon Blum, el pastor Martin Niemöller, uno de los grandes opositores religiosos al régimen, y, mezclados con ellos, los parientes de los conspiradores del 20 de julio, entre ellos varios Stauffenberg.",
+   "id": 177,
+   "end": 1428.1,
+   "slot": 19.12,
+   "max_chars_pl": 325,
+   "pl": "Darunter der frühere österreichische Bundeskanzler Kurt Schuschnigg, der frühere französische Ministerpräsident Léon Blum, Pastor Martin Niemöller, einer der großen religiösen Gegner des Regimes, und, mitten unter ihnen, die Angehörigen der Verschwörer des 20. Juli, darunter mehrere Stauffenbergs."
+  },
+  {
+   "start": 1428.1,
+   "es": "Según los historiadores que han reconstruido el episodio, las SS querían mantenerlos a disposición de Ernst Kaltenbrunner, el jefe de la Policía de Seguridad del Reich, como moneda de cambio para negociar con los aliados.",
+   "id": 178,
+   "end": 1440.82,
+   "slot": 12.64,
+   "max_chars_pl": 214,
+   "pl": "Nach Historikern, die die Episode rekonstruiert haben, wollte die SS sie für Ernst Kaltenbrunner, den Chef des Reichssicherheitshauptamts, als Verhandlungsmasse gegenüber den Alliierten bereithalten."
+  },
+  {
+   "start": 1440.82,
+   "es": "Y varios de los prisioneros contaron después que temían que, si esa negociación fracasaba, sus guardianes tuvieran orden de eliminarlos.",
+   "id": 179,
+   "end": 1449.38,
+   "slot": 8.48,
+   "max_chars_pl": 144,
+   "pl": "Und mehrere Gefangene erzählten später, sie hätten gefürchtet, ihre Bewacher hätten Befehl, sie zu töten, falls diese Verhandlung scheiterte."
+  },
+  {
+   "start": 1449.38,
+   "es": "No llegaron a comprobarlo. El 30 de abril de 1945, soldados de la propia Wehrmacht, al mando del capitán Richard von Alvensleben, tomaron el control y pusieron a los rehenes bajo su protección.",
+   "id": 180,
+   "end": 1462.7,
+   "slot": 13.24,
+   "max_chars_pl": 225,
+   "pl": "Das erfuhren sie nicht mehr. Am 30. April 1945 übernahmen Wehrmachtssoldaten unter Hauptmann Wichard von Alvensleben die Kontrolle und stellten die Geiseln unter ihren Schutz."
+  },
+  {
+   "start": 1462.7,
+   "es": "Los llevaron a un hotel junto al lago de Breis, entre montañas. El 4 de mayo llegaron las tropas estadounidenses, que terminaron trasladando a los antiguos rehenes a la isla de Capri.",
+   "id": 181,
+   "end": 1474.1,
+   "slot": 11.32,
+   "max_chars_pl": 192,
+   "pl": "Man brachte sie zu einem Hotel am Pragser Wildsee, zwischen Bergen. Am 4. Mai trafen amerikanische Truppen ein und brachten die ehemaligen Geiseln schließlich auf die Insel Capri."
+  },
+  {
+   "start": 1474.1,
+   "es": "Alexander von Stauffenberg sobrevivió. Su esposa había muerto tres semanas antes, intentando alcanzarlo.",
+   "id": 182,
+   "end": 1481.66,
+   "slot": 7.48,
+   "max_chars_pl": 127,
+   "pl": "Alexander von Stauffenberg überlebte. Seine Frau war drei Wochen zuvor gestorben, als sie versuchte, zu ihm zu gelangen."
+  },
+  {
+   "start": 1481.66,
+   "es": "No todos tuvieron esa suerte. Anna von Lerchenfeld, la madre de Nina, murió en 1945, todavía en cautiverio.",
+   "id": 183,
+   "end": 1490.58,
+   "slot": 8.84,
+   "max_chars_pl": 150,
+   "pl": "Nicht alle hatten dieses Glück. Anna von Lerchenfeld, Ninas Mutter, starb 1945 noch in Gefangenschaft."
+  },
+  {
+   "start": 1490.58,
+   "es": "Las fuentes no coinciden en el lugar exacto. Unas mencionan el campo de castigo de Matzkau, cerca de Danzig, y otras hablan de un campo de detención soviético.",
+   "id": 184,
+   "end": 1500.9,
+   "slot": 10.24,
+   "max_chars_pl": 174,
+   "pl": "Die Quellen stimmen im genauen Ort nicht überein. Manche nennen das Strafgefangenenlager Matzkau bei Danzig, andere ein sowjetisches Internierungslager."
+  },
+  {
+   "start": 1500.9,
+   "es": "Y entonces llegó el reencuentro. El 11 de junio de 1945 apareció en Bad Sachsa una tía abuela de los niños, la condesa Üxküll, que durante años había sido directora de enfermeras de la Cruz Roja.",
+   "id": 185,
+   "end": 1514.82,
+   "slot": 13.84,
+   "max_chars_pl": 235,
+   "pl": "Und dann kam das Wiedersehen. Am 11. Juni 1945 erschien in Bad Sachsa eine Großtante der Kinder, Gräfin Üxküll, die jahrelang Oberin des Roten Kreuzes gewesen war."
+  },
+  {
+   "start": 1514.82,
+   "es": "Había alquilado un autobús, subió a los cuatro hermanos y los llevó de vuelta a Lautlingen.",
+   "id": 186,
+   "end": 1520.14,
+   "slot": 5.24,
+   "max_chars_pl": 89,
+   "pl": "Sie hatte einen Bus gemietet, nahm die vier Geschwister mit und brachte sie zurück nach Lautlingen."
+  },
+  {
+   "start": 1520.14,
+   "es": "Poco después, Nina llegó a la casa de la abuela. Hacía casi un año que no veía a sus hijos ni sabía nada de ellos.",
+   "id": 187,
+   "end": 1527.66,
+   "slot": 7.44,
+   "max_chars_pl": 126,
+   "pl": "Kurz darauf kam Nina im Haus der Großmutter an. Sie hatte ihre Kinder fast ein Jahr nicht gesehen und nichts von ihnen gewusst."
+  },
+  {
+   "start": 1527.66,
+   "es": "Los abrazó en la misma casa donde la Gestapo la había detenido. Y les presentó a alguien, una hermana de unos cinco meses que había nacido prisionera y que ellos nunca habían visto.",
+   "id": 188,
+   "end": 1538.74,
+   "slot": 11.0,
+   "max_chars_pl": 187,
+   "pl": "Sie umarmte sie in dem Haus, in dem die Gestapo sie verhaftet hatte. Und sie stellte ihnen jemanden vor, eine etwa fünf Monate alte Schwester, als Gefangene geboren und von ihnen nie gesehen."
+  },
+  {
+   "start": 1538.74,
+   "es": "Los Meister volvían a ser los Stauffenberg, pero la guerra había terminado y el apellido todavía no estaba a salvo.",
+   "id": 189,
+   "end": 1545.82,
+   "slot": 7.0,
+   "max_chars_pl": 119,
+   "pl": "Aus den Meisters wurden wieder Stauffenbergs, doch der Krieg war vorbei, und der Name war noch nicht in Sicherheit."
+  },
+  {
+   "start": 1545.82,
+   "es": "La familia que se reunió en Lautlingen en el verano de 1945 había perdido casi todo.",
+   "id": 190,
+   "end": 1552.62,
+   "slot": 6.72,
+   "max_chars_pl": 114,
+   "pl": "Die Familie, die sich im Sommer 1945 in Lautlingen versammelte, hatte fast alles verloren."
+  },
+  {
+   "start": 1552.62,
+   "es": "Claus estaba muerto, sin tumba. Su hermano Berthold, ahorcado.",
+   "id": 191,
+   "end": 1557.22,
+   "slot": 4.52,
+   "max_chars_pl": 76,
+   "pl": "Claus war tot, ohne Grab. Sein Bruder Berthold gehängt."
+  },
+  {
+   "start": 1557.22,
+   "es": "El tío Nicolaus, ahorcado. Los primos Peter York y César von Hofacker, ejecutados.",
+   "id": 192,
+   "end": 1563.74,
+   "slot": 6.44,
+   "max_chars_pl": 109,
+   "pl": "Onkel Nikolaus gehängt. Die Cousins Peter Yorck und Cäsar von Hofacker hingerichtet."
+  },
+  {
+   "start": 1563.74,
+   "es": "Melitta, derribada en pleno vuelo. La abuela Anna, muerta en cautiverio.",
+   "id": 193,
+   "end": 1568.82,
+   "slot": 5.0,
+   "max_chars_pl": 85,
+   "pl": "Melitta mitten im Flug abgeschossen. Großmutter Anna in Gefangenschaft gestorben."
+  },
+  {
+   "start": 1568.82,
+   "es": "La casa de Bamberg había sido confiscada y saqueada. Y la nueva Alemania no lo recibió como héroes.",
+   "id": 194,
+   "end": 1575.14,
+   "slot": 6.24,
+   "max_chars_pl": 106,
+   "pl": "Das Haus in Bamberg war beschlagnahmt und geplündert worden. Und das neue Deutschland empfing sie nicht als Helden."
+  },
+  {
+   "start": 1575.14,
+   "es": "Esto es lo que más sorprende hoy. En 1951, el Instituto de Opinión Allensbach preguntó a los alemanes occidentales qué pensaban del atentado del 20 de julio.",
+   "id": 195,
+   "end": 1586.54,
+   "slot": 11.32,
+   "max_chars_pl": 192,
+   "pl": "Das überrascht heute am meisten. 1951 fragte das Institut für Demoskopie Allensbach die Westdeutschen, was sie vom Attentat des 20. Juli hielten."
+  },
+  {
+   "start": 1586.54,
+   "es": "Solo un 40% lo valoró positivamente. Un 30% lo condenó.",
+   "id": 196,
+   "end": 1591.82,
+   "slot": 5.2,
+   "max_chars_pl": 88,
+   "pl": "Nur 40 % bewerteten es positiv. 30 % verurteilten es."
+  },
+  {
+   "start": 1591.82,
+   "es": "Y otro 30% no tenía opinión o decía no saber nada.",
+   "id": 197,
+   "end": 1596.38,
+   "slot": 4.48,
+   "max_chars_pl": 76,
+   "pl": "Und weitere 30 % hatten keine Meinung oder wussten nichts."
+  },
+  {
+   "start": 1596.38,
+   "es": "El rechazo era especialmente fuerte entre los antiguos militares de carrera. Para muchos de ellos, Stauffenberg no había sido un héroe, sino un oficial que había roto su juramento y había apuñalado por la espalda a un ejército en guerra.",
+   "id": 198,
+   "end": 1610.14,
+   "slot": 13.68,
+   "max_chars_pl": 232,
+   "pl": "Die Ablehnung war besonders stark unter den früheren Berufssoldaten. Für viele war Stauffenberg kein Held, sondern ein Offizier, der seinen Eid gebrochen und einem Heer im Krieg in den Rücken gefallen war."
+  },
+  {
+   "start": 1610.14,
+   "es": "Por esos mismos años, Otto Ernst Remer, el comandante del Batallón de Guardia que en 1944 había ayudado a aplastar el golpe en Berlín y que ahora era un dirigente de la ultraderecha.",
+   "id": 199,
+   "end": 1622.26,
+   "slot": 12.04,
+   "max_chars_pl": 204,
+   "pl": "In denselben Jahren war Otto Ernst Remer, der Kommandeur des Wachbataillons, der 1944 geholfen hatte, den Putsch in Berlin niederzuschlagen, nun ein Anführer der extremen Rechten."
+  },
+  {
+   "start": 1622.26,
+   "es": "Se subió a una tribuna y llamó traidores a los hombres del 20 de julio. Pero esta vez alguien le respondió.",
+   "id": 200,
+   "end": 1628.66,
+   "slot": 6.32,
+   "max_chars_pl": 107,
+   "pl": "Er stieg auf eine Tribüne und nannte die Männer des 20. Juli Verräter. Doch diesmal widersprach ihm jemand."
+  },
+  {
+   "start": 1628.66,
+   "es": "El fiscal general de Braunschweig, Fritz Bauer, un jurista de origen judío que había sobrevivido al nazismo en el exilio, lo llevó a juicio por difamación.",
+   "id": 201,
+   "end": 1638.62,
+   "slot": 9.88,
+   "max_chars_pl": 167,
+   "pl": "Der Braunschweiger Generalstaatsanwalt Fritz Bauer, ein Jurist jüdischer Herkunft, der den Nationalsozialismus im Exil überlebt hatte, brachte ihn wegen Verleumdung vor Gericht."
+  },
+  {
+   "start": 1638.62,
+   "es": "En marzo de 1952, durante cuatro días, aquel juicio se convirtió en un juicio sobre el 20 de julio.",
+   "id": 202,
+   "end": 1645.74,
+   "slot": 7.04,
+   "max_chars_pl": 119,
+   "pl": "Im März 1952 wurde dieser Prozess vier Tage lang zu einem Prozess über den 20. Juli."
+  },
+  {
+   "start": 1645.74,
+   "es": "Bauer defendió una idea tan simple como revolucionaria para la época. El estado nazi no era un estado de derecho, sino un estado de injusticia y contra un estado de injusticia no se puede cometer alta traición.",
+   "id": 203,
+   "end": 1658.34,
+   "slot": 12.52,
+   "max_chars_pl": 212,
+   "pl": "Bauer vertrat eine Idee, so einfach wie revolutionär für ihre Zeit. Der NS-Staat war kein Rechtsstaat, sondern ein Unrechtsstaat, und gegen einen Unrechtsstaat kann man keinen Hochverrat begehen."
+  },
+  {
+   "start": 1658.34,
+   "es": "El tribunal condenó a Remer a tres meses de prisión y reconoció la resistencia del 20 de julio como legítima.",
+   "id": 204,
+   "end": 1665.38,
+   "slot": 6.96,
+   "max_chars_pl": 118,
+   "pl": "Das Gericht verurteilte Remer zu drei Monaten Haft und erkannte den Widerstand des 20. Juli als rechtmäßig an."
+  },
+  {
+   "start": 1665.38,
+   "es": "Por primera vez, una sentencia alemana quitaba a aquellos hombres el sello de traidores.",
+   "id": 205,
+   "end": 1670.78,
+   "slot": 5.32,
+   "max_chars_pl": 90,
+   "pl": "Zum ersten Mal nahm ein deutsches Urteil diesen Männern den Stempel des Verräters."
+  },
+  {
+   "start": 1670.78,
+   "es": "Ese fiscal no había terminado con el pasado. Pocos años después, Fritz Bauer impulsaría los grandes juicios de Auschwitz en Frankfurt.",
+   "id": 206,
+   "end": 1679.14,
+   "slot": 8.28,
+   "max_chars_pl": 140,
+   "pl": "Dieser Staatsanwalt war mit der Vergangenheit nicht fertig. Wenige Jahre später brachte Fritz Bauer die großen Auschwitz-Prozesse in Frankfurt in Gang."
+  },
+  {
+   "start": 1679.14,
+   "es": "Y sería él quien haría llegar en secreto a Israel la pista que permitió localizar en Argentina a Adolf Eichmann.",
+   "id": 207,
+   "end": 1685.9,
+   "slot": 6.68,
+   "max_chars_pl": 113,
+   "pl": "Und er ließ Israel heimlich den Hinweis zukommen, mit dem man Adolf Eichmann in Argentinien aufspürte."
+  },
+  {
+   "start": 1685.9,
+   "es": "El mismo hombre que limpió el nombre de Stauffenberg ayudó a sentar en el banquillo a uno de los peores verdugos del Reich.",
+   "id": 208,
+   "end": 1692.74,
+   "slot": 6.76,
+   "max_chars_pl": 114,
+   "pl": "Derselbe Mann, der den Namen Stauffenbergs reinwusch, half, einen der schlimmsten Henker des Reichs auf die Anklagebank zu bringen."
+  },
+  {
+   "start": 1692.74,
+   "es": "Para Nina, la reconstrucción fue lenta y silenciosa. Vivió con sus cinco hijos en Lautlingen y se dedicó durante años a algo casi obsesivo.",
+   "id": 209,
+   "end": 1701.54,
+   "slot": 8.72,
+   "max_chars_pl": 148,
+   "pl": "Für Nina verlief der Wiederaufbau langsam und still. Sie lebte mit ihren fünf Kindern in Lautlingen und widmete sich jahrelang einer fast besessenen Aufgabe."
+  },
+  {
+   "start": 1701.54,
+   "es": "Localizar los muebles, los objetos y los recuerdos que les habían confiscado y robado de su casa de Bamberg.",
+   "id": 210,
+   "end": 1708.14,
+   "slot": 6.52,
+   "max_chars_pl": 110,
+   "pl": "Möbel, Gegenstände und Erinnerungsstücke wiederzufinden, die man ihr aus dem Haus in Bamberg geraubt hatte."
+  },
+  {
+   "start": 1708.14,
+   "es": "Tardó ocho años. En 1953 pudo por fin volver a aquella casa.",
+   "id": 211,
+   "end": 1713.78,
+   "slot": 5.56,
+   "max_chars_pl": 94,
+   "pl": "Es dauerte acht Jahre. 1953 konnte sie endlich in dieses Haus zurückkehren."
+  },
+  {
+   "start": 1713.78,
+   "es": "Como otras viudas del 20 de julio, nunca volvió a casarse y tomó una decisión que marcaría el resto de su vida.",
+   "id": 212,
+   "end": 1721.38,
+   "slot": 7.52,
+   "max_chars_pl": 127,
+   "pl": "Wie andere Witwen des 20. Juli heiratete sie nie wieder und traf eine Entscheidung, die den Rest ihres Lebens prägen sollte."
+  },
+  {
+   "start": 1721.38,
+   "es": "Guardó la memoria de su marido, pero se negó a convertirlo en un monumento.",
+   "id": 213,
+   "end": 1726.38,
+   "slot": 4.92,
+   "max_chars_pl": 83,
+   "pl": "Sie bewahrte die Erinnerung an ihren Mann, weigerte sich aber, ihn zum Denkmal zu machen."
+  },
+  {
+   "start": 1726.38,
+   "es": "Rechazó casi siempre los discursos y los homenajes públicos. Dejó que sus hijos decidieran por sí mismos qué pensar de su padre.",
+   "id": 214,
+   "end": 1734.26,
+   "slot": 7.8,
+   "max_chars_pl": 132,
+   "pl": "Reden und öffentliche Ehrungen lehnte sie meist ab. Sie ließ ihre Kinder selbst entscheiden, was sie von ihrem Vater halten wollten."
+  },
+  {
+   "start": 1734.26,
+   "es": "Y cada uno de esos cinco hijos encontró su propia manera de cargar con el apellido.",
+   "id": 215,
+   "end": 1739.06,
+   "slot": 4.72,
+   "max_chars_pl": 80,
+   "pl": "Und jedes dieser fünf Kinder fand seinen eigenen Weg, den Namen zu tragen."
+  },
+  {
+   "start": 1739.06,
+   "es": "Berthold, el niño de diez años al que llamaron Meister, eligió el uniforme.",
+   "id": 216,
+   "end": 1744.14,
+   "slot": 5.0,
+   "max_chars_pl": 85,
+   "pl": "Berthold, der Zehnjährige, den man Meister genannt hatte, wählte die Uniform."
+  },
+  {
+   "start": 1744.14,
+   "es": "En 1956, cuando la Alemania Occidental creó un ejército nuevo desde cero, la Bundeswehr, se alistó.",
+   "id": 217,
+   "end": 1752.02,
+   "slot": 7.8,
+   "max_chars_pl": 132,
+   "pl": "1956, als Westdeutschland eine neue Armee von Grund auf schuf, die Bundeswehr, trat er ein."
+  },
+  {
+   "start": 1752.02,
+   "es": "Hizo carrera durante 38 años y llegó a general de división. Cuando se retiró en 1994 era el soldado con más años de servicio de todo el ejército alemán.",
+   "id": 218,
+   "end": 1762.94,
+   "slot": 10.84,
+   "max_chars_pl": 184,
+   "pl": "Er machte 38 Jahre Karriere und wurde Generalmajor. Als er 1994 in den Ruhestand ging, war er der dienstälteste Soldat der gesamten Bundeswehr."
+  },
+  {
+   "start": 1762.94,
+   "es": "El hijo del hombre fusilado por alzarse contra el estado alemán dedicó su vida a defender el estado democrático que vino después.",
+   "id": 219,
+   "end": 1770.18,
+   "slot": 7.16,
+   "max_chars_pl": 121,
+   "pl": "Der Sohn des Erschossenen, der sich gegen den Staat erhoben hatte, widmete sein Leben der Verteidigung des demokratischen Staates danach."
+  },
+  {
+   "start": 1770.18,
+   "es": "En 2025, con 91 años, lo resumió en una frase. Para él, su padre es un héroe.",
+   "id": 220,
+   "end": 1777.26,
+   "slot": 7.0,
+   "max_chars_pl": 119,
+   "pl": "2025, mit 91 Jahren, fasste er es in einem Satz zusammen. Für ihn ist sein Vater ein Held."
+  },
+  {
+   "start": 1777.26,
+   "es": "Heimeran, el niño que lloró al escuchar la noticia, eligió el silencio.",
+   "id": 221,
+   "end": 1782.1,
+   "slot": 4.76,
+   "max_chars_pl": 80,
+   "pl": "Heimeran, der Junge, der bei der Nachricht weinte, wählte das Schweigen."
+  },
+  {
+   "start": 1782.1,
+   "es": "Llevó una vida discreta, lejos de los aniversarios y las cámaras. Nunca se casó.",
+   "id": 222,
+   "end": 1787.5,
+   "slot": 5.32,
+   "max_chars_pl": 90,
+   "pl": "Er führte ein zurückgezogenes Leben, fern von Jahrestagen und Kameras. Er heiratete nie."
+  },
+  {
+   "start": 1787.5,
+   "es": "Murió en Zurich el 20 de octubre de 2020. Franz Ludwig, que tenía seis años cuando le cambiaron el apellido, eligió la política, estudió Derecho, se unió a la Unión Social Cristiana de Baviera, fue diputado en el Parlamento Alemán en los años 70 y 80 y en 1984 dio el salto al Parlamento Europeo.",
+   "id": 223,
+   "end": 1808.74,
+   "slot": 21.16,
+   "max_chars_pl": 359,
+   "pl": "Er starb am 20. Oktober 2020 in Zürich. Franz Ludwig, der sechs war, als man seinen Namen änderte, wählte die Politik, studierte Jura, trat in die CSU ein, war in den 70er und 80er Jahren Bundestagsabgeordneter und wechselte 1984 ins Europäische Parlament."
+  },
+  {
+   "start": 1808.74,
+   "es": "Durante décadas fue también uno de los guardianes más firmes de la memoria de su padre.",
+   "id": 224,
+   "end": 1813.62,
+   "slot": 4.8,
+   "max_chars_pl": 81,
+   "pl": "Jahrzehntelang war er auch einer der entschiedensten Hüter der Erinnerung an seinen Vater."
+  },
+  {
+   "start": 1813.62,
+   "es": "Valerie, la niña de tres años que llegó al Bornthal casi sin entender nada, tuvo la vida más corta.",
+   "id": 225,
+   "end": 1819.7,
+   "slot": 6.0,
+   "max_chars_pl": 102,
+   "pl": "Valerie, das dreijährige Mädchen, das fast ohne zu verstehen im Bornthal ankam, hatte das kürzeste Leben."
+  },
+  {
+   "start": 1819.7,
+   "es": "Se casó en 1964. Murió en Munich el 4 de junio de 1966.",
+   "id": 226,
+   "end": 1826.06,
+   "slot": 6.28,
+   "max_chars_pl": 106,
+   "pl": "Sie heiratete 1964. Sie starb am 4. Juni 1966 in München."
+  },
+  {
+   "start": 1826.06,
+   "es": "Tenía 25 años. Y Konstanze, la niña que nació prisionera en una maternidad nazi, eligió, quizá sin pensarlo, cerrar el círculo.",
+   "id": 227,
+   "end": 1835.98,
+   "slot": 9.84,
+   "max_chars_pl": 167,
+   "pl": "Sie war 25. Und Konstanze, das Mädchen, das als Gefangene in einer NS-Entbindungsklinik geboren wurde, schloss, vielleicht ohne es zu wollen, den Kreis."
+  },
+  {
+   "start": 1835.98,
+   "es": "Se formó como enfermera de maternidad. Desde 1965 vive en Suiza.",
+   "id": 228,
+   "end": 1842.18,
+   "slot": 6.12,
+   "max_chars_pl": 104,
+   "pl": "Sie wurde Hebamme. Seit 1965 lebt sie in der Schweiz."
+  },
+  {
+   "start": 1842.18,
+   "es": "Y en 2008 hizo algo que su madre nunca había hecho, escribir su historia.",
+   "id": 229,
+   "end": 1847.02,
+   "slot": 4.76,
+   "max_chars_pl": 80,
+   "pl": "Und 2008 tat sie, was ihre Mutter nie tat: ihre Geschichte schreiben."
+  },
+  {
+   "start": 1847.02,
+   "es": "Publicó una biografía de Nina, un retrato de la mujer que fingió ser una tonta ama de casa para sobrevivir a la Gestapo.",
+   "id": 230,
+   "end": 1854.38,
+   "slot": 7.28,
+   "max_chars_pl": 123,
+   "pl": "Sie veröffentlichte eine Biografie Ninas, das Porträt der Frau, die eine dumme Hausfrau spielte, um die Gestapo zu überleben."
+  },
+  {
+   "start": 1854.38,
+   "es": "Nina vivió para verlo casi todo. Vio a su hijo mayor convertido en general, al tercero en diputado y a su marido convertido en símbolo de la Nueva Alemania.",
+   "id": 231,
+   "end": 1863.98,
+   "slot": 9.52,
+   "max_chars_pl": 161,
+   "pl": "Nina erlebte fast alles. Sie sah ihren ältesten Sohn General werden, den dritten Abgeordneten und ihren Mann zum Symbol des Neuen Deutschlands."
+  },
+  {
+   "start": 1863.98,
+   "es": "Murió el 2 de abril de 2006 en Kirchlauter, cerca de Bamberg, a los 92 años.",
+   "id": 232,
+   "end": 1870.14,
+   "slot": 6.08,
+   "max_chars_pl": 103,
+   "pl": "Sie starb am 2. April 2006 in Kirchlauter bei Bamberg, mit 92."
+  },
+  {
+   "start": 1870.14,
+   "es": "Sobrevivió a Claus casi 62 años. Ni siquiera entonces el apellido dejó de generar polémica.",
+   "id": 233,
+   "end": 1876.66,
+   "slot": 6.44,
+   "max_chars_pl": 109,
+   "pl": "Sie überlebte Claus fast 62 Jahre. Doch auch da hörte der Name nicht auf, Streit auszulösen."
+  },
+  {
+   "start": 1876.66,
+   "es": "En 2007, cuando se anunció que Tom Cruise interpretaría a Stauffenberg en la película Valkyrie, miembros de la familia criticaron públicamente la elección por la vinculación del actor con la cienciología.",
+   "id": 234,
+   "end": 1888.3,
+   "slot": 11.56,
+   "max_chars_pl": 196,
+   "pl": "2007, als bekannt wurde, dass Tom Cruise Stauffenberg im Film Walküre spielen würde, kritisierten Familienmitglieder die Wahl öffentlich wegen der Verbindung des Schauspielers zu Scientology."
+  },
+  {
+   "start": 1888.3,
+   "es": "Y una nieta, la historiadora Sophie von Bechtolsheim, publicó en 2019 un libro para desmontar las leyendas que rodean a su abuelo, y lo dijo con todas las letras.",
+   "id": 235,
+   "end": 1898.98,
+   "slot": 10.6,
+   "max_chars_pl": 180,
+   "pl": "Und eine Enkelin, die Historikerin Sophie von Bechtolsheim, veröffentlichte 2019 ein Buch, um die Legenden um ihren Großvater zu entzaubern, und sagte es klar und deutlich."
+  },
+  {
+   "start": 1898.98,
+   "es": "Su abuelo no era un superhéroe. Quizás por eso su historia importa más.",
+   "id": 236,
+   "end": 1903.74,
+   "slot": 4.68,
+   "max_chars_pl": 79,
+   "pl": "Ihr Großvater war kein Superheld. Vielleicht ist seine Geschichte gerade deshalb wichtiger."
+  },
+  {
+   "start": 1903.74,
+   "es": "No fue un santo ni un personaje de película, sino un hombre lleno de contradicciones que, en un momento decisivo, hizo lo que casi nadie se atrevió a hacer.",
+   "id": 237,
+   "end": 1912.94,
+   "slot": 9.12,
+   "max_chars_pl": 155,
+   "pl": "Er war weder ein Heiliger noch eine Filmfigur, sondern ein Mensch voller Widersprüche, der in einem entscheidenden Moment tat, was fast niemand wagte."
+  },
+  {
+   "start": 1912.94,
+   "es": "Al final, la historia de la familia Stauffenberg es un espejo invertido de las otras familias del tercer Reich.",
+   "id": 238,
+   "end": 1919.22,
+   "slot": 6.2,
+   "max_chars_pl": 105,
+   "pl": "Am Ende ist die Geschichte der Stauffenbergs ein umgekehrter Spiegel der anderen Familien des Dritten Reichs."
+  },
+  {
+   "start": 1919.22,
+   "es": "Los hijos de los verdugos crecieron con un apellido que era una vergüenza. Los hijos de Stauffenberg crecieron con un apellido que, en 1944, era un delito.",
+   "id": 239,
+   "end": 1930.26,
+   "slot": 10.96,
+   "max_chars_pl": 186,
+   "pl": "Die Kinder der Täter wuchsen mit einem Namen auf, der eine Schande war. Die Kinder Stauffenbergs wuchsen mit einem Namen auf, der 1944 ein Verbrechen war."
+  },
+  {
+   "start": 1930.26,
+   "es": "En 1951, una sospecha. Y décadas después, un honor.",
+   "id": 240,
+   "end": 1936.18,
+   "slot": 5.84,
+   "max_chars_pl": 99,
+   "pl": "1951 ein Verdacht. Und Jahrzehnte später eine Ehre."
+  },
+  {
+   "start": 1936.18,
+   "es": "El apellido no cambió. Cambió el país que lo pronunciaba. Hoy, el patio de la calle Bendler donde Claus fue fusilado es un memorial a la resistencia alemana.",
+   "id": 241,
+   "end": 1946.46,
+   "slot": 10.2,
+   "max_chars_pl": 173,
+   "pl": "Der Name änderte sich nicht. Es änderte sich das Land, das ihn aussprach. Heute ist der Hof in der Bendlerstraße, wo Claus erschossen wurde, eine Gedenkstätte für den deutschen Widerstand."
+  },
+  {
+   "start": 1946.46,
+   "es": "Cada 20 de julio, jóvenes reclutas del ejército alemán prestan juramento en Berlín en recuerdo de aquel día.",
+   "id": 242,
+   "end": 1953.3,
+   "slot": 6.76,
+   "max_chars_pl": 114,
+   "pl": "Jeden 20. Juli legen junge Rekruten der Bundeswehr in Berlin zur Erinnerung an diesen Tag ihr Gelöbnis ab."
+  },
+  {
+   "start": 1953.3,
+   "es": "Hay calles y escuelas con su nombre. Y en Lautlingen, el lugar donde la Gestapo detuvo a Nina y desde donde se llevaron a sus hijos, hay hoy un memorial dedicado a los hermanos Stauffenberg.",
+   "id": 243,
+   "end": 1964.74,
+   "slot": 11.36,
+   "max_chars_pl": 193,
+   "pl": "Es gibt Straßen und Schulen mit seinem Namen. Und in Lautlingen, wo die Gestapo Nina festnahm und von wo man ihre Kinder fortbrachte, gibt es heute eine Gedenkstätte für die Brüder Stauffenberg."
+  },
+  {
+   "start": 1964.74,
+   "es": "¿Y Himmler? El hombre que ordenó quemar el cuerpo de Stauffenberg para que no tuviera tumba se quitó la vida con una cápsula de cianuro el 23 de mayo de 1945 bajo custodia británica en Lüneburg.",
+   "id": 244,
+   "end": 1978.02,
+   "slot": 13.2,
+   "max_chars_pl": 224,
+   "pl": "Und Himmler? Der Mann, der Stauffenbergs Leichnam verbrennen ließ, damit er kein Grab habe, nahm sich am 23. Mai 1945 in britischer Haft in Lüneburg mit einer Zyankalikapsel das Leben."
+  },
+  {
+   "start": 1978.02,
+   "es": "Los soldados británicos lo enterraron en secreto en una fosa sin nombre en un bosque.",
+   "id": 245,
+   "end": 1983.42,
+   "slot": 5.32,
+   "max_chars_pl": 90,
+   "pl": "Britische Soldaten begruben ihn heimlich in einem namenlosen Grab in einem Wald."
+  },
+  {
+   "start": 1983.42,
+   "es": "Hasta hoy, nadie sabe exactamente dónde está. Himmler quiso borrar a los Stauffenberg de la faz de la tierra.",
+   "id": 246,
+   "end": 1990.46,
+   "slot": 6.96,
+   "max_chars_pl": 118,
+   "pl": "Bis heute weiß niemand genau, wo es liegt. Himmler wollte die Stauffenbergs vom Antlitz der Erde tilgen."
+  },
+  {
+   "start": 1990.46,
+   "es": "Quiso que no quedara tumba, ni nombre ni descendencia. Al final, lo único que la historia borró fue su propia tumba.",
+   "id": 247,
+   "end": 1998.1,
+   "slot": 7.56,
+   "max_chars_pl": 128,
+   "pl": "Er wollte, dass weder Grab noch Name noch Nachkommen blieben. Am Ende löschte die Geschichte nur sein eigenes Grab."
+  },
+  {
+   "start": 1998.1,
+   "es": "Pero quizás la lección más profunda de esta historia sea otra. La Sippenhaft partía de una idea monstruosa.",
+   "id": 248,
+   "end": 2005.02,
+   "slot": 6.84,
+   "max_chars_pl": 116,
+   "pl": "Doch vielleicht ist die tiefste Lehre dieser Geschichte eine andere. Die Sippenhaft beruhte auf einer monströsen Idee."
+  },
+  {
+   "start": 2005.02,
+   "es": "Que la culpa se hereda con la sangre. Que un niño de 10 años debe pagar por lo que hizo su padre.",
+   "id": 249,
+   "end": 2010.66,
+   "slot": 5.56,
+   "max_chars_pl": 94,
+   "pl": "Dass Schuld im Blut vererbt wird. Dass ein Zehnjähriger für das büßen muss, was sein Vater getan hat."
+  },
+  {
+   "start": 2010.66,
+   "es": "Esa idea es falsa cuando se aplica a los hijos de un héroe. Y también cuando se aplica a los hijos de un criminal.",
+   "id": 250,
+   "end": 2017.7,
+   "slot": 6.96,
+   "max_chars_pl": 118,
+   "pl": "Diese Idee ist falsch, wenn man sie auf die Kinder eines Helden anwendet. Und ebenso bei den Kindern eines Verbrechers."
+  },
+  {
+   "start": 2017.7,
+   "es": "Lo que se hereda no es la culpa ni la gloria. Lo que se hereda es la pregunta de qué hacer con el nombre que te tocó.",
+   "id": 251,
+   "end": 2024.26,
+   "slot": 6.48,
+   "max_chars_pl": 110,
+   "pl": "Man erbt weder Schuld noch Ruhm. Man erbt die Frage, was man mit dem Namen anfängt, der einem zufiel."
+  },
+  {
+   "start": 2024.26,
+   "es": "Los niños Meister nunca existieron. Los Stauffenberg, sí. ¿Y tú crees que los hijos deben cargar con lo que hicieron sus padres?",
+   "id": 252,
+   "end": 2032.42,
+   "slot": 8.08,
+   "max_chars_pl": 137,
+   "pl": "Die Meister-Kinder gab es nie. Die Stauffenbergs schon. Und du, glaubst du, dass Kinder tragen müssen, was ihre Eltern getan haben?"
+  },
+  {
+   "start": 2032.42,
+   "es": "¿Para bien o para mal? Te leo en los comentarios. Si esta historia te pareció que merecía ser contada, dale like y suscríbete para no perderte la próxima. Nos vemos en el siguiente video.",
+   "id": 253,
+   "end": 2044.006,
+   "slot": 11.506,
+   "max_chars_pl": 195,
+   "pl": "Zum Guten oder zum Schlechten? Ich lese es in den Kommentaren. Wenn du fandest, dass diese Geschichte erzählt werden musste, gib ein Like und abonniere, um die nächste nicht zu verpassen. Bis zum nächsten Video."
+  }
+ ]
+}
