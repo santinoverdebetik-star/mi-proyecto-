@@ -7,7 +7,7 @@
 | Duración igual a la original (±0.10 s) | OK | in=2044.006s out=2044.006s |
 | Audio: 1 pista AAC a 48 kHz | OK | [('aac', '48000', 2)] |
 | Audio: etiqueta de idioma = deu | OK | deu |
-| Audio: sin clipping (pico ≤ -0.9 dB) | OK | max_volume=-2.6 dB |
+| Audio: sin clipping (pico ≤ -0.9 dB) | OK | max_volume=-2.7 dB |
 | Audio: sonoridad similar al video original (±3 LU) | OK | original=-14.6 LUFS, doblado=-12.9 LUFS |
 | Tiempos: ningún segmento excede su hueco ni se acelera más del límite | OK | 0 acelerados (≤ límite), 253 a velocidad natural |
 | Tiempos: aceleración máxima aplicada | OK | x1.0 |
