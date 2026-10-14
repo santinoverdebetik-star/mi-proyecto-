@@ -282,6 +282,9 @@ def plan(timeline_json, trabajo, semilla=3):
     huecos = []
     os.makedirs(os.path.join(trabajo, "slates"), exist_ok=True)
     for k, (bq, ancla, nth, desc) in enumerate(SLOTS, 1):
+        if os.environ.get("SOLO_CON_CLIP") and not any(os.path.exists(os.path.join(trabajo, "clips", f"slot_{k:02d}.{e}"))
+                                                       for e in ("mp4", "mov", "mkv", "webm", "avi", "m4v", "jpg", "jpeg", "png")):
+            continue                                   # sin clip: no se deja la tarjeta negra, sigue la secuencia de fotos
         a, b_ = bloque_de[bq]
         veces = [w["t0"] for w in pal if a <= w["t0"] < b_ and norm(w["w"]) == ancla]
         ini = veces[min(nth, len(veces)) - 1] - 0.4 if veces else (a + b_) / 2
