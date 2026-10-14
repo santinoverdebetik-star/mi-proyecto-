@@ -18,6 +18,7 @@ for line in body.split("\n"):
         m = re.match(r'## (\d+)\. "?(.*?)"? — \*\*\[(.*?)\]\*\*', s)
         if m:
             n = int(m.group(1)); out.append(f"\nRegla número {nums[n-1]}. {m.group(2).strip()}. Sello: {m.group(3).split(':')[0].strip().lower()}.\n")
+            continue
         m2 = re.match(r"## 19\. (.*?) — ", s)
         if m2:
             out.append(f"\nRegla número diecinueve. {m2.group(1).strip()}. Sello: a medias.\n")
