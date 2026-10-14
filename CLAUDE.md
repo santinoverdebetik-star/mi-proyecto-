@@ -14,3 +14,7 @@ Comando: `python doblar.py --dir work recortar-pausas video_final.mp4 salida.mp4
 Luego: `python doblar.py --dir work qa original.mp4 salida.mp4 --idioma <pl|de> --compacto --glosario glosario.json --modelo medium`
 
 Entregas: subir a `salida/` (Git LFS, cuota gratuita 1 GB) y pasar el enlace + el informe de QA.
+
+## Texto en pantalla (también en cada doblaje)
+
+Antes de mezclar: buscar texto en pantalla (OCR de fotogramas cada 2 s; `doblaje_pl/mansion_ivan/` tiene los scripts de ejemplo: `intro_texto.py` borra el texto original y escribe el traducido con el mismo efecto de aparición; `sub_texto.py` traduce el botón animado Subscribe/Subscribed). Se traducen los textos del canal; los nombres propios y el texto de las imágenes de archivo (mapas, pantallas) se dejan como están. Luego el video con textos traducidos es el que entra a `mezclar`.
