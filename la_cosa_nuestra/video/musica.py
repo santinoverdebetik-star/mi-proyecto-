@@ -5,8 +5,10 @@ y los efectos (whoosh al cambiar de bloque, golpe grave en cada sello), y los me
 Uso: python3 musica.py timeline.json voz.mp3 salida.wav
 Es un sustituto sencillo: para el video final conviene cambiar la pista por una real de la Biblioteca de audio
 de YouTube (sin atribucion) y dejar solo los efectos."""
-import json, subprocess, sys
+import json, os, subprocess, sys
 import numpy as np
+sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
+import musica_mafia
 
 SR = 44100
 rng = np.random.default_rng(7)
@@ -137,21 +139,21 @@ def main(timeline, voz, salida):
     musica = np.zeros(len(v))
     for a, b_, m in fus:
         dur = (b_ - a) + 2 * cf
-        seg = pistas(m, dur)
+        seg = musica_mafia.pista(m, dur) if os.environ.get('MAFIA') else pistas(m, dur)
         i0 = int((a - cf) * SR); n = len(seg)
         env = np.ones(n); k = int(cf * SR)
         env[:k] = np.linspace(0, 1, k); env[-k:] = np.linspace(1, 0, k)
         seg = seg * env
         s0, s1 = max(0, i0), min(len(musica), i0 + n)
         musica[s0:s1] += seg[s0 - i0: s1 - i0]
-    musica *= rms(v) * 0.12 / rms(musica)           # musica al ~12 % de la voz
+    musica *= rms(v) * float(os.environ.get("MUSIC_GAIN", "0.12")) / rms(musica)           # musica al ~12 % de la voz
     # bajar un poco la musica en la intro de cada bloque? (sin clips de serie, se mantiene fija)
     fx = np.zeros(len(v))
     for b in tl["bloques"]:
         if b["tipo"] in ("parte", "regla", "cierre", "sellos") and b["t0"] > 1:
-            w = whoosh(); poner(fx, w * 0.5 * rms(v) / (rms(w) + 1e-9) * 0.9, max(0, b["t0"] - 0.35))
+            w = whoosh(); poner(fx, w * 0.35 * rms(v) / (rms(w) + 1e-9) * 0.9, max(0, b["t0"] - 0.35))
         if b["tipo"] == "regla" and "t_sello" in b:
-            g = golpe(); poner(fx, g * rms(v) * 1.4 / (rms(g) + 1e-9), b["t_sello"] + 0.2)
+            g = golpe(); poner(fx, g * rms(v) * 0.85 / (rms(g) + 1e-9), b["t_sello"] + 0.2)
     mezcla = v + musica + fx
     pico = np.abs(mezcla).max()
     if pico > 0.93: mezcla *= 0.93 / pico

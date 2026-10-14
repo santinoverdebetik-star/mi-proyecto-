@@ -63,6 +63,11 @@ SLOTS = [
     (19, "harris", 1, "Tony y el agente Harris (temporada 6)"),
 ]
 SLOT_DUR = 4.0
+# Fotos historicas reales (dominio publico), en el momento en que el guion nombra al personaje: (bloque, palabra ancla, aparicion, clave de foto)
+REAL_DUR = 3.4
+REAL_SLOTS = [("parte3", "luciano", 1, "luciano"), ("parte3", "valachi", 1, "valachi1"), ("parte3", "pistone", 1, "pistone"),
+              (2, "gotti", 1, "gotti"), (10, "sparks", 1, "sparks"), (10, "castellano", 1, "castellano"),
+              (10, "gigante", 1, "gigante"), (9, "sam", 1, "decavalcante"), (17, "gravano", 1, "gravano"), (17, "valachi", 1, "valachi2")]
 
 
 def norm(w):
@@ -186,6 +191,18 @@ def preparar(imgs_dir, trabajo, timeline_json=None):
     print("fotos graduadas:", n, "| total:", len(glob.glob(os.path.join(trabajo, 'graded', '*.jpg'))))
 
 
+def preparar_reales(reales_dir, trabajo):
+    os.makedirs(os.path.join(trabajo, "reales"), exist_ok=True)
+    n = 0
+    for f in sorted(glob.glob(os.path.join(reales_dir, "*.jpg"))):
+        img = cv2.imread(f)
+        if img is None: continue
+        cv2.imwrite(os.path.join(trabajo, "reales", os.path.basename(f)), graduar(img), [cv2.IMWRITE_JPEG_QUALITY, 93]); n += 1
+    if os.path.exists(os.path.join(reales_dir, "reales.json")):
+        import shutil; shutil.copy(os.path.join(reales_dir, "reales.json"), os.path.join(trabajo, "reales", "reales.json"))
+    print("fotos reales graduadas:", n)
+
+
 def crear_tableros(timeline_json, trabajo):
     tl = json.load(open(timeline_json, encoding="utf-8"))
     rng = np.random.default_rng(5)
@@ -259,7 +276,9 @@ def plan(timeline_json, trabajo, semilla=3):
     pal = tl["palabras"]
     bloque_de = {}
     for t0_, t1_, clave_, b_ in bl:
-        bloque_de["gancho" if b_["tipo"] == "gancho" else NUM[b_["n"]] if b_["tipo"] == "regla" else None] = (t0_, t1_)
+        k_ = ("gancho" if b_["tipo"] == "gancho" else NUM[b_["n"]] if b_["tipo"] == "regla"
+              else f"parte{NUM[b_['n']]}" if b_["tipo"] == "parte" else None)
+        bloque_de[k_] = (t0_, t1_)
     huecos = []
     os.makedirs(os.path.join(trabajo, "slates"), exist_ok=True)
     for k, (bq, ancla, nth, desc) in enumerate(SLOTS, 1):
@@ -269,10 +288,27 @@ def plan(timeline_json, trabajo, semilla=3):
         ini = max(ini, a + 6.0 if bq != "gancho" else a + 14.0)
         ini = min(ini, b_ - SLOT_DUR - 0.5)
         huecos.append({"id": k, "t0": round(ini, 2), "t1": round(ini + SLOT_DUR, 2), "desc": desc})
+    reales_h = []
+    ruta_meta = os.path.join(trabajo, "reales", "reales.json")
+    meta_reales = json.load(open(ruta_meta, encoding="utf-8")) if os.path.exists(ruta_meta) else {}
+    pendientes = []
+    for bq, ancla, nth, clave in REAL_SLOTS:
+        if clave not in meta_reales or bq not in bloque_de or not os.path.exists(os.path.join(trabajo, "reales", clave + ".jpg")): continue
+        a, b_ = bloque_de[bq]
+        veces = [w["t0"] for w in pal if a <= w["t0"] < b_ and norm(w["w"]) == ancla]
+        if veces: pendientes.append((veces[min(nth, len(veces)) - 1] - 0.3, a, b_, clave))
+    prev_fin = 0.0
+    for ini, a, b_, clave in sorted(pendientes):
+        ini = max(ini, a + 5.0, prev_fin + 0.15)
+        for (o0, o1) in [(h["t0"], h["t1"]) for h in huecos] + [(r["t0"], r["t1"]) for r in reales_h]:
+            if ini < o1 + 0.1 and ini + REAL_DUR > o0 - 0.1: ini = o1 + 0.15
+        ini = min(ini, b_ - REAL_DUR - 0.3)
+        reales_h.append({"clave": clave, "t0": round(ini, 2), "t1": round(ini + REAL_DUR, 2), "pie": meta_reales[clave]["pie"]})
+        prev_fin = ini + REAL_DUR
     nuevos = []
     for c in cortes:
         partes_ = [c]
-        for h in huecos:
+        for h in huecos + reales_h:
             sig = []
             for q in partes_:
                 if q["t1"] <= h["t0"] or q["t0"] >= h["t1"]: sig.append(q); continue
@@ -284,6 +320,9 @@ def plan(timeline_json, trabajo, semilla=3):
         nuevos.append({"t0": h["t0"], "t1": h["t1"], "img": f"slates/slot_{h['id']:02d}.jpg", "mov": "quieto", "z": [1.0, 1.0],
                        "slot": h["id"], "desc": h["desc"]})
         cv2.imwrite(os.path.join(trabajo, "slates", f"slot_{h['id']:02d}.jpg"), slate(h), [cv2.IMWRITE_JPEG_QUALITY, 90])
+    for r in reales_h:
+        nuevos.append({"t0": r["t0"], "t1": r["t1"], "img": f"reales/{r['clave']}.jpg", "mov": "zoom_in", "z": [1.0, 1.07], "fx": 0.5, "fy": 0.42,
+                       "real": r["clave"]})
     cortes = sorted(nuevos, key=lambda c: c["t0"])
     for a_, b_ in zip(cortes[:-1], cortes[1:]):
         a_["t1"] = b_["t0"]
@@ -302,7 +341,10 @@ def plan(timeline_json, trabajo, semilla=3):
                 ov.append({"tipo": "sello", "t0": b["t_sello"], "t1": b["t_sello"] + 3.8, "txt": b["sello"].upper()})
         elif b["tipo"] == "cierre":
             ov.append({"tipo": "titulo", "t0": b["t0"] + 0.4, "t1": b["t0"] + 4.2, "cab": "CIERRE", "txt": "Hagamos cuentas"})
+    for r in reales_h:
+        ov.append({"tipo": "pie", "t0": r["t0"] + 0.25, "t1": r["t1"] - 0.05, "txt": r["pie"]})
     uso_total = sum(usos.values())
+    print("fotos reales colocadas:", [(r["clave"], r["t0"]) for r in reales_h])
     json.dump({"duracion": D, "cortes": cortes, "overlays": ov}, open(os.path.join(trabajo, "plan.json"), "w", encoding="utf-8"),
               ensure_ascii=False, indent=1)
     print(f"cortes: {len(cortes)} | duracion media {D / len(cortes):.2f} s | fotos distintas usadas: {sum(1 for v in usos.values() if v)} "
@@ -377,6 +419,14 @@ def render_titulo(cab, txt):
         for k, l in enumerate(lineas):
             d.text((x, 48 + 60 * k + off[1]), l, font=f2, fill=(col or (250, 247, 240, 255)))
     return np.array(img.crop((0, 0, W, min(190, alto + 24))))
+
+
+def render_pie(txt):
+    f = fuente(FSERIF, 30); tmp = ImageDraw.Draw(Image.new("RGBA", (10, 10))); w = int(tmp.textlength(txt, font=f))
+    img = Image.new("RGBA", (w + 56, 62), (0, 0, 0, 0)); d = ImageDraw.Draw(img)
+    d.rectangle([0, 0, w + 55, 61], fill=(12, 10, 9, 190)); d.rectangle([0, 0, 7, 61], fill=(190, 40, 40, 255))
+    d.text((26, 14), txt, font=f, fill=(245, 241, 232, 255))
+    return np.array(img)
 
 
 def render_sello(txt):
@@ -491,10 +541,11 @@ def render_trozo(args):
         for o in ov:                                                                    # titulos y sellos
             if o["t0"] <= t < o["t1"]:
                 k = (o["tipo"], o.get("cab"), o["txt"])
-                if k not in cache_ov: cache_ov[k] = render_titulo(o["cab"], o["txt"]) if o["tipo"] == "titulo" else render_sello(o["txt"])
+                if k not in cache_ov: cache_ov[k] = (render_titulo(o["cab"], o["txt"]) if o["tipo"] == "titulo" else render_pie(o["txt"]) if o["tipo"] == "pie" else render_sello(o["txt"]))
                 dt = min(t - o["t0"], o["t1"] - t)
                 a = min(1.0, dt / 0.35)
                 if o["tipo"] == "titulo": pegar(frame, cache_ov[k], 0, 70, a)
+                elif o["tipo"] == "pie": pegar(frame, cache_ov[k], 48, H - 118, a)
                 else:
                     sc = 1.0 + 0.35 * max(0.0, 1 - (t - o["t0"]) / 0.18)                # golpe de sello
                     img = cache_ov[k]
@@ -502,7 +553,7 @@ def render_trozo(args):
                     pegar(frame, img, W - img.shape[1] - 50, 70, a)
         j = max(0, bisect.bisect_right(fr_t0, t) - 1)                                   # subtitulos
         f_ = fr[j]
-        if f_[0]["t0"] - 0.05 <= t < f_[-1]["t1"] + 0.25:
+        if not os.environ.get("SIN_SUBS") and f_[0]["t0"] - 0.05 <= t < f_[-1]["t1"] + 0.25:
             if j not in cache_sub:
                 if len(cache_sub) > 40: cache_sub.pop(next(iter(cache_sub)))
                 cache_sub[j] = render_subtitulo(f_)
@@ -538,6 +589,7 @@ if __name__ == "__main__":
     cmd = sys.argv[1]
     if cmd == "preparar": preparar(sys.argv[2], sys.argv[3])
     elif cmd == "tableros": crear_tableros(sys.argv[2], sys.argv[3])
+    elif cmd == "reales": preparar_reales(sys.argv[2], sys.argv[3])
     elif cmd == "plan": plan(sys.argv[2], sys.argv[3])
     elif cmd == "render": render(*sys.argv[2:7])
     elif cmd == "unir": unir(*sys.argv[2:5])
