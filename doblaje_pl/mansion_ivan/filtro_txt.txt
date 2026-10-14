@@ -1,0 +1,6 @@
+[1:v]format=rgb24,setpts=PTS+160/30/TB[a];
+[2:v]format=rgb24,setpts=PTS+1977/30/TB[b];
+[3:v]format=rgb24,setpts=PTS+53397/30/TB[c];
+[0:v][a]overlay=0:0:eof_action=pass:format=auto[v1];
+[v1][b]overlay=520:545:eof_action=pass:format=auto[v2];
+[v2][c]overlay=520:500:eof_action=pass:format=auto[v]

@@ -1,0 +1,3029 @@
+{
+ "video_dur": 1790.955102,
+ "segments": [
+  {
+   "start": 0.0,
+   "end": 5.5,
+   "es": "En las profundidades de la Sierra Madre y en las calles pavimentadas de Culiacán, corre",
+   "id": 1,
+   "slot": 5.42,
+   "max_chars_pl": 75,
+   "pl": "W głębi Sierra Madre i na wybrukowanych ulicach Culiacán krąży"
+  },
+  {
+   "start": 5.5,
+   "end": 15.16,
+   "es": "un hombre que evoca tanto temor como una extraña fascinación, Iván Archivaldo Guzmán Salazar.",
+   "id": 2,
+   "slot": 9.58,
+   "max_chars_pl": 134,
+   "pl": "nazwisko, które budzi zarówno strach, jak i dziwną fascynację: Iván Archivaldo Guzmán Salazar."
+  },
+  {
+   "start": 15.16,
+   "end": 20.88,
+   "es": "Para el mundo es el líder de Los Chapitos, un objetivo prioritario de las agencias",
+   "id": 3,
+   "slot": 5.64,
+   "max_chars_pl": 78,
+   "pl": "Dla świata jest przywódcą Los Chapitos, priorytetowym celem agencji"
+  },
+  {
+   "start": 20.88,
+   "end": 23.62,
+   "es": "de inteligencia internacionales.",
+   "id": 4,
+   "slot": 2.66,
+   "max_chars_pl": 37,
+   "pl": "wywiadu z całego świata."
+  },
+  {
+   "start": 23.62,
+   "end": 29.84,
+   "es": "La Sinaloa es el hijo que heredó no sólo el imperio de Joaquín el Chapo Guzmán,",
+   "id": 5,
+   "slot": 6.14,
+   "max_chars_pl": 85,
+   "pl": "Dla Sinaloa to syn, który odziedziczył nie tylko imperium Joaquína El Chapo Guzmána,"
+  },
+  {
+   "start": 29.84,
+   "end": 34.2,
+   "es": "sino también su gusto por la extravagancia sin límites.",
+   "id": 6,
+   "slot": 4.28,
+   "max_chars_pl": 59,
+   "pl": "ale i jego zamiłowanie do ekstrawagancji bez granic."
+  },
+  {
+   "start": 34.2,
+   "end": 39.96,
+   "es": "Pero hoy no hablaremos de las rutas, ni de los operativos, ni de la guerra.",
+   "id": 7,
+   "slot": 5.68,
+   "max_chars_pl": 79,
+   "pl": "Dziś jednak nie będziemy mówić o szlakach, operacjach ani o wojnie."
+  },
+  {
+   "start": 39.96,
+   "end": 45.74,
+   "es": "Hoy abriremos las puertas blindadas de la arquitectura del poder.",
+   "id": 8,
+   "slot": 5.7,
+   "max_chars_pl": 79,
+   "pl": "Dziś otworzymy opancerzone drzwi architektury władzy."
+  },
+  {
+   "start": 45.74,
+   "end": 52.06,
+   "es": "Nos adentraremos en los pasillos de mármol, los jardines custodiados por fieras exóticas",
+   "id": 9,
+   "slot": 6.24,
+   "max_chars_pl": 87,
+   "pl": "Wejdziemy w marmurowe korytarze, ogrody strzeżone przez egzotyczne drapieżniki"
+  },
+  {
+   "start": 52.06,
+   "end": 58.94,
+   "es": "y los búnkeres de alta tecnología que conforman la mansión de Iván Archivaldo.",
+   "id": 10,
+   "slot": 6.8,
+   "max_chars_pl": 95,
+   "pl": "i bunkry najnowszej technologii, które tworzą rezydencję Ivána Archivalda."
+  },
+  {
+   "start": 58.94,
+   "end": 65.78,
+   "es": "Este no es sólo un hogar, es una declaración de guerra contra la mediocridad y un monumento",
+   "id": 11,
+   "slot": 6.76,
+   "max_chars_pl": 94,
+   "pl": "To nie tylko dom, to wypowiedzenie wojny przeciętności i pomnik"
+  },
+  {
+   "start": 65.78,
+   "end": 72.78,
+   "es": "a una riqueza que la mayoría de los mortales ni siquiera puede conceptualizar.",
+   "id": 12,
+   "slot": 6.92,
+   "max_chars_pl": 96,
+   "pl": "bogactwa, którego większość śmiertelników nie potrafi nawet sobie wyobrazić."
+  },
+  {
+   "start": 72.78,
+   "end": 76.94,
+   "es": "Bienvenidos a la guarida del rey de la cocaína moderna.",
+   "id": 13,
+   "slot": 4.08,
+   "max_chars_pl": 57,
+   "pl": "Witajcie w jaskini króla współczesnej kokainy."
+  },
+  {
+   "start": 76.94,
+   "end": 81.16,
+   "es": "Para comprender verdaderamente la magnitud y el significado de la mansión de Iván",
+   "id": 14,
+   "slot": 4.14,
+   "max_chars_pl": 57,
+   "pl": "Aby naprawdę pojąć rozmiar i znaczenie rezydencji Ivána"
+  },
+  {
+   "start": 81.16,
+   "end": 88.64,
+   "es": "Archivaldo Guzmán Salazar, es imperativo desentrañar primero la compleja red de mitología",
+   "id": 15,
+   "slot": 7.4,
+   "max_chars_pl": 103,
+   "pl": "Archivalda Guzmána Salazara, trzeba najpierw rozplątać złożoną sieć mitów"
+  },
+  {
+   "start": 88.64,
+   "end": 93.22,
+   "es": "y realidad que rodea a la sangre que corre por sus venas.",
+   "id": 16,
+   "slot": 4.5,
+   "max_chars_pl": 63,
+   "pl": "i rzeczywistości otaczającą krew płynącą w jego żyłach."
+  },
+  {
+   "start": 93.22,
+   "end": 98.5,
+   "es": "Iván no es simplemente un hombre con recursos, es el depositario de un legado",
+   "id": 17,
+   "slot": 5.2,
+   "max_chars_pl": 72,
+   "pl": "Iván to nie tylko człowiek zasobny, lecz dziedzic spuścizny,"
+  },
+  {
+   "start": 98.5,
+   "end": 102.72,
+   "es": "que ha transformado la historia contemporánea de México.",
+   "id": 18,
+   "slot": 4.14,
+   "max_chars_pl": 57,
+   "pl": "która odmieniła współczesną historię Meksyku."
+  },
+  {
+   "start": 102.72,
+   "end": 109.2,
+   "es": "A diferencia de su padre, Joaquín el Chapo Guzmán, cuya infancia en la remota aldea",
+   "id": 19,
+   "slot": 6.4,
+   "max_chars_pl": 89,
+   "pl": "W przeciwieństwie do ojca, El Chapo, którego dzieciństwo w odległej wsi"
+  },
+  {
+   "start": 109.2,
+   "end": 115.6,
+   "es": "de la tuna estuvo marcada por la carencia extrema, los suelos de tierra y el hambre",
+   "id": 20,
+   "slot": 6.32,
+   "max_chars_pl": 88,
+   "pl": "La Tuna upłynęło w skrajnej nędzy, na ziemnych podłogach i w głodzie,"
+  },
+  {
+   "start": 115.6,
+   "end": 121.0,
+   "es": "que sólo se mitiga con el trabajo extenuante en los campos de naranjas, Iván nació",
+   "id": 21,
+   "slot": 5.32,
+   "max_chars_pl": 74,
+   "pl": "który koiła tylko harówka na plantacjach pomarańczy, Iván urodził się"
+  },
+  {
+   "start": 121.0,
+   "end": 123.16,
+   "es": "en una realidad diametralmente opuesta.",
+   "id": 22,
+   "slot": 2.08,
+   "max_chars_pl": 29,
+   "pl": "w zupełnie innym świecie."
+  },
+  {
+   "start": 123.16,
+   "end": 130.14,
+   "es": "Él es, en todo el sentido de la palabra, el príncipe de Sinaloa.",
+   "id": 23,
+   "slot": 6.9,
+   "max_chars_pl": 96,
+   "pl": "Jest pod każdym względem księciem Sinaloa."
+  },
+  {
+   "start": 130.14,
+   "end": 136.0,
+   "es": "Un heredero que no tuvo que construir los cimientos del imperio, sino que fue preparado",
+   "id": 24,
+   "slot": 5.78,
+   "max_chars_pl": 80,
+   "pl": "Dziedzic, który nie budował fundamentów imperium, lecz był przygotowany"
+  },
+  {
+   "start": 136.0,
+   "end": 138.96,
+   "es": "desde la cuna para administrar su esplendor.",
+   "id": 25,
+   "slot": 2.88,
+   "max_chars_pl": 40,
+   "pl": "od kołyski, by zarządzać jego przepychem."
+  },
+  {
+   "start": 138.96,
+   "end": 146.82,
+   "es": "Mientras el Chapo forjaba su leyenda entre túneles húmedos, veredas serranas y",
+   "id": 26,
+   "slot": 7.78,
+   "max_chars_pl": 108,
+   "pl": "Gdy Chapo wykuwał swoją legendę w wilgotnych tunelach, górskich ścieżkach i w"
+  },
+  {
+   "start": 146.82,
+   "end": 152.76,
+   "es": "una vida de constante huida, Iván Archivaldo crecía en un entorno donde el peligro",
+   "id": 27,
+   "slot": 5.86,
+   "max_chars_pl": 82,
+   "pl": "życiu w ciągłej ucieczce, Iván Archivaldo dorastał w świecie, gdzie niebezpieczeństwo"
+  },
+  {
+   "start": 152.76,
+   "end": 155.48,
+   "es": "estaba blindado por el lujo.",
+   "id": 28,
+   "slot": 2.64,
+   "max_chars_pl": 36,
+   "pl": "było opancerzone luksusem."
+  },
+  {
+   "start": 155.48,
+   "end": 162.54,
+   "es": "Esta diferencia de origen ha moldeado una psicología del consumo radicalmente distinta.",
+   "id": 29,
+   "slot": 6.98,
+   "max_chars_pl": 97,
+   "pl": "Ta różnica pochodzenia ukształtowała zupełnie inną psychologię konsumpcji."
+  },
+  {
+   "start": 162.54,
+   "end": 167.84,
+   "es": "Para la vieja guardia del narcotráfico, el éxito se medía en hectáreas de tierra",
+   "id": 30,
+   "slot": 5.22,
+   "max_chars_pl": 73,
+   "pl": "Dla starej gwardii narkobiznesu sukces mierzono w hektarach ziemi"
+  },
+  {
+   "start": 167.84,
+   "end": 173.66,
+   "es": "y cabezas de ganado, manteniendo siempre un perfil bajo que les permitiera fundirse",
+   "id": 31,
+   "slot": 5.74,
+   "max_chars_pl": 80,
+   "pl": "i głowach bydła, zawsze z niskim profilem, który pozwalał wtopić się"
+  },
+  {
+   "start": 173.66,
+   "end": 175.54,
+   "es": "con el paisaje rural.",
+   "id": 32,
+   "slot": 1.8,
+   "max_chars_pl": 25,
+   "pl": "w wiejski krajobraz."
+  },
+  {
+   "start": 175.54,
+   "end": 182.3,
+   "es": "Sin embargo, Iván pertenece a la generación de los Narco Juniors, una estirpe que",
+   "id": 33,
+   "slot": 6.68,
+   "max_chars_pl": 93,
+   "pl": "Iván należy jednak do pokolenia Narco Juniors, rodu, który"
+  },
+  {
+   "start": 182.3,
+   "end": 187.68,
+   "es": "ha sustituido el sombrero de paja por la gorra de diseñador y el anonimato por la",
+   "id": 34,
+   "slot": 5.3,
+   "max_chars_pl": 74,
+   "pl": "zamienił słomkowy kapelusz na markową czapkę, a anonimowość na"
+  },
+  {
+   "start": 187.68,
+   "end": 192.14,
+   "es": "exhibición de poder en la era de la hiperconectividad.",
+   "id": 35,
+   "slot": 4.38,
+   "max_chars_pl": 61,
+   "pl": "pokaz władzy w erze hiperłączności."
+  },
+  {
+   "start": 192.14,
+   "end": 196.64,
+   "es": "La riqueza de Iván Archivaldo no es, bajo ninguna circunstancia, una riqueza",
+   "id": 36,
+   "slot": 4.42,
+   "max_chars_pl": 61,
+   "pl": "Bogactwo Ivána Archivalda nie jest pod żadnym pozorem bogactwem"
+  },
+  {
+   "start": 196.64,
+   "end": 198.38,
+   "es": "silenciosa.",
+   "id": 37,
+   "slot": 1.66,
+   "max_chars_pl": 23,
+   "pl": "cichym."
+  },
+  {
+   "start": 198.38,
+   "end": 203.5,
+   "es": "En el ecosistema de Sinaloa, el silencio a menudo se interpreta como debilidad.",
+   "id": 38,
+   "slot": 5.04,
+   "max_chars_pl": 70,
+   "pl": "W ekosystemie Sinaloa milczenie często uchodzi za słabość."
+  },
+  {
+   "start": 203.5,
+   "end": 209.22,
+   "es": "Por ello, su residencia es el epicentro de una nueva estética denominada Narcolujo,",
+   "id": 39,
+   "slot": 5.64,
+   "max_chars_pl": 78,
+   "pl": "Dlatego jego rezydencja jest epicentrum nowej estetyki zwanej narcoluksusem,"
+  },
+  {
+   "start": 209.22,
+   "end": 216.04,
+   "es": "una evolución sofisticada del estilo buchón, que ha sido elevado a su máxima potencia.",
+   "id": 40,
+   "slot": 6.74,
+   "max_chars_pl": 94,
+   "pl": "wyrafinowanej ewolucji stylu buchón, wzniesionej do najwyższej potęgi."
+  },
+  {
+   "start": 216.04,
+   "end": 220.96,
+   "es": "En este universo, el minimalismo es visto como una carencia de imaginación, o peor",
+   "id": 41,
+   "slot": 4.84,
+   "max_chars_pl": 67,
+   "pl": "W tym uniwersum minimalizm uchodzi za brak wyobraźni, albo co gorsza"
+  },
+  {
+   "start": 220.96,
+   "end": 224.48,
+   "es": "aún como una falta de presupuesto.",
+   "id": 42,
+   "slot": 3.44,
+   "max_chars_pl": 48,
+   "pl": "za brak budżetu."
+  },
+  {
+   "start": 224.48,
+   "end": 229.68,
+   "es": "Aquí la regla de oro es que cada centímetro cuadrado de propiedad debe servir como",
+   "id": 43,
+   "slot": 5.12,
+   "max_chars_pl": 71,
+   "pl": "Tu złota zasada brzmi: każdy metr kwadratowy posesji ma być"
+  },
+  {
+   "start": 229.68,
+   "end": 235.42,
+   "es": "un testimonio visual de una fortuna que desafía la lógica contable.",
+   "id": 44,
+   "slot": 5.66,
+   "max_chars_pl": 79,
+   "pl": "wizualnym świadectwem fortuny, która urąga logice księgowej."
+  },
+  {
+   "start": 235.42,
+   "end": 241.54,
+   "es": "Es una arquitectura diseñada no solo para habitar, sino para abrumar a quien la observa,",
+   "id": 45,
+   "slot": 6.04,
+   "max_chars_pl": 84,
+   "pl": "To architektura stworzona nie tylko do mieszkania, lecz by przytłaczać patrzącego,"
+  },
+  {
+   "start": 241.54,
+   "end": 246.76,
+   "es": "dejando claro que el propietario posee más recursos de los que podría consumir en",
+   "id": 46,
+   "slot": 5.14,
+   "max_chars_pl": 71,
+   "pl": "dając jasno do zrozumienia, że właściciel ma więcej, niż zdołałby zużyć w"
+  },
+  {
+   "start": 246.76,
+   "end": 251.06,
+   "es": "diez vidas de excesos ininterrumpidos.",
+   "id": 47,
+   "slot": 4.22,
+   "max_chars_pl": 59,
+   "pl": "dziesięciu życiach nieprzerwanych ekscesów."
+  },
+  {
+   "start": 251.06,
+   "end": 256.9,
+   "es": "Se dice que su residencia principal, ubicada estratégicamente en las arterias más exclusivas",
+   "id": 48,
+   "slot": 5.76,
+   "max_chars_pl": 80,
+   "pl": "Mówi się, że jego główna rezydencja, strategicznie położona w najbardziej ekskluzywnych częściach"
+  },
+  {
+   "start": 256.9,
+   "end": 262.14,
+   "es": "de Culiacán, como la emblemática colonia Guadalupe, o los desarrollos privados",
+   "id": 49,
+   "slot": 5.16,
+   "max_chars_pl": 72,
+   "pl": "Culiacán, jak słynna dzielnica Guadalupe, albo prywatne osiedla"
+  },
+  {
+   "start": 262.14,
+   "end": 268.48,
+   "es": "de ultralujo en la periferia de la ciudad, no son simples casas de habitación.",
+   "id": 50,
+   "slot": 6.26,
+   "max_chars_pl": 87,
+   "pl": "ultraluksusu na obrzeżach miasta, to nie zwykłe domy mieszkalne."
+  },
+  {
+   "start": 268.48,
+   "end": 274.42,
+   "es": "Son, en realidad, complejos habitacionales de alta seguridad que podrían rivalizar",
+   "id": 51,
+   "slot": 5.86,
+   "max_chars_pl": 82,
+   "pl": "To w rzeczywistości kompleksy o wysokim stopniu ochrony, które mogłyby rywalizować"
+  },
+  {
+   "start": 274.42,
+   "end": 279.94,
+   "es": "sin dificultad con los palacios de los jeques árabes o las villas de los oligarcas",
+   "id": 52,
+   "slot": 5.44,
+   "max_chars_pl": 76,
+   "pl": "bez trudu z pałacami arabskich szejków czy willami oligarchów"
+  },
+  {
+   "start": 279.94,
+   "end": 281.6,
+   "es": "rusos.",
+   "id": 53,
+   "slot": 1.58,
+   "max_chars_pl": 22,
+   "pl": "rosyjskich."
+  },
+  {
+   "start": 281.6,
+   "end": 287.06,
+   "es": "La elección de los materiales no es aleatoria ni se deja al azar de los proveedores",
+   "id": 54,
+   "slot": 5.38,
+   "max_chars_pl": 75,
+   "pl": "Wybór materiałów nie jest przypadkowy ani zostawiony na łaskę"
+  },
+  {
+   "start": 287.06,
+   "end": 288.6,
+   "es": "locales.",
+   "id": 55,
+   "slot": 1.46,
+   "max_chars_pl": 20,
+   "pl": "lokalnych dostawców."
+  },
+  {
+   "start": 288.6,
+   "end": 294.76,
+   "es": "Cada piedra, cada beta de madera y cada panel de vidrio cuenta la historia de un hombre",
+   "id": 56,
+   "slot": 6.08,
+   "max_chars_pl": 85,
+   "pl": "Każdy kamień, każde usłojenie drewna i każda szyba opowiada historię człowieka,"
+  },
+  {
+   "start": 294.76,
+   "end": 301.66,
+   "es": "que no acepta un no por respuesta y para quien el mundo es un catálogo abierto.",
+   "id": 57,
+   "slot": 6.82,
+   "max_chars_pl": 95,
+   "pl": "który nie przyjmuje odmowy i dla którego świat jest otwartym katalogiem."
+  },
+  {
+   "start": 301.66,
+   "end": 306.54,
+   "es": "Hablamos de granito importado directamente de las canteras más exclusivas de Italia,",
+   "id": 58,
+   "slot": 4.8,
+   "max_chars_pl": 67,
+   "pl": "Mówimy o granicie sprowadzanym prosto z najbardziej ekskluzywnych kamieniołomów Włoch,"
+  },
+  {
+   "start": 306.54,
+   "end": 311.86,
+   "es": "transportado en barcos privados para asegurar que ninguna pieza sufra la más mínima",
+   "id": 59,
+   "slot": 5.24,
+   "max_chars_pl": 73,
+   "pl": "przewożonym prywatnymi statkami, by żaden element nie doznał najmniejszej"
+  },
+  {
+   "start": 311.86,
+   "end": 313.88,
+   "es": "imperfección.",
+   "id": 60,
+   "slot": 1.94,
+   "max_chars_pl": 27,
+   "pl": "skazy."
+  },
+  {
+   "start": 313.88,
+   "end": 319.66,
+   "es": "Hablamos de maderas preciosas, extraídas de lo más profundo del Amazonas, tratadas",
+   "id": 61,
+   "slot": 5.7,
+   "max_chars_pl": 79,
+   "pl": "Mówimy o szlachetnych drewnach z głębi Amazonii, impregnowanych"
+  },
+  {
+   "start": 319.66,
+   "end": 326.68,
+   "es": "con aceites que resaltan una nobleza que solo los siglos de crecimiento pueden otorgar.",
+   "id": 62,
+   "slot": 6.94,
+   "max_chars_pl": 97,
+   "pl": "olejami, które podkreślają szlachetność, jaką dają tylko wieki wzrostu."
+  },
+  {
+   "start": 326.68,
+   "end": 333.0,
+   "es": "Estos elementos no son meros acabados decorativos, son declaraciones de soberanía.",
+   "id": 63,
+   "slot": 6.24,
+   "max_chars_pl": 87,
+   "pl": "To nie zwykłe wykończenia dekoracyjne, to deklaracje suwerenności."
+  },
+  {
+   "start": 333.0,
+   "end": 338.1,
+   "es": "Poseer una pieza de mármol que ha cruzado el océano para decorar el piso de un",
+   "id": 64,
+   "slot": 5.02,
+   "max_chars_pl": 70,
+   "pl": "Mieć kawał marmuru, który przepłynął ocean, by zdobić podłogę"
+  },
+  {
+   "start": 338.1,
+   "end": 344.58,
+   "es": "baño en Culiacán es una forma de decir que no existen fronteras ni geográficas ni",
+   "id": 65,
+   "slot": 6.4,
+   "max_chars_pl": 89,
+   "pl": "łazienki w Culiacán, to sposób, by powiedzieć, że nie ma granic ani geograficznych, ani"
+  },
+  {
+   "start": 344.58,
+   "end": 348.72,
+   "es": "económicas para el hijo favorito de El Chapo.",
+   "id": 66,
+   "slot": 4.06,
+   "max_chars_pl": 56,
+   "pl": "ekonomicznych dla ulubionego syna El Chapo."
+  },
+  {
+   "start": 348.72,
+   "end": 353.98,
+   "es": "La mansión de Iván Archivaldo es el reflejo de una necesidad intrínseca de validación",
+   "id": 67,
+   "slot": 5.18,
+   "max_chars_pl": 72,
+   "pl": "Rezydencja Ivána Archivalda odzwierciedla wewnętrzną potrzebę wizualnego uznania,"
+  },
+  {
+   "start": 353.98,
+   "end": 358.04,
+   "es": "visual que define a su generación.",
+   "id": 68,
+   "slot": 3.98,
+   "max_chars_pl": 55,
+   "pl": "które definiuje jego pokolenie."
+  },
+  {
+   "start": 358.04,
+   "end": 363.86,
+   "es": "Si su padre representaba el poder oculto en las entrañas de la tierra, Iván representa",
+   "id": 69,
+   "slot": 5.74,
+   "max_chars_pl": 80,
+   "pl": "Jeśli jego ojciec uosabiał władzę ukrytą w trzewiach ziemi, Iván uosabia"
+  },
+  {
+   "start": 363.86,
+   "end": 368.52,
+   "es": "el poder que brilla bajo el sol y las luces de neón.",
+   "id": 70,
+   "slot": 4.58,
+   "max_chars_pl": 64,
+   "pl": "władzę, która lśni w słońcu i w neonowych światłach."
+  },
+  {
+   "start": 368.52,
+   "end": 373.9,
+   "es": "La propiedad funciona como un ecosistema cerrado de indulgencia, donde la tecnología",
+   "id": 71,
+   "slot": 5.3,
+   "max_chars_pl": 74,
+   "pl": "Posiadłość działa jak zamknięty ekosystem rozpusty, gdzie najnowocześniejsza"
+  },
+  {
+   "start": 373.9,
+   "end": 380.58,
+   "es": "más avanzada de Silicon Valley se encuentra con el gusto barroco de la nueva aristocracia",
+   "id": 72,
+   "slot": 6.6,
+   "max_chars_pl": 92,
+   "pl": "technologia z Doliny Krzemowej spotyka barokowy gust nowej arystokracji"
+  },
+  {
+   "start": 380.58,
+   "end": 382.92,
+   "es": "del dinero rápido.",
+   "id": 73,
+   "slot": 2.26,
+   "max_chars_pl": 31,
+   "pl": "szybkich pieniędzy."
+  },
+  {
+   "start": 382.92,
+   "end": 387.88,
+   "es": "Es un monumento a la ambición que ha transformado el horizonte de Culiacán,",
+   "id": 74,
+   "slot": 4.88,
+   "max_chars_pl": 68,
+   "pl": "To pomnik ambicji, który zmienił horyzont Culiacán,"
+  },
+  {
+   "start": 387.88,
+   "end": 393.28,
+   "es": "convirtiendo las zonas residenciales en escaparates de una guerra de estatus donde",
+   "id": 75,
+   "slot": 5.32,
+   "max_chars_pl": 74,
+   "pl": "zamieniając dzielnice mieszkalne w witryny wojny o status, w której"
+  },
+  {
+   "start": 393.28,
+   "end": 399.46,
+   "es": "la mansión más grande, más brillante y más protegida es la que dicta quién es",
+   "id": 76,
+   "slot": 6.1,
+   "max_chars_pl": 85,
+   "pl": "największa, najjaśniejsza i najlepiej chroniona rezydencja dyktuje, kto jest"
+  },
+  {
+   "start": 399.46,
+   "end": 402.34,
+   "es": "el verdadero heredero del trono.",
+   "id": 77,
+   "slot": 2.8,
+   "max_chars_pl": 39,
+   "pl": "prawdziwym następcą tronu."
+  },
+  {
+   "start": 402.34,
+   "end": 408.46,
+   "es": "En este palacio de cristal y acero la opulencia no es un accesorio, es el lenguaje",
+   "id": 78,
+   "slot": 6.04,
+   "max_chars_pl": 84,
+   "pl": "W tym pałacu ze szkła i stali przepych nie jest dodatkiem, lecz językiem,"
+  },
+  {
+   "start": 408.46,
+   "end": 413.66,
+   "es": "principal con el que Iván Archivaldo le comunica al mundo que el imperio de",
+   "id": 79,
+   "slot": 5.12,
+   "max_chars_pl": 71,
+   "pl": "którym Iván Archivaldo mówi światu, że imperium"
+  },
+  {
+   "start": 413.66,
+   "end": 420.18,
+   "es": "su padre no solo sobrevive, sino que ha aprendido a disfrutar de su propia leyenda con un refinamiento",
+   "id": 80,
+   "slot": 6.44,
+   "max_chars_pl": 90,
+   "pl": "jego ojca nie tylko przetrwało, ale nauczyło się cieszyć własną legendą z wyrafinowaniem,"
+  },
+  {
+   "start": 420.18,
+   "end": 425.14,
+   "es": "que el viejo chapo nunca pudo siquiera imaginar.",
+   "id": 81,
+   "slot": 4.88,
+   "max_chars_pl": 68,
+   "pl": "jakiego stary Chapo nawet nie umiałby sobie wyobrazić."
+  },
+  {
+   "start": 425.14,
+   "end": 431.04,
+   "es": "Desde una perspectiva aérea o para el transeúnte que recorre las calles de Culiacán,",
+   "id": 82,
+   "slot": 5.82,
+   "max_chars_pl": 81,
+   "pl": "Z lotu ptaka lub dla przechodnia na ulicach Culiacán"
+  },
+  {
+   "start": 431.04,
+   "end": 436.28,
+   "es": "la propiedad de Iván Archivaldo Guzmán Salazar no se revela de inmediato como",
+   "id": 83,
+   "slot": 5.16,
+   "max_chars_pl": 72,
+   "pl": "posiadłość Ivána Archivalda Guzmána Salazara nie ukazuje się od razu jako"
+  },
+  {
+   "start": 436.28,
+   "end": 438.62,
+   "es": "una vivienda familiar.",
+   "id": 84,
+   "slot": 2.26,
+   "max_chars_pl": 31,
+   "pl": "dom rodzinny."
+  },
+  {
+   "start": 438.62,
+   "end": 444.3,
+   "es": "Su imponente presencia exterior evoca más bien la sobriedad de una embajada extranjera",
+   "id": 85,
+   "slot": 5.6,
+   "max_chars_pl": 78,
+   "pl": "Jej imponujący wygląd zewnętrzny przypomina raczej surowość zagranicznej ambasady"
+  },
+  {
+   "start": 444.3,
+   "end": 452.52,
+   "es": "en territorio hostil o la sofisticación de un museo de arte contemporáneo de vanguardia.",
+   "id": 86,
+   "slot": 8.14,
+   "max_chars_pl": 113,
+   "pl": "na wrogim terytorium albo wyrafinowanie awangardowego muzeum sztuki współczesnej."
+  },
+  {
+   "start": 452.52,
+   "end": 458.04,
+   "es": "Sin embargo, tras esa fachada de diseño exquisito se oculta una verdad pragmática",
+   "id": 87,
+   "slot": 5.44,
+   "max_chars_pl": 76,
+   "pl": "Jednak za tą fasadą wykwintnego designu kryje się pragmatyczna prawda,"
+  },
+  {
+   "start": 458.04,
+   "end": 460.02,
+   "es": "y contundente.",
+   "id": 88,
+   "slot": 1.9,
+   "max_chars_pl": 26,
+   "pl": "bezlitosna."
+  },
+  {
+   "start": 460.02,
+   "end": 465.06,
+   "es": "La seguridad es absoluta, obsesiva y redundante.",
+   "id": 89,
+   "slot": 4.96,
+   "max_chars_pl": 69,
+   "pl": "Ochrona jest absolutna, obsesyjna i nadmiarowa."
+  },
+  {
+   "start": 465.06,
+   "end": 470.82,
+   "es": "En este rincón del mundo, el lujo no es un sustituto de la protección, sino su",
+   "id": 90,
+   "slot": 5.68,
+   "max_chars_pl": 79,
+   "pl": "W tym zakątku świata luksus nie zastępuje ochrony, lecz jest jej"
+  },
+  {
+   "start": 470.82,
+   "end": 474.08,
+   "es": "complemento más refinado.",
+   "id": 91,
+   "slot": 3.18,
+   "max_chars_pl": 44,
+   "pl": "najbardziej wyrafinowanym dopełnieniem."
+  },
+  {
+   "start": 474.08,
+   "end": 478.2,
+   "es": "Estamos ante una estructura diseñada para ser el último refugio de un hombre que",
+   "id": 92,
+   "slot": 4.04,
+   "max_chars_pl": 56,
+   "pl": "To konstrukcja stworzona jako ostatnie schronienie człowieka, który"
+  },
+  {
+   "start": 478.2,
+   "end": 483.98,
+   "es": "sabe que su nombre encabeza las listas de los más buscados del planeta.",
+   "id": 93,
+   "slot": 5.7,
+   "max_chars_pl": 79,
+   "pl": "wie, że jego nazwisko otwiera listy najbardziej poszukiwanych na świecie."
+  },
+  {
+   "start": 483.98,
+   "end": 488.88,
+   "es": "El perímetro de la propiedad está delimitado por murallas monolíticas que",
+   "id": 94,
+   "slot": 4.82,
+   "max_chars_pl": 67,
+   "pl": "Obwód posesji wyznaczają monolityczne mury, które"
+  },
+  {
+   "start": 488.88,
+   "end": 492.26,
+   "es": "superan los cuatro metros de altura.",
+   "id": 95,
+   "slot": 3.3,
+   "max_chars_pl": 46,
+   "pl": "przekraczają cztery metry wysokości."
+  },
+  {
+   "start": 492.26,
+   "end": 498.14,
+   "es": "Estas paredes no son simples barreras de concreto, están reforzadas con aleaciones",
+   "id": 96,
+   "slot": 5.8,
+   "max_chars_pl": 81,
+   "pl": "Te ściany to nie zwykłe betonowe bariery, wzmocniono je wewnętrznymi stopami"
+  },
+  {
+   "start": 498.14,
+   "end": 504.46,
+   "es": "de acero internas y recubiertas con acabados de piedra natural que disimulan su verdadera",
+   "id": 97,
+   "slot": 6.24,
+   "max_chars_pl": 87,
+   "pl": "stali i pokryto naturalnym kamieniem, który maskuje ich prawdziwą"
+  },
+  {
+   "start": 504.46,
+   "end": 506.78,
+   "es": "naturaleza defensiva.",
+   "id": 98,
+   "slot": 2.24,
+   "max_chars_pl": 31,
+   "pl": "obronną naturę."
+  },
+  {
+   "start": 506.78,
+   "end": 512.06,
+   "es": "Coronando estos muros, un sistema de vigilancia que parece extraído de una base militar",
+   "id": 99,
+   "slot": 5.2,
+   "max_chars_pl": 72,
+   "pl": "Na szczycie murów system nadzoru, jakby wyjęty z bazy wojskowej,"
+  },
+  {
+   "start": 512.06,
+   "end": 516.66,
+   "es": "de alta tecnología patrulla el entorno en silencio.",
+   "id": 100,
+   "slot": 4.52,
+   "max_chars_pl": 63,
+   "pl": "najnowszej generacji w ciszy patroluje okolicę."
+  },
+  {
+   "start": 516.66,
+   "end": 522.84,
+   "es": "Cámaras de visión térmica, con capacidad de largo alcance, barren el área circundante",
+   "id": 101,
+   "slot": 6.1,
+   "max_chars_pl": 85,
+   "pl": "Kamery termowizyjne o dalekim zasięgu omiatają okolicę"
+  },
+  {
+   "start": 522.84,
+   "end": 529.98,
+   "es": "las 24 horas del día, identificando firmas de calor a cientos de metros de distancia.",
+   "id": 102,
+   "slot": 7.06,
+   "max_chars_pl": 98,
+   "pl": "przez 24 godziny na dobę, wykrywając ślady ciepła z odległości setek metrów."
+  },
+  {
+   "start": 529.98,
+   "end": 536.82,
+   "es": "Sensores de movimiento de última generación y tecnología LiDAR detectan cualquier aproximación",
+   "id": 103,
+   "slot": 6.76,
+   "max_chars_pl": 94,
+   "pl": "Czujniki ruchu najnowszej generacji i technologia LiDAR wykrywają każde nieautoryzowane"
+  },
+  {
+   "start": 536.82,
+   "end": 543.46,
+   "es": "no autorizada, enviando alertas instantáneas a un centro de comando oculto en las entrañas",
+   "id": 104,
+   "slot": 6.56,
+   "max_chars_pl": 91,
+   "pl": "zbliżenie, wysyłając natychmiastowe alerty do centrum dowodzenia ukrytego w trzewiach"
+  },
+  {
+   "start": 543.46,
+   "end": 545.7,
+   "es": "de la edificación.",
+   "id": 105,
+   "slot": 2.16,
+   "max_chars_pl": 30,
+   "pl": "budynku."
+  },
+  {
+   "start": 545.7,
+   "end": 551.62,
+   "es": "En este esquema de seguridad, el concepto de punto ciego ha sido erradicado mediante",
+   "id": 106,
+   "slot": 5.84,
+   "max_chars_pl": 81,
+   "pl": "W tym systemie ochrony pojęcie martwego pola wykorzeniono dzięki"
+  },
+  {
+   "start": 551.62,
+   "end": 554.86,
+   "es": "un diseño geométrico perfecto.",
+   "id": 107,
+   "slot": 3.16,
+   "max_chars_pl": 44,
+   "pl": "perfekcyjnemu projektowi geometrycznemu."
+  },
+  {
+   "start": 554.86,
+   "end": 559.34,
+   "es": "Cada ángulo está cubierto por al menos dos ojos electrónicos independientes.",
+   "id": 108,
+   "slot": 4.4,
+   "max_chars_pl": 61,
+   "pl": "Każdy kąt obejmują co najmniej dwa niezależne oczy elektroniczne."
+  },
+  {
+   "start": 559.34,
+   "end": 565.46,
+   "es": "La entrada principal es el primer recordatorio de que esta es una zona de exclusión.",
+   "id": 109,
+   "slot": 6.04,
+   "max_chars_pl": 84,
+   "pl": "Główne wejście to pierwsze przypomnienie, że to strefa zakazana."
+  },
+  {
+   "start": 565.46,
+   "end": 570.14,
+   "es": "Los portones no son de hierro forjado decorativo, sino de acero reforzado de",
+   "id": 110,
+   "slot": 4.6,
+   "max_chars_pl": 64,
+   "pl": "Wrota nie są z dekoracyjnego kutego żelaza, lecz ze wzmocnionej stali"
+  },
+  {
+   "start": 570.14,
+   "end": 574.62,
+   "es": "grado balístico, capaces de detener el impacto frontal de un vehículo de asalto",
+   "id": 111,
+   "slot": 4.4,
+   "max_chars_pl": 61,
+   "pl": "klasy balistycznej, zdolnej zatrzymać czołowe uderzenie opancerzonego"
+  },
+  {
+   "start": 574.62,
+   "end": 579.18,
+   "es": "blindado o resistir embates con arietes pesados.",
+   "id": 112,
+   "slot": 4.48,
+   "max_chars_pl": 62,
+   "pl": "pojazdu szturmowego lub wytrzymać ciężkie tarany."
+  },
+  {
+   "start": 579.18,
+   "end": 585.06,
+   "es": "Cruzar este umbral es pasar por una exclusa de seguridad que funciona con una precisión",
+   "id": 113,
+   "slot": 5.8,
+   "max_chars_pl": 81,
+   "pl": "Przekroczenie tego progu to przejście przez śluzę bezpieczeństwa o precyzji"
+  },
+  {
+   "start": 585.06,
+   "end": 586.98,
+   "es": "de relojero.",
+   "id": 114,
+   "slot": 1.84,
+   "max_chars_pl": 25,
+   "pl": "zegarmistrza."
+  },
+  {
+   "start": 586.98,
+   "end": 592.44,
+   "es": "Sin embargo, una vez que el sistema reconoce al habitante o al invitado autorizado,",
+   "id": 115,
+   "slot": 5.38,
+   "max_chars_pl": 75,
+   "pl": "Gdy jednak system rozpozna mieszkańca lub upoważnionego gościa,"
+  },
+  {
+   "start": 592.44,
+   "end": 597.52,
+   "es": "y las pesadas hojas de acero se deslizan sobre sus rieles de alta resistencia,",
+   "id": 116,
+   "slot": 5.0,
+   "max_chars_pl": 70,
+   "pl": "a ciężkie stalowe skrzydła przesuną się po wytrzymałych szynach,"
+  },
+  {
+   "start": 597.52,
+   "end": 602.88,
+   "es": "la hostilidad visual de la fortaleza se desvanece instantáneamente.",
+   "id": 117,
+   "slot": 5.28,
+   "max_chars_pl": 73,
+   "pl": "wizualna wrogość fortecy natychmiast znika."
+  },
+  {
+   "start": 602.88,
+   "end": 606.6,
+   "es": "Es aquí donde comienza el espectáculo del exceso.",
+   "id": 118,
+   "slot": 3.64,
+   "max_chars_pl": 50,
+   "pl": "Tu zaczyna się spektakl przepychu."
+  },
+  {
+   "start": 606.6,
+   "end": 612.5,
+   "es": "Tras el portón, el visitante es recibido por un oasis de calma artificial que parece",
+   "id": 119,
+   "slot": 5.82,
+   "max_chars_pl": 81,
+   "pl": "Za bramą gościa wita oaza sztucznego spokoju, która zdaje się"
+  },
+  {
+   "start": 612.5,
+   "end": 617.24,
+   "es": "desafiar el clima árido y la tensión política de Sinaloa.",
+   "id": 120,
+   "slot": 4.66,
+   "max_chars_pl": 65,
+   "pl": "przeczyć suchemu klimatowi i napięciu politycznemu Sinaloa."
+  },
+  {
+   "start": 617.24,
+   "end": 623.5,
+   "es": "El camino de entrada, una avenida privada de proporciones generosas, está apavimentado",
+   "id": 121,
+   "slot": 6.18,
+   "max_chars_pl": 86,
+   "pl": "Droga wjazdowa, prywatna aleja o hojnych proporcjach, jest"
+  },
+  {
+   "start": 623.5,
+   "end": 630.38,
+   "es": "enteramente con piedra volcánica pulida de un tono gris profundo que brilla bajo",
+   "id": 122,
+   "slot": 6.8,
+   "max_chars_pl": 95,
+   "pl": "w całości wyłożona polerowanym kamieniem wulkanicznym w głębokim szarym odcieniu, który lśni"
+  },
+  {
+   "start": 630.38,
+   "end": 634.52,
+   "es": "el sol como si estuviera permanentemente húmeda.",
+   "id": 123,
+   "slot": 4.06,
+   "max_chars_pl": 56,
+   "pl": "w słońcu, jakby wciąż był mokry."
+  },
+  {
+   "start": 634.52,
+   "end": 640.14,
+   "es": "Flanqueando este sendero, se despliega un ejército de palmeras exóticas traídas",
+   "id": 124,
+   "slot": 5.54,
+   "max_chars_pl": 77,
+   "pl": "Wzdłuż tej ścieżki rozciąga się armia egzotycznych palm sprowadzonych"
+  },
+  {
+   "start": 640.14,
+   "end": 645.26,
+   "es": "directamente de las latitudes más exclusivas del Caribe y mantenidas en un estado de",
+   "id": 125,
+   "slot": 5.04,
+   "max_chars_pl": 70,
+   "pl": "prosto z najbardziej ekskluzywnych szerokości Karaibów i utrzymywanych w stanie"
+  },
+  {
+   "start": 645.26,
+   "end": 651.1,
+   "es": "perfección botánica mediante sistemas de riego subterráneos automatizados.",
+   "id": 126,
+   "slot": 5.76,
+   "max_chars_pl": 80,
+   "pl": "botanicznej doskonałości przez automatyczne podziemne systemy nawadniania."
+  },
+  {
+   "start": 651.1,
+   "end": 653.26,
+   "es": "El contraste es brutal.",
+   "id": 127,
+   "slot": 2.08,
+   "max_chars_pl": 29,
+   "pl": "Kontrast jest brutalny."
+  },
+  {
+   "start": 653.26,
+   "end": 658.06,
+   "es": "En un segundo pasas de la vigilancia militarizada a una atmósfera de risor",
+   "id": 128,
+   "slot": 4.72,
+   "max_chars_pl": 66,
+   "pl": "W jednej chwili przechodzisz od zmilitaryzowanej ochrony do atmosfery"
+  },
+  {
+   "start": 658.06,
+   "end": 664.26,
+   "es": "de ultralujo, donde el aire parece más fresco y el ruido de la ciudad desaparece",
+   "id": 129,
+   "slot": 6.12,
+   "max_chars_pl": 85,
+   "pl": "ultraluksusowej beztroski, gdzie powietrze wydaje się świeższe, a hałas miasta znika"
+  },
+  {
+   "start": 664.26,
+   "end": 665.96,
+   "es": "por completo.",
+   "id": 130,
+   "slot": 1.62,
+   "max_chars_pl": 22,
+   "pl": "całkowicie."
+  },
+  {
+   "start": 665.96,
+   "end": 671.86,
+   "es": "La arquitectura de la casa principal es un estudio de contrastes equilibrados.",
+   "id": 131,
+   "slot": 5.82,
+   "max_chars_pl": 81,
+   "pl": "Architektura głównego domu to studium zrównoważonych kontrastów."
+  },
+  {
+   "start": 671.86,
+   "end": 677.66,
+   "es": "Combina las líneas limpias y funcionales del modernismo internacional con toques",
+   "id": 132,
+   "slot": 5.72,
+   "max_chars_pl": 80,
+   "pl": "Łączy czyste, funkcjonalne linie międzynarodowego modernizmu z klasycznymi akcentami"
+  },
+  {
+   "start": 677.66,
+   "end": 682.46,
+   "es": "clásicos que remiten a la opulencia de las villas europeas.",
+   "id": 133,
+   "slot": 4.72,
+   "max_chars_pl": 66,
+   "pl": "przywołującymi przepych europejskich willi."
+  },
+  {
+   "start": 682.46,
+   "end": 690.42,
+   "es": "Los materiales predominantes, el mármol, el acero inoxidable y el vidrio, se entrelazan",
+   "id": 134,
+   "slot": 7.88,
+   "max_chars_pl": 110,
+   "pl": "Dominujące materiały, marmur, stal nierdzewna i szkło, splatają się,"
+  },
+  {
+   "start": 690.42,
+   "end": 695.52,
+   "es": "para crear una estética que es a la vez gélida y acogedora.",
+   "id": 135,
+   "slot": 5.02,
+   "max_chars_pl": 70,
+   "pl": "tworząc estetykę zarazem lodowatą i przytulną."
+  },
+  {
+   "start": 695.52,
+   "end": 700.96,
+   "es": "Lo más llamativo son los enormes ventanales que dominan la fachada.",
+   "id": 136,
+   "slot": 5.36,
+   "max_chars_pl": 75,
+   "pl": "Najbardziej rzucają się w oczy ogromne okna dominujące nad fasadą."
+  },
+  {
+   "start": 700.96,
+   "end": 706.38,
+   "es": "A simple vista parecen fragilidades en la armadura de la mansión, pero la realidad",
+   "id": 137,
+   "slot": 5.34,
+   "max_chars_pl": 74,
+   "pl": "Na pierwszy rzut oka wyglądają na słabe punkty zbroi rezydencji, lecz rzeczywistość"
+  },
+  {
+   "start": 706.38,
+   "end": 707.76,
+   "es": "es otra.",
+   "id": 138,
+   "slot": 1.3,
+   "max_chars_pl": 18,
+   "pl": "jest inna."
+  },
+  {
+   "start": 707.76,
+   "end": 714.7,
+   "es": "Se trata de paneles de vidrio blindado multicapa de un grosor tal que la luz al atravesarlos",
+   "id": 139,
+   "slot": 6.86,
+   "max_chars_pl": 96,
+   "pl": "To wielowarstwowe panele ze szkła pancernego o takiej grubości, że światło, przechodząc przez nie,"
+  },
+  {
+   "start": 714.7,
+   "end": 718.06,
+   "es": "sufre una ligera distorsión cromática.",
+   "id": 140,
+   "slot": 3.28,
+   "max_chars_pl": 45,
+   "pl": "doznaje lekkiego zniekształcenia barwnego."
+  },
+  {
+   "start": 718.06,
+   "end": 723.78,
+   "es": "Un recordatorio sutil para quien está dentro de que el mundo exterior es una película",
+   "id": 141,
+   "slot": 5.64,
+   "max_chars_pl": 78,
+   "pl": "Subtelne przypomnienie dla będących w środku, że świat zewnętrzny to film,"
+  },
+  {
+   "start": 723.78,
+   "end": 726.64,
+   "es": "que se proyecta tras una barrera impenetrable.",
+   "id": 142,
+   "slot": 2.78,
+   "max_chars_pl": 38,
+   "pl": "wyświetlany za nieprzebytą barierą."
+  },
+  {
+   "start": 726.64,
+   "end": 733.58,
+   "es": "Estos ventanales permiten una integración visual total con los jardines internos,",
+   "id": 143,
+   "slot": 6.86,
+   "max_chars_pl": 96,
+   "pl": "Te okna pozwalają na pełną wizualną integrację z wewnętrznymi ogrodami,"
+  },
+  {
+   "start": 733.58,
+   "end": 739.7,
+   "es": "permitiendo que la naturaleza sea parte de la decoración sin sacrificar ni un ápice",
+   "id": 144,
+   "slot": 6.04,
+   "max_chars_pl": 84,
+   "pl": "sprawiając, że natura staje się częścią wystroju bez poświęcania ani odrobiny"
+  },
+  {
+   "start": 739.7,
+   "end": 742.6,
+   "es": "de la protección necesaria.",
+   "id": 145,
+   "slot": 2.82,
+   "max_chars_pl": 39,
+   "pl": "niezbędnej ochrony."
+  },
+  {
+   "start": 742.6,
+   "end": 748.98,
+   "es": "Bajo la superficie de esta elegancia superficial, la ingeniería de la mansión oculta sus",
+   "id": 146,
+   "slot": 6.3,
+   "max_chars_pl": 88,
+   "pl": "Pod powierzchnią tej pozornej elegancji inżynieria rezydencji skrywa swoje"
+  },
+  {
+   "start": 748.98,
+   "end": 751.9,
+   "es": "secretos más oscuros.",
+   "id": 147,
+   "slot": 2.84,
+   "max_chars_pl": 39,
+   "pl": "najmroczniejsze sekrety."
+  },
+  {
+   "start": 751.9,
+   "end": 757.6,
+   "es": "Se rumorea, entre los constructores y proveedores que han pasado por la obra, bajo estrictos",
+   "id": 148,
+   "slot": 5.62,
+   "max_chars_pl": 78,
+   "pl": "Wśród budowniczych i dostawców, którzy pracowali przy tej budowie na mocy ścisłych"
+  },
+  {
+   "start": 757.6,
+   "end": 764.62,
+   "es": "contratos de confidencialidad que la estructura no descansa sobre cimientos convencionales.",
+   "id": 149,
+   "slot": 6.94,
+   "max_chars_pl": 97,
+   "pl": "umów poufności, krążą plotki, że konstrukcja nie spoczywa na konwencjonalnych fundamentach."
+  },
+  {
+   "start": 764.62,
+   "end": 770.64,
+   "es": "En su lugar, posee una base de cimentación reforzada con especificaciones antisísmicas",
+   "id": 150,
+   "slot": 5.94,
+   "max_chars_pl": 83,
+   "pl": "Zamiast tego ma fundament wzmocniony według norm przeciwsejsmicznych"
+  },
+  {
+   "start": 770.64,
+   "end": 776.72,
+   "es": "y antiexplosivas, diseñada para resistir ataques con armamento pesado o detonaciones",
+   "id": 151,
+   "slot": 6.0,
+   "max_chars_pl": 84,
+   "pl": "i przeciwwybuchowych, zaprojektowany, by wytrzymać ataki ciężką bronią lub detonacje"
+  },
+  {
+   "start": 776.72,
+   "end": 779.08,
+   "es": "de gran magnitud.",
+   "id": 152,
+   "slot": 2.28,
+   "max_chars_pl": 31,
+   "pl": "ogromnej mocy."
+  },
+  {
+   "start": 779.08,
+   "end": 783.98,
+   "es": "Esta característica eleva la categoría de la propiedad de simple mansión a la",
+   "id": 153,
+   "slot": 4.82,
+   "max_chars_pl": 67,
+   "pl": "Ta cecha podnosi kategorię posiadłości z prostej rezydencji do"
+  },
+  {
+   "start": 783.98,
+   "end": 787.5,
+   "es": "de un bunker de lujo que respira.",
+   "id": 154,
+   "slot": 3.44,
+   "max_chars_pl": 48,
+   "pl": "luksusowego, oddychającego bunkra."
+  },
+  {
+   "start": 787.5,
+   "end": 793.9,
+   "es": "Es un espacio capaz de mantener una autonomía operativa total durante semanas.",
+   "id": 155,
+   "slot": 6.32,
+   "max_chars_pl": 88,
+   "pl": "To przestrzeń zdolna do pełnej autonomii operacyjnej przez całe tygodnie."
+  },
+  {
+   "start": 793.9,
+   "end": 799.12,
+   "es": "Cuenta con sus propios generadores de energía, de ciclo infinito, sistemas de",
+   "id": 156,
+   "slot": 5.14,
+   "max_chars_pl": 71,
+   "pl": "Ma własne generatory prądu o nieskończonym cyklu, systemy"
+  },
+  {
+   "start": 799.12,
+   "end": 805.02,
+   "es": "purificación de agua de grado hospitalario y reservas de aire filtrado.",
+   "id": 157,
+   "slot": 5.82,
+   "max_chars_pl": 81,
+   "pl": "oczyszczania wody klasy szpitalnej i zapasy filtrowanego powietrza."
+  },
+  {
+   "start": 805.02,
+   "end": 810.0,
+   "es": "La fortaleza de Iván Archivaldo es, en esencia, un manifiesto arquitectónico",
+   "id": 158,
+   "slot": 4.9,
+   "max_chars_pl": 68,
+   "pl": "Forteca Ivána Archivalda to w istocie manifest architektoniczny"
+  },
+  {
+   "start": 810.0,
+   "end": 814.2,
+   "es": "sobre la supervivencia en el siglo XXI.",
+   "id": 159,
+   "slot": 4.12,
+   "max_chars_pl": 57,
+   "pl": "o przetrwaniu w XXI wieku."
+  },
+  {
+   "start": 814.2,
+   "end": 819.42,
+   "es": "Esa es la evolución del capo tradicional, que se escondía en cuevas o ranchos remotos",
+   "id": 160,
+   "slot": 5.14,
+   "max_chars_pl": 71,
+   "pl": "To ewolucja tradycyjnego bossa, który chował się w jaskiniach lub odległych rancho,"
+  },
+  {
+   "start": 819.42,
+   "end": 824.64,
+   "es": "hacia un líder moderno que se atrinchera en la sofisticación tecnológica y el diseño",
+   "id": 161,
+   "slot": 5.14,
+   "max_chars_pl": 71,
+   "pl": "w kierunku nowoczesnego przywódcy, który okopuje się w technologicznym wyrafinowaniu i designie"
+  },
+  {
+   "start": 824.64,
+   "end": 825.64,
+   "es": "de alta gama.",
+   "id": 162,
+   "slot": 0.92,
+   "max_chars_pl": 12,
+   "pl": "premium."
+  },
+  {
+   "start": 825.64,
+   "end": 831.84,
+   "es": "Aquí, el mármol no solo es estético, es el revestimiento de un muro que detiene",
+   "id": 163,
+   "slot": 6.12,
+   "max_chars_pl": 85,
+   "pl": "Tu marmur nie jest tylko estetyką, to okładzina muru, który zatrzymuje"
+  },
+  {
+   "start": 831.84,
+   "end": 833.14,
+   "es": "balas.",
+   "id": 164,
+   "slot": 1.22,
+   "max_chars_pl": 17,
+   "pl": "kule."
+  },
+  {
+   "start": 833.14,
+   "end": 838.58,
+   "es": "El acero no es solo estructural, es la piel que protege al heredero.",
+   "id": 165,
+   "slot": 5.36,
+   "max_chars_pl": 75,
+   "pl": "Stal nie jest tylko konstrukcją, to skóra, która chroni dziedzica."
+  },
+  {
+   "start": 838.58,
+   "end": 843.72,
+   "es": "Cada decisión de diseño, desde la posición de una cámara hasta la elección del",
+   "id": 166,
+   "slot": 5.06,
+   "max_chars_pl": 70,
+   "pl": "Każda decyzja projektowa, od ustawienia kamery po wybór"
+  },
+  {
+   "start": 843.72,
+   "end": 849.52,
+   "es": "tipo de piedra volcánica para el suelo, ha sido tomada con un doble propósito.",
+   "id": 167,
+   "slot": 5.72,
+   "max_chars_pl": 80,
+   "pl": "rodzaju kamienia wulkanicznego na podłogę, miała podwójny cel."
+  },
+  {
+   "start": 849.52,
+   "end": 853.82,
+   "es": "El placer de los sentidos y la preservación de la vida.",
+   "id": 168,
+   "slot": 4.22,
+   "max_chars_pl": 59,
+   "pl": "Przyjemność zmysłów i zachowanie życia."
+  },
+  {
+   "start": 853.82,
+   "end": 859.48,
+   "es": "Es una jaula de oro sí, pero una que ha sido diseñada para ser el lugar más seguro",
+   "id": 169,
+   "slot": 5.58,
+   "max_chars_pl": 78,
+   "pl": "To złota klatka, owszem, ale zaprojektowana tak, by być najbezpieczniejszym miejscem"
+  },
+  {
+   "start": 859.48,
+   "end": 862.42,
+   "es": "de la tierra para su dueño.",
+   "id": 170,
+   "slot": 2.86,
+   "max_chars_pl": 40,
+   "pl": "na ziemi dla swego właściciela."
+  },
+  {
+   "start": 862.42,
+   "end": 867.96,
+   "es": "Cruzar el umbral de la mansión de Iván Archivaldo es, en muchos sentidos, abandonar",
+   "id": 171,
+   "slot": 5.46,
+   "max_chars_pl": 76,
+   "pl": "Przekroczyć próg rezydencji Ivána Archivalda to pod wieloma względami opuścić"
+  },
+  {
+   "start": 867.96,
+   "end": 873.96,
+   "es": "la realidad física de Culiacán para adentrarse en un manifiesto de soberanía personal.",
+   "id": 172,
+   "slot": 5.92,
+   "max_chars_pl": 82,
+   "pl": "fizyczną rzeczywistość Culiacán i wejść w manifest osobistej suwerenności."
+  },
+  {
+   "start": 873.96,
+   "end": 880.28,
+   "es": "Si el exterior es una advertencia de fuerza, el interior es una oda a la conquista.",
+   "id": 173,
+   "slot": 6.24,
+   "max_chars_pl": 87,
+   "pl": "Jeśli zewnętrze to ostrzeżenie siły, wnętrze jest odą do podboju."
+  },
+  {
+   "start": 880.28,
+   "end": 885.24,
+   "es": "Al entrar en el vestíbulo principal, lo primero que golpea al visitante no es",
+   "id": 174,
+   "slot": 4.88,
+   "max_chars_pl": 68,
+   "pl": "Po wejściu do głównego westybulu pierwsze, co uderza gościa, to nie"
+  },
+  {
+   "start": 885.24,
+   "end": 888.78,
+   "es": "la seguridad, sino la escala abrumadora.",
+   "id": 175,
+   "slot": 3.46,
+   "max_chars_pl": 48,
+   "pl": "ochrona, lecz przytłaczająca skala."
+  },
+  {
+   "start": 888.78,
+   "end": 893.52,
+   "es": "Aquí el espacio no se mide en metros, sino en ambición.",
+   "id": 176,
+   "slot": 4.66,
+   "max_chars_pl": 65,
+   "pl": "Tu przestrzeń mierzy się nie w metrach, lecz w ambicji."
+  },
+  {
+   "start": 893.52,
+   "end": 899.38,
+   "es": "Techos de doble altura, que se elevan casi ocho metros sobre la cabeza del espectador,",
+   "id": 177,
+   "slot": 5.78,
+   "max_chars_pl": 80,
+   "pl": "Sufity o podwójnej wysokości, wznoszące się prawie osiem metrów nad głową widza,"
+  },
+  {
+   "start": 899.38,
+   "end": 904.48,
+   "es": "crean una sensación de catedralicia que obliga a levantar la vista.",
+   "id": 178,
+   "slot": 5.02,
+   "max_chars_pl": 70,
+   "pl": "tworzą katedralne wrażenie, które zmusza do podniesienia wzroku."
+  },
+  {
+   "start": 904.48,
+   "end": 909.94,
+   "es": "Desde esas alturas cuelgan candelabros monumentales de cristal de Swarovski, piezas",
+   "id": 179,
+   "slot": 5.38,
+   "max_chars_pl": 75,
+   "pl": "Z tych wysokości zwisają monumentalne żyrandole z kryształu Swarovskiego,"
+  },
+  {
+   "start": 909.94,
+   "end": 916.3,
+   "es": "de ingeniería lumínica que no sólo iluminan, sino que diseccionan la luz.",
+   "id": 180,
+   "slot": 6.28,
+   "max_chars_pl": 87,
+   "pl": "dzieła inżynierii świetlnej, które nie tylko oświetlają, lecz rozszczepiają światło."
+  },
+  {
+   "start": 916.3,
+   "end": 922.4,
+   "es": "Cada faceta de cristal está cortada con tal precisión que proyecta fractales de",
+   "id": 181,
+   "slot": 6.02,
+   "max_chars_pl": 84,
+   "pl": "Każda fasetka kryształu jest szlifowana z taką precyzją, że rzuca fraktale"
+  },
+  {
+   "start": 922.4,
+   "end": 928.78,
+   "es": "luz hipnóticos sobre los suelos, los cuales consisten en inmensas placas de mármol",
+   "id": 182,
+   "slot": 6.3,
+   "max_chars_pl": 88,
+   "pl": "hipnotyzującego światła na podłogi z ogromnych płyt"
+  },
+  {
+   "start": 928.78,
+   "end": 934.54,
+   "es": "blanco de Carrara, pulidas hasta alcanzar un brillo casi especular.",
+   "id": 183,
+   "slot": 5.68,
+   "max_chars_pl": 79,
+   "pl": "białego marmuru z Carrary, wypolerowanych do niemal lustrzanego połysku."
+  },
+  {
+   "start": 934.54,
+   "end": 940.28,
+   "es": "Caminar por este vestíbulo es como flotar sobre una nube de piedra fría y perfecta,",
+   "id": 184,
+   "slot": 5.66,
+   "max_chars_pl": 79,
+   "pl": "Spacer po tym westybulu przypomina unoszenie się na chmurze z zimnego, doskonałego kamienia,"
+  },
+  {
+   "start": 940.28,
+   "end": 946.56,
+   "es": "donde cada paso resuena con la solidez de una fortuna incalculable.",
+   "id": 185,
+   "slot": 6.2,
+   "max_chars_pl": 86,
+   "pl": "gdzie każdy krok rozbrzmiewa solidnością niezmierzonej fortuny."
+  },
+  {
+   "start": 946.56,
+   "end": 950.86,
+   "es": "En este santuario del exceso, el detalle es el rey.",
+   "id": 186,
+   "slot": 4.22,
+   "max_chars_pl": 59,
+   "pl": "W tym sanktuarium nadmiaru liczy się detal."
+  },
+  {
+   "start": 950.86,
+   "end": 954.5,
+   "es": "No hay lugar para lo genérico ni para lo mundano.",
+   "id": 187,
+   "slot": 3.56,
+   "max_chars_pl": 49,
+   "pl": "Nie ma tu miejsca na pospolitość ani przeciętność."
+  },
+  {
+   "start": 954.5,
+   "end": 960.0,
+   "es": "No encontrarás aquí alfombras de catálogo o materiales sintéticos.",
+   "id": 188,
+   "slot": 5.42,
+   "max_chars_pl": 75,
+   "pl": "Nie znajdziesz tu katalogowych dywanów ani syntetycznych materiałów."
+  },
+  {
+   "start": 960.0,
+   "end": 965.36,
+   "es": "Cada pieza textil que adorna las estancias ha sido seleccionada con una rigurosidad",
+   "id": 189,
+   "slot": 5.28,
+   "max_chars_pl": 73,
+   "pl": "Każdy element tekstylny zdobiący komnaty dobrano z rygorem"
+  },
+  {
+   "start": 965.36,
+   "end": 967.28,
+   "es": "que bordea la obsesión.",
+   "id": 190,
+   "slot": 1.84,
+   "max_chars_pl": 25,
+   "pl": "graniczącym z obsesją."
+  },
+  {
+   "start": 967.28,
+   "end": 973.34,
+   "es": "Las alfombras, densas y pesadas, son de seda natural o lana de la más alta",
+   "id": 191,
+   "slot": 5.98,
+   "max_chars_pl": 83,
+   "pl": "Dywany, gęste i ciężkie, są z naturalnego jedwabiu lub wełny najwyższej"
+  },
+  {
+   "start": 973.34,
+   "end": 979.12,
+   "es": "densidad, tejidas a mano en talleres remotos de Oriente Medio por artesanos que ignoran",
+   "id": 192,
+   "slot": 5.7,
+   "max_chars_pl": 79,
+   "pl": "gęstości, tkane ręcznie w odległych warsztatach Bliskiego Wschodu przez rzemieślników, którzy nie wiedzą,"
+  },
+  {
+   "start": 979.12,
+   "end": 984.4,
+   "es": "que su obra terminará en el epicentro del poder sinaloense.",
+   "id": 193,
+   "slot": 5.2,
+   "max_chars_pl": 72,
+   "pl": "że ich dzieło trafi do epicentrum władzy Sinaloa."
+  },
+  {
+   "start": 984.4,
+   "end": 990.34,
+   "es": "El tacto de estos textiles es una experiencia sensorial en sí misma, una suavidad que",
+   "id": 194,
+   "slot": 5.86,
+   "max_chars_pl": 82,
+   "pl": "Dotyk tych tkanin to sam w sobie doznanie zmysłowe, miękkość, która"
+  },
+  {
+   "start": 990.34,
+   "end": 995.34,
+   "es": "contrasta violentamente con la dureza de las operaciones que financian este estilo",
+   "id": 195,
+   "slot": 4.92,
+   "max_chars_pl": 68,
+   "pl": "gwałtownie kontrastuje z surowością operacji finansujących ten styl"
+  },
+  {
+   "start": 995.34,
+   "end": 996.76,
+   "es": "de vida.",
+   "id": 196,
+   "slot": 1.34,
+   "max_chars_pl": 18,
+   "pl": "życia."
+  },
+  {
+   "start": 996.76,
+   "end": 1003.14,
+   "es": "El diseño de interiores de Iván Archivaldo marca una ruptura definitiva con el pasado.",
+   "id": 197,
+   "slot": 6.3,
+   "max_chars_pl": 88,
+   "pl": "Wystrój wnętrz Ivána Archivalda oznacza ostateczne zerwanie z przeszłością."
+  },
+  {
+   "start": 1003.14,
+   "end": 1009.42,
+   "es": "Atrás quedó la estética rústica y pesada de los antiguos capos de la vieja escuela.",
+   "id": 198,
+   "slot": 6.2,
+   "max_chars_pl": 86,
+   "pl": "Odeszła rustykalna, ciężka estetyka dawnych bossów starej szkoły."
+  },
+  {
+   "start": 1009.42,
+   "end": 1014.04,
+   "es": "Aquellos que preferían la madera oscura de roble, las pieles de ganado y el estilo",
+   "id": 199,
+   "slot": 4.54,
+   "max_chars_pl": 63,
+   "pl": "Tych, którzy woleli ciemne dębowe drewno, skóry bydlęce i styl"
+  },
+  {
+   "start": 1014.04,
+   "end": 1016.18,
+   "es": "de rancho ostentoso pero tosco.",
+   "id": 200,
+   "slot": 2.06,
+   "max_chars_pl": 28,
+   "pl": "wystawnego, lecz topornego rancho."
+  },
+  {
+   "start": 1016.18,
+   "end": 1022.02,
+   "es": "Iván, el heredero, ha abrazado la sofisticación global.",
+   "id": 201,
+   "slot": 5.76,
+   "max_chars_pl": 80,
+   "pl": "Iván, dziedzic, przyjął globalne wyrafinowanie."
+  },
+  {
+   "start": 1022.02,
+   "end": 1026.04,
+   "es": "Sus estancias están amuebladas con el catálogo de las casas de moda más",
+   "id": 202,
+   "slot": 3.94,
+   "max_chars_pl": 55,
+   "pl": "Jego komnaty urządzono z katalogów najbardziej"
+  },
+  {
+   "start": 1026.04,
+   "end": 1029.26,
+   "es": "prestigiosas del mundo.",
+   "id": 203,
+   "slot": 3.14,
+   "max_chars_pl": 43,
+   "pl": "prestiżowych domów mody świata."
+  },
+  {
+   "start": 1029.26,
+   "end": 1035.54,
+   "es": "Las de Versace Home, con sus icónicas grecas y motivos de medusas bañados en oro, conviven",
+   "id": 204,
+   "slot": 6.2,
+   "max_chars_pl": 86,
+   "pl": "Versace Home, z ikonicznymi meandrami i motywami meduz oblanymi złotem, współistnieje"
+  },
+  {
+   "start": 1035.54,
+   "end": 1040.6,
+   "es": "con la elegancia sobria y arquitectónica de Fendicasa.",
+   "id": 205,
+   "slot": 4.98,
+   "max_chars_pl": 69,
+   "pl": "ze zrównoważoną, architektoniczną elegancją Fendi Casa."
+  },
+  {
+   "start": 1040.6,
+   "end": 1045.84,
+   "es": "Los sofás de cuero de plena flor, las mesas de centro de malaquita y los acentos",
+   "id": 206,
+   "slot": 5.16,
+   "max_chars_pl": 72,
+   "pl": "Pełnolicowe skórzane sofy, malachitowe stoliki kawowe i akcenty"
+  },
+  {
+   "start": 1045.84,
+   "end": 1050.62,
+   "es": "en terciopelo negro crean una atmósfera que recuerda más a un ático en la quinta",
+   "id": 207,
+   "slot": 4.7,
+   "max_chars_pl": 65,
+   "pl": "z czarnego aksamitu tworzą atmosferę, która bardziej przypomina penthouse na Piątej"
+  },
+  {
+   "start": 1050.62,
+   "end": 1055.7,
+   "es": "avenida de Nueva York, o a una villa en la costa azul, que a una residencia",
+   "id": 208,
+   "slot": 5.0,
+   "max_chars_pl": 70,
+   "pl": "Alei w Nowym Jorku lub willę na Lazurowym Wybrzeżu niż rezydencję"
+  },
+  {
+   "start": 1055.7,
+   "end": 1057.96,
+   "es": "en el noroeste de México.",
+   "id": 209,
+   "slot": 2.18,
+   "max_chars_pl": 30,
+   "pl": "na północnym zachodzie Meksyku."
+  },
+  {
+   "start": 1057.96,
+   "end": 1065.02,
+   "es": "Aquí, el oro no es un acento decorativo, es un color base, una constante que unifica",
+   "id": 210,
+   "slot": 6.98,
+   "max_chars_pl": 97,
+   "pl": "Tu złoto nie jest dekoracyjnym akcentem, lecz kolorem bazowym, stałą, która spaja"
+  },
+  {
+   "start": 1065.02,
+   "end": 1071.56,
+   "es": "el diseño y recuerda a cada instante el valor del hombre que habita estos espacios.",
+   "id": 211,
+   "slot": 6.46,
+   "max_chars_pl": 90,
+   "pl": "design i w każdej chwili przypomina o wartości człowieka, który zamieszkuje te przestrzenie."
+  },
+  {
+   "start": 1071.56,
+   "end": 1076.02,
+   "es": "Las paredes de la mansión funcionan como una galería de arte privado, pero con",
+   "id": 212,
+   "slot": 4.38,
+   "max_chars_pl": 61,
+   "pl": "Ściany rezydencji działają jak prywatna galeria sztuki, ale z"
+  },
+  {
+   "start": 1076.02,
+   "end": 1079.2,
+   "es": "una narrativa muy específica.",
+   "id": 213,
+   "slot": 3.1,
+   "max_chars_pl": 43,
+   "pl": "bardzo konkretną narracją."
+  },
+  {
+   "start": 1079.2,
+   "end": 1085.36,
+   "es": "No están vacías ni han sido decoradas por un decorador de interiores estándar.",
+   "id": 214,
+   "slot": 6.08,
+   "max_chars_pl": 85,
+   "pl": "Nie są puste ani udekorowane przez zwykłego architekta wnętrz."
+  },
+  {
+   "start": 1085.36,
+   "end": 1092.78,
+   "es": "En ellas cuelgan obras de arte contemporáneo que desafían la mirada, desde lienzos abstractos",
+   "id": 215,
+   "slot": 7.34,
+   "max_chars_pl": 102,
+   "pl": "Wiszą na nich dzieła sztuki współczesnej, które rzucają wyzwanie spojrzeniu, od abstrakcyjnych płócien"
+  },
+  {
+   "start": 1092.78,
+   "end": 1098.18,
+   "es": "de proporciones épicas hasta piezas de arte cinético que juegan con la percepción",
+   "id": 216,
+   "slot": 5.32,
+   "max_chars_pl": 74,
+   "pl": "epickich rozmiarów po dzieła sztuki kinetycznej, które bawią się percepcją"
+  },
+  {
+   "start": 1098.18,
+   "end": 1100.22,
+   "es": "del espectador.",
+   "id": 217,
+   "slot": 1.96,
+   "max_chars_pl": 27,
+   "pl": "widza."
+  },
+  {
+   "start": 1100.22,
+   "end": 1105.64,
+   "es": "Sin embargo, lo más fascinante son las obras personalizadas.",
+   "id": 218,
+   "slot": 5.34,
+   "max_chars_pl": 74,
+   "pl": "Najbardziej fascynujące są jednak prace na zamówienie."
+  },
+  {
+   "start": 1105.64,
+   "end": 1110.06,
+   "es": "Se dice que Iván ha comisionado a artistas para que retraten la historia de la familia",
+   "id": 219,
+   "slot": 4.34,
+   "max_chars_pl": 60,
+   "pl": "Mówi się, że Iván zlecił artystom portretowanie historii rodziny"
+  },
+  {
+   "start": 1110.06,
+   "end": 1117.36,
+   "es": "Guzmán, pero no desde una óptica realista, sino bajo un barniz de heroísmo mitológico.",
+   "id": 220,
+   "slot": 7.22,
+   "max_chars_pl": 101,
+   "pl": "Guzmán, ale nie w realistycznym ujęciu, lecz pod werniksem mitologicznego heroizmu."
+  },
+  {
+   "start": 1117.36,
+   "end": 1124.12,
+   "es": "En estas pinturas, los miembros de la dinastía, aparecen como figuras casi divinas, protectores",
+   "id": 221,
+   "slot": 6.68,
+   "max_chars_pl": 93,
+   "pl": "Na tych obrazach członkowie dynastii jawią się jako niemal boskie postacie, obrońcy"
+  },
+  {
+   "start": 1124.12,
+   "end": 1130.76,
+   "es": "de un orden propio, envueltos en una iconografía que mezcla el simbolismo religioso con",
+   "id": 222,
+   "slot": 6.56,
+   "max_chars_pl": 91,
+   "pl": "własnego porządku, spowici w ikonografię łączącą symbolikę religijną z"
+  },
+  {
+   "start": 1130.76,
+   "end": 1133.1,
+   "es": "el poder terrenal.",
+   "id": 223,
+   "slot": 2.26,
+   "max_chars_pl": 31,
+   "pl": "ziemską władzą."
+  },
+  {
+   "start": 1133.1,
+   "end": 1139.06,
+   "es": "Es la construcción de un mito familiar, plasmado en óleo y pan de oro.",
+   "id": 224,
+   "slot": 5.88,
+   "max_chars_pl": 82,
+   "pl": "To budowa rodzinnego mitu, utrwalonego w oleju i płatkach złota."
+  },
+  {
+   "start": 1139.06,
+   "end": 1144.48,
+   "es": "El recorrido nos lleva inevitablemente a la cocina, un espacio que es el sueño febril",
+   "id": 225,
+   "slot": 5.34,
+   "max_chars_pl": 74,
+   "pl": "Zwiedzanie prowadzi nas nieuchronnie do kuchni, gorączkowego snu"
+  },
+  {
+   "start": 1144.48,
+   "end": 1147.5,
+   "es": "de cualquier chef con estrella Michelin.",
+   "id": 226,
+   "slot": 2.94,
+   "max_chars_pl": 41,
+   "pl": "każdego szefa kuchni z gwiazdką Michelin."
+  },
+  {
+   "start": 1147.5,
+   "end": 1152.42,
+   "es": "Es una demostración de que, para Iván Archivaldo, incluso las funciones más",
+   "id": 227,
+   "slot": 4.84,
+   "max_chars_pl": 67,
+   "pl": "To dowód, że dla Ivána Archivalda nawet najbardziej"
+  },
+  {
+   "start": 1152.42,
+   "end": 1158.1,
+   "es": "básicas de la vida deben realizarse en un entorno de perfección técnica.",
+   "id": 228,
+   "slot": 5.6,
+   "max_chars_pl": 78,
+   "pl": "podstawowe funkcje życia muszą odbywać się w otoczeniu technicznej perfekcji."
+  },
+  {
+   "start": 1158.1,
+   "end": 1163.56,
+   "es": "En cimeras de cuarzo purísimo, sin una sola veta que rompa la uniformidad, se",
+   "id": 229,
+   "slot": 5.38,
+   "max_chars_pl": 75,
+   "pl": "Blaty z czystego kwarcu, bez jednej żyłki naruszającej jednolitość,"
+  },
+  {
+   "start": 1163.56,
+   "end": 1169.66,
+   "es": "extienden bajo una iluminación LED diseñada para no proyectar sombras.",
+   "id": 230,
+   "slot": 6.02,
+   "max_chars_pl": 84,
+   "pl": "rozciągają się pod oświetleniem LED, które nie rzuca cieni."
+  },
+  {
+   "start": 1169.66,
+   "end": 1174.42,
+   "es": "Los electrodomésticos, de marcas profesionales europeas que raramente se ven en hogares",
+   "id": 231,
+   "slot": 4.68,
+   "max_chars_pl": 65,
+   "pl": "Sprzęt AGD, od europejskich marek profesjonalnych, rzadko spotykanych w domach"
+  },
+  {
+   "start": 1174.42,
+   "end": 1180.5,
+   "es": "privados, están bañados en cromo y acero inoxidable de grado quirúrgico.",
+   "id": 232,
+   "slot": 6.0,
+   "max_chars_pl": 84,
+   "pl": "prywatnych, jest pokryty chromem i stalą nierdzewną klasy chirurgicznej."
+  },
+  {
+   "start": 1180.5,
+   "end": 1185.24,
+   "es": "Sin embargo, existe una paradoja fascinante en este espacio.",
+   "id": 233,
+   "slot": 4.66,
+   "max_chars_pl": 65,
+   "pl": "Istnieje jednak fascynujący paradoks w tej przestrzeni."
+  },
+  {
+   "start": 1185.24,
+   "end": 1189.06,
+   "es": "A pesar de contar con la tecnología para preparar la cocina más vanguardista",
+   "id": 234,
+   "slot": 3.74,
+   "max_chars_pl": 52,
+   "pl": "Mimo technologii do przygotowania najbardziej awangardowej kuchni"
+  },
+  {
+   "start": 1189.06,
+   "end": 1194.8,
+   "es": "del mundo, se sabe que Iván guarda una lealtad inquebrantable a sus raíces.",
+   "id": 235,
+   "slot": 5.66,
+   "max_chars_pl": 79,
+   "pl": "świata, wiadomo, że Iván zachowuje niezachwianą lojalność wobec swoich korzeni."
+  },
+  {
+   "start": 1194.8,
+   "end": 1200.5,
+   "es": "Sus chefs privados, entrenados en las mejores escuelas, dedican gran parte de su tiempo",
+   "id": 236,
+   "slot": 5.62,
+   "max_chars_pl": 78,
+   "pl": "Jego prywatni szefowie kuchni, wyszkoleni w najlepszych szkołach, poświęcają dużo czasu"
+  },
+  {
+   "start": 1200.5,
+   "end": 1204.68,
+   "es": "a perfeccionar la comida tradicional sinaloense.",
+   "id": 237,
+   "slot": 4.1,
+   "max_chars_pl": 57,
+   "pl": "na doskonalenie tradycyjnej kuchni Sinaloa."
+  },
+  {
+   "start": 1204.68,
+   "end": 1209.58,
+   "es": "En esta cocina de millones de dólares, el aroma de una machaca bien sazonada o una",
+   "id": 238,
+   "slot": 4.82,
+   "max_chars_pl": 67,
+   "pl": "W tej kuchni za miliony dolarów aromat dobrze przyprawionej machaki lub"
+  },
+  {
+   "start": 1209.58,
+   "end": 1214.9,
+   "es": "guachile de callo de hacha fresco compite con la sofisticación del entorno, creando",
+   "id": 239,
+   "slot": 5.24,
+   "max_chars_pl": 73,
+   "pl": "świeżego guachile z przegrzebków rywalizuje z wyrafinowaniem otoczenia, tworząc"
+  },
+  {
+   "start": 1214.9,
+   "end": 1220.12,
+   "es": "un puente entre el billonario global y el hijo de la sierra.",
+   "id": 240,
+   "slot": 5.14,
+   "max_chars_pl": 71,
+   "pl": "most między globalnym miliarderem a synem gór."
+  },
+  {
+   "start": 1220.12,
+   "end": 1225.5,
+   "es": "Finalmente, oculto tras paneles de madera que se funden con la pared, se encuentra",
+   "id": 241,
+   "slot": 5.3,
+   "max_chars_pl": 74,
+   "pl": "Wreszcie, ukryte za drewnianymi panelami zlewającymi się ze ścianą, znajduje się"
+  },
+  {
+   "start": 1225.5,
+   "end": 1228.96,
+   "es": "el acceso a la cava de vino subterránea.",
+   "id": 242,
+   "slot": 3.38,
+   "max_chars_pl": 47,
+   "pl": "wejście do podziemnej piwnicy z winami."
+  },
+  {
+   "start": 1228.96,
+   "end": 1234.46,
+   "es": "Este no es un simple depósito de botellas, sino un bunker climatizado que alberga",
+   "id": 243,
+   "slot": 5.42,
+   "max_chars_pl": 75,
+   "pl": "To nie zwykły skład butelek, lecz klimatyzowany bunkier, w którym mieści się"
+  },
+  {
+   "start": 1234.46,
+   "end": 1238.68,
+   "es": "una de las colecciones de vino más exclusivas del continente.",
+   "id": 244,
+   "slot": 4.14,
+   "max_chars_pl": 57,
+   "pl": "jedna z najbardziej ekskluzywnych kolekcji win na kontynencie."
+  },
+  {
+   "start": 1238.68,
+   "end": 1244.54,
+   "es": "En estanterías de madera de cedro, reposan botellas de Petrus, Romanei Conti",
+   "id": 245,
+   "slot": 5.78,
+   "max_chars_pl": 80,
+   "pl": "Na cedrowych regałach spoczywają butelki Petrus, Romanée-Conti"
+  },
+  {
+   "start": 1244.54,
+   "end": 1251.3,
+   "es": "y cosechas históricas de Vega Sicilia que valen pequeñas fortunas por sí solas.",
+   "id": 246,
+   "slot": 6.68,
+   "max_chars_pl": 93,
+   "pl": "i historyczne roczniki Vega Sicilia, warte same w sobie małe fortuny."
+  },
+  {
+   "start": 1251.3,
+   "end": 1257.78,
+   "es": "La sección de champagne es particularmente impresionante, con ediciones limitadas de",
+   "id": 247,
+   "slot": 6.4,
+   "max_chars_pl": 89,
+   "pl": "Szczególnie imponująca jest sekcja szampanów, z limitowanymi edycjami"
+  },
+  {
+   "start": 1257.78,
+   "end": 1263.36,
+   "es": "Dom Perignon y Krug, que normalmente están reservadas para las fiestas de la alta",
+   "id": 248,
+   "slot": 5.5,
+   "max_chars_pl": 77,
+   "pl": "Dom Pérignon i Krug, zwykle zarezerwowanych na przyjęcia wyższych"
+  },
+  {
+   "start": 1263.36,
+   "end": 1268.72,
+   "es": "sociedad en Mónaco o las celebraciones de los jeques en Dubái.",
+   "id": 249,
+   "slot": 5.28,
+   "max_chars_pl": 73,
+   "pl": "sfer w Monako lub celebracje szejków w Dubaju."
+  },
+  {
+   "start": 1268.72,
+   "end": 1274.28,
+   "es": "En la oscuridad controlada de esta cava, el tiempo se detiene y el lujo se vuelve",
+   "id": 250,
+   "slot": 5.48,
+   "max_chars_pl": 76,
+   "pl": "W kontrolowanym mroku tej piwnicy czas się zatrzymuje, a luksus staje się"
+  },
+  {
+   "start": 1274.28,
+   "end": 1281.86,
+   "es": "líquido, esperando el momento de ser descorchado para celebrar una victoria más o simplemente",
+   "id": 251,
+   "slot": 7.5,
+   "max_chars_pl": 105,
+   "pl": "płynny, czekając na chwilę odkorkowania, by uczcić kolejne zwycięstwo albo po prostu"
+  },
+  {
+   "start": 1281.86,
+   "end": 1289.98,
+   "es": "para recordar que, en este palacio, el mundo entero está al alcance de una copa.",
+   "id": 252,
+   "slot": 8.04,
+   "max_chars_pl": 112,
+   "pl": "by przypomnieć, że w tym pałacu cały świat jest na wyciągnięcie kieliszka."
+  },
+  {
+   "start": 1289.98,
+   "end": 1294.38,
+   "es": "Si las áreas sociales son impresionantes, las habitaciones privadas son el epítome",
+   "id": 253,
+   "slot": 4.32,
+   "max_chars_pl": 60,
+   "pl": "Jeśli strefy towarzyskie robią wrażenie, prywatne pokoje są kwintesencją"
+  },
+  {
+   "start": 1294.38,
+   "end": 1296.52,
+   "es": "del confort extremo.",
+   "id": 254,
+   "slot": 2.06,
+   "max_chars_pl": 28,
+   "pl": "ekstremalnego komfortu."
+  },
+  {
+   "start": 1296.52,
+   "end": 1301.82,
+   "es": "La suite principal de Iván Archivaldo es, en esencia, un apartamento de lujo",
+   "id": 255,
+   "slot": 5.22,
+   "max_chars_pl": 73,
+   "pl": "Główna suita Ivána Archivalda to w istocie luksusowy apartament"
+  },
+  {
+   "start": 1301.82,
+   "end": 1304.4,
+   "es": "dentro de la mansión.",
+   "id": 256,
+   "slot": 2.5,
+   "max_chars_pl": 35,
+   "pl": "wewnątrz rezydencji."
+  },
+  {
+   "start": 1304.4,
+   "end": 1310.5,
+   "es": "Cuenta con su propio sistema de filtración de aire, un sistema de sonido invisible integrado",
+   "id": 257,
+   "slot": 6.02,
+   "max_chars_pl": 84,
+   "pl": "Ma własny system filtracji powietrza, niewidoczny system dźwiękowy wbudowany"
+  },
+  {
+   "start": 1310.5,
+   "end": 1317.12,
+   "es": "en las paredes y una cama diseñada a medida con textiles de la más alta calidad.",
+   "id": 258,
+   "slot": 6.54,
+   "max_chars_pl": 91,
+   "pl": "w ściany i łóżko zaprojektowane na miarę z tkanin najwyższej jakości."
+  },
+  {
+   "start": 1317.12,
+   "end": 1324.14,
+   "es": "El vestidor es una sección aparte, filas de trajes hechos a medida, una colección",
+   "id": 259,
+   "slot": 6.94,
+   "max_chars_pl": 97,
+   "pl": "Garderoba to osobna sekcja, rzędy szytych na miarę garniturów, kolekcja"
+  },
+  {
+   "start": 1324.14,
+   "end": 1330.24,
+   "es": "de zapatillas de edición limitada de marcas como Louis Vuitton y Gucci y una sección",
+   "id": 260,
+   "slot": 6.02,
+   "max_chars_pl": 84,
+   "pl": "limitowanych edycji butów takich marek jak Louis Vuitton i Gucci oraz sekcja"
+  },
+  {
+   "start": 1330.24,
+   "end": 1338.08,
+   "es": "dedicada exclusivamente a relojes de alta gama, Richard Mille, Patek Philippe y Rolex",
+   "id": 261,
+   "slot": 7.76,
+   "max_chars_pl": 108,
+   "pl": "poświęcona wyłącznie zegarkom najwyższej klasy, Richard Mille, Patek Philippe i Rolex"
+  },
+  {
+   "start": 1338.08,
+   "end": 1341.02,
+   "es": "personalizados con diamantes.",
+   "id": 262,
+   "slot": 2.86,
+   "max_chars_pl": 40,
+   "pl": "z diamentami na zamówienie."
+  },
+  {
+   "start": 1341.02,
+   "end": 1346.34,
+   "es": "Para un hombre como Iván, el tiempo es el único recurso que no puede comprar,",
+   "id": 263,
+   "slot": 5.24,
+   "max_chars_pl": 73,
+   "pl": "Dla człowieka takiego jak Iván czas to jedyny zasób, którego nie może kupić,"
+  },
+  {
+   "start": 1346.34,
+   "end": 1349.82,
+   "es": "pero puede medirlo con el mayor lujo posible.",
+   "id": 264,
+   "slot": 3.4,
+   "max_chars_pl": 47,
+   "pl": "ale może go mierzyć z największym możliwym luksusem."
+  },
+  {
+   "start": 1349.82,
+   "end": 1355.56,
+   "es": "Pero lo más impresionante es la Smart Home o casa inteligente.",
+   "id": 265,
+   "slot": 5.66,
+   "max_chars_pl": 79,
+   "pl": "Najbardziej imponujący jest jednak Smart Home, czyli inteligentny dom."
+  },
+  {
+   "start": 1355.56,
+   "end": 1360.9,
+   "es": "Desde un iPad o un teléfono móvil se puede controlar cada luz, cada cerradura y cada",
+   "id": 266,
+   "slot": 5.26,
+   "max_chars_pl": 73,
+   "pl": "Z iPada lub telefonu można sterować każdym światłem, każdym zamkiem i każdą"
+  },
+  {
+   "start": 1360.9,
+   "end": 1363.22,
+   "es": "cámara del complejo.",
+   "id": 267,
+   "slot": 2.24,
+   "max_chars_pl": 31,
+   "pl": "kamerą kompleksu."
+  },
+  {
+   "start": 1363.22,
+   "end": 1368.4,
+   "es": "Se dice que cuenta con una habitación del pánico, que es en realidad un centro",
+   "id": 268,
+   "slot": 5.1,
+   "max_chars_pl": 71,
+   "pl": "Mówi się, że ma pokój bezpieczeństwa, który w rzeczywistości jest centrum"
+  },
+  {
+   "start": 1368.4,
+   "end": 1373.8,
+   "es": "de comando desde el cual se puede monitorear no solo la casa, sino los movimientos",
+   "id": 269,
+   "slot": 5.32,
+   "max_chars_pl": 74,
+   "pl": "dowodzenia, z którego można monitorować nie tylko dom, ale i ruchy"
+  },
+  {
+   "start": 1373.8,
+   "end": 1377.7,
+   "es": "de sus equipos de seguridad en toda la ciudad.",
+   "id": 270,
+   "slot": 3.82,
+   "max_chars_pl": 53,
+   "pl": "jego ekip ochrony w całym mieście."
+  },
+  {
+   "start": 1377.7,
+   "end": 1384.04,
+   "es": "Para Iván Archivaldo los coches no son solo transporte, son trofeos.",
+   "id": 271,
+   "slot": 6.26,
+   "max_chars_pl": 87,
+   "pl": "Dla Ivána Archivalda samochody to nie tylko transport, lecz trofea."
+  },
+  {
+   "start": 1384.04,
+   "end": 1389.12,
+   "es": "El garaje de su mansión se asemeja más a un concesionario de autos exóticos en",
+   "id": 272,
+   "slot": 5.0,
+   "max_chars_pl": 70,
+   "pl": "Garaż jego rezydencji bardziej przypomina salon egzotycznych aut w"
+  },
+  {
+   "start": 1389.12,
+   "end": 1393.46,
+   "es": "Dubai que a un estacionamiento residencial.",
+   "id": 273,
+   "slot": 4.26,
+   "max_chars_pl": 59,
+   "pl": "Dubaju niż parking mieszkalny."
+  },
+  {
+   "start": 1393.46,
+   "end": 1399.92,
+   "es": "Aquí el rugido de los motores es el lenguaje del poder, la colección incluye piezas",
+   "id": 274,
+   "slot": 6.38,
+   "max_chars_pl": 89,
+   "pl": "Tu ryk silników jest językiem władzy, w kolekcji są egzemplarze,"
+  },
+  {
+   "start": 1399.92,
+   "end": 1404.62,
+   "es": "que harían palidecer a cualquier entusiasta del automovilismo.",
+   "id": 275,
+   "slot": 4.62,
+   "max_chars_pl": 64,
+   "pl": "które zawstydziłyby każdego miłośnika motoryzacji."
+  },
+  {
+   "start": 1404.62,
+   "end": 1412.3,
+   "es": "Lamborghini, aventador en colores personalizados, Ferrari de edición limitada y por supuesto",
+   "id": 276,
+   "slot": 7.6,
+   "max_chars_pl": 106,
+   "pl": "Lamborghini Aventador w niestandardowych kolorach, limitowane Ferrari i oczywiście"
+  },
+  {
+   "start": 1412.3,
+   "end": 1418.82,
+   "es": "los Mercedes-Benz clase G blindados que son la firma de movilidad del cartel.",
+   "id": 277,
+   "slot": 6.44,
+   "max_chars_pl": 90,
+   "pl": "opancerzone Mercedesy klasy G, wizytówka mobilności kartelu."
+  },
+  {
+   "start": 1418.82,
+   "end": 1424.6,
+   "es": "Pero no se detiene en los super deportivos, se dice que posee vehículos clásicos restaurados",
+   "id": 278,
+   "slot": 5.7,
+   "max_chars_pl": 79,
+   "pl": "Ale nie poprzestaje na supersamochodach, mówi się, że ma klasyczne pojazdy odrestaurowane"
+  },
+  {
+   "start": 1424.6,
+   "end": 1430.24,
+   "es": "a la perfección que representan la nostalgia de una era dorada del motor.",
+   "id": 279,
+   "slot": 5.56,
+   "max_chars_pl": 77,
+   "pl": "do perfekcji, które reprezentują nostalgię złotej ery motoryzacji."
+  },
+  {
+   "start": 1430.24,
+   "end": 1435.16,
+   "es": "Cada vehículo está mantenido por un equipo de mecánicos de planta, el suelo del",
+   "id": 280,
+   "slot": 4.84,
+   "max_chars_pl": 67,
+   "pl": "Każdy pojazd utrzymuje zespół mechaników na etacie, podłoga"
+  },
+  {
+   "start": 1435.16,
+   "end": 1441.5,
+   "es": "garaje es de epóxico brillante, tan limpio que se podría comer en él.",
+   "id": 281,
+   "slot": 6.26,
+   "max_chars_pl": 87,
+   "pl": "garażu jest z błyszczącej żywicy epoksydowej, tak czysta, że można z niej jeść."
+  },
+  {
+   "start": 1441.5,
+   "end": 1447.22,
+   "es": "Para Iván, salir a las calles de Culiacán en uno de estos vehículos es una forma de",
+   "id": 282,
+   "slot": 5.64,
+   "max_chars_pl": 78,
+   "pl": "Dla Ivána wyjazd na ulice Culiacán jednym z tych pojazdów to sposób,"
+  },
+  {
+   "start": 1447.22,
+   "end": 1453.26,
+   "es": "marcar territorio, una señal visual de que el heredero está presente.",
+   "id": 283,
+   "slot": 5.96,
+   "max_chars_pl": 83,
+   "pl": "by zaznaczyć terytorium, wizualny sygnał, że dziedzic jest obecny."
+  },
+  {
+   "start": 1453.26,
+   "end": 1458.94,
+   "es": "Saliendo al exterior el lujo se vuelve salvaje, la mansión cuenta con una piscina",
+   "id": 284,
+   "slot": 5.6,
+   "max_chars_pl": 78,
+   "pl": "Na zewnątrz luksus staje się dziki, rezydencja ma basen"
+  },
+  {
+   "start": 1458.94,
+   "end": 1464.72,
+   "es": "de borde infinito que parece fundirse con el horizonte sinaloense.",
+   "id": 285,
+   "slot": 5.7,
+   "max_chars_pl": 79,
+   "pl": "z krawędzią infinity, który zdaje się zlewać z horyzontem Sinaloa."
+  },
+  {
+   "start": 1464.72,
+   "end": 1470.86,
+   "es": "El área de la piscina cuenta con cabañas de estilo resort, sistemas de enfriamiento",
+   "id": 286,
+   "slot": 6.06,
+   "max_chars_pl": 84,
+   "pl": "Strefa basenu ma kabiny w stylu kurortu, systemy chłodzenia"
+  },
+  {
+   "start": 1470.86,
+   "end": 1476.46,
+   "es": "de aire para combatir el sofocante calor del noroeste mexicano y una barra de bar",
+   "id": 287,
+   "slot": 5.52,
+   "max_chars_pl": 77,
+   "pl": "powietrza do walki z duszącym upałem północnozachodniego Meksyku i pełny"
+  },
+  {
+   "start": 1476.46,
+   "end": 1484.66,
+   "es": "completa, sin embargo el verdadero espectáculo es el zoológico privado.",
+   "id": 288,
+   "slot": 8.12,
+   "max_chars_pl": 113,
+   "pl": "bar, jednak prawdziwym spektaklem jest prywatne zoo."
+  },
+  {
+   "start": 1484.66,
+   "end": 1489.66,
+   "es": "Siguiendo la tradición de figuras como Pablo Escobar, Iván Archivaldo ha mantenido",
+   "id": 289,
+   "slot": 4.92,
+   "max_chars_pl": 68,
+   "pl": "Idąc w ślady takich postaci jak Pablo Escobar, Iván Archivaldo od zawsze"
+  },
+  {
+   "start": 1489.66,
+   "end": 1496.18,
+   "es": "una fascinación por los animales exóticos, en sus propiedades se han reportado tigres",
+   "id": 290,
+   "slot": 6.44,
+   "max_chars_pl": 90,
+   "pl": "fascynuje się egzotycznymi zwierzętami, w jego posiadłościach zgłaszano tygrysy"
+  },
+  {
+   "start": 1496.18,
+   "end": 1503.86,
+   "es": "de bengala, leones blancos y aves de plumajes imposibles traídas de otros continentes.",
+   "id": 291,
+   "slot": 7.6,
+   "max_chars_pl": 106,
+   "pl": "bengalskie, białe lwy i ptaki o niemożliwych upierzeniach sprowadzone z innych kontynentów."
+  },
+  {
+   "start": 1503.86,
+   "end": 1510.5,
+   "es": "Estos animales no son solo mascotas, son símbolos de un poder que puede domesticar",
+   "id": 292,
+   "slot": 6.56,
+   "max_chars_pl": 91,
+   "pl": "Te zwierzęta to nie tylko maskotki, to symbole władzy, która potrafi oswoić"
+  },
+  {
+   "start": 1510.5,
+   "end": 1514.92,
+   "es": "incluso a las bestias más feroces de la naturaleza.",
+   "id": 293,
+   "slot": 4.34,
+   "max_chars_pl": 60,
+   "pl": "nawet najdziksze bestie natury."
+  },
+  {
+   "start": 1514.92,
+   "end": 1521.0,
+   "es": "Los jardines están diseñados para ofrecer privacidad total, árboles de gran tamaño",
+   "id": 294,
+   "slot": 6.0,
+   "max_chars_pl": 84,
+   "pl": "Ogrody są zaprojektowane tak, by zapewnić całkowitą prywatność, ogromne drzewa"
+  },
+  {
+   "start": 1521.0,
+   "end": 1527.02,
+   "es": "y muros de vegetación densa aseguran que nadie, ni desde el aire, ni desde las propiedades",
+   "id": 295,
+   "slot": 5.94,
+   "max_chars_pl": 83,
+   "pl": "i mury gęstej roślinności gwarantują, że nikt, ani z powietrza, ani z sąsiednich posiadłości,"
+  },
+  {
+   "start": 1527.02,
+   "end": 1533.08,
+   "es": "vecinas, pueda ver lo que ocurre en las fiestas privadas que suelen durar días,",
+   "id": 296,
+   "slot": 5.98,
+   "max_chars_pl": 83,
+   "pl": "nie zobaczy, co dzieje się na prywatnych przyjęciach, które często trwają całymi dniami,"
+  },
+  {
+   "start": 1533.08,
+   "end": 1540.38,
+   "es": "amenizadas por los grupos de música norteña y bandas de Sinaloa más famosos del momento.",
+   "id": 297,
+   "slot": 7.22,
+   "max_chars_pl": 101,
+   "pl": "umilanych przez najsłynniejsze w tej chwili zespoły muzyki norteña i bandy z Sinaloa."
+  },
+  {
+   "start": 1540.38,
+   "end": 1546.14,
+   "es": "Detrás del lujo y la opulencia reside una realidad innegable, la mansión es",
+   "id": 298,
+   "slot": 5.68,
+   "max_chars_pl": 79,
+   "pl": "Za luksusem i przepychem kryje się niezaprzeczalna rzeczywistość, rezydencja jest"
+  },
+  {
+   "start": 1546.14,
+   "end": 1552.5,
+   "es": "también un objetivo, por ello la ingeniería más impresionante no está en lo que se",
+   "id": 299,
+   "slot": 6.28,
+   "max_chars_pl": 87,
+   "pl": "też celem, dlatego najbardziej imponująca inżynieria nie jest w tym, co"
+  },
+  {
+   "start": 1552.5,
+   "end": 1559.38,
+   "es": "ve, sino en lo que está oculto. Inspirado por la genialidad táctica de su padre,",
+   "id": 300,
+   "slot": 6.8,
+   "max_chars_pl": 95,
+   "pl": "widać, lecz w tym, co ukryte. Zainspirowany taktycznym geniuszem ojca,"
+  },
+  {
+   "start": 1559.38,
+   "end": 1566.3,
+   "es": "Iván ha integrado sistemas de escape que parecen sacados de una película de espionaje,",
+   "id": 301,
+   "slot": 6.84,
+   "max_chars_pl": 95,
+   "pl": "Iván zintegrował systemy ucieczki jak z filmu szpiegowskiego,"
+  },
+  {
+   "start": 1566.3,
+   "end": 1572.66,
+   "es": "existen túneles secretos que conectan diferentes puntos de la propiedad con salidas estratégicas",
+   "id": 302,
+   "slot": 6.28,
+   "max_chars_pl": 87,
+   "pl": "istnieją tajne tunele łączące różne punkty posiadłości ze strategicznymi wyjściami"
+  },
+  {
+   "start": 1572.66,
+   "end": 1580.28,
+   "es": "a varias cuadras de distancia. Estos pasajes están iluminados, cuentan con ventilación",
+   "id": 303,
+   "slot": 7.54,
+   "max_chars_pl": 105,
+   "pl": "oddalonymi o kilka przecznic. Te przejścia są oświetlone, mają wentylację"
+  },
+  {
+   "start": 1580.28,
+   "end": 1587.3,
+   "es": "y en algunos casos están equipados con vehículos ligeros para una evacuación rápida.",
+   "id": 304,
+   "slot": 6.94,
+   "max_chars_pl": 97,
+   "pl": "a w niektórych przypadkach wyposażono je w lekkie pojazdy do szybkiej ewakuacji."
+  },
+  {
+   "start": 1587.3,
+   "end": 1593.58,
+   "es": "Las puertas de acceso a estos túneles están camufladas detrás de espejos, estanterías",
+   "id": 305,
+   "slot": 6.2,
+   "max_chars_pl": 86,
+   "pl": "Drzwi do tych tuneli są zamaskowane za lustrami, regałami"
+  },
+  {
+   "start": 1593.58,
+   "end": 1599.68,
+   "es": "o paneles de madera que solo se abren con reconocimiento biométrico, este es",
+   "id": 306,
+   "slot": 6.02,
+   "max_chars_pl": 84,
+   "pl": "lub drewnianymi panelami, otwieranymi tylko rozpoznaniem biometrycznym, to"
+  },
+  {
+   "start": 1599.68,
+   "end": 1606.3,
+   "es": "el recordatorio constante de que a pesar de los billones y el lujo, la vida de un Guzmán",
+   "id": 307,
+   "slot": 6.54,
+   "max_chars_pl": 91,
+   "pl": "stałe przypomnienie, że mimo miliardów i luksusu życie Guzmána"
+  },
+  {
+   "start": 1606.3,
+   "end": 1613.5,
+   "es": "Salazar está marcada por la vigilancia constante. La mansión es una jaula de oro, pero sigue",
+   "id": 308,
+   "slot": 7.12,
+   "max_chars_pl": 99,
+   "pl": "Salazara naznaczone jest ciągłą czujnością. Rezydencja to złota klatka, ale nadal"
+  },
+  {
+   "start": 1613.5,
+   "end": 1619.72,
+   "es": "siendo una jaula que requiere una salida de emergencia siempre lista. ¿Por qué",
+   "id": 309,
+   "slot": 6.14,
+   "max_chars_pl": 85,
+   "pl": "klatka, która wymaga zawsze gotowego wyjścia awaryjnego. Po co"
+  },
+  {
+   "start": 1619.72,
+   "end": 1624.96,
+   "es": "construir algo así? Para Iván Archivaldo la mansión cumple",
+   "id": 310,
+   "slot": 5.16,
+   "max_chars_pl": 72,
+   "pl": "budować coś takiego? Dla Ivána Archivalda rezydencja pełni"
+  },
+  {
+   "start": 1624.96,
+   "end": 1632.38,
+   "es": "una función psicológica vital. En el mundo del narcotráfico, la percepción es realidad.",
+   "id": 311,
+   "slot": 7.34,
+   "max_chars_pl": 102,
+   "pl": "witalną funkcję psychologiczną. W świecie narkobiznesu percepcja to rzeczywistość."
+  },
+  {
+   "start": 1632.38,
+   "end": 1638.82,
+   "es": "Si te ves poderoso, eres poderoso. Si vives como un rey, tus subordinados te verán",
+   "id": 312,
+   "slot": 6.36,
+   "max_chars_pl": 89,
+   "pl": "Jeśli wyglądasz na potężnego, jesteś potężny. Jeśli żyjesz jak król, twoi podwładni będą cię widzieć"
+  },
+  {
+   "start": 1638.82,
+   "end": 1645.44,
+   "es": "como tal y tus enemigos te respetarán o te temerán. Esta mansión es también",
+   "id": 313,
+   "slot": 6.54,
+   "max_chars_pl": 91,
+   "pl": "jako takiego, a wrogowie będą cię szanować albo się bać. Ta rezydencja jest też"
+  },
+  {
+   "start": 1645.44,
+   "end": 1651.46,
+   "es": "un refugio emocional. En un mundo donde la traición es la moneda de cambio y",
+   "id": 314,
+   "slot": 5.94,
+   "max_chars_pl": 83,
+   "pl": "emocjonalnym schronieniem. W świecie, gdzie zdrada jest walutą, a"
+  },
+  {
+   "start": 1651.46,
+   "end": 1659.14,
+   "es": "la muerte es una compañera constante, tener un lugar de belleza absoluta y control total",
+   "id": 315,
+   "slot": 7.6,
+   "max_chars_pl": 106,
+   "pl": "śmierć stałą towarzyszką, miejsce absolutnego piękna i pełnej kontroli"
+  },
+  {
+   "start": 1659.14,
+   "end": 1664.92,
+   "es": "es una forma de mantener la cordura. Es el escenario de su propia narrativa, donde",
+   "id": 316,
+   "slot": 5.7,
+   "max_chars_pl": 79,
+   "pl": "to sposób na zachowanie rozsądku. To scena jego własnej narracji, gdzie"
+  },
+  {
+   "start": 1664.92,
+   "end": 1671.08,
+   "es": "él no es un fugitivo, sino el soberano de su propio universo. El estilo de vida",
+   "id": 317,
+   "slot": 6.08,
+   "max_chars_pl": 85,
+   "pl": "nie jest uciekinierem, lecz suwerenem własnego wszechświata. Styl życia"
+  },
+  {
+   "start": 1671.08,
+   "end": 1677.18,
+   "es": "de Iván, reflejado en su hogar, también es una herramienta de reclutamiento. Las",
+   "id": 318,
+   "slot": 6.02,
+   "max_chars_pl": 84,
+   "pl": "Ivána, odzwierciedlony w jego domu, to też narzędzie rekrutacji."
+  },
+  {
+   "start": 1677.18,
+   "end": 1683.48,
+   "es": "imágenes filtradas de este lujo extremo sirven como un imán para miles de jóvenes que ven en",
+   "id": 319,
+   "slot": 6.22,
+   "max_chars_pl": 87,
+   "pl": "Wycieknięte obrazy tego skrajnego luksusu działają jak magnes na tysiące młodych, którzy widzą w"
+  },
+  {
+   "start": 1683.48,
+   "end": 1691.5,
+   "es": "el camino del cartel la única vía de escape de la pobreza. La mansión de Iván Archivaldo",
+   "id": 320,
+   "slot": 7.94,
+   "max_chars_pl": 111,
+   "pl": "drodze kartelu jedyną ucieczkę z biedy. Rezydencja Ivána Archivalda"
+  },
+  {
+   "start": 1691.5,
+   "end": 1698.16,
+   "es": "es el sueño sinaloense llevado al extremo. Es imposible hablar de la mansión de Iván sin",
+   "id": 321,
+   "slot": 6.58,
+   "max_chars_pl": 92,
+   "pl": "to sen z Sinaloa doprowadzony do ekstremum. Nie sposób mówić o rezydencji Ivána bez"
+  },
+  {
+   "start": 1698.16,
+   "end": 1703.58,
+   "es": "mencionar la ciudad que la rodea. Culiacán es una ciudad de contrastes violentos. A",
+   "id": 322,
+   "slot": 5.34,
+   "max_chars_pl": 74,
+   "pl": "wspomnienia otaczającego ją miasta. Culiacán to miasto brutalnych kontrastów."
+  },
+  {
+   "start": 1703.58,
+   "end": 1708.8,
+   "es": "pocos kilómetros de estos palacios existen colonias donde el asfalto es un lujo y el agua",
+   "id": 323,
+   "slot": 5.14,
+   "max_chars_pl": 71,
+   "pl": "Kilka kilometrów od tych pałaców są dzielnice, gdzie asfalt to luksus, a woda"
+  },
+  {
+   "start": 1708.8,
+   "end": 1715.32,
+   "es": "potable un privilegio. Esta disparidad es lo que alimenta el mito. Para algunos,",
+   "id": 324,
+   "slot": 6.44,
+   "max_chars_pl": 90,
+   "pl": "pitna przywilej. Ta nierówność karmi mit. Dla jednych"
+  },
+  {
+   "start": 1715.32,
+   "end": 1720.34,
+   "es": "Iván es un benefactor que trae dinero a la economía local. Para otros, es el",
+   "id": 325,
+   "slot": 4.94,
+   "max_chars_pl": 69,
+   "pl": "Iván jest dobroczyńcą, który wnosi pieniądze do lokalnej gospodarki. Dla innych to"
+  },
+  {
+   "start": 1720.34,
+   "end": 1726.18,
+   "es": "responsable del estigma que pesa sobre la región. La mansión se erige como un",
+   "id": 326,
+   "slot": 5.76,
+   "max_chars_pl": 80,
+   "pl": "winny piętna, które ciąży na regionie. Rezydencja wznosi się jako"
+  },
+  {
+   "start": 1726.18,
+   "end": 1732.68,
+   "es": "recordatorio de quien ostenta el verdadero control en la zona. Durante eventos como el",
+   "id": 327,
+   "slot": 6.42,
+   "max_chars_pl": 89,
+   "pl": "przypomnienie, kto sprawuje prawdziwą kontrolę w tej strefie. Podczas wydarzeń takich jak"
+  },
+  {
+   "start": 1732.68,
+   "end": 1739.6,
+   "es": "culiacanazo, estas mansiones no fueron solo casas, se convirtieron en centros logísticos",
+   "id": 328,
+   "slot": 6.84,
+   "max_chars_pl": 95,
+   "pl": "Culiacanazo te rezydencje nie były tylko domami, stały się centrami logistycznymi,"
+  },
+  {
+   "start": 1739.6,
+   "end": 1746.08,
+   "es": "desde donde se coordinó la respuesta del cartel ante las fuerzas federales. La relación",
+   "id": 329,
+   "slot": 6.4,
+   "max_chars_pl": 89,
+   "pl": "skąd koordynowano odpowiedź kartelu na siły federalne. Relacja"
+  },
+  {
+   "start": 1746.08,
+   "end": 1751.4,
+   "es": "de la ciudad con la mansión es de una tensa calma. Todos saben dónde están,",
+   "id": 330,
+   "slot": 5.24,
+   "max_chars_pl": 73,
+   "pl": "miasta z rezydencją to napięty spokój. Wszyscy wiedzą, gdzie są,"
+  },
+  {
+   "start": 1751.4,
+   "end": 1757.4,
+   "es": "pero nadie mira demasiado tiempo. Es una presencia fantasmal, pero tangible,",
+   "id": 331,
+   "slot": 5.92,
+   "max_chars_pl": 82,
+   "pl": "ale nikt nie patrzy zbyt długo. To obecność upiorna, lecz namacalna,"
+  },
+  {
+   "start": 1757.4,
+   "end": 1765.12,
+   "es": "que define la identidad moderna de la capital sinaloense. Ser el hijo favorito de El Chapo,",
+   "id": 332,
+   "slot": 7.64,
+   "max_chars_pl": 106,
+   "pl": "która definiuje nowoczesną tożsamość stolicy Sinaloa. Bycie ulubionym synem El Chapo"
+  },
+  {
+   "start": 1765.12,
+   "end": 1771.12,
+   "es": "no solo trajo consigo las llaves del reino y las cuentas bancarias inagotables,",
+   "id": 333,
+   "slot": 5.92,
+   "max_chars_pl": 82,
+   "pl": "przyniosło nie tylko klucze do królestwa i niewyczerpane konta bankowe,"
+  },
+  {
+   "start": 1771.12,
+   "end": 1778.16,
+   "es": "también trajo una diana en la espalda. La mansión de Iván Archivaldo ha sido objeto",
+   "id": 334,
+   "slot": 6.96,
+   "max_chars_pl": 97,
+   "pl": "ale też tarczę strzelniczą na plecach. Rezydencja Ivána Archivalda była celem"
+  },
+  {
+   "start": 1778.16,
+   "end": 1784.68,
+   "es": "de múltiples intentos de cateo y vigilancia por drones de última generación. Cada objeto",
+   "id": 335,
+   "slot": 6.44,
+   "max_chars_pl": 90,
+   "pl": "wielokrotnych prób przeszukania i inwigilacji dronami najnowszej generacji. Każdy przedmiot"
+  },
+  {
+   "start": 1784.68,
+   "end": 1790.955,
+   "es": "de lujo dentro de esas paredes ha sido pagado con un precio que va más allá del dinero.",
+   "id": 336,
+   "slot": 6.195,
+   "max_chars_pl": 86,
+   "pl": "luksusu w tych murach opłacono ceną, która wykracza poza pieniądze."
+  }
+ ]
+}
