@@ -298,6 +298,113 @@ def cmd_mezclar(a):
     print(f'Listo: {a.salida} (video sin recomprimir, música original + voz polaca)')
 
 
+# ---------------------------------------------------------------- 5b) compactar: quitar las pausas sobrantes (corta video, música y voz a la vez)
+def _curva(n, x, inicio=0.0, fin=1.0):
+    return np.linspace(inicio, fin, n, dtype=np.float32).reshape((-1,) + (1,) * (x.ndim - 1))
+
+
+def trocear_audio(x, cortes, fps, cruce=0, borde=0.004):
+    """Concatena los tramos [f0, f1) (en fotogramas) de `x`. `cruce` > 0: fundido cruzado de equal-power entre tramos."""
+    partes, prev_fin = [], None
+    nb = int(borde * SR)
+    for j, (f0, f1) in enumerate(cortes):
+        a0, a1 = int(round(f0 / fps * SR)), int(round(f1 / fps * SR))
+        seg = x[a0:a1].copy()
+        if j > 0 and prev_fin is not None and a0 != prev_fin:        # tramo no contiguo en el original
+            if cruce > 0:
+                n = min(cruce, len(seg), len(x) - prev_fin)
+                if n > 0:
+                    t = _curva(n, x)
+                    seg[:n] = seg[:n] * np.sqrt(t) + x[prev_fin:prev_fin + n] * np.sqrt(1 - t)
+            elif nb > 0 and len(seg) > 2 * nb:                        # solo evitar chasquidos
+                seg[:nb] *= _curva(nb, x, 0, 1)
+        if cruce == 0 and nb > 0 and len(seg) > 2 * nb:
+            seg[-nb:] *= _curva(nb, x, 1, 0)
+        partes.append(seg)
+        prev_fin = a1
+    return np.concatenate(partes) if partes else x[:0]
+
+
+def cmd_compactar(a):
+    """Recorta el video donde la voz doblada deja pausas más largas que las naturales."""
+    import math
+    w = workdir(a)
+    data = cargar_segmentos(w)
+    todos, vd = data['segments'], data['video_dur']
+    tim = {t['id']: t for t in json.loads((w / 'timing.json').read_text())}
+    vs = [s for s in probe(a.video)['streams'] if s['codec_type'] == 'video'][0]
+    num, den = vs['r_frame_rate'].split('/')
+    fps = int(num) / int(den)
+    segs = todos[:a.max_seg] if a.max_seg else todos
+    cortes, ini = [], []
+    for i, s in enumerate(segs):
+        fin_slot = todos[i + 1]['start'] if i + 1 < len(todos) else vd
+        lim = fin_slot - s['start']
+        d = tim[s['id']]['dur_final']
+        extra = max(0.0, lim - d - a.pausa)
+        keep = min(lim, d + min(a.pausa_max, a.pausa + a.conservar * extra))
+        if i == len(segs) - 1:
+            keep = min(lim, keep + a.cola)                                  # cola final para que la música no se corte en seco
+        f0 = 0 if (i == 0 and s['start'] < 1.0) else int(round(s['start'] * fps))
+        f1 = min(int(round(fin_slot * fps)), f0 + int(math.ceil((keep + (s['start'] if f0 == 0 else 0)) * fps)))
+        ini.append(f0)
+        if cortes and cortes[-1][1] >= f0:
+            cortes[-1] = (cortes[-1][0], max(cortes[-1][1], f1))
+        else:
+            cortes.append((f0, f1))
+    # posición de cada frase en el video nuevo
+    acum, desp = 0, []
+    for f0, f1 in cortes:
+        desp.append(acum)
+        acum += f1 - f0
+    total_frames = acum
+    nuevos = []
+    for s, f in zip(segs, ini):
+        for (c0, c1), off in zip(cortes, desp):
+            if c0 <= f < c1:
+                nuevos.append(round((off + f - c0) / fps, 3))
+                break
+    dur_nueva = total_frames / fps
+    (w / 'cortes.json').write_text(json.dumps({'fps': fps, 'cortes': cortes, 'total_frames': total_frames, 'dur': dur_nueva,
+                                               'ids': [s['id'] for s in segs], 'nuevo_inicio': nuevos,
+                                               'pausa': a.pausa, 'conservar': a.conservar, 'pausa_max': a.pausa_max}, indent=1), encoding='utf-8')
+    print(f'{len(segs)} frases, {len(cortes)} tramos de video. Duración: {vd/60:.1f} min -> {dur_nueva/60:.1f} min '
+          f'(se quitan {(vd - dur_nueva)/60:.1f} min de pausas)')
+    # audio recortado con los mismos cortes
+    musica = leer_wav_estereo(w / 'no_vocals.wav')
+    voz = leer_wav(w / 'voz_pl.wav')
+    escribir_wav_estereo(w / 'musica_c.wav', trocear_audio(musica, cortes, fps, cruce=int(0.12 * SR)))
+    escribir_wav(w / 'voz_c.wav', trocear_audio(voz, cortes, fps, cruce=0))
+    ref = w / 'vocals.wav'
+    objetivo = min(-12.0, max(-30.0, lufs(ref))) if ref.exists() else -16.0
+    expr = '+'.join(f'between(n,{f0},{f1 - 1})' for f0, f1 in cortes)
+    filtro_v = f"[0:v]select='{expr}',setpts=N/({fps:.6f}*TB)[v]"
+    filtro_a = (f'[1:a]aresample={SR}[mus];[2:a]loudnorm=I={objetivo:.1f}:TP=-1.5:LRA=11,aresample={SR},pan=stereo|c0=c0|c1=c0[vz];'
+                f'[mus][vz]amix=inputs=2:duration=first:normalize=0,apad=whole_dur={dur_nueva:.3f},atrim=end={dur_nueva:.3f},'
+                f'alimiter=limit=0.708:level=0[m]')
+    (w / 'filtro.txt').write_text(filtro_v + ';' + filtro_a, encoding='utf-8')
+    run([FF, '-y', '-v', 'error', '-i', a.video, '-i', w / 'musica_c.wav', '-i', w / 'voz_c.wav',
+         '-filter_complex_script', w / 'filtro.txt', '-map', '[v]', '-map', '[m]',
+         '-c:v', 'libx264', '-preset', a.preset, '-crf', a.crf, '-pix_fmt', 'yuv420p', '-r', f'{fps:.6f}',
+         '-c:a', 'aac', '-b:a', f'{a.audio_kbps}k', '-ar', SR, '-metadata:s:a:0', f'language={ISO3.get(a.idioma, a.idioma)}',
+         '-movflags', '+faststart', a.salida])
+    print(f'Listo: {a.salida} (video recortado en las pausas, con la voz y la música sincronizadas)')
+
+
+def leer_wav_estereo(p):
+    with wave.open(str(p)) as f:
+        assert f.getsampwidth() == 2 and f.getframerate() == SR, f'{p}: se esperaba 16 bit / {SR} Hz'
+        ch = f.getnchannels()
+        d = np.frombuffer(f.readframes(f.getnframes()), dtype=np.int16).astype(np.float32) / 32768
+    return d.reshape(-1, ch)
+
+
+def escribir_wav_estereo(p, x):
+    with wave.open(str(p), 'wb') as f:
+        f.setnchannels(x.shape[1]); f.setsampwidth(2); f.setframerate(SR)
+        f.writeframes((np.clip(x, -1, 1) * 32767).astype(np.int16).tobytes())
+
+
 # ---------------------------------------------------------------- 6) QA
 class QA:
     def __init__(self):
@@ -354,19 +461,88 @@ def qa_traduccion(q, segs, glosario, idioma='pl'):
           str(gl) if gl else ('' if glosario else 'sin glosario'))
 
 
+def qa_video_compacto(q, a, w, cj):
+    """Comprobaciones del video recortado: contenido fiel al original, cortes solo en silencios, voz en su sitio."""
+    fps, cortes = cj['fps'], cj['cortes']
+    vi, vo = paquetes_video(a.video), None
+    info = [s for s in probe(a.salida)['streams'] if s['codec_type'] == 'video'][0]
+    orig = [s for s in probe(a.video)['streams'] if s['codec_type'] == 'video'][0]
+    r = run([FP, '-v', 'error', '-count_frames', '-select_streams', 'v:0', '-show_entries', 'stream=nb_read_frames', '-of', 'csv=p=0', a.salida])
+    n_out = int(r.stdout.strip().split(',')[0])
+    q.add('Video: mismo tamaño y fps que el original, códec h264',
+          'OK' if (info['width'], info['height'], info['r_frame_rate'], info['codec_name']) == (orig['width'], orig['height'], orig['r_frame_rate'], 'h264') else 'FALLO',
+          f"{info['codec_name']} {info['width']}x{info['height']} {info['r_frame_rate']}")
+    q.add('Video: fotogramas = suma de los tramos conservados (sin duplicar ni perder ninguno)', 'OK' if n_out == cj['total_frames'] else 'FALLO', f"salida={n_out} esperado={cj['total_frames']}")
+    do, da = duracion(a.salida), float([s for s in probe(a.salida)['streams'] if s['codec_type'] == 'audio'][0]['duration'])
+    q.add('Duración del video = duración esperada (±0.10 s)', 'OK' if abs(do - cj['dur']) <= 0.10 else 'FALLO', f"salida={do:.2f}s esperado={cj['dur']:.2f}s (original {duracion(a.video):.1f}s)")
+    q.add('Audio y video con la misma duración (±0.10 s)', 'OK' if abs(do - da) <= 0.10 else 'FALLO', f'video={do:.2f}s audio={da:.2f}s')
+    # fidelidad visual: se comparan fotogramas de la salida con el fotograma de origen que les corresponde
+    offs, acum = [], 0
+    for f0, f1 in cortes:
+        offs.append(acum); acum += f1 - f0
+    import random
+    rnd = random.Random(7)
+    tope = max(1, n_out - 3)                  # al pie exacto del archivo ffmpeg no devuelve imagen: se evitan los últimos fotogramas
+    muestras = sorted({int(i * tope / 23) for i in range(24)} | {rnd.randrange(tope) for _ in range(8)})
+    carp = w / 'qa_frames'; carp.mkdir(exist_ok=True)
+    bajos = []
+    for k in muestras:
+        for (f0, f1), off in zip(cortes, offs):
+            if off <= k < off + (f1 - f0):
+                src = f0 + (k - off); break
+        for nombre, arch, fr in (('o', a.salida, k), ('s', a.video, src)):
+            png = carp / f'{nombre}.png'
+            png.unlink(missing_ok=True)                                   # nunca comparar contra una imagen vieja
+            run([FF, '-y', '-v', 'error', '-ss', f'{(fr + 0.5) / fps:.4f}', '-i', arch, '-frames:v', '1', png])
+        if not (carp / 'o.png').exists() or not (carp / 's.png').exists():
+            bajos.append((k, src, 'sin imagen')); continue
+        rr = run([FF, '-hide_banner', '-i', carp / 'o.png', '-i', carp / 's.png', '-lavfi', 'ssim', '-f', 'null', '-'], check=False).stderr
+        v = float(re.findall(r'All:([\d.]+)', rr)[-1])
+        if v < 0.95:
+            bajos.append((k, src, round(v, 3)))
+    shutil.rmtree(carp, ignore_errors=True)
+    q.add(f'Video: {len(muestras)} fotogramas de la salida coinciden con su fotograma de origen (SSIM ≥ 0.95)', 'FALLO' if bajos else 'OK', f'distintos: {bajos}' if bajos else 'todos coinciden (mismo contenido, sin desfase)')
+    # los cortes caen en silencio y la voz está en su sitio
+    voz = leer_wav(w / 'voz_c.wav')
+    ids, nu = cj['ids'], cj['nuevo_inicio']
+    tim = {t['id']: t for t in json.loads((w / 'timing.json').read_text())}
+    en_frase = []
+    for (f0, f1), off in list(zip(cortes, offs))[:-1]:
+        t_fin = (off + f1 - f0) / fps
+        seg = voz[max(0, int((t_fin - 0.08) * SR)):int(t_fin * SR)]
+        if len(seg) and db(np.sqrt(np.mean(seg ** 2))) > -50:
+            en_frase.append(round(t_fin, 2))
+    q.add('Cortes: ninguno cae dentro de una frase (silencio de voz en los 80 ms previos)', 'FALLO' if en_frase else 'OK', f'cortes con voz en: {en_frase[:10]}' if en_frase else f'{len(cortes) - 1} cortes, todos en pausa')
+    mudos = []
+    for i, t0 in zip(ids, nu):
+        seg = voz[int(t0 * SR):int((t0 + tim[i]['dur_final']) * SR)]
+        if len(seg) == 0 or db(np.sqrt(np.mean(seg ** 2))) < -50:
+            mudos.append(i)
+    q.add('Sincronía: cada frase suena en su sitio dentro del video nuevo', 'FALLO' if mudos else 'OK', f'sin voz: {mudos}' if mudos else f'{len(ids)} frases')
+    gaps = [nu[i + 1] - nu[i] - tim[ids[i]]['dur_final'] for i in range(len(ids) - 1)]
+    if gaps:
+        g = np.array(gaps)
+        q.add('Ritmo: pausas entre frases (media / mediana / máxima)', 'OK' if g.max() <= 3.0 else 'AVISO',
+              f'{g.mean():.2f}s / {np.median(g):.2f}s / {g.max():.2f}s; {int((g > 1.5).sum())} pausas > 1.5 s, {int((g < 0.1).sum())} < 0.1 s')
+
+
 def cmd_qa(a):
     w = workdir(a)
     data = cargar_segmentos(w)
     segs = data['segments']
     q = QA()
-    # --- video intacto
-    vi, vo = paquetes_video(a.video), paquetes_video(a.salida)
-    q.add('Video: mismo códec/resolución/fps/paquetes', 'OK' if vi == vo else 'FALLO', f'in={vi} out={vo}' if vi != vo else f'{vo["codec_name"]} {vo["width"]}x{vo["height"]} {vo["r_frame_rate"]} {vo["nb_read_packets"]} paquetes')
-    mi, mo = md5_video(a.video), md5_video(a.salida)
-    q.add('Video: contenido idéntico (md5 del stream, sin recomprimir ni ralentizar)', 'OK' if mi == mo else 'FALLO', mo)
-    # --- duración
-    di, do = duracion(a.video), duracion(a.salida)
-    q.add('Duración igual a la original (±0.10 s)', 'OK' if abs(di - do) <= 0.10 else 'FALLO', f'in={di:.3f}s out={do:.3f}s')
+    voz_wav, mus_wav = (w / 'voz_c.wav', w / 'musica_c.wav') if a.compacto else (w / 'voz_pl.wav', w / 'no_vocals.wav')
+    if a.compacto:
+        qa_video_compacto(q, a, w, json.loads((w / 'cortes.json').read_text()))
+    else:
+        # --- video intacto
+        vi, vo = paquetes_video(a.video), paquetes_video(a.salida)
+        q.add('Video: mismo códec/resolución/fps/paquetes', 'OK' if vi == vo else 'FALLO', f'in={vi} out={vo}' if vi != vo else f'{vo["codec_name"]} {vo["width"]}x{vo["height"]} {vo["r_frame_rate"]} {vo["nb_read_packets"]} paquetes')
+        mi, mo = md5_video(a.video), md5_video(a.salida)
+        q.add('Video: contenido idéntico (md5 del stream, sin recomprimir ni ralentizar)', 'OK' if mi == mo else 'FALLO', mo)
+        # --- duración
+        di, do = duracion(a.video), duracion(a.salida)
+        q.add('Duración igual a la original (±0.10 s)', 'OK' if abs(di - do) <= 0.10 else 'FALLO', f'in={di:.3f}s out={do:.3f}s')
     # --- audio
     au = [s for s in probe(a.salida)['streams'] if s['codec_type'] == 'audio']
     ok = len(au) == 1 and au[0]['codec_name'] == 'aac' and int(au[0]['sample_rate']) == SR
@@ -385,9 +561,9 @@ def cmd_qa(a):
           f'acortar traducción de: {largos}' if largos else f'{sum(t["estado"] == "ACELERADO" for t in tim)} acelerados (≤ límite), {sum(t["estado"] == "OK" for t in tim)} a velocidad natural')
     mf = max((t['factor'] for t in tim), default=1.0)
     q.add('Tiempos: aceleración máxima aplicada', 'OK' if mf <= 1.15 else 'FALLO', f'x{mf}')
-    voz = leer_wav(w / 'voz_pl.wav')
+    voz = leer_wav(voz_wav)
     mudos = []
-    for t in tim:
+    for t in ([] if a.compacto else tim):
         i0 = int(t['start'] * SR); seg = voz[i0:i0 + int(t['dur_final'] * SR)]
         if len(seg) == 0 or db(np.sqrt(np.mean(seg ** 2))) < -50:
             mudos.append(t['id'])
@@ -399,10 +575,10 @@ def cmd_qa(a):
     try:
         from faster_whisper import WhisperModel
         m = WhisperModel(a.modelo, device='auto', compute_type='auto')
-        sg, _ = m.transcribe(audio_16k(w / 'no_vocals.wav'), language='es', vad_filter=True)
+        sg, _ = m.transcribe(audio_16k(mus_wav), language='es', vad_filter=True)
         palabras = sum(len(s.text.split()) for s in sg if s.no_speech_prob < 0.4)
         q.add('Voz española eliminada (reconocimiento sobre la música)', 'OK' if palabras <= 8 else 'FALLO', f'{palabras} palabras detectadas')
-        sg, info = m.transcribe(audio_16k(w / 'voz_pl.wav'), language=a.idioma, vad_filter=True)
+        sg, info = m.transcribe(audio_16k(voz_wav), language=a.idioma, vad_filter=True)
         def palabras(t):      # solo palabras comunes: los nombres propios (mayúscula) se verifican escuchando
             return [x.lower() for x in re.findall(r'\w+', t) if not x[:1].isupper() and not x.isdigit()]
         oido = ' '.join(s.text for s in sg)
@@ -440,7 +616,14 @@ def main():
     s.add_argument('--max-acel', type=float, default=1.12, help='aceleración máxima permitida (default 1.12)')
     s.set_defaults(f=cmd_sintetizar)
     s = sub.add_parser('mezclar'); s.add_argument('video'); s.add_argument('salida'); s.add_argument('--idioma', default='pl', help='idioma de destino (pl, de, ...)'); s.set_defaults(f=cmd_mezclar)
-    s = sub.add_parser('qa'); s.add_argument('video'); s.add_argument('salida'); s.add_argument('--idioma', default='pl', help='idioma de destino (pl, de, ...)')
+    s = sub.add_parser('compactar'); s.add_argument('video'); s.add_argument('salida')
+    s.add_argument('--idioma', default='pl'); s.add_argument('--pausa', type=float, default=0.45, help='pausa mínima tras cada frase (s)')
+    s.add_argument('--conservar', type=float, default=0.2, help='fracción de la pausa original sobrante que se conserva')
+    s.add_argument('--pausa-max', type=float, default=1.4, help='pausa máxima tras una frase (s)')
+    s.add_argument('--cola', type=float, default=1.5, help='segundos extra al final para que la música no se corte en seco')
+    s.add_argument('--crf', default='24'); s.add_argument('--preset', default='medium'); s.add_argument('--audio-kbps', default='192'); s.add_argument('--max-seg', type=int, help='solo las primeras N frases (prueba)')
+    s.set_defaults(f=cmd_compactar)
+    s = sub.add_parser('qa'); s.add_argument('video'); s.add_argument('salida'); s.add_argument('--compacto', action='store_true', help='el video fue recortado con «compactar»'); s.add_argument('--idioma', default='pl', help='idioma de destino (pl, de, ...)')
     s.add_argument('--glosario', help='json {"término ES": "término PL"}'); s.add_argument('--modelo', default='large-v3'); s.set_defaults(f=cmd_qa)
     a = p.parse_args()
     a.f(a)
