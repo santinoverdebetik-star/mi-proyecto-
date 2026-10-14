@@ -125,7 +125,9 @@ def tension(dur):
 
 
 def pista(modo, dur):
-    if modo == "C": y = tension(dur)
+    if modo == "C":                                   # tension: el mismo vals, mas lento y oscuro, con latido y notas graves (siempre audible)
+        base = vals(dur, 72, "A"); tens = tension(dur)
+        y = base / (np.sqrt(np.mean(base ** 2)) + 1e-9) + 0.35 * tens / (np.sqrt(np.mean(tens ** 2)) + 1e-9)
     elif modo == "A": y = vals(dur, 84, "A")
     elif modo == "B": y = vals(dur, 100, "B")
     else: y = vals(dur, 66, "D")

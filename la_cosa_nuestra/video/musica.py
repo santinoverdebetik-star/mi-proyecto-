@@ -142,12 +142,15 @@ def main(timeline, voz, salida):
         seg = musica_mafia.pista(m, dur) if os.environ.get('MAFIA') else pistas(m, dur)
         i0 = int((a - cf) * SR); n = len(seg)
         env = np.ones(n); k = int(cf * SR)
-        env[:k] = np.linspace(0, 1, k); env[-k:] = np.linspace(1, 0, k)
+        env[:k] = np.sin(np.linspace(0, np.pi / 2, k)); env[-k:] = np.cos(np.linspace(0, np.pi / 2, k))
         seg = seg * env
         s0, s1 = max(0, i0), min(len(musica), i0 + n)
         musica[s0:s1] += seg[s0 - i0: s1 - i0]
     musica *= rms(v) * float(os.environ.get("MUSIC_GAIN", "0.12")) / rms(musica)           # musica al ~12 % de la voz
     # bajar un poco la musica en la intro de cada bloque? (sin clips de serie, se mantiene fija)
+    if os.environ.get('MUSIC_ONLY_OUT'):
+        ffm0 = subprocess.Popen(['ffmpeg', '-v', 'error', '-y', '-f', 's16le', '-ar', str(SR), '-ac', '1', '-i', '-', os.environ['MUSIC_ONLY_OUT']], stdin=subprocess.PIPE)
+        ffm0.communicate((np.clip(musica, -1, 1) * 32767).astype('<i2').tobytes())
     fx = np.zeros(len(v))
     for b in tl["bloques"]:
         if b["tipo"] in ("parte", "regla", "cierre", "sellos") and b["t0"] > 1:
