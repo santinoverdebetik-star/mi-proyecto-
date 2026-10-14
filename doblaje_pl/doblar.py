@@ -325,70 +325,83 @@ def trocear_audio(x, cortes, fps, cruce=0, borde=0.004):
     return np.concatenate(partes) if partes else x[:0]
 
 
-def cmd_compactar(a):
-    """Recorta el video donde la voz doblada deja pausas más largas que las naturales."""
+def cmd_recortar_pausas(a):
+    """Receta estándar (paso final de cada doblaje): detecta los silencios sobre la VOZ LIMPIA, no sobre el mix con música;
+    acorta las pausas >= umbral dejando `respiro` s; no toca las pausas cortas; corta video y audio del video final juntos."""
     import math
     w = workdir(a)
-    data = cargar_segmentos(w)
-    todos, vd = data['segments'], data['video_dur']
-    tim = {t['id']: t for t in json.loads((w / 'timing.json').read_text())}
+    voz = leer_wav(Path(a.voz) if a.voz else w / 'voz_pl.wav')
     vs = [s for s in probe(a.video)['streams'] if s['codec_type'] == 'video'][0]
     num, den = vs['r_frame_rate'].split('/')
     fps = int(num) / int(den)
-    segs = todos[:a.max_seg] if a.max_seg else todos
-    cortes, ini = [], []
-    for i, s in enumerate(segs):
-        fin_slot = todos[i + 1]['start'] if i + 1 < len(todos) else vd
-        lim = fin_slot - s['start']
-        d = tim[s['id']]['dur_final']
-        extra = max(0.0, lim - d - a.pausa)
-        keep = min(lim, d + min(a.pausa_max, a.pausa + a.conservar * extra))
-        if i == len(segs) - 1:
-            keep = min(lim, keep + a.cola)                                  # cola final para que la música no se corte en seco
-        f0 = 0 if (i == 0 and s['start'] < 1.0) else int(round(s['start'] * fps))
-        f1 = min(int(round(fin_slot * fps)), f0 + int(math.ceil((keep + (s['start'] if f0 == 0 else 0)) * fps)))
-        ini.append(f0)
-        if cortes and cortes[-1][1] >= f0:
-            cortes[-1] = (cortes[-1][0], max(cortes[-1][1], f1))
-        else:
-            cortes.append((f0, f1))
-    # posición de cada frase en el video nuevo
-    acum, desp = 0, []
-    for f0, f1 in cortes:
-        desp.append(acum)
-        acum += f1 - f0
-    total_frames = acum
-    nuevos = []
-    for s, f in zip(segs, ini):
-        for (c0, c1), off in zip(cortes, desp):
-            if c0 <= f < c1:
-                nuevos.append(round((off + f - c0) / fps, 3))
-                break
-    dur_nueva = total_frames / fps
-    (w / 'cortes.json').write_text(json.dumps({'fps': fps, 'cortes': cortes, 'total_frames': total_frames, 'dur': dur_nueva,
-                                               'ids': [s['id'] for s in segs], 'nuevo_inicio': nuevos,
-                                               'pausa': a.pausa, 'conservar': a.conservar, 'pausa_max': a.pausa_max}, indent=1), encoding='utf-8')
-    print(f'{len(segs)} frases, {len(cortes)} tramos de video. Duración: {vd/60:.1f} min -> {dur_nueva/60:.1f} min '
-          f'(se quitan {(vd - dur_nueva)/60:.1f} min de pausas)')
-    # audio recortado con los mismos cortes
-    musica = leer_wav_estereo(w / 'no_vocals.wav')
-    voz = leer_wav(w / 'voz_pl.wav')
-    escribir_wav_estereo(w / 'musica_c.wav', trocear_audio(musica, cortes, fps, cruce=int(0.12 * SR)))
+    dur = duracion(a.video)
+    total = int(round(dur * fps))
+    if a.hasta:
+        total = min(total, int(a.hasta * fps))
+    # --- silencios de la voz limpia (ventanas de 10 ms)
+    hop = int(0.01 * SR)
+    n = len(voz) // hop
+    rms = np.sqrt((voz[:n * hop].reshape(n, hop) ** 2).mean(axis=1))
+    habla = 20 * np.log10(np.maximum(rms, 1e-9)) > a.silencio_db
+    idx = np.where(habla)[0]
+    if len(idx) == 0:
+        sys.exit('No se detectó voz en el archivo de voz limpia.')
+    primero, ultimo = idx[0], idx[-1]
+    quitar, i = [], primero
+    while i <= ultimo:
+        if habla[i]:
+            i += 1
+            continue
+        j = i
+        while j <= ultimo and not habla[j]:
+            j += 1
+        t0, t1 = i * 0.01, j * 0.01                          # pausa entre dos tramos de voz (no se tocan el inicio ni el final del video)
+        if t1 - t0 >= a.umbral:
+            h = a.respiro / 2
+            r0, r1 = int(math.ceil((t0 + h) * fps)), int(math.floor((t1 - h) * fps))
+            if r1 > r0 and r0 < total:
+                quitar.append((r0, min(r1, total)))
+        i = j
+    # --- tramos que se conservan
+    cortes, pos = [], 0
+    for r0, r1 in quitar:
+        if r0 > pos:
+            cortes.append((pos, r0))
+        pos = r1
+    if pos < total:
+        cortes.append((pos, total))
+    total_out = sum(f1 - f0 for f0, f1 in cortes)
+    dur_out = total_out / fps
+    quitado = (total - total_out) / fps
+    print(f'{len(quitar)} pausas >= {a.umbral:.1f} s acortadas a {a.respiro:.1f} s. Se quitan {quitado/60:.1f} min: {total/fps/60:.1f} -> {dur_out/60:.1f} min')
+    # --- mapa de frases -> video nuevo (para el control de calidad)
+    ids, nuevos = [], []
+    segf = w / 'segments.json'
+    if segf.exists():
+        offs, acum = [], 0
+        for f0, f1 in cortes:
+            offs.append(acum); acum += f1 - f0
+        for sg in json.loads(segf.read_text(encoding='utf-8'))['segments']:
+            f = int(round(sg['start'] * fps))
+            for (c0, c1), off in zip(cortes, offs):
+                if c0 <= f < c1:
+                    ids.append(sg['id']); nuevos.append(round((off + f - c0) / fps, 3)); break
+    (w / 'cortes.json').write_text(json.dumps({'fps': fps, 'cortes': cortes, 'total_frames': total_out, 'dur': dur_out, 'ids': ids,
+                                               'nuevo_inicio': nuevos, 'umbral': a.umbral, 'respiro': a.respiro}, indent=1), encoding='utf-8')
+    # --- audio: el del video final ya montado, cortado con los mismos fotogramas
+    run([FF, '-y', '-v', 'error', '-i', a.video, '-vn', '-ac', '2', '-ar', SR, '-c:a', 'pcm_s16le', w / 'mix_final.wav'])
+    escribir_wav_estereo(w / 'mix_c.wav', trocear_audio(leer_wav_estereo(w / 'mix_final.wav'), cortes, fps, cruce=int(0.12 * SR)))
     escribir_wav(w / 'voz_c.wav', trocear_audio(voz, cortes, fps, cruce=0))
-    ref = w / 'vocals.wav'
-    objetivo = min(-12.0, max(-30.0, lufs(ref))) if ref.exists() else -16.0
+    if (w / 'no_vocals.wav').exists():
+        escribir_wav_estereo(w / 'musica_c.wav', trocear_audio(leer_wav_estereo(w / 'no_vocals.wav'), cortes, fps, cruce=int(0.12 * SR)))
     expr = '+'.join(f'between(n,{f0},{f1 - 1})' for f0, f1 in cortes)
-    filtro_v = f"[0:v]select='{expr}',setpts=N/({fps:.6f}*TB)[v]"
-    filtro_a = (f'[1:a]aresample={SR}[mus];[2:a]loudnorm=I={objetivo:.1f}:TP=-1.5:LRA=11,aresample={SR},pan=stereo|c0=c0|c1=c0[vz];'
-                f'[mus][vz]amix=inputs=2:duration=first:normalize=0,apad=whole_dur={dur_nueva:.3f},atrim=end={dur_nueva:.3f},'
-                f'alimiter=limit=0.708:level=0[m]')
-    (w / 'filtro.txt').write_text(filtro_v + ';' + filtro_a, encoding='utf-8')
-    run([FF, '-y', '-v', 'error', '-i', a.video, '-i', w / 'musica_c.wav', '-i', w / 'voz_c.wav',
-         '-filter_complex_script', w / 'filtro.txt', '-map', '[v]', '-map', '[m]',
-         '-c:v', 'libx264', '-preset', a.preset, '-crf', a.crf, '-pix_fmt', 'yuv420p', '-r', f'{fps:.6f}',
+    (w / 'filtro.txt').write_text(f"[0:v]select='{expr}',setpts=N/({fps:.6f}*TB)[v];"
+                                  f'[1:a]apad=whole_dur={dur_out:.3f},atrim=end={dur_out:.3f}[m]', encoding='utf-8')
+    run([FF, '-y', '-v', 'error', '-i', a.video, '-i', w / 'mix_c.wav', '-filter_complex_script', w / 'filtro.txt',
+         '-map', '[v]', '-map', '[m]', '-c:v', 'libx264', '-preset', a.preset, '-crf', a.crf, '-pix_fmt', 'yuv420p', '-r', f'{fps:.6f}',
          '-c:a', 'aac', '-b:a', f'{a.audio_kbps}k', '-ar', SR, '-metadata:s:a:0', f'language={ISO3.get(a.idioma, a.idioma)}',
          '-movflags', '+faststart', a.salida])
-    print(f'Listo: {a.salida} (video recortado en las pausas, con la voz y la música sincronizadas)')
+    print(f'Listo: {a.salida}')
 
 
 def leer_wav_estereo(p):
@@ -482,10 +495,16 @@ def qa_video_compacto(q, a, w, cj):
         offs.append(acum); acum += f1 - f0
     import random
     rnd = random.Random(7)
-    tope = max(1, n_out - 3)                  # al pie exacto del archivo ffmpeg no devuelve imagen: se evitan los últimos fotogramas
-    muestras = sorted({int(i * tope / 23) for i in range(24)} | {rnd.randrange(tope) for _ in range(8)})
+    tope = n_out - 3                           # al pie exacto del archivo ffmpeg no devuelve imagen: se evitan los últimos fotogramas
+    muestras = {int(i * tope / 15) for i in range(16)} | {rnd.randrange(tope) for _ in range(12)}
+    paso = max(1, len(cortes) // 40)           # primer y último fotograma de cada tramo: ahí se nota cualquier desfase
+    for (f0, f1), off in list(zip(cortes, offs))[::paso]:
+        for k in (off, off + (f1 - f0) - 1):
+            if 0 <= k < tope:
+                muestras.add(k)
+    muestras = sorted(muestras)
     carp = w / 'qa_frames'; carp.mkdir(exist_ok=True)
-    bajos = []
+    valores, faltan = [], []
     for k in muestras:
         for (f0, f1), off in zip(cortes, offs):
             if off <= k < off + (f1 - f0):
@@ -493,15 +512,18 @@ def qa_video_compacto(q, a, w, cj):
         for nombre, arch, fr in (('o', a.salida, k), ('s', a.video, src)):
             png = carp / f'{nombre}.png'
             png.unlink(missing_ok=True)                                   # nunca comparar contra una imagen vieja
-            run([FF, '-y', '-v', 'error', '-ss', f'{(fr + 0.5) / fps:.4f}', '-i', arch, '-frames:v', '1', png])
+            # ffmpeg devuelve el primer fotograma con pts >= -ss: se pide justo antes del pts exacto
+            run([FF, '-y', '-v', 'error', '-ss', f'{max(0.0, (fr - 0.25) / fps):.4f}', '-i', arch, '-frames:v', '1', png])
         if not (carp / 'o.png').exists() or not (carp / 's.png').exists():
-            bajos.append((k, src, 'sin imagen')); continue
+            faltan.append((k, src)); continue
         rr = run([FF, '-hide_banner', '-i', carp / 'o.png', '-i', carp / 's.png', '-lavfi', 'ssim', '-f', 'null', '-'], check=False).stderr
-        v = float(re.findall(r'All:([\d.]+)', rr)[-1])
-        if v < 0.95:
-            bajos.append((k, src, round(v, 3)))
+        valores.append((float(re.findall(r'All:([\d.]+)', rr)[-1]), k, src))
     shutil.rmtree(carp, ignore_errors=True)
-    q.add(f'Video: {len(muestras)} fotogramas de la salida coinciden con su fotograma de origen (SSIM ≥ 0.95)', 'FALLO' if bajos else 'OK', f'distintos: {bajos}' if bajos else 'todos coinciden (mismo contenido, sin desfase)')
+    v = np.array([x[0] for x in valores]) if valores else np.array([0.0])
+    desfasados = [(k, src, round(x, 3)) for x, k, src in valores if x < 0.85]     # ~0.45 = otro fotograma; 0.9-0.98 = solo compresión
+    ok_v = not desfasados and not faltan and v.mean() >= 0.95
+    q.add(f'Video: {len(valores)} fotogramas (bordes de cada corte + azar) coinciden con su fotograma de origen', 'OK' if ok_v else 'FALLO',
+          f'SSIM medio {v.mean():.3f}, mínimo {v.min():.3f}; sin desfase de fotogramas' if ok_v else f'desfasados: {desfasados[:6]} sin imagen: {faltan[:4]} medio {v.mean():.3f}')
     # los cortes caen en silencio y la voz está en su sitio
     voz = leer_wav(w / 'voz_c.wav')
     ids, nu = cj['ids'], cj['nuevo_inicio']
@@ -616,13 +638,14 @@ def main():
     s.add_argument('--max-acel', type=float, default=1.12, help='aceleración máxima permitida (default 1.12)')
     s.set_defaults(f=cmd_sintetizar)
     s = sub.add_parser('mezclar'); s.add_argument('video'); s.add_argument('salida'); s.add_argument('--idioma', default='pl', help='idioma de destino (pl, de, ...)'); s.set_defaults(f=cmd_mezclar)
-    s = sub.add_parser('compactar'); s.add_argument('video'); s.add_argument('salida')
-    s.add_argument('--idioma', default='pl'); s.add_argument('--pausa', type=float, default=0.45, help='pausa mínima tras cada frase (s)')
-    s.add_argument('--conservar', type=float, default=0.2, help='fracción de la pausa original sobrante que se conserva')
-    s.add_argument('--pausa-max', type=float, default=1.4, help='pausa máxima tras una frase (s)')
-    s.add_argument('--cola', type=float, default=1.5, help='segundos extra al final para que la música no se corte en seco')
-    s.add_argument('--crf', default='24'); s.add_argument('--preset', default='medium'); s.add_argument('--audio-kbps', default='192'); s.add_argument('--max-seg', type=int, help='solo las primeras N frases (prueba)')
-    s.set_defaults(f=cmd_compactar)
+    s = sub.add_parser('recortar-pausas', help='paso final: acorta las pausas largas del video ya montado')
+    s.add_argument('video', help='video final ya montado (con la voz doblada y la música)'); s.add_argument('salida')
+    s.add_argument('--voz', help='voz limpia sin música (default work/voz_pl.wav)'); s.add_argument('--idioma', default='pl')
+    s.add_argument('--umbral', type=float, default=0.7, help='pausas de este largo o más se acortan (s)')
+    s.add_argument('--respiro', type=float, default=0.4, help='pausa que se deja (s)')
+    s.add_argument('--silencio-db', type=float, default=-45, help='nivel por debajo del cual la voz se considera en silencio')
+    s.add_argument('--crf', default='24'); s.add_argument('--preset', default='medium'); s.add_argument('--audio-kbps', default='192')
+    s.add_argument('--hasta', type=float, help='solo los primeros N segundos (prueba)'); s.set_defaults(f=cmd_recortar_pausas)
     s = sub.add_parser('qa'); s.add_argument('video'); s.add_argument('salida'); s.add_argument('--compacto', action='store_true', help='el video fue recortado con «compactar»'); s.add_argument('--idioma', default='pl', help='idioma de destino (pl, de, ...)')
     s.add_argument('--glosario', help='json {"término ES": "término PL"}'); s.add_argument('--modelo', default='large-v3'); s.set_defaults(f=cmd_qa)
     a = p.parse_args()
