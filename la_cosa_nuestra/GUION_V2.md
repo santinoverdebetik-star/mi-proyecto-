@@ -1,0 +1,360 @@
+# Todas las reglas de la mafia que se rompieron en Los Soprano — GUION V2
+
+Versión 2: estructura propia (las reglas se agrupan por el MOTIVO por el que se rompen, no en
+el orden de otro video), gancho distinto, datos reales comprobados y escenas de la serie
+limitadas a las que pude confirmar. Duración objetivo ~30 min a 145 palabras por minuto.
+
+**Marcas:** MAYÚSCULAS = énfasis · `[PAUSA]` = pausa dramática · **[SELLO]** = sello del tablero
+de evidencias (REAL / A MEDIAS / INVENTADA). Las notas de verificación están al final.
+
+Música por parte: **A** dark ambient · **B** noir con contrabajo (irónico) · **C** tensión,
+percusión suave · **D** piano melancólico / cuerdas.
+
+---
+
+## GANCHO — música A
+
+En noviembre de 2007, la policía italiana arresta a un jefe de la mafia siciliana cerca de Palermo. Salvatore Lo Piccolo. `[PAUSA]`
+Y en su maletín encuentran un papel. Una lista de reglas. La prensa la bautiza: "los diez mandamientos de la mafia".
+
+Léela con calma. No te presentes solo ante otro miembro. No frecuentes bares ni clubes. No te dejes ver con policías. Respeta a tu esposa. `[PAUSA]`
+
+Ahora piensa en Tony Soprano. Su oficina es un club de striptease. Mantiene una relación extraña con un agente del FBI. Y una larga lista de amantes.
+
+Los Soprano nos muestra una mafia que habla de reglas todo el tiempo. Con la solemnidad de una religión.
+Y la pregunta de este video es simple: ¿cuántas de esas reglas existen de VERDAD? ¿Y quién las rompió, cuándo... y POR QUÉ?
+
+Spoiler: casi nadie las rompe por maldad. Las rompen por dinero. Por orgullo. Por miedo. Por poder. Y por familia.
+Y casi siempre, en cuanto cumplirlas empieza a salir CARO.
+
+## CÓMO LEER ESTE EXPEDIENTE — música A
+
+A cada regla le voy a poner un sello.
+REAL, si hay evidencia de que existió en la mafia de verdad. A MEDIAS, si existió pero cambiaba según la familia o el jefe. E INVENTADA, si solo vive dentro de la serie.
+Hay spoilers de las seis temporadas. Si no la terminaste, ve a verla. Aquí no hay piedad.
+
+Y una última cosa. Voy a mezclar dos mundos: el de la ficción y el de la realidad. Cuando hable de lo real, te diré de dónde viene. Cuando hable de la serie, te diré qué pasa en la escena. Y cuando no encuentre nada que lo respalde, te lo diré también. `[PAUSA]`
+Porque hay una diferencia enorme entre lo que la mafia hacía y lo que la mafia DECÍA que hacía. Y esa diferencia es el tema de todo este video.
+
+Empecemos por el motivo más antiguo del mundo.
+
+---
+
+# PARTE 1 — DINERO: EL HONOR TIENE PRECIO (música B)
+
+## 1. "El dinero sube" — **[REAL]**
+
+Las ganancias criminales no se quedan donde se ganan. Suben.
+Los casos federales lo describen una y otra vez: soldados y asociados entregan un porcentaje a quienes están por encima, y ese dinero sostiene a toda la jerarquía. Casi como un impuesto por operar bajo el nombre de la mafia.
+
+En la serie, Paulie y Vito conocen la regla de memoria. Mientras Tony está en coma, ellos se quedan con un botín enorme: el robo a unos traficantes colombianos. Y le deben su parte. `[PAUSA]`
+Silvio, que manda en ese momento, decide que el dinero debe llegar a Carmela.
+Pero Paulie y Vito dudan. Retrasan la entrega. Porque si Tony no se despierta, quizá estén regalando una fortuna a cambio de nada.
+
+Cuando Tony empieza a recuperarse, aparecen los sobres.
+Nadie necesita que le expliquen la regla. Lo único que calculan es si el hombre al que le deben va a vivir lo suficiente para cobrar.
+
+## 2. "La mafia no toca las drogas" — **[A MEDIAS]**
+
+Esta es la regla más famosa de la mafia... y la más borrosa.
+Es cierto que algunos jefes prohibieron el narcotráfico. El miedo era práctico: las condenas por droga eran tan largas que un detenido podía acabar delatando a todos.
+
+Pero la mafia real nunca habló con una sola voz. En 1985, cuando John Gotti manda matar a Paul Castellano, jefe de la familia Gambino, una de las razones que se cuentan es justamente esa. Castellano había frenado el tráfico de droga en la familia. Y la gente de Gotti no quería parar. `[PAUSA]`
+Es decir: la regla "no a la droga" existía cuando le servía al jefe. Y dejaba de existir cuando le estorbaba.
+
+Esa es la lección que la serie entiende mejor que nadie. Las reglas de la mafia no son leyes. Son decisiones de quien manda, vestidas de tradición.
+
+## 3. "Respeta a la esposa de otro" — **[REAL]**
+
+Ralph Cifaretto hace un chiste cruel sobre el peso de Ginny, la esposa de Johnny Sack. El chiste llega a oídos de Johnny.
+Johnny quiere vengarse. Pide permiso a Carmine, su jefe, para matar a Ralph. Y Carmine se lo niega. Le dice, prácticamente, que lo supere.
+
+¿Por qué? Porque Ralph gana mucho dinero. Y para Tony, el problema es el mismo: matar a uno de sus mejores generadores por un chiste es mal negocio.
+
+Mira lo que pasa ahí. La dignidad de una mujer, que todos dicen sagrada... tiene precio. Y el precio lo fija el negocio. `[PAUSA]`
+Además, quienes discuten sobre el respeto a la esposa de otro viven rodeados de hombres que engañan a la suya. Nadie ve la contradicción, porque la regla no habla de tratar bien a las mujeres. Habla de los hombres que las "poseen".
+
+Ginny importa porque ofenderla ofende a Johnny. Y Carmela, cuando Tony la humilla, no tiene ninguna institución que la proteja.
+
+## 4. "Un iniciado no puede ser homosexual" — **[REAL]**
+
+Esta regla suena exagerada. Hasta que miras la mafia de verdad.
+A comienzos de los años noventa, John D'Amato, jefe interino de la familia DeCavalcante, de Nueva Jersey, desaparece. Años después, en un juicio de 2003, uno de sus propios hombres, Anthony Capo, cuenta por qué lo mataron.
+Su explicación: nadie respetaría a una familia dirigida por un jefe gay.
+
+La serie lo sabe. Cuando descubren a Vito, los hombres de Nueva York lo tratan como una enfermedad. Phil exige consecuencias inmediatas.
+Pero Tony duda. `[PAUSA]`
+Y esa duda lo dice todo. Vito produce mucho dinero. Tony busca una forma de que siga trabajando, escondido, lejos de los demás.
+
+Una regla de honor y masculinidad... convertida en menos de una semana en un problema de contabilidad.
+
+## 5. "Nadie se retira" — **[A MEDIAS]**
+
+Eugene Pontecorvo recibe una herencia grande. Y piensa que puede comprar su libertad. Quiere irse.
+Tony le recuerda el juramento. De esto no se sale.
+
+Esa idea sí tiene raíces reales. La membresía mafiosa se entiende como para toda la vida. Y los rituales de iniciación están hechos para eso.
+Pero Eugene menciona un caso: Joe Bonanno. Un jefe histórico que perdió su poder, dejó Nueva York y vivió en Arizona. `[PAUSA]`
+Y ese ejemplo, curiosamente, confirma la versión más realista de la regla: el retiro existe, pero solo para quien ya no sirve. Por edad, por salud, por acuerdos.
+
+Eugene es joven. Gana dinero. Sabe demasiado. No hay ninguna razón para dejarlo ir.
+"Nadie se retira" significa, en realidad: nadie se retira... si todavía eres útil.
+
+---
+
+# PARTE 2 — ORGULLO: LAS REGLAS QUE PROTEGEN EL EGO (música B)
+
+## 6. "Un Don no usa shorts" — **[INVENTADA]**
+
+Tony, en una barbacoa. En shorts.
+Y le llega el reproche, desde Nueva York, de boca de Carmine: "Un Don no usa shorts."
+
+¿Existe esa regla en la mafia real? No hay ningún caso federal famoso que hable de la ropa de un jefe. Es etiqueta, no ley.
+Pero fíjate en lo que revela. Carmine no está regañando a Tony por su ropa. Está recordándole quién manda sobre la imagen de todos. `[PAUSA]`
+Un jefe no puede parecer un padre de suburbio. Si parece uno, quizá deje de ser temido.
+
+Tony no rompió ninguna regla de la mafia.
+Solo rompió una regla de PARECER un jefe.
+
+## 7. "Un jefe no llora en público" — **[INVENTADA]**
+
+Johnny Sack se rompe sin cometer ningún delito.
+En la boda de su hija, llegan los agentes federales a arrestarlo. Johnny abraza a su familia y llora mientras se lo llevan.
+Phil lo ve. Y después dice que su opinión de Johnny como hombre acaba de desplomarse.
+
+No hay ninguna regla mafiosa que prohíba llorar en la boda de tu hija. Esto es cultura de masculinidad tratada como si fuera ley.
+Y Tony, curiosamente, es más indulgente. Entiende que Johnny acaba de ver su vida entera cerrarse. `[PAUSA]`
+Phil, en cambio, no ve a un padre. Ve a un jefe mostrando debilidad delante de todos.
+
+Nadie recibe un castigo formal por romper este tipo de reglas. Simplemente, los demás deciden que viste algo que no debías.
+
+## 8. "Eso no se hace con una mujer" — **[INVENTADA]**
+
+Junior Soprano rompe una de las reglas más raras del código. En Boca Ratón, todos se enteran de un detalle muy íntimo de su vida con su novia.
+Junior entra en pánico. Explica la lógica: entre esta gente, ese gesto se asocia con debilidad. Y se queja de que él no escribió las reglas.
+
+Es evidente que nunca fue una norma de la mafia real. Es el código privado de unos hombres con una idea muy rara de la masculinidad.
+Y lo más gracioso es que Junior no se avergüenza de nada, hasta que los demás se enteran. Su novia lo adora. Él es feliz. `[PAUSA]`
+Entonces llegan las bromas, y reacciona como si se hubiera filtrado información secreta del Estado.
+
+La mafia sobrevive al asesinato, a la extorsión y al adulterio. Pero esto sí pone nerviosa a la institución.
+
+## 9. "La ceremonia tiene que hacerse bien" — **[A MEDIAS]**
+
+En la serie, Phil y los suyos desprecian a los de Jersey, como si allí hicieran miembros a cualquiera.
+Y aquí hay algo curioso, porque ese desprecio tiene un eco real.
+
+Un colaborador de la familia DeCavalcante, Vincent Palermo, contó años después que la Comisión consideró a su familia una especie de fraude. Y que los jefes de Nueva York habrían ordenado repetir la iniciación de todos sus miembros. `[PAUSA]`
+Es una sola fuente, y de segunda mano. Hay que tomarla como lo que es: una versión.
+Palermo también dijo que el fundador de la familia, Sam DeCavalcante, había eliminado partes del ritual, como el arma, el cuchillo y la imagen de santo ardiendo. Esa imagen que sí vemos arder en la serie.
+
+Así que la queja de Phil es una exageración con un fondo de verdad.
+Hay una queja legítima enterrada bajo un berrinche. Pero sigue siendo un berrinche.
+
+---
+
+# PARTE 3 — PODER: QUIÉN PUEDE MATAR A QUIÉN (música C)
+
+Antes de hablar de quién puede matar a quién, hay que saber de dónde sale ese poder.
+La mafia americana, tal como la cuenta la historia, se organiza en los años treinta. Se dice que Lucky Luciano impulsa la creación de la Comisión: un consejo de jefes que reparte territorios y resuelve disputas sin tener que resolverlas a tiros. Es, en teoría, la gran idea de la mafia: un parlamento del crimen. `[PAUSA]`
+Y esa idea es la que explica casi todo lo que viene ahora. Si no puedes matar a quien quieras, necesitas reglas. Y si las reglas valen, alguien tiene que hacerlas cumplir.
+
+Durante décadas, nadie de afuera supo cómo funcionaba. Hasta que alguien de adentro empezó a hablar. En 1963, Joe Valachi se convierte en el primer miembro en confirmar ante el Senado de Estados Unidos que la organización existía, y cómo se iniciaba a un miembro. Y años después, un agente del FBI, Joe Pistone, vive varios años infiltrado en la familia Bonanno bajo el nombre de "Donnie Brasco". Lo que vio terminó en decenas de condenas.
+
+Gran parte de lo que sabemos de las reglas de la mafia viene de esos dos hombres. Un traidor y un infiltrado. Guarda esa ironía, porque va a volver.
+
+## 10. "No se mata a un jefe sin permiso de la Comisión" — **[REAL]**
+
+Esta es la regla más seria del expediente.
+La Comisión existía para resolver conflictos entre familias. Matar al jefe de una familia sin su aprobación era gravísimo.
+
+El ejemplo real es famoso. El 16 de diciembre de 1985, frente a un restaurante de Manhattan, el Sparks Steak House, John Gotti manda matar a Paul Castellano, el jefe de los Gambino. También muere su chofer. La Comisión no lo había autorizado. `[PAUSA]`
+Otros jefes, como Vincent Gigante, se enfurecieron. Esa ruptura marcó una época.
+
+La serie lo sabe, y lo usa. Johnny Sack presiona a Tony para eliminar a Carmine, su propio jefe. Tony al principio se niega. Después, con concesiones, cede.
+Christopher contrata a dos traficantes de heroína para que parezca un trabajo de gente de fuera.
+
+Y entonces pasa lo más revelador. Carmine acepta negociar. Reduce lo que exigía. Y Tony cancela todo, y ordena eliminar a los asesinos contratados, porque saben demasiado.
+Dos jefes veteranos, dispuestos a cruzar la línea más sagrada de la mafia americana. Y lo único que los detiene es un mejor porcentaje.
+
+## 11. "No se le pone la mano encima a un iniciado" — **[REAL]**
+
+Joe Pistone, el agente del FBI que se infiltró en la mafia como "Donnie Brasco", cuenta que golpear a otro miembro era una falta gravísima. La serie lo repite varias veces: ser iniciado es estar protegido.
+
+Entonces llega Bobby. Bobby, el cuñado de Tony, el más tranquilo de todos, le pega al jefe.
+Ocurre en la cabaña de Bobby, en una partida de Monopoly. Tony insulta una y otra vez a su hermana Janice. Bobby se levanta y lo golpea. Los dos terminan peleándose como animales. Y Bobby gana.
+
+Tony no puede castigarlo. Es familia. Hacerlo sería humillarse. `[PAUSA]`
+Pero al día siguiente, Bobby recibe un encargo que nunca había tenido: matar a un hombre.
+Tony nunca dice que es un castigo. Solo le recuerda, con sangre, quién da las órdenes.
+
+## 12. "No se mata a un iniciado sin autorización" — **[REAL]**
+
+Si tocar a un iniciado es peligroso, matarlo es una declaración de guerra.
+Hacer a alguien miembro convierte su vida en algo políticamente valioso. Matarlo afecta a equipos, ingresos y relaciones entre familias. Por eso la decisión le corresponde a los jefes.
+
+Silvio y Carlo lo saben. Pero Fat Dom Gamiello, un hombre de Nueva York, llega a la carnicería de Tony después de que mataron a Vito. Y no deja de hacer chistes sobre él... y sobre Carlo.
+Silvio lo sujeta. Carlo toma un cuchillo. Y en segundos, un iniciado de Nueva York queda muerto en el cuarto trasero del local de Tony. `[PAUSA]`
+
+Nadie lo planeó. Nadie lo autorizó. Una burla se convirtió en un conflicto con otra familia.
+Eso es exactamente lo que la regla quería evitar.
+
+## 13. "Avisa a tus superiores" — **[REAL]**
+
+Los casos federales describen una obligación que, en la mafia, es casi sagrada: informar. Los soldados avisan a los capitanes. Los capitanes, a la administración. Quien hace crímenes graves por su cuenta puede acabar mal.
+
+Tony Blundetto es el mejor ejemplo de por qué existe esa regla. Tony Soprano intenta mantener a su familia fuera del conflicto con Nueva York.
+Pero Tony B acepta un trabajo de la gente de Little Carmine: matar a Joey Peeps, un hombre de la familia Lupertazzi.
+Está corto de dinero. Y lo hace. `[PAUSA]`
+
+Esa decisión privada tiene consecuencias mucho más grandes que el asesinato. Johnny Sack sospecha de Jersey. Tony miente a su amigo para proteger a su primo. Y la guerra que quería evitar se acerca.
+La regla suena a burocracia. Tony B demuestra por qué la inventaron.
+
+## 14. "El jefe se mantiene lejos de la calle" — **[A MEDIAS]**
+
+En la mafia real, la jerarquía existe para proteger al jefe. Para que el subjefe y los capitanes ensucien las manos, y él no.
+
+Tony nunca fue bueno en eso.
+El ejemplo más extremo llega al final de la serie. Christopher queda herido en un accidente de auto, en una carretera solitaria. Tony se acerca. Mira el asiento de bebé, dañado. `[PAUSA]`
+Y lo mata él mismo.
+
+Tony tiene capitanes, soldados, hombres dispuestos a hacerlo con una sola palabra. No existe ninguna razón operativa para que el jefe de Jersey asfixie con sus manos a su propio capitán.
+Lo hace porque la decisión nace en su cabeza, en ese segundo.
+
+Esa es la gran diferencia entre Tony y un jefe como Carmine. Carmine usa la jerarquía para poner distancia con la violencia. Tony la borra cada vez que la violencia se vuelve personal.
+
+---
+
+# PARTE 4 — MIEDO: EL SILENCIO (música C → D)
+
+## 15. "Los asuntos de la mafia no se cuentan a extraños" — **[REAL]**
+
+La omertà no es solo "no seas un soplón". También significa mantener el negocio lejos de los de afuera.
+Christopher rompe esa frontera con J.T. Dolan, el guionista con quien trabaja en su película de terror, "Cleaver". Lo conoció en rehabilitación. Con el tiempo, la línea entre su sueño de Hollywood y su vida mafiosa se vuelve borrosa. `[PAUSA]`
+
+Christopher quiere desahogarse. Quiere contarle sus problemas.
+Y J.T. se niega a escuchar. Teme que lo citen a declarar... o que lo maten por saber demasiado.
+Hasta que le dice la frase que lo condena: "Chris, estás en la mafia."
+
+Christopher le dispara en la cabeza.
+El asesinato es horrible, y además resuelve un problema que él mismo creó: había hablado demasiado con alguien de afuera. La regla existía para impedir eso. Christopher la rompe... y la repara con otro cuerpo.
+
+## 16. "Nunca admitas que esto existe" — **[REAL]**
+
+Johnny Sack rompe la versión más simple de la omertà desde un tribunal.
+Su acuerdo con la fiscalía incluye una declaración formal: tiene que reconocer que la mafia existe. Phil lo ve y se indigna. "Nunca se admite que esto existe."
+
+Es un principio mafioso real. Los juramentos de iniciación incluyen la promesa de no revelar nada sobre la organización. Y de no reconocer ante extraños que existe.
+Johnny sabe lo que hace. Enfrenta una condena enorme y quiere proteger lo que le queda a Ginny y a su familia. Así que acepta. `[PAUSA]`
+
+Otra vez, la regla se vuelve negociable en cuanto las consecuencias son personales.
+Phil puede hablar de honor desde la calle. No es él quien tiene que elegir. Johnny elige a su esposa y su futuro por encima del código. Y los que no recibieron su oferta pueden llamarlo débil después.
+
+## 17. "Nunca colabores con la ley" — **[REAL]**
+
+Y llegamos a la regla de la que estos hombres hablan con más solemnidad. No seas una rata.
+Es mafia de verdad. Los criterios de iniciación valoraban al hombre firme que se negaría a hablar. Y la omertà prohíbe dar información a las autoridades. Los informantes podían ser condenados a muerte.
+
+La familia de Tony está llena de ellos. Big Pussy, uno de sus mejores amigos de toda la vida, termina trabajando para el FBI. `[PAUSA]`
+Ray Curto, un capitán respetado, igual: nadie sospecha de él. Asiste a las reuniones, se queja de gastos... y pasa información.
+Y en la última temporada, Carlo Gervasi también se pasa al otro lado.
+
+Por eso los discursos sobre lealtad suenan cada vez más huecos. El FBI no destruye a esta organización encontrando extraños dispuestos a testificar.
+La propia organización fabrica a sus testigos.
+
+Y en esto, la serie no exagera. La realidad fue peor.
+En 1991, Sammy Gravano, el número dos de la familia Gambino, el hombre que estuvo junto a Gotti la noche en que mataron a Castellano, decide colaborar con el FBI. Su testimonio en 1992 contribuye a condenar a Gotti a cadena perpetua. `[PAUSA]`
+El hombre que rompió la regla de no mandar matar a un jefe... cae por un subjefe que rompió la regla de no hablar.
+La mafia real ya había dicho lo mismo mucho antes. Valachi, en 1963. Gravano, casi treinta años después. El código de silencio siempre se rompió en cuanto la cárcel pesó más que el juramento.
+
+---
+
+# PARTE 5 — FAMILIA: LO ÚNICO MÁS FUERTE QUE EL CÓDIGO (música D)
+
+## 18. "La familia mafiosa va antes que tu familia real" — **[REAL]**
+
+Los juramentos reales lo dicen sin rodeos: lealtad a la organización por encima de todo. Incluso de tu propia sangre.
+Tony administra ese juramento en la serie. Y entonces ocurre algo con su hija. `[PAUSA]`
+
+Coco, un hombre de Nueva York, ve a Meadow en un restaurante. Está borracho. Le toca la mejilla y le dice cosas obscenas.
+Meadow se lo cuenta a su padre.
+Y todo cálculo político desaparece. Tony busca a Coco y lo golpea brutalmente. Sabe que puede empeorar la guerra con Phil. Sabe todo. `[PAUSA]`
+Pero es su hija. Y eso lo decide.
+
+Estos hombres juran que la familia criminal es más importante que la de verdad. Pero las emociones más fuertes de toda la serie salen de esposas, hijos, hermanos, primos.
+El juramento les pide crear una familia artificial más grande que la verdadera. Pon a Meadow delante... y todo se esfuma.
+
+## 19. El resto del decálogo siciliano — **[A MEDIAS: reglas de otra mafia]**
+
+Volvamos a la lista del maletín de Lo Piccolo. Son reglas de la Cosa Nostra siciliana, no de la americana. Así que no se pueden aplicar sin más a Tony.
+Pero si lo hacemos por diversión, el panorama es todavía peor.
+
+"No frecuentes bares ni clubes." La sede de la organización de Tony es el Bada Bing. Un club de striptease. `[PAUSA]` No necesito analizar mucho más.
+
+"No te dejes ver con policías." Tony desarrolla una extraña relación con el agente Harris. Primero lo investiga a él. Después, cuando el terrorismo cambia las prioridades del FBI, la relación se vuelve casi amistosa. Y Harris acaba dándole información útil para ubicar a Phil. Para Tony, es práctico. Para un viejo siciliano, es una locura.
+
+"Respeta a tu esposa." Tony podría protagonizar una recopilación de seis temporadas violando esta regla. Mantiene amantes durante todo su matrimonio... y espera que Carmela se comporte como la esposa de un jefe.
+
+---
+
+## CIERRE — música D
+
+Hagamos cuentas.
+Empecé con una lista encontrada en un maletín en Sicilia. Una lista pensada para que un hombre de la mafia sepa quién es y cómo se comporta. Y ahora ya sabes cómo termina casi cualquier lista de ese tipo: con alguien que la lee, la respeta... y espera el momento en que cumplirla le cueste demasiado.
+Cuando el dinero estaba en juego, la regla de subir las ganancias se aplazó, y la dignidad de una esposa tuvo precio. La de no matar a un jefe, se canceló por un porcentaje. Cuando estaba en juego el orgullo, se inventaron reglas de la nada: sobre shorts, sobre lágrimas, sobre lo que un hombre puede o no puede hacer.
+Cuando había miedo, el silencio se volvió negociable. Y cuando había familia, el código desapareció.
+
+A estos hombres les encantan las reglas porque las reglas dan estatus. Ser iniciado significa que otro te debe respeto. Ser jefe, que alguien te debe obediencia.
+El código se vuelve mucho menos atractivo cuando la obligación apunta en la otra dirección.
+
+Y por eso el código de Los Soprano nunca suena completamente falso. Muchas reglas eran reales. La hipocresía también.
+La historia de la mafia americana está llena de jefes que prohibieron lo que su gente hacía. De iniciados que juraron silencio y terminaron como testigos. De hombres que mataron jefes sin permiso. Y de organizaciones que cambiaban las reglas cada vez que cambiaba el poder.
+
+Estos hombres sí tienen reglas. `[PAUSA]`
+Solo que descubren excepciones en cuanto cumplirlas cuesta más que romperlas.
+
+---
+
+## Tabla de sellos
+
+| Sello | Reglas |
+|---|---|
+| REAL | 1, 3, 4, 10, 11, 12, 13, 15, 16, 17, 18 |
+| A MEDIAS | 2, 5, 9, 14, 19 |
+| INVENTADA | 6, 7, 8 |
+
+## Notas de verificación
+
+**Comprobado en fuentes (búsqueda web, fuentes secundarias; confirmar en documentos primarios antes de publicar):**
+- Lo Piccolo: arrestado cerca de Palermo en noviembre de 2007; la lista de reglas se halló en su poder y circuló como "diez mandamientos". Reglas citadas: presentación por un tercero, no bares/clubes, no policías, respetar a la esposa. Las versiones publicadas varían en redacción y numeración.
+- Castellano: asesinado el 16/12/1985 frente al Sparks Steak House (Manhattan) por orden de Gotti, sin aval de la Comisión; también murió su chofer; Gigante se enfureció. Que Castellano había frenado el tráfico de droga es una versión de fuentes secundarias.
+- D'Amato: murió a principios de 1992 (fuentes difieren entre noviembre de 1991 y enero de 1992); Anthony Capo declaró en el juicio de 2003 el motivo citado.
+- Reiniciación DeCavalcante: viene de Vincent Palermo (vía Jerry Capeci), de segunda mano. No se atribuye a Gotti.
+
+**Comprobado en resúmenes de episodios (fuentes secundarias):**
+- "Mayham": retraso de Paulie y Vito con el dinero colombiano; Silvio decide que la parte va a Carmela.
+- "Cold Stones": Fat Dom Gamiello muere a manos de Carlo (sujetado por Silvio) en Satriale's tras las burlas por Vito.
+- "Soprano Home Movies": pelea de Bobby y Tony en el Monopoly; el encargo de Tony a Bobby NO fue un viaje a Montreal; está ligado a un negocio con socios de Montreal.
+- "The Second Coming": Coco toca la mejilla de Meadow; Tony lo golpea brutalmente.
+- "Walk Like a Man": J.T. Dolan, "Chris, you're in the mafia"; Christopher le dispara.
+- "The Weight"/"Whitecaps": chiste de Ralph sobre Ginny, Carmine niega el permiso; plan contra Carmine con "trabajo de gente de fuera", cancelado tras la negociación.
+- Tony B/Joey Peeps: Tony B acepta el trabajo de aliados de Little Carmine; Tony S miente a Johnny.
+
+**Sin comprobar (confiar solo tras revisar el episodio):**
+- Que Carmine le diga a Johnny que "lo supere" con esas palabras; el matiz de que la razón de Carmine es el dinero que genera Ralph (lo seguro es que Ralph era un gran generador y que Tony lo veía mal negocio matarlo).
+- Que Phil pida "consecuencias inmediatas" contra Vito y la reacción exacta de Tony.
+- Que Phil y los suyos desprecien a Jersey con ese comentario sobre "hacer miembros a cualquiera" (viene del video de referencia; confirmar la escena).
+- Que los casos federales hablen de la obligación de informar con ese detalle (confirmar fuente: casos de la familia de Filadelfia, p. ej.).
+- Eugene: monto de la herencia (no se cita), la mención a Bonanno en la escena.
+- Big Pussy y Ray Curto como informantes; Carlo se pasa al FBI en la última temporada.
+- Johnny Sack: declaración formal en el acuerdo con la fiscalía y reacción de Phil.
+- Tony mata a Christopher: detalles de la escena.
+- Junior en Boca: detalle exacto del episodio.
+- Relación Tony–agente Harris y la información sobre Phil.
+- Joe Pistone: la afirmación sobre golpear a otro miembro (viene de sus memorias; confirmar la cita).
+
+**Conocimiento histórico general añadido en esta versión (confirmar en fuentes antes de publicar):**
+- La Comisión de la mafia americana se creó en los años treinta, impulsada por Lucky Luciano.
+- Joe Valachi declaró ante el Senado de EE. UU. en 1963 y fue el primer miembro en confirmar públicamente la existencia de la organización y su ritual de iniciación.
+- Joe Pistone ("Donnie Brasco") vivió infiltrado en la familia Bonanno varios años (1976–1981); el guion dice "varios años" a propósito.
+- Sammy Gravano, subjefe de los Gambino, colaboró con el FBI desde 1991 y su testimonio ayudó a condenar a Gotti en 1992 (cadena perpetua).
