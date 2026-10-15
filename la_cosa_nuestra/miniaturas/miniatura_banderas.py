@@ -67,10 +67,10 @@ def miniatura(variante="A"):
     cara = rostro_ovidio(610)
     x = (W - cara.width) // 2 + 30
     im = con_brillo(im, cara, (x, H - cara.height + 14), (0, 0, 0), radio=26, intens=0.85, borde=0)
-    sz = 112; nombre = "Ovidio Guzmán"
-    im = texto(im, (40, 14), nombre, sz, BLANCO, trazo=0, sombra=True, ancla="la")
+    sz = 80; nombre = "Ovidio Guzmán"
+    im = texto(im, (36, 16), nombre, sz, BLANCO, trazo=0, sombra=True, ancla="la")
     wtxt = ancho_texto(nombre, sz, 0)
-    im = insignia(im, (40 + wtxt + 62, 14 + 72), 44)
+    im = insignia(im, (40 + wtxt + int(sz * 0.55), 14 + int(sz * 0.64)), int(sz * 0.39))
     return marco(grano(im, 4))
 
 
