@@ -5,3 +5,4 @@
 - avion_03 (V3): Boeing 727 Zero Gravity Corp., NASA/Jack Pfaller, CC BY-SA 2.0 — https://commons.wikimedia.org/wiki/File:Boeing_727_aircraft_owned_by_Zero_Gravity_Corp._(NASA)_(475109232).jpg
 - avion_02 (V3): Libyan Arab Airlines Boeing 727, Piergiuliano Chesi, CC BY 3.0 — https://commons.wikimedia.org/wiki/File:Libyan_Arab_Airlines_Boeing_727_5A-DAH.jpg
 (Las fotos de aviones son ambientales, no del avión real de Carrillo Fuentes. Las CC BY / BY-SA exigen atribución en la descripción del video.)
+- avion_11/03/06/02: ver arriba. R5_02 (desierto): Nicholas Hartmann, CC BY-SA 4.0. ov_G10_05 (pasillo): Markus Spiske, CC0. V4/V5: el color del rostro es una colorización estimada, no una foto a color real.
