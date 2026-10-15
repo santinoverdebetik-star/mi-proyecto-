@@ -1,0 +1,1003 @@
+{
+ "0": {
+  "n0": 1479,
+  "n1": 1656,
+  "box": [
+   0,
+   532,
+   1102,
+   720
+  ],
+  "lineas": [
+   {
+    "es": "EL CÁRTEL DE SINALOA",
+    "pl": "KARTEL Z SINALOA",
+    "font": "sans-b",
+    "n": 8,
+    "ref": 219.0
+   },
+   {
+    "es": "La organización en la que el Licenciado llegó a la cima",
+    "pl": "Organizacja, w której Licenciado dotarł na szczyt",
+    "font": "sans",
+    "n": 8,
+    "ref": 221.0
+   },
+   {
+    "es": "Mapa base: Natural Earth / GSHHS",
+    "pl": "Mapa: Natural Earth / GSHHS",
+    "font": "sans",
+    "n": 4,
+    "ref": 43.0
+   }
+  ]
+ },
+ "1": {
+  "n0": 2964,
+  "n1": 3246,
+  "box": [
+   204,
+   372,
+   1014,
+   490
+  ],
+  "lineas": [
+   {
+    "es": "El hombre que sacó al Chapo de prisión...",
+    "pl": "Człowiek, który wyciągnął Chapo z więzienia...",
+    "font": "serif",
+    "n": 15,
+    "ref": 240.0
+   },
+   {
+    "es": "y después lo traicionó",
+    "pl": "a potem go zdradził",
+    "font": "serif",
+    "n": 15,
+    "ref": 239.0
+   }
+  ]
+ },
+ "2": {
+  "n0": 8424,
+  "n1": 8646,
+  "box": [
+   0,
+   116,
+   1136,
+   720
+  ],
+  "lineas": [
+   {
+    "es": "Penal de Almoloya",
+    "pl": "Więzienie Almoloya",
+    "font": "sans-b",
+    "n": 11,
+    "ref": 162.3
+   },
+   {
+    "es": "Guatemala",
+    "pl": "Gwatemala",
+    "font": "sans-b",
+    "n": 11,
+    "ref": 218.9
+   },
+   {
+    "es": "9 de junio de 1993",
+    "pl": "9 czerwca 1993",
+    "font": "sans-b",
+    "n": 11,
+    "ref": 215.0
+   },
+   {
+    "es": "1993: LA PRIMERA CAPTURA",
+    "pl": "1993: PIERWSZE ZATRZYMANIE",
+    "font": "sans-b",
+    "n": 11,
+    "ref": 166.0
+   },
+   {
+    "es": "El Chapo es detenido en Guatemala y entregado a México",
+    "pl": "El Chapo zatrzymany w Gwatemali i przekazany Meksykowi",
+    "font": "sans",
+    "n": 11,
+    "ref": 164.0
+   },
+   {
+    "es": "Mapa base: Natural Earth / GSHHS",
+    "pl": "Mapa: Natural Earth / GSHHS",
+    "font": "sans",
+    "n": 7,
+    "ref": 39.0
+   }
+  ]
+ },
+ "3": {
+  "n0": 8769,
+  "n1": 8961,
+  "box": [
+   0,
+   374,
+   1196,
+   720
+  ],
+  "lineas": [
+   {
+    "es": "Estado de México",
+    "pl": "Stan Meksyk",
+    "font": "sans-b",
+    "n": 9,
+    "ref": 213.0
+   },
+   {
+    "es": "El Chapo es trasladado a un nuevo penal de máxima seguridad",
+    "pl": "El Chapo przeniesiony do nowego więzienia o zaostrzonym rygorze",
+    "font": "sans",
+    "n": 9,
+    "ref": 165.0
+   },
+   {
+    "es": "Mapa base: Natural Earth / GSHHS",
+    "pl": "Mapa: Natural Earth / GSHHS",
+    "font": "sans",
+    "n": 5,
+    "ref": 39.0
+   }
+  ]
+ },
+ "4": {
+  "n0": 19299,
+  "n1": 19446,
+  "box": [
+   236,
+   212,
+   1046,
+   520
+  ],
+  "lineas": [
+   {
+    "es": "«Javi» y «Roberto»",
+    "pl": "„Javi” i „Roberto”",
+    "font": "serif-b",
+    "n": 6,
+    "ref": 189.0
+   },
+   {
+    "es": "Los dos contactos dentro del gobierno, según su",
+    "pl": "Dwa kontakty w rządzie, według jego",
+    "font": "serif",
+    "n": 6,
+    "ref": 255.0
+   },
+   {
+    "es": "testimonio",
+    "pl": "zeznań",
+    "font": "sans",
+    "n": 6,
+    "ref": 255.0
+   },
+   {
+    "es": "Juicio contra Joaquín Guzmán Loera, Nueva York, enero de 2019",
+    "pl": "Proces Joaquína Guzmána Loery, Nowy Jork, styczeń 2019",
+    "font": "sans",
+    "n": 6,
+    "ref": 241.0
+   }
+  ]
+ },
+ "5": {
+  "n0": 20799,
+  "n1": 21186,
+  "box": [
+   0,
+   14,
+   1168,
+   720
+  ],
+  "lineas": [
+   {
+    "es": "Sudamérica",
+    "pl": "Ameryka Południowa",
+    "font": "sans-b",
+    "n": 13,
+    "ref": 223.0
+   },
+   {
+    "es": "Panamá",
+    "pl": "Panama",
+    "font": "sans-b",
+    "n": 9,
+    "ref": 236.0
+   },
+   {
+    "es": "Nueva York",
+    "pl": "Nowy Jork",
+    "font": "sans-b",
+    "n": 13,
+    "ref": 144.0
+   },
+   {
+    "es": "MÁS ALLÁ DE MÉXICO",
+    "pl": "POZA MEKSYKIEM",
+    "font": "sans-b",
+    "n": 9,
+    "ref": 191.5
+   },
+   {
+    "es": "Contactos que las autoridades de Estados Unidos le atribuyen en Perú y Panamá",
+    "pl": "Kontakty, które władze USA mu przypisują w Peru i Panamie",
+    "font": "sans",
+    "n": 9,
+    "ref": 176.9
+   },
+   {
+    "es": "LA CADENA",
+    "pl": "ŁAŃCUCH",
+    "font": "sans-b",
+    "n": 13,
+    "ref": 109.0
+   },
+   {
+    "es": "De Sudamérica a las ciudades de Estados Unidos",
+    "pl": "Z Ameryki Południowej do miast Stanów Zjednoczonych",
+    "font": "sans",
+    "n": 13,
+    "ref": 158.3
+   },
+   {
+    "es": "Mapa base: Natural Earth / GSHHS",
+    "pl": "Mapa: Natural Earth / GSHHS",
+    "font": "sans",
+    "n": 12,
+    "ref": 42.0
+   }
+  ]
+ },
+ "6": {
+  "n0": 22194,
+  "n1": 22476,
+  "box": [
+   0,
+   592,
+   1152,
+   720
+  ],
+  "lineas": [
+   {
+    "es": "La tierra de los Dámaso, al sur de Culiacán",
+    "pl": "Ziemia rodu Dámaso, na południe od Culiacán",
+    "font": "sans",
+    "n": 15,
+    "ref": 151.0
+   },
+   {
+    "es": "Mapa base: Natural Earth / GSHHS",
+    "pl": "Mapa: Natural Earth / GSHHS",
+    "font": "sans",
+    "n": 9,
+    "ref": 43.0
+   }
+  ]
+ },
+ "7": {
+  "n0": 25149,
+  "n1": 25416,
+  "box": [
+   162,
+   244,
+   1184,
+   498
+  ],
+  "lineas": [
+   {
+    "es": "280 millones de dólares",
+    "pl": "280 milionów dolarów",
+    "font": "serif-b",
+    "n": 14,
+    "ref": 194.0
+   },
+   {
+    "es": "El decomiso que pedía la fiscalía de Virginia",
+    "pl": "Konfiskata, której żądała prokuratura w Wirginii",
+    "font": "serif",
+    "n": 14,
+    "ref": 240.0
+   },
+   {
+    "es": "Acusación del Distrito Este de Virginia, revelada en marzo de 2013",
+    "pl": "Akt oskarżenia Okręgu Wschodniego Wirginii, ujawniony w marcu 2013",
+    "font": "sans",
+    "n": 14,
+    "ref": 137.0
+   }
+  ]
+ },
+ "8": {
+  "n0": 28209,
+  "n1": 28371,
+  "box": [
+   2,
+   590,
+   1122,
+   720
+  ],
+  "lineas": [
+   {
+    "es": "La Organización de Sinaloa se parte en dos",
+    "pl": "Organizacja z Sinaloa rozpada się na dwie części",
+    "font": "sans",
+    "n": 7,
+    "ref": 186.0
+   },
+   {
+    "es": "Mapa base: Natural Earth / GSHHS",
+    "pl": "Mapa: Natural Earth / GSHHS",
+    "font": "sans",
+    "n": 4,
+    "ref": 40.0
+   }
+  ]
+ },
+ "9": {
+  "n0": 29739,
+  "n1": 29916,
+  "box": [
+   142,
+   202,
+   1076,
+   536
+  ],
+  "lineas": [
+   {
+    "es": "«Mi compadre»",
+    "pl": "„Mój kompadre”",
+    "font": "serif-b",
+    "n": 8,
+    "ref": 190.0
+   },
+   {
+    "es": "Su respuesta cuando le preguntaron quién le dijo",
+    "pl": "Jego odpowiedź na pytanie, kto mu powiedział,",
+    "font": "serif",
+    "n": 8,
+    "ref": 240.0
+   },
+   {
+    "es": "que el Guacho había muerto",
+    "pl": "że Guacho nie żyje",
+    "font": "serif",
+    "n": 8,
+    "ref": 238.0
+   },
+   {
+    "es": "Testimonio de Dámaso López, Nueva York, enero de 2019",
+    "pl": "Zeznanie Dámaso Lópeza, Nowy Jork, styczeń 2019",
+    "font": "sans",
+    "n": 8,
+    "ref": 130.0
+   }
+  ]
+ },
+ "10": {
+  "n0": 36339,
+  "n1": 36621,
+  "box": [
+   192,
+   220,
+   1090,
+   520
+  ],
+  "lineas": [
+   {
+    "es": "2 millones de dólares",
+    "pl": "2 miliony dolarów",
+    "font": "serif-b",
+    "n": 15,
+    "ref": 193.0
+   },
+   {
+    "es": "El soborno que, según el Licenciado, recibió un",
+    "pl": "Łapówka, którą według Licenciado przyjął",
+    "font": "serif",
+    "n": 15,
+    "ref": 241.0
+   },
+   {
+    "es": "alto funcionario del sistema penitenciario",
+    "pl": "wysoki urzędnik systemu więziennictwa",
+    "font": "serif",
+    "n": 15,
+    "ref": 240.0
+   },
+   {
+    "es": "Testimonio en Nueva York; la acusación nunca ha sido probada",
+    "pl": "Zeznanie w Nowym Jorku; oskarżenia nigdy nie udowodniono",
+    "font": "sans",
+    "n": 15,
+    "ref": 137.0
+   }
+  ]
+ },
+ "11": {
+  "n0": 36744,
+  "n1": 37011,
+  "box": [
+   0,
+   536,
+   1186,
+   720
+  ],
+  "lineas": [
+   {
+    "es": "MAYO DE 2016",
+    "pl": "MAJ 2016",
+    "font": "sans-b",
+    "n": 14,
+    "ref": 184.0
+   },
+   {
+    "es": "El Chapo es trasladado al penal federal de Ciudad Juárez",
+    "pl": "El Chapo przeniesiony do federalnego więzienia w Ciudad Juárez",
+    "font": "sans",
+    "n": 14,
+    "ref": 208.0
+   },
+   {
+    "es": "Mapa base: Natural Earth / GSHHS",
+    "pl": "Mapa: Natural Earth / GSHHS",
+    "font": "sans",
+    "n": 9,
+    "ref": 67.0
+   }
+  ]
+ },
+ "12": {
+  "n0": 38214,
+  "n1": 38376,
+  "box": [
+   250,
+   178,
+   1030,
+   534
+  ],
+  "lineas": [
+   {
+    "es": "19 de enero de 2001",
+    "pl": "19 stycznia 2001",
+    "font": "serif-b",
+    "n": 7,
+    "ref": 190.0
+   },
+   {
+    "es": "Fuga de Puente Grande",
+    "pl": "Ucieczka z Puente Grande",
+    "font": "serif",
+    "n": 7,
+    "ref": 238.0
+   },
+   {
+    "es": "19 de enero de 2017",
+    "pl": "19 stycznia 2017",
+    "font": "serif-b",
+    "n": 7,
+    "ref": 198.0
+   },
+   {
+    "es": "Extradición a Estados Unidos",
+    "pl": "Ekstradycja do Stanów Zjednoczonych",
+    "font": "serif",
+    "n": 7,
+    "ref": 238.0
+   }
+  ]
+ },
+ "13": {
+  "n0": 38694,
+  "n1": 38946,
+  "box": [
+   0,
+   646,
+   596,
+   720
+  ],
+  "lineas": [
+   {
+    "es": "Imágenes: Departamento del Tesoro de EE. UU. (dominio público)",
+    "pl": "Zdjęcia: Departament Skarbu USA (domena publiczna)",
+    "font": "sans",
+    "n": 13,
+    "ref": 197.0
+   }
+  ]
+ },
+ "14": {
+  "n0": 41664,
+  "n1": 42126,
+  "box": [
+   0,
+   220,
+   1140,
+   720
+  ],
+  "lineas": [
+   {
+    "es": "72 horas",
+    "pl": "72 godziny",
+    "font": "serif-b",
+    "n": 13,
+    "ref": 186.0
+   },
+   {
+    "es": "al menos 23 asesinatos en el centro de Sinaloa",
+    "pl": "co najmniej 23 zabójstwa w centrum Sinaloa",
+    "font": "serif",
+    "n": 13,
+    "ref": 242.0
+   },
+   {
+    "es": "Febrero de 2017, según el recuento del semanario Zeta",
+    "pl": "Luty 2017, według zestawienia tygodnika Zeta",
+    "font": "sans",
+    "n": 13,
+    "ref": 135.0
+   },
+   {
+    "es": "7 DE FEBRERO DE 2017",
+    "pl": "7 LUTEGO 2017",
+    "font": "serif-b",
+    "n": 14,
+    "ref": 158.0
+   },
+   {
+    "es": "La guerra llega a Villa Juárez, en Navolato",
+    "pl": "Wojna dociera do Villa Juárez w Navolato",
+    "font": "sans",
+    "n": 14,
+    "ref": 148.0
+   },
+   {
+    "es": "Mapa base: Natural Earth / GSHHS",
+    "pl": "Mapa: Natural Earth / GSHHS",
+    "font": "serif-b",
+    "n": 8,
+    "ref": 42.0
+   }
+  ]
+ },
+ "15": {
+  "n0": 42684,
+  "n1": 42996,
+  "box": [
+   170,
+   236,
+   1110,
+   508
+  ],
+  "lineas": [
+   {
+    "es": "«Sabemos perfectamente que hay dos",
+    "pl": "„Doskonale wiemy, że istnieją dwie",
+    "font": "serif",
+    "n": 17,
+    "ref": 242.0
+   },
+   {
+    "es": "grupos delincuenciales con intereses",
+    "pl": "grupy przestępcze o sprzecznych",
+    "font": "serif",
+    "n": 17,
+    "ref": 243.0
+   },
+   {
+    "es": "antagónicos»",
+    "pl": "interesach”",
+    "font": "serif",
+    "n": 17,
+    "ref": 236.0
+   },
+   {
+    "es": "Marco Antonio Higuera Gómez, procurador de Sinaloa, febrero de 2017",
+    "pl": "Marco Antonio Higuera Gómez, prokurator Sinaloa, luty 2017",
+    "font": "sans",
+    "n": 17,
+    "ref": 176.0
+   }
+  ]
+ },
+ "16": {
+  "n0": 44574,
+  "n1": 44781,
+  "box": [
+   148,
+   266,
+   1134,
+   480
+  ],
+  "lineas": [
+   {
+    "es": "«Los jefes no quieren que circule nada",
+    "pl": "„Szefowie nie chcą, żeby krążyło cokolwiek",
+    "font": "serif",
+    "n": 10,
+    "ref": 242.0
+   },
+   {
+    "es": "de lo que anda diciendo el Licenciado»",
+    "pl": "z tego, co opowiada Licenciado”",
+    "font": "serif",
+    "n": 10,
+    "ref": 243.0
+   },
+   {
+    "es": "Joven que compraba la edición de Riodoce, citado por el semanario Zeta",
+    "pl": "Młody człowiek kupujący numer Riodoce, cytowany przez tygodnik Zeta",
+    "font": "sans",
+    "n": 10,
+    "ref": 255.0
+   }
+  ]
+ },
+ "17": {
+  "n0": 45204,
+  "n1": 45471,
+  "box": [
+   0,
+   536,
+   1112,
+   720
+  ],
+  "lineas": [
+   {
+    "es": "ALIANZAS",
+    "pl": "SOJUSZE",
+    "font": "sans-b",
+    "n": 14,
+    "ref": 100.0
+   },
+   {
+    "es": "Según la PGR, el Licenciado buscaba aliados fuera del Cártel de Sinaloa",
+    "pl": "Według PGR Licenciado szukał sojuszników poza Kartelem z Sinaloa",
+    "font": "sans",
+    "n": 14,
+    "ref": 164.0
+   },
+   {
+    "es": "Mapa base: Natural Earth / GSHHS",
+    "pl": "Mapa: Natural Earth / GSHHS",
+    "font": "sans",
+    "n": 7,
+    "ref": 43.5
+   }
+  ]
+ },
+ "18": {
+  "n0": 50169,
+  "n1": 50376,
+  "box": [
+   0,
+   140,
+   1168,
+   720
+  ],
+  "lineas": [
+   {
+    "es": "Alexandria, Virginia",
+    "pl": "Alexandria, Wirginia",
+    "font": "sans-b",
+    "n": 10,
+    "ref": 180.0
+   },
+   {
+    "es": "6 DE JULIO DE 2018",
+    "pl": "6 LIPCA 2018",
+    "font": "sans-b",
+    "n": 10,
+    "ref": 147.0
+   },
+   {
+    "es": "El Licenciado es extraditado a Estados Unidos",
+    "pl": "Licenciado wydany Stanom Zjednoczonym",
+    "font": "sans",
+    "n": 10,
+    "ref": 157.0
+   },
+   {
+    "es": "Mapa base: Natural Earth / GSHHS",
+    "pl": "Mapa: Natural Earth / GSHHS",
+    "font": "sans",
+    "n": 4,
+    "ref": 40.1
+   }
+  ]
+ },
+ "19": {
+  "n0": 51309,
+  "n1": 51456,
+  "box": [
+   194,
+   256,
+   1084,
+   412
+  ],
+  "lineas": [
+   {
+    "es": "«Una disculpa a todo el pueblo",
+    "pl": "„Przepraszam cały naród",
+    "font": "serif",
+    "n": 6,
+    "ref": 241.0
+   },
+   {
+    "es": "de Estados Unidos»",
+    "pl": "Stanów Zjednoczonych”",
+    "font": "serif",
+    "n": 6,
+    "ref": 238.0
+   }
+  ]
+ },
+ "20": {
+  "n0": 53694,
+  "n1": 53961,
+  "box": [
+   124,
+   240,
+   1164,
+   508
+  ],
+  "lineas": [
+   {
+    "es": "12 de febrero de 2019",
+    "pl": "12 lutego 2019",
+    "font": "serif-b",
+    "n": 14,
+    "ref": 191.0
+   },
+   {
+    "es": "Culpable de los diez cargos",
+    "pl": "Winny wszystkich dziesięciu zarzutów",
+    "font": "serif-b",
+    "n": 14,
+    "ref": 107.0
+   },
+   {
+    "es": "Veredicto del jurado contra Joaquín Guzmán Loera, Nueva York",
+    "pl": "Werdykt ławy przysięgłych w sprawie Joaquína Guzmána Loery, Nowy Jork",
+    "font": "sans",
+    "n": 14,
+    "ref": 131.6
+   }
+  ]
+ },
+ "21": {
+  "n0": 54024,
+  "n1": 54306,
+  "box": [
+   114,
+   216,
+   1170,
+   494
+  ],
+  "lineas": [
+   {
+    "es": "¿Ayudó en la fuga de 2001?",
+    "pl": "Czy pomógł w ucieczce w 2001 roku?",
+    "font": "serif-b",
+    "n": 15,
+    "ref": 190.0
+   },
+   {
+    "es": "¿Quién ordenó matar a Javier Valdez?",
+    "pl": "Kto zlecił zabójstwo Javiera Valdeza?",
+    "font": "serif-b",
+    "n": 15,
+    "ref": 195.0
+   },
+   {
+    "es": "¿Dónde está hoy?",
+    "pl": "Gdzie jest dziś?",
+    "font": "serif-b",
+    "n": 15,
+    "ref": 153.0
+   }
+  ]
+ },
+ "22": {
+  "n0": 54489,
+  "n1": 54636,
+  "box": [
+   226,
+   230,
+   1054,
+   478
+  ],
+  "lineas": [
+   {
+    "es": "Evasión de presos",
+    "pl": "Ucieczka więźniów",
+    "font": "serif-b",
+    "n": 6,
+    "ref": 191.0
+   },
+   {
+    "es": "Un juez mexicano lo procesó por la fuga de",
+    "pl": "Meksykański sędzia sądził go za ucieczkę w",
+    "font": "serif",
+    "n": 6,
+    "ref": 241.1
+   },
+   {
+    "es": "2001",
+    "pl": "2001 roku",
+    "font": "serif",
+    "n": 6,
+    "ref": 238.0
+   }
+  ]
+ },
+ "23": {
+  "n0": 55224,
+  "n1": 55476,
+  "box": [
+   124,
+   368,
+   1230,
+   492
+  ],
+  "lineas": [
+   {
+    "es": "Un amparo ordena reponer el proceso contra",
+    "pl": "Sąd w trybie amparo nakazuje powtórzyć proces przeciwko",
+    "font": "serif",
+    "n": 13,
+    "ref": 242.0
+   },
+   {
+    "es": "el Chito",
+    "pl": "El Chito",
+    "font": "serif",
+    "n": 13,
+    "ref": 239.0
+   }
+  ]
+ },
+ "24": {
+  "n0": 56244,
+  "n1": 56496,
+  "box": [
+   220,
+   350,
+   1058,
+   536
+  ],
+  "lineas": [
+   {
+    "es": "Orden de aprehensión contra el hijo del",
+    "pl": "Nakaz aresztowania syna Licenciado jako",
+    "font": "serif",
+    "n": 13,
+    "ref": 240.0
+   },
+   {
+    "es": "Licenciado como presunto autor intelectual",
+    "pl": "domniemanego mocodawcy",
+    "font": "serif",
+    "n": 13,
+    "ref": 244.0
+   },
+   {
+    "es": "Caso del asesinato de Javier Valdez, según la fiscalía mexicana",
+    "pl": "Sprawa zabójstwa Javiera Valdeza, według meksykańskiej prokuratury",
+    "font": "sans",
+    "n": 13,
+    "ref": 136.0
+   }
+  ]
+ },
+ "25": {
+  "n0": 57729,
+  "n1": 57951,
+  "box": [
+   176,
+   258,
+   1104,
+   484
+  ],
+  "lineas": [
+   {
+    "es": "«No puedo encontrar información",
+    "pl": "„Nie mogę znaleźć informacji",
+    "font": "serif",
+    "n": 11,
+    "ref": 240.0
+   },
+   {
+    "es": "sobre esta persona»",
+    "pl": "o tej osobie”",
+    "font": "serif",
+    "n": 11,
+    "ref": 236.0
+   },
+   {
+    "es": "Vocero del Buró Federal de Prisiones a Univisión, octubre de 2021",
+    "pl": "Rzecznik Federalnego Biura Więziennictwa dla Univision, październik 2021",
+    "font": "sans",
+    "n": 11,
+    "ref": 184.1
+   }
+  ]
+ },
+ "26": {
+  "n0": 59244,
+  "n1": 59421,
+  "box": [
+   214,
+   208,
+   1068,
+   528
+  ],
+  "lineas": [
+   {
+    "es": "5 años de prisión",
+    "pl": "5 lat więzienia",
+    "font": "serif-b",
+    "n": 8,
+    "ref": 200.0
+   },
+   {
+    "es": "Sentencia contra el Mini Lic, 4 de febrero de",
+    "pl": "Wyrok na Mini Lic, 4 lutego",
+    "font": "serif",
+    "n": 8,
+    "ref": 240.0
+   },
+   {
+    "es": "Tribunal federal de Alexandria, Virginia",
+    "pl": "Sąd federalny w Alexandrii, Wirginia",
+    "font": "sans",
+    "n": 8,
+    "ref": 198.0
+   }
+  ]
+ },
+ "27": {
+  "n0": 62814,
+  "n1": 63035,
+  "box": [
+   154,
+   240,
+   1126,
+   508
+  ],
+  "lineas": [
+   {
+    "es": "«Al pueblo de México le pido una",
+    "pl": "„Proszę naród meksykański o wybaczenie",
+    "font": "serif",
+    "n": 11,
+    "ref": 240.0
+   },
+   {
+    "es": "disculpa por el daño que pude haberles",
+    "pl": "za szkody, które mogłem im",
+    "font": "serif",
+    "n": 11,
+    "ref": 242.0
+   },
+   {
+    "es": "causado»",
+    "pl": "wyrządzić”",
+    "font": "serif",
+    "n": 11,
+    "ref": 235.0
+   },
+   {
+    "es": "Dámaso López, respuestas por escrito al diario Milenio, 2020",
+    "pl": "Dámaso López, pisemne odpowiedzi dla dziennika Milenio, 2020",
+    "font": "sans",
+    "n": 11,
+    "ref": 131.1
+   }
+  ]
+ }
+}

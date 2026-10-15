@@ -227,6 +227,58 @@ def numeros_de(t):
     t = re.sub(r'\b\d{1,3}\b', lambda m: de(m[0]), t)
     return t
 
+MESES_PL = 'stycznia|lutego|marca|kwietnia|maja|czerwca|lipca|sierpnia|września|października|listopada|grudnia'
+_U_G = 'pierwszego drugiego trzeciego czwartego piątego szóstego siódmego ósmego dziewiątego'.split()
+_U_L = 'pierwszym drugim trzecim czwartym piątym szóstym siódmym ósmym dziewiątym'.split()
+_T_G = 'dziesiątego jedenastego dwunastego trzynastego czternastego piętnastego szesnastego siedemnastego osiemnastego dziewiętnastego'.split()
+_T_L = 'dziesiątym jedenastym dwunastym trzynastym czternastym piętnastym szesnastym siedemnastym osiemnastym dziewiętnastym'.split()
+_D_G = {2: 'dwudziestego', 3: 'trzydziestego', 4: 'czterdziestego', 5: 'pięćdziesiątego', 6: 'sześćdziesiątego', 7: 'siedemdziesiątego', 8: 'osiemdziesiątego', 9: 'dziewięćdziesiątego'}
+_D_L = {k: v[:-3] + 'ym' for k, v in _D_G.items()}
+
+
+def ord_pl(n, caso='g'):
+    """Numeral porcelanowy 1..99 en genitivo ('g') o locativo/instrumental ('l')."""
+    U, T, D = (_U_G, _T_G, _D_G) if caso == 'g' else (_U_L, _T_L, _D_L)
+    if n < 10: return U[n - 1]
+    if n < 20: return T[n - 10]
+    d, u = divmod(n, 10)
+    return D[d] + (' ' + U[u - 1] if u else '')
+
+
+def anio_pl(y, caso='g'):
+    from num2words import num2words as n
+    base = 'tysiąc dziewięćset' if y < 2000 else 'dwa tysiące'
+    r = y % 100
+    if y in (2000,): return 'dwutysięcznego' if caso == 'g' else 'dwutysięcznym'
+    if r == 0: return base[:-1] + ('ego' if caso == 'g' else 'ym') if y < 2000 else base
+    return f'{base} {ord_pl(r, caso)}'
+
+
+CONTEXTOS_PL = [   # cifras que piden una forma declinada concreta
+    (r'po 13 latach', 'po trzynastu latach'), (r'ponad 5 kilogramami', 'ponad pięcioma kilogramami'),
+    (r'w 148 szkołach', 'w stu czterdziestu ośmiu szkołach'), (r'63 miesięcy', 'sześćdziesięciu trzech miesięcy'),
+    (r'2 milionów', 'dwóch milionów'), (r'około 30 pickupów', 'około trzydziestu pickupów'),
+    (r'najmniej 23 zabójstw', 'najmniej dwudziestu trzech zabójstw'), (r'numer 1\b', 'numer jeden'), (r'numer 2\b', 'numer dwa'),
+]
+
+
+def numeros_pl(t):
+    """Fechas, años y cifras en polaco, escritos como se dicen (con la declinación habitual)."""
+    from num2words import num2words as n
+    pl = lambda v: n(int(v), lang='pl')
+    for pat, rep in CONTEXTOS_PL: t = re.sub(pat, rep, t)
+    t = re.sub(rf'(?i)między (\d{{1,2}}) a (\d{{1,2}}) ({MESES_PL})', lambda m: f'między {ord_pl(int(m[1]), "l")} a {ord_pl(int(m[2]), "l")} {m[3]}', t)
+    t = re.sub(rf'\b(\d{{1,2}}) ({MESES_PL})(?: (\d{{4}}) roku)?', lambda m: f'{ord_pl(int(m[1]))} {m[2]}' + (f' {anio_pl(int(m[3]))} roku' if m[3] else ''), t)
+    t = re.sub(r'(?i)\b(w|we) (\d{4}) roku', lambda m: f'{m[1]} {anio_pl(int(m[2]), "l")} roku', t)
+    t = re.sub(r'(?i)\b(z|od|do|po) (\d{4}) roku', lambda m: f'{m[1]} {anio_pl(int(m[2]))} roku', t)
+    t = re.sub(r'\b(1\d{3}|20\d{2}) roku', lambda m: f'{anio_pl(int(m[1]))} roku', t)
+    t = re.sub(r'(?<=[a-ząćęłńóśźż] )(\d{4})(?=[,.]| roku| lat|\b)', lambda m: m[0], t)
+    t = re.sub(r'(\d{4})[–-](\d{4})', lambda m: f'{pl(m[1])} do {pl(m[2])}', t)
+    t = re.sub(r'(\d{1,3}) (\d{3})\b', lambda m: pl(int(m[1]) * 1000 + int(m[2])), t)
+    t = re.sub(r'\b\d+\b', lambda m: pl(m[0]), t)
+    return t
+
+
 
 def pronunciar(texto, reglas):
     """Reescribe nombres y cifras como se dicen (solo para la voz; el texto traducido no cambia)."""
@@ -246,14 +298,17 @@ def cmd_sintetizar(a):
     if faltan:
         sys.exit(f'Segmentos sin traducción ("pl" vacío): {faltan}')
     (w / 'tts').mkdir(exist_ok=True)
-    pista = np.zeros(int(round(vd * SR)), dtype=np.float32)
+    pista = np.zeros(int(round(vd * SR)) + 20 * SR, dtype=np.float32)
     timing = []
+    fin_prev = 0
     for s in segs:
         base = w / 'tts' / f'seg_{s["id"]:04d}'
         raw = base.with_suffix('.wav')
         texto_voz = pronunciar(s['pl'], reglas)
         if a.idioma == 'de':
             texto_voz = numeros_de(texto_voz)
+        elif a.idioma == 'pl':
+            texto_voz = numeros_pl(texto_voz)
         if not (solo and s['id'] not in solo and raw.exists()):     # --solo: reutiliza el audio ya generado de las demás frases
             tts_a_wav(texto_voz, raw, a, base)
         x = recortar_silencios(leer_wav(raw))
@@ -270,12 +325,14 @@ def cmd_sintetizar(a):
             escribir_wav(tmp_in, x)
             run([FF, '-y', '-v', 'error', '-i', tmp_in, '-filter:a', f'atempo={factor:.4f}', '-ar', SR, '-ac', 1, '-c:a', 'pcm_s16le', tmp_out])
             x = leer_wav(tmp_out)
-        i0 = int(round(s['start'] * SR))
+        # una frase que se pasa de su hueco no pisa a la siguiente: esa arranca un instante después (retraso)
+        i0 = max(int(round(s['start'] * SR)), fin_prev + int(0.04 * SR)) if a.cascada else int(round(s['start'] * SR))
         fin = min(len(pista), i0 + len(x))
         pista[i0:fin] += x[:fin - i0]
-        timing.append({'id': s['id'], 'start': s['start'], 'slot': d_max, 'dur_tts': round(t, 3),
-                       'factor': round(factor, 4), 'dur_final': round(len(x) / SR, 3), 'estado': estado})
-    escribir_wav(w / 'voz_pl.wav', pista)
+        fin_prev = i0 + len(x)
+        timing.append({'id': s['id'], 'start': s['start'], 'start_real': round(i0 / SR, 3), 'retraso': round(i0 / SR - s['start'], 3), 'slot': d_max,
+                       'dur_tts': round(t, 3), 'factor': round(factor, 4), 'dur_final': round(len(x) / SR, 3), 'estado': estado})
+    escribir_wav(w / 'voz_pl.wav', pista[:int(round(vd * SR))])
     (w / 'timing.json').write_text(json.dumps(timing, indent=1), encoding='utf-8')
     malos = [t['id'] for t in timing if t['estado'] == 'DEMASIADO_LARGO']
     print(f'Voz polaca: {w / "voz_pl.wav"}. Segmentos aun muy largos (acortar la traducción): {malos or "ninguno"}')
@@ -383,8 +440,10 @@ def cmd_recortar_pausas(a):
         offs, acum = [], 0
         for f0, f1 in cortes:
             offs.append(acum); acum += f1 - f0
+        tj = w / 'timing.json'
+        real = {t['id']: t.get('start_real', t['start']) for t in json.loads(tj.read_text())} if tj.exists() else {}
         for sg in json.loads(segf.read_text(encoding='utf-8'))['segments']:
-            f = int(round(sg['start'] * fps))
+            f = int(round(real.get(sg['id'], sg['start']) * fps))
             for (c0, c1), off in zip(cortes, offs):
                 if c0 <= f < c1:
                     ids.append(sg['id']); nuevos.append(round((off + f - c0) / fps, 3)); break
@@ -581,14 +640,23 @@ def cmd_qa(a):
     # --- tiempos de la voz
     tim = json.loads((w / 'timing.json').read_text())
     largos = [t['id'] for t in tim if t['estado'] == 'DEMASIADO_LARGO']
-    q.add('Tiempos: ningún segmento excede su hueco ni se acelera más del límite', 'FALLO' if largos else 'OK',
-          f'acortar traducción de: {largos}' if largos else f'{sum(t["estado"] == "ACELERADO" for t in tim)} acelerados (≤ límite), {sum(t["estado"] == "OK" for t in tim)} a velocidad natural')
+    ret = np.array([t.get('retraso', 0.0) for t in tim])
+    casc = any('retraso' in t for t in tim)
+    if casc:
+        graves = [t['id'] for t in tim if t.get('retraso', 0) > 1.2]
+        q.add('Tiempos: ninguna frase arranca más de 1.2 s después de su hueco original', 'FALLO' if graves else 'OK',
+              f'retraso medio {ret.mean():.2f}s, máximo {ret.max():.2f}s, {int((ret > 0.5).sum())} frases con retraso > 0.5 s' + (f'; revisar: {graves}' if graves else ''))
+        q.add('Tiempos: aceleración / frases que no entran en su hueco', 'OK',
+              f'{sum(t["estado"] == "ACELERADO" for t in tim)} aceleradas (≤ límite), {len(largos)} con el máximo de aceleración y arranque diferido de la siguiente')
+    else:
+        q.add('Tiempos: ningún segmento excede su hueco ni se acelera más del límite', 'FALLO' if largos else 'OK',
+              f'acortar traducción de: {largos}' if largos else f'{sum(t["estado"] == "ACELERADO" for t in tim)} acelerados (≤ límite), {sum(t["estado"] == "OK" for t in tim)} a velocidad natural')
     mf = max((t['factor'] for t in tim), default=1.0)
     q.add('Tiempos: aceleración máxima aplicada', 'OK' if mf <= 1.15 else 'FALLO', f'x{mf}')
     voz = leer_wav(voz_wav)
     mudos = []
     for t in ([] if a.compacto else tim):
-        i0 = int(t['start'] * SR); seg = voz[i0:i0 + int(t['dur_final'] * SR)]
+        i0 = int(t.get('start_real', t['start']) * SR); seg = voz[i0:i0 + int(t['dur_final'] * SR)]
         if len(seg) == 0 or db(np.sqrt(np.mean(seg ** 2))) < -50:
             mudos.append(t['id'])
     q.add('Cobertura: todos los segmentos tienen voz audible', 'FALLO' if mudos else 'OK', f'sin voz: {mudos}' if mudos else '')
@@ -638,6 +706,7 @@ def main():
     s.add_argument('--solo', help='ids a regenerar, separados por coma (ej. 101,160); el resto reutiliza su audio')
     s.add_argument('--pronunciacion', default='pronunciacion.json', help='json [[patrón, reemplazo], ...] para pronunciar nombres y cifras')
     s.add_argument('--max-acel', type=float, default=1.12, help='aceleración máxima permitida (default 1.12)')
+    s.add_argument('--cascada', action='store_true', help='si una frase se pasa de su hueco, la siguiente arranca después (en vez de solaparse)')
     s.set_defaults(f=cmd_sintetizar)
     s = sub.add_parser('mezclar'); s.add_argument('video'); s.add_argument('salida'); s.add_argument('--idioma', default='pl', help='idioma de destino (pl, de, ...)'); s.set_defaults(f=cmd_mezclar)
     s = sub.add_parser('recortar-pausas', help='paso final: acorta las pausas largas del video ya montado')
