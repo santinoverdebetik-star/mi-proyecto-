@@ -14,3 +14,14 @@
 - Boeing 727 en la niebla (Denver) — Aeroprints.com, CC BY-SA 3.0 — https://commons.wikimedia.org/wiki/File:DIA001_Boeing_727_Denver_International_Airport_(_N7285U_)_(8738786046).jpg
 - Skyline Paseo de la Reforma — Alejandro Islas Photograph AC, CC BY 2.0 — https://commons.wikimedia.org/wiki/File:Ciudad.de.Mexico.City.Distrito.Federal.DF.Paseo.Reforma.Skyline.jpg
 - Torre de control LAX — Moto "Club4AG" Miwa, CC BY 2.0 — https://commons.wikimedia.org/wiki/File:Control_Tower_at_LAX,_January_1st,_2011_(5315025155).jpg
+
+## Ovidio (miniaturas OVIDIO A/B)
+- Rostro: imagen aportada por el usuario (images/6.png, baja resolución) — verificar derechos de uso.
+- Capitolio al atardecer — Sheyna Elizabeth Gifford, CC BY-SA 3.0 — https://commons.wikimedia.org/wiki/File:Capitol_Building_at_dusk.jpg
+- Capitolio de noche — Martin Falbisoner, CC BY-SA 3.0 — https://commons.wikimedia.org/wiki/File:Capitol_at_Dusk.JPG
+- Departamento de Justicia (RFK Building) — Gunnar Klack, CC BY-SA 4.0 — https://commons.wikimedia.org/wiki/File:2014-04-04-Robert-F-Kennedy-Department-of-Justice-Building-Washington-DC.jpg
+- Muro fronterizo Tijuana/San Diego — Tomascastelazo, CC BY-SA 4.0 — https://commons.wikimedia.org/wiki/File:Border_Wall_at_Tijuana_and_San_Diego_Border.jpg
+- Panhard ERC Lynx del Ejército Mexicano — Mizael Contreras, CC BY-SA 4.0 — https://commons.wikimedia.org/wiki/File:Panhard_ERC_Lynx_del_Ej%C3%A9rcito_Mexicano.jpg
+- AMX-VCI del Ejército Mexicano — Mizael Contreras, CC BY-SA 4.0 — https://commons.wikimedia.org/wiki/File:AMX-VCI_del_Ej%C3%A9rcito_Mexicano.jpg
+- Palacio Nacional (balcón) — Diego Delso, CC BY-SA 3.0 — https://commons.wikimedia.org/wiki/File:Balc%C3%B3n_principal_del_Palacio_Nacional,_M%C3%A9xico_D.F.,_M%C3%A9xico,_2013-10-16,_DD_103.JPG
+- Aeropuerto de Culiacán — arcklp, CC BY-SA 3.0 — https://commons.wikimedia.org/wiki/File:Culiacan_International_Airport.jpg
