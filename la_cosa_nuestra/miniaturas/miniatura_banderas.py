@@ -17,6 +17,15 @@ def rostro_ovidio(altura):
     return rgb.resize((int(rgb.width * altura / rgb.height), altura), Image.LANCZOS)
 
 
+def rostro_traje(altura):
+    """busto con traje (imagen del usuario); el pelo viene cortado arriba, asi que el borde del cuadro hace de corte"""
+    im = Image.open(A("ovidio_traje_recorte.png")).convert("RGBA")
+    ys, xs = np.nonzero(np.asarray(im.split()[3]) > 20)
+    im = im.crop((xs.min(), ys.min(), xs.max() + 1, ys.max() + 1))
+    rgb = realzar(im.convert("RGB").filter(ImageFilter.UnsharpMask(2, 70, 2)), 1.02, 1.08, 1.08); rgb.putalpha(im.split()[3])
+    return rgb.resize((int(rgb.width * altura / rgb.height), altura), Image.LANCZOS)
+
+
 def mitad(nombre, caja, w, h, k, rgb):
     im = cargar(nombre); x0, y0, x1, y1 = caja
     im = im.crop((int(im.width * x0), int(im.height * y0), int(im.width * x1), int(im.height * y1)))
@@ -64,9 +73,11 @@ def miniatura(variante="A"):
     m = Image.fromarray((np.tile(ramp, (H, 1)) * 255).astype(np.uint8))
     im.paste(der, (W - 760, 0)); im.paste(izq, (0, 0), m)
     im = vineta(im, 0.45)
-    cara = rostro_ovidio(610)
-    x = (W - cara.width) // 2 + 30
-    im = con_brillo(im, cara, (x, H - cara.height + 14), (0, 0, 0), radio=26, intens=0.85, borde=0)
+    cara = rostro_traje(760)
+    x = (W - cara.width) // 2 + 60
+    y = H - cara.height + 6                                  # negativo: el borde superior del cuadro corta el pelo
+    if y < 0: cara = cara.crop((0, -y, cara.width, cara.height)); y = 0
+    im = con_brillo(im, cara, (x, y), (0, 0, 0), radio=26, intens=0.85, borde=0)
     sz = 80; nombre = "Ovidio Guzmán"
     im = texto(im, (36, 16), nombre, sz, BLANCO, trazo=0, sombra=True, ancla="la")
     wtxt = ancho_texto(nombre, sz, 0)
