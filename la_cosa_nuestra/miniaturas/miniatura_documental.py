@@ -52,23 +52,23 @@ def realzar(im, brillo=1.0, sat=1.12, contraste=1.1):
 
 
 def fondo_collage(var="A"):
-    im = Image.new("RGB", (W, H), (22, 18, 18))
-    n = np.random.default_rng(1).normal(0, 6, (H, W, 1)); im = Image.fromarray(np.clip(np.asarray(im) + n, 0, 255).astype(np.uint8))
+    """collage a pantalla completa: una foto de fondo que llena el cuadro + fotos grandes rasgadas que casi lo cubren"""
     if var == "A":
-        piezas = [("bg_727_noche.jpg", (860, 520, 560, 350), 3, 2), ("bg_learjet.jpg", (640, 570, 380, 245), 6, 3),
-                  ("bg_aerea_mexico.jpg", (700, 150, 400, 260), -4, 4), ("bg_727_niebla.jpg", (1130, 500, 420, 270), -5, 5)]
+        fondo, piezas = "bg_727_niebla.jpg", [("bg_aerea_mexico.jpg", (900, 185, 800, 390), -2, 4), ("bg_learjet.jpg", (700, 545, 640, 350), 3, 3),
+                                              ("bg_727_noche.jpg", (1110, 545, 540, 350), -3, 5)]
     else:
-        piezas = [("bg_727_niebla.jpg", (860, 520, 560, 350), 3, 2), ("bg_skyline.jpg", (640, 570, 380, 245), 6, 3),
-                  ("bg_torre.jpg", (700, 150, 400, 260), -4, 4), ("bg_727_noche.jpg", (1130, 500, 420, 270), -5, 5)]
+        fondo, piezas = "bg_skyline.jpg", [("bg_torre.jpg", (900, 185, 800, 390), -2, 4), ("bg_727_noche.jpg", (700, 545, 640, 350), 3, 3),
+                                           ("bg_727_niebla.jpg", (1110, 545, 540, 350), -3, 5)]
+    im = realzar(cover(cargar(fondo), W, H), 0.78, 1.0, 1.05)
     for nom, (cx, cy, w, h), rot, sd in piezas:
-        im = papel_rasgado(im, realzar(cargar(nom)), (cx - w // 2, cy - h // 2, w, h), seed=sd, rot=rot, borde=9)
-    return vineta(im, 0.35)
+        im = papel_rasgado(im, realzar(cargar(nom)), (cx - w // 2, cy - h // 2, w, h), seed=sd, rot=rot, borde=8)
+    return vineta(im, 0.3)
 
 
 def base(var="A"):
     im = fondo_collage(var)
     mug = Image.open(A("mugshot_original.png")).convert("RGB").crop((0, 8, 267, 256)).convert("L").convert("RGB")
-    return expediente(im, (1060, 175), (380, 300), 5, mug)
+    return expediente(im, (1090, 175), (350, 280), 5, mug)
 
 
 def con_cara(im):
