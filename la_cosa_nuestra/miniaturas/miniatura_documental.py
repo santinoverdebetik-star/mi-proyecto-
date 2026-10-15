@@ -31,13 +31,14 @@ def expediente(base, xy, tam, rot, mug, rojo=True):
     w, h = tam
     pg = Image.new("RGBA", (w, h), (232, 226, 208, 255)); d = ImageDraw.Draw(pg)
     d.rectangle((0, 0, w, 36), fill=(200, 190, 168, 255)); tira_texto(d, 16, 10, w * 0.5, (90, 80, 70, 255), 1, 1, 14)
-    tira_texto(d, 16, 60, w * 0.55, (120, 112, 100, 255), 2, 9)
+    tira_texto(d, 16, 60, w * (0.55 if mug is not None else 0.95), (120, 112, 100, 255), 2, 9)
     tira_texto(d, 16, h - 120, w - 40, (120, 112, 100, 255), 3, 6)
     if rojo:
         for yy, ww in ((88, 150), (122, 110), (190, 170)): d.rectangle((16, yy, 16 + ww, yy + 11), fill=(40, 40, 40, 255))
-    m = mug.resize((int(w * 0.32), int(w * 0.32 * 1.15)), Image.LANCZOS)
-    pg.paste(m, (w - m.width - 20, 54))
-    d.rectangle((w - m.width - 20, 54, w - 20, 54 + m.height), outline=(60, 60, 60, 255), width=2)
+    if mug is not None:
+        m = mug.resize((int(w * 0.32), int(w * 0.32 * 1.15)), Image.LANCZOS)
+        pg.paste(m, (w - m.width - 20, 54))
+        d.rectangle((w - m.width - 20, 54, w - 20, 54 + m.height), outline=(60, 60, 60, 255), width=2)
     sh = Image.new("RGBA", (w + 60, h + 60), (0, 0, 0, 0)); sh.paste(Image.new("RGBA", (w, h), (0, 0, 0, 200)), (30, 30)); sh = sh.filter(ImageFilter.GaussianBlur(12))
     can = Image.new("RGBA", (w + 60, h + 60), (0, 0, 0, 0)); can.alpha_composite(sh, (8, 10)); can.alpha_composite(pg, (30, 30))
     can = can.rotate(rot, resample=Image.BICUBIC, expand=True)
@@ -67,8 +68,7 @@ def fondo_collage(var="A"):
 
 def base(var="A"):
     im = fondo_collage(var)
-    mug = Image.open(A("mugshot_original.png")).convert("RGB").crop((0, 8, 267, 256)).convert("L").convert("RGB")
-    return expediente(im, (1090, 175), (350, 280), 5, mug)
+    return expediente(im, (1090, 175), (350, 280), 5, None)
 
 
 def con_cara(im):
