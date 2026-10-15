@@ -25,3 +25,9 @@
 - AMX-VCI del Ejército Mexicano — Mizael Contreras, CC BY-SA 4.0 — https://commons.wikimedia.org/wiki/File:AMX-VCI_del_Ej%C3%A9rcito_Mexicano.jpg
 - Palacio Nacional (balcón) — Diego Delso, CC BY-SA 3.0 — https://commons.wikimedia.org/wiki/File:Balc%C3%B3n_principal_del_Palacio_Nacional,_M%C3%A9xico_D.F.,_M%C3%A9xico,_2013-10-16,_DD_103.JPG
 - Aeropuerto de Culiacán — arcklp, CC BY-SA 3.0 — https://commons.wikimedia.org/wiki/File:Culiacan_International_Airport.jpg
+
+## Ovidio — banderas
+- Bandera de EE.UU. ondeando — IceuImgflip, CC BY-SA 4.0 — https://commons.wikimedia.org/wiki/File:American_Flag_Waving_in_the_Wind.jpg
+- Zócalo capitalino (bandera de México) — Trinidad87, CC BY-SA 3.0 — https://commons.wikimedia.org/wiki/File:Z%C3%B3calo_capitalino.JPG
+- Balcón del Palacio Nacional — Diego Delso, CC BY-SA 3.0 (ver arriba)
+- Rostro: recortado de la imagen de referencia enviada por el usuario (pelo completo).
