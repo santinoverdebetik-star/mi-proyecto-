@@ -514,6 +514,7 @@ def qa_traduccion(q, segs, glosario, idioma='pl'):
     def numeros(t):       # «577 mil» y «577.000» son la misma cifra
         t = re.sub(r'(\d+)\s*mil\b', lambda m: str(int(m.group(1)) * 1000), t)
         t = re.sub(r'(\d{1,3})\.(\d{3})\b', r'\1\2', t)
+        t = re.sub(r'(\d{1,3})[ \u00a0](\d{3})\b', r'\1\2', t)      # «10 000» (polaco) == «10.000»
         return set(re.findall(r'\d+', t))
     inventadas, revisar = [], []
     for s in segs:
