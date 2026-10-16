@@ -1,0 +1,3002 @@
+{
+ "video_dur": 1978.154376,
+ "segments": [
+  {
+   "start": 0.0,
+   "end": 5.76,
+   "es": "El hombre que una vez sembró el terror en las calles de Culiacán, el sicario que presumía",
+   "id": 1,
+   "slot": 5.68,
+   "max_chars_pl": 79,
+   "pl": "Człowiek, który niegdyś zasiewał terror na ulicach Culiacán, płatny zabójca, który chełpił się"
+  },
+  {
+   "start": 5.76,
+   "end": 12.24,
+   "es": "de una lealtad inquebrantable a los hijos de Joaquín el Chapo Guzmán, hoy no es más",
+   "id": 2,
+   "slot": 6.4,
+   "max_chars_pl": 89,
+   "pl": "niezachwianą lojalnością wobec synów Joaquína El Chapo Guzmána, jest dziś już tylko"
+  },
+  {
+   "start": 12.24,
+   "end": 18.64,
+   "es": "que un número de registro en el frío sistema penitenciario de los Estados Unidos.",
+   "id": 3,
+   "slot": 6.32,
+   "max_chars_pl": 88,
+   "pl": "numerem ewidencyjnym w zimnym systemie więziennictwa Stanów Zjednoczonych."
+  },
+  {
+   "start": 18.64,
+   "end": 26.28,
+   "es": "Néstor Isidro Pérez Salas, alias El Nini, pasó de los lujos extravagantes, las armas",
+   "id": 4,
+   "slot": 7.56,
+   "max_chars_pl": 105,
+   "pl": "Néstor Isidro Pérez Salas, pseudonim El Nini, przeszedł od ekstrawaganckiego luksusu, broni"
+  },
+  {
+   "start": 26.28,
+   "end": 32.0,
+   "es": "bañadas en oro y el poder absoluto sobre la vida y la muerte, a la humillación total",
+   "id": 5,
+   "slot": 5.64,
+   "max_chars_pl": 78,
+   "pl": "pozłacanej i absolutnej władzy nad życiem i śmiercią do całkowitego upokorzenia"
+  },
+  {
+   "start": 32.0,
+   "end": 38.64,
+   "es": "de una celda de concreto en Nueva York. Ya no hay corridos que canten sus hazañas,",
+   "id": 6,
+   "slot": 6.56,
+   "max_chars_pl": 91,
+   "pl": "w betonowej celi w Nowym Jorku. Nie ma już korido opiewających jego czyny,"
+  },
+  {
+   "start": 38.64,
+   "end": 44.76,
+   "es": "solo el eco de sus propios pasos en un pasillo metálico. Detrás de los muros del",
+   "id": 7,
+   "slot": 6.04,
+   "max_chars_pl": 84,
+   "pl": "tylko echo własnych kroków na metalowym korytarzu. Za murami"
+  },
+  {
+   "start": 44.76,
+   "end": 52.88,
+   "es": "centro de detención metropolitano de Brooklyn, el mito del guerrero implacable se ha desmoronado.",
+   "id": 8,
+   "slot": 8.04,
+   "max_chars_pl": 112,
+   "pl": "Metropolitalnego Centrum Detencyjnego na Brooklynie mit bezwzględnego wojownika się rozpadł."
+  },
+  {
+   "start": 52.88,
+   "end": 58.96,
+   "es": "Fuentes cercanas al penal aseguran que aquel joven que se sentía intocable hoy tiembla",
+   "id": 9,
+   "slot": 6.0,
+   "max_chars_pl": 84,
+   "pl": "Źródła bliskie więzieniu twierdzą, że ten młody człowiek, który czuł się nietykalny, dziś drży"
+  },
+  {
+   "start": 58.96,
+   "end": 63.9,
+   "es": "ante la sombra de una cadena perpetua, llora en la soledad de su encierro y en",
+   "id": 10,
+   "slot": 4.86,
+   "max_chars_pl": 68,
+   "pl": "przed cieniem dożywocia, płacze w samotności swojej izolatki i w"
+  },
+  {
+   "start": 63.9,
+   "end": 71.66,
+   "es": "un acto de desesperación absoluta, suplica una piedad que él jamás tuvo con sus víctimas.",
+   "id": 11,
+   "slot": 7.68,
+   "max_chars_pl": 107,
+   "pl": "akcie absolutnej rozpaczy błaga o litość, której on sam nigdy nie okazał swoim ofiarom."
+  },
+  {
+   "start": 71.66,
+   "end": 77.72,
+   "es": "Esta es la estrepitosa caída del príncipe de los sicarios. La historia del colapso",
+   "id": 12,
+   "slot": 5.98,
+   "max_chars_pl": 83,
+   "pl": "To spektakularny upadek księcia płatnych zabójców. Historia upadku"
+  },
+  {
+   "start": 77.72,
+   "end": 83.78,
+   "es": "de Néstor Isidro Pérez Salas, conocido en el submundo criminal como El Nini, comenzó",
+   "id": 13,
+   "slot": 5.98,
+   "max_chars_pl": 83,
+   "pl": "Néstora Isidro Péreza Salasa, znanego w kryminalnym podziemiu jako El Nini, zaczęła się"
+  },
+  {
+   "start": 83.78,
+   "end": 89.46,
+   "es": "a escribirse con una mezcla de sangre, fuego y una arrogancia que terminó por",
+   "id": 14,
+   "slot": 5.6,
+   "max_chars_pl": 78,
+   "pl": "pisać mieszanką krwi, ognia i arogancji, która ostatecznie"
+  },
+  {
+   "start": 89.46,
+   "end": 95.88,
+   "es": "asfixiarlo mucho antes de que pusiera un pie en territorio estadounidense. Durante",
+   "id": 15,
+   "slot": 6.34,
+   "max_chars_pl": 88,
+   "pl": "udusiła go na długo, zanim stanął na amerykańskiej ziemi. Przez"
+  },
+  {
+   "start": 95.88,
+   "end": 102.88,
+   "es": "años este joven sinaloense no fue simplemente un sicario más. Se convirtió en el",
+   "id": 16,
+   "slot": 6.92,
+   "max_chars_pl": 96,
+   "pl": "lata ten młody mieszkaniec Sinaloa nie był zwykłym płatnym zabójcą. Stał się"
+  },
+  {
+   "start": 102.88,
+   "end": 108.48,
+   "es": "rostro de una violencia descarnada y mediática que rompió con los códigos de la vieja escuela",
+   "id": 17,
+   "slot": 5.52,
+   "max_chars_pl": 77,
+   "pl": "twarzą nagiej, medialnej przemocy, która złamała kodeksy starej szkoły"
+  },
+  {
+   "start": 108.48,
+   "end": 115.98,
+   "es": "del narcotráfico. Al frente de Los Ninis, un brazo armado compuesto por jóvenes sanguinarios",
+   "id": 18,
+   "slot": 7.42,
+   "max_chars_pl": 103,
+   "pl": "narkobiznesu. Na czele Los Ninis, ramienia zbrojnego złożonego z krwiożerczych młodzieńców,"
+  },
+  {
+   "start": 115.98,
+   "end": 121.24,
+   "es": "que operaban bajo una lógica de impulsividad y espectáculo, Pérez Salas transformó",
+   "id": 19,
+   "slot": 5.18,
+   "max_chars_pl": 72,
+   "pl": "którzy działali według logiki impulsywności i widowiska, Pérez Salas zamienił"
+  },
+  {
+   "start": 121.24,
+   "end": 127.86,
+   "es": "las calles de Culiacán en su propio tablero de guerra. Sin embargo, en ese ecosistema",
+   "id": 20,
+   "slot": 6.54,
+   "max_chars_pl": 91,
+   "pl": "ulice Culiacán w swoją własną planszę wojenną. Jednak w tym ekosystemie"
+  },
+  {
+   "start": 127.86,
+   "end": 134.8,
+   "es": "de balas y lujos extravagantes, la soberbia suele ser el primer paso hacia el precipicio",
+   "id": 21,
+   "slot": 6.86,
+   "max_chars_pl": 96,
+   "pl": "kul i ekstrawaganckiego luksusu pycha bywa pierwszym krokiem ku przepaści,"
+  },
+  {
+   "start": 134.8,
+   "end": 142.0,
+   "es": "y para el jefe de seguridad de Los Chapitos, ese abismo se abrió de par en par el 22",
+   "id": 22,
+   "slot": 7.12,
+   "max_chars_pl": 99,
+   "pl": "a dla szefa ochrony Los Chapitos ta przepaść otworzyła się szeroko 22"
+  },
+  {
+   "start": 142.0,
+   "end": 150.84,
+   "es": "de noviembre de 2023. Aquel día, el destino decidió cobrarle cada una de sus facturas",
+   "id": 23,
+   "slot": 8.76,
+   "max_chars_pl": 122,
+   "pl": "listopada 2023 roku. Tego dnia los postanowił wystawić mu każdy rachunek"
+  },
+  {
+   "start": 150.84,
+   "end": 157.04,
+   "es": "en un operativo quirúrgico que demostró que nadie, por más protegido que se sienta,",
+   "id": 24,
+   "slot": 6.12,
+   "max_chars_pl": 85,
+   "pl": "w chirurgicznej operacji, która pokazała, że nikt, choćby czuł się najlepiej chroniony,"
+  },
+  {
+   "start": 157.04,
+   "end": 163.96,
+   "es": "es realmente intocable. El ejército mexicano y la Guardia Nacional cercaron su zona de",
+   "id": 25,
+   "slot": 6.84,
+   "max_chars_pl": 95,
+   "pl": "nie jest naprawdę nietykalny. Armia meksykańska i Gwardia Narodowa otoczyły jego strefę"
+  },
+  {
+   "start": 163.96,
+   "end": 168.92,
+   "es": "confort en el fraccionamiento Colinas de la Ribera, eliminando en cuestión de",
+   "id": 26,
+   "slot": 4.88,
+   "max_chars_pl": 68,
+   "pl": "komfortu na osiedlu Colinas de la Ribera, w ciągu kilku minut"
+  },
+  {
+   "start": 168.92,
+   "end": 174.8,
+   "es": "minutos el mito de su invencibilidad. Lo que el mundo vio a través de las cámaras",
+   "id": 27,
+   "slot": 5.8,
+   "max_chars_pl": 81,
+   "pl": "niszcząc mit jego niezwyciężoności. To, co świat zobaczył w kamerach"
+  },
+  {
+   "start": 174.8,
+   "end": 181.28,
+   "es": "de los teléfonos celulares, fue una imagen que desmoronó instantáneamente los narcocorridos",
+   "id": 28,
+   "slot": 6.4,
+   "max_chars_pl": 89,
+   "pl": "telefonów komórkowych, było obrazem, który natychmiast rozbił narcocorridos,"
+  },
+  {
+   "start": 181.28,
+   "end": 187.5,
+   "es": "que lo ensalzaban como un guerrero eterno. El temido sicario estaba atrapado en una",
+   "id": 29,
+   "slot": 6.14,
+   "max_chars_pl": 85,
+   "pl": "wielbiące go jako wiecznego wojownika. Przerażający zabójca był uwięziony na"
+  },
+  {
+   "start": 187.5,
+   "end": 194.24,
+   "es": "azotea, intentando escapar casi en ropa interior, solo, vulnerable y desprovisto",
+   "id": 30,
+   "slot": 6.66,
+   "max_chars_pl": 93,
+   "pl": "dachu, próbując uciec niemal w bieliźnie, sam, bezbronny i pozbawiony"
+  },
+  {
+   "start": 194.24,
+   "end": 200.46,
+   "es": "del ejército de guardaespaldas que solía rodearlo. Esa estampa de humillación donde",
+   "id": 31,
+   "slot": 6.14,
+   "max_chars_pl": 85,
+   "pl": "armii ochroniarzy, którzy zwykle go otaczali. Ten obraz upokorzenia, w którym"
+  },
+  {
+   "start": 200.46,
+   "end": 206.1,
+   "es": "la desesperación reemplazó a la prepotencia, fue el prólogo de su quiebre psicológico",
+   "id": 32,
+   "slot": 5.56,
+   "max_chars_pl": 77,
+   "pl": "rozpacz zastąpiła butę, był prologiem jego ostatecznego załamania"
+  },
+  {
+   "start": 206.1,
+   "end": 212.54,
+   "es": "definitivo. Esta vulnerabilidad física no fue más que el preludio de una caída",
+   "id": 33,
+   "slot": 6.36,
+   "max_chars_pl": 89,
+   "pl": "psychicznego. Ta fizyczna bezbronność była tylko preludium znacznie głębszego"
+  },
+  {
+   "start": 212.54,
+   "end": 219.38,
+   "es": "emocional mucho más profunda, que comenzó en el mismo instante en que las esposas",
+   "id": 34,
+   "slot": 6.76,
+   "max_chars_pl": 94,
+   "pl": "upadku emocjonalnego, który zaczął się w chwili, gdy kajdanki"
+  },
+  {
+   "start": 219.38,
+   "end": 225.48,
+   "es": "se cerraron sobre sus muñecas. Al ser trasladado al Centro Federal de Readaptación",
+   "id": 35,
+   "slot": 6.02,
+   "max_chars_pl": 84,
+   "pl": "zacisnęły się na jego nadgarstkach. Gdy przewieziono go do Federalnego Centrum Readaptacji"
+  },
+  {
+   "start": 225.48,
+   "end": 232.88,
+   "es": "Social número 1, el temido penal del Altiplano, el miedo comenzó a anidarse en su mirada",
+   "id": 36,
+   "slot": 7.32,
+   "max_chars_pl": 102,
+   "pl": "Społecznej numer 1, owianego grozą więzienia Altiplano, strach zagnieździł się w jego spojrzeniu"
+  },
+  {
+   "start": 232.88,
+   "end": 240.02,
+   "es": "de una forma que nunca antes había experimentado. En los pasillos de máxima seguridad de México,",
+   "id": 37,
+   "slot": 7.06,
+   "max_chars_pl": 98,
+   "pl": "w sposób, jakiego nigdy wcześniej nie doświadczył. W korytarzach meksykańskiego więzienia o zaostrzonym rygorze"
+  },
+  {
+   "start": 240.02,
+   "end": 245.6,
+   "es": "el Nini comprendió que ya no era el cazador que acechaba en las sombras de la sierra",
+   "id": 38,
+   "slot": 5.5,
+   "max_chars_pl": 77,
+   "pl": "El Nini zrozumiał, że nie jest już łowcą czyhającym w cieniu gór"
+  },
+  {
+   "start": 245.6,
+   "end": 253.48,
+   "es": "sinaloense, sino la presa más valiosa de un sistema que estaba listo para entregarlo.",
+   "id": 39,
+   "slot": 7.8,
+   "max_chars_pl": 109,
+   "pl": "Sinaloa, lecz najcenniejszą zdobyczą systemu, który był gotów go wydać."
+  },
+  {
+   "start": 253.48,
+   "end": 260.98,
+   "es": "El silencio sepulcral de la celda reemplazó el estruendo de las ráfagas de AK-47, y",
+   "id": 40,
+   "slot": 7.42,
+   "max_chars_pl": 103,
+   "pl": "Grobowa cisza celi zastąpiła huk serii z AK-47 i"
+  },
+  {
+   "start": 260.98,
+   "end": 267.1,
+   "es": "fue en esa quietud donde la realidad de su situación empezó a devorarlo por dentro.",
+   "id": 41,
+   "slot": 6.04,
+   "max_chars_pl": 84,
+   "pl": "w tej ciszy rzeczywistość jego sytuacji zaczęła go pożerać od środka."
+  },
+  {
+   "start": 267.1,
+   "end": 273.54,
+   "es": "Ya no había subordinados a quienes mandar, ni lujos que presumir, sólo la certeza",
+   "id": 42,
+   "slot": 6.36,
+   "max_chars_pl": 89,
+   "pl": "Nie było już podwładnych, którym mógłby rozkazywać, ani luksusów do pokazywania, tylko pewność,"
+  },
+  {
+   "start": 273.54,
+   "end": 279.02,
+   "es": "de que el siguiente paso era el que todo capo teme más que a la muerte misma,",
+   "id": 43,
+   "slot": 5.4,
+   "max_chars_pl": 75,
+   "pl": "że następny krok to ten, którego każdy boss boi się bardziej niż samej śmierci,"
+  },
+  {
+   "start": 279.02,
+   "end": 285.88,
+   "es": "la extradición. El proceso de entrega a la justicia estadounidense no solo representó",
+   "id": 44,
+   "slot": 6.78,
+   "max_chars_pl": 94,
+   "pl": "ekstradycja. Proces przekazania amerykańskiemu wymiarowi sprawiedliwości oznaczał nie tylko"
+  },
+  {
+   "start": 285.88,
+   "end": 291.94,
+   "es": "un cambio de jurisdicción, sino el fin absoluto de su identidad como hombre poderoso.",
+   "id": 45,
+   "slot": 5.98,
+   "max_chars_pl": 83,
+   "pl": "zmianę jurysdykcji, lecz absolutny koniec jego tożsamości człowieka potężnego."
+  },
+  {
+   "start": 291.94,
+   "end": 297.24,
+   "es": "Mientras esperaba su traslado, Pérez Salas comenzó a mostrar signos de un colapso",
+   "id": 46,
+   "slot": 5.22,
+   "max_chars_pl": 73,
+   "pl": "Czekając na przekazanie, Pérez Salas zaczął wykazywać oznaki załamania"
+  },
+  {
+   "start": 297.24,
+   "end": 303.2,
+   "es": "nervioso que se agravaría con el tiempo. Sabía perfectamente que una vez en suelo",
+   "id": 47,
+   "slot": 5.88,
+   "max_chars_pl": 82,
+   "pl": "nerwowego, które z czasem się pogłębiało. Doskonale wiedział, że gdy znajdzie się na"
+  },
+  {
+   "start": 303.2,
+   "end": 309.22,
+   "es": "norteamericano, su nombre perdería todo el peso que alguna vez tuvo en Sinaloa,",
+   "id": 48,
+   "slot": 5.94,
+   "max_chars_pl": 83,
+   "pl": "północnoamerykańskiej ziemi, jego nazwisko straci całą wagę, jaką kiedyś miało w Sinaloa,"
+  },
+  {
+   "start": 309.22,
+   "end": 314.74,
+   "es": "y se convertiría simplemente en un expediente lleno de cargos por tráfico de fentanilo,",
+   "id": 49,
+   "slot": 5.44,
+   "max_chars_pl": 76,
+   "pl": "i stanie się po prostu aktami pełnymi zarzutów o handel fentanylem,"
+  },
+  {
+   "start": 314.74,
+   "end": 320.12,
+   "es": "asesinatos y torturas. La transición del altiplano a la custodia",
+   "id": 50,
+   "slot": 5.3,
+   "max_chars_pl": 74,
+   "pl": "zabójstwa i tortury. Przejście z Altiplano pod opiekę"
+  },
+  {
+   "start": 320.12,
+   "end": 325.24,
+   "es": "de los Marshalls estadounidenses marcó el punto de no retorno, donde el joven",
+   "id": 51,
+   "slot": 5.04,
+   "max_chars_pl": 70,
+   "pl": "amerykańskich Marshals oznaczało punkt bez odwrotu, w którym młody człowiek,"
+  },
+  {
+   "start": 325.24,
+   "end": 330.96,
+   "es": "que se sentía el dueño de Culiacán, se transformó en un hombre que según reportes,",
+   "id": 52,
+   "slot": 5.64,
+   "max_chars_pl": 78,
+   "pl": "który czuł się panem Culiacán, przemienił się w mężczyznę, który według doniesień"
+  },
+  {
+   "start": 330.96,
+   "end": 334.96,
+   "es": "no deja de temblar ante la inminencia de una cadena perpetua.",
+   "id": 53,
+   "slot": 3.92,
+   "max_chars_pl": 54,
+   "pl": "nie przestaje drżeć w obliczu nieuchronnego dożywocia."
+  },
+  {
+   "start": 334.96,
+   "end": 341.84,
+   "es": "Hoy, esa caída se ha completado en el Centro de Detención Metropolitano de Brooklyn,",
+   "id": 54,
+   "slot": 6.8,
+   "max_chars_pl": 95,
+   "pl": "Dziś ten upadek dopełnił się w Metropolitalnym Centrum Detencyjnym na Brooklynie,"
+  },
+  {
+   "start": 341.84,
+   "end": 346.72,
+   "es": "donde el aislamiento y la falta de contacto con su red de apoyo han terminado por quebrar",
+   "id": 55,
+   "slot": 4.8,
+   "max_chars_pl": 67,
+   "pl": "gdzie izolacja i brak kontaktu z siecią wsparcia ostatecznie złamały"
+  },
+  {
+   "start": 346.72,
+   "end": 351.56,
+   "es": "los últimos restos de su voluntad. Al compartir el mismo destino que figuras",
+   "id": 56,
+   "slot": 4.76,
+   "max_chars_pl": 66,
+   "pl": "ostatnie resztki jego woli. Dzieląc los z historycznymi"
+  },
+  {
+   "start": 351.56,
+   "end": 356.96,
+   "es": "históricas del narcotráfico, el Ni Ni se enfrenta diariamente al espejo de su",
+   "id": 57,
+   "slot": 5.32,
+   "max_chars_pl": 74,
+   "pl": "postaciami narkobiznesu, El Nini codziennie staje twarzą w twarz z odbiciem"
+  },
+  {
+   "start": 356.96,
+   "end": 364.2,
+   "es": "propio fracaso, dándose cuenta de que fue un peón descartable en un juego mucho más",
+   "id": 58,
+   "slot": 7.16,
+   "max_chars_pl": 100,
+   "pl": "własnej porażki, zdając sobie sprawę, że był jednorazowym pionkiem w grze znacznie"
+  },
+  {
+   "start": 364.2,
+   "end": 369.58,
+   "es": "grande que él. Ya no hay rastro de aquel sicario desafiante",
+   "id": 59,
+   "slot": 5.3,
+   "max_chars_pl": 74,
+   "pl": "większej niż on sam. Nie ma już śladu po tamtym wyzywającym zabójcy,"
+  },
+  {
+   "start": 369.58,
+   "end": 375.86,
+   "es": "que grababa videos para redes sociales. En su lugar, queda un recluso que llora",
+   "id": 60,
+   "slot": 6.2,
+   "max_chars_pl": 86,
+   "pl": "który nagrywał filmiki do mediów społecznościowych. Został więzień, który płacze"
+  },
+  {
+   "start": 375.86,
+   "end": 382.26,
+   "es": "en la soledad de su celda, y cuyas súplicas de piedad resuenan en las paredes de concreto",
+   "id": 61,
+   "slot": 6.32,
+   "max_chars_pl": 88,
+   "pl": "w samotności swojej celi, a jego błagania o litość odbijają się od betonowych ścian"
+  },
+  {
+   "start": 382.26,
+   "end": 388.48,
+   "es": "de una prisión federal. Su reinado terminó no con un estallido de gloria, sino con",
+   "id": 62,
+   "slot": 6.14,
+   "max_chars_pl": 85,
+   "pl": "federalnego więzienia. Jego panowanie skończyło się nie wybuchem chwały, lecz"
+  },
+  {
+   "start": 388.48,
+   "end": 394.44,
+   "es": "el sollozo de quien lo tuvo todo, y ahora solo tiene el tiempo suficiente para arrepentirse",
+   "id": 63,
+   "slot": 5.88,
+   "max_chars_pl": 82,
+   "pl": "szlochem kogoś, kto miał wszystko, a teraz ma tylko dość czasu, by żałować,"
+  },
+  {
+   "start": 394.44,
+   "end": 400.0,
+   "es": "de haber creído que el poder del cartel era eterno.",
+   "id": 64,
+   "slot": 5.48,
+   "max_chars_pl": 76,
+   "pl": "że wierzył, iż potęga kartelu jest wieczna."
+  },
+  {
+   "start": 400.0,
+   "end": 407.76,
+   "es": "El 25 de mayo de 2024 quedó marcado en el calendario del narcotráfico, no solo",
+   "id": 65,
+   "slot": 7.68,
+   "max_chars_pl": 107,
+   "pl": "25 maja 2024 roku zapisał się w kalendarzu narkobiznesu nie tylko"
+  },
+  {
+   "start": 407.76,
+   "end": 413.16,
+   "es": "como una fecha administrativa, sino como el punto de quiebre definitivo y el inicio",
+   "id": 66,
+   "slot": 5.32,
+   "max_chars_pl": 74,
+   "pl": "jako data administracyjna, lecz jako ostateczny punkt przełomowy i początek"
+  },
+  {
+   "start": 413.16,
+   "end": 418.48,
+   "es": "de un exilio sin retorno para el hombre que alguna vez creyó que las calles de",
+   "id": 67,
+   "slot": 5.24,
+   "max_chars_pl": 73,
+   "pl": "wygnania bez powrotu dla człowieka, który kiedyś wierzył, że ulice"
+  },
+  {
+   "start": 418.48,
+   "end": 424.44,
+   "es": "Sinaloa le pertenecían por derecho de sangre y fuego.",
+   "id": 68,
+   "slot": 5.88,
+   "max_chars_pl": 82,
+   "pl": "Sinaloa należą do niego z prawa krwi i ognia."
+  },
+  {
+   "start": 424.44,
+   "end": 429.0,
+   "es": "En un movimiento coordinado que el Departamento de Justicia de los Estados Unidos celebró",
+   "id": 69,
+   "slot": 4.48,
+   "max_chars_pl": 62,
+   "pl": "W skoordynowanym ruchu, który Departament Sprawiedliwości Stanów Zjednoczonych uczcił"
+  },
+  {
+   "start": 429.0,
+   "end": 433.58,
+   "es": "como una victoria crucial y simbólica en su guerra declarada contra el tráfico",
+   "id": 70,
+   "slot": 4.5,
+   "max_chars_pl": 63,
+   "pl": "jako kluczowe i symboliczne zwycięstwo w wypowiedzianej wojnie z handlem"
+  },
+  {
+   "start": 433.58,
+   "end": 441.22,
+   "es": "de Fentanilo, Néstor Isidro Pérez Salas, alias El Nini, fue entregado a las autoridades",
+   "id": 71,
+   "slot": 7.56,
+   "max_chars_pl": 105,
+   "pl": "fentanylem, Néstor Isidro Pérez Salas, pseudonim El Nini, został przekazany władzom"
+  },
+  {
+   "start": 441.22,
+   "end": 447.2,
+   "es": "norteamericanas en un proceso de extradición que resultó ser tan vertiginoso como su",
+   "id": 72,
+   "slot": 5.9,
+   "max_chars_pl": 82,
+   "pl": "amerykańskim w procesie ekstradycji, który okazał się tak błyskawiczny jak jego"
+  },
+  {
+   "start": 447.2,
+   "end": 453.14,
+   "es": "propio ascenso criminal. Aquel día el rugido de los motores del avión que lo",
+   "id": 73,
+   "slot": 5.86,
+   "max_chars_pl": 82,
+   "pl": "własny wzlot przestępczy. Tego dnia ryk silników samolotu, który"
+  },
+  {
+   "start": 453.14,
+   "end": 457.54,
+   "es": "esperaba en la pista no era el de una de sus aeronaves privadas cargadas de",
+   "id": 74,
+   "slot": 4.32,
+   "max_chars_pl": 60,
+   "pl": "czekał na niego na pasie, nie był rykiem jego prywatnych maszyn pełnych"
+  },
+  {
+   "start": 457.54,
+   "end": 463.26,
+   "es": "lujos, sino el de una maquinaria estatal diseñada para devorar a quienes desafían",
+   "id": 75,
+   "slot": 5.64,
+   "max_chars_pl": 78,
+   "pl": "luksusu, lecz maszynerii państwowej zaprojektowanej, by pożerać tych, którzy rzucają wyzwanie"
+  },
+  {
+   "start": 463.26,
+   "end": 469.16,
+   "es": "el orden internacional. La extradición se sintió menos como un trámite legal y",
+   "id": 76,
+   "slot": 5.82,
+   "max_chars_pl": 81,
+   "pl": "porządkowi międzynarodowemu. Ekstradycja przypominała mniej formalność prawną, a"
+  },
+  {
+   "start": 469.16,
+   "end": 475.06,
+   "es": "más como una sentencia anticipada, un rito de pasaje donde el joven sicario dejaba",
+   "id": 77,
+   "slot": 5.82,
+   "max_chars_pl": 81,
+   "pl": "bardziej wyrok z góry, rytuał przejścia, w którym młody zabójca przestawał"
+  },
+  {
+   "start": 475.06,
+   "end": 481.06,
+   "es": "de ser una leyenda urbana para convertirse en un activo bajo custodia federal. Al subir",
+   "id": 78,
+   "slot": 5.92,
+   "max_chars_pl": 82,
+   "pl": "być miejską legendą, by stać się aktywem pod opieką federalną. Wchodząc po"
+  },
+  {
+   "start": 481.06,
+   "end": 486.42,
+   "es": "los escalones de la aeronave que lo alejaría para siempre de su tierra, de su círculo",
+   "id": 79,
+   "slot": 5.28,
+   "max_chars_pl": 73,
+   "pl": "schodach samolotu, który miał go na zawsze oddalić od jego ziemi, kręgu"
+  },
+  {
+   "start": 486.42,
+   "end": 492.1,
+   "es": "de protección y de la cercanía de su familia, el rostro de Néstor Isidro",
+   "id": 80,
+   "slot": 5.6,
+   "max_chars_pl": 78,
+   "pl": "ochrony i bliskości rodziny, twarz Néstora Isidro"
+  },
+  {
+   "start": 492.1,
+   "end": 497.78,
+   "es": "ya no reflejaba ni un ápice de la arrogancia con la que solía mandar en la sierra y",
+   "id": 81,
+   "slot": 5.6,
+   "max_chars_pl": 78,
+   "pl": "nie odzwierciedlała już ani krztyny arogancji, z jaką rządził w górach i"
+  },
+  {
+   "start": 497.78,
+   "end": 503.62,
+   "es": "en la ciudad. Testigos presenciales del traslado describieron a un hombre visiblemente",
+   "id": 82,
+   "slot": 5.76,
+   "max_chars_pl": 80,
+   "pl": "w mieście. Naoczni świadkowie transportu opisali człowieka wyraźnie"
+  },
+  {
+   "start": 503.62,
+   "end": 509.02,
+   "es": "disminuido, cuya piel había adquirido una palidez enfermiza bajo la luz artificial",
+   "id": 83,
+   "slot": 5.32,
+   "max_chars_pl": 74,
+   "pl": "pomniejszonego, którego skóra przybrała chorobliwą bladość w sztucznym świetle"
+  },
+  {
+   "start": 509.02,
+   "end": 515.3,
+   "es": "del hangar. Sus hombros, que antes sostenían el peso de armas de alto calibre y la",
+   "id": 84,
+   "slot": 6.2,
+   "max_chars_pl": 86,
+   "pl": "hangaru. Jego ramiona, które niegdyś dźwigały ciężar broni dużego kalibru i"
+  },
+  {
+   "start": 515.3,
+   "end": 521.22,
+   "es": "responsabilidad de la seguridad de los chapitos, ahora se hundían bajo el peso",
+   "id": 85,
+   "slot": 5.84,
+   "max_chars_pl": 81,
+   "pl": "odpowiedzialność za bezpieczeństwo Chapitos, teraz uginały się pod ciężarem"
+  },
+  {
+   "start": 521.22,
+   "end": 526.82,
+   "es": "de una realidad ineludible. El sistema estadounidense no perdona y, sobre todo,",
+   "id": 86,
+   "slot": 5.52,
+   "max_chars_pl": 77,
+   "pl": "nieuchronnej rzeczywistości. Amerykański system nie wybacza, a przede wszystkim"
+  },
+  {
+   "start": 526.82,
+   "end": 534.42,
+   "es": "no olvida. En ese último vistazo al suelo mexicano, el Nini comprendió probablemente",
+   "id": 87,
+   "slot": 7.52,
+   "max_chars_pl": 105,
+   "pl": "nie zapomina. W ostatnim spojrzeniu na meksykańską ziemię El Nini prawdopodobnie zrozumiał,"
+  },
+  {
+   "start": 534.42,
+   "end": 540.54,
+   "es": "que la lealtad del cartel tiene fronteras muy claras y que, en el tablero de la",
+   "id": 88,
+   "slot": 6.04,
+   "max_chars_pl": 84,
+   "pl": "że lojalność kartelu ma bardzo wyraźne granice i że na szachownicy"
+  },
+  {
+   "start": 540.54,
+   "end": 547.1,
+   "es": "geopolítica criminal, él había pasado de ser el alfil más agresivo a ser una pieza",
+   "id": 89,
+   "slot": 6.48,
+   "max_chars_pl": 90,
+   "pl": "przestępczej geopolityki z najbardziej agresywnego gońca stał się pionkiem"
+  },
+  {
+   "start": 547.1,
+   "end": 554.6,
+   "es": "de sacrificio para aliviar la presión sobre sus antiguos jefes. El vuelo hacia el norte fue,",
+   "id": 90,
+   "slot": 7.42,
+   "max_chars_pl": 103,
+   "pl": "poświęconym, by odciążyć jego dawnych szefów. Lot na północ był"
+  },
+  {
+   "start": 554.6,
+   "end": 560.82,
+   "es": "en esencia, el funeral de su identidad previa. A miles de pies de altura, el",
+   "id": 91,
+   "slot": 6.14,
+   "max_chars_pl": 85,
+   "pl": "w istocie pogrzebem jego dawnej tożsamości. Na tysiącach stóp wysokości"
+  },
+  {
+   "start": 560.82,
+   "end": 566.82,
+   "es": "aislamiento psicológico comenzó a hacer estragos. Ya no había radios que reportaran",
+   "id": 92,
+   "slot": 5.92,
+   "max_chars_pl": 82,
+   "pl": "izolacja psychiczna zaczęła siać spustoszenie. Nie było już radiostacji meldujących"
+  },
+  {
+   "start": 566.82,
+   "end": 572.22,
+   "es": "movimientos de la policía ni subordinados esperando órdenes, solo el zumbido constante",
+   "id": 93,
+   "slot": 5.32,
+   "max_chars_pl": 74,
+   "pl": "o ruchach policji ani podwładnych czekających na rozkazy, tylko ciągły szum"
+  },
+  {
+   "start": 572.22,
+   "end": 576.9,
+   "es": "de la cabina y la mirada impasible de los agentes federales que lo custodiaban.",
+   "id": 94,
+   "slot": 4.6,
+   "max_chars_pl": 64,
+   "pl": "kabiny i beznamiętne spojrzenia agentów federalnych, którzy go strzegli."
+  },
+  {
+   "start": 576.9,
+   "end": 585.02,
+   "es": "Al aterrizar en suelo estadounidense, el protocolo fue implacable, gélido y diseñado",
+   "id": 95,
+   "slot": 8.04,
+   "max_chars_pl": 112,
+   "pl": "Po wylądowaniu na amerykańskiej ziemi protokół był bezwzględny, lodowaty i zaprojektowany,"
+  },
+  {
+   "start": 585.02,
+   "end": 590.9,
+   "es": "para despojarlo de cualquier vestigio de su antigua vida de privilegios. El ritual",
+   "id": 96,
+   "slot": 5.8,
+   "max_chars_pl": 81,
+   "pl": "by odebrać mu wszelkie ślady dawnego życia w przywilejach. Rytuał"
+  },
+  {
+   "start": 590.9,
+   "end": 597.08,
+   "es": "de despersonalización comenzó de inmediato. Se le retiraron las marcas de diseñador que",
+   "id": 97,
+   "slot": 6.1,
+   "max_chars_pl": 85,
+   "pl": "odosobowienia zaczął się natychmiast. Zabrano mu markowe ubrania, które"
+  },
+  {
+   "start": 597.08,
+   "end": 603.46,
+   "es": "solían cubrir su cuerpo. Esas etiquetas de lujo que en Culiacán funcionaban como una",
+   "id": 98,
+   "slot": 6.3,
+   "max_chars_pl": 88,
+   "pl": "zwykle pokrywały jego ciało. Te luksusowe metki, które w Culiacán działały jak"
+  },
+  {
+   "start": 603.46,
+   "end": 609.3,
+   "es": "armadura de status y fueron reemplazadas por el uniforme naranja, el color que en",
+   "id": 99,
+   "slot": 5.76,
+   "max_chars_pl": 80,
+   "pl": "zbroja statusu, zastąpiono pomarańczowym uniformem, kolorem, który w"
+  },
+  {
+   "start": 609.3,
+   "end": 615.26,
+   "es": "Estados Unidos uniformiza a los culpables y a los sospechosos de la misma manera.",
+   "id": 100,
+   "slot": 5.88,
+   "max_chars_pl": 82,
+   "pl": "Stanach Zjednoczonych jednakowo ubiera winnych i podejrzanych."
+  },
+  {
+   "start": 615.26,
+   "end": 621.78,
+   "es": "Las esposas en sus manos y los grilletes en sus pies, ajustados con una precisión",
+   "id": 101,
+   "slot": 6.44,
+   "max_chars_pl": 90,
+   "pl": "Kajdanki na rękach i kajdany na nogach, zapięte z precyzją"
+  },
+  {
+   "start": 621.78,
+   "end": 627.74,
+   "es": "metálica que no deja espacio al movimiento, se convirtieron en sus nuevos y permanentes",
+   "id": 102,
+   "slot": 5.88,
+   "max_chars_pl": 82,
+   "pl": "metalu, która nie zostawia miejsca na ruch, stały się jego nowymi, stałymi"
+  },
+  {
+   "start": 627.74,
+   "end": 635.38,
+   "es": "accesorios, recordándole en cada paso que su libertad de movimiento era ahora un recuerdo",
+   "id": 103,
+   "slot": 7.56,
+   "max_chars_pl": 105,
+   "pl": "akcesoriami, przypominając mu przy każdym kroku, że wolność ruchu to teraz odległe"
+  },
+  {
+   "start": 635.38,
+   "end": 640.9,
+   "es": "lejano. Fue trasladado directamente al Centro de Detención Metropolitano de Brooklyn,",
+   "id": 104,
+   "slot": 5.44,
+   "max_chars_pl": 76,
+   "pl": "wspomnienie. Przewieziono go bezpośrednio do Metropolitalnego Centrum Detencyjnego na Brooklynie,"
+  },
+  {
+   "start": 640.9,
+   "end": 647.42,
+   "es": "M. E. D. C. Brooklyn, una fortaleza de concreto y acero en el corazón de Nueva York que ha",
+   "id": 105,
+   "slot": 6.44,
+   "max_chars_pl": 90,
+   "pl": "MDC Brooklyn, twierdzy z betonu i stali w sercu Nowego Jorku, w której przebywali"
+  },
+  {
+   "start": 647.42,
+   "end": 653.42,
+   "es": "albergado a los criminales más peligrosos del mundo y a figuras políticas que cayeron",
+   "id": 106,
+   "slot": 5.92,
+   "max_chars_pl": 82,
+   "pl": "najniebezpieczniejsi przestępcy świata i postacie polityczne, które upadły"
+  },
+  {
+   "start": 653.42,
+   "end": 660.96,
+   "es": "en desgracia de forma estrepitosa. En el M. D. C. Brooklyn el entorno es radicalmente",
+   "id": 107,
+   "slot": 7.46,
+   "max_chars_pl": 104,
+   "pl": "w niełasce w spektakularny sposób. W MDC Brooklyn otoczenie jest radykalnie"
+  },
+  {
+   "start": 660.96,
+   "end": 666.54,
+   "es": "distinto a las prisiones mexicanas, donde el dinero suele comprar el silencio",
+   "id": 108,
+   "slot": 5.5,
+   "max_chars_pl": 77,
+   "pl": "inne niż w więzieniach meksykańskich, gdzie pieniądze zwykle kupują milczenie"
+  },
+  {
+   "start": 666.54,
+   "end": 672.82,
+   "es": "de los guardias o celdas con comodidades impensables. Aquí el silencio de la ley",
+   "id": 109,
+   "slot": 6.2,
+   "max_chars_pl": 86,
+   "pl": "strażników albo cele z niewyobrażalnymi wygodami. Tu cisza amerykańskiego"
+  },
+  {
+   "start": 672.82,
+   "end": 680.54,
+   "es": "estadounidense es mucho más ruidoso y opresivo que las ráfagas de una AK-47 en una calle",
+   "id": 110,
+   "slot": 7.64,
+   "max_chars_pl": 106,
+   "pl": "prawa jest znacznie głośniejsza i bardziej przytłaczająca niż serie z AK-47 na ulicy"
+  },
+  {
+   "start": 680.54,
+   "end": 687.72,
+   "es": "de Sinaloa. Es un silencio que pesa, que se mete en los huesos y que obliga al recluso",
+   "id": 111,
+   "slot": 7.1,
+   "max_chars_pl": 99,
+   "pl": "w Sinaloa. To cisza, która waży, wnika w kości i zmusza więźnia"
+  },
+  {
+   "start": 687.72,
+   "end": 693.14,
+   "es": "a enfrentarse a sus propios demonios sin distracciones. Para un hombre acostumbrado",
+   "id": 112,
+   "slot": 5.34,
+   "max_chars_pl": 74,
+   "pl": "do stawienia czoła własnym demonom bez rozproszeń. Dla człowieka przyzwyczajonego"
+  },
+  {
+   "start": 693.14,
+   "end": 699.68,
+   "es": "al caos, al ruido del combate y a la música a todo volumen de las fiestas del cartel,",
+   "id": 113,
+   "slot": 6.46,
+   "max_chars_pl": 90,
+   "pl": "do chaosu, hałasu walki i muzyki na cały regulator na imprezach kartelu,"
+  },
+  {
+   "start": 699.68,
+   "end": 705.78,
+   "es": "este vacío sensorial es una forma de tortura psicológica que ha empezado a quebrar su",
+   "id": 114,
+   "slot": 6.02,
+   "max_chars_pl": 84,
+   "pl": "ta pustka sensoryczna jest formą tortury psychicznej, która zaczęła łamać jego"
+  },
+  {
+   "start": 705.78,
+   "end": 710.38,
+   "es": "espíritu. En este nuevo hogar de cemento, el Nini se",
+   "id": 115,
+   "slot": 4.52,
+   "max_chars_pl": 63,
+   "pl": "ducha. W tym nowym betonowym domu El Nini"
+  },
+  {
+   "start": 710.38,
+   "end": 716.06,
+   "es": "encuentra en el epicentro de la justicia más severa del planeta. Ya no es el",
+   "id": 116,
+   "slot": 5.6,
+   "max_chars_pl": 78,
+   "pl": "znajduje się w epicentrum najsurowszego wymiaru sprawiedliwości na planecie. Nie jest już"
+  },
+  {
+   "start": 716.06,
+   "end": 722.94,
+   "es": "comandante que infundía a terror con solo mencionar su alias. Ahora es un número",
+   "id": 117,
+   "slot": 6.8,
+   "max_chars_pl": 95,
+   "pl": "dowódcą, który siał strach samym wspomnieniem pseudonimu. Teraz jest numerem"
+  },
+  {
+   "start": 722.94,
+   "end": 730.5,
+   "es": "de registro en un sistema que procesa casos con una eficiencia glacial. La transición de ser",
+   "id": 118,
+   "slot": 7.48,
+   "max_chars_pl": 104,
+   "pl": "ewidencyjnym w systemie, który rozpatruje sprawy z lodowatą skutecznością. Przejście od bycia"
+  },
+  {
+   "start": 730.5,
+   "end": 736.26,
+   "es": "el hombre que hacía temblar a otros a ser el hombre que tiembla en su celda,",
+   "id": 119,
+   "slot": 5.68,
+   "max_chars_pl": 79,
+   "pl": "człowiekiem, przed którym inni drżeli, do człowieka, który drży w swojej celi,"
+  },
+  {
+   "start": 736.26,
+   "end": 744.3,
+   "es": "es el resultado directo de este camino sin retorno. La extradición no fue solo un",
+   "id": 120,
+   "slot": 7.96,
+   "max_chars_pl": 111,
+   "pl": "jest bezpośrednim skutkiem tej drogi bez powrotu. Ekstradycja nie była tylko"
+  },
+  {
+   "start": 744.3,
+   "end": 750.3,
+   "es": "traslado físico de un país a otro, sino el fin de una era para el cartel de Sinaloa",
+   "id": 121,
+   "slot": 5.92,
+   "max_chars_pl": 82,
+   "pl": "fizycznym przeniesieniem z kraju do kraju, lecz końcem pewnej ery dla kartelu z Sinaloa"
+  },
+  {
+   "start": 750.3,
+   "end": 757.62,
+   "es": "y el comienzo de un calvario personal para Néstor Isidro, quien ahora descubre que,",
+   "id": 122,
+   "slot": 7.24,
+   "max_chars_pl": 101,
+   "pl": "i początkiem osobistej kalwarii dla Néstora Isidro, który teraz odkrywa, że"
+  },
+  {
+   "start": 757.62,
+   "end": 764.5,
+   "es": "en las sombras del M de ese Brooklyn, la piedad es un concepto que no existe",
+   "id": 123,
+   "slot": 6.8,
+   "max_chars_pl": 95,
+   "pl": "w cieniach MDC Brooklyn litość jest pojęciem, które nie istnieje"
+  },
+  {
+   "start": 764.5,
+   "end": 771.94,
+   "es": "en el manual de procedimientos federales. Cada noche, mientras el eco de sus propios",
+   "id": 124,
+   "slot": 7.36,
+   "max_chars_pl": 103,
+   "pl": "w podręczniku procedur federalnych. Każdej nocy, gdy echo jego własnych"
+  },
+  {
+   "start": 771.94,
+   "end": 777.74,
+   "es": "pasos resuena en las paredes de su celda, la realidad de su destino se asienta.",
+   "id": 125,
+   "slot": 5.72,
+   "max_chars_pl": 80,
+   "pl": "kroków rozbrzmiewa na ścianach celi, rzeczywistość jego losu zapada w świadomość."
+  },
+  {
+   "start": 777.74,
+   "end": 785.26,
+   "es": "Ha llegado al lugar de donde nadie sale igual, y donde el tiempo se mide no por días,",
+   "id": 126,
+   "slot": 7.44,
+   "max_chars_pl": 104,
+   "pl": "Dotarł do miejsca, z którego nikt nie wychodzi taki sam, i gdzie czas mierzy się nie dniami,"
+  },
+  {
+   "start": 785.26,
+   "end": 793.02,
+   "es": "sino por la magnitud de los crímenes que hoy lo tienen de rodillas ante un país que ha decidido",
+   "id": 127,
+   "slot": 7.68,
+   "max_chars_pl": 107,
+   "pl": "lecz ogromem zbrodni, które dziś stawiają go na kolanach przed krajem, który postanowił"
+  },
+  {
+   "start": 793.02,
+   "end": 799.26,
+   "es": "hacer de él un ejemplo para el mundo. Adentrarse en los pasillos del centro de",
+   "id": 128,
+   "slot": 6.16,
+   "max_chars_pl": 86,
+   "pl": "uczynić z niego przykład dla świata. Wejść w korytarze"
+  },
+  {
+   "start": 799.26,
+   "end": 805.98,
+   "es": "detención metropolitano de Brooklyn, conocido por sus siglas en inglés como el M de ese",
+   "id": 129,
+   "slot": 6.64,
+   "max_chars_pl": 92,
+   "pl": "Metropolitalnego Centrum Detencyjnego na Brooklynie, znanego pod angielskim skrótem MDC"
+  },
+  {
+   "start": 805.98,
+   "end": 813.46,
+   "es": "Brooklyn, es sumergirse en un ecosistema diseñado milimétricamente para la anulación del individuo.",
+   "id": 130,
+   "slot": 7.4,
+   "max_chars_pl": 103,
+   "pl": "Brooklyn, to zanurzyć się w ekosystemie zaprojektowanym co do milimetra do unicestwiania jednostki."
+  },
+  {
+   "start": 813.46,
+   "end": 821.02,
+   "es": "Para Néstor Isidro Pérez Salas, el choque con esta realidad ha sido un descenso abrupto y",
+   "id": 131,
+   "slot": 7.48,
+   "max_chars_pl": 104,
+   "pl": "Dla Néstora Isidro Péreza Salasa zderzenie z tą rzeczywistością było gwałtownym"
+  },
+  {
+   "start": 821.02,
+   "end": 826.82,
+   "es": "violento desde las cumbres del poder criminal hacia un infierno de concreto y acero,",
+   "id": 132,
+   "slot": 5.72,
+   "max_chars_pl": 80,
+   "pl": "i brutalnym zejściem ze szczytów władzy przestępczej do piekła z betonu i stali,"
+  },
+  {
+   "start": 826.82,
+   "end": 834.38,
+   "es": "donde su alias, el Nini, carece de cualquier rastro de autoridad. A diferencia de las",
+   "id": 133,
+   "slot": 7.48,
+   "max_chars_pl": 104,
+   "pl": "gdzie jego pseudonim, El Nini, nie ma żadnego śladu autorytetu. W przeciwieństwie do"
+  },
+  {
+   "start": 834.38,
+   "end": 840.58,
+   "es": "prisiones en México, donde la porosidad del sistema a menudo permite que el dinero compre",
+   "id": 134,
+   "slot": 6.12,
+   "max_chars_pl": 85,
+   "pl": "więzień w Meksyku, gdzie porowatość systemu często pozwala, by pieniądze kupowały"
+  },
+  {
+   "start": 840.58,
+   "end": 847.94,
+   "es": "celdas VIP, comunicaciones constantes y privilegios que difuminan la línea entre el encierro y la",
+   "id": 135,
+   "slot": 7.28,
+   "max_chars_pl": 101,
+   "pl": "cele VIP, stałą łączność i przywileje zacierające granicę między uwięzieniem a"
+  },
+  {
+   "start": 847.94,
+   "end": 856.66,
+   "es": "libertad, el MDC opera bajo una lógica de control absoluto. Aquí, el joven que una vez",
+   "id": 136,
+   "slot": 8.64,
+   "max_chars_pl": 120,
+   "pl": "wolnością, MDC działa według logiki absolutnej kontroli. Tu młody człowiek, który kiedyś"
+  },
+  {
+   "start": 856.66,
+   "end": 862.9,
+   "es": "orquestó la seguridad de los hijos de Joaquín, el Chapo Guzmán, se enfrenta a un régimen",
+   "id": 137,
+   "slot": 6.16,
+   "max_chars_pl": 86,
+   "pl": "organizował ochronę synów Joaquína El Chapo Guzmána, mierzy się z reżimem"
+  },
+  {
+   "start": 862.9,
+   "end": 869.46,
+   "es": "de aislamiento que no busca sólo custodiar su cuerpo, sino quebrar sistemáticamente su espíritu,",
+   "id": 138,
+   "slot": 6.48,
+   "max_chars_pl": 90,
+   "pl": "izolacji, który nie ma na celu tylko pilnowania jego ciała, lecz systematyczne łamanie jego ducha,"
+  },
+  {
+   "start": 869.46,
+   "end": 877.26,
+   "es": "recordándole en cada segundo de silencio que el mundo que él dominaba ha dejado de existir.",
+   "id": 139,
+   "slot": 7.72,
+   "max_chars_pl": 108,
+   "pl": "przypominając mu w każdej sekundzie ciszy, że świat, którym rządził, przestał istnieć."
+  },
+  {
+   "start": 877.26,
+   "end": 885.92,
+   "es": "La arquitectura del MDC es, en sí misma, una herramienta de castigo psicológico. Las",
+   "id": 140,
+   "slot": 8.58,
+   "max_chars_pl": 120,
+   "pl": "Architektura MDC jest sama w sobie narzędziem kary psychicznej."
+  },
+  {
+   "start": 885.92,
+   "end": 891.22,
+   "es": "paredes son de un concreto tan denso que parecen absorber no sólo el sonido,",
+   "id": 141,
+   "slot": 5.22,
+   "max_chars_pl": 73,
+   "pl": "Ściany są z betonu tak gęstego, że zdają się pochłaniać nie tylko dźwięk,"
+  },
+  {
+   "start": 891.22,
+   "end": 898.98,
+   "es": "sino cualquier rastro de esperanza. En la unidad de alta seguridad donde se encuentra Pérez Salas,",
+   "id": 142,
+   "slot": 7.68,
+   "max_chars_pl": 107,
+   "pl": "lecz wszelki ślad nadziei. W jednostce o zaostrzonym rygorze, w której przebywa Pérez Salas,"
+  },
+  {
+   "start": 898.98,
+   "end": 907.36,
+   "es": "la iluminación es perpetuamente artificial. Una luz fluorescente y fría que no distingue",
+   "id": 143,
+   "slot": 8.3,
+   "max_chars_pl": 116,
+   "pl": "oświetlenie jest wiecznie sztuczne. Zimne światło fluorescencyjne, które nie rozróżnia"
+  },
+  {
+   "start": 907.36,
+   "end": 915.14,
+   "es": "entre el día y la noche, alterando los ritmos circadianos y sumiendo al recluso en un estado",
+   "id": 144,
+   "slot": 7.7,
+   "max_chars_pl": 107,
+   "pl": "dnia od nocy, zaburza rytm dobowy i pogrąża więźnia w stanie"
+  },
+  {
+   "start": 915.14,
+   "end": 922.7,
+   "es": "de desorientación constante. Bajo una vigilancia de veinticuatro horas, cada movimiento de",
+   "id": 145,
+   "slot": 7.48,
+   "max_chars_pl": 104,
+   "pl": "ciągłej dezorientacji. Pod całodobowym nadzorem każdy ruch"
+  },
+  {
+   "start": 922.7,
+   "end": 932.28,
+   "es": "el NiNi es captado por lentes de alta definición y ojos impasibles que no aceptan sobornos. Ya",
+   "id": 146,
+   "slot": 9.5,
+   "max_chars_pl": 133,
+   "pl": "El Nini jest rejestrowany przez obiektywy wysokiej rozdzielczości i niewzruszone oczy, które nie biorą łapówek."
+  },
+  {
+   "start": 932.28,
+   "end": 938.14,
+   "es": "no es él quien observa a través de las miras telescópicas de sus fusiles, sino que es él",
+   "id": 147,
+   "slot": 5.78,
+   "max_chars_pl": 80,
+   "pl": "To już nie on obserwuje przez lunety swoich karabinów, lecz to on"
+  },
+  {
+   "start": 938.14,
+   "end": 946.32,
+   "es": "quien vive bajo la mira incesante del estado norteamericano. Este escrutinio total elimina",
+   "id": 148,
+   "slot": 8.1,
+   "max_chars_pl": 113,
+   "pl": "żyje pod nieustannym celownikiem państwa północnoamerykańskiego. Ta totalna kontrola eliminuje"
+  },
+  {
+   "start": 946.32,
+   "end": 952.92,
+   "es": "cualquier sentido de privacidad, transformando su existencia en una exhibición solitaria de",
+   "id": 149,
+   "slot": 6.52,
+   "max_chars_pl": 91,
+   "pl": "wszelkie poczucie prywatności, zamieniając jego egzystencję w samotną ekspozycję"
+  },
+  {
+   "start": 952.92,
+   "end": 960.1,
+   "es": "su propia decadencia. La rutina diaria en este complejo neoyorquino es una maquinaria",
+   "id": 150,
+   "slot": 7.1,
+   "max_chars_pl": 99,
+   "pl": "własnego upadku. Codzienna rutyna w tym nowojorskim kompleksie to"
+  },
+  {
+   "start": 960.1,
+   "end": 967.98,
+   "es": "asfixiante que comienza mucho antes de que el sol, invisible para él, despunte sobre el",
+   "id": 151,
+   "slot": 7.8,
+   "max_chars_pl": 109,
+   "pl": "duszący mechanizm, który zaczyna się na długo, zanim słońce, dla niego niewidoczne, wzejdzie nad"
+  },
+  {
+   "start": 967.98,
+   "end": 975.7,
+   "es": "horizonte. Despertar a las cinco de la mañana, bajo las órdenes secas de guardias que no",
+   "id": 152,
+   "slot": 7.64,
+   "max_chars_pl": 106,
+   "pl": "horyzontem. Pobudka o piątej rano, na suche rozkazy strażników, którzy nie"
+  },
+  {
+   "start": 975.7,
+   "end": 984.26,
+   "es": "conocen su historia ni les interesa su estatus, es el primer golpe de realidad de cada jornada.",
+   "id": 153,
+   "slot": 8.48,
+   "max_chars_pl": 118,
+   "pl": "znają jego historii i nie obchodzi ich jego status, to pierwszy cios rzeczywistości każdego dnia."
+  },
+  {
+   "start": 984.26,
+   "end": 991.98,
+   "es": "La dieta de El NiNi ha pasado de los banquetes ostentosos y la comida regional de la mejor",
+   "id": 154,
+   "slot": 7.64,
+   "max_chars_pl": 106,
+   "pl": "Dieta El Nini zmieniła się z ostentacyjnych bankietów i regionalnej kuchni najwyższej"
+  },
+  {
+   "start": 991.98,
+   "end": 998.58,
+   "es": "calidad a bandejas de plástico con alimentos procesados que apenas cumplen con los requisitos",
+   "id": 155,
+   "slot": 6.52,
+   "max_chars_pl": 91,
+   "pl": "jakości w plastikowe tace z przetworzoną żywnością, które ledwo spełniają wymogi"
+  },
+  {
+   "start": 998.58,
+   "end": 1006.22,
+   "es": "nutricionales básicos. Esta carencia de sabor y textura es un reflejo de su nueva vida,",
+   "id": 156,
+   "slot": 7.56,
+   "max_chars_pl": 105,
+   "pl": "żywieniowe. Ten brak smaku i konsystencji odzwierciedla jego nowe życie,"
+  },
+  {
+   "start": 1006.22,
+   "end": 1014.86,
+   "es": "insípida y estrictamente controlada. Incluso su hora de ejercicio, el único momento en que puede",
+   "id": 157,
+   "slot": 8.56,
+   "max_chars_pl": 119,
+   "pl": "bezbarwne i ściśle kontrolowane. Nawet godzina ćwiczeń, jedyny moment, w którym może"
+  },
+  {
+   "start": 1014.86,
+   "end": 1021.98,
+   "es": "abandonar la caja de zapatos que llama celda, es una burla a la libertad. Se le permite el",
+   "id": 158,
+   "slot": 7.04,
+   "max_chars_pl": 98,
+   "pl": "opuścić pudełko po butach, które nazywa celą, jest kpiną z wolności. Pozwolono mu"
+  },
+  {
+   "start": 1021.98,
+   "end": 1027.9,
+   "es": "acceso a un patio que más bien parece una jaula de acero situada en las alturas del",
+   "id": 159,
+   "slot": 5.84,
+   "max_chars_pl": 81,
+   "pl": "na dostęp do dziedzińca, który bardziej przypomina stalową klatkę na wysokościach"
+  },
+  {
+   "start": 1027.9,
+   "end": 1034.54,
+   "es": "edificio, donde el cielo de Nueva York se percibe apenas como un mosaico fragmentado",
+   "id": 160,
+   "slot": 6.56,
+   "max_chars_pl": 91,
+   "pl": "budynku, gdzie niebo Nowego Jorku jest widoczne ledwie jako rozbita mozaika"
+  },
+  {
+   "start": 1034.54,
+   "end": 1040.78,
+   "es": "a través de rejillas reforzadas, recordándole que el mundo exterior es un lugar al que",
+   "id": 161,
+   "slot": 6.16,
+   "max_chars_pl": 86,
+   "pl": "przez wzmocnione kraty, przypominając mu, że świat zewnętrzny to miejsce, do którego"
+  },
+  {
+   "start": 1040.78,
+   "end": 1047.14,
+   "es": "probablemente nunca volverá a pertenecer. El contraste con su vida anterior es tan brutal",
+   "id": 162,
+   "slot": 6.28,
+   "max_chars_pl": 87,
+   "pl": "prawdopodobnie nigdy już nie wróci. Kontrast z jego dawnym życiem jest tak brutalny,"
+  },
+  {
+   "start": 1047.14,
+   "end": 1054.62,
+   "es": "que raya en lo inverosímil. De las fiestas desenfrenadas con bandas inaloenses tocando en",
+   "id": 163,
+   "slot": 7.4,
+   "max_chars_pl": 103,
+   "pl": "że graniczy z nieprawdopodobieństwem. Od szalonych imprez z zespołami z Sinaloa grającymi"
+  },
+  {
+   "start": 1054.62,
+   "end": 1061.66,
+   "es": "vivo, el despliegue de armas bañadas en oro y el consumo de las sustancias más puras del",
+   "id": 164,
+   "slot": 6.96,
+   "max_chars_pl": 97,
+   "pl": "na żywo, pokazów broni pozłacanej i zażywania najczystszych substancji"
+  },
+  {
+   "start": 1061.66,
+   "end": 1069.98,
+   "es": "mercado. Pérez Salas ha pasado a una abstinencia forzada y a una soledad absoluta que le obliga",
+   "id": 165,
+   "slot": 8.24,
+   "max_chars_pl": 115,
+   "pl": "na rynku Pérez Salas przeszedł do przymusowej abstynencji i absolutnej samotności, która zmusza go"
+  },
+  {
+   "start": 1069.98,
+   "end": 1077.02,
+   "es": "a enfrentarse a sus propios pensamientos sin filtros. Es en estas horas de aislamiento",
+   "id": 166,
+   "slot": 6.96,
+   "max_chars_pl": 97,
+   "pl": "do konfrontacji z własnymi myślami bez filtrów. To w tych godzinach skrajnej izolacji,"
+  },
+  {
+   "start": 1077.02,
+   "end": 1083.58,
+   "es": "extremo donde según informes filtrados por custodios del penal, el mito del sicario",
+   "id": 167,
+   "slot": 6.48,
+   "max_chars_pl": 90,
+   "pl": "gdzie według informacji wyciekłych od strażników więzienia mit bezwzględnego"
+  },
+  {
+   "start": 1083.58,
+   "end": 1090.14,
+   "es": "implacable termina por desmoronarse. Se dice que en la quietud de la noche se escuchan",
+   "id": 168,
+   "slot": 6.48,
+   "max_chars_pl": 90,
+   "pl": "zabójcy w końcu się rozpada. Mówi się, że w ciszy nocy słychać"
+  },
+  {
+   "start": 1090.14,
+   "end": 1097.48,
+   "es": "lamentos y sollozos que emanan de su celda. El hombre que ordenó ejecuciones atroces y que",
+   "id": 169,
+   "slot": 7.26,
+   "max_chars_pl": 101,
+   "pl": "lamenty i szlochy dochodzące z jego celi. Człowiek, który zlecał okrutne egzekucje i który"
+  },
+  {
+   "start": 1097.48,
+   "end": 1103.06,
+   "es": "se jactaba de una valentía alimentada por el poder del grupo, ahora se quiebra ante la",
+   "id": 170,
+   "slot": 5.5,
+   "max_chars_pl": 77,
+   "pl": "chełpił się odwagą zasilaną siłą grupy, teraz łamie się wobec"
+  },
+  {
+   "start": 1103.06,
+   "end": 1109.34,
+   "es": "ausencia total de libertad. El llanto de El Nini es el de un joven que ha descubierto",
+   "id": 171,
+   "slot": 6.2,
+   "max_chars_pl": 86,
+   "pl": "całkowitym brakiem wolności. Płacz El Nini to płacz młodego człowieka, który odkrył,"
+  },
+  {
+   "start": 1109.34,
+   "end": 1115.42,
+   "es": "que la lealtad en el narcotráfico es una ilusión óptica. Finalmente, el peso más",
+   "id": 172,
+   "slot": 6.0,
+   "max_chars_pl": 84,
+   "pl": "że lojalność w narkobiznesie jest złudzeniem optycznym. Wreszcie największy"
+  },
+  {
+   "start": 1115.42,
+   "end": 1120.94,
+   "es": "grande que soporta en Brooklyn no es el de las esposas o los muros, sino la certeza",
+   "id": 173,
+   "slot": 5.44,
+   "max_chars_pl": 76,
+   "pl": "ciężar, jaki dźwiga na Brooklynie, to nie kajdanki ani mury, lecz pewność"
+  },
+  {
+   "start": 1120.94,
+   "end": 1126.58,
+   "es": "del abandono. Al mirar hacia atrás, Néstor Isidro se da cuenta de que sus supuestos",
+   "id": 174,
+   "slot": 5.56,
+   "max_chars_pl": 77,
+   "pl": "porzucenia. Patrząc wstecz, Néstor Isidro zdaje sobie sprawę, że jego rzekomi"
+  },
+  {
+   "start": 1126.58,
+   "end": 1131.68,
+   "es": "protectores, los herederos del imperio de Sinaloa, no han movido un solo dedo para",
+   "id": 175,
+   "slot": 5.02,
+   "max_chars_pl": 70,
+   "pl": "obrońcy, spadkobiercy imperium z Sinaloa, nie kiwnęli palcem, by"
+  },
+  {
+   "start": 1131.68,
+   "end": 1137.88,
+   "es": "evitar su caída ni para mejorar sus condiciones. Para Los Chapitos, El Nini",
+   "id": 176,
+   "slot": 6.12,
+   "max_chars_pl": 85,
+   "pl": "zapobiec jego upadkowi ani poprawić jego warunków. Dla Los Chapitos El Nini"
+  },
+  {
+   "start": 1137.88,
+   "end": 1142.44,
+   "es": "ha pasado de ser un activo valioso a una responsabilidad incómoda que ya ha",
+   "id": 177,
+   "slot": 4.48,
+   "max_chars_pl": 62,
+   "pl": "przeszedł od cennego atutu do niewygodnego obciążenia, które już"
+  },
+  {
+   "start": 1142.44,
+   "end": 1148.58,
+   "es": "sido descartada. Esa soledad política y criminal es lo que termina por",
+   "id": 178,
+   "slot": 6.06,
+   "max_chars_pl": 84,
+   "pl": "zostało odrzucone. Ta samotność polityczna i przestępcza w końcu"
+  },
+  {
+   "start": 1148.58,
+   "end": 1154.1,
+   "es": "sepultarlo emocionalmente. Se sabe solo en un país que lo ve como un trofeo de",
+   "id": 179,
+   "slot": 5.44,
+   "max_chars_pl": 76,
+   "pl": "grzebie go emocjonalnie. Wie, że jest sam w kraju, który widzi w nim trofeum"
+  },
+  {
+   "start": 1154.1,
+   "end": 1160.26,
+   "es": "caza y en un sistema judicial que no se detendrá hasta verlo desaparecer en",
+   "id": 180,
+   "slot": 6.08,
+   "max_chars_pl": 85,
+   "pl": "łowieckie, i w systemie sądowniczym, który nie spocznie, dopóki nie zniknie we"
+  },
+  {
+   "start": 1160.26,
+   "end": 1166.7,
+   "es": "las entrañas de una cadena perpetua. En el MDC Brooklyn, el infierno no es",
+   "id": 181,
+   "slot": 6.36,
+   "max_chars_pl": 89,
+   "pl": "wnętrznościach dożywocia. W MDC Brooklyn piekło nie jest"
+  },
+  {
+   "start": 1166.7,
+   "end": 1172.98,
+   "es": "de fuego, sino de un acero frío que le recuerda, minuto a minuto, que su reinado",
+   "id": 182,
+   "slot": 6.2,
+   "max_chars_pl": 86,
+   "pl": "z ognia, lecz z zimnej stali, która mu przypomina minuta po minucie, że jego panowanie"
+  },
+  {
+   "start": 1172.98,
+   "end": 1178.98,
+   "es": "ha terminado en una súplica silenciosa por una piedad que él nunca conoció.",
+   "id": 183,
+   "slot": 5.92,
+   "max_chars_pl": 82,
+   "pl": "skończyło się cichą prośbą o litość, której on sam nigdy nie zaznał."
+  },
+  {
+   "start": 1178.98,
+   "end": 1184.3,
+   "es": "Uno de los aspectos más impactantes de la estancia de El Nini en Nueva York",
+   "id": 184,
+   "slot": 5.24,
+   "max_chars_pl": 73,
+   "pl": "Jednym z najbardziej uderzających aspektów pobytu El Nini w Nowym Jorku"
+  },
+  {
+   "start": 1184.3,
+   "end": 1190.26,
+   "es": "es la compañía que mantiene, aunque sea a través de muros y pasillos.",
+   "id": 185,
+   "slot": 5.88,
+   "max_chars_pl": 82,
+   "pl": "jest towarzystwo, jakie ma, choćby przez ściany i korytarze."
+  },
+  {
+   "start": 1190.26,
+   "end": 1195.26,
+   "es": "El MDC Brooklyn se ha convertido en una especie de panteón de los vivos",
+   "id": 186,
+   "slot": 4.92,
+   "max_chars_pl": 68,
+   "pl": "MDC Brooklyn stało się rodzajem panteonu żywych"
+  },
+  {
+   "start": 1195.26,
+   "end": 1200.34,
+   "es": "para figuras de alto perfil. En el mismo complejo se encuentran",
+   "id": 187,
+   "slot": 5.0,
+   "max_chars_pl": 70,
+   "pl": "dla postaci wysokiego profilu. W tym samym kompleksie przebywają"
+  },
+  {
+   "start": 1200.34,
+   "end": 1205.46,
+   "es": "personajes de la talla de Ismael, El Mayo Zambada, el histórico líder del",
+   "id": 188,
+   "slot": 5.04,
+   "max_chars_pl": 70,
+   "pl": "postaci formatu Ismaela El Mayo Zambady, historycznego przywódcy"
+  },
+  {
+   "start": 1205.46,
+   "end": 1210.54,
+   "es": "cartel de Sinaloa que presuntamente fue traicionado y figuras políticas como",
+   "id": 189,
+   "slot": 5.0,
+   "max_chars_pl": 70,
+   "pl": "kartelu z Sinaloa, który rzekomo został zdradzony, oraz politycy tacy jak"
+  },
+  {
+   "start": 1210.54,
+   "end": 1216.22,
+   "es": "Nicolás Maduro bajo custodia estadounidense. Para El Nini, estar en",
+   "id": 190,
+   "slot": 5.6,
+   "max_chars_pl": 78,
+   "pl": "Nicolás Maduro pod amerykańską strażą. Dla El Nini przebywanie"
+  },
+  {
+   "start": 1216.22,
+   "end": 1221.82,
+   "es": "el mismo lugar que El Mayo es una ironía cruel. Él, que trabajó para",
+   "id": 191,
+   "slot": 5.52,
+   "max_chars_pl": 77,
+   "pl": "w tym samym miejscu co El Mayo to okrutna ironia. On, który pracował dla"
+  },
+  {
+   "start": 1221.82,
+   "end": 1227.5,
+   "es": "la facción de Los Chapitos, ahora comparte el mismo destino que el hombre",
+   "id": 192,
+   "slot": 5.6,
+   "max_chars_pl": 78,
+   "pl": "frakcji Los Chapitos, dzieli teraz los z człowiekiem,"
+  },
+  {
+   "start": 1227.5,
+   "end": 1232.2,
+   "es": "que representaba la otra cara de la moneda en Sinaloa. Se rumorea que el",
+   "id": 193,
+   "slot": 4.62,
+   "max_chars_pl": 64,
+   "pl": "który reprezentował drugą stronę medalu w Sinaloa. Plotki głoszą, że"
+  },
+  {
+   "start": 1232.2,
+   "end": 1236.98,
+   "es": "ambiente en el penal es de una tensión eléctrica. Los pasillos del",
+   "id": 194,
+   "slot": 4.7,
+   "max_chars_pl": 65,
+   "pl": "atmosfera w więzieniu jest naelektryzowana napięciem. Korytarze"
+  },
+  {
+   "start": 1236.98,
+   "end": 1241.34,
+   "es": "MDC Brooklyn son el lugar donde los secretos del narcotráfico internacional",
+   "id": 195,
+   "slot": 4.28,
+   "max_chars_pl": 59,
+   "pl": "MDC Brooklyn to miejsce, gdzie tajemnice międzynarodowego narkobiznesu"
+  },
+  {
+   "start": 1241.34,
+   "end": 1247.98,
+   "es": "se guardan bajo llave y donde El Nini se siente como un peón descartado",
+   "id": 196,
+   "slot": 6.56,
+   "max_chars_pl": 91,
+   "pl": "zamyka się na klucz i gdzie El Nini czuje się jak odrzucony pionek"
+  },
+  {
+   "start": 1247.98,
+   "end": 1253.94,
+   "es": "en un juego de ajedrez geopolítico que nunca terminó de comprender. La razón",
+   "id": 197,
+   "slot": 5.88,
+   "max_chars_pl": 82,
+   "pl": "w geopolitycznej partii szachów, której nigdy do końca nie zrozumiał. Powód,"
+  },
+  {
+   "start": 1253.94,
+   "end": 1259.7,
+   "es": "por la que El Nini tiembla no es sólo la soledad, sino el peso del expediente",
+   "id": 198,
+   "slot": 5.68,
+   "max_chars_pl": 79,
+   "pl": "dla którego El Nini drży, to nie tylko samotność, lecz ciężar akt,"
+  },
+  {
+   "start": 1259.7,
+   "end": 1265.74,
+   "es": "que el departamento de justicia ha construido en su contra. No es un juicio",
+   "id": 199,
+   "slot": 5.96,
+   "max_chars_pl": 83,
+   "pl": "które Departament Sprawiedliwości zbudował przeciwko niemu. To nie zwykły proces,"
+  },
+  {
+   "start": 1265.74,
+   "end": 1270.66,
+   "es": "común, es una avalancha de pruebas que incluyen interceptaciones",
+   "id": 200,
+   "slot": 4.84,
+   "max_chars_pl": 67,
+   "pl": "to lawina dowodów, w tym podsłuchy"
+  },
+  {
+   "start": 1270.66,
+   "end": 1275.02,
+   "es": "telefónicas, testimonios de antiguos aliados que ahora son testigos",
+   "id": 201,
+   "slot": 4.28,
+   "max_chars_pl": 59,
+   "pl": "telefoniczne, zeznania dawnych sojuszników, którzy są teraz świadkami"
+  },
+  {
+   "start": 1275.02,
+   "end": 1281.14,
+   "es": "protegidos y evidencia forense de sus crímenes. Los cargos son una lista de",
+   "id": 202,
+   "slot": 6.04,
+   "max_chars_pl": 84,
+   "pl": "chronionymi, i dowody kryminalistyczne jego zbrodni. Zarzuty to lista"
+  },
+  {
+   "start": 1281.14,
+   "end": 1286.34,
+   "es": "horror, conspiración masiva para el tráfico de cocaína y metanfetaminas,",
+   "id": 203,
+   "slot": 5.12,
+   "max_chars_pl": 71,
+   "pl": "grozy, masowy spisek w celu handlu kokainą i metamfetaminą,"
+  },
+  {
+   "start": 1286.34,
+   "end": 1291.74,
+   "es": "pero sobre todo su papel central en la crisis del fentanilo que ha matado a",
+   "id": 204,
+   "slot": 5.32,
+   "max_chars_pl": 74,
+   "pl": "ale przede wszystkim jego główna rola w kryzysie fentanylowym, który zabił"
+  },
+  {
+   "start": 1291.74,
+   "end": 1297.3,
+   "es": "miles de estadounidenses. Además del tráfico de drogas, se le acusa de",
+   "id": 205,
+   "slot": 5.48,
+   "max_chars_pl": 76,
+   "pl": "tysiące Amerykanów. Poza handlem narkotykami oskarża się go o"
+  },
+  {
+   "start": 1297.3,
+   "end": 1301.86,
+   "es": "posesión de armas destructivas y de liderar represalias violentas contra",
+   "id": 206,
+   "slot": 4.48,
+   "max_chars_pl": 62,
+   "pl": "posiadanie broni niszczącej i kierowanie brutalnymi represjami wobec"
+  },
+  {
+   "start": 1301.86,
+   "end": 1307.82,
+   "es": "testigos. El gobierno de EEUU lo señala directamente como el responsable de",
+   "id": 207,
+   "slot": 5.88,
+   "max_chars_pl": 82,
+   "pl": "świadków. Rząd USA wskazuje go wprost jako odpowiedzialnego za"
+  },
+  {
+   "start": 1307.82,
+   "end": 1312.5,
+   "es": "planificar y ejecutar asesinatos, secuestros y actos de tortura que",
+   "id": 208,
+   "slot": 4.6,
+   "max_chars_pl": 64,
+   "pl": "planowanie i wykonywanie zabójstw, porwań i aktów tortur, które"
+  },
+  {
+   "start": 1312.5,
+   "end": 1317.94,
+   "es": "desafían la imaginación. El Nini sabe que en el sistema federal",
+   "id": 209,
+   "slot": 5.36,
+   "max_chars_pl": 75,
+   "pl": "przekraczają wyobraźnię. El Nini wie, że w systemie federalnym"
+  },
+  {
+   "start": 1317.94,
+   "end": 1323.48,
+   "es": "de los EEUU estos cargos suelen traducirse en una sola cosa, cadena",
+   "id": 210,
+   "slot": 5.46,
+   "max_chars_pl": 76,
+   "pl": "USA takie zarzuty zwykle oznaczają jedno, dożywocie"
+  },
+  {
+   "start": 1323.48,
+   "end": 1329.94,
+   "es": "perpetua sin posibilidad de libertad condicional. La posibilidad de morir",
+   "id": 211,
+   "slot": 6.38,
+   "max_chars_pl": 89,
+   "pl": "bez możliwości zwolnienia warunkowego. Możliwość umarcia"
+  },
+  {
+   "start": 1329.94,
+   "end": 1335.1,
+   "es": "en una caja de concreto antes de cumplir los 50 años es lo que lo",
+   "id": 212,
+   "slot": 5.08,
+   "max_chars_pl": 71,
+   "pl": "w betonowej klatce przed pięćdziesiątką to to, co go"
+  },
+  {
+   "start": 1335.1,
+   "end": 1340.3,
+   "es": "mantiene despierto por las noches, sumido en un estado de pánico constante.",
+   "id": 213,
+   "slot": 5.12,
+   "max_chars_pl": 71,
+   "pl": "trzyma w nocy bezsennie, pogrążonego w stanie ciągłej paniki."
+  },
+  {
+   "start": 1340.3,
+   "end": 1346.42,
+   "es": "¿Qué pasa por la mente de un sicario cuando se apagan las luces?",
+   "id": 214,
+   "slot": 6.04,
+   "max_chars_pl": 84,
+   "pl": "Co przechodzi przez głowę zabójcy, gdy gasną światła?"
+  },
+  {
+   "start": 1346.42,
+   "end": 1352.54,
+   "es": "Los informes internos sugieren que Néstor Isidro Pérez Salas ha pasado",
+   "id": 215,
+   "slot": 6.04,
+   "max_chars_pl": 84,
+   "pl": "Wewnętrzne raporty sugerują, że Néstor Isidro Pérez Salas przeszedł"
+  },
+  {
+   "start": 1352.54,
+   "end": 1357.38,
+   "es": "por varias etapas de duelo tras su extradición. Primero fue la negación,",
+   "id": 216,
+   "slot": 4.76,
+   "max_chars_pl": 66,
+   "pl": "kilka etapów żałoby po ekstradycji. Najpierw było zaprzeczenie,"
+  },
+  {
+   "start": 1357.38,
+   "end": 1364.02,
+   "es": "luego la ira y ahora la depresión profunda. Se reporta que ha tenido",
+   "id": 217,
+   "slot": 6.56,
+   "max_chars_pl": 91,
+   "pl": "potem gniew, a teraz głęboka depresja. Donoszono, że miewał"
+  },
+  {
+   "start": 1364.02,
+   "end": 1369.74,
+   "es": "episodios de llanto incontrolable en su celda, especialmente después de las",
+   "id": 218,
+   "slot": 5.64,
+   "max_chars_pl": 78,
+   "pl": "epizody niekontrolowanego płaczu w celi, zwłaszcza po"
+  },
+  {
+   "start": 1369.74,
+   "end": 1374.58,
+   "es": "visitas de sus abogados, quienes no tienen buenas noticias que darle.",
+   "id": 219,
+   "slot": 4.76,
+   "max_chars_pl": 66,
+   "pl": "wizytach adwokatów, którzy nie mają dla niego dobrych wieści."
+  },
+  {
+   "start": 1374.58,
+   "end": 1378.42,
+   "es": "El hombre que se grababa a sí mismo desafiando a las autoridades y",
+   "id": 220,
+   "slot": 3.76,
+   "max_chars_pl": 52,
+   "pl": "Człowiek, który nagrywał siebie, rzucając wyzwanie władzom i"
+  },
+  {
+   "start": 1378.42,
+   "end": 1383.1,
+   "es": "mostrando su arsenal, ahora suplica por condiciones mínimas de comodidad",
+   "id": 221,
+   "slot": 4.6,
+   "max_chars_pl": 64,
+   "pl": "pokazując swój arsenał, teraz błaga o minimalne warunki komfortu"
+  },
+  {
+   "start": 1383.1,
+   "end": 1388.82,
+   "es": "o por la posibilidad de contactar a su familia. Sus súplicas de piedad son el",
+   "id": 222,
+   "slot": 5.64,
+   "max_chars_pl": 78,
+   "pl": "albo o możliwość skontaktowania się z rodziną. Jego błagania o litość są"
+  },
+  {
+   "start": 1388.82,
+   "end": 1394.66,
+   "es": "reflejo de una cobardía que suele aparecer cuando el poder se desvanece.",
+   "id": 223,
+   "slot": 5.76,
+   "max_chars_pl": 80,
+   "pl": "odbiciem tchórzostwa, które zwykle pojawia się, gdy władza gaśnie."
+  },
+  {
+   "start": 1394.66,
+   "end": 1399.76,
+   "es": "Fuentes internas indican que ha intentado ofrecer información a",
+   "id": 224,
+   "slot": 5.02,
+   "max_chars_pl": 70,
+   "pl": "Źródła wewnętrzne wskazują, że próbował zaoferować informacje w"
+  },
+  {
+   "start": 1399.76,
+   "end": 1404.62,
+   "es": "cambio de una reducción de su condena, pero el problema para él es",
+   "id": 225,
+   "slot": 4.78,
+   "max_chars_pl": 66,
+   "pl": "zamian za zmniejszenie wyroku, ale problem w tym,"
+  },
+  {
+   "start": 1404.62,
+   "end": 1409.32,
+   "es": "que muchos de sus antiguos compañeros ya lo hicieron primero. El",
+   "id": 226,
+   "slot": 4.62,
+   "max_chars_pl": 64,
+   "pl": "że wielu jego dawnych towarzyszy zrobiło to przed nim."
+  },
+  {
+   "start": 1409.32,
+   "end": 1415.06,
+   "es": "ninny se está quedando sin cartas para jugar y esa impotencia lo lleva a",
+   "id": 227,
+   "slot": 5.66,
+   "max_chars_pl": 79,
+   "pl": "El Nini kończą się karty do gry i ta bezsilność prowadzi go do"
+  },
+  {
+   "start": 1415.06,
+   "end": 1419.5,
+   "es": "estados de ansiedad donde el temblor de sus manos es evidente para los",
+   "id": 228,
+   "slot": 4.36,
+   "max_chars_pl": 61,
+   "pl": "stanów lękowych, w których drżenie jego rąk jest widoczne dla"
+  },
+  {
+   "start": 1419.5,
+   "end": 1422.78,
+   "es": "médicos del penal. Para entender por qué el gobierno de",
+   "id": 229,
+   "slot": 3.2,
+   "max_chars_pl": 44,
+   "pl": "lekarzy więziennych. Aby zrozumieć, dlaczego rząd"
+  },
+  {
+   "start": 1422.78,
+   "end": 1427.74,
+   "es": "Estados Unidos es tan implacable con él, hay que recordar que era el grupo",
+   "id": 230,
+   "slot": 4.88,
+   "max_chars_pl": 68,
+   "pl": "Stanów Zjednoczonych jest wobec niego tak bezwzględny, trzeba pamiętać, że był grupą"
+  },
+  {
+   "start": 1427.74,
+   "end": 1432.7,
+   "es": "de Los Ninis. Bajo el mando de Néstor y Sidro,",
+   "id": 231,
+   "slot": 4.88,
+   "max_chars_pl": 68,
+   "pl": "Los Ninis. Pod dowództwem Néstora Isidro"
+  },
+  {
+   "start": 1432.7,
+   "end": 1437.66,
+   "es": "este grupo de jóvenes sicarios transformó a Culiacán en un campo",
+   "id": 232,
+   "slot": 4.88,
+   "max_chars_pl": 68,
+   "pl": "ta grupa młodych zabójców zamieniła Culiacán w pole"
+  },
+  {
+   "start": 1437.66,
+   "end": 1445.46,
+   "es": "de batalla. No eran sólo soldados, eran verdugos mediáticos. Pérez Salas impuso",
+   "id": 233,
+   "slot": 7.72,
+   "max_chars_pl": 108,
+   "pl": "bitwy. Nie byli tylko żołnierzami, byli medialnymi katami. Pérez Salas narzucił"
+  },
+  {
+   "start": 1445.46,
+   "end": 1449.86,
+   "es": "un estilo de vida basado en la violencia hiperestética, camionetas",
+   "id": 234,
+   "slot": 4.32,
+   "max_chars_pl": 60,
+   "pl": "styl życia oparty na hiperestetycznej przemocy, opancerzonych pickupach"
+  },
+  {
+   "start": 1449.86,
+   "end": 1454.9,
+   "es": "blindadas de última generación, armamento de guerra y un desprecio",
+   "id": 235,
+   "slot": 4.96,
+   "max_chars_pl": 69,
+   "pl": "najnowszej generacji, broni wojennej i absolutnej pogardzie"
+  },
+  {
+   "start": 1454.9,
+   "end": 1459.86,
+   "es": "absoluto por la vida civil. Ellos fueron los protagonistas de los",
+   "id": 236,
+   "slot": 4.88,
+   "max_chars_pl": 68,
+   "pl": "dla życia cywilów. To oni byli bohaterami"
+  },
+  {
+   "start": 1459.86,
+   "end": 1465.04,
+   "es": "culiacanazos, los eventos donde el cartel puso de rodillas a la ciudad",
+   "id": 237,
+   "slot": 5.1,
+   "max_chars_pl": 71,
+   "pl": "culiacanazos, wydarzeń, w których kartel postawił miasto na kolanach,"
+  },
+  {
+   "start": 1465.04,
+   "end": 1471.3,
+   "es": "para evitar la captura de Ovidio Guzmán. El ninny se sentía el salvador de sus",
+   "id": 238,
+   "slot": 6.18,
+   "max_chars_pl": 86,
+   "pl": "by zapobiec schwytaniu Ovidia Guzmána. El Nini czuł się wybawcą swoich"
+  },
+  {
+   "start": 1471.3,
+   "end": 1476.72,
+   "es": "jefes, pero en realidad su visibilidad y su sadismo lo convirtieron en el",
+   "id": 239,
+   "slot": 5.34,
+   "max_chars_pl": 74,
+   "pl": "szefów, ale w rzeczywistości jego widoczność i sadyzm uczyniły go"
+  },
+  {
+   "start": 1476.72,
+   "end": 1482.1,
+   "es": "objetivo prioritario número uno. Su grupo fue responsable de torturas",
+   "id": 240,
+   "slot": 5.3,
+   "max_chars_pl": 74,
+   "pl": "celem priorytetowym numer jeden. Jego grupa odpowiadała za okrutne tortury"
+  },
+  {
+   "start": 1482.1,
+   "end": 1487.34,
+   "es": "atroces contra rivales de la facción de El Mayo y contra cualquier persona",
+   "id": 241,
+   "slot": 5.16,
+   "max_chars_pl": 72,
+   "pl": "rywali z frakcji El Mayo i każdej osoby"
+  },
+  {
+   "start": 1487.34,
+   "end": 1493.64,
+   "es": "sospechosa de colaborar con el gobierno. Hoy ese legado de dolor es",
+   "id": 242,
+   "slot": 6.22,
+   "max_chars_pl": 87,
+   "pl": "podejrzewanej o współpracę z rządem. Dziś to dziedzictwo bólu"
+  },
+  {
+   "start": 1493.64,
+   "end": 1498.16,
+   "es": "lo que lo mantiene encadenado, pues las víctimas y sus familias han",
+   "id": 243,
+   "slot": 4.44,
+   "max_chars_pl": 62,
+   "pl": "trzyma go w kajdanach, bo ofiary i ich rodziny"
+  },
+  {
+   "start": 1498.16,
+   "end": 1502.22,
+   "es": "encontrado en la justicia estadounidense el eco que no tuvieron",
+   "id": 244,
+   "slot": 3.98,
+   "max_chars_pl": 55,
+   "pl": "znalazły w amerykańskim wymiarze sprawiedliwości echo, którego nie miały"
+  },
+  {
+   "start": 1502.22,
+   "end": 1507.74,
+   "es": "en México. En el mundo del narcotráfico la lealtad es una moneda",
+   "id": 245,
+   "slot": 5.44,
+   "max_chars_pl": 76,
+   "pl": "w Meksyku. W świecie narkobiznesu lojalność jest walutą,"
+  },
+  {
+   "start": 1507.74,
+   "end": 1513.3,
+   "es": "de cambio que se devalúa rápidamente. El ninny está descubriendo que mientras",
+   "id": 246,
+   "slot": 5.48,
+   "max_chars_pl": 76,
+   "pl": "która szybko traci na wartości. El Nini odkrywa, że podczas gdy"
+  },
+  {
+   "start": 1513.3,
+   "end": 1518.1,
+   "es": "él se pudre en una celda de Brooklyn, el mundo fuera de ella sigue",
+   "id": 247,
+   "slot": 4.72,
+   "max_chars_pl": 66,
+   "pl": "on gnije w celi na Brooklynie, świat poza nią kręci się dalej"
+  },
+  {
+   "start": 1518.1,
+   "end": 1523.7,
+   "es": "girando sin él. El cartel de Sinaloa ya ha nombrado nuevos líderes de",
+   "id": 248,
+   "slot": 5.52,
+   "max_chars_pl": 77,
+   "pl": "bez niego. Kartel z Sinaloa mianował już nowych szefów"
+  },
+  {
+   "start": 1523.7,
+   "end": 1529.5,
+   "es": "seguridad y la facción de Los Chapitos se ha visto obligada a reestructurarse",
+   "id": 249,
+   "slot": 5.72,
+   "max_chars_pl": 80,
+   "pl": "ochrony, a frakcja Los Chapitos została zmuszona do restrukturyzacji"
+  },
+  {
+   "start": 1529.5,
+   "end": 1535.32,
+   "es": "ante la presión internacional. Existe una sensación de traición que",
+   "id": 250,
+   "slot": 5.74,
+   "max_chars_pl": 80,
+   "pl": "pod międzynarodową presją. Istnieje poczucie zdrady, które"
+  },
+  {
+   "start": 1535.32,
+   "end": 1540.22,
+   "es": "atormenta a Pérez Salas. Se pregunta si su captura fue realmente",
+   "id": 251,
+   "slot": 4.82,
+   "max_chars_pl": 67,
+   "pl": "dręczy Péreza Salasa. Zastanawia się, czy jego schwytanie było naprawdę"
+  },
+  {
+   "start": 1540.22,
+   "end": 1545.46,
+   "es": "un descuido o si fue entregado como una ofrenda de paz para aliviar la",
+   "id": 252,
+   "slot": 5.16,
+   "max_chars_pl": 72,
+   "pl": "niedopatrzeniem, czy został wydany jako ofiara pokojowa, by złagodzić"
+  },
+  {
+   "start": 1545.46,
+   "end": 1550.74,
+   "es": "presión sobre sus jefes. Esa duda carcome su mente.",
+   "id": 253,
+   "slot": 5.2,
+   "max_chars_pl": 72,
+   "pl": "presję na jego szefów. Ta wątpliwość toczy jego umysł."
+  },
+  {
+   "start": 1550.74,
+   "end": 1556.18,
+   "es": "Vera, el mayo zambada en el mismo complejo, probablemente alimenta sus",
+   "id": 254,
+   "slot": 5.36,
+   "max_chars_pl": 75,
+   "pl": "Widok El Mayo Zambady w tym samym kompleksie prawdopodobnie podsyca jego"
+  },
+  {
+   "start": 1556.18,
+   "end": 1561.58,
+   "es": "paranoias sobre conspiraciones internas. En el M de ese Brooklyn el",
+   "id": 255,
+   "slot": 5.32,
+   "max_chars_pl": 74,
+   "pl": "paranoje na temat wewnętrznych spisków. W MDC Brooklyn"
+  },
+  {
+   "start": 1561.58,
+   "end": 1566.64,
+   "es": "ninny es la prueba viviente de que en el negocio del narcotráfico al final",
+   "id": 256,
+   "slot": 4.98,
+   "max_chars_pl": 69,
+   "pl": "El Nini jest żywym dowodem, że w biznesie narkotykowym w końcu"
+  },
+  {
+   "start": 1566.64,
+   "end": 1571.22,
+   "es": "del día todos están solos. Sus súplicas de",
+   "id": 257,
+   "slot": 4.5,
+   "max_chars_pl": 63,
+   "pl": "każdy jest sam. Jego błagania o"
+  },
+  {
+   "start": 1571.22,
+   "end": 1576.22,
+   "es": "piedad no son escuchadas por sus antiguos aliados, quienes ahora lo ven",
+   "id": 258,
+   "slot": 4.92,
+   "max_chars_pl": 68,
+   "pl": "litość nie są słyszane przez dawnych sojuszników, którzy teraz widzą go"
+  },
+  {
+   "start": 1576.22,
+   "end": 1582.54,
+   "es": "como un riesgo o como un estorbo. El juicio de el ninny se perfila como",
+   "id": 259,
+   "slot": 6.24,
+   "max_chars_pl": 87,
+   "pl": "jako ryzyko albo zawadę. Proces El Nini zapowiada się jako"
+  },
+  {
+   "start": 1582.54,
+   "end": 1586.7,
+   "es": "uno de los más mediáticos de los últimos años. La fiscalía no",
+   "id": 260,
+   "slot": 4.08,
+   "max_chars_pl": 57,
+   "pl": "jeden z najgłośniejszych medialnie w ostatnich latach. Prokuratura nie"
+  },
+  {
+   "start": 1586.7,
+   "end": 1591.84,
+   "es": "escatimará en recursos para presentar un caso sólido como una roca. Se",
+   "id": 261,
+   "slot": 5.06,
+   "max_chars_pl": 70,
+   "pl": "poskąpi środków, by przedstawić sprawę twardą jak skała."
+  },
+  {
+   "start": 1591.84,
+   "end": 1596.64,
+   "es": "espera que presenten vídeos, grabaciones de audio y testimonios",
+   "id": 262,
+   "slot": 4.72,
+   "max_chars_pl": 66,
+   "pl": "Spodziewa się, że przedstawi nagrania wideo, audio i zeznania"
+  },
+  {
+   "start": 1596.64,
+   "end": 1601.8,
+   "es": "presenciales que vinculen directamente a Pérez Salas con las operaciones de los",
+   "id": 263,
+   "slot": 5.08,
+   "max_chars_pl": 71,
+   "pl": "naocznych świadków, którzy bezpośrednio powiążą Péreza Salasa z operacjami"
+  },
+  {
+   "start": 1601.8,
+   "end": 1606.64,
+   "es": "chapitos. A diferencia de los juicios en México,",
+   "id": 264,
+   "slot": 4.76,
+   "max_chars_pl": 66,
+   "pl": "Los Chapitos. W przeciwieństwie do procesów w Meksyku,"
+  },
+  {
+   "start": 1606.64,
+   "end": 1611.4,
+   "es": "donde la intimidación a jueces y testigos es común, en la corte de",
+   "id": 265,
+   "slot": 4.68,
+   "max_chars_pl": 65,
+   "pl": "gdzie zastraszanie sędziów i świadków jest powszechne, w sądzie"
+  },
+  {
+   "start": 1611.4,
+   "end": 1617.04,
+   "es": "Distrito Este de Nueva York el escenario es muy diferente. Aquí el",
+   "id": 266,
+   "slot": 5.56,
+   "max_chars_pl": 77,
+   "pl": "Okręgu Wschodniego Nowego Jorku scenariusz jest zupełnie inny. Tu"
+  },
+  {
+   "start": 1617.04,
+   "end": 1622.12,
+   "es": "ninny se enfrenta a fiscales que han encarcelado a El Chapo y a Genaro",
+   "id": 267,
+   "slot": 5.0,
+   "max_chars_pl": 70,
+   "pl": "El Nini staje naprzeciw prokuratorów, którzy wsadzili El Chapo i Genaro"
+  },
+  {
+   "start": 1622.12,
+   "end": 1627.48,
+   "es": "García Luna. Sus abogados intentan argumentar violaciones al debido proceso",
+   "id": 268,
+   "slot": 5.28,
+   "max_chars_pl": 73,
+   "pl": "Garcíę Lunę. Jego adwokaci próbują argumentować naruszenia prawa do rzetelnego procesu"
+  },
+  {
+   "start": 1627.48,
+   "end": 1633.44,
+   "es": "o problemas de salud mental derivados del aislamiento, pero las posibilidades de",
+   "id": 269,
+   "slot": 5.88,
+   "max_chars_pl": 82,
+   "pl": "albo problemy zdrowia psychicznego wynikające z izolacji, ale szanse"
+  },
+  {
+   "start": 1633.44,
+   "end": 1638.86,
+   "es": "éxito son mínimas. Cada audiencia es un recordatorio de que su vida, tal",
+   "id": 270,
+   "slot": 5.34,
+   "max_chars_pl": 74,
+   "pl": "powodzenia są minimalne. Każda rozprawa przypomina, że jego życie, takie"
+  },
+  {
+   "start": 1638.86,
+   "end": 1644.98,
+   "es": "como la conocía, ha terminado. La imagen del sicario desafiante ha sido",
+   "id": 271,
+   "slot": 6.04,
+   "max_chars_pl": 84,
+   "pl": "jakie znał, się skończyło. Obraz wyzywającego zabójcy został"
+  },
+  {
+   "start": 1644.98,
+   "end": 1649.4,
+   "es": "reemplazada por la de un acusado que baja la cabeza y evita el",
+   "id": 272,
+   "slot": 4.34,
+   "max_chars_pl": 60,
+   "pl": "zastąpiony obrazem oskarżonego, który pochyla głowę i unika"
+  },
+  {
+   "start": 1649.4,
+   "end": 1655.16,
+   "es": "contacto visual con las cámaras. La caída y el actual estado de",
+   "id": 273,
+   "slot": 5.68,
+   "max_chars_pl": 79,
+   "pl": "kontaktu wzrokowego z kamerami. Upadek i obecny stan"
+  },
+  {
+   "start": 1655.16,
+   "end": 1660.36,
+   "es": "desesperación de El Ninny envían un mensaje claro a las nuevas generaciones",
+   "id": 274,
+   "slot": 5.12,
+   "max_chars_pl": 71,
+   "pl": "desperacji El Nini wysyłają jasny sygnał nowym pokoleniom"
+  },
+  {
+   "start": 1660.36,
+   "end": 1665.92,
+   "es": "de sicarios en México. La era de la impunidad total se está cerrando para",
+   "id": 275,
+   "slot": 5.48,
+   "max_chars_pl": 76,
+   "pl": "zabójców w Meksyku. Era całkowitej bezkarności zamyka się dla"
+  },
+  {
+   "start": 1665.92,
+   "end": 1670.12,
+   "es": "aquellos que deciden llevar la violencia a niveles internacionales.",
+   "id": 276,
+   "slot": 4.12,
+   "max_chars_pl": 57,
+   "pl": "tych, którzy postanawiają wynieść przemoc na poziom międzynarodowy."
+  },
+  {
+   "start": 1670.12,
+   "end": 1675.48,
+   "es": "La extradición de Néstor Isidro es un recordatorio de que los brazos de la",
+   "id": 277,
+   "slot": 5.28,
+   "max_chars_pl": 73,
+   "pl": "Ekstradycja Néstora Isidro jest przypomnieniem, że ramiona"
+  },
+  {
+   "start": 1675.48,
+   "end": 1680.92,
+   "es": "justicia de Estados Unidos son largos y que el final de este camino siempre es",
+   "id": 278,
+   "slot": 5.36,
+   "max_chars_pl": 75,
+   "pl": "amerykańskiego wymiaru sprawiedliwości są długie, a koniec tej drogi jest zawsze"
+  },
+  {
+   "start": 1680.92,
+   "end": 1687.8,
+   "es": "el mismo. Una celda pequeña, comida de mala calidad y el olvido. El hecho de",
+   "id": 279,
+   "slot": 6.8,
+   "max_chars_pl": 95,
+   "pl": "ten sam. Mała cela, kiepskie jedzenie i zapomnienie. Fakt,"
+  },
+  {
+   "start": 1687.8,
+   "end": 1693.72,
+   "es": "que El Ninny esté temblando y llorando en su celda rompe la narrativa de los",
+   "id": 280,
+   "slot": 5.84,
+   "max_chars_pl": 81,
+   "pl": "że El Nini drży i płacze w swojej celi, łamie narrację"
+  },
+  {
+   "start": 1693.72,
+   "end": 1698.96,
+   "es": "narcocorridos. Ya no es el héroe invencible, es una advertencia humana.",
+   "id": 281,
+   "slot": 5.16,
+   "max_chars_pl": 72,
+   "pl": "narcocorridos. To już nie niezwyciężony bohater, to ludzkie ostrzeżenie."
+  },
+  {
+   "start": 1698.96,
+   "end": 1703.4,
+   "es": "Su situación ha generado un vacío de poder en ciertos sectores de",
+   "id": 282,
+   "slot": 4.36,
+   "max_chars_pl": 61,
+   "pl": "Jego sytuacja wywołała próżnię władzy w niektórych sektorach"
+  },
+  {
+   "start": 1703.4,
+   "end": 1708.28,
+   "es": "Sinaloa, pero también un miedo profundo entre los mandos medios del cartel,",
+   "id": 283,
+   "slot": 4.8,
+   "max_chars_pl": 67,
+   "pl": "Sinaloa, ale także głęboki strach wśród średniego szczebla kartelu,"
+  },
+  {
+   "start": 1708.28,
+   "end": 1714.02,
+   "es": "quienes ahora ven que ni siquiera el círculo más cercano de los chapitos es",
+   "id": 284,
+   "slot": 5.66,
+   "max_chars_pl": 79,
+   "pl": "który widzi teraz, że nawet najbliższy krąg Los Chapitos nie jest"
+  },
+  {
+   "start": 1714.02,
+   "end": 1719.48,
+   "es": "intocable. El mito de El Ninny se está disolviendo en las lágrimas de",
+   "id": 285,
+   "slot": 5.38,
+   "max_chars_pl": 75,
+   "pl": "nietykalny. Mit El Nini rozpuszcza się we łzach"
+  },
+  {
+   "start": 1719.48,
+   "end": 1725.1,
+   "es": "un hombre que descubrió demasiado tarde que el precio de su poder era",
+   "id": 286,
+   "slot": 5.54,
+   "max_chars_pl": 77,
+   "pl": "człowieka, który odkrył zbyt późno, że ceną jego władzy była"
+  },
+  {
+   "start": 1725.1,
+   "end": 1731.36,
+   "es": "su propia alma y su libertad eterna. Para entender por qué se dice que",
+   "id": 287,
+   "slot": 6.18,
+   "max_chars_pl": 86,
+   "pl": "jego własna dusza i wieczna wolność. Aby zrozumieć, dlaczego mówi się, że"
+  },
+  {
+   "start": 1731.36,
+   "end": 1737.0,
+   "es": "suplica a piedad hay que mirar de cerca las condiciones de su detención.",
+   "id": 288,
+   "slot": 5.56,
+   "max_chars_pl": 77,
+   "pl": "błaga o litość, trzeba przyjrzeć się warunkom jego zatrzymania."
+  },
+  {
+   "start": 1737.0,
+   "end": 1741.6,
+   "es": "El MDC Brooklyn ha sido criticado por organizaciones de derechos humanos",
+   "id": 289,
+   "slot": 4.52,
+   "max_chars_pl": 63,
+   "pl": "MDC Brooklyn było krytykowane przez organizacje praw człowieka"
+  },
+  {
+   "start": 1741.6,
+   "end": 1746.64,
+   "es": "debido a sus condiciones severas, pero para criminales de la peligrosidad de",
+   "id": 290,
+   "slot": 4.96,
+   "max_chars_pl": 69,
+   "pl": "za surowe warunki, ale dla przestępców tak niebezpiecznych jak"
+  },
+  {
+   "start": 1746.64,
+   "end": 1752.48,
+   "es": "Pérez Salas estas condiciones son el estándar. Se le permite muy poco",
+   "id": 291,
+   "slot": 5.76,
+   "max_chars_pl": 80,
+   "pl": "Pérez Salas te warunki są standardem. Pozwala mu się bardzo niewiele"
+  },
+  {
+   "start": 1752.48,
+   "end": 1756.96,
+   "es": "tiempo, fuera de su celda de dos por tres metros.",
+   "id": 292,
+   "slot": 4.4,
+   "max_chars_pl": 61,
+   "pl": "czasu poza celą o wymiarach dwa na trzy metry."
+  },
+  {
+   "start": 1756.96,
+   "end": 1762.16,
+   "es": "La falta de estímulos sensoriales es una de las formas más duras de castigo",
+   "id": 293,
+   "slot": 5.12,
+   "max_chars_pl": 71,
+   "pl": "Brak bodźców sensorycznych to jedna z najcięższych form kary"
+  },
+  {
+   "start": 1762.16,
+   "end": 1767.52,
+   "es": "psicológico. No hay acceso a televisión abierta, ni a internet, ni a",
+   "id": 294,
+   "slot": 5.28,
+   "max_chars_pl": 73,
+   "pl": "psychicznej. Nie ma dostępu do telewizji naziemnej, internetu ani"
+  },
+  {
+   "start": 1767.52,
+   "end": 1772.84,
+   "es": "conversaciones informales. Sus únicas interacciones son con guardias que lo",
+   "id": 295,
+   "slot": 5.24,
+   "max_chars_pl": 73,
+   "pl": "swobodnych rozmów. Jego jedyne interakcje to kontakty ze strażnikami, którzy"
+  },
+  {
+   "start": 1772.84,
+   "end": 1777.36,
+   "es": "ven sólo como un activo de alta peligrosidad y con sus abogados",
+   "id": 296,
+   "slot": 4.44,
+   "max_chars_pl": 62,
+   "pl": "widzą w nim tylko aktywo najwyższego zagrożenia, i z adwokatami"
+  },
+  {
+   "start": 1777.36,
+   "end": 1783.36,
+   "es": "defensores a través de un cristal reforzado. Las noches son las más",
+   "id": 297,
+   "slot": 5.92,
+   "max_chars_pl": 82,
+   "pl": "obrońcami przez wzmocnioną szybę. Najtrudniejsze są noce."
+  },
+  {
+   "start": 1783.36,
+   "end": 1789.18,
+   "es": "difíciles. El ruido de las puertas metálicas cerrándose y el eco de",
+   "id": 298,
+   "slot": 5.74,
+   "max_chars_pl": 80,
+   "pl": "Dźwięk zamykanych metalowych drzwi i echo"
+  },
+  {
+   "start": 1789.18,
+   "end": 1793.24,
+   "es": "otros prisioneros gritando en la oscuridad crean un ambiente de",
+   "id": 299,
+   "slot": 3.98,
+   "max_chars_pl": 55,
+   "pl": "innych więźniów krzyczących w ciemności tworzą atmosferę"
+  },
+  {
+   "start": 1793.24,
+   "end": 1799.04,
+   "es": "pesadilla. Es en esos momentos cuando la vulnerabilidad de El Nini aflora.",
+   "id": 300,
+   "slot": 5.72,
+   "max_chars_pl": 80,
+   "pl": "koszmaru. W takich chwilach ujawnia się bezbronność El Nini."
+  },
+  {
+   "start": 1799.04,
+   "end": 1804.6,
+   "es": "El hombre que se sentía un dios en Culiacán hoy se siente una hormiga",
+   "id": 301,
+   "slot": 5.48,
+   "max_chars_pl": 76,
+   "pl": "Człowiek, który w Culiacán czuł się bogiem, dziś czuje się jak mrówka"
+  },
+  {
+   "start": 1804.6,
+   "end": 1810.52,
+   "es": "bajo la bota de un sistema que no conoce la compasión. ¿Qué le espera a",
+   "id": 302,
+   "slot": 5.84,
+   "max_chars_pl": 81,
+   "pl": "pod butem systemu, który nie zna współczucia. Co czeka"
+  },
+  {
+   "start": 1810.52,
+   "end": 1816.56,
+   "es": "Néstor Isidro Pérez Salas? El panorama es sombrio. Si es declarado",
+   "id": 303,
+   "slot": 5.96,
+   "max_chars_pl": 83,
+   "pl": "Néstora Isidro Péreza Salasa? Perspektywy są ponure. Jeśli zostanie uznany"
+  },
+  {
+   "start": 1816.56,
+   "end": 1820.8,
+   "es": "culpable, como todo parece indicar, pasará el resto de sus días en una",
+   "id": 304,
+   "slot": 4.16,
+   "max_chars_pl": 58,
+   "pl": "za winnego, na co wszystko wskazuje, resztę dni spędzi w"
+  },
+  {
+   "start": 1820.8,
+   "end": 1825.6,
+   "es": "prisión de máxima seguridad, posiblemente en ADX Florence, la Super",
+   "id": 305,
+   "slot": 4.72,
+   "max_chars_pl": 66,
+   "pl": "więzieniu o zaostrzonym rygorze, prawdopodobnie w ADX Florence, Super"
+  },
+  {
+   "start": 1825.6,
+   "end": 1830.88,
+   "es": "Max de Colorado, donde el aislamiento es total y el contacto con el mundo",
+   "id": 306,
+   "slot": 5.2,
+   "max_chars_pl": 72,
+   "pl": "Max w Kolorado, gdzie izolacja jest całkowita, a kontakt ze światem"
+  },
+  {
+   "start": 1830.88,
+   "end": 1835.84,
+   "es": "exterior es prácticamente nulo. Allí pasaría a ser vecino de su",
+   "id": 307,
+   "slot": 4.88,
+   "max_chars_pl": 68,
+   "pl": "zewnętrznym praktycznie zerowy. Tam zostałby sąsiadem swojego"
+  },
+  {
+   "start": 1835.84,
+   "end": 1842.36,
+   "es": "antiguo jefe, el Chapo Guzmán. La vida de El Nini en Estados Unidos es la",
+   "id": 308,
+   "slot": 6.44,
+   "max_chars_pl": 90,
+   "pl": "dawnego szefa, El Chapo Guzmána. Życie El Nini w Stanach Zjednoczonych to"
+  },
+  {
+   "start": 1842.36,
+   "end": 1848.32,
+   "es": "crónica de una muerte civil anunciada. Sus días de gloria, de armas doradas y",
+   "id": 309,
+   "slot": 5.88,
+   "max_chars_pl": 82,
+   "pl": "kronika zapowiedzianej śmierci cywilnej. Jego dni chwały, złotej broni i"
+  },
+  {
+   "start": 1848.32,
+   "end": 1853.36,
+   "es": "de mando absoluto, son ahora memorias lejanas que solo sirven para",
+   "id": 310,
+   "slot": 4.96,
+   "max_chars_pl": 69,
+   "pl": "absolutnego dowodzenia są teraz dalekimi wspomnieniami, które służą tylko do"
+  },
+  {
+   "start": 1853.36,
+   "end": 1858.8,
+   "es": "torturarlo más en la quietud de su celda. Mientras el proceso judicial",
+   "id": 311,
+   "slot": 5.36,
+   "max_chars_pl": 75,
+   "pl": "dręczenia go jeszcze bardziej w ciszy celi. Gdy proces sądowy"
+  },
+  {
+   "start": 1858.8,
+   "end": 1864.0,
+   "es": "avanza, el mundo seguirá observando como uno de los sicarios más temidos",
+   "id": 312,
+   "slot": 5.12,
+   "max_chars_pl": 71,
+   "pl": "postępuje, świat będzie patrzył, jak jeden z najbardziej przerażających zabójców"
+  },
+  {
+   "start": 1864.0,
+   "end": 1869.6,
+   "es": "de la historia reciente de México se desintegra emocionalmente, demostrando",
+   "id": 313,
+   "slot": 5.52,
+   "max_chars_pl": 77,
+   "pl": "najnowszej historii Meksyku rozpada się emocjonalnie, dowodząc,"
+  },
+  {
+   "start": 1869.6,
+   "end": 1876.14,
+   "es": "que, al final, el terror que sembró se le ha devuelto en forma de un silencio",
+   "id": 314,
+   "slot": 6.46,
+   "max_chars_pl": 90,
+   "pl": "że w końcu terror, który zasiał, wrócił do niego pod postacią"
+  },
+  {
+   "start": 1876.14,
+   "end": 1880.92,
+   "es": "eterno y un miedo que no lo deja descansar.",
+   "id": 315,
+   "slot": 4.7,
+   "max_chars_pl": 65,
+   "pl": "wiecznej ciszy i strachu, który nie pozwala mu odpocząć."
+  },
+  {
+   "start": 1880.92,
+   "end": 1886.6,
+   "es": "El Nini ya no vive, solo espera a que el tiempo consuma lo que queda de él",
+   "id": 316,
+   "slot": 5.6,
+   "max_chars_pl": 78,
+   "pl": "El Nini już nie żyje, tylko czeka, aż czas pochłonie to, co z niego zostało,"
+  },
+  {
+   "start": 1886.6,
+   "end": 1891.44,
+   "es": "tras las rejas de la justicia imperial. Más allá de lo que",
+   "id": 317,
+   "slot": 4.76,
+   "max_chars_pl": 66,
+   "pl": "za kratami imperialnej sprawiedliwości. Niezależnie od tego, co"
+  },
+  {
+   "start": 1891.44,
+   "end": 1897.94,
+   "es": "dictamine el juez, el Nini ya ha sido sentenciado por su propia realidad. El",
+   "id": 318,
+   "slot": 6.42,
+   "max_chars_pl": 89,
+   "pl": "orzeknie sędzia, El Nini został już skazany przez własną rzeczywistość."
+  },
+  {
+   "start": 1897.94,
+   "end": 1902.88,
+   "es": "hombre que una vez tuvo el poder de paralizar una ciudad entera, ahora no",
+   "id": 319,
+   "slot": 4.86,
+   "max_chars_pl": 68,
+   "pl": "Człowiek, który kiedyś miał moc sparaliżowania całego miasta, teraz nie"
+  },
+  {
+   "start": 1902.88,
+   "end": 1907.68,
+   "es": "tiene poder ni siquiera sobre el interruptor de la luz de su celda.",
+   "id": 320,
+   "slot": 4.72,
+   "max_chars_pl": 66,
+   "pl": "ma władzy nawet nad włącznikiem światła w swojej celi."
+  },
+  {
+   "start": 1907.68,
+   "end": 1913.2,
+   "es": "Esa pérdida total de control es lo que provoca sus crisis de llanto y sus",
+   "id": 321,
+   "slot": 5.44,
+   "max_chars_pl": 76,
+   "pl": "Ta całkowita utrata kontroli wywołuje jego napady płaczu i"
+  },
+  {
+   "start": 1913.2,
+   "end": 1919.2,
+   "es": "súplicas. Es el choque brutal entre el ego desmedido de un narco y la",
+   "id": 322,
+   "slot": 5.92,
+   "max_chars_pl": 82,
+   "pl": "błagania. To brutalne zderzenie niepohamowanego ego narkobossa i"
+  },
+  {
+   "start": 1919.2,
+   "end": 1925.16,
+   "es": "fría eficiencia de una burocracia penitenciaria que no reconoce jerarquías",
+   "id": 323,
+   "slot": 5.88,
+   "max_chars_pl": 82,
+   "pl": "zimnej skuteczności biurokracji więziennej, która nie uznaje hierarchii"
+  },
+  {
+   "start": 1925.16,
+   "end": 1931.94,
+   "es": "criminales. Cada día que pasa en el MDC Brooklyn la figura de el Nini se",
+   "id": 324,
+   "slot": 6.7,
+   "max_chars_pl": 93,
+   "pl": "przestępczych. Z każdym dniem w MDC Brooklyn postać El Nini"
+  },
+  {
+   "start": 1931.94,
+   "end": 1937.28,
+   "es": "vuelve más pequeña. Los rumores de que busca colaborar con la justicia",
+   "id": 325,
+   "slot": 5.26,
+   "max_chars_pl": 73,
+   "pl": "staje się mniejsza. Plotki, że szuka współpracy z wymiarem sprawiedliwości,"
+  },
+  {
+   "start": 1937.28,
+   "end": 1943.04,
+   "es": "para evitar la cadena perpetua son constantes, lo que lo pone en un",
+   "id": 326,
+   "slot": 5.68,
+   "max_chars_pl": 79,
+   "pl": "by uniknąć dożywocia, są stałe, co stawia go w"
+  },
+  {
+   "start": 1943.04,
+   "end": 1947.46,
+   "es": "peligro aún mayor si alguna vez regresa a la población general o si",
+   "id": 327,
+   "slot": 4.34,
+   "max_chars_pl": 60,
+   "pl": "jeszcze większym niebezpieczeństwie, jeśli kiedykolwiek wróci do ogólnej populacji albo jeśli"
+  },
+  {
+   "start": 1947.46,
+   "end": 1952.08,
+   "es": "su información llega a oídos equivocados. Está atrapado en una",
+   "id": 328,
+   "slot": 4.54,
+   "max_chars_pl": 63,
+   "pl": "jego informacje trafią w niepowołane uszy. Tkwi w"
+  },
+  {
+   "start": 1952.08,
+   "end": 1957.8,
+   "es": "paradoja. Para salvarse del sistema estadounidense debe traicionar a los",
+   "id": 329,
+   "slot": 5.64,
+   "max_chars_pl": 78,
+   "pl": "paradoksie. Aby ocalić się przed amerykańskim systemem, musi zdradzić"
+  },
+  {
+   "start": 1957.8,
+   "end": 1963.2,
+   "es": "únicos que podrían haberlo protegido, sellando así su destino como un paria",
+   "id": 330,
+   "slot": 5.32,
+   "max_chars_pl": 74,
+   "pl": "jedynych, którzy mogliby go chronić, przypieczętowując swój los jako pariasa"
+  },
+  {
+   "start": 1963.2,
+   "end": 1969.24,
+   "es": "en ambos lados de la ley. Así vive hoy el Nini. Entre el temblor del",
+   "id": 331,
+   "slot": 5.96,
+   "max_chars_pl": 83,
+   "pl": "po obu stronach prawa. Tak żyje dziś El Nini. Między drżeniem"
+  },
+  {
+   "start": 1969.24,
+   "end": 1974.7,
+   "es": "miedo, el llanto de la impotencia y la súplica estéril de quien sabe",
+   "id": 332,
+   "slot": 5.38,
+   "max_chars_pl": 75,
+   "pl": "strachu, płaczem bezsilności i bezpłodną prośbą kogoś, kto wie,"
+  },
+  {
+   "start": 1974.7,
+   "end": 1978.154,
+   "es": "que el perdón no es una opción en su expediente.",
+   "id": 333,
+   "slot": 3.374,
+   "max_chars_pl": 47,
+   "pl": "że przebaczenie nie jest opcją w jego aktach."
+  }
+ ]
+}
