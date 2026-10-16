@@ -6,7 +6,7 @@ import os, sys
 import numpy as np
 from PIL import Image
 from crear_miniaturas import *
-from miniatura_documental import colorizar
+from colorizar_rostro import colorizar
 from miniatura_banderas import mitad, insignia, marco
 
 
