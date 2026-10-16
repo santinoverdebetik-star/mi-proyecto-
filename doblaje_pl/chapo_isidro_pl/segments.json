@@ -1,0 +1,8015 @@
+{
+ "video_dur": 1797.874649,
+ "segments": [
+  {
+   "start": 0.12,
+   "end": 4.8,
+   "es": "Imagina ser tan rico que podrías comprar una flota de aviones privados,",
+   "id": 1,
+   "slot": 4.6,
+   "max_chars_pl": 64,
+   "pl": "Wyobraź sobie, że jesteś tak bogaty, że mógłbyś kupić flotę prywatnych samolotów,"
+  },
+  {
+   "start": 4.8,
+   "end": 9.32,
+   "es": "pero elegir vivir en una choza de madera en la cima de una montaña.",
+   "id": 2,
+   "slot": 4.44,
+   "max_chars_pl": 62,
+   "pl": "ale wybierasz życie w drewnianej chacie na szczycie góry."
+  },
+  {
+   "start": 9.32,
+   "end": 14.0,
+   "es": "Imagina controlar el flujo de droga en toda la frontera norte de Sonora,",
+   "id": 3,
+   "slot": 4.6,
+   "max_chars_pl": 64,
+   "pl": "Wyobraź sobie, że kontrolujesz przepływ narkotyków na całej północnej granicy Sonory,"
+  },
+  {
+   "start": 14.0,
+   "end": 20.06,
+   "es": "mientras el FBI ni siquiera tiene una foto tuya que no sea de hace 20 años.",
+   "id": 4,
+   "slot": 5.98,
+   "max_chars_pl": 83,
+   "pl": "a FBI nie ma nawet twojego zdjęcia, które nie miałoby 20 lat."
+  },
+  {
+   "start": 20.06,
+   "end": 23.62,
+   "es": "En el mundo del narcotráfico, la fama no es un trofeo,",
+   "id": 5,
+   "slot": 3.48,
+   "max_chars_pl": 48,
+   "pl": "W świecie narkobiznesu sława nie jest trofeum,"
+  },
+  {
+   "start": 23.62,
+   "end": 26.3,
+   "es": "es una sentencia de muerte.",
+   "id": 6,
+   "slot": 2.6,
+   "max_chars_pl": 36,
+   "pl": "jest wyrokiem śmierci."
+  },
+  {
+   "start": 26.3,
+   "end": 32.02,
+   "es": "El Chapo Guzmán buscó los reflectores y terminó en una caja de concreto en Colorado,",
+   "id": 7,
+   "slot": 5.64,
+   "max_chars_pl": 78,
+   "pl": "El Chapo Guzmán szukał reflektorów i skończył w betonowej klatce w Kolorado,"
+  },
+  {
+   "start": 32.02,
+   "end": 36.42,
+   "es": "pero hay un hombre que entendió que el silencio vale más que el oro.",
+   "id": 8,
+   "slot": 4.32,
+   "max_chars_pl": 60,
+   "pl": "ale jest człowiek, który zrozumiał, że milczenie jest warte więcej niż złoto."
+  },
+  {
+   "start": 36.42,
+   "end": 39.86,
+   "es": "Un hombre que es más rico que los herederos de Sinaloa,",
+   "id": 9,
+   "slot": 3.36,
+   "max_chars_pl": 47,
+   "pl": "Człowiek bogatszy niż spadkobiercy z Sinaloa"
+  },
+  {
+   "start": 39.86,
+   "end": 43.7,
+   "es": "y más escurridizo que el Mayo Zambada.",
+   "id": 10,
+   "slot": 3.76,
+   "max_chars_pl": 52,
+   "pl": "i trudniejszy do schwytania niż El Mayo Zambada."
+  },
+  {
+   "start": 43.7,
+   "end": 47.52,
+   "es": "Esta es la vida secreta de Fausto Isidro Meza Flores,",
+   "id": 11,
+   "slot": 3.74,
+   "max_chars_pl": 52,
+   "pl": "To tajne życie Fausto Isidro Mezy Floresa,"
+  },
+  {
+   "start": 47.52,
+   "end": 49.5,
+   "es": "el Chapo Isidro,",
+   "id": 12,
+   "slot": 1.9,
+   "max_chars_pl": 26,
+   "pl": "El Chapo Isidro,"
+  },
+  {
+   "start": 49.5,
+   "end": 54.24,
+   "es": "el multimillonario que, para el mundo, simplemente no existe.",
+   "id": 13,
+   "slot": 4.66,
+   "max_chars_pl": 65,
+   "pl": "multimiliardera, który dla świata po prostu nie istnieje."
+  },
+  {
+   "start": 54.24,
+   "end": 57.6,
+   "es": "Existe una ley de gravedad en el inframundo criminal",
+   "id": 14,
+   "slot": 3.28,
+   "max_chars_pl": 45,
+   "pl": "W kryminalnym podziemiu istnieje prawo grawitacji,"
+  },
+  {
+   "start": 57.6,
+   "end": 61.18,
+   "es": "que nadie puede desafiar sin pagar un precio de sangre.",
+   "id": 15,
+   "slot": 3.5,
+   "max_chars_pl": 49,
+   "pl": "któremu nikt nie może się sprzeciwić, nie płacąc krwią."
+  },
+  {
+   "start": 61.18,
+   "end": 64.78,
+   "es": "El que más brilla, más rápido se quema.",
+   "id": 16,
+   "slot": 3.52,
+   "max_chars_pl": 49,
+   "pl": "Kto najjaśniej świeci, ten najszybciej się spala."
+  },
+  {
+   "start": 64.78,
+   "end": 70.0,
+   "es": "Es una regla de hierro, grabada en el ADN de la Sierra Sinaloense,",
+   "id": 17,
+   "slot": 5.14,
+   "max_chars_pl": 71,
+   "pl": "To żelazna zasada, wyryta w DNA gór Sinaloa,"
+  },
+  {
+   "start": 70.0,
+   "end": 73.34,
+   "es": "que dicta que el silencio no es sólo una virtud,",
+   "id": 18,
+   "slot": 3.26,
+   "max_chars_pl": 45,
+   "pl": "która głosi, że milczenie to nie tylko cnota,"
+  },
+  {
+   "start": 73.34,
+   "end": 77.64,
+   "es": "sino el único chaleco antibalas que realmente funciona.",
+   "id": 19,
+   "slot": 4.22,
+   "max_chars_pl": 59,
+   "pl": "ale jedyna kamizelka kuloodporna, która naprawdę działa."
+  },
+  {
+   "start": 77.64,
+   "end": 80.2,
+   "es": "Mientras la nueva generación de capos,",
+   "id": 20,
+   "slot": 2.48,
+   "max_chars_pl": 34,
+   "pl": "Podczas gdy nowe pokolenie bossów,"
+  },
+  {
+   "start": 80.2,
+   "end": 83.3,
+   "es": "esos herederos del caos a los que el mundo ha bautizado",
+   "id": 21,
+   "slot": 3.02,
+   "max_chars_pl": 42,
+   "pl": "ci spadkobiercy chaosu, których świat ochrzcił"
+  },
+  {
+   "start": 83.3,
+   "end": 86.28,
+   "es": "como los narco-influencers,",
+   "id": 22,
+   "slot": 2.9,
+   "max_chars_pl": 40,
+   "pl": "mianem narkoinfluencerów,"
+  },
+  {
+   "start": 86.28,
+   "end": 91.0,
+   "es": "han convertido el crimen organizado en un espectáculo de telerealidad,",
+   "id": 23,
+   "slot": 4.64,
+   "max_chars_pl": 64,
+   "pl": "zamieniło zorganizowaną przestępczość w reality show,"
+  },
+  {
+   "start": 91.0,
+   "end": 93.3,
+   "es": "Fausto Isidro Meza Flores",
+   "id": 24,
+   "slot": 2.22,
+   "max_chars_pl": 31,
+   "pl": "Fausto Isidro Meza Flores"
+  },
+  {
+   "start": 93.3,
+   "end": 97.56,
+   "es": "ha decidido habitar en la frecuencia del anonimato absoluto.",
+   "id": 25,
+   "slot": 4.18,
+   "max_chars_pl": 58,
+   "pl": "postanowił zamieszkać w częstotliwości całkowitej anonimowości."
+  },
+  {
+   "start": 97.56,
+   "end": 101.1,
+   "es": "Para Isidro, la discreción no es una timidez,",
+   "id": 26,
+   "slot": 3.46,
+   "max_chars_pl": 48,
+   "pl": "Dla Isidro dyskrecja to nie nieśmiałość,"
+  },
+  {
+   "start": 101.1,
+   "end": 105.18,
+   "es": "es una ventaja competitiva de miles de millones de dólares.",
+   "id": 27,
+   "slot": 4.0,
+   "max_chars_pl": 56,
+   "pl": "to przewaga konkurencyjna warta miliardy dolarów."
+  },
+  {
+   "start": 105.18,
+   "end": 108.6,
+   "es": "Hoy en día, basta con navegar por las redes sociales",
+   "id": 28,
+   "slot": 3.34,
+   "max_chars_pl": 46,
+   "pl": "Dziś wystarczy przejrzeć media społecznościowe,"
+  },
+  {
+   "start": 108.6,
+   "end": 113.32,
+   "es": "para encontrar los rastros digitales de una decadencia anunciada.",
+   "id": 29,
+   "slot": 4.64,
+   "max_chars_pl": 64,
+   "pl": "by znaleźć cyfrowe ślady zapowiedzianego upadku."
+  },
+  {
+   "start": 113.32,
+   "end": 116.12,
+   "es": "Vemos a los llamados cachorros,",
+   "id": 30,
+   "slot": 2.72,
+   "max_chars_pl": 38,
+   "pl": "Widzimy tak zwane lwiątka,"
+  },
+  {
+   "start": 116.12,
+   "end": 119.5,
+   "es": "inundando las plataformas con imágenes de leones africanos",
+   "id": 31,
+   "slot": 3.3,
+   "max_chars_pl": 46,
+   "pl": "zalewające platformy zdjęciami afrykańskich lwów"
+  },
+  {
+   "start": 119.5,
+   "end": 122.12,
+   "es": "encadenados en salas de mármol,",
+   "id": 32,
+   "slot": 2.54,
+   "max_chars_pl": 35,
+   "pl": "w łańcuchach w marmurowych salonach,"
+  },
+  {
+   "start": 122.12,
+   "end": 125.56,
+   "es": "relojes de marcas suizas que cuestan más que una mansión,",
+   "id": 33,
+   "slot": 3.36,
+   "max_chars_pl": 47,
+   "pl": "szwajcarskich zegarków wartych więcej niż rezydencja"
+  },
+  {
+   "start": 125.56,
+   "end": 128.38,
+   "es": "y camionetas blindadas con acabados en oro,",
+   "id": 34,
+   "slot": 2.74,
+   "max_chars_pl": 38,
+   "pl": "i opancerzonych pickupów ze złoceniami,"
+  },
+  {
+   "start": 128.38,
+   "end": 132.34,
+   "es": "que parecen diseñadas para ser vistas desde el espacio.",
+   "id": 35,
+   "slot": 3.88,
+   "max_chars_pl": 54,
+   "pl": "które wyglądają, jakby zaprojektowano je, by widzieć je z kosmosu."
+  },
+  {
+   "start": 132.34,
+   "end": 134.68,
+   "es": "Para estos nuevos rostros del crimen,",
+   "id": 36,
+   "slot": 2.26,
+   "max_chars_pl": 31,
+   "pl": "Dla tych nowych twarzy przestępczości"
+  },
+  {
+   "start": 134.68,
+   "end": 137.52,
+   "es": "el poder no tiene valor si no se exhibe,",
+   "id": 37,
+   "slot": 2.76,
+   "max_chars_pl": 38,
+   "pl": "władza nie ma wartości, jeśli się jej nie pokazuje,"
+  },
+  {
+   "start": 137.52,
+   "end": 139.6,
+   "es": "si no genera un like,",
+   "id": 38,
+   "slot": 2.0,
+   "max_chars_pl": 28,
+   "pl": "jeśli nie generuje lajka,"
+  },
+  {
+   "start": 139.6,
+   "end": 142.32,
+   "es": "parece que el imperio no existiera.",
+   "id": 39,
+   "slot": 2.64,
+   "max_chars_pl": 36,
+   "pl": "to tak, jakby imperium nie istniało."
+  },
+  {
+   "start": 142.32,
+   "end": 144.9,
+   "es": "Pero aquí es donde radica la diferencia abismal",
+   "id": 40,
+   "slot": 2.5,
+   "max_chars_pl": 35,
+   "pl": "Ale tu leży przepastna różnica"
+  },
+  {
+   "start": 144.9,
+   "end": 149.44,
+   "es": "entre un criminal de moda y un verdadero dueño del sistema.",
+   "id": 41,
+   "slot": 4.46,
+   "max_chars_pl": 62,
+   "pl": "między modnym przestępcą a prawdziwym właścicielem systemu."
+  },
+  {
+   "start": 149.44,
+   "end": 151.12,
+   "es": "Para el chapo Isidro,",
+   "id": 42,
+   "slot": 1.6,
+   "max_chars_pl": 22,
+   "pl": "Dla El Chapo Isidro"
+  },
+  {
+   "start": 151.12,
+   "end": 153.2,
+   "es": "cada fotografía publicada",
+   "id": 43,
+   "slot": 2.0,
+   "max_chars_pl": 28,
+   "pl": "każde opublikowane zdjęcie"
+  },
+  {
+   "start": 153.2,
+   "end": 157.1,
+   "es": "es una migaja de pan para la inteligencia internacional.",
+   "id": 44,
+   "slot": 3.82,
+   "max_chars_pl": 53,
+   "pl": "to okruch chleba dla wywiadu międzynarodowego."
+  },
+  {
+   "start": 157.1,
+   "end": 159.44,
+   "es": "Cada video de una fiesta privada",
+   "id": 45,
+   "slot": 2.26,
+   "max_chars_pl": 31,
+   "pl": "Każde nagranie z prywatnej imprezy"
+  },
+  {
+   "start": 159.44,
+   "end": 163.04,
+   "es": "es una coordenada GPS para los drones de precisión,",
+   "id": 46,
+   "slot": 3.52,
+   "max_chars_pl": 49,
+   "pl": "to współrzędne GPS dla dronów precyzyjnych,"
+  },
+  {
+   "start": 163.04,
+   "end": 165.34,
+   "es": "y cada arma bañada en diamantes",
+   "id": 47,
+   "slot": 2.22,
+   "max_chars_pl": 31,
+   "pl": "a każda broń wysadzana diamentami"
+  },
+  {
+   "start": 165.34,
+   "end": 167.9,
+   "es": "es una prueba irrefutable en una corte federal",
+   "id": 48,
+   "slot": 2.48,
+   "max_chars_pl": 34,
+   "pl": "to niezbity dowód w sądzie federalnym,"
+  },
+  {
+   "start": 167.9,
+   "end": 171.4,
+   "es": "que tarde o temprano llegará a cobrar la factura.",
+   "id": 49,
+   "slot": 3.42,
+   "max_chars_pl": 47,
+   "pl": "który prędzej czy później przyjdzie po rachunek."
+  },
+  {
+   "start": 171.4,
+   "end": 173.4,
+   "es": "Isidro entiende profundamente algo",
+   "id": 50,
+   "slot": 1.92,
+   "max_chars_pl": 26,
+   "pl": "Isidro głęboko rozumie coś,"
+  },
+  {
+   "start": 173.4,
+   "end": 176.88,
+   "es": "que los jóvenes parecen haber olvidado por completo.",
+   "id": 51,
+   "slot": 3.4,
+   "max_chars_pl": 47,
+   "pl": "o czym młodzi zdają się całkiem zapominać."
+  },
+  {
+   "start": 176.88,
+   "end": 180.58,
+   "es": "La visibilidad es la mayor de las vulnerabilidades.",
+   "id": 52,
+   "slot": 3.62,
+   "max_chars_pl": 50,
+   "pl": "Widoczność to największa słabość."
+  },
+  {
+   "start": 180.58,
+   "end": 182.7,
+   "es": "Mientras los herederos de otros imperios",
+   "id": 53,
+   "slot": 2.04,
+   "max_chars_pl": 28,
+   "pl": "Podczas gdy spadkobiercy innych imperiów"
+  },
+  {
+   "start": 182.7,
+   "end": 185.8,
+   "es": "alimentan el algoritmo para alimentar su ego,",
+   "id": 54,
+   "slot": 3.02,
+   "max_chars_pl": 42,
+   "pl": "karmią algorytm, by karmić swoje ego,"
+  },
+  {
+   "start": 185.8,
+   "end": 189.96,
+   "es": "Isidro se dedica exclusivamente a alimentar su mito.",
+   "id": 55,
+   "slot": 4.08,
+   "max_chars_pl": 57,
+   "pl": "Isidro poświęca się wyłącznie karmieniu swojego mitu."
+  },
+  {
+   "start": 189.96,
+   "end": 193.1,
+   "es": "Él no se ve a sí mismo como un forajido de película",
+   "id": 56,
+   "slot": 3.06,
+   "max_chars_pl": 42,
+   "pl": "Nie widzi siebie jako filmowego bandyty"
+  },
+  {
+   "start": 193.1,
+   "end": 195.32,
+   "es": "o un personaje de corrido.",
+   "id": 57,
+   "slot": 2.14,
+   "max_chars_pl": 29,
+   "pl": "ani bohatera corrido."
+  },
+  {
+   "start": 195.32,
+   "end": 197.7,
+   "es": "Él se comporta como el C.E.Q.O.",
+   "id": 58,
+   "slot": 2.3,
+   "max_chars_pl": 32,
+   "pl": "Zachowuje się jak CEO"
+  },
+  {
+   "start": 197.7,
+   "end": 200.48,
+   "es": "de una multinacional de las sombras.",
+   "id": 59,
+   "slot": 2.7,
+   "max_chars_pl": 37,
+   "pl": "wielonarodowej korporacji cieni."
+  },
+  {
+   "start": 200.48,
+   "end": 202.9,
+   "es": "Mientras el mundo entero estaba hipnotizado",
+   "id": 60,
+   "slot": 2.34,
+   "max_chars_pl": 32,
+   "pl": "Gdy cały świat był zahipnotyzowany"
+  },
+  {
+   "start": 202.9,
+   "end": 206.48,
+   "es": "por las fugas espectaculares de Joaquín Guzmán Loera,",
+   "id": 61,
+   "slot": 3.5,
+   "max_chars_pl": 49,
+   "pl": "spektakularnymi ucieczkami Joaquína Guzmána Loery,"
+  },
+  {
+   "start": 206.48,
+   "end": 208.5,
+   "es": "por sus túneles cinematográficos",
+   "id": 62,
+   "slot": 1.94,
+   "max_chars_pl": 27,
+   "pl": "jego filmowymi tunelami"
+  },
+  {
+   "start": 208.5,
+   "end": 211.0,
+   "es": "y su obsesiva necesidad de reconocimiento",
+   "id": 63,
+   "slot": 2.42,
+   "max_chars_pl": 33,
+   "pl": "i obsesyjną potrzebą uznania,"
+  },
+  {
+   "start": 211.0,
+   "end": 213.98,
+   "es": "que lo llevó a buscar entrevistas con Hollywood,",
+   "id": 64,
+   "slot": 2.9,
+   "max_chars_pl": 40,
+   "pl": "która kazała mu szukać wywiadów z Hollywood,"
+  },
+  {
+   "start": 213.98,
+   "end": 216.22,
+   "es": "Isidro estaba en el norte de Sinaloa",
+   "id": 65,
+   "slot": 2.16,
+   "max_chars_pl": 30,
+   "pl": "Isidro był w północnym Sinaloa"
+  },
+  {
+   "start": 216.22,
+   "end": 219.16,
+   "es": "haciendo algo mucho más inteligente.",
+   "id": 66,
+   "slot": 2.86,
+   "max_chars_pl": 40,
+   "pl": "i robił coś o wiele mądrzejszego."
+  },
+  {
+   "start": 219.16,
+   "end": 222.6,
+   "es": "Estaba construyendo un muro de acero invisible.",
+   "id": 67,
+   "slot": 3.36,
+   "max_chars_pl": 47,
+   "pl": "Budował niewidzialny stalowy mur."
+  },
+  {
+   "start": 222.6,
+   "end": 225.0,
+   "es": "Él no perdió tiempo en relaciones públicas",
+   "id": 68,
+   "slot": 2.32,
+   "max_chars_pl": 32,
+   "pl": "Nie tracił czasu na public relations"
+  },
+  {
+   "start": 225.0,
+   "end": 227.5,
+   "es": "ni en guerras de egos por ver quién aparecía",
+   "id": 69,
+   "slot": 2.42,
+   "max_chars_pl": 33,
+   "pl": "ani na wojny ego o to, kto pojawi się"
+  },
+  {
+   "start": 227.5,
+   "end": 230.08,
+   "es": "en las portadas de los periódicos.",
+   "id": 70,
+   "slot": 2.5,
+   "max_chars_pl": 35,
+   "pl": "na pierwszych stronach gazet."
+  },
+  {
+   "start": 230.08,
+   "end": 232.4,
+   "es": "Su enfoque fue siempre la fortificación",
+   "id": 71,
+   "slot": 2.24,
+   "max_chars_pl": 31,
+   "pl": "Jego celem zawsze było ufortyfikowanie"
+  },
+  {
+   "start": 232.4,
+   "end": 234.36,
+   "es": "de un territorio absoluto,",
+   "id": 72,
+   "slot": 1.88,
+   "max_chars_pl": 26,
+   "pl": "absolutnego terytorium,"
+  },
+  {
+   "start": 234.36,
+   "end": 236.8,
+   "es": "convirtiendo a Guasave en una zona de silencio",
+   "id": 73,
+   "slot": 2.36,
+   "max_chars_pl": 33,
+   "pl": "zamieniając Guasave w strefę ciszy,"
+  },
+  {
+   "start": 236.8,
+   "end": 240.06,
+   "es": "donde no vuela una mosca sin que él lo sepa",
+   "id": 74,
+   "slot": 3.18,
+   "max_chars_pl": 44,
+   "pl": "gdzie mucha nie przeleci bez jego wiedzy,"
+  },
+  {
+   "start": 240.06,
+   "end": 241.9,
+   "es": "y profesionalizando una logística",
+   "id": 75,
+   "slot": 1.76,
+   "max_chars_pl": 24,
+   "pl": "i profesjonalizacja logistyki,"
+  },
+  {
+   "start": 241.9,
+   "end": 245.12,
+   "es": "que mueve toneladas de fentanilo y metanfetamina",
+   "id": 76,
+   "slot": 3.14,
+   "max_chars_pl": 43,
+   "pl": "która przewozi tony fentanylu i metamfetaminy"
+  },
+  {
+   "start": 245.12,
+   "end": 249.1,
+   "es": "con la precisión de una empresa de mensajería global.",
+   "id": 77,
+   "slot": 3.9,
+   "max_chars_pl": 54,
+   "pl": "z precyzją globalnej firmy kurierskiej."
+  },
+  {
+   "start": 249.1,
+   "end": 252.32,
+   "es": "Este hombre es un sobreviviente por diseño.",
+   "id": 78,
+   "slot": 3.14,
+   "max_chars_pl": 43,
+   "pl": "Ten człowiek jest ocalałym z założenia."
+  },
+  {
+   "start": 252.32,
+   "end": 254.6,
+   "es": "El resultado de una educación brutal",
+   "id": 79,
+   "slot": 2.2,
+   "max_chars_pl": 30,
+   "pl": "Owocem brutalnej edukacji,"
+  },
+  {
+   "start": 254.6,
+   "end": 258.68,
+   "es": "en la que vio caer a todos y cada uno de sus maestros.",
+   "id": 80,
+   "slot": 4.0,
+   "max_chars_pl": 56,
+   "pl": "w której widział upadek każdego ze swoich nauczycieli."
+  },
+  {
+   "start": 258.68,
+   "end": 262.1,
+   "es": "Observó cómo la soberbia y el deseo de ser reconocidos",
+   "id": 81,
+   "slot": 3.34,
+   "max_chars_pl": 46,
+   "pl": "Obserwował, jak duma i pragnienie uznania"
+  },
+  {
+   "start": 262.1,
+   "end": 265.34,
+   "es": "terminaron por destruir a los hermanos Beltrán Leyva,",
+   "id": 82,
+   "slot": 3.16,
+   "max_chars_pl": 44,
+   "pl": "zniszczyły braci Beltrán Leyva,"
+  },
+  {
+   "start": 265.34,
+   "end": 268.04,
+   "es": "sus mentores originales.",
+   "id": 83,
+   "slot": 2.62,
+   "max_chars_pl": 36,
+   "pl": "jego pierwotnych mentorów."
+  },
+  {
+   "start": 268.04,
+   "end": 271.2,
+   "es": "Analizó cómo la necesidad de ser amado por el pueblo",
+   "id": 84,
+   "slot": 3.08,
+   "max_chars_pl": 43,
+   "pl": "Analizował, jak potrzeba bycia kochanym przez lud"
+  },
+  {
+   "start": 271.2,
+   "end": 273.04,
+   "es": "y temido por el gobierno",
+   "id": 85,
+   "slot": 1.76,
+   "max_chars_pl": 24,
+   "pl": "i obawianym przez rząd"
+  },
+  {
+   "start": 273.04,
+   "end": 276.86,
+   "es": "terminó por enjaular de por vida al chapo Guzmán.",
+   "id": 86,
+   "slot": 3.74,
+   "max_chars_pl": 52,
+   "pl": "doprowadziła do dożywotniego uwięzienia El Chapo Guzmána."
+  },
+  {
+   "start": 276.86,
+   "end": 278.6,
+   "es": "Isidro aprendió la lección",
+   "id": 87,
+   "slot": 1.66,
+   "max_chars_pl": 23,
+   "pl": "Isidro nauczył się najtrudniejszej"
+  },
+  {
+   "start": 278.6,
+   "end": 281.26,
+   "es": "más difícil de la carrera criminal.",
+   "id": 88,
+   "slot": 2.58,
+   "max_chars_pl": 36,
+   "pl": "lekcji w karierze przestępczej."
+  },
+  {
+   "start": 281.26,
+   "end": 284.48,
+   "es": "El error más letal es el error del ego.",
+   "id": 89,
+   "slot": 3.14,
+   "max_chars_pl": 43,
+   "pl": "Najbardziej śmiertelnym błędem jest błąd ego."
+  },
+  {
+   "start": 284.48,
+   "end": 286.2,
+   "es": "El ego es esa voz interna",
+   "id": 90,
+   "slot": 1.64,
+   "max_chars_pl": 22,
+   "pl": "Ego to ten wewnętrzny głos,"
+  },
+  {
+   "start": 286.2,
+   "end": 288.2,
+   "es": "que te obliga a conducir un Lamborghini",
+   "id": 91,
+   "slot": 1.92,
+   "max_chars_pl": 26,
+   "pl": "który każe ci jeździć Lamborghini"
+  },
+  {
+   "start": 288.2,
+   "end": 289.8,
+   "es": "por un pueblo de terracería",
+   "id": 92,
+   "slot": 1.52,
+   "max_chars_pl": 21,
+   "pl": "przez wioskę z polnymi drogami,"
+  },
+  {
+   "start": 289.8,
+   "end": 292.36,
+   "es": "donde la gente no tiene qué comer.",
+   "id": 93,
+   "slot": 2.48,
+   "max_chars_pl": 34,
+   "pl": "gdzie ludzie nie mają co jeść."
+  },
+  {
+   "start": 292.36,
+   "end": 294.1,
+   "es": "El ego es lo que te hace querer",
+   "id": 94,
+   "slot": 1.66,
+   "max_chars_pl": 23,
+   "pl": "Ego sprawia, że chcesz,"
+  },
+  {
+   "start": 294.1,
+   "end": 296.32,
+   "es": "que el mundo sepa tu nombre.",
+   "id": 95,
+   "slot": 2.14,
+   "max_chars_pl": 29,
+   "pl": "by świat znał twoje nazwisko."
+  },
+  {
+   "start": 296.32,
+   "end": 297.42,
+   "es": "Y en su mundo,",
+   "id": 96,
+   "slot": 1.02,
+   "max_chars_pl": 14,
+   "pl": "A w jego świecie,"
+  },
+  {
+   "start": 297.42,
+   "end": 299.62,
+   "es": "cuando el mundo sabe tu nombre,",
+   "id": 97,
+   "slot": 2.12,
+   "max_chars_pl": 29,
+   "pl": "gdy świat zna twoje nazwisko,"
+  },
+  {
+   "start": 299.62,
+   "end": 303.16,
+   "es": "ya tiene una etiqueta que ponerle a tu expediente.",
+   "id": 98,
+   "slot": 3.46,
+   "max_chars_pl": 48,
+   "pl": "ma już etykietę, którą przykleja do twojej teczki."
+  },
+  {
+   "start": 303.16,
+   "end": 305.38,
+   "es": "En pleno 2026,",
+   "id": 99,
+   "slot": 2.14,
+   "max_chars_pl": 29,
+   "pl": "W 2026 roku"
+  },
+  {
+   "start": 305.38,
+   "end": 306.8,
+   "es": "vivir como un fantasma",
+   "id": 100,
+   "slot": 1.34,
+   "max_chars_pl": 18,
+   "pl": "życie jak duch"
+  },
+  {
+   "start": 306.8,
+   "end": 309.08,
+   "es": "parece una misión imposible.",
+   "id": 101,
+   "slot": 2.2,
+   "max_chars_pl": 30,
+   "pl": "wydaje się misją niemożliwą."
+  },
+  {
+   "start": 309.08,
+   "end": 312.52,
+   "es": "Y eso es precisamente lo que eleva la figura de Isidro",
+   "id": 102,
+   "slot": 3.36,
+   "max_chars_pl": 47,
+   "pl": "I właśnie to wynosi postać Isidro"
+  },
+  {
+   "start": 312.52,
+   "end": 314.9,
+   "es": "a un nivel legendario.",
+   "id": 103,
+   "slot": 2.3,
+   "max_chars_pl": 32,
+   "pl": "na poziom legendarny."
+  },
+  {
+   "start": 314.9,
+   "end": 317.0,
+   "es": "En una era donde estamos hiperconectados",
+   "id": 104,
+   "slot": 2.02,
+   "max_chars_pl": 28,
+   "pl": "W epoce, gdy jesteśmy hiperpołączeni"
+  },
+  {
+   "start": 317.0,
+   "end": 319.04,
+   "es": "y rastreados por satélites,",
+   "id": 105,
+   "slot": 1.96,
+   "max_chars_pl": 27,
+   "pl": "i śledzeni przez satelity,"
+  },
+  {
+   "start": 319.04,
+   "end": 321.0,
+   "es": "él ha logrado mantener su existencia",
+   "id": 106,
+   "slot": 1.88,
+   "max_chars_pl": 26,
+   "pl": "udało mu się zachować swoje istnienie"
+  },
+  {
+   "start": 321.0,
+   "end": 323.62,
+   "es": "en una cápsula del tiempo analógica.",
+   "id": 107,
+   "slot": 2.54,
+   "max_chars_pl": 35,
+   "pl": "w analogowej kapsule czasu."
+  },
+  {
+   "start": 323.62,
+   "end": 326.26,
+   "es": "No utiliza aplicaciones de mensajería,",
+   "id": 108,
+   "slot": 2.56,
+   "max_chars_pl": 35,
+   "pl": "Nie używa komunikatorów,"
+  },
+  {
+   "start": 326.26,
+   "end": 327.88,
+   "es": "no tiene huella digital",
+   "id": 109,
+   "slot": 1.54,
+   "max_chars_pl": 21,
+   "pl": "nie ma cyfrowego śladu,"
+  },
+  {
+   "start": 327.88,
+   "end": 330.24,
+   "es": "y sus únicas imágenes conocidas son",
+   "id": 110,
+   "slot": 2.28,
+   "max_chars_pl": 31,
+   "pl": "a jego jedyne znane zdjęcia są"
+  },
+  {
+   "start": 330.24,
+   "end": 332.68,
+   "es": "granuladas, borrosas,",
+   "id": 111,
+   "slot": 2.36,
+   "max_chars_pl": 33,
+   "pl": "ziarniste, rozmazane,"
+  },
+  {
+   "start": 332.68,
+   "end": 333.7,
+   "es": "recuerdos de un hombre",
+   "id": 112,
+   "slot": 0.94,
+   "max_chars_pl": 13,
+   "pl": "wspomnienia człowieka,"
+  },
+  {
+   "start": 333.7,
+   "end": 335.98,
+   "es": "que parece haber muerto hace décadas,",
+   "id": 113,
+   "slot": 2.2,
+   "max_chars_pl": 30,
+   "pl": "który zdaje się nie żyć od dziesięcioleci,"
+  },
+  {
+   "start": 335.98,
+   "end": 339.16,
+   "es": "pero que hoy controla más hilos que nunca.",
+   "id": 114,
+   "slot": 3.1,
+   "max_chars_pl": 43,
+   "pl": "ale dziś kontroluje więcej nitek niż kiedykolwiek."
+  },
+  {
+   "start": 339.16,
+   "end": 341.0,
+   "es": "Ha convertido su invisibilidad",
+   "id": 115,
+   "slot": 1.76,
+   "max_chars_pl": 24,
+   "pl": "Swoją niewidzialność zamienił"
+  },
+  {
+   "start": 341.0,
+   "end": 343.48,
+   "es": "en su activo financiero más grande.",
+   "id": 116,
+   "slot": 2.4,
+   "max_chars_pl": 33,
+   "pl": "w największy majątek finansowy."
+  },
+  {
+   "start": 343.48,
+   "end": 345.7,
+   "es": "Al no gastar en lujos rastreables",
+   "id": 117,
+   "slot": 2.14,
+   "max_chars_pl": 29,
+   "pl": "Nie wydając na luksusy, które można wyśledzić,"
+  },
+  {
+   "start": 345.7,
+   "end": 347.76,
+   "es": "ni en propiedades ostentosas,",
+   "id": 118,
+   "slot": 1.98,
+   "max_chars_pl": 27,
+   "pl": "ani na ostentacyjne nieruchomości,"
+  },
+  {
+   "start": 347.76,
+   "end": 350.62,
+   "es": "su capital líquido es incalculable.",
+   "id": 119,
+   "slot": 2.78,
+   "max_chars_pl": 38,
+   "pl": "jego płynny kapitał jest nie do oszacowania."
+  },
+  {
+   "start": 350.62,
+   "end": 353.1,
+   "es": "Tiene el poder de comprar ejércitos enteros",
+   "id": 120,
+   "slot": 2.4,
+   "max_chars_pl": 33,
+   "pl": "Ma moc kupienia całych armii,"
+  },
+  {
+   "start": 353.1,
+   "end": 355.0,
+   "es": "porque no desperdició su fortuna",
+   "id": 121,
+   "slot": 1.82,
+   "max_chars_pl": 25,
+   "pl": "bo nie roztrwonił fortuny"
+  },
+  {
+   "start": 355.0,
+   "end": 357.38,
+   "es": "en banquetes para mil invitados",
+   "id": 122,
+   "slot": 2.3,
+   "max_chars_pl": 32,
+   "pl": "na bankiety dla tysiąca gości"
+  },
+  {
+   "start": 357.38,
+   "end": 359.5,
+   "es": "o en mansiones que la ley confiscaría",
+   "id": 123,
+   "slot": 2.04,
+   "max_chars_pl": 28,
+   "pl": "ani na rezydencje, które prawo skonfiskowałoby"
+  },
+  {
+   "start": 359.5,
+   "end": 362.06,
+   "es": "en un abrir y cerrar de ojos.",
+   "id": 124,
+   "slot": 2.48,
+   "max_chars_pl": 34,
+   "pl": "w mgnieniu oka."
+  },
+  {
+   "start": 362.06,
+   "end": 364.5,
+   "es": "Él es el dueño de lo que no se ve.",
+   "id": 125,
+   "slot": 2.36,
+   "max_chars_pl": 33,
+   "pl": "On jest właścicielem tego, czego nie widać."
+  },
+  {
+   "start": 364.5,
+   "end": 366.0,
+   "es": "El arquitecto de un imperio",
+   "id": 126,
+   "slot": 1.42,
+   "max_chars_pl": 19,
+   "pl": "Architektem imperium,"
+  },
+  {
+   "start": 366.0,
+   "end": 368.2,
+   "es": "que opera bajo el amparo de la oscuridad",
+   "id": 127,
+   "slot": 2.12,
+   "max_chars_pl": 29,
+   "pl": "które działa pod osłoną ciemności,"
+  },
+  {
+   "start": 368.2,
+   "end": 370.24,
+   "es": "que él mismo diseñó.",
+   "id": 128,
+   "slot": 1.96,
+   "max_chars_pl": 27,
+   "pl": "jaką sam zaprojektował."
+  },
+  {
+   "start": 370.24,
+   "end": 373.9,
+   "es": "Convencido de que si el mundo sabe que tienes algo,",
+   "id": 129,
+   "slot": 3.58,
+   "max_chars_pl": 50,
+   "pl": "Przekonany, że jeśli świat wie, że coś masz,"
+  },
+  {
+   "start": 373.9,
+   "end": 376.8,
+   "es": "ya has empezado a perderlo.",
+   "id": 130,
+   "slot": 2.82,
+   "max_chars_pl": 39,
+   "pl": "to już zacząłeś to tracić."
+  },
+  {
+   "start": 376.8,
+   "end": 379.66,
+   "es": "Para comprender la génesis de este espectro",
+   "id": 131,
+   "slot": 2.78,
+   "max_chars_pl": 38,
+   "pl": "Aby zrozumieć genezę tego widma,"
+  },
+  {
+   "start": 379.66,
+   "end": 381.6,
+   "es": "es necesario retroceder en el tiempo",
+   "id": 132,
+   "slot": 1.86,
+   "max_chars_pl": 26,
+   "pl": "trzeba cofnąć się w czasie"
+  },
+  {
+   "start": 381.6,
+   "end": 384.34,
+   "es": "hasta 1982",
+   "id": 133,
+   "slot": 2.66,
+   "max_chars_pl": 37,
+   "pl": "do 1982 roku"
+  },
+  {
+   "start": 384.34,
+   "end": 387.56,
+   "es": "en el corazón de Guasave, Sinaloa.",
+   "id": 134,
+   "slot": 3.14,
+   "max_chars_pl": 43,
+   "pl": "w serce Guasave w Sinaloa."
+  },
+  {
+   "start": 387.56,
+   "end": 389.0,
+   "es": "A diferencia de otros líderes",
+   "id": 135,
+   "slot": 1.36,
+   "max_chars_pl": 19,
+   "pl": "W przeciwieństwie do innych przywódców,"
+  },
+  {
+   "start": 389.0,
+   "end": 391.68,
+   "es": "que heredaron imperios con nombres de peso",
+   "id": 136,
+   "slot": 2.6,
+   "max_chars_pl": 36,
+   "pl": "którzy odziedziczyli imperia o wielkich nazwiskach"
+  },
+  {
+   "start": 391.68,
+   "end": 393.3,
+   "es": "o que nacieron en las llamadas",
+   "id": 137,
+   "slot": 1.54,
+   "max_chars_pl": 21,
+   "pl": "albo urodzili się w tak zwanych"
+  },
+  {
+   "start": 393.3,
+   "end": 395.82,
+   "es": "dinastías reales del narco,",
+   "id": 138,
+   "slot": 2.44,
+   "max_chars_pl": 34,
+   "pl": "królewskich dynastiach narkobiznesu,"
+  },
+  {
+   "start": 395.82,
+   "end": 398.0,
+   "es": "Fausto Isidro Mesaflores",
+   "id": 139,
+   "slot": 2.1,
+   "max_chars_pl": 29,
+   "pl": "Fausto Isidro Meza Flores"
+  },
+  {
+   "start": 398.0,
+   "end": 400.1,
+   "es": "comenzó su camino como un hombre común",
+   "id": 140,
+   "slot": 2.02,
+   "max_chars_pl": 28,
+   "pl": "zaczął swoją drogę jako zwykły człowiek"
+  },
+  {
+   "start": 400.1,
+   "end": 402.16,
+   "es": "en una tierra de reyes.",
+   "id": 141,
+   "slot": 1.98,
+   "max_chars_pl": 27,
+   "pl": "w krainie królów."
+  },
+  {
+   "start": 402.16,
+   "end": 404.88,
+   "es": "Guasave no era solo un punto en el mapa,",
+   "id": 142,
+   "slot": 2.64,
+   "max_chars_pl": 36,
+   "pl": "Guasave nie było tylko punktem na mapie,"
+  },
+  {
+   "start": 404.88,
+   "end": 406.6,
+   "es": "era un crisol de contrabandistas",
+   "id": 143,
+   "slot": 1.64,
+   "max_chars_pl": 22,
+   "pl": "było tyglem przemytników"
+  },
+  {
+   "start": 406.6,
+   "end": 408.6,
+   "es": "de la vieja escuela que estaban a punto",
+   "id": 144,
+   "slot": 1.92,
+   "max_chars_pl": 26,
+   "pl": "starej szkoły, którzy mieli właśnie"
+  },
+  {
+   "start": 408.6,
+   "end": 410.4,
+   "es": "de ser devorados por la nueva era",
+   "id": 145,
+   "slot": 1.72,
+   "max_chars_pl": 24,
+   "pl": "zostać pożarci przez nową erę"
+  },
+  {
+   "start": 410.4,
+   "end": 412.38,
+   "es": "de la hiperviolencia.",
+   "id": 146,
+   "slot": 1.9,
+   "max_chars_pl": 26,
+   "pl": "hiperprzemocy."
+  },
+  {
+   "start": 412.38,
+   "end": 413.84,
+   "es": "En ese entorno,",
+   "id": 147,
+   "slot": 1.38,
+   "max_chars_pl": 19,
+   "pl": "W tym otoczeniu,"
+  },
+  {
+   "start": 413.84,
+   "end": 415.3,
+   "es": "donde los jóvenes soñaban",
+   "id": 148,
+   "slot": 1.38,
+   "max_chars_pl": 19,
+   "pl": "gdzie młodzi marzyli"
+  },
+  {
+   "start": 415.3,
+   "end": 417.54,
+   "es": "con canciones compuestas en su honor",
+   "id": 149,
+   "slot": 2.16,
+   "max_chars_pl": 30,
+   "pl": "o piosenkach skomponowanych na ich cześć"
+  },
+  {
+   "start": 417.54,
+   "end": 420.7,
+   "es": "y camionetas que rugieran por las avenidas,",
+   "id": 150,
+   "slot": 3.08,
+   "max_chars_pl": 43,
+   "pl": "i pickupach ryczących na alejach,"
+  },
+  {
+   "start": 420.7,
+   "end": 423.58,
+   "es": "Isidro eligió una senda distinta,",
+   "id": 151,
+   "slot": 2.8,
+   "max_chars_pl": 39,
+   "pl": "Isidro wybrał inną ścieżkę,"
+  },
+  {
+   "start": 423.58,
+   "end": 426.18,
+   "es": "la del observador silencioso.",
+   "id": 152,
+   "slot": 2.52,
+   "max_chars_pl": 35,
+   "pl": "ścieżkę cichego obserwatora."
+  },
+  {
+   "start": 426.18,
+   "end": 427.7,
+   "es": "Mientras sus contemporáneos",
+   "id": 153,
+   "slot": 1.44,
+   "max_chars_pl": 20,
+   "pl": "Podczas gdy jego rówieśnicy"
+  },
+  {
+   "start": 427.7,
+   "end": 429.5,
+   "es": "se dejaban seducir por el brillo",
+   "id": 154,
+   "slot": 1.72,
+   "max_chars_pl": 24,
+   "pl": "dawali się uwodzić blaskowi"
+  },
+  {
+   "start": 429.5,
+   "end": 431.3,
+   "es": "del poder inmediato,",
+   "id": 155,
+   "slot": 1.72,
+   "max_chars_pl": 24,
+   "pl": "natychmiastowej władzy,"
+  },
+  {
+   "start": 431.3,
+   "end": 433.3,
+   "es": "él se dedicó a estudiar las grietas",
+   "id": 156,
+   "slot": 1.92,
+   "max_chars_pl": 26,
+   "pl": "on poświęcił się badaniu pęknięć"
+  },
+  {
+   "start": 433.3,
+   "end": 434.78,
+   "es": "del sistema,",
+   "id": 157,
+   "slot": 1.4,
+   "max_chars_pl": 19,
+   "pl": "systemu,"
+  },
+  {
+   "start": 434.78,
+   "end": 436.5,
+   "es": "analizando por qué los gigantes",
+   "id": 158,
+   "slot": 1.64,
+   "max_chars_pl": 22,
+   "pl": "analizując, dlaczego giganci"
+  },
+  {
+   "start": 436.5,
+   "end": 439.7,
+   "es": "caían mientras las sombras perduraban.",
+   "id": 159,
+   "slot": 3.12,
+   "max_chars_pl": 43,
+   "pl": "upadali, a cienie trwały."
+  },
+  {
+   "start": 439.7,
+   "end": 442.76,
+   "es": "Creció viendo cómo la antigua federación",
+   "id": 160,
+   "slot": 2.98,
+   "max_chars_pl": 41,
+   "pl": "Dorastał, patrząc, jak dawna federacja"
+  },
+  {
+   "start": 442.76,
+   "end": 444.36,
+   "es": "se despedazaba,",
+   "id": 161,
+   "slot": 1.52,
+   "max_chars_pl": 21,
+   "pl": "się rozpada,"
+  },
+  {
+   "start": 444.36,
+   "end": 445.5,
+   "es": "transformando a México",
+   "id": 162,
+   "slot": 1.06,
+   "max_chars_pl": 14,
+   "pl": "zamieniając Meksyk"
+  },
+  {
+   "start": 445.5,
+   "end": 448.74,
+   "es": "en un tablero de ajedrez ensangrentado.",
+   "id": 163,
+   "slot": 3.16,
+   "max_chars_pl": 44,
+   "pl": "w zakrwawioną szachownicę."
+  },
+  {
+   "start": 448.74,
+   "end": 450.46,
+   "es": "En esos años formativos,",
+   "id": 164,
+   "slot": 1.64,
+   "max_chars_pl": 22,
+   "pl": "W tych latach formacji"
+  },
+  {
+   "start": 450.46,
+   "end": 452.3,
+   "es": "Isidro no buscaba el protagonismo",
+   "id": 165,
+   "slot": 1.76,
+   "max_chars_pl": 24,
+   "pl": "Isidro nie szukał roli pierwszoplanowej"
+  },
+  {
+   "start": 452.3,
+   "end": 454.3,
+   "es": "de los gatilleros que gastaban su vida",
+   "id": 166,
+   "slot": 1.92,
+   "max_chars_pl": 26,
+   "pl": "płatnych zabójców, którzy zmarnowali życie"
+  },
+  {
+   "start": 454.3,
+   "end": 456.28,
+   "es": "en un solo tiroteo.",
+   "id": 167,
+   "slot": 1.9,
+   "max_chars_pl": 26,
+   "pl": "w jednej strzelaninie."
+  },
+  {
+   "start": 456.28,
+   "end": 458.44,
+   "es": "Él buscaba entender la logística,",
+   "id": 168,
+   "slot": 2.08,
+   "max_chars_pl": 29,
+   "pl": "Chciał zrozumieć logistykę,"
+  },
+  {
+   "start": 458.44,
+   "end": 460.3,
+   "es": "el control de las rutas",
+   "id": 169,
+   "slot": 1.78,
+   "max_chars_pl": 24,
+   "pl": "kontrolę szlaków"
+  },
+  {
+   "start": 460.3,
+   "end": 461.44,
+   "es": "y, sobre todo,",
+   "id": 170,
+   "slot": 1.06,
+   "max_chars_pl": 14,
+   "pl": "i przede wszystkim"
+  },
+  {
+   "start": 461.44,
+   "end": 464.06,
+   "es": "la psicología de la traición.",
+   "id": 171,
+   "slot": 2.54,
+   "max_chars_pl": 35,
+   "pl": "psychologię zdrady."
+  },
+  {
+   "start": 464.06,
+   "end": 465.6,
+   "es": "Esta mentalidad analítica",
+   "id": 172,
+   "slot": 1.46,
+   "max_chars_pl": 20,
+   "pl": "Ta analityczna mentalność"
+  },
+  {
+   "start": 465.6,
+   "end": 467.4,
+   "es": "fue lo que eventualmente lo llevó",
+   "id": 173,
+   "slot": 1.72,
+   "max_chars_pl": 24,
+   "pl": "ostatecznie zaprowadziła go"
+  },
+  {
+   "start": 467.4,
+   "end": 469.1,
+   "es": "a las filas de la organización",
+   "id": 174,
+   "slot": 1.62,
+   "max_chars_pl": 22,
+   "pl": "w szeregi organizacji"
+  },
+  {
+   "start": 469.1,
+   "end": 471.46,
+   "es": "de los hermanos Beltrán Leyva.",
+   "id": 175,
+   "slot": 2.28,
+   "max_chars_pl": 31,
+   "pl": "braci Beltrán Leyva."
+  },
+  {
+   "start": 471.46,
+   "end": 472.86,
+   "es": "En aquel entonces,",
+   "id": 176,
+   "slot": 1.32,
+   "max_chars_pl": 18,
+   "pl": "W tamtych czasach"
+  },
+  {
+   "start": 472.86,
+   "end": 476.18,
+   "es": "Arturo, Alfredo y Héctor Beltrán Leyva",
+   "id": 177,
+   "slot": 3.24,
+   "max_chars_pl": 45,
+   "pl": "Arturo, Alfredo i Héctor Beltrán Leyva"
+  },
+  {
+   "start": 476.18,
+   "end": 478.3,
+   "es": "eran los arquitectos del brazo armado",
+   "id": 178,
+   "slot": 2.04,
+   "max_chars_pl": 28,
+   "pl": "byli architektami ramienia zbrojnego"
+  },
+  {
+   "start": 478.3,
+   "end": 481.1,
+   "es": "y financiero más sofisticado del país,",
+   "id": 179,
+   "slot": 2.72,
+   "max_chars_pl": 38,
+   "pl": "i finansowego, najbardziej wyrafinowanego w kraju,"
+  },
+  {
+   "start": 481.1,
+   "end": 482.5,
+   "es": "pero vivían bajo la sombra",
+   "id": 180,
+   "slot": 1.32,
+   "max_chars_pl": 18,
+   "pl": "ale żyli w cieniu"
+  },
+  {
+   "start": 482.5,
+   "end": 484.1,
+   "es": "de su primo y aliado,",
+   "id": 181,
+   "slot": 1.52,
+   "max_chars_pl": 21,
+   "pl": "swojego kuzyna i sojusznika,"
+  },
+  {
+   "start": 484.1,
+   "end": 486.78,
+   "es": "Joaquín Guzmán Loera.",
+   "id": 182,
+   "slot": 2.6,
+   "max_chars_pl": 36,
+   "pl": "Joaquína Guzmána Loery."
+  },
+  {
+   "start": 486.78,
+   "end": 488.4,
+   "es": "Isidro entró en este mundo",
+   "id": 183,
+   "slot": 1.54,
+   "max_chars_pl": 21,
+   "pl": "Isidro wszedł w ten świat"
+  },
+  {
+   "start": 488.4,
+   "end": 490.1,
+   "es": "no como un heredero,",
+   "id": 184,
+   "slot": 1.62,
+   "max_chars_pl": 22,
+   "pl": "nie jako spadkobierca,"
+  },
+  {
+   "start": 490.1,
+   "end": 492.98,
+   "es": "sino como un activo de alta precisión,",
+   "id": 185,
+   "slot": 2.8,
+   "max_chars_pl": 39,
+   "pl": "lecz jako atut wysokiej precyzji,"
+  },
+  {
+   "start": 492.98,
+   "end": 494.4,
+   "es": "alguien que sabía escuchar",
+   "id": 186,
+   "slot": 1.34,
+   "max_chars_pl": 18,
+   "pl": "ktoś, kto umiał słuchać"
+  },
+  {
+   "start": 494.4,
+   "end": 495.64,
+   "es": "más de lo que hablaba",
+   "id": 187,
+   "slot": 1.16,
+   "max_chars_pl": 16,
+   "pl": "więcej, niż mówił,"
+  },
+  {
+   "start": 495.64,
+   "end": 497.3,
+   "es": "y cuya lealtad no se basaba",
+   "id": 188,
+   "slot": 1.58,
+   "max_chars_pl": 22,
+   "pl": "a jego lojalność nie opierała się"
+  },
+  {
+   "start": 497.3,
+   "end": 498.54,
+   "es": "en el fanatismo,",
+   "id": 189,
+   "slot": 1.16,
+   "max_chars_pl": 16,
+   "pl": "na fanatyzmie,"
+  },
+  {
+   "start": 498.54,
+   "end": 500.5,
+   "es": "sino en una visión estratégica",
+   "id": 190,
+   "slot": 1.88,
+   "max_chars_pl": 26,
+   "pl": "lecz na strategicznej wizji"
+  },
+  {
+   "start": 500.5,
+   "end": 502.16,
+   "es": "del negocio.",
+   "id": 191,
+   "slot": 1.58,
+   "max_chars_pl": 22,
+   "pl": "biznesu."
+  },
+  {
+   "start": 502.16,
+   "end": 504.0,
+   "es": "El punto de ruptura definitivo",
+   "id": 192,
+   "slot": 1.76,
+   "max_chars_pl": 24,
+   "pl": "Ostateczny punkt zwrotny"
+  },
+  {
+   "start": 504.0,
+   "end": 505.92,
+   "es": "llegó en 2008,",
+   "id": 193,
+   "slot": 1.84,
+   "max_chars_pl": 25,
+   "pl": "nastąpił w 2008 roku,"
+  },
+  {
+   "start": 505.92,
+   "end": 506.9,
+   "es": "cuando la guerra civil",
+   "id": 194,
+   "slot": 0.9,
+   "max_chars_pl": 12,
+   "pl": "gdy wojna domowa"
+  },
+  {
+   "start": 506.9,
+   "end": 508.3,
+   "es": "entre los Beltrán Leyva",
+   "id": 195,
+   "slot": 1.32,
+   "max_chars_pl": 18,
+   "pl": "między Beltránami Leyvami"
+  },
+  {
+   "start": 508.3,
+   "end": 510.06,
+   "es": "y el Cártel de Sinaloa",
+   "id": 196,
+   "slot": 1.68,
+   "max_chars_pl": 23,
+   "pl": "a Kartelem z Sinaloa"
+  },
+  {
+   "start": 510.06,
+   "end": 511.84,
+   "es": "fracturó el país.",
+   "id": 197,
+   "slot": 1.7,
+   "max_chars_pl": 23,
+   "pl": "rozdarła kraj."
+  },
+  {
+   "start": 511.84,
+   "end": 512.6,
+   "es": "Fue un conflicto",
+   "id": 198,
+   "slot": 0.68,
+   "max_chars_pl": 9,
+   "pl": "To był konflikt"
+  },
+  {
+   "start": 512.6,
+   "end": 514.98,
+   "es": "de una brutalidad sin precedentes",
+   "id": 199,
+   "slot": 2.3,
+   "max_chars_pl": 32,
+   "pl": "o niespotykanej brutalności,"
+  },
+  {
+   "start": 514.98,
+   "end": 516.5,
+   "es": "que redefinió las lealtades",
+   "id": 200,
+   "slot": 1.44,
+   "max_chars_pl": 20,
+   "pl": "który na nowo zdefiniował lojalności"
+  },
+  {
+   "start": 516.5,
+   "end": 519.12,
+   "es": "en cada rincón de la sierra.",
+   "id": 201,
+   "slot": 2.54,
+   "max_chars_pl": 35,
+   "pl": "w każdym zakątku gór."
+  },
+  {
+   "start": 519.12,
+   "end": 520.7,
+   "es": "Isidro, joven",
+   "id": 202,
+   "slot": 1.5,
+   "max_chars_pl": 21,
+   "pl": "Isidro, młody,"
+  },
+  {
+   "start": 520.7,
+   "end": 522.5,
+   "es": "pero ya con el colmillo retorcido",
+   "id": 203,
+   "slot": 1.72,
+   "max_chars_pl": 24,
+   "pl": "ale już z krzywym kłem"
+  },
+  {
+   "start": 522.5,
+   "end": 523.7,
+   "es": "de quien ha sobrevivido",
+   "id": 204,
+   "slot": 1.12,
+   "max_chars_pl": 15,
+   "pl": "kogoś, kto przetrwał"
+  },
+  {
+   "start": 523.7,
+   "end": 525.56,
+   "es": "a múltiples purgas,",
+   "id": 205,
+   "slot": 1.78,
+   "max_chars_pl": 24,
+   "pl": "wiele czystek,"
+  },
+  {
+   "start": 525.56,
+   "end": 526.9,
+   "es": "se mantuvo firme al lado",
+   "id": 206,
+   "slot": 1.26,
+   "max_chars_pl": 17,
+   "pl": "stał twardo u boku"
+  },
+  {
+   "start": 526.9,
+   "end": 528.44,
+   "es": "de los Beltrán.",
+   "id": 207,
+   "slot": 1.46,
+   "max_chars_pl": 20,
+   "pl": "Beltránów."
+  },
+  {
+   "start": 528.44,
+   "end": 529.74,
+   "es": "Sin embargo,",
+   "id": 208,
+   "slot": 1.22,
+   "max_chars_pl": 17,
+   "pl": "Jednak"
+  },
+  {
+   "start": 529.74,
+   "end": 531.1,
+   "es": "su verdadera epifanía",
+   "id": 209,
+   "slot": 1.28,
+   "max_chars_pl": 17,
+   "pl": "jego prawdziwe oświecenie"
+  },
+  {
+   "start": 531.1,
+   "end": 533.6,
+   "es": "ocurrió en diciembre de 2009",
+   "id": 210,
+   "slot": 2.42,
+   "max_chars_pl": 33,
+   "pl": "nastąpiło w grudniu 2009 roku"
+  },
+  {
+   "start": 533.6,
+   "end": 535.2,
+   "es": "en un complejo de apartamentos",
+   "id": 211,
+   "slot": 1.52,
+   "max_chars_pl": 21,
+   "pl": "w luksusowym kompleksie apartamentów"
+  },
+  {
+   "start": 535.2,
+   "end": 537.22,
+   "es": "de lujo en Cuernavaca.",
+   "id": 212,
+   "slot": 1.94,
+   "max_chars_pl": 27,
+   "pl": "w Cuernavaca."
+  },
+  {
+   "start": 537.22,
+   "end": 538.18,
+   "es": "Allí,",
+   "id": 213,
+   "slot": 0.88,
+   "max_chars_pl": 12,
+   "pl": "Tam,"
+  },
+  {
+   "start": 538.18,
+   "end": 539.6,
+   "es": "tras un enfrentamiento feroz",
+   "id": 214,
+   "slot": 1.34,
+   "max_chars_pl": 18,
+   "pl": "po zaciekłej wymianie ognia"
+  },
+  {
+   "start": 539.6,
+   "end": 541.86,
+   "es": "con los marinos mexicanos,",
+   "id": 215,
+   "slot": 2.18,
+   "max_chars_pl": 30,
+   "pl": "z meksykańskimi marynarzami,"
+  },
+  {
+   "start": 541.86,
+   "end": 544.12,
+   "es": "cayó Arturo Beltrán Leyva,",
+   "id": 216,
+   "slot": 2.18,
+   "max_chars_pl": 30,
+   "pl": "padł Arturo Beltrán Leyva,"
+  },
+  {
+   "start": 544.12,
+   "end": 545.6,
+   "es": "el barbas.",
+   "id": 217,
+   "slot": 1.4,
+   "max_chars_pl": 19,
+   "pl": "El Barbas."
+  },
+  {
+   "start": 545.6,
+   "end": 546.8,
+   "es": "La imagen que recorrió",
+   "id": 218,
+   "slot": 1.12,
+   "max_chars_pl": 15,
+   "pl": "Obraz, który obiegł"
+  },
+  {
+   "start": 546.8,
+   "end": 547.9,
+   "es": "el mundo aquel día",
+   "id": 219,
+   "slot": 1.02,
+   "max_chars_pl": 14,
+   "pl": "świat tamtego dnia,"
+  },
+  {
+   "start": 547.9,
+   "end": 549.3,
+   "es": "quedó grabada en el cerebro",
+   "id": 220,
+   "slot": 1.32,
+   "max_chars_pl": 18,
+   "pl": "wyrył się w mózgu"
+  },
+  {
+   "start": 549.3,
+   "end": 549.9,
+   "es": "de Isidro",
+   "id": 221,
+   "slot": 0.52,
+   "max_chars_pl": 7,
+   "pl": "Isidro"
+  },
+  {
+   "start": 549.9,
+   "end": 552.62,
+   "es": "como una advertencia definitiva.",
+   "id": 222,
+   "slot": 2.64,
+   "max_chars_pl": 36,
+   "pl": "jako ostateczne ostrzeżenie."
+  },
+  {
+   "start": 552.62,
+   "end": 554.38,
+   "es": "El cuerpo de su líder,",
+   "id": 223,
+   "slot": 1.68,
+   "max_chars_pl": 23,
+   "pl": "Ciało jego przywódcy,"
+  },
+  {
+   "start": 554.38,
+   "end": 556.32,
+   "es": "otrora todopoderoso,",
+   "id": 224,
+   "slot": 1.86,
+   "max_chars_pl": 26,
+   "pl": "niegdyś wszechpotężnego,"
+  },
+  {
+   "start": 556.32,
+   "end": 559.0,
+   "es": "yacía acribillado y humillado,",
+   "id": 225,
+   "slot": 2.6,
+   "max_chars_pl": 36,
+   "pl": "leżało podziurawione i upokorzone,"
+  },
+  {
+   "start": 559.0,
+   "end": 560.2,
+   "es": "cubierto de billetes",
+   "id": 226,
+   "slot": 1.12,
+   "max_chars_pl": 15,
+   "pl": "pokryte zakrwawionymi"
+  },
+  {
+   "start": 560.2,
+   "end": 561.72,
+   "es": "ensangrentados",
+   "id": 227,
+   "slot": 1.44,
+   "max_chars_pl": 20,
+   "pl": "banknotami"
+  },
+  {
+   "start": 561.72,
+   "end": 563.0,
+   "es": "y joyas que no sirvieron",
+   "id": 228,
+   "slot": 1.2,
+   "max_chars_pl": 16,
+   "pl": "i klejnotami, które na nic się nie zdały"
+  },
+  {
+   "start": 563.0,
+   "end": 565.66,
+   "es": "de nada frente al plomo.",
+   "id": 229,
+   "slot": 2.58,
+   "max_chars_pl": 36,
+   "pl": "wobec ołowiu."
+  },
+  {
+   "start": 565.66,
+   "end": 567.18,
+   "es": "En ese momento,",
+   "id": 230,
+   "slot": 1.44,
+   "max_chars_pl": 20,
+   "pl": "W tym momencie"
+  },
+  {
+   "start": 567.18,
+   "end": 568.2,
+   "es": "Isidro comprendió",
+   "id": 231,
+   "slot": 0.94,
+   "max_chars_pl": 13,
+   "pl": "Isidro zrozumiał,"
+  },
+  {
+   "start": 568.2,
+   "end": 569.1,
+   "es": "que la ostentación",
+   "id": 232,
+   "slot": 0.82,
+   "max_chars_pl": 11,
+   "pl": "że ostentacja"
+  },
+  {
+   "start": 569.1,
+   "end": 570.6,
+   "es": "no era poder,",
+   "id": 233,
+   "slot": 1.42,
+   "max_chars_pl": 19,
+   "pl": "nie jest władzą,"
+  },
+  {
+   "start": 570.6,
+   "end": 572.0,
+   "es": "sino un blanco pintado",
+   "id": 234,
+   "slot": 1.32,
+   "max_chars_pl": 18,
+   "pl": "lecz tarczą namalowaną"
+  },
+  {
+   "start": 572.0,
+   "end": 573.4,
+   "es": "en la espalda.",
+   "id": 235,
+   "slot": 1.32,
+   "max_chars_pl": 18,
+   "pl": "na plecach."
+  },
+  {
+   "start": 573.4,
+   "end": 574.5,
+   "es": "Decidió entonces",
+   "id": 236,
+   "slot": 1.02,
+   "max_chars_pl": 14,
+   "pl": "Postanowił wtedy,"
+  },
+  {
+   "start": 574.5,
+   "end": 575.5,
+   "es": "que él nunca sería",
+   "id": 237,
+   "slot": 0.92,
+   "max_chars_pl": 12,
+   "pl": "że nigdy nie będzie"
+  },
+  {
+   "start": 575.5,
+   "end": 577.86,
+   "es": "el trofeo de una foto policial",
+   "id": 238,
+   "slot": 2.28,
+   "max_chars_pl": 31,
+   "pl": "trofeum policyjnego zdjęcia"
+  },
+  {
+   "start": 577.86,
+   "end": 579.0,
+   "es": "ni el protagonista",
+   "id": 239,
+   "slot": 1.06,
+   "max_chars_pl": 14,
+   "pl": "ani bohaterem"
+  },
+  {
+   "start": 579.0,
+   "end": 580.5,
+   "es": "de un despliegue mediático",
+   "id": 240,
+   "slot": 1.42,
+   "max_chars_pl": 19,
+   "pl": "medialnego spektaklu"
+  },
+  {
+   "start": 580.5,
+   "end": 582.32,
+   "es": "de las autoridades.",
+   "id": 241,
+   "slot": 1.74,
+   "max_chars_pl": 24,
+   "pl": "władz."
+  },
+  {
+   "start": 582.32,
+   "end": 584.14,
+   "es": "Tras la muerte de Arturo,",
+   "id": 242,
+   "slot": 1.74,
+   "max_chars_pl": 24,
+   "pl": "Po śmierci Arturo"
+  },
+  {
+   "start": 584.14,
+   "end": 584.9,
+   "es": "la organización",
+   "id": 243,
+   "slot": 0.68,
+   "max_chars_pl": 9,
+   "pl": "organizacja"
+  },
+  {
+   "start": 584.9,
+   "end": 586.24,
+   "es": "de los Beltrán Leyva",
+   "id": 244,
+   "slot": 1.26,
+   "max_chars_pl": 17,
+   "pl": "Beltránów Leyvów"
+  },
+  {
+   "start": 586.24,
+   "end": 588.9,
+   "es": "entró en una espiral de caos.",
+   "id": 245,
+   "slot": 2.58,
+   "max_chars_pl": 36,
+   "pl": "wpadła w spiralę chaosu."
+  },
+  {
+   "start": 588.9,
+   "end": 590.96,
+   "es": "La mayoría de los lugartenientes,",
+   "id": 246,
+   "slot": 1.98,
+   "max_chars_pl": 27,
+   "pl": "Większość poruczników,"
+  },
+  {
+   "start": 590.96,
+   "end": 592.76,
+   "es": "presas del pánico,",
+   "id": 247,
+   "slot": 1.72,
+   "max_chars_pl": 24,
+   "pl": "w panice,"
+  },
+  {
+   "start": 592.76,
+   "end": 593.9,
+   "es": "se dedicaron a pelear",
+   "id": 248,
+   "slot": 1.06,
+   "max_chars_pl": 14,
+   "pl": "walczyła"
+  },
+  {
+   "start": 593.9,
+   "end": 595.96,
+   "es": "por las obras del imperio,",
+   "id": 249,
+   "slot": 1.98,
+   "max_chars_pl": 27,
+   "pl": "o resztki imperium,"
+  },
+  {
+   "start": 595.96,
+   "end": 597.5,
+   "es": "a entregarse como testigos",
+   "id": 250,
+   "slot": 1.46,
+   "max_chars_pl": 20,
+   "pl": "zgłaszała się jako świadkowie"
+  },
+  {
+   "start": 597.5,
+   "end": 599.22,
+   "es": "protegidos a la dea,",
+   "id": 251,
+   "slot": 1.64,
+   "max_chars_pl": 22,
+   "pl": "chronieni do DEA"
+  },
+  {
+   "start": 599.22,
+   "end": 600.94,
+   "es": "o a huir hacia el norte,",
+   "id": 252,
+   "slot": 1.64,
+   "max_chars_pl": 22,
+   "pl": "albo uciekała na północ,"
+  },
+  {
+   "start": 600.94,
+   "end": 602.1,
+   "es": "esperando que el olvido",
+   "id": 253,
+   "slot": 1.08,
+   "max_chars_pl": 15,
+   "pl": "mając nadzieję, że zapomnienie"
+  },
+  {
+   "start": 602.1,
+   "end": 603.98,
+   "es": "los salvara.",
+   "id": 254,
+   "slot": 1.8,
+   "max_chars_pl": 25,
+   "pl": "ich uratuje."
+  },
+  {
+   "start": 603.98,
+   "end": 605.94,
+   "es": "Fue en este vacío de poder",
+   "id": 255,
+   "slot": 1.88,
+   "max_chars_pl": 26,
+   "pl": "W tej próżni władzy"
+  },
+  {
+   "start": 605.94,
+   "end": 606.8,
+   "es": "donde Isidro",
+   "id": 256,
+   "slot": 0.78,
+   "max_chars_pl": 10,
+   "pl": "Isidro"
+  },
+  {
+   "start": 606.8,
+   "end": 608.3,
+   "es": "hizo algo impensable",
+   "id": 257,
+   "slot": 1.42,
+   "max_chars_pl": 19,
+   "pl": "zrobił coś niewyobrażalnego"
+  },
+  {
+   "start": 608.3,
+   "end": 609.7,
+   "es": "y magistral.",
+   "id": 258,
+   "slot": 1.32,
+   "max_chars_pl": 18,
+   "pl": "i mistrzowskiego."
+  },
+  {
+   "start": 609.7,
+   "end": 611.38,
+   "es": "En lugar de esconderse,",
+   "id": 259,
+   "slot": 1.6,
+   "max_chars_pl": 22,
+   "pl": "Zamiast się ukrywać,"
+  },
+  {
+   "start": 611.38,
+   "end": 612.7,
+   "es": "recogió los fragmentos",
+   "id": 260,
+   "slot": 1.24,
+   "max_chars_pl": 17,
+   "pl": "zebrał fragmenty"
+  },
+  {
+   "start": 612.7,
+   "end": 614.82,
+   "es": "del ejército derrotado.",
+   "id": 261,
+   "slot": 2.04,
+   "max_chars_pl": 28,
+   "pl": "pokonanej armii."
+  },
+  {
+   "start": 614.82,
+   "end": 616.2,
+   "es": "Reclutó a los soldados",
+   "id": 262,
+   "slot": 1.3,
+   "max_chars_pl": 18,
+   "pl": "Zwerbował żołnierzy,"
+  },
+  {
+   "start": 616.2,
+   "end": 618.74,
+   "es": "que se habían quedado sin generales,",
+   "id": 263,
+   "slot": 2.46,
+   "max_chars_pl": 34,
+   "pl": "którzy zostali bez generałów,"
+  },
+  {
+   "start": 618.74,
+   "end": 619.7,
+   "es": "y a los operadores",
+   "id": 264,
+   "slot": 0.88,
+   "max_chars_pl": 12,
+   "pl": "i operatorów,"
+  },
+  {
+   "start": 619.7,
+   "end": 621.2,
+   "es": "que conocían las rutas",
+   "id": 265,
+   "slot": 1.42,
+   "max_chars_pl": 19,
+   "pl": "którzy znali szlaki,"
+  },
+  {
+   "start": 621.2,
+   "end": 622.0,
+   "es": "pero no tenían",
+   "id": 266,
+   "slot": 0.72,
+   "max_chars_pl": 10,
+   "pl": "ale nie mieli nikogo,"
+  },
+  {
+   "start": 622.0,
+   "end": 624.24,
+   "es": "quien las protegiera.",
+   "id": 267,
+   "slot": 2.16,
+   "max_chars_pl": 30,
+   "pl": "kto by ich chronił."
+  },
+  {
+   "start": 624.24,
+   "end": 627.04,
+   "es": "Así nacieron los Mazatlecos,",
+   "id": 268,
+   "slot": 2.72,
+   "max_chars_pl": 38,
+   "pl": "Tak narodzili się Los Mazatlecos,"
+  },
+  {
+   "start": 627.04,
+   "end": 628.6,
+   "es": "un grupo que bajo su mando",
+   "id": 269,
+   "slot": 1.48,
+   "max_chars_pl": 20,
+   "pl": "grupa, która pod jego dowództwem"
+  },
+  {
+   "start": 628.6,
+   "end": 630.2,
+   "es": "dejó de ser una simple célula",
+   "id": 270,
+   "slot": 1.52,
+   "max_chars_pl": 21,
+   "pl": "przestała być zwykłą komórką"
+  },
+  {
+   "start": 630.2,
+   "end": 631.8,
+   "es": "de sicarios para convertirse",
+   "id": 271,
+   "slot": 1.52,
+   "max_chars_pl": 21,
+   "pl": "płatnych zabójców, by stać się"
+  },
+  {
+   "start": 631.8,
+   "end": 633.4,
+   "es": "en una fuerza de resistencia",
+   "id": 272,
+   "slot": 1.52,
+   "max_chars_pl": 21,
+   "pl": "siłą oporu"
+  },
+  {
+   "start": 633.4,
+   "end": 635.16,
+   "es": "inteligente.",
+   "id": 273,
+   "slot": 1.68,
+   "max_chars_pl": 23,
+   "pl": "inteligentnego."
+  },
+  {
+   "start": 635.16,
+   "end": 636.8,
+   "es": "Isidro no intentó recuperar",
+   "id": 274,
+   "slot": 1.56,
+   "max_chars_pl": 21,
+   "pl": "Isidro nie próbował odzyskać"
+  },
+  {
+   "start": 636.8,
+   "end": 637.9,
+   "es": "el trono de México",
+   "id": 275,
+   "slot": 1.02,
+   "max_chars_pl": 14,
+   "pl": "tronu Meksyku"
+  },
+  {
+   "start": 637.9,
+   "end": 639.5,
+   "es": "ni lanzarse a una conquista",
+   "id": 276,
+   "slot": 1.52,
+   "max_chars_pl": 21,
+   "pl": "ani rzucać się w samobójczy podbój"
+  },
+  {
+   "start": 639.5,
+   "end": 642.2,
+   "es": "suicida de territorios ajenos.",
+   "id": 277,
+   "slot": 2.62,
+   "max_chars_pl": 36,
+   "pl": "cudzych terytoriów."
+  },
+  {
+   "start": 642.2,
+   "end": 643.24,
+   "es": "En su lugar,",
+   "id": 278,
+   "slot": 0.96,
+   "max_chars_pl": 13,
+   "pl": "Zamiast tego"
+  },
+  {
+   "start": 643.24,
+   "end": 645.0,
+   "es": "le declaró una guerra de guerrillas",
+   "id": 279,
+   "slot": 1.68,
+   "max_chars_pl": 23,
+   "pl": "wypowiedział wojnę partyzancką"
+  },
+  {
+   "start": 645.0,
+   "end": 646.86,
+   "es": "al Cártel de Sinaloa,",
+   "id": 280,
+   "slot": 1.78,
+   "max_chars_pl": 24,
+   "pl": "Kartelowi z Sinaloa,"
+  },
+  {
+   "start": 646.86,
+   "end": 649.54,
+   "es": "pero bajo sus propios términos.",
+   "id": 281,
+   "slot": 2.6,
+   "max_chars_pl": 36,
+   "pl": "ale na własnych warunkach."
+  },
+  {
+   "start": 649.54,
+   "end": 650.9,
+   "es": "No luchaba por la gloria",
+   "id": 282,
+   "slot": 1.28,
+   "max_chars_pl": 17,
+   "pl": "Nie walczył o chwałę"
+  },
+  {
+   "start": 650.9,
+   "end": 652.22,
+   "es": "de los titulares,",
+   "id": 283,
+   "slot": 1.24,
+   "max_chars_pl": 17,
+   "pl": "nagłówków,"
+  },
+  {
+   "start": 652.22,
+   "end": 653.4,
+   "es": "luchaba por el control",
+   "id": 284,
+   "slot": 1.1,
+   "max_chars_pl": 15,
+   "pl": "walczył o kontrolę"
+  },
+  {
+   "start": 653.4,
+   "end": 655.22,
+   "es": "del terreno que pisaba.",
+   "id": 285,
+   "slot": 1.74,
+   "max_chars_pl": 24,
+   "pl": "nad terenem, po którym stąpał."
+  },
+  {
+   "start": 655.22,
+   "end": 657.1,
+   "es": "Utilizó su conocimiento íntimo",
+   "id": 286,
+   "slot": 1.8,
+   "max_chars_pl": 25,
+   "pl": "Wykorzystał swoją intymną znajomość"
+  },
+  {
+   "start": 657.1,
+   "end": 659.1,
+   "es": "de la geografía sinaloense",
+   "id": 287,
+   "slot": 1.92,
+   "max_chars_pl": 26,
+   "pl": "geografii Sinaloa,"
+  },
+  {
+   "start": 659.1,
+   "end": 660.9,
+   "es": "para convertir el norte del estado",
+   "id": 288,
+   "slot": 1.72,
+   "max_chars_pl": 24,
+   "pl": "by zamienić północ stanu"
+  },
+  {
+   "start": 660.9,
+   "end": 663.92,
+   "es": "en una fortaleza inexpugnable.",
+   "id": 289,
+   "slot": 2.94,
+   "max_chars_pl": 41,
+   "pl": "w niezdobytą fortecę."
+  },
+  {
+   "start": 663.92,
+   "end": 665.5,
+   "es": "Mientras el Cártel de Sinaloa",
+   "id": 290,
+   "slot": 1.5,
+   "max_chars_pl": 21,
+   "pl": "Gdy Kartel z Sinaloa"
+  },
+  {
+   "start": 665.5,
+   "end": 667.1,
+   "es": "enviaba oleada tras oleada",
+   "id": 291,
+   "slot": 1.52,
+   "max_chars_pl": 21,
+   "pl": "słał falę za falą"
+  },
+  {
+   "start": 667.1,
+   "end": 669.64,
+   "es": "de hombres para intentar aplastarlo,",
+   "id": 292,
+   "slot": 2.46,
+   "max_chars_pl": 34,
+   "pl": "ludzi, by go zmiażdżyć,"
+  },
+  {
+   "start": 669.64,
+   "end": 670.7,
+   "es": "Isidro respondía",
+   "id": 293,
+   "slot": 0.98,
+   "max_chars_pl": 13,
+   "pl": "Isidro odpowiadał"
+  },
+  {
+   "start": 670.7,
+   "end": 672.48,
+   "es": "con ataques quirúrgicos",
+   "id": 294,
+   "slot": 1.7,
+   "max_chars_pl": 23,
+   "pl": "precyzyjnymi atakami"
+  },
+  {
+   "start": 672.48,
+   "end": 675.34,
+   "es": "y desapariciones instantáneas.",
+   "id": 295,
+   "slot": 2.78,
+   "max_chars_pl": 38,
+   "pl": "i natychmiastowym znikaniem."
+  },
+  {
+   "start": 675.34,
+   "end": 676.9,
+   "es": "Aprendió a usar la montaña",
+   "id": 296,
+   "slot": 1.48,
+   "max_chars_pl": 20,
+   "pl": "Nauczył się używać gór"
+  },
+  {
+   "start": 676.9,
+   "end": 678.74,
+   "es": "no solo como refugio,",
+   "id": 297,
+   "slot": 1.76,
+   "max_chars_pl": 24,
+   "pl": "nie tylko jako schronienia,"
+  },
+  {
+   "start": 678.74,
+   "end": 681.32,
+   "es": "sino como un aliado táctico.",
+   "id": 298,
+   "slot": 2.5,
+   "max_chars_pl": 35,
+   "pl": "ale jako taktycznego sojusznika."
+  },
+  {
+   "start": 681.32,
+   "end": 682.3,
+   "es": "No quería ser el rey",
+   "id": 299,
+   "slot": 0.9,
+   "max_chars_pl": 12,
+   "pl": "Nie chciał być królem,"
+  },
+  {
+   "start": 682.3,
+   "end": 683.8,
+   "es": "que se sienta en un palacio",
+   "id": 300,
+   "slot": 1.42,
+   "max_chars_pl": 19,
+   "pl": "który siedzi w pałacu"
+  },
+  {
+   "start": 683.8,
+   "end": 686.02,
+   "es": "esperando que lleguen por él.",
+   "id": 301,
+   "slot": 2.14,
+   "max_chars_pl": 29,
+   "pl": "czekając, aż po niego przyjdą."
+  },
+  {
+   "start": 686.02,
+   "end": 687.2,
+   "es": "Quería ser el arquitecto",
+   "id": 302,
+   "slot": 1.1,
+   "max_chars_pl": 15,
+   "pl": "Chciał być architektem"
+  },
+  {
+   "start": 687.2,
+   "end": 688.88,
+   "es": "de un reino invisible,",
+   "id": 303,
+   "slot": 1.6,
+   "max_chars_pl": 22,
+   "pl": "niewidzialnego królestwa,"
+  },
+  {
+   "start": 688.88,
+   "end": 689.9,
+   "es": "un dominio donde él",
+   "id": 304,
+   "slot": 0.94,
+   "max_chars_pl": 13,
+   "pl": "domeny, w której on"
+  },
+  {
+   "start": 689.9,
+   "end": 692.56,
+   "es": "controlara cada centímetro cuadrado,",
+   "id": 305,
+   "slot": 2.58,
+   "max_chars_pl": 36,
+   "pl": "kontrolowałby każdy centymetr kwadratowy,"
+  },
+  {
+   "start": 692.56,
+   "end": 693.4,
+   "es": "pero donde nadie",
+   "id": 306,
+   "slot": 0.76,
+   "max_chars_pl": 10,
+   "pl": "ale w której nikt"
+  },
+  {
+   "start": 693.4,
+   "end": 695.86,
+   "es": "pudiera ponerle rostro.",
+   "id": 307,
+   "slot": 2.38,
+   "max_chars_pl": 33,
+   "pl": "nie mógłby nadać mu twarzy."
+  },
+  {
+   "start": 695.86,
+   "end": 696.9,
+   "es": "Este periodo marcó",
+   "id": 308,
+   "slot": 0.96,
+   "max_chars_pl": 13,
+   "pl": "Ten okres oznaczał"
+  },
+  {
+   "start": 696.9,
+   "end": 698.4,
+   "es": "el nacimiento del estratega",
+   "id": 309,
+   "slot": 1.42,
+   "max_chars_pl": 19,
+   "pl": "narodziny stratega,"
+  },
+  {
+   "start": 698.4,
+   "end": 700.1,
+   "es": "que hoy conocemos.",
+   "id": 310,
+   "slot": 1.62,
+   "max_chars_pl": 22,
+   "pl": "którego dziś znamy."
+  },
+  {
+   "start": 700.1,
+   "end": 701.8,
+   "es": "Isidro transformó la derrota",
+   "id": 311,
+   "slot": 1.62,
+   "max_chars_pl": 22,
+   "pl": "Isidro zamienił porażkę"
+  },
+  {
+   "start": 701.8,
+   "end": 702.9,
+   "es": "de sus mentores",
+   "id": 312,
+   "slot": 1.02,
+   "max_chars_pl": 14,
+   "pl": "swoich mentorów"
+  },
+  {
+   "start": 702.9,
+   "end": 705.54,
+   "es": "en el manual de su propio éxito.",
+   "id": 313,
+   "slot": 2.56,
+   "max_chars_pl": 35,
+   "pl": "w podręcznik własnego sukcesu."
+  },
+  {
+   "start": 705.54,
+   "end": 706.72,
+   "es": "Entendió que,",
+   "id": 314,
+   "slot": 1.1,
+   "max_chars_pl": 15,
+   "pl": "Zrozumiał, że"
+  },
+  {
+   "start": 706.72,
+   "end": 709.04,
+   "es": "para ganar la guerra de largo plazo,",
+   "id": 315,
+   "slot": 2.24,
+   "max_chars_pl": 31,
+   "pl": "aby wygrać wojnę na dłuższą metę,"
+  },
+  {
+   "start": 709.04,
+   "end": 710.2,
+   "es": "debía ser pequeño",
+   "id": 316,
+   "slot": 1.08,
+   "max_chars_pl": 15,
+   "pl": "musi być mały"
+  },
+  {
+   "start": 710.2,
+   "end": 711.98,
+   "es": "ante los ojos del enemigo",
+   "id": 317,
+   "slot": 1.7,
+   "max_chars_pl": 23,
+   "pl": "w oczach wroga"
+  },
+  {
+   "start": 711.98,
+   "end": 714.62,
+   "es": "y gigante en sus operaciones.",
+   "id": 318,
+   "slot": 2.56,
+   "max_chars_pl": 35,
+   "pl": "i gigantyczny w swoich operacjach."
+  },
+  {
+   "start": 714.62,
+   "end": 716.3,
+   "es": "Mientras otros se desgastaban",
+   "id": 319,
+   "slot": 1.6,
+   "max_chars_pl": 22,
+   "pl": "Gdy inni zużywali się"
+  },
+  {
+   "start": 716.3,
+   "end": 717.9,
+   "es": "en conflictos mediáticos",
+   "id": 320,
+   "slot": 1.52,
+   "max_chars_pl": 21,
+   "pl": "w konfliktach medialnych"
+  },
+  {
+   "start": 717.9,
+   "end": 720.28,
+   "es": "y masacres innecesarias,",
+   "id": 321,
+   "slot": 2.3,
+   "max_chars_pl": 32,
+   "pl": "i niepotrzebnych masakrach,"
+  },
+  {
+   "start": 720.28,
+   "end": 721.0,
+   "es": "él se enfocó",
+   "id": 322,
+   "slot": 0.64,
+   "max_chars_pl": 8,
+   "pl": "on skupił się"
+  },
+  {
+   "start": 721.0,
+   "end": 722.4,
+   "es": "en la eficiencia técnica",
+   "id": 323,
+   "slot": 1.32,
+   "max_chars_pl": 18,
+   "pl": "na efektywności technicznej"
+  },
+  {
+   "start": 722.4,
+   "end": 724.04,
+   "es": "de sus laboratorios",
+   "id": 324,
+   "slot": 1.56,
+   "max_chars_pl": 21,
+   "pl": "swoich laboratoriów"
+  },
+  {
+   "start": 724.04,
+   "end": 724.9,
+   "es": "y en la pureza",
+   "id": 325,
+   "slot": 0.78,
+   "max_chars_pl": 10,
+   "pl": "i na czystości"
+  },
+  {
+   "start": 724.9,
+   "end": 727.12,
+   "es": "de su red de inteligencia.",
+   "id": 326,
+   "slot": 2.14,
+   "max_chars_pl": 29,
+   "pl": "swojej sieci wywiadowczej."
+  },
+  {
+   "start": 727.12,
+   "end": 728.34,
+   "es": "Para Isidro,",
+   "id": 327,
+   "slot": 1.14,
+   "max_chars_pl": 15,
+   "pl": "Dla Isidro"
+  },
+  {
+   "start": 728.34,
+   "end": 729.9,
+   "es": "el nacimiento de su organización",
+   "id": 328,
+   "slot": 1.48,
+   "max_chars_pl": 20,
+   "pl": "narodziny jego organizacji"
+  },
+  {
+   "start": 729.9,
+   "end": 731.0,
+   "es": "no fue el inicio",
+   "id": 329,
+   "slot": 1.02,
+   "max_chars_pl": 14,
+   "pl": "nie były początkiem"
+  },
+  {
+   "start": 731.0,
+   "end": 733.1,
+   "es": "de una carrera por la fama,",
+   "id": 330,
+   "slot": 2.02,
+   "max_chars_pl": 28,
+   "pl": "wyścigu po sławę,"
+  },
+  {
+   "start": 733.1,
+   "end": 734.0,
+   "es": "sino el comienzo",
+   "id": 331,
+   "slot": 0.82,
+   "max_chars_pl": 11,
+   "pl": "lecz początkiem"
+  },
+  {
+   "start": 734.0,
+   "end": 735.2,
+   "es": "de un juego de sombras",
+   "id": 332,
+   "slot": 1.12,
+   "max_chars_pl": 15,
+   "pl": "gry cieni,"
+  },
+  {
+   "start": 735.2,
+   "end": 737.0,
+   "es": "donde la mayor victoria",
+   "id": 333,
+   "slot": 1.72,
+   "max_chars_pl": 24,
+   "pl": "w której największym zwycięstwem"
+  },
+  {
+   "start": 737.0,
+   "end": 738.3,
+   "es": "es que el enemigo crea",
+   "id": 334,
+   "slot": 1.22,
+   "max_chars_pl": 17,
+   "pl": "jest to, że wróg wierzy,"
+  },
+  {
+   "start": 738.3,
+   "end": 740.2,
+   "es": "que ya te ha derrotado,",
+   "id": 335,
+   "slot": 1.82,
+   "max_chars_pl": 25,
+   "pl": "iż już go pokonałeś,"
+  },
+  {
+   "start": 740.2,
+   "end": 743.2,
+   "es": "simplemente porque ha dejado de verte.",
+   "id": 336,
+   "slot": 2.92,
+   "max_chars_pl": 40,
+   "pl": "tylko dlatego, że przestał cię widzieć."
+  },
+  {
+   "start": 743.2,
+   "end": 745.4,
+   "es": "¿Cómo se esconden mil millones de dólares",
+   "id": 337,
+   "slot": 2.12,
+   "max_chars_pl": 29,
+   "pl": "Jak ukryć miliard dolarów"
+  },
+  {
+   "start": 745.4,
+   "end": 747.2,
+   "es": "en la era de la vigilancia total",
+   "id": 338,
+   "slot": 1.72,
+   "max_chars_pl": 24,
+   "pl": "w erze totalnego nadzoru"
+  },
+  {
+   "start": 747.2,
+   "end": 749.4,
+   "es": "y el rastreo satelital?",
+   "id": 339,
+   "slot": 2.12,
+   "max_chars_pl": 29,
+   "pl": "i śledzenia satelitarnego?"
+  },
+  {
+   "start": 749.4,
+   "end": 751.74,
+   "es": "Para Fausto Isidro Mesa Flores,",
+   "id": 340,
+   "slot": 2.26,
+   "max_chars_pl": 31,
+   "pl": "Dla Fausto Isidro Mezy Floresa"
+  },
+  {
+   "start": 751.74,
+   "end": 753.0,
+   "es": "la respuesta no reside",
+   "id": 341,
+   "slot": 1.18,
+   "max_chars_pl": 16,
+   "pl": "odpowiedź nie leży"
+  },
+  {
+   "start": 753.0,
+   "end": 754.6,
+   "es": "en las frías bases de datos",
+   "id": 342,
+   "slot": 1.52,
+   "max_chars_pl": 21,
+   "pl": "w zimnych bazach danych"
+  },
+  {
+   "start": 754.6,
+   "end": 757.02,
+   "es": "de los paraísos fiscales en Suiza",
+   "id": 343,
+   "slot": 2.34,
+   "max_chars_pl": 32,
+   "pl": "rajów podatkowych w Szwajcarii"
+  },
+  {
+   "start": 757.02,
+   "end": 758.96,
+   "es": "o las Islas Caimán,",
+   "id": 344,
+   "slot": 1.86,
+   "max_chars_pl": 26,
+   "pl": "czy na Kajmanach,"
+  },
+  {
+   "start": 758.96,
+   "end": 759.8,
+   "es": "sino en un sistema",
+   "id": 345,
+   "slot": 0.76,
+   "max_chars_pl": 10,
+   "pl": "lecz w systemie"
+  },
+  {
+   "start": 759.8,
+   "end": 761.18,
+   "es": "mucho más antiguo,",
+   "id": 346,
+   "slot": 1.3,
+   "max_chars_pl": 18,
+   "pl": "o wiele starszym,"
+  },
+  {
+   "start": 761.18,
+   "end": 763.84,
+   "es": "resistente y eficiente.",
+   "id": 347,
+   "slot": 2.58,
+   "max_chars_pl": 36,
+   "pl": "odpornym i skutecznym."
+  },
+  {
+   "start": 763.84,
+   "end": 765.1,
+   "es": "La lealtad comprada",
+   "id": 348,
+   "slot": 1.18,
+   "max_chars_pl": 16,
+   "pl": "Lojalności kupowanej"
+  },
+  {
+   "start": 765.1,
+   "end": 766.96,
+   "es": "con hechos.",
+   "id": 349,
+   "slot": 1.78,
+   "max_chars_pl": 24,
+   "pl": "czynami."
+  },
+  {
+   "start": 766.96,
+   "end": 768.4,
+   "es": "En el complejo ecosistema",
+   "id": 350,
+   "slot": 1.36,
+   "max_chars_pl": 19,
+   "pl": "W złożonym ekosystemie"
+  },
+  {
+   "start": 768.4,
+   "end": 769.82,
+   "es": "de la Sierra Madre,",
+   "id": 351,
+   "slot": 1.34,
+   "max_chars_pl": 18,
+   "pl": "Sierra Madre"
+  },
+  {
+   "start": 769.82,
+   "end": 770.9,
+   "es": "el dinero de Isidro",
+   "id": 352,
+   "slot": 1.0,
+   "max_chars_pl": 14,
+   "pl": "pieniądze Isidro"
+  },
+  {
+   "start": 770.9,
+   "end": 772.94,
+   "es": "no se guarda bajo el suelo.",
+   "id": 353,
+   "slot": 1.96,
+   "max_chars_pl": 27,
+   "pl": "nie leżą zakopane pod ziemią."
+  },
+  {
+   "start": 772.94,
+   "end": 774.96,
+   "es": "Se transforma en infraestructura,",
+   "id": 354,
+   "slot": 1.94,
+   "max_chars_pl": 27,
+   "pl": "Zamieniają się w infrastrukturę,"
+  },
+  {
+   "start": 774.96,
+   "end": 775.82,
+   "es": "en salud",
+   "id": 355,
+   "slot": 0.78,
+   "max_chars_pl": 10,
+   "pl": "w zdrowie"
+  },
+  {
+   "start": 775.82,
+   "end": 777.5,
+   "es": "y en esperanza para una población",
+   "id": 356,
+   "slot": 1.6,
+   "max_chars_pl": 22,
+   "pl": "i w nadzieję dla ludności,"
+  },
+  {
+   "start": 777.5,
+   "end": 779.02,
+   "es": "que el Estado mexicano",
+   "id": 357,
+   "slot": 1.44,
+   "max_chars_pl": 20,
+   "pl": "którą państwo meksykańskie"
+  },
+  {
+   "start": 779.02,
+   "end": 780.6,
+   "es": "ha ignorado sistemáticamente",
+   "id": 358,
+   "slot": 1.5,
+   "max_chars_pl": 21,
+   "pl": "systematycznie ignorowało"
+  },
+  {
+   "start": 780.6,
+   "end": 782.46,
+   "es": "durante décadas.",
+   "id": 359,
+   "slot": 1.78,
+   "max_chars_pl": 24,
+   "pl": "przez dziesięciolecia."
+  },
+  {
+   "start": 782.46,
+   "end": 783.6,
+   "es": "Mientras los gobiernos",
+   "id": 360,
+   "slot": 1.06,
+   "max_chars_pl": 14,
+   "pl": "Podczas gdy rządy"
+  },
+  {
+   "start": 783.6,
+   "end": 784.5,
+   "es": "lanzan discursos",
+   "id": 361,
+   "slot": 0.82,
+   "max_chars_pl": 11,
+   "pl": "wygłaszają przemówienia"
+  },
+  {
+   "start": 784.5,
+   "end": 785.9,
+   "es": "sobre el desarrollo rural",
+   "id": 362,
+   "slot": 1.32,
+   "max_chars_pl": 18,
+   "pl": "o rozwoju wsi"
+  },
+  {
+   "start": 785.9,
+   "end": 788.34,
+   "es": "desde escritorios en la capital,",
+   "id": 363,
+   "slot": 2.36,
+   "max_chars_pl": 33,
+   "pl": "zza biurek w stolicy,"
+  },
+  {
+   "start": 788.34,
+   "end": 790.6,
+   "es": "Isidro envía cuadrillas de trabajadores",
+   "id": 364,
+   "slot": 2.18,
+   "max_chars_pl": 30,
+   "pl": "Isidro wysyła brygady robotników,"
+  },
+  {
+   "start": 790.6,
+   "end": 792.8,
+   "es": "para pavimentar caminos.",
+   "id": 365,
+   "slot": 2.12,
+   "max_chars_pl": 29,
+   "pl": "by utwardzali drogi."
+  },
+  {
+   "start": 792.8,
+   "end": 793.8,
+   "es": "Construye escuelas",
+   "id": 366,
+   "slot": 0.92,
+   "max_chars_pl": 12,
+   "pl": "Buduje szkoły"
+  },
+  {
+   "start": 793.8,
+   "end": 794.6,
+   "es": "donde antes",
+   "id": 367,
+   "slot": 0.72,
+   "max_chars_pl": 10,
+   "pl": "tam, gdzie wcześniej"
+  },
+  {
+   "start": 794.6,
+   "end": 795.94,
+   "es": "solo había polvo",
+   "id": 368,
+   "slot": 1.26,
+   "max_chars_pl": 17,
+   "pl": "był tylko kurz,"
+  },
+  {
+   "start": 795.94,
+   "end": 798.22,
+   "es": "y asegura que las clínicas locales,",
+   "id": 369,
+   "slot": 2.2,
+   "max_chars_pl": 30,
+   "pl": "i dba o to, by lokalne przychodnie,"
+  },
+  {
+   "start": 798.22,
+   "end": 800.82,
+   "es": "que suelen estar vacías y abandonadas,",
+   "id": 370,
+   "slot": 2.52,
+   "max_chars_pl": 35,
+   "pl": "zwykle puste i opuszczone,"
+  },
+  {
+   "start": 800.82,
+   "end": 802.4,
+   "es": "tengan siempre antibióticos",
+   "id": 371,
+   "slot": 1.5,
+   "max_chars_pl": 21,
+   "pl": "zawsze miały antybiotyki"
+  },
+  {
+   "start": 802.4,
+   "end": 803.7,
+   "es": "y suministros médicos",
+   "id": 372,
+   "slot": 1.22,
+   "max_chars_pl": 17,
+   "pl": "i zaopatrzenie medyczne"
+  },
+  {
+   "start": 803.7,
+   "end": 805.84,
+   "es": "de primera calidad.",
+   "id": 373,
+   "slot": 2.06,
+   "max_chars_pl": 28,
+   "pl": "najwyższej jakości."
+  },
+  {
+   "start": 805.84,
+   "end": 808.12,
+   "es": "Esta no es una labor de caridad,",
+   "id": 374,
+   "slot": 2.2,
+   "max_chars_pl": 30,
+   "pl": "To nie jest dzieło charytatywne,"
+  },
+  {
+   "start": 808.12,
+   "end": 810.1,
+   "es": "es una inversión de seguridad nacional",
+   "id": 375,
+   "slot": 1.9,
+   "max_chars_pl": 26,
+   "pl": "to inwestycja w bezpieczeństwo narodowe"
+  },
+  {
+   "start": 810.1,
+   "end": 812.06,
+   "es": "para su propio imperio.",
+   "id": 376,
+   "slot": 1.88,
+   "max_chars_pl": 26,
+   "pl": "jego własnego imperium."
+  },
+  {
+   "start": 812.06,
+   "end": 813.4,
+   "es": "En las zonas de Guasave",
+   "id": 377,
+   "slot": 1.26,
+   "max_chars_pl": 17,
+   "pl": "W okolicach Guasave"
+  },
+  {
+   "start": 813.4,
+   "end": 815.0,
+   "es": "y los rincones más profundos",
+   "id": 378,
+   "slot": 1.52,
+   "max_chars_pl": 21,
+   "pl": "i w najgłębszych zakątkach"
+  },
+  {
+   "start": 815.0,
+   "end": 816.92,
+   "es": "de la sierra sinaloense,",
+   "id": 379,
+   "slot": 1.84,
+   "max_chars_pl": 25,
+   "pl": "gór Sinaloa"
+  },
+  {
+   "start": 816.92,
+   "end": 818.0,
+   "es": "la figura de Isidro",
+   "id": 380,
+   "slot": 1.0,
+   "max_chars_pl": 14,
+   "pl": "postać Isidro"
+  },
+  {
+   "start": 818.0,
+   "end": 820.06,
+   "es": "ha mutado de ser un fugitivo",
+   "id": 381,
+   "slot": 1.98,
+   "max_chars_pl": 27,
+   "pl": "przeobraziła się z uciekiniera"
+  },
+  {
+   "start": 820.06,
+   "end": 821.8,
+   "es": "a convertirse en un benefactor",
+   "id": 382,
+   "slot": 1.66,
+   "max_chars_pl": 23,
+   "pl": "w wszechobecnego"
+  },
+  {
+   "start": 821.8,
+   "end": 823.64,
+   "es": "omnipresente.",
+   "id": 383,
+   "slot": 1.76,
+   "max_chars_pl": 24,
+   "pl": "dobroczyńcę."
+  },
+  {
+   "start": 823.64,
+   "end": 824.9,
+   "es": "Cuando el gobierno falla",
+   "id": 384,
+   "slot": 1.18,
+   "max_chars_pl": 16,
+   "pl": "Gdy rząd zawodzi"
+  },
+  {
+   "start": 824.9,
+   "end": 827.32,
+   "es": "en su responsabilidad básica,",
+   "id": 385,
+   "slot": 2.34,
+   "max_chars_pl": 32,
+   "pl": "w swoim podstawowym obowiązku,"
+  },
+  {
+   "start": 827.32,
+   "end": 829.7,
+   "es": "Isidro llena ese vacío de poder",
+   "id": 386,
+   "slot": 2.3,
+   "max_chars_pl": 32,
+   "pl": "Isidro wypełnia tę próżnię władzy"
+  },
+  {
+   "start": 829.7,
+   "end": 831.4,
+   "es": "con una eficiencia que resulta",
+   "id": 387,
+   "slot": 1.62,
+   "max_chars_pl": 22,
+   "pl": "z skutecznością, która jest"
+  },
+  {
+   "start": 831.4,
+   "end": 833.94,
+   "es": "aterradora para las autoridades.",
+   "id": 388,
+   "slot": 2.46,
+   "max_chars_pl": 34,
+   "pl": "przerażająca dla władz."
+  },
+  {
+   "start": 833.94,
+   "end": 836.24,
+   "es": "Si un agricultor pierde su cosecha,",
+   "id": 389,
+   "slot": 2.22,
+   "max_chars_pl": 31,
+   "pl": "Jeśli rolnik straci plon,"
+  },
+  {
+   "start": 836.24,
+   "end": 837.4,
+   "es": "si una madre necesita",
+   "id": 390,
+   "slot": 1.08,
+   "max_chars_pl": 15,
+   "pl": "jeśli matka potrzebuje"
+  },
+  {
+   "start": 837.4,
+   "end": 839.26,
+   "es": "una operación de emergencia",
+   "id": 391,
+   "slot": 1.78,
+   "max_chars_pl": 24,
+   "pl": "pilnej operacji"
+  },
+  {
+   "start": 839.26,
+   "end": 840.4,
+   "es": "o si un pueblo entero",
+   "id": 392,
+   "slot": 1.06,
+   "max_chars_pl": 14,
+   "pl": "albo cała wieś"
+  },
+  {
+   "start": 840.4,
+   "end": 841.96,
+   "es": "se queda sin luz,",
+   "id": 393,
+   "slot": 1.48,
+   "max_chars_pl": 20,
+   "pl": "zostaje bez prądu,"
+  },
+  {
+   "start": 841.96,
+   "end": 842.9,
+   "es": "la ayuda no llega",
+   "id": 394,
+   "slot": 0.86,
+   "max_chars_pl": 12,
+   "pl": "pomoc nie przyjeżdża"
+  },
+  {
+   "start": 842.9,
+   "end": 844.56,
+   "es": "en un camión oficial,",
+   "id": 395,
+   "slot": 1.58,
+   "max_chars_pl": 22,
+   "pl": "oficjalną ciężarówką,"
+  },
+  {
+   "start": 844.56,
+   "end": 846.2,
+   "es": "sino a través de los emisarios",
+   "id": 396,
+   "slot": 1.56,
+   "max_chars_pl": 21,
+   "pl": "lecz przez wysłanników"
+  },
+  {
+   "start": 846.2,
+   "end": 848.84,
+   "es": "del Chapo-Isidro.",
+   "id": 397,
+   "slot": 2.56,
+   "max_chars_pl": 35,
+   "pl": "El Chapo Isidro."
+  },
+  {
+   "start": 848.84,
+   "end": 850.2,
+   "es": "Esta dinámica ha creado",
+   "id": 398,
+   "slot": 1.28,
+   "max_chars_pl": 17,
+   "pl": "Ta dynamika stworzyła"
+  },
+  {
+   "start": 850.2,
+   "end": 851.2,
+   "es": "lo que los analistas",
+   "id": 399,
+   "slot": 0.92,
+   "max_chars_pl": 12,
+   "pl": "to, co analitycy"
+  },
+  {
+   "start": 851.2,
+   "end": 852.98,
+   "es": "de inteligencia llaman",
+   "id": 400,
+   "slot": 1.7,
+   "max_chars_pl": 23,
+   "pl": "wywiadu nazywają"
+  },
+  {
+   "start": 852.98,
+   "end": 855.16,
+   "es": "un escudo humano,",
+   "id": 401,
+   "slot": 2.1,
+   "max_chars_pl": 29,
+   "pl": "żywą tarczą,"
+  },
+  {
+   "start": 855.16,
+   "end": 856.4,
+   "es": "una barrera invisible",
+   "id": 402,
+   "slot": 1.16,
+   "max_chars_pl": 16,
+   "pl": "niewidzialną barierą,"
+  },
+  {
+   "start": 856.4,
+   "end": 857.5,
+   "es": "pero impenetrable",
+   "id": 403,
+   "slot": 1.02,
+   "max_chars_pl": 14,
+   "pl": "ale nie do przebicia,"
+  },
+  {
+   "start": 857.5,
+   "end": 859.8,
+   "es": "compuesta por miles de campesinos,",
+   "id": 404,
+   "slot": 2.22,
+   "max_chars_pl": 31,
+   "pl": "złożoną z tysięcy chłopów,"
+  },
+  {
+   "start": 859.8,
+   "end": 860.9,
+   "es": "ganaderos",
+   "id": 405,
+   "slot": 1.02,
+   "max_chars_pl": 14,
+   "pl": "hodowców bydła"
+  },
+  {
+   "start": 860.9,
+   "end": 862.1,
+   "es": "y familias enteras",
+   "id": 406,
+   "slot": 1.12,
+   "max_chars_pl": 15,
+   "pl": "i całych rodzin,"
+  },
+  {
+   "start": 862.1,
+   "end": 863.0,
+   "es": "que no lo cuidan",
+   "id": 407,
+   "slot": 0.82,
+   "max_chars_pl": 11,
+   "pl": "którzy go nie chronią"
+  },
+  {
+   "start": 863.0,
+   "end": 864.78,
+   "es": "por el miedo al fusil,",
+   "id": 408,
+   "slot": 1.7,
+   "max_chars_pl": 23,
+   "pl": "ze strachu przed karabinem,"
+  },
+  {
+   "start": 864.78,
+   "end": 866.0,
+   "es": "sino por una gratitud",
+   "id": 409,
+   "slot": 1.14,
+   "max_chars_pl": 15,
+   "pl": "lecz z wdzięczności,"
+  },
+  {
+   "start": 866.0,
+   "end": 868.28,
+   "es": "que raya en la devoción.",
+   "id": 410,
+   "slot": 2.2,
+   "max_chars_pl": 30,
+   "pl": "która graniczy z oddaniem."
+  },
+  {
+   "start": 868.28,
+   "end": 869.3,
+   "es": "En este territorio",
+   "id": 411,
+   "slot": 0.94,
+   "max_chars_pl": 13,
+   "pl": "Na tym terytorium"
+  },
+  {
+   "start": 869.3,
+   "end": 870.5,
+   "es": "la traición a Isidro",
+   "id": 412,
+   "slot": 1.12,
+   "max_chars_pl": 15,
+   "pl": "zdrada Isidro"
+  },
+  {
+   "start": 870.5,
+   "end": 872.94,
+   "es": "no es solo un pecado criminal,",
+   "id": 413,
+   "slot": 2.36,
+   "max_chars_pl": 33,
+   "pl": "to nie tylko przestępczy grzech,"
+  },
+  {
+   "start": 872.94,
+   "end": 874.9,
+   "es": "es una traición a la misma comunidad",
+   "id": 414,
+   "slot": 1.88,
+   "max_chars_pl": 26,
+   "pl": "to zdrada samej społeczności,"
+  },
+  {
+   "start": 874.9,
+   "end": 877.96,
+   "es": "que sobrevive gracias a su protección.",
+   "id": 415,
+   "slot": 2.98,
+   "max_chars_pl": 41,
+   "pl": "która przetrwała dzięki jego ochronie."
+  },
+  {
+   "start": 877.96,
+   "end": 879.1,
+   "es": "Este escudo humano",
+   "id": 416,
+   "slot": 1.06,
+   "max_chars_pl": 14,
+   "pl": "Ta żywa tarcza"
+  },
+  {
+   "start": 879.1,
+   "end": 880.5,
+   "es": "funciona como la agencia",
+   "id": 417,
+   "slot": 1.32,
+   "max_chars_pl": 18,
+   "pl": "działa jak najbardziej"
+  },
+  {
+   "start": 880.5,
+   "end": 881.3,
+   "es": "de inteligencia",
+   "id": 418,
+   "slot": 0.72,
+   "max_chars_pl": 10,
+   "pl": "wyrafinowana agencja"
+  },
+  {
+   "start": 881.3,
+   "end": 883.84,
+   "es": "más sofisticada del planeta.",
+   "id": 419,
+   "slot": 2.46,
+   "max_chars_pl": 34,
+   "pl": "wywiadowcza na planecie."
+  },
+  {
+   "start": 883.84,
+   "end": 885.8,
+   "es": "No necesita sensores de movimiento",
+   "id": 420,
+   "slot": 1.88,
+   "max_chars_pl": 26,
+   "pl": "Nie potrzebuje czujników ruchu"
+  },
+  {
+   "start": 885.8,
+   "end": 888.64,
+   "es": "ni interceptaciones telefónicas.",
+   "id": 421,
+   "slot": 2.76,
+   "max_chars_pl": 38,
+   "pl": "ani podsłuchów telefonicznych."
+  },
+  {
+   "start": 888.64,
+   "end": 890.3,
+   "es": "Funciona a través del instinto",
+   "id": 422,
+   "slot": 1.58,
+   "max_chars_pl": 22,
+   "pl": "Działa dzięki instynktowi"
+  },
+  {
+   "start": 890.3,
+   "end": 891.8,
+   "es": "y la observación de un pueblo",
+   "id": 423,
+   "slot": 1.42,
+   "max_chars_pl": 19,
+   "pl": "i obserwacji ludu,"
+  },
+  {
+   "start": 891.8,
+   "end": 894.9,
+   "es": "que conoce cada piedra de su camino.",
+   "id": 424,
+   "slot": 3.02,
+   "max_chars_pl": 42,
+   "pl": "który zna każdy kamień na swojej drodze."
+  },
+  {
+   "start": 894.9,
+   "end": 896.5,
+   "es": "Cuando los operativos militares",
+   "id": 425,
+   "slot": 1.52,
+   "max_chars_pl": 21,
+   "pl": "Gdy elitarne operacje wojskowe"
+  },
+  {
+   "start": 896.5,
+   "end": 899.02,
+   "es": "de élite comienzan a movilizarse,",
+   "id": 426,
+   "slot": 2.44,
+   "max_chars_pl": 34,
+   "pl": "zaczynają się mobilizować,"
+  },
+  {
+   "start": 899.02,
+   "end": 900.5,
+   "es": "mucho antes de que las botas",
+   "id": 427,
+   "slot": 1.4,
+   "max_chars_pl": 19,
+   "pl": "na długo zanim buty"
+  },
+  {
+   "start": 900.5,
+   "end": 901.3,
+   "es": "de los soldados",
+   "id": 428,
+   "slot": 0.72,
+   "max_chars_pl": 10,
+   "pl": "żołnierzy"
+  },
+  {
+   "start": 901.3,
+   "end": 903.66,
+   "es": "toquen el lodo de la sierra,",
+   "id": 429,
+   "slot": 2.28,
+   "max_chars_pl": 31,
+   "pl": "dotkną błota gór,"
+  },
+  {
+   "start": 903.66,
+   "end": 905.3,
+   "es": "el sistema de alerta temprana",
+   "id": 430,
+   "slot": 1.56,
+   "max_chars_pl": 21,
+   "pl": "system wczesnego ostrzegania"
+  },
+  {
+   "start": 905.3,
+   "end": 907.2,
+   "es": "ya se ha activado.",
+   "id": 431,
+   "slot": 1.82,
+   "max_chars_pl": 25,
+   "pl": "już został uruchomiony."
+  },
+  {
+   "start": 907.2,
+   "end": 909.78,
+   "es": "Las campanas de las iglesias locales",
+   "id": 432,
+   "slot": 2.5,
+   "max_chars_pl": 35,
+   "pl": "Dzwony miejscowych kościołów,"
+  },
+  {
+   "start": 909.78,
+   "end": 911.1,
+   "es": "que normalmente anuncian",
+   "id": 433,
+   "slot": 1.24,
+   "max_chars_pl": 17,
+   "pl": "które zwykle zapowiadają"
+  },
+  {
+   "start": 911.1,
+   "end": 913.92,
+   "es": "el ángelus o la misa dominical",
+   "id": 434,
+   "slot": 2.74,
+   "max_chars_pl": 38,
+   "pl": "Anioł Pański lub niedzielną mszę,"
+  },
+  {
+   "start": 913.92,
+   "end": 916.58,
+   "es": "comienzan a sonar con un ritmo distinto,",
+   "id": 435,
+   "slot": 2.58,
+   "max_chars_pl": 36,
+   "pl": "zaczynają bić innym rytmem,"
+  },
+  {
+   "start": 916.58,
+   "end": 917.7,
+   "es": "un código secreto",
+   "id": 436,
+   "slot": 1.04,
+   "max_chars_pl": 14,
+   "pl": "tajnym kodem,"
+  },
+  {
+   "start": 917.7,
+   "end": 920.28,
+   "es": "que solo los locales comprenden.",
+   "id": 437,
+   "slot": 2.5,
+   "max_chars_pl": 35,
+   "pl": "który rozumieją tylko miejscowi."
+  },
+  {
+   "start": 920.28,
+   "end": 922.5,
+   "es": "Los niños que juegan en las plazas",
+   "id": 438,
+   "slot": 2.14,
+   "max_chars_pl": 29,
+   "pl": "Dzieci bawiące się na placach"
+  },
+  {
+   "start": 922.5,
+   "end": 923.64,
+   "es": "y caminos",
+   "id": 439,
+   "slot": 1.06,
+   "max_chars_pl": 14,
+   "pl": "i drogach"
+  },
+  {
+   "start": 923.64,
+   "end": 925.3,
+   "es": "dejan caer sus juguetes",
+   "id": 440,
+   "slot": 1.58,
+   "max_chars_pl": 22,
+   "pl": "upuszczają zabawki"
+  },
+  {
+   "start": 925.3,
+   "end": 927.0,
+   "es": "y corren hacia sus casas",
+   "id": 441,
+   "slot": 1.62,
+   "max_chars_pl": 22,
+   "pl": "i biegną do domów"
+  },
+  {
+   "start": 927.0,
+   "end": 928.7,
+   "es": "o hacia puntos estratégicos",
+   "id": 442,
+   "slot": 1.62,
+   "max_chars_pl": 22,
+   "pl": "albo w strategiczne miejsca,"
+  },
+  {
+   "start": 928.7,
+   "end": 931.74,
+   "es": "para avisar que vienen los verdes.",
+   "id": 443,
+   "slot": 2.96,
+   "max_chars_pl": 41,
+   "pl": "by ostrzec, że idą zieloni."
+  },
+  {
+   "start": 931.74,
+   "end": 933.3,
+   "es": "Es una coreografía perfecta",
+   "id": 444,
+   "slot": 1.48,
+   "max_chars_pl": 20,
+   "pl": "To doskonała choreografia"
+  },
+  {
+   "start": 933.3,
+   "end": 935.58,
+   "es": "de silencio y movimiento coordinado",
+   "id": 445,
+   "slot": 2.2,
+   "max_chars_pl": 30,
+   "pl": "ciszy i skoordynowanego ruchu,"
+  },
+  {
+   "start": 935.58,
+   "end": 936.8,
+   "es": "que le otorga a Isidro",
+   "id": 446,
+   "slot": 1.14,
+   "max_chars_pl": 15,
+   "pl": "która daje Isidro"
+  },
+  {
+   "start": 936.8,
+   "end": 939.74,
+   "es": "el regalo más valioso en su mundo.",
+   "id": 447,
+   "slot": 2.86,
+   "max_chars_pl": 40,
+   "pl": "najcenniejszy dar w jego świecie."
+  },
+  {
+   "start": 939.74,
+   "end": 941.22,
+   "es": "Tiempo.",
+   "id": 448,
+   "slot": 1.4,
+   "max_chars_pl": 19,
+   "pl": "Czas."
+  },
+  {
+   "start": 941.22,
+   "end": 943.24,
+   "es": "La montaña, por su parte,",
+   "id": 449,
+   "slot": 1.94,
+   "max_chars_pl": 27,
+   "pl": "Góra ze swej strony"
+  },
+  {
+   "start": 943.24,
+   "end": 945.7,
+   "es": "actúa como su segunda piel.",
+   "id": 450,
+   "slot": 2.38,
+   "max_chars_pl": 33,
+   "pl": "działa jak jego druga skóra."
+  },
+  {
+   "start": 945.7,
+   "end": 947.3,
+   "es": "La Sierra Madre Occidental",
+   "id": 451,
+   "slot": 1.52,
+   "max_chars_pl": 21,
+   "pl": "Sierra Madre Zachodnia"
+  },
+  {
+   "start": 947.3,
+   "end": 950.36,
+   "es": "no es solo un relieve geográfico para él,",
+   "id": 452,
+   "slot": 2.98,
+   "max_chars_pl": 41,
+   "pl": "to dla niego nie tylko rzeźba terenu,"
+  },
+  {
+   "start": 950.36,
+   "end": 951.7,
+   "es": "es un aliado táctico",
+   "id": 453,
+   "slot": 1.26,
+   "max_chars_pl": 17,
+   "pl": "to taktyczny sojusznik,"
+  },
+  {
+   "start": 951.7,
+   "end": 952.9,
+   "es": "que ha aprendido a leer",
+   "id": 454,
+   "slot": 1.12,
+   "max_chars_pl": 15,
+   "pl": "którego nauczył się czytać"
+  },
+  {
+   "start": 952.9,
+   "end": 955.04,
+   "es": "desde que era niño.",
+   "id": 455,
+   "slot": 2.06,
+   "max_chars_pl": 28,
+   "pl": "od dziecka."
+  },
+  {
+   "start": 955.04,
+   "end": 956.94,
+   "es": "Los satélites de la DEA",
+   "id": 456,
+   "slot": 1.82,
+   "max_chars_pl": 25,
+   "pl": "Satelity DEA"
+  },
+  {
+   "start": 956.94,
+   "end": 959.12,
+   "es": "y los aviones no tripulados",
+   "id": 457,
+   "slot": 2.1,
+   "max_chars_pl": 29,
+   "pl": "i drony"
+  },
+  {
+   "start": 959.12,
+   "end": 961.0,
+   "es": "pueden capturar firmas de calor",
+   "id": 458,
+   "slot": 1.8,
+   "max_chars_pl": 25,
+   "pl": "mogą wychwycić sygnatury cieplne"
+  },
+  {
+   "start": 961.0,
+   "end": 963.32,
+   "es": "y movimientos de convoyes,",
+   "id": 459,
+   "slot": 2.24,
+   "max_chars_pl": 31,
+   "pl": "i ruchy konwojów,"
+  },
+  {
+   "start": 963.32,
+   "end": 964.4,
+   "es": "pero no pueden distinguir",
+   "id": 460,
+   "slot": 1.0,
+   "max_chars_pl": 14,
+   "pl": "ale nie potrafią odróżnić"
+  },
+  {
+   "start": 964.4,
+   "end": 965.9,
+   "es": "entre un multimillonario",
+   "id": 461,
+   "slot": 1.42,
+   "max_chars_pl": 19,
+   "pl": "multimiliardera,"
+  },
+  {
+   "start": 965.9,
+   "end": 967.8,
+   "es": "que controla el flujo de fentanilo",
+   "id": 462,
+   "slot": 1.82,
+   "max_chars_pl": 25,
+   "pl": "który kontroluje przepływ fentanylu"
+  },
+  {
+   "start": 967.8,
+   "end": 969.12,
+   "es": "hacia el norte",
+   "id": 463,
+   "slot": 1.24,
+   "max_chars_pl": 17,
+   "pl": "na północ,"
+  },
+  {
+   "start": 969.12,
+   "end": 970.2,
+   "es": "y un humilde ranchero",
+   "id": 464,
+   "slot": 1.0,
+   "max_chars_pl": 14,
+   "pl": "od skromnego rancherów,"
+  },
+  {
+   "start": 970.2,
+   "end": 973.08,
+   "es": "que arrea su ganado entre los pinos.",
+   "id": 465,
+   "slot": 2.8,
+   "max_chars_pl": 39,
+   "pl": "który zaganiał bydło wśród sosen."
+  },
+  {
+   "start": 973.08,
+   "end": 974.4,
+   "es": "Isidro ha perfeccionado",
+   "id": 466,
+   "slot": 1.24,
+   "max_chars_pl": 17,
+   "pl": "Isidro doskonale opanował"
+  },
+  {
+   "start": 974.4,
+   "end": 976.68,
+   "es": "el arte del camuflaje rural",
+   "id": 467,
+   "slot": 2.2,
+   "max_chars_pl": 30,
+   "pl": "sztukę wiejskiego kamuflażu"
+  },
+  {
+   "start": 976.68,
+   "end": 977.7,
+   "es": "para cuando los comandos",
+   "id": 468,
+   "slot": 0.94,
+   "max_chars_pl": 13,
+   "pl": "na wypadek, gdy komandosi"
+  },
+  {
+   "start": 977.7,
+   "end": 979.28,
+   "es": "de fuerzas especiales,",
+   "id": 469,
+   "slot": 1.5,
+   "max_chars_pl": 21,
+   "pl": "sił specjalnych,"
+  },
+  {
+   "start": 979.28,
+   "end": 981.0,
+   "es": "tras horas de ascenso agotador",
+   "id": 470,
+   "slot": 1.64,
+   "max_chars_pl": 22,
+   "pl": "po godzinach wyczerpującej"
+  },
+  {
+   "start": 981.0,
+   "end": 982.2,
+   "es": "y peligroso,",
+   "id": 471,
+   "slot": 1.12,
+   "max_chars_pl": 15,
+   "pl": "i niebezpiecznej wspinaczki,"
+  },
+  {
+   "start": 982.2,
+   "end": 984.2,
+   "es": "logran finalmente reventar la puerta",
+   "id": 472,
+   "slot": 1.92,
+   "max_chars_pl": 26,
+   "pl": "w końcu wyważą drzwi"
+  },
+  {
+   "start": 984.2,
+   "end": 985.4,
+   "es": "de lo que sus informantes",
+   "id": 473,
+   "slot": 1.12,
+   "max_chars_pl": 15,
+   "pl": "miejsca, które ich informatorzy"
+  },
+  {
+   "start": 985.4,
+   "end": 987.0,
+   "es": "señalaban como un refugio",
+   "id": 474,
+   "slot": 1.52,
+   "max_chars_pl": 21,
+   "pl": "wskazywali jako kryjówkę"
+  },
+  {
+   "start": 987.0,
+   "end": 988.5,
+   "es": "de alto nivel.",
+   "id": 475,
+   "slot": 1.42,
+   "max_chars_pl": 19,
+   "pl": "wysokiego szczebla."
+  },
+  {
+   "start": 988.5,
+   "end": 989.9,
+   "es": "Se encuentran con una escena",
+   "id": 476,
+   "slot": 1.32,
+   "max_chars_pl": 18,
+   "pl": "Zastają scenę,"
+  },
+  {
+   "start": 989.9,
+   "end": 991.2,
+   "es": "que es casi una burla",
+   "id": 477,
+   "slot": 1.22,
+   "max_chars_pl": 17,
+   "pl": "która jest niemal drwiną"
+  },
+  {
+   "start": 991.2,
+   "end": 993.48,
+   "es": "a su despliegue tecnológico.",
+   "id": 478,
+   "slot": 2.2,
+   "max_chars_pl": 30,
+   "pl": "z ich technologicznego rozmachu."
+  },
+  {
+   "start": 993.48,
+   "end": 995.22,
+   "es": "En el interior de la cabaña,",
+   "id": 479,
+   "slot": 1.66,
+   "max_chars_pl": 23,
+   "pl": "We wnętrzu chaty"
+  },
+  {
+   "start": 995.22,
+   "end": 996.3,
+   "es": "el café suele estar",
+   "id": 480,
+   "slot": 1.0,
+   "max_chars_pl": 14,
+   "pl": "kawa zwykle jest"
+  },
+  {
+   "start": 996.3,
+   "end": 998.48,
+   "es": "todavía caliente en la mesa.",
+   "id": 481,
+   "slot": 2.1,
+   "max_chars_pl": 29,
+   "pl": "jeszcze ciepła na stole."
+  },
+  {
+   "start": 998.48,
+   "end": 1000.82,
+   "es": "El aroma del tabaco flota en el aire",
+   "id": 482,
+   "slot": 2.26,
+   "max_chars_pl": 31,
+   "pl": "Zapach tytoniu unosi się w powietrzu,"
+  },
+  {
+   "start": 1000.82,
+   "end": 1002.9,
+   "es": "y las sábanas de una cama rústica",
+   "id": 483,
+   "slot": 2.0,
+   "max_chars_pl": 28,
+   "pl": "a prześcieradła rustykalnego łóżka"
+  },
+  {
+   "start": 1002.9,
+   "end": 1004.2,
+   "es": "aún conservan el calor",
+   "id": 484,
+   "slot": 1.22,
+   "max_chars_pl": 17,
+   "pl": "wciąż zachowują ciepło"
+  },
+  {
+   "start": 1004.2,
+   "end": 1006.76,
+   "es": "de un cuerpo que acaba de levantarse.",
+   "id": 485,
+   "slot": 2.48,
+   "max_chars_pl": 34,
+   "pl": "ciała, które dopiero co wstało."
+  },
+  {
+   "start": 1006.76,
+   "end": 1007.68,
+   "es": "Sin embargo,",
+   "id": 486,
+   "slot": 0.84,
+   "max_chars_pl": 11,
+   "pl": "Jednak"
+  },
+  {
+   "start": 1007.68,
+   "end": 1009.72,
+   "es": "no hay rastro de armas largas",
+   "id": 487,
+   "slot": 1.96,
+   "max_chars_pl": 27,
+   "pl": "nie ma śladu długiej broni,"
+  },
+  {
+   "start": 1009.72,
+   "end": 1011.72,
+   "es": "ni de uniformes tácticos",
+   "id": 488,
+   "slot": 1.92,
+   "max_chars_pl": 26,
+   "pl": "ani strojów taktycznych,"
+  },
+  {
+   "start": 1011.72,
+   "end": 1014.2,
+   "es": "ni de lujos ofensivos.",
+   "id": 489,
+   "slot": 2.4,
+   "max_chars_pl": 33,
+   "pl": "ani obraźliwego luksusu."
+  },
+  {
+   "start": 1014.2,
+   "end": 1015.92,
+   "es": "A pocos kilómetros de ahí,",
+   "id": 490,
+   "slot": 1.64,
+   "max_chars_pl": 22,
+   "pl": "Kilka kilometrów dalej,"
+  },
+  {
+   "start": 1015.92,
+   "end": 1017.0,
+   "es": "cruzando un arroyo",
+   "id": 491,
+   "slot": 1.0,
+   "max_chars_pl": 14,
+   "pl": "przekraczając strumień,"
+  },
+  {
+   "start": 1017.0,
+   "end": 1018.8,
+   "es": "que solo se puede badear a pie",
+   "id": 492,
+   "slot": 1.72,
+   "max_chars_pl": 24,
+   "pl": "który można przejść tylko pieszo"
+  },
+  {
+   "start": 1018.8,
+   "end": 1020.02,
+   "es": "o en mula,",
+   "id": 493,
+   "slot": 1.14,
+   "max_chars_pl": 15,
+   "pl": "albo na mule,"
+  },
+  {
+   "start": 1020.02,
+   "end": 1021.1,
+   "es": "un hombre con sombrero",
+   "id": 494,
+   "slot": 1.0,
+   "max_chars_pl": 14,
+   "pl": "mężczyzna w znoszonym"
+  },
+  {
+   "start": 1021.1,
+   "end": 1022.78,
+   "es": "de palma desgastado,",
+   "id": 495,
+   "slot": 1.6,
+   "max_chars_pl": 22,
+   "pl": "palmowym kapeluszu,"
+  },
+  {
+   "start": 1022.78,
+   "end": 1024.54,
+   "es": "botas sucias de estiércol",
+   "id": 496,
+   "slot": 1.68,
+   "max_chars_pl": 23,
+   "pl": "butach brudnych od gnoju"
+  },
+  {
+   "start": 1024.54,
+   "end": 1027.24,
+   "es": "y una camisa de mezclilla desteñida,",
+   "id": 497,
+   "slot": 2.62,
+   "max_chars_pl": 36,
+   "pl": "i wyblakłej dżinsowej koszuli"
+  },
+  {
+   "start": 1027.24,
+   "end": 1028.5,
+   "es": "camina tranquilamente",
+   "id": 498,
+   "slot": 1.18,
+   "max_chars_pl": 16,
+   "pl": "idzie spokojnie"
+  },
+  {
+   "start": 1028.5,
+   "end": 1030.92,
+   "es": "junto a un grupo de vacas.",
+   "id": 499,
+   "slot": 2.34,
+   "max_chars_pl": 32,
+   "pl": "obok grupy krów."
+  },
+  {
+   "start": 1030.92,
+   "end": 1032.0,
+   "es": "Ese hombre,",
+   "id": 500,
+   "slot": 1.0,
+   "max_chars_pl": 14,
+   "pl": "Ten człowiek,"
+  },
+  {
+   "start": 1032.0,
+   "end": 1034.12,
+   "es": "que no lleva escoltas visibles",
+   "id": 501,
+   "slot": 2.04,
+   "max_chars_pl": 28,
+   "pl": "który nie ma widocznej ochrony"
+  },
+  {
+   "start": 1034.12,
+   "end": 1035.4,
+   "es": "y que parece un campesino",
+   "id": 502,
+   "slot": 1.2,
+   "max_chars_pl": 16,
+   "pl": "i wygląda jak chłop"
+  },
+  {
+   "start": 1035.4,
+   "end": 1037.7,
+   "es": "más agotado por la jornada,",
+   "id": 503,
+   "slot": 2.22,
+   "max_chars_pl": 31,
+   "pl": "zmęczony pracą dnia,"
+  },
+  {
+   "start": 1037.7,
+   "end": 1039.1,
+   "es": "es el dueño de una fortuna",
+   "id": 504,
+   "slot": 1.32,
+   "max_chars_pl": 18,
+   "pl": "jest właścicielem fortuny,"
+  },
+  {
+   "start": 1039.1,
+   "end": 1040.7,
+   "es": "que podría comprar el silencio",
+   "id": 505,
+   "slot": 1.52,
+   "max_chars_pl": 21,
+   "pl": "która mogłaby kupić milczenie"
+  },
+  {
+   "start": 1040.7,
+   "end": 1042.94,
+   "es": "de una ciudad entera.",
+   "id": 506,
+   "slot": 2.16,
+   "max_chars_pl": 30,
+   "pl": "całego miasta."
+  },
+  {
+   "start": 1042.94,
+   "end": 1044.0,
+   "es": "Isidro ha entendido",
+   "id": 507,
+   "slot": 0.98,
+   "max_chars_pl": 13,
+   "pl": "Isidro zrozumiał,"
+  },
+  {
+   "start": 1044.0,
+   "end": 1045.5,
+   "es": "que la montaña solo protege",
+   "id": 508,
+   "slot": 1.42,
+   "max_chars_pl": 19,
+   "pl": "że góra chroni tylko"
+  },
+  {
+   "start": 1045.5,
+   "end": 1047.92,
+   "es": "a quienes pertenecen a ella.",
+   "id": 509,
+   "slot": 2.34,
+   "max_chars_pl": 32,
+   "pl": "tych, którzy do niej należą."
+  },
+  {
+   "start": 1047.92,
+   "end": 1049.5,
+   "es": "Al fundirse con el paisaje",
+   "id": 510,
+   "slot": 1.5,
+   "max_chars_pl": 21,
+   "pl": "Wtapiając się w krajobraz"
+  },
+  {
+   "start": 1049.5,
+   "end": 1050.94,
+   "es": "y con su gente,",
+   "id": 511,
+   "slot": 1.36,
+   "max_chars_pl": 19,
+   "pl": "i w swój lud,"
+  },
+  {
+   "start": 1050.94,
+   "end": 1052.2,
+   "es": "ha logrado neutralizar",
+   "id": 512,
+   "slot": 1.18,
+   "max_chars_pl": 16,
+   "pl": "zdołał zneutralizować"
+  },
+  {
+   "start": 1052.2,
+   "end": 1053.8,
+   "es": "miles de millones de dólares",
+   "id": 513,
+   "slot": 1.52,
+   "max_chars_pl": 21,
+   "pl": "miliardy dolarów"
+  },
+  {
+   "start": 1053.8,
+   "end": 1055.9,
+   "es": "en tecnología de captura.",
+   "id": 514,
+   "slot": 2.02,
+   "max_chars_pl": 28,
+   "pl": "w technologii pościgowej."
+  },
+  {
+   "start": 1055.9,
+   "end": 1056.8,
+   "es": "Su estrategia",
+   "id": 515,
+   "slot": 0.82,
+   "max_chars_pl": 11,
+   "pl": "Jego strategia"
+  },
+  {
+   "start": 1056.8,
+   "end": 1059.34,
+   "es": "es una bofetada a la modernidad.",
+   "id": 516,
+   "slot": 2.46,
+   "max_chars_pl": 34,
+   "pl": "to policzek dla nowoczesności."
+  },
+  {
+   "start": 1059.34,
+   "end": 1060.2,
+   "es": "Mientras el mundo",
+   "id": 517,
+   "slot": 0.78,
+   "max_chars_pl": 10,
+   "pl": "Podczas gdy świat"
+  },
+  {
+   "start": 1060.2,
+   "end": 1061.92,
+   "es": "se vuelve más digital,",
+   "id": 518,
+   "slot": 1.64,
+   "max_chars_pl": 22,
+   "pl": "staje się coraz bardziej cyfrowy,"
+  },
+  {
+   "start": 1061.92,
+   "end": 1064.2,
+   "es": "él se vuelve más terrenal.",
+   "id": 519,
+   "slot": 2.2,
+   "max_chars_pl": 30,
+   "pl": "on staje się coraz bardziej ziemski."
+  },
+  {
+   "start": 1064.2,
+   "end": 1065.6,
+   "es": "Mientras los otros capos",
+   "id": 520,
+   "slot": 1.32,
+   "max_chars_pl": 18,
+   "pl": "Podczas gdy inni bossowie"
+  },
+  {
+   "start": 1065.6,
+   "end": 1066.9,
+   "es": "se encierran en búnkeres",
+   "id": 521,
+   "slot": 1.22,
+   "max_chars_pl": 17,
+   "pl": "zamykają się w bunkrach"
+  },
+  {
+   "start": 1066.9,
+   "end": 1068.4,
+   "es": "de concreto y acero",
+   "id": 522,
+   "slot": 1.42,
+   "max_chars_pl": 19,
+   "pl": "z betonu i stali,"
+  },
+  {
+   "start": 1068.4,
+   "end": 1069.7,
+   "es": "que terminan convirtiéndose",
+   "id": 523,
+   "slot": 1.22,
+   "max_chars_pl": 17,
+   "pl": "które w końcu stają się"
+  },
+  {
+   "start": 1069.7,
+   "end": 1071.88,
+   "es": "en sus propias prisiones,",
+   "id": 524,
+   "slot": 2.1,
+   "max_chars_pl": 29,
+   "pl": "ich własnymi więzieniami,"
+  },
+  {
+   "start": 1071.88,
+   "end": 1073.5,
+   "es": "Isidro utiliza la inmensidad",
+   "id": 525,
+   "slot": 1.54,
+   "max_chars_pl": 21,
+   "pl": "Isidro wykorzystuje ogrom"
+  },
+  {
+   "start": 1073.5,
+   "end": 1075.0,
+   "es": "del horizonte sinaloense",
+   "id": 526,
+   "slot": 1.42,
+   "max_chars_pl": 19,
+   "pl": "horyzontu Sinaloa"
+  },
+  {
+   "start": 1075.0,
+   "end": 1076.88,
+   "es": "como su fortaleza.",
+   "id": 527,
+   "slot": 1.8,
+   "max_chars_pl": 25,
+   "pl": "jako swoją twierdzę."
+  },
+  {
+   "start": 1076.88,
+   "end": 1078.3,
+   "es": "Su riqueza le ha permitido",
+   "id": 528,
+   "slot": 1.34,
+   "max_chars_pl": 18,
+   "pl": "Jego bogactwo pozwoliło mu"
+  },
+  {
+   "start": 1078.3,
+   "end": 1080.56,
+   "es": "comprar no solo voluntades,",
+   "id": 529,
+   "slot": 2.18,
+   "max_chars_pl": 30,
+   "pl": "kupić nie tylko wolę ludzi,"
+  },
+  {
+   "start": 1080.56,
+   "end": 1082.98,
+   "es": "sino el derecho a ser invisible,",
+   "id": 530,
+   "slot": 2.34,
+   "max_chars_pl": 32,
+   "pl": "lecz prawo do bycia niewidzialnym,"
+  },
+  {
+   "start": 1082.98,
+   "end": 1084.6,
+   "es": "convirtiéndose en una sombra",
+   "id": 531,
+   "slot": 1.54,
+   "max_chars_pl": 21,
+   "pl": "stając się cieniem,"
+  },
+  {
+   "start": 1084.6,
+   "end": 1087.26,
+   "es": "que respira, que camina",
+   "id": 532,
+   "slot": 2.58,
+   "max_chars_pl": 36,
+   "pl": "który oddycha, chodzi"
+  },
+  {
+   "start": 1087.26,
+   "end": 1089.2,
+   "es": "y que observa cómo el resto del mundo",
+   "id": 533,
+   "slot": 1.86,
+   "max_chars_pl": 26,
+   "pl": "i obserwuje, jak reszta świata"
+  },
+  {
+   "start": 1089.2,
+   "end": 1091.24,
+   "es": "sigue buscando a un hombre",
+   "id": 534,
+   "slot": 1.96,
+   "max_chars_pl": 27,
+   "pl": "wciąż szuka człowieka,"
+  },
+  {
+   "start": 1091.24,
+   "end": 1093.74,
+   "es": "que está justo frente a sus ojos,",
+   "id": 535,
+   "slot": 2.42,
+   "max_chars_pl": 33,
+   "pl": "który stoi tuż przed jego oczami,"
+  },
+  {
+   "start": 1093.74,
+   "end": 1095.5,
+   "es": "disfrazado de la misma tierra",
+   "id": 536,
+   "slot": 1.68,
+   "max_chars_pl": 23,
+   "pl": "przebrany za tę samą ziemię,"
+  },
+  {
+   "start": 1095.5,
+   "end": 1097.32,
+   "es": "que lo vio nacer.",
+   "id": 537,
+   "slot": 1.74,
+   "max_chars_pl": 24,
+   "pl": "która widziała jego narodziny."
+  },
+  {
+   "start": 1097.32,
+   "end": 1099.3,
+   "es": "Detrás de esa fachada de ranchero",
+   "id": 538,
+   "slot": 1.9,
+   "max_chars_pl": 26,
+   "pl": "Za tą fasadą rancherów,"
+  },
+  {
+   "start": 1099.3,
+   "end": 1101.4,
+   "es": "que camina por el lodo de la sierra,",
+   "id": 539,
+   "slot": 2.02,
+   "max_chars_pl": 28,
+   "pl": "który brnie przez błoto gór,"
+  },
+  {
+   "start": 1101.4,
+   "end": 1102.5,
+   "es": "con el sombrero de palma",
+   "id": 540,
+   "slot": 1.02,
+   "max_chars_pl": 14,
+   "pl": "w palmowym kapeluszu"
+  },
+  {
+   "start": 1102.5,
+   "end": 1103.86,
+   "es": "curtido por el sol",
+   "id": 541,
+   "slot": 1.28,
+   "max_chars_pl": 17,
+   "pl": "ogorzałym od słońca"
+  },
+  {
+   "start": 1103.86,
+   "end": 1105.0,
+   "es": "y las manos marcadas",
+   "id": 542,
+   "slot": 1.06,
+   "max_chars_pl": 14,
+   "pl": "i z dłońmi naznaczonymi"
+  },
+  {
+   "start": 1105.0,
+   "end": 1106.86,
+   "es": "por el trabajo de campo,",
+   "id": 543,
+   "slot": 1.78,
+   "max_chars_pl": 24,
+   "pl": "pracą w polu,"
+  },
+  {
+   "start": 1106.86,
+   "end": 1108.3,
+   "es": "se esconde una de las mentes",
+   "id": 544,
+   "slot": 1.36,
+   "max_chars_pl": 19,
+   "pl": "kryje się jeden z najbardziej"
+  },
+  {
+   "start": 1108.3,
+   "end": 1110.1,
+   "es": "industriales más brillantes",
+   "id": 545,
+   "slot": 1.72,
+   "max_chars_pl": 24,
+   "pl": "błyskotliwych umysłów przemysłowych"
+  },
+  {
+   "start": 1110.1,
+   "end": 1113.26,
+   "es": "y letales del siglo XXI.",
+   "id": 546,
+   "slot": 3.08,
+   "max_chars_pl": 43,
+   "pl": "i zabójczych XXI wieku."
+  },
+  {
+   "start": 1113.26,
+   "end": 1115.84,
+   "es": "Fausto Isidro Mesa.",
+   "id": 547,
+   "slot": 2.5,
+   "max_chars_pl": 35,
+   "pl": "Fausto Isidro Meza."
+  },
+  {
+   "start": 1115.84,
+   "end": 1117.9,
+   "es": "Flores no es solo un sobreviviente",
+   "id": 548,
+   "slot": 1.98,
+   "max_chars_pl": 27,
+   "pl": "Flores to nie tylko ocalały"
+  },
+  {
+   "start": 1117.9,
+   "end": 1119.82,
+   "es": "de las guerras de carteles,",
+   "id": 549,
+   "slot": 1.84,
+   "max_chars_pl": 25,
+   "pl": "z wojen karteli,"
+  },
+  {
+   "start": 1119.82,
+   "end": 1122.5,
+   "es": "es el arquitecto de una transformación radical",
+   "id": 550,
+   "slot": 2.6,
+   "max_chars_pl": 36,
+   "pl": "to architekt radykalnej transformacji"
+  },
+  {
+   "start": 1122.5,
+   "end": 1125.44,
+   "es": "en el mercado global del narcotráfico.",
+   "id": 551,
+   "slot": 2.86,
+   "max_chars_pl": 40,
+   "pl": "na globalnym rynku narkotyków."
+  },
+  {
+   "start": 1125.44,
+   "end": 1127.4,
+   "es": "Mientras los capos de la vieja guardia",
+   "id": 552,
+   "slot": 1.88,
+   "max_chars_pl": 26,
+   "pl": "Podczas gdy bossowie starej gwardii"
+  },
+  {
+   "start": 1127.4,
+   "end": 1128.5,
+   "es": "seguían aferrados",
+   "id": 553,
+   "slot": 1.02,
+   "max_chars_pl": 14,
+   "pl": "wciąż byli przywiązani"
+  },
+  {
+   "start": 1128.5,
+   "end": 1130.84,
+   "es": "románticamente a la cocaína,",
+   "id": 554,
+   "slot": 2.26,
+   "max_chars_pl": 31,
+   "pl": "romantycznie do kokainy,"
+  },
+  {
+   "start": 1130.84,
+   "end": 1131.9,
+   "es": "un producto que depende",
+   "id": 555,
+   "slot": 0.98,
+   "max_chars_pl": 13,
+   "pl": "produktu, który zależy"
+  },
+  {
+   "start": 1131.9,
+   "end": 1133.2,
+   "es": "de cosechas inciertas",
+   "id": 556,
+   "slot": 1.22,
+   "max_chars_pl": 17,
+   "pl": "od niepewnych zbiorów"
+  },
+  {
+   "start": 1133.2,
+   "end": 1135.26,
+   "es": "en las selvas de los Andes,",
+   "id": 557,
+   "slot": 1.98,
+   "max_chars_pl": 27,
+   "pl": "w dżunglach Andów,"
+  },
+  {
+   "start": 1135.26,
+   "end": 1137.9,
+   "es": "de procesos de refinación rudimentarios",
+   "id": 558,
+   "slot": 2.56,
+   "max_chars_pl": 35,
+   "pl": "od prymitywnych procesów rafinacji"
+  },
+  {
+   "start": 1137.9,
+   "end": 1139.0,
+   "es": "y de una logística",
+   "id": 559,
+   "slot": 1.02,
+   "max_chars_pl": 14,
+   "pl": "i od podatnej na ataki"
+  },
+  {
+   "start": 1139.0,
+   "end": 1141.58,
+   "es": "transcontinental vulnerable.",
+   "id": 560,
+   "slot": 2.5,
+   "max_chars_pl": 35,
+   "pl": "logistyki transkontynentalnej,"
+  },
+  {
+   "start": 1141.58,
+   "end": 1143.1,
+   "es": "Isidro tuvo una epifanía",
+   "id": 561,
+   "slot": 1.44,
+   "max_chars_pl": 20,
+   "pl": "Isidro doznał przebłysku"
+  },
+  {
+   "start": 1143.1,
+   "end": 1144.2,
+   "es": "empresarial que cambió",
+   "id": 562,
+   "slot": 1.02,
+   "max_chars_pl": 14,
+   "pl": "biznesowego, który zmienił"
+  },
+  {
+   "start": 1144.2,
+   "end": 1146.16,
+   "es": "las reglas del juego.",
+   "id": 563,
+   "slot": 1.88,
+   "max_chars_pl": 26,
+   "pl": "reguły gry."
+  },
+  {
+   "start": 1146.16,
+   "end": 1148.72,
+   "es": "Comprendió mucho antes que sus rivales",
+   "id": 564,
+   "slot": 2.48,
+   "max_chars_pl": 34,
+   "pl": "Zrozumiał dużo wcześniej niż rywale,"
+  },
+  {
+   "start": 1148.72,
+   "end": 1150.98,
+   "es": "que el futuro no estaba en las plantas,",
+   "id": 565,
+   "slot": 2.18,
+   "max_chars_pl": 30,
+   "pl": "że przyszłość nie leży w roślinach,"
+  },
+  {
+   "start": 1150.98,
+   "end": 1153.14,
+   "es": "sino en las moléculas.",
+   "id": 566,
+   "slot": 2.08,
+   "max_chars_pl": 29,
+   "pl": "lecz w cząsteczkach."
+  },
+  {
+   "start": 1153.14,
+   "end": 1154.7,
+   "es": "Entendió que el verdadero poder",
+   "id": 567,
+   "slot": 1.48,
+   "max_chars_pl": 20,
+   "pl": "Pojął, że prawdziwa władza"
+  },
+  {
+   "start": 1154.7,
+   "end": 1157.7,
+   "es": "no residía en controlar hectáreas de tierra,",
+   "id": 568,
+   "slot": 2.92,
+   "max_chars_pl": 40,
+   "pl": "nie polega na kontroli hektarów ziemi,"
+  },
+  {
+   "start": 1157.7,
+   "end": 1160.88,
+   "es": "sino en dominar la química de precisión.",
+   "id": 569,
+   "slot": 3.1,
+   "max_chars_pl": 43,
+   "pl": "lecz na opanowaniu chemii precyzyjnej."
+  },
+  {
+   "start": 1160.88,
+   "end": 1162.5,
+   "es": "Esta visión lo llevó a liderar",
+   "id": 570,
+   "slot": 1.54,
+   "max_chars_pl": 21,
+   "pl": "Ta wizja pozwoliła mu poprowadzić"
+  },
+  {
+   "start": 1162.5,
+   "end": 1164.2,
+   "es": "la transición hacia el mercado",
+   "id": 571,
+   "slot": 1.62,
+   "max_chars_pl": 22,
+   "pl": "przejście na rynek"
+  },
+  {
+   "start": 1164.2,
+   "end": 1165.64,
+   "es": "de los sintéticos,",
+   "id": 572,
+   "slot": 1.36,
+   "max_chars_pl": 19,
+   "pl": "syntetyków,"
+  },
+  {
+   "start": 1165.64,
+   "end": 1167.0,
+   "es": "convirtiendo su territorio",
+   "id": 573,
+   "slot": 1.28,
+   "max_chars_pl": 17,
+   "pl": "zamieniając swoje terytorium"
+  },
+  {
+   "start": 1167.0,
+   "end": 1168.5,
+   "es": "en el centro neurálgico",
+   "id": 574,
+   "slot": 1.42,
+   "max_chars_pl": 19,
+   "pl": "w ośrodek nerwowy"
+  },
+  {
+   "start": 1168.5,
+   "end": 1171.56,
+   "es": "de la producción de metanfetamina",
+   "id": 575,
+   "slot": 2.98,
+   "max_chars_pl": 41,
+   "pl": "produkcji metamfetaminy"
+  },
+  {
+   "start": 1171.56,
+   "end": 1173.58,
+   "es": "a escala industrial.",
+   "id": 576,
+   "slot": 1.94,
+   "max_chars_pl": 27,
+   "pl": "na skalę przemysłową."
+  },
+  {
+   "start": 1173.58,
+   "end": 1175.4,
+   "es": "Para Isidro, la droga dejó de ser",
+   "id": 577,
+   "slot": 1.74,
+   "max_chars_pl": 24,
+   "pl": "Dla Isidro narkotyk przestał być"
+  },
+  {
+   "start": 1175.4,
+   "end": 1176.6,
+   "es": "un producto agrícola",
+   "id": 578,
+   "slot": 1.12,
+   "max_chars_pl": 15,
+   "pl": "produktem rolnym,"
+  },
+  {
+   "start": 1176.6,
+   "end": 1178.1,
+   "es": "para convertirse en un bien",
+   "id": 579,
+   "slot": 1.42,
+   "max_chars_pl": 19,
+   "pl": "stając się dobrem"
+  },
+  {
+   "start": 1178.1,
+   "end": 1180.7,
+   "es": "manufacturado de alta tecnología.",
+   "id": 580,
+   "slot": 2.52,
+   "max_chars_pl": 35,
+   "pl": "wytwarzanym w wysokiej technologii."
+  },
+  {
+   "start": 1180.7,
+   "end": 1181.98,
+   "es": "Bajo su mando,",
+   "id": 581,
+   "slot": 1.2,
+   "max_chars_pl": 16,
+   "pl": "Pod jego dowództwem"
+  },
+  {
+   "start": 1181.98,
+   "end": 1183.96,
+   "es": "los laboratorios dejaron de ser",
+   "id": 582,
+   "slot": 1.9,
+   "max_chars_pl": 26,
+   "pl": "laboratoria przestały być"
+  },
+  {
+   "start": 1183.96,
+   "end": 1185.8,
+   "es": "cocinas improvisadas",
+   "id": 583,
+   "slot": 1.76,
+   "max_chars_pl": 24,
+   "pl": "prowizorycznymi kuchniami"
+  },
+  {
+   "start": 1185.8,
+   "end": 1187.38,
+   "es": "en medio del bosque",
+   "id": 584,
+   "slot": 1.5,
+   "max_chars_pl": 21,
+   "pl": "pośrodku lasu"
+  },
+  {
+   "start": 1187.38,
+   "end": 1188.7,
+   "es": "con bidones oxidados",
+   "id": 585,
+   "slot": 1.24,
+   "max_chars_pl": 17,
+   "pl": "z zardzewiałymi beczkami"
+  },
+  {
+   "start": 1188.7,
+   "end": 1190.58,
+   "es": "y utensilios de cocina",
+   "id": 586,
+   "slot": 1.8,
+   "max_chars_pl": 25,
+   "pl": "i naczyniami kuchennymi,"
+  },
+  {
+   "start": 1190.58,
+   "end": 1191.6,
+   "es": "para transformarse",
+   "id": 587,
+   "slot": 0.94,
+   "max_chars_pl": 13,
+   "pl": "by przekształcić się"
+  },
+  {
+   "start": 1191.6,
+   "end": 1192.66,
+   "es": "en las llamadas",
+   "id": 588,
+   "slot": 0.98,
+   "max_chars_pl": 13,
+   "pl": "w tak zwane"
+  },
+  {
+   "start": 1192.66,
+   "end": 1194.54,
+   "es": "Super Labs.",
+   "id": 589,
+   "slot": 1.8,
+   "max_chars_pl": 25,
+   "pl": "Super Labs."
+  },
+  {
+   "start": 1194.54,
+   "end": 1196.1,
+   "es": "Estas instalaciones son,",
+   "id": 590,
+   "slot": 1.48,
+   "max_chars_pl": 20,
+   "pl": "Te instalacje to"
+  },
+  {
+   "start": 1196.1,
+   "end": 1197.34,
+   "es": "en realidad,",
+   "id": 591,
+   "slot": 1.16,
+   "max_chars_pl": 16,
+   "pl": "w rzeczywistości"
+  },
+  {
+   "start": 1197.34,
+   "end": 1199.96,
+   "es": "plantas químicas de nivel farmacéutico.",
+   "id": 592,
+   "slot": 2.54,
+   "max_chars_pl": 35,
+   "pl": "zakłady chemiczne na poziomie farmaceutycznym."
+  },
+  {
+   "start": 1199.96,
+   "end": 1201.3,
+   "es": "Muchas de ellas ocultas",
+   "id": 593,
+   "slot": 1.26,
+   "max_chars_pl": 17,
+   "pl": "Wiele z nich ukrytych"
+  },
+  {
+   "start": 1201.3,
+   "end": 1202.6,
+   "es": "bajo tierra en búnkeres",
+   "id": 594,
+   "slot": 1.22,
+   "max_chars_pl": 17,
+   "pl": "pod ziemią w bunkrach"
+  },
+  {
+   "start": 1202.6,
+   "end": 1205.54,
+   "es": "diseñados con ingeniería de punta.",
+   "id": 595,
+   "slot": 2.86,
+   "max_chars_pl": 40,
+   "pl": "zaprojektowanych w najnowocześniejszej inżynierii."
+  },
+  {
+   "start": 1205.54,
+   "end": 1207.1,
+   "es": "Están equipadas con sistemas",
+   "id": 596,
+   "slot": 1.48,
+   "max_chars_pl": 20,
+   "pl": "Wyposażone są w systemy"
+  },
+  {
+   "start": 1207.1,
+   "end": 1208.3,
+   "es": "de filtración de aire",
+   "id": 597,
+   "slot": 1.12,
+   "max_chars_pl": 15,
+   "pl": "filtracji powietrza"
+  },
+  {
+   "start": 1208.3,
+   "end": 1209.96,
+   "es": "de grado hospitalario",
+   "id": 598,
+   "slot": 1.58,
+   "max_chars_pl": 22,
+   "pl": "klasy szpitalnej,"
+  },
+  {
+   "start": 1209.96,
+   "end": 1211.9,
+   "es": "para neutralizar los olores químicos",
+   "id": 599,
+   "slot": 1.86,
+   "max_chars_pl": 26,
+   "pl": "by neutralizować zapachy chemiczne,"
+  },
+  {
+   "start": 1211.9,
+   "end": 1214.6,
+   "es": "que suelen delatar estas operaciones.",
+   "id": 600,
+   "slot": 2.62,
+   "max_chars_pl": 36,
+   "pl": "które zwykle zdradzają takie operacje."
+  },
+  {
+   "start": 1214.6,
+   "end": 1215.9,
+   "es": "Y cuentan con reactores",
+   "id": 601,
+   "slot": 1.22,
+   "max_chars_pl": 17,
+   "pl": "I mają reaktory"
+  },
+  {
+   "start": 1215.9,
+   "end": 1217.34,
+   "es": "de acero inoxidable,",
+   "id": 602,
+   "slot": 1.36,
+   "max_chars_pl": 19,
+   "pl": "ze stali nierdzewnej,"
+  },
+  {
+   "start": 1217.34,
+   "end": 1218.4,
+   "es": "capaces de procesar",
+   "id": 603,
+   "slot": 0.98,
+   "max_chars_pl": 13,
+   "pl": "zdolne przetworzyć"
+  },
+  {
+   "start": 1218.4,
+   "end": 1220.3,
+   "es": "cientos de kilos de precursores",
+   "id": 604,
+   "slot": 1.82,
+   "max_chars_pl": 25,
+   "pl": "setki kilogramów prekursorów"
+  },
+  {
+   "start": 1220.3,
+   "end": 1222.1,
+   "es": "en un solo ciclo.",
+   "id": 605,
+   "slot": 1.72,
+   "max_chars_pl": 24,
+   "pl": "w jednym cyklu."
+  },
+  {
+   "start": 1222.1,
+   "end": 1224.96,
+   "es": "La sofisticación de estas plantas es tal",
+   "id": 606,
+   "slot": 2.78,
+   "max_chars_pl": 38,
+   "pl": "Wyrafinowanie tych zakładów jest takie,"
+  },
+  {
+   "start": 1224.96,
+   "end": 1226.1,
+   "es": "que operan con estándares",
+   "id": 607,
+   "slot": 1.06,
+   "max_chars_pl": 14,
+   "pl": "że działają według standardów"
+  },
+  {
+   "start": 1226.1,
+   "end": 1227.76,
+   "es": "de control de calidad",
+   "id": 608,
+   "slot": 1.58,
+   "max_chars_pl": 22,
+   "pl": "kontroli jakości,"
+  },
+  {
+   "start": 1227.76,
+   "end": 1229.0,
+   "es": "que pondrían en aprietos",
+   "id": 609,
+   "slot": 1.16,
+   "max_chars_pl": 16,
+   "pl": "które postawiłyby w trudnej sytuacji"
+  },
+  {
+   "start": 1229.0,
+   "end": 1232.04,
+   "es": "a muchas farmacéuticas legítimas.",
+   "id": 610,
+   "slot": 2.96,
+   "max_chars_pl": 41,
+   "pl": "wiele legalnych firm farmaceutycznych."
+  },
+  {
+   "start": 1232.04,
+   "end": 1235.62,
+   "es": "Isidro no emplea a simples cocineros.",
+   "id": 611,
+   "slot": 3.5,
+   "max_chars_pl": 49,
+   "pl": "Isidro nie zatrudnia zwykłych kucharzy."
+  },
+  {
+   "start": 1235.62,
+   "end": 1238.16,
+   "es": "Contrata a químicos profesionales,",
+   "id": 612,
+   "slot": 2.46,
+   "max_chars_pl": 34,
+   "pl": "Zatrudnia zawodowych chemików,"
+  },
+  {
+   "start": 1238.16,
+   "end": 1239.8,
+   "es": "muchos de ellos reclutados",
+   "id": 613,
+   "slot": 1.56,
+   "max_chars_pl": 21,
+   "pl": "wielu z nich zwerbowanych"
+  },
+  {
+   "start": 1239.8,
+   "end": 1241.26,
+   "es": "de industrias legales",
+   "id": 614,
+   "slot": 1.38,
+   "max_chars_pl": 19,
+   "pl": "z legalnych branż"
+  },
+  {
+   "start": 1241.26,
+   "end": 1244.4,
+   "es": "o formados en universidades prestigiosas,",
+   "id": 615,
+   "slot": 3.06,
+   "max_chars_pl": 42,
+   "pl": "lub wykształconych na prestiżowych uniwersytetach,"
+  },
+  {
+   "start": 1244.4,
+   "end": 1245.8,
+   "es": "a quienes ofrece salarios",
+   "id": 616,
+   "slot": 1.32,
+   "max_chars_pl": 18,
+   "pl": "którym oferuje pensje"
+  },
+  {
+   "start": 1245.8,
+   "end": 1247.64,
+   "es": "y medidas de seguridad",
+   "id": 617,
+   "slot": 1.76,
+   "max_chars_pl": 24,
+   "pl": "i środki bezpieczeństwa,"
+  },
+  {
+   "start": 1247.64,
+   "end": 1248.6,
+   "es": "que el mercado legal",
+   "id": 618,
+   "slot": 0.88,
+   "max_chars_pl": 12,
+   "pl": "jakich legalny rynek"
+  },
+  {
+   "start": 1248.6,
+   "end": 1250.52,
+   "es": "no puede igualar.",
+   "id": 619,
+   "slot": 1.84,
+   "max_chars_pl": 25,
+   "pl": "nie jest w stanie zapewnić."
+  },
+  {
+   "start": 1250.52,
+   "end": 1253.04,
+   "es": "En estos laboratorios subterráneos",
+   "id": 620,
+   "slot": 2.44,
+   "max_chars_pl": 34,
+   "pl": "W tych podziemnych laboratoriach"
+  },
+  {
+   "start": 1253.04,
+   "end": 1254.4,
+   "es": "se sintetizan sustancias",
+   "id": 621,
+   "slot": 1.28,
+   "max_chars_pl": 17,
+   "pl": "syntetyzuje się substancje"
+  },
+  {
+   "start": 1254.4,
+   "end": 1256.6,
+   "es": "con una pureza que ha dejado atónitos",
+   "id": 622,
+   "slot": 2.12,
+   "max_chars_pl": 29,
+   "pl": "o czystości, która zdumiała"
+  },
+  {
+   "start": 1256.6,
+   "end": 1258.9,
+   "es": "a los analistas de la DEA.",
+   "id": 623,
+   "slot": 2.22,
+   "max_chars_pl": 31,
+   "pl": "analityków DEA."
+  },
+  {
+   "start": 1258.9,
+   "end": 1260.4,
+   "es": "La metanfetamina que sale",
+   "id": 624,
+   "slot": 1.42,
+   "max_chars_pl": 19,
+   "pl": "Metamfetamina, która wychodzi"
+  },
+  {
+   "start": 1260.4,
+   "end": 1262.14,
+   "es": "de los dominios de Isidro,",
+   "id": 625,
+   "slot": 1.66,
+   "max_chars_pl": 23,
+   "pl": "z domen Isidro,"
+  },
+  {
+   "start": 1262.14,
+   "end": 1263.4,
+   "es": "conocida en las calles",
+   "id": 626,
+   "slot": 1.18,
+   "max_chars_pl": 16,
+   "pl": "znana na ulicach"
+  },
+  {
+   "start": 1263.4,
+   "end": 1264.6,
+   "es": "por su transparencia",
+   "id": 627,
+   "slot": 1.12,
+   "max_chars_pl": 15,
+   "pl": "z przejrzystości"
+  },
+  {
+   "start": 1264.6,
+   "end": 1266.34,
+   "es": "y potencia devastadora,",
+   "id": 628,
+   "slot": 1.66,
+   "max_chars_pl": 23,
+   "pl": "i druzgocącej mocy,"
+  },
+  {
+   "start": 1266.34,
+   "end": 1267.9,
+   "es": "es el resultado de un proceso",
+   "id": 629,
+   "slot": 1.48,
+   "max_chars_pl": 20,
+   "pl": "jest wynikiem procesu"
+  },
+  {
+   "start": 1267.9,
+   "end": 1269.8,
+   "es": "de cristalización perfeccionado",
+   "id": 630,
+   "slot": 1.82,
+   "max_chars_pl": 25,
+   "pl": "krystalizacji doskonalonego"
+  },
+  {
+   "start": 1269.8,
+   "end": 1272.66,
+   "es": "durante años de ensayo y error.",
+   "id": 631,
+   "slot": 2.78,
+   "max_chars_pl": 38,
+   "pl": "przez lata prób i błędów."
+  },
+  {
+   "start": 1272.66,
+   "end": 1274.58,
+   "es": "Pero el verdadero salto cuántico",
+   "id": 632,
+   "slot": 1.84,
+   "max_chars_pl": 25,
+   "pl": "Ale prawdziwy skok kwantowy"
+  },
+  {
+   "start": 1274.58,
+   "end": 1276.76,
+   "es": "ocurrió con el fentanilo.",
+   "id": 633,
+   "slot": 2.1,
+   "max_chars_pl": 29,
+   "pl": "nastąpił z fentanylem."
+  },
+  {
+   "start": 1276.76,
+   "end": 1277.8,
+   "es": "Isidro comprendió",
+   "id": 634,
+   "slot": 0.96,
+   "max_chars_pl": 13,
+   "pl": "Isidro zrozumiał,"
+  },
+  {
+   "start": 1277.8,
+   "end": 1279.7,
+   "es": "que un solo kilo de esta sustancia",
+   "id": 635,
+   "slot": 1.82,
+   "max_chars_pl": 25,
+   "pl": "że jeden kilogram tej substancji"
+  },
+  {
+   "start": 1279.7,
+   "end": 1281.8,
+   "es": "tiene el potencial de generar ganancias",
+   "id": 636,
+   "slot": 2.02,
+   "max_chars_pl": 28,
+   "pl": "ma potencjał generowania zysków"
+  },
+  {
+   "start": 1281.8,
+   "end": 1285.08,
+   "es": "mil veces superiores a uno de cocaína,",
+   "id": 637,
+   "slot": 3.2,
+   "max_chars_pl": 44,
+   "pl": "tysiąckrotnie wyższych niż kilogram kokainy,"
+  },
+  {
+   "start": 1285.08,
+   "end": 1286.4,
+   "es": "con la ventaja añadida",
+   "id": 638,
+   "slot": 1.24,
+   "max_chars_pl": 17,
+   "pl": "z dodatkową zaletą,"
+  },
+  {
+   "start": 1286.4,
+   "end": 1288.76,
+   "es": "de que es mucho más fácil de ocultar",
+   "id": 639,
+   "slot": 2.28,
+   "max_chars_pl": 31,
+   "pl": "że jest znacznie łatwiejszy do ukrycia"
+  },
+  {
+   "start": 1288.76,
+   "end": 1290.3,
+   "es": "debido a su potencia extrema",
+   "id": 640,
+   "slot": 1.46,
+   "max_chars_pl": 20,
+   "pl": "z powodu skrajnej mocy"
+  },
+  {
+   "start": 1290.3,
+   "end": 1292.36,
+   "es": "en dosis microscópicas.",
+   "id": 641,
+   "slot": 1.98,
+   "max_chars_pl": 27,
+   "pl": "w mikroskopijnych dawkach."
+  },
+  {
+   "start": 1292.36,
+   "end": 1293.26,
+   "es": "Sin embargo,",
+   "id": 642,
+   "slot": 0.82,
+   "max_chars_pl": 11,
+   "pl": "Jednak"
+  },
+  {
+   "start": 1293.26,
+   "end": 1295.66,
+   "es": "la verdadera genialidad de Isidro",
+   "id": 643,
+   "slot": 2.32,
+   "max_chars_pl": 32,
+   "pl": "prawdziwy geniusz Isidro"
+  },
+  {
+   "start": 1295.66,
+   "end": 1298.34,
+   "es": "no reside únicamente en la producción,",
+   "id": 644,
+   "slot": 2.6,
+   "max_chars_pl": 36,
+   "pl": "nie leży wyłącznie w produkcji,"
+  },
+  {
+   "start": 1298.34,
+   "end": 1300.2,
+   "es": "sino en la integración vertical",
+   "id": 645,
+   "slot": 1.78,
+   "max_chars_pl": 24,
+   "pl": "lecz w pionowej integracji"
+  },
+  {
+   "start": 1300.2,
+   "end": 1302.96,
+   "es": "de toda su cadena de suministro.",
+   "id": 646,
+   "slot": 2.68,
+   "max_chars_pl": 37,
+   "pl": "całego łańcucha dostaw."
+  },
+  {
+   "start": 1302.96,
+   "end": 1305.26,
+   "es": "Él ha logrado lo que muy pocos,",
+   "id": 647,
+   "slot": 2.22,
+   "max_chars_pl": 31,
+   "pl": "Osiągnął to, co udaje się nielicznym,"
+  },
+  {
+   "start": 1305.26,
+   "end": 1306.3,
+   "es": "el control total",
+   "id": 648,
+   "slot": 0.96,
+   "max_chars_pl": 13,
+   "pl": "pełną kontrolę"
+  },
+  {
+   "start": 1306.3,
+   "end": 1308.36,
+   "es": "desde el origen de la materia prima",
+   "id": 649,
+   "slot": 1.98,
+   "max_chars_pl": 27,
+   "pl": "od źródła surowca"
+  },
+  {
+   "start": 1308.36,
+   "end": 1311.7,
+   "es": "hasta el punto de entrega en la frontera.",
+   "id": 650,
+   "slot": 3.26,
+   "max_chars_pl": 45,
+   "pl": "aż po punkt dostawy na granicy."
+  },
+  {
+   "start": 1311.7,
+   "end": 1314.44,
+   "es": "Su ventaja competitiva es la logística,",
+   "id": 651,
+   "slot": 2.66,
+   "max_chars_pl": 37,
+   "pl": "Jego przewagą konkurencyjną jest logistyka,"
+  },
+  {
+   "start": 1314.44,
+   "end": 1315.7,
+   "es": "un engranaje invisible",
+   "id": 652,
+   "slot": 1.18,
+   "max_chars_pl": 16,
+   "pl": "niewidzialny mechanizm,"
+  },
+  {
+   "start": 1315.7,
+   "end": 1318.72,
+   "es": "que comienza a miles de kilómetros de distancia",
+   "id": 653,
+   "slot": 2.94,
+   "max_chars_pl": 41,
+   "pl": "który zaczyna się tysiące kilometrów stąd"
+  },
+  {
+   "start": 1318.72,
+   "end": 1322.7,
+   "es": "en los puertos industriales de China e India.",
+   "id": 654,
+   "slot": 3.9,
+   "max_chars_pl": 54,
+   "pl": "w portach przemysłowych Chin i Indii."
+  },
+  {
+   "start": 1322.7,
+   "end": 1324.4,
+   "es": "Isidro ha establecido redes",
+   "id": 655,
+   "slot": 1.62,
+   "max_chars_pl": 22,
+   "pl": "Isidro stworzył sieci"
+  },
+  {
+   "start": 1324.4,
+   "end": 1327.02,
+   "es": "de adquisición de precursores químicos",
+   "id": 656,
+   "slot": 2.54,
+   "max_chars_pl": 35,
+   "pl": "zakupu prekursorów chemicznych,"
+  },
+  {
+   "start": 1327.02,
+   "end": 1328.2,
+   "es": "disfrazando las compras",
+   "id": 657,
+   "slot": 1.1,
+   "max_chars_pl": 15,
+   "pl": "kamuflując zakupy"
+  },
+  {
+   "start": 1328.2,
+   "end": 1330.0,
+   "es": "bajo la apariencia de suministros",
+   "id": 658,
+   "slot": 1.72,
+   "max_chars_pl": 24,
+   "pl": "jako dostawy"
+  },
+  {
+   "start": 1330.0,
+   "end": 1331.88,
+   "es": "para la industria textil,",
+   "id": 659,
+   "slot": 1.8,
+   "max_chars_pl": 25,
+   "pl": "dla przemysłu tekstylnego,"
+  },
+  {
+   "start": 1331.88,
+   "end": 1335.14,
+   "es": "de limpieza o farmacéutica legal.",
+   "id": 660,
+   "slot": 3.18,
+   "max_chars_pl": 44,
+   "pl": "czystości lub legalnej farmacji."
+  },
+  {
+   "start": 1335.14,
+   "end": 1336.9,
+   "es": "Estos químicos llegan a los puertos",
+   "id": 661,
+   "slot": 1.68,
+   "max_chars_pl": 23,
+   "pl": "Te chemikalia docierają do portów"
+  },
+  {
+   "start": 1336.9,
+   "end": 1338.7,
+   "es": "del Pacífico Mexicano",
+   "id": 662,
+   "slot": 1.72,
+   "max_chars_pl": 24,
+   "pl": "meksykańskiego Pacyfiku,"
+  },
+  {
+   "start": 1338.7,
+   "end": 1341.46,
+   "es": "como Lázaro Cárdenas o Manzanillo,",
+   "id": 663,
+   "slot": 2.68,
+   "max_chars_pl": 37,
+   "pl": "takich jak Lázaro Cárdenas czy Manzanillo,"
+  },
+  {
+   "start": 1341.46,
+   "end": 1343.4,
+   "es": "ocultos en contenedores sellados",
+   "id": 664,
+   "slot": 1.86,
+   "max_chars_pl": 26,
+   "pl": "ukryte w zaplombowanych kontenerach,"
+  },
+  {
+   "start": 1343.4,
+   "end": 1344.4,
+   "es": "que fluyen a través",
+   "id": 665,
+   "slot": 0.92,
+   "max_chars_pl": 12,
+   "pl": "które przepływają"
+  },
+  {
+   "start": 1344.4,
+   "end": 1346.02,
+   "es": "de la burocracia portuaria",
+   "id": 666,
+   "slot": 1.54,
+   "max_chars_pl": 21,
+   "pl": "przez portową biurokrację"
+  },
+  {
+   "start": 1346.02,
+   "end": 1348.08,
+   "es": "gracias a una red de corrupción",
+   "id": 667,
+   "slot": 1.98,
+   "max_chars_pl": 27,
+   "pl": "dzięki sieci korupcji"
+  },
+  {
+   "start": 1348.08,
+   "end": 1350.3,
+   "es": "y empresas fachada tan compleja",
+   "id": 668,
+   "slot": 2.14,
+   "max_chars_pl": 29,
+   "pl": "i firm przykrywek tak złożonej,"
+  },
+  {
+   "start": 1350.3,
+   "end": 1352.94,
+   "es": "que es casi imposible de rastrear.",
+   "id": 669,
+   "slot": 2.56,
+   "max_chars_pl": 35,
+   "pl": "że niemal niemożliwej do wyśledzenia."
+  },
+  {
+   "start": 1352.94,
+   "end": 1355.56,
+   "es": "Una vez que los precursores llegan a la sierra",
+   "id": 670,
+   "slot": 2.54,
+   "max_chars_pl": 35,
+   "pl": "Gdy prekursory docierają w góry"
+  },
+  {
+   "start": 1355.56,
+   "end": 1357.7,
+   "es": "y son transformados en el producto final",
+   "id": 671,
+   "slot": 2.06,
+   "max_chars_pl": 28,
+   "pl": "i zostają przekształcone w produkt końcowy"
+  },
+  {
+   "start": 1357.7,
+   "end": 1360.06,
+   "es": "en sus superlaboratorios,",
+   "id": 672,
+   "slot": 2.28,
+   "max_chars_pl": 31,
+   "pl": "w jego superlaboratoriach,"
+  },
+  {
+   "start": 1360.06,
+   "end": 1361.3,
+   "es": "comienza la segunda fase",
+   "id": 673,
+   "slot": 1.16,
+   "max_chars_pl": 16,
+   "pl": "zaczyna się druga faza"
+  },
+  {
+   "start": 1361.3,
+   "end": 1363.52,
+   "es": "de su maestría logística.",
+   "id": 674,
+   "slot": 2.14,
+   "max_chars_pl": 29,
+   "pl": "jego logistycznego mistrzostwa."
+  },
+  {
+   "start": 1363.52,
+   "end": 1365.3,
+   "es": "Isidro ha perfeccionado el arte",
+   "id": 675,
+   "slot": 1.7,
+   "max_chars_pl": 23,
+   "pl": "Isidro doskonale opanował sztukę"
+  },
+  {
+   "start": 1365.3,
+   "end": 1368.16,
+   "es": "de ocultar fortunas en movimiento.",
+   "id": 676,
+   "slot": 2.78,
+   "max_chars_pl": 38,
+   "pl": "ukrywania fortun w ruchu."
+  },
+  {
+   "start": 1368.16,
+   "end": 1369.8,
+   "es": "A diferencia de otros carteles",
+   "id": 677,
+   "slot": 1.56,
+   "max_chars_pl": 21,
+   "pl": "W przeciwieństwie do innych karteli,"
+  },
+  {
+   "start": 1369.8,
+   "end": 1371.5,
+   "es": "que utilizan métodos violentos",
+   "id": 678,
+   "slot": 1.62,
+   "max_chars_pl": 22,
+   "pl": "które stosują metody przemocy,"
+  },
+  {
+   "start": 1371.5,
+   "end": 1373.04,
+   "es": "para abrirse paso,",
+   "id": 679,
+   "slot": 1.46,
+   "max_chars_pl": 20,
+   "pl": "by utorować sobie drogę,"
+  },
+  {
+   "start": 1373.04,
+   "end": 1374.5,
+   "es": "él utiliza la infraestructura",
+   "id": 680,
+   "slot": 1.38,
+   "max_chars_pl": 19,
+   "pl": "on wykorzystuje infrastrukturę"
+  },
+  {
+   "start": 1374.5,
+   "end": 1376.66,
+   "es": "del comercio legítimo.",
+   "id": 681,
+   "slot": 2.08,
+   "max_chars_pl": 29,
+   "pl": "legalnego handlu."
+  },
+  {
+   "start": 1376.66,
+   "end": 1378.1,
+   "es": "Ha creado o adquirido",
+   "id": 682,
+   "slot": 1.36,
+   "max_chars_pl": 19,
+   "pl": "Stworzył lub nabył"
+  },
+  {
+   "start": 1378.1,
+   "end": 1380.28,
+   "es": "empresas de exportación agrícola,",
+   "id": 683,
+   "slot": 2.1,
+   "max_chars_pl": 29,
+   "pl": "firmy eksportujące produkty rolne,"
+  },
+  {
+   "start": 1380.28,
+   "end": 1382.28,
+   "es": "de transporte de maquinaria pesada",
+   "id": 684,
+   "slot": 1.92,
+   "max_chars_pl": 26,
+   "pl": "transportujące ciężkie maszyny"
+  },
+  {
+   "start": 1382.28,
+   "end": 1384.52,
+   "es": "y de materiales de construcción.",
+   "id": 685,
+   "slot": 2.16,
+   "max_chars_pl": 30,
+   "pl": "i materiały budowlane."
+  },
+  {
+   "start": 1384.52,
+   "end": 1385.9,
+   "es": "Para el ojo inexperto,",
+   "id": 686,
+   "slot": 1.3,
+   "max_chars_pl": 18,
+   "pl": "Dla niewprawnego oka"
+  },
+  {
+   "start": 1385.9,
+   "end": 1387.8,
+   "es": "sus convoyes no son más que camiones",
+   "id": 687,
+   "slot": 1.82,
+   "max_chars_pl": 25,
+   "pl": "jego konwoje to tylko ciężarówki"
+  },
+  {
+   "start": 1387.8,
+   "end": 1389.84,
+   "es": "cargados de tomates frescos,",
+   "id": 688,
+   "slot": 1.96,
+   "max_chars_pl": 27,
+   "pl": "załadowane świeżymi pomidorami,"
+  },
+  {
+   "start": 1389.84,
+   "end": 1390.86,
+   "es": "aguacates",
+   "id": 689,
+   "slot": 0.94,
+   "max_chars_pl": 13,
+   "pl": "awokado"
+  },
+  {
+   "start": 1390.86,
+   "end": 1392.5,
+   "es": "o enormes piezas de ingeniería",
+   "id": 690,
+   "slot": 1.56,
+   "max_chars_pl": 21,
+   "pl": "lub ogromnymi elementami konstrukcji"
+  },
+  {
+   "start": 1392.5,
+   "end": 1395.8,
+   "es": "destinadas a minas en el norte de México.",
+   "id": 691,
+   "slot": 3.22,
+   "max_chars_pl": 45,
+   "pl": "przeznaczonymi dla kopalń na północy Meksyku."
+  },
+  {
+   "start": 1395.8,
+   "end": 1397.4,
+   "es": "Pero dentro de las paredes dobles",
+   "id": 692,
+   "slot": 1.52,
+   "max_chars_pl": 21,
+   "pl": "Ale wewnątrz podwójnych ścian"
+  },
+  {
+   "start": 1397.4,
+   "end": 1398.72,
+   "es": "de esos camiones",
+   "id": 693,
+   "slot": 1.24,
+   "max_chars_pl": 17,
+   "pl": "tych ciężarówek"
+  },
+  {
+   "start": 1398.72,
+   "end": 1400.9,
+   "es": "o en compartimentos hidráulicos ocultos",
+   "id": 694,
+   "slot": 2.1,
+   "max_chars_pl": 29,
+   "pl": "albo w ukrytych komorach hydraulicznych"
+  },
+  {
+   "start": 1400.9,
+   "end": 1403.56,
+   "es": "en el corazón de motores industriales,",
+   "id": 695,
+   "slot": 2.58,
+   "max_chars_pl": 36,
+   "pl": "w sercu silników przemysłowych"
+  },
+  {
+   "start": 1403.56,
+   "end": 1406.08,
+   "es": "viajan cargamentos cuyo valor de mercado",
+   "id": 696,
+   "slot": 2.44,
+   "max_chars_pl": 34,
+   "pl": "podróżują ładunki, których wartość rynkowa"
+  },
+  {
+   "start": 1406.08,
+   "end": 1408.3,
+   "es": "rivaliza con el producto interno bruto",
+   "id": 697,
+   "slot": 2.14,
+   "max_chars_pl": 29,
+   "pl": "rywalizuje z produktem krajowym brutto"
+  },
+  {
+   "start": 1408.3,
+   "end": 1410.58,
+   "es": "de naciones pequeñas.",
+   "id": 698,
+   "slot": 2.2,
+   "max_chars_pl": 30,
+   "pl": "małych państw."
+  },
+  {
+   "start": 1410.58,
+   "end": 1413.22,
+   "es": "Este flujo constante de veneno sintético",
+   "id": 699,
+   "slot": 2.56,
+   "max_chars_pl": 35,
+   "pl": "Ten stały strumień syntetycznej trucizny"
+  },
+  {
+   "start": 1413.22,
+   "end": 1415.9,
+   "es": "ha inundado los mercados estadounidenses",
+   "id": 700,
+   "slot": 2.6,
+   "max_chars_pl": 36,
+   "pl": "zalał rynki amerykańskie"
+  },
+  {
+   "start": 1415.9,
+   "end": 1418.44,
+   "es": "con una eficiencia aterradora.",
+   "id": 701,
+   "slot": 2.46,
+   "max_chars_pl": 34,
+   "pl": "z przerażającą skutecznością."
+  },
+  {
+   "start": 1418.44,
+   "end": 1420.1,
+   "es": "Isidro no pelea por plazas",
+   "id": 702,
+   "slot": 1.58,
+   "max_chars_pl": 22,
+   "pl": "Isidro nie walczy o plaza"
+  },
+  {
+   "start": 1420.1,
+   "end": 1423.32,
+   "es": "con la brutalidad ruidosa de otros grupos.",
+   "id": 703,
+   "slot": 3.14,
+   "max_chars_pl": 43,
+   "pl": "z hałaśliwą brutalnością innych grup."
+  },
+  {
+   "start": 1423.32,
+   "end": 1425.2,
+   "es": "Él pelea por nodos de transporte",
+   "id": 704,
+   "slot": 1.8,
+   "max_chars_pl": 25,
+   "pl": "On walczy o węzły transportowe"
+  },
+  {
+   "start": 1425.2,
+   "end": 1427.62,
+   "es": "y puntos de entrada clave.",
+   "id": 705,
+   "slot": 2.34,
+   "max_chars_pl": 32,
+   "pl": "i kluczowe punkty wjazdu."
+  },
+  {
+   "start": 1427.62,
+   "end": 1429.6,
+   "es": "Su organización opera con la disciplina",
+   "id": 706,
+   "slot": 1.9,
+   "max_chars_pl": 26,
+   "pl": "Jego organizacja działa z dyscypliną"
+  },
+  {
+   "start": 1429.6,
+   "end": 1432.84,
+   "es": "de una empresa de mensajería de clase mundial,",
+   "id": 707,
+   "slot": 3.16,
+   "max_chars_pl": 44,
+   "pl": "firmy kurierskiej światowej klasy,"
+  },
+  {
+   "start": 1432.84,
+   "end": 1434.48,
+   "es": "minimizando las pérdidas",
+   "id": 708,
+   "slot": 1.56,
+   "max_chars_pl": 21,
+   "pl": "minimalizując straty"
+  },
+  {
+   "start": 1434.48,
+   "end": 1436.82,
+   "es": "y maximizando el alcance.",
+   "id": 709,
+   "slot": 2.26,
+   "max_chars_pl": 31,
+   "pl": "i maksymalizując zasięg."
+  },
+  {
+   "start": 1436.82,
+   "end": 1439.0,
+   "es": "Los ingresos generados por esta maquinaria",
+   "id": 710,
+   "slot": 2.1,
+   "max_chars_pl": 29,
+   "pl": "Dochody generowane przez tę maszynerię"
+  },
+  {
+   "start": 1439.0,
+   "end": 1440.72,
+   "es": "son tan masivos",
+   "id": 711,
+   "slot": 1.64,
+   "max_chars_pl": 22,
+   "pl": "są tak ogromne,"
+  },
+  {
+   "start": 1440.72,
+   "end": 1441.8,
+   "es": "que han creado un problema",
+   "id": 712,
+   "slot": 1.0,
+   "max_chars_pl": 14,
+   "pl": "że stworzyły problem"
+  },
+  {
+   "start": 1441.8,
+   "end": 1443.5,
+   "es": "de almacenamiento de efectivo",
+   "id": 713,
+   "slot": 1.62,
+   "max_chars_pl": 22,
+   "pl": "przechowywania gotówki,"
+  },
+  {
+   "start": 1443.5,
+   "end": 1445.3,
+   "es": "que Isidro resuelve mediante",
+   "id": 714,
+   "slot": 1.72,
+   "max_chars_pl": 24,
+   "pl": "który Isidro rozwiązuje za pomocą"
+  },
+  {
+   "start": 1445.3,
+   "end": 1447.36,
+   "es": "una red de lavado de dinero",
+   "id": 715,
+   "slot": 1.98,
+   "max_chars_pl": 27,
+   "pl": "sieci prania pieniędzy,"
+  },
+  {
+   "start": 1447.36,
+   "end": 1449.0,
+   "es": "que es igual de sofisticada",
+   "id": 716,
+   "slot": 1.56,
+   "max_chars_pl": 21,
+   "pl": "równie wyrafinowanej"
+  },
+  {
+   "start": 1449.0,
+   "end": 1450.98,
+   "es": "que sus laboratorios.",
+   "id": 717,
+   "slot": 1.9,
+   "max_chars_pl": 26,
+   "pl": "jak jego laboratoria."
+  },
+  {
+   "start": 1450.98,
+   "end": 1453.0,
+   "es": "Su riqueza no se estanca.",
+   "id": 718,
+   "slot": 1.94,
+   "max_chars_pl": 27,
+   "pl": "Jego bogactwo nie stoi w miejscu."
+  },
+  {
+   "start": 1453.0,
+   "end": 1454.6,
+   "es": "Se reinvierte constantemente",
+   "id": 719,
+   "slot": 1.52,
+   "max_chars_pl": 21,
+   "pl": "Jest nieustannie reinwestowane"
+  },
+  {
+   "start": 1454.6,
+   "end": 1456.64,
+   "es": "en tecnología de vigilancia,",
+   "id": 720,
+   "slot": 1.96,
+   "max_chars_pl": 27,
+   "pl": "w technologię nadzoru,"
+  },
+  {
+   "start": 1456.64,
+   "end": 1458.34,
+   "es": "en mejores precursores",
+   "id": 721,
+   "slot": 1.62,
+   "max_chars_pl": 22,
+   "pl": "w lepsze prekursory"
+  },
+  {
+   "start": 1458.34,
+   "end": 1460.0,
+   "es": "y en asegurar que su maquinaria",
+   "id": 722,
+   "slot": 1.58,
+   "max_chars_pl": 22,
+   "pl": "i w dbanie o to, by jego maszyneria"
+  },
+  {
+   "start": 1460.0,
+   "end": 1462.76,
+   "es": "nunca deje de girar.",
+   "id": 723,
+   "slot": 2.68,
+   "max_chars_pl": 37,
+   "pl": "nigdy nie przestała się kręcić."
+  },
+  {
+   "start": 1462.76,
+   "end": 1463.94,
+   "es": "Al final,",
+   "id": 724,
+   "slot": 1.1,
+   "max_chars_pl": 15,
+   "pl": "Ostatecznie"
+  },
+  {
+   "start": 1463.94,
+   "end": 1466.34,
+   "es": "la maquinaria sintética de Isidro",
+   "id": 725,
+   "slot": 2.32,
+   "max_chars_pl": 32,
+   "pl": "syntetyczna maszyneria Isidro"
+  },
+  {
+   "start": 1466.34,
+   "end": 1468.8,
+   "es": "es el testimonio de una evolución criminal",
+   "id": 726,
+   "slot": 2.38,
+   "max_chars_pl": 33,
+   "pl": "jest świadectwem ewolucji przestępczej,"
+  },
+  {
+   "start": 1468.8,
+   "end": 1470.36,
+   "es": "donde la inteligencia",
+   "id": 727,
+   "slot": 1.48,
+   "max_chars_pl": 20,
+   "pl": "w której inteligencja"
+  },
+  {
+   "start": 1470.36,
+   "end": 1472.1,
+   "es": "ha sustituido a la fuerza bruta",
+   "id": 728,
+   "slot": 1.66,
+   "max_chars_pl": 23,
+   "pl": "zastąpiła brutalną siłę"
+  },
+  {
+   "start": 1472.1,
+   "end": 1474.84,
+   "es": "como la moneda de cambio principal.",
+   "id": 729,
+   "slot": 2.66,
+   "max_chars_pl": 37,
+   "pl": "jako główną walutę."
+  },
+  {
+   "start": 1474.84,
+   "end": 1476.5,
+   "es": "Mientras el mundo sigue buscando",
+   "id": 730,
+   "slot": 1.58,
+   "max_chars_pl": 22,
+   "pl": "Podczas gdy świat wciąż szuka"
+  },
+  {
+   "start": 1476.5,
+   "end": 1478.32,
+   "es": "a un narco de película,",
+   "id": 731,
+   "slot": 1.74,
+   "max_chars_pl": 24,
+   "pl": "filmowego narkotykowego bossa,"
+  },
+  {
+   "start": 1478.32,
+   "end": 1479.5,
+   "es": "Isidro sigue operando",
+   "id": 732,
+   "slot": 1.1,
+   "max_chars_pl": 15,
+   "pl": "Isidro nadal działa"
+  },
+  {
+   "start": 1479.5,
+   "end": 1482.54,
+   "es": "como un industrial del siglo XXII,",
+   "id": 733,
+   "slot": 2.96,
+   "max_chars_pl": 41,
+   "pl": "jak przemysłowiec XXII wieku,"
+  },
+  {
+   "start": 1482.54,
+   "end": 1484.2,
+   "es": "consciente de que en el negocio",
+   "id": 734,
+   "slot": 1.58,
+   "max_chars_pl": 22,
+   "pl": "świadomy, że w biznesie"
+  },
+  {
+   "start": 1484.2,
+   "end": 1485.86,
+   "es": "de los sintéticos,",
+   "id": 735,
+   "slot": 1.58,
+   "max_chars_pl": 22,
+   "pl": "syntetyków"
+  },
+  {
+   "start": 1485.86,
+   "end": 1487.4,
+   "es": "quien controla la molécula",
+   "id": 736,
+   "slot": 1.46,
+   "max_chars_pl": 20,
+   "pl": "ten, kto kontroluje cząsteczkę"
+  },
+  {
+   "start": 1487.4,
+   "end": 1489.36,
+   "es": "y el camión que la transporta,",
+   "id": 737,
+   "slot": 1.88,
+   "max_chars_pl": 26,
+   "pl": "i ciężarówkę, która ją wozi,"
+  },
+  {
+   "start": 1489.36,
+   "end": 1491.84,
+   "es": "controla el mundo.",
+   "id": 738,
+   "slot": 2.4,
+   "max_chars_pl": 33,
+   "pl": "kontroluje świat."
+  },
+  {
+   "start": 1491.84,
+   "end": 1493.0,
+   "es": "Su imperio no se mide",
+   "id": 739,
+   "slot": 1.08,
+   "max_chars_pl": 15,
+   "pl": "Jego imperium nie mierzy się"
+  },
+  {
+   "start": 1493.0,
+   "end": 1495.14,
+   "es": "en metros cuadrados de tierra,",
+   "id": 740,
+   "slot": 2.06,
+   "max_chars_pl": 28,
+   "pl": "w metrach kwadratowych ziemi,"
+  },
+  {
+   "start": 1495.14,
+   "end": 1496.9,
+   "es": "sino en la cantidad de toneladas",
+   "id": 741,
+   "slot": 1.68,
+   "max_chars_pl": 23,
+   "pl": "lecz w liczbie ton,"
+  },
+  {
+   "start": 1496.9,
+   "end": 1498.0,
+   "es": "que sus laboratorios",
+   "id": 742,
+   "slot": 1.02,
+   "max_chars_pl": 14,
+   "pl": "które jego laboratoria"
+  },
+  {
+   "start": 1498.0,
+   "end": 1499.8,
+   "es": "pueden escupir cada mes",
+   "id": 743,
+   "slot": 1.72,
+   "max_chars_pl": 24,
+   "pl": "mogą wypluwać co miesiąc"
+  },
+  {
+   "start": 1499.8,
+   "end": 1500.6,
+   "es": "hacia un mercado",
+   "id": 744,
+   "slot": 0.72,
+   "max_chars_pl": 10,
+   "pl": "na rynek,"
+  },
+  {
+   "start": 1500.6,
+   "end": 1502.74,
+   "es": "que parece no tener fondo,",
+   "id": 745,
+   "slot": 2.06,
+   "max_chars_pl": 28,
+   "pl": "który zdaje się nie mieć dna,"
+  },
+  {
+   "start": 1502.74,
+   "end": 1505.5,
+   "es": "manteniendo al fantasma de Sinaloa",
+   "id": 746,
+   "slot": 2.68,
+   "max_chars_pl": 37,
+   "pl": "utrzymując ducha Sinaloa"
+  },
+  {
+   "start": 1505.5,
+   "end": 1506.7,
+   "es": "como el dueño absoluto",
+   "id": 747,
+   "slot": 1.12,
+   "max_chars_pl": 15,
+   "pl": "jako absolutnego właściciela"
+  },
+  {
+   "start": 1506.7,
+   "end": 1508.3,
+   "es": "de una mina de oro química",
+   "id": 748,
+   "slot": 1.52,
+   "max_chars_pl": 21,
+   "pl": "chemicznej kopalni złota,"
+  },
+  {
+   "start": 1508.3,
+   "end": 1511.48,
+   "es": "que nadie parece capaz de clausurar.",
+   "id": 749,
+   "slot": 3.1,
+   "max_chars_pl": 43,
+   "pl": "której nikt nie wydaje się w stanie zamknąć."
+  },
+  {
+   "start": 1511.48,
+   "end": 1513.1,
+   "es": "En el universo de Fausto y Isidro",
+   "id": 750,
+   "slot": 1.54,
+   "max_chars_pl": 21,
+   "pl": "W uniwersum Fausto Isidro"
+  },
+  {
+   "start": 1513.1,
+   "end": 1514.64,
+   "es": "Mesa Flores,",
+   "id": 751,
+   "slot": 1.46,
+   "max_chars_pl": 20,
+   "pl": "Mezy Floresa"
+  },
+  {
+   "start": 1514.64,
+   "end": 1516.8,
+   "es": "el concepto de lujo ha sido redefinido",
+   "id": 752,
+   "slot": 2.08,
+   "max_chars_pl": 29,
+   "pl": "pojęcie luksusu zostało na nowo zdefiniowane"
+  },
+  {
+   "start": 1516.8,
+   "end": 1519.92,
+   "es": "por una lógica de supervivencia extrema.",
+   "id": 753,
+   "slot": 3.04,
+   "max_chars_pl": 42,
+   "pl": "przez logikę skrajnego przetrwania."
+  },
+  {
+   "start": 1519.92,
+   "end": 1520.94,
+   "es": "Para él,",
+   "id": 754,
+   "slot": 0.94,
+   "max_chars_pl": 13,
+   "pl": "Dla niego"
+  },
+  {
+   "start": 1520.94,
+   "end": 1522.0,
+   "es": "la verdadera riqueza",
+   "id": 755,
+   "slot": 0.98,
+   "max_chars_pl": 13,
+   "pl": "prawdziwe bogactwo"
+  },
+  {
+   "start": 1522.0,
+   "end": 1524.1,
+   "es": "no se exhibe en grifería de oro",
+   "id": 756,
+   "slot": 2.02,
+   "max_chars_pl": 28,
+   "pl": "nie jest wystawiane w złotej armaturze"
+  },
+  {
+   "start": 1524.1,
+   "end": 1526.62,
+   "es": "o pisos de mármol importado.",
+   "id": 757,
+   "slot": 2.44,
+   "max_chars_pl": 34,
+   "pl": "ani w importowanych marmurowych posadzkach."
+  },
+  {
+   "start": 1526.62,
+   "end": 1528.3,
+   "es": "Se mide en segundos de ventaja",
+   "id": 758,
+   "slot": 1.6,
+   "max_chars_pl": 22,
+   "pl": "Mierzy się je w sekundach przewagi"
+  },
+  {
+   "start": 1528.3,
+   "end": 1530.22,
+   "es": "sobre un operativo militar",
+   "id": 759,
+   "slot": 1.84,
+   "max_chars_pl": 25,
+   "pl": "nad operacją wojskową"
+  },
+  {
+   "start": 1530.22,
+   "end": 1531.7,
+   "es": "y en la opacidad absoluta",
+   "id": 760,
+   "slot": 1.4,
+   "max_chars_pl": 19,
+   "pl": "i w absolutnej nieprzejrzystości"
+  },
+  {
+   "start": 1531.7,
+   "end": 1533.58,
+   "es": "de sus movimientos.",
+   "id": 761,
+   "slot": 1.8,
+   "max_chars_pl": 25,
+   "pl": "jego ruchów."
+  },
+  {
+   "start": 1533.58,
+   "end": 1535.2,
+   "es": "Sus refugios,",
+   "id": 762,
+   "slot": 1.54,
+   "max_chars_pl": 21,
+   "pl": "Jego kryjówki,"
+  },
+  {
+   "start": 1535.2,
+   "end": 1536.4,
+   "es": "ocultos en los pliegues",
+   "id": 763,
+   "slot": 1.12,
+   "max_chars_pl": 15,
+   "pl": "ukryte w fałdach"
+  },
+  {
+   "start": 1536.4,
+   "end": 1538.1,
+   "es": "de la Sierra Madre,",
+   "id": 764,
+   "slot": 1.62,
+   "max_chars_pl": 22,
+   "pl": "Sierra Madre,"
+  },
+  {
+   "start": 1538.1,
+   "end": 1539.2,
+   "es": "son el polo opuesto",
+   "id": 765,
+   "slot": 1.02,
+   "max_chars_pl": 14,
+   "pl": "są przeciwieństwem"
+  },
+  {
+   "start": 1539.2,
+   "end": 1540.1,
+   "es": "de las mansiones",
+   "id": 766,
+   "slot": 0.82,
+   "max_chars_pl": 11,
+   "pl": "rezydencji"
+  },
+  {
+   "start": 1540.1,
+   "end": 1542.66,
+   "es": "de los capos tradicionales.",
+   "id": 767,
+   "slot": 2.48,
+   "max_chars_pl": 34,
+   "pl": "tradycyjnych bossów."
+  },
+  {
+   "start": 1542.66,
+   "end": 1544.7,
+   "es": "Estas estructuras no están diseñadas",
+   "id": 768,
+   "slot": 1.96,
+   "max_chars_pl": 27,
+   "pl": "Te budowle nie są zaprojektowane"
+  },
+  {
+   "start": 1544.7,
+   "end": 1547.2,
+   "es": "para impresionar a los invitados,",
+   "id": 769,
+   "slot": 2.42,
+   "max_chars_pl": 33,
+   "pl": "by imponować gościom,"
+  },
+  {
+   "start": 1547.2,
+   "end": 1549.32,
+   "es": "sino para resistir a sedios",
+   "id": 770,
+   "slot": 2.04,
+   "max_chars_pl": 28,
+   "pl": "lecz by wytrzymać oblężenia"
+  },
+  {
+   "start": 1549.32,
+   "end": 1552.12,
+   "es": "y permitir evacuaciones quirúrgicas.",
+   "id": 771,
+   "slot": 2.72,
+   "max_chars_pl": 38,
+   "pl": "i umożliwiać chirurgiczne ewakuacje."
+  },
+  {
+   "start": 1552.12,
+   "end": 1553.78,
+   "es": "En lugar de obras de arte,",
+   "id": 772,
+   "slot": 1.58,
+   "max_chars_pl": 22,
+   "pl": "Zamiast dzieł sztuki"
+  },
+  {
+   "start": 1553.78,
+   "end": 1555.9,
+   "es": "las paredes albergan centros de mando",
+   "id": 773,
+   "slot": 2.04,
+   "max_chars_pl": 28,
+   "pl": "w ścianach mieszczą się centra dowodzenia"
+  },
+  {
+   "start": 1555.9,
+   "end": 1558.62,
+   "es": "con sistemas de comunicación encriptada",
+   "id": 774,
+   "slot": 2.64,
+   "max_chars_pl": 36,
+   "pl": "z szyfrowanymi systemami łączności,"
+  },
+  {
+   "start": 1558.62,
+   "end": 1561.1,
+   "es": "que utilizan frecuencias privadas.",
+   "id": 775,
+   "slot": 2.4,
+   "max_chars_pl": 33,
+   "pl": "które korzystają z prywatnych częstotliwości."
+  },
+  {
+   "start": 1561.1,
+   "end": 1562.3,
+   "es": "Una red tecnológica",
+   "id": 776,
+   "slot": 1.12,
+   "max_chars_pl": 15,
+   "pl": "Sieć technologiczna"
+  },
+  {
+   "start": 1562.3,
+   "end": 1563.68,
+   "es": "tan sofisticada",
+   "id": 777,
+   "slot": 1.3,
+   "max_chars_pl": 18,
+   "pl": "tak wyrafinowana,"
+  },
+  {
+   "start": 1563.68,
+   "end": 1564.9,
+   "es": "que incluso las agencias",
+   "id": 778,
+   "slot": 1.14,
+   "max_chars_pl": 15,
+   "pl": "że nawet agencje"
+  },
+  {
+   "start": 1564.9,
+   "end": 1566.84,
+   "es": "de inteligencia internacional",
+   "id": 779,
+   "slot": 1.86,
+   "max_chars_pl": 26,
+   "pl": "wywiadu międzynarodowego"
+  },
+  {
+   "start": 1566.84,
+   "end": 1568.7,
+   "es": "encuentran muros de ruido digital",
+   "id": 780,
+   "slot": 1.78,
+   "max_chars_pl": 24,
+   "pl": "natrafiają na mury cyfrowego szumu"
+  },
+  {
+   "start": 1568.7,
+   "end": 1570.84,
+   "es": "imposibles de penetrar.",
+   "id": 781,
+   "slot": 2.06,
+   "max_chars_pl": 28,
+   "pl": "nie do przebicia."
+  },
+  {
+   "start": 1570.84,
+   "end": 1573.88,
+   "es": "Esta fortaleza se extiende al cielo.",
+   "id": 782,
+   "slot": 2.96,
+   "max_chars_pl": 41,
+   "pl": "Ta forteca sięga nieba."
+  },
+  {
+   "start": 1573.88,
+   "end": 1576.2,
+   "es": "Isidro no depende solo de vigías humanos",
+   "id": 783,
+   "slot": 2.24,
+   "max_chars_pl": 31,
+   "pl": "Isidro nie polega tylko na ludzkich czujkach"
+  },
+  {
+   "start": 1576.2,
+   "end": 1577.58,
+   "es": "en los cerros.",
+   "id": 784,
+   "slot": 1.3,
+   "max_chars_pl": 18,
+   "pl": "na wzgórzach."
+  },
+  {
+   "start": 1577.58,
+   "end": 1579.5,
+   "es": "Ha integrado drones de grado militar",
+   "id": 785,
+   "slot": 1.84,
+   "max_chars_pl": 25,
+   "pl": "Zintegrował drony klasy wojskowej,"
+  },
+  {
+   "start": 1579.5,
+   "end": 1581.86,
+   "es": "que patrullan su espacio aéreo personal",
+   "id": 786,
+   "slot": 2.28,
+   "max_chars_pl": 31,
+   "pl": "które patrolują jego osobistą przestrzeń powietrzną"
+  },
+  {
+   "start": 1581.86,
+   "end": 1584.26,
+   "es": "las 24 horas del día.",
+   "id": 787,
+   "slot": 2.32,
+   "max_chars_pl": 32,
+   "pl": "przez 24 godziny na dobę."
+  },
+  {
+   "start": 1584.26,
+   "end": 1585.92,
+   "es": "Estos dispositivos,",
+   "id": 788,
+   "slot": 1.58,
+   "max_chars_pl": 22,
+   "pl": "Te urządzenia,"
+  },
+  {
+   "start": 1585.92,
+   "end": 1587.7,
+   "es": "equipados con cámaras térmicas",
+   "id": 789,
+   "slot": 1.7,
+   "max_chars_pl": 23,
+   "pl": "wyposażone w kamery termowizyjne"
+  },
+  {
+   "start": 1587.7,
+   "end": 1589.82,
+   "es": "y sensores de movimiento,",
+   "id": 790,
+   "slot": 2.04,
+   "max_chars_pl": 28,
+   "pl": "i czujniki ruchu,"
+  },
+  {
+   "start": 1589.82,
+   "end": 1592.1,
+   "es": "crean un domo de vigilancia electrónica",
+   "id": 791,
+   "slot": 2.2,
+   "max_chars_pl": 30,
+   "pl": "tworzą kopułę nadzoru elektronicznego,"
+  },
+  {
+   "start": 1592.1,
+   "end": 1593.8,
+   "es": "que detecta cualquier incursión",
+   "id": 792,
+   "slot": 1.62,
+   "max_chars_pl": 22,
+   "pl": "która wykrywa każde wtargnięcie"
+  },
+  {
+   "start": 1593.8,
+   "end": 1595.7,
+   "es": "mucho antes de que sea visible",
+   "id": 793,
+   "slot": 1.82,
+   "max_chars_pl": 25,
+   "pl": "na długo, zanim stanie się widoczne"
+  },
+  {
+   "start": 1595.7,
+   "end": 1597.58,
+   "es": "para el ojo humano.",
+   "id": 794,
+   "slot": 1.8,
+   "max_chars_pl": 25,
+   "pl": "dla ludzkiego oka."
+  },
+  {
+   "start": 1597.58,
+   "end": 1598.56,
+   "es": "Sin embargo,",
+   "id": 795,
+   "slot": 0.9,
+   "max_chars_pl": 12,
+   "pl": "Jednak"
+  },
+  {
+   "start": 1598.56,
+   "end": 1601.38,
+   "es": "la tecnología es solo una herramienta.",
+   "id": 796,
+   "slot": 2.74,
+   "max_chars_pl": 38,
+   "pl": "technologia to tylko narzędzie."
+  },
+  {
+   "start": 1601.38,
+   "end": 1603.64,
+   "es": "El verdadero núcleo de su seguridad",
+   "id": 797,
+   "slot": 2.18,
+   "max_chars_pl": 30,
+   "pl": "Prawdziwy rdzeń jego bezpieczeństwa"
+  },
+  {
+   "start": 1603.64,
+   "end": 1605.4,
+   "es": "reside en un factor que el dinero",
+   "id": 798,
+   "slot": 1.68,
+   "max_chars_pl": 23,
+   "pl": "tkwi w czynniku, którego pieniądze"
+  },
+  {
+   "start": 1605.4,
+   "end": 1607.98,
+   "es": "por sí solo no puede comprar.",
+   "id": 799,
+   "slot": 2.5,
+   "max_chars_pl": 35,
+   "pl": "same nie mogą kupić."
+  },
+  {
+   "start": 1607.98,
+   "end": 1610.86,
+   "es": "La hermeticidad de su círculo íntimo.",
+   "id": 800,
+   "slot": 2.8,
+   "max_chars_pl": 39,
+   "pl": "Hermetyczność jego najbliższego kręgu."
+  },
+  {
+   "start": 1610.86,
+   "end": 1612.3,
+   "es": "A diferencia de otros líderes",
+   "id": 801,
+   "slot": 1.36,
+   "max_chars_pl": 19,
+   "pl": "W przeciwieństwie do innych przywódców,"
+  },
+  {
+   "start": 1612.3,
+   "end": 1613.6,
+   "es": "que contratan mercenarios",
+   "id": 802,
+   "slot": 1.22,
+   "max_chars_pl": 17,
+   "pl": "którzy wynajmują najemników"
+  },
+  {
+   "start": 1613.6,
+   "end": 1616.48,
+   "es": "o exmilitares con lealtades volátiles,",
+   "id": 803,
+   "slot": 2.8,
+   "max_chars_pl": 39,
+   "pl": "albo byłych wojskowych o zmiennej lojalności,"
+  },
+  {
+   "start": 1616.48,
+   "end": 1618.3,
+   "es": "el entorno de Isidro está compuesto",
+   "id": 804,
+   "slot": 1.74,
+   "max_chars_pl": 24,
+   "pl": "otoczenie Isidro tworzą"
+  },
+  {
+   "start": 1618.3,
+   "end": 1620.0,
+   "es": "por hombres que crecieron con él",
+   "id": 805,
+   "slot": 1.62,
+   "max_chars_pl": 22,
+   "pl": "ludzie, którzy dorastali z nim"
+  },
+  {
+   "start": 1620.0,
+   "end": 1622.92,
+   "es": "en los arroyos y veredas de la sierra.",
+   "id": 806,
+   "slot": 2.84,
+   "max_chars_pl": 39,
+   "pl": "wśród strumieni i ścieżek gór."
+  },
+  {
+   "start": 1622.92,
+   "end": 1626.36,
+   "es": "Son sombras que comparten su ADN cultural",
+   "id": 807,
+   "slot": 3.36,
+   "max_chars_pl": 47,
+   "pl": "To cienie, które dzielą jego kulturowe DNA"
+  },
+  {
+   "start": 1626.36,
+   "end": 1627.6,
+   "es": "y para quienes la traición",
+   "id": 808,
+   "slot": 1.16,
+   "max_chars_pl": 16,
+   "pl": "i dla których zdrada"
+  },
+  {
+   "start": 1627.6,
+   "end": 1629.3,
+   "es": "es una sentencia de muerte",
+   "id": 809,
+   "slot": 1.62,
+   "max_chars_pl": 22,
+   "pl": "to wyrok śmierci"
+  },
+  {
+   "start": 1629.3,
+   "end": 1630.94,
+   "es": "no solo personal,",
+   "id": 810,
+   "slot": 1.56,
+   "max_chars_pl": 21,
+   "pl": "nie tylko osobisty,"
+  },
+  {
+   "start": 1630.94,
+   "end": 1632.78,
+   "es": "sino familiar.",
+   "id": 811,
+   "slot": 1.76,
+   "max_chars_pl": 24,
+   "pl": "lecz rodzinny."
+  },
+  {
+   "start": 1632.78,
+   "end": 1635.56,
+   "es": "Su defensa más impenetrable, no obstante,",
+   "id": 812,
+   "slot": 2.7,
+   "max_chars_pl": 37,
+   "pl": "Jego najbardziej nieprzeniknioną obroną jest jednak"
+  },
+  {
+   "start": 1635.56,
+   "end": 1638.9,
+   "es": "es su renuncia total a la huella digital.",
+   "id": 813,
+   "slot": 3.26,
+   "max_chars_pl": 45,
+   "pl": "całkowite wyrzeczenie się cyfrowego śladu."
+  },
+  {
+   "start": 1638.9,
+   "end": 1641.0,
+   "es": "En una era donde el narcisismo digital",
+   "id": 814,
+   "slot": 2.02,
+   "max_chars_pl": 28,
+   "pl": "W epoce, gdy cyfrowy narcyzm"
+  },
+  {
+   "start": 1641.0,
+   "end": 1644.06,
+   "es": "ha lacido la ruina de los grandes capos,",
+   "id": 815,
+   "slot": 2.98,
+   "max_chars_pl": 41,
+   "pl": "stał się zgubą wielkich bossów,"
+  },
+  {
+   "start": 1644.06,
+   "end": 1646.3,
+   "es": "Isidro vive en un anonimato analógico",
+   "id": 816,
+   "slot": 2.16,
+   "max_chars_pl": 30,
+   "pl": "Isidro żyje w analogowej anonimowości,"
+  },
+  {
+   "start": 1646.3,
+   "end": 1648.02,
+   "es": "casi místico,",
+   "id": 817,
+   "slot": 1.64,
+   "max_chars_pl": 22,
+   "pl": "niemal mistycznej,"
+  },
+  {
+   "start": 1648.02,
+   "end": 1650.52,
+   "es": "no utiliza teléfonos inteligentes,",
+   "id": 818,
+   "slot": 2.42,
+   "max_chars_pl": 33,
+   "pl": "nie używa smartfonów,"
+  },
+  {
+   "start": 1650.52,
+   "end": 1652.76,
+   "es": "no conoce las redes sociales",
+   "id": 819,
+   "slot": 2.16,
+   "max_chars_pl": 30,
+   "pl": "nie zna mediów społecznościowych"
+  },
+  {
+   "start": 1652.76,
+   "end": 1654.3,
+   "es": "y prohíbe terminantemente",
+   "id": 820,
+   "slot": 1.46,
+   "max_chars_pl": 20,
+   "pl": "i zakazuje kategorycznie,"
+  },
+  {
+   "start": 1654.3,
+   "end": 1657.34,
+   "es": "que cualquier dispositivo con GPS",
+   "id": 821,
+   "slot": 2.96,
+   "max_chars_pl": 41,
+   "pl": "by jakiekolwiek urządzenie z GPS"
+  },
+  {
+   "start": 1657.34,
+   "end": 1659.76,
+   "es": "se acerque a su presencia.",
+   "id": 822,
+   "slot": 2.34,
+   "max_chars_pl": 32,
+   "pl": "zbliżało się do jego osoby."
+  },
+  {
+   "start": 1659.76,
+   "end": 1662.64,
+   "es": "Mientras otros caen por un mensaje de WhatsApp",
+   "id": 823,
+   "slot": 2.8,
+   "max_chars_pl": 39,
+   "pl": "Podczas gdy inni wpadają przez wiadomość z WhatsAppa"
+  },
+  {
+   "start": 1662.64,
+   "end": 1665.56,
+   "es": "o una fotografía filtrada en una fiesta,",
+   "id": 824,
+   "slot": 2.84,
+   "max_chars_pl": 39,
+   "pl": "albo zdjęcie wycieknięte z imprezy,"
+  },
+  {
+   "start": 1665.56,
+   "end": 1669.2,
+   "es": "él permanece como un fantasma en el sistema.",
+   "id": 825,
+   "slot": 3.56,
+   "max_chars_pl": 49,
+   "pl": "on pozostaje duchem w systemie."
+  },
+  {
+   "start": 1669.2,
+   "end": 1671.84,
+   "es": "No existen propiedades, vehículos",
+   "id": 826,
+   "slot": 2.56,
+   "max_chars_pl": 35,
+   "pl": "Nie ma nieruchomości, pojazdów"
+  },
+  {
+   "start": 1671.84,
+   "end": 1673.8,
+   "es": "o cuentas bancarias registradas",
+   "id": 827,
+   "slot": 1.88,
+   "max_chars_pl": 26,
+   "pl": "ani rachunków bankowych zarejestrowanych"
+  },
+  {
+   "start": 1673.8,
+   "end": 1675.42,
+   "es": "bajo su nombre.",
+   "id": 828,
+   "slot": 1.54,
+   "max_chars_pl": 21,
+   "pl": "na jego nazwisko."
+  },
+  {
+   "start": 1675.42,
+   "end": 1678.0,
+   "es": "Su imperio opera en las grietas",
+   "id": 829,
+   "slot": 2.5,
+   "max_chars_pl": 35,
+   "pl": "Jego imperium działa w szczelinach"
+  },
+  {
+   "start": 1678.0,
+   "end": 1679.9,
+   "es": "de la economía invisible,",
+   "id": 830,
+   "slot": 1.82,
+   "max_chars_pl": 25,
+   "pl": "niewidzialnej gospodarki,"
+  },
+  {
+   "start": 1679.9,
+   "end": 1681.5,
+   "es": "donde el poder es absoluto",
+   "id": 831,
+   "slot": 1.52,
+   "max_chars_pl": 21,
+   "pl": "gdzie władza jest absolutna,"
+  },
+  {
+   "start": 1681.5,
+   "end": 1683.76,
+   "es": "pero el rastro es cero.",
+   "id": 832,
+   "slot": 2.18,
+   "max_chars_pl": 30,
+   "pl": "a ślad zerowy."
+  },
+  {
+   "start": 1683.76,
+   "end": 1687.22,
+   "es": "Él es el arquitecto de una paradoja viviente,",
+   "id": 833,
+   "slot": 3.38,
+   "max_chars_pl": 47,
+   "pl": "Jest architektem żywego paradoksu,"
+  },
+  {
+   "start": 1687.22,
+   "end": 1689.34,
+   "es": "un hombre que lo posee todo,",
+   "id": 834,
+   "slot": 2.04,
+   "max_chars_pl": 28,
+   "pl": "człowiekiem, który ma wszystko,"
+  },
+  {
+   "start": 1689.34,
+   "end": 1692.3,
+   "es": "pero que ante los ojos de la burocracia global",
+   "id": 835,
+   "slot": 2.88,
+   "max_chars_pl": 40,
+   "pl": "ale który w oczach globalnej biurokracji"
+  },
+  {
+   "start": 1692.3,
+   "end": 1694.86,
+   "es": "simplemente no existe.",
+   "id": 836,
+   "slot": 2.48,
+   "max_chars_pl": 34,
+   "pl": "po prostu nie istnieje."
+  },
+  {
+   "start": 1694.86,
+   "end": 1697.98,
+   "es": "Esta disciplina es su fortaleza final,",
+   "id": 837,
+   "slot": 3.04,
+   "max_chars_pl": 42,
+   "pl": "Ta dyscyplina to jego ostateczna twierdza,"
+  },
+  {
+   "start": 1697.98,
+   "end": 1700.4,
+   "es": "convirtiéndolo en un objetivo inalcanzable",
+   "id": 838,
+   "slot": 2.34,
+   "max_chars_pl": 32,
+   "pl": "czyniąca go nieosiągalnym celem"
+  },
+  {
+   "start": 1700.4,
+   "end": 1702.4,
+   "es": "para un mundo que solo sabe rastrear",
+   "id": 839,
+   "slot": 1.92,
+   "max_chars_pl": 26,
+   "pl": "dla świata, który potrafi śledzić tylko"
+  },
+  {
+   "start": 1702.4,
+   "end": 1703.92,
+   "es": "lo que puede ver.",
+   "id": 840,
+   "slot": 1.44,
+   "max_chars_pl": 20,
+   "pl": "to, co widzi."
+  },
+  {
+   "start": 1703.92,
+   "end": 1706.92,
+   "es": "Hoy, el mapa criminal es un caos,",
+   "id": 841,
+   "slot": 2.92,
+   "max_chars_pl": 40,
+   "pl": "Dziś mapa przestępcza to chaos,"
+  },
+  {
+   "start": 1706.92,
+   "end": 1708.42,
+   "es": "con el Mayo,",
+   "id": 842,
+   "slot": 1.42,
+   "max_chars_pl": 19,
+   "pl": "z El Mayo,"
+  },
+  {
+   "start": 1708.42,
+   "end": 1710.0,
+   "es": "Zambada fuera del juego",
+   "id": 843,
+   "slot": 1.5,
+   "max_chars_pl": 21,
+   "pl": "Zambadą poza grą"
+  },
+  {
+   "start": 1710.0,
+   "end": 1711.4,
+   "es": "y las facciones de Sinaloa",
+   "id": 844,
+   "slot": 1.32,
+   "max_chars_pl": 18,
+   "pl": "i frakcjami Sinaloa"
+  },
+  {
+   "start": 1711.4,
+   "end": 1713.46,
+   "es": "despedazándose entre sí.",
+   "id": 845,
+   "slot": 1.98,
+   "max_chars_pl": 27,
+   "pl": "rozszarpującymi się nawzajem."
+  },
+  {
+   "start": 1713.46,
+   "end": 1715.4,
+   "es": "Muchos se preguntan,",
+   "id": 846,
+   "slot": 1.86,
+   "max_chars_pl": 26,
+   "pl": "Wielu się zastanawia,"
+  },
+  {
+   "start": 1715.4,
+   "end": 1716.4,
+   "es": "¿es este el momento",
+   "id": 847,
+   "slot": 0.92,
+   "max_chars_pl": 12,
+   "pl": "czy to ten moment"
+  },
+  {
+   "start": 1716.4,
+   "end": 1718.98,
+   "es": "de la expansión total de Isidro?",
+   "id": 848,
+   "slot": 2.5,
+   "max_chars_pl": 35,
+   "pl": "całkowitej ekspansji Isidro?"
+  },
+  {
+   "start": 1718.98,
+   "end": 1721.1,
+   "es": "Mientras otros capos atraen misiles",
+   "id": 849,
+   "slot": 2.04,
+   "max_chars_pl": 28,
+   "pl": "Podczas gdy inni bossowie przyciągają pociski"
+  },
+  {
+   "start": 1721.1,
+   "end": 1722.5,
+   "es": "y operativos especiales",
+   "id": 850,
+   "slot": 1.32,
+   "max_chars_pl": 18,
+   "pl": "i operacje specjalne"
+  },
+  {
+   "start": 1722.5,
+   "end": 1724.28,
+   "es": "con sus guerras públicas,",
+   "id": 851,
+   "slot": 1.7,
+   "max_chars_pl": 23,
+   "pl": "swoimi publicznymi wojnami,"
+  },
+  {
+   "start": 1724.28,
+   "end": 1727.1,
+   "es": "Isidro mantiene una neutralidad armada.",
+   "id": 852,
+   "slot": 2.74,
+   "max_chars_pl": 38,
+   "pl": "Isidro utrzymuje uzbrojoną neutralność."
+  },
+  {
+   "start": 1727.1,
+   "end": 1729.98,
+   "es": "Es el vecino que nadie quiere molestar.",
+   "id": 853,
+   "slot": 2.8,
+   "max_chars_pl": 39,
+   "pl": "To sąsiad, którego nikt nie chce niepokoić."
+  },
+  {
+   "start": 1729.98,
+   "end": 1732.0,
+   "es": "Ha sobrevivido a presidentes,",
+   "id": 854,
+   "slot": 1.94,
+   "max_chars_pl": 27,
+   "pl": "Przetrwał prezydentów,"
+  },
+  {
+   "start": 1732.0,
+   "end": 1732.9,
+   "es": "generales",
+   "id": 855,
+   "slot": 0.82,
+   "max_chars_pl": 11,
+   "pl": "generałów"
+  },
+  {
+   "start": 1732.9,
+   "end": 1735.1,
+   "es": "y directores de la DEA.",
+   "id": 856,
+   "slot": 2.12,
+   "max_chars_pl": 29,
+   "pl": "i dyrektorów DEA."
+  },
+  {
+   "start": 1735.1,
+   "end": 1736.98,
+   "es": "Todos han pasado a la historia,",
+   "id": 857,
+   "slot": 1.8,
+   "max_chars_pl": 25,
+   "pl": "Wszyscy przeszli do historii,"
+  },
+  {
+   "start": 1736.98,
+   "end": 1738.72,
+   "es": "pero él sigue ahí,",
+   "id": 858,
+   "slot": 1.66,
+   "max_chars_pl": 23,
+   "pl": "ale on nadal tam jest,"
+  },
+  {
+   "start": 1738.72,
+   "end": 1740.7,
+   "es": "en un mundo donde el éxito se mide",
+   "id": 859,
+   "slot": 1.9,
+   "max_chars_pl": 26,
+   "pl": "w świecie, gdzie sukces mierzy się tym,"
+  },
+  {
+   "start": 1740.7,
+   "end": 1742.4,
+   "es": "por cuánto tiempo puedes evitar",
+   "id": 860,
+   "slot": 1.62,
+   "max_chars_pl": 22,
+   "pl": "jak długo potrafisz unikać"
+  },
+  {
+   "start": 1742.4,
+   "end": 1744.5,
+   "es": "una celda o una tumba.",
+   "id": 861,
+   "slot": 2.02,
+   "max_chars_pl": 28,
+   "pl": "celi lub grobu."
+  },
+  {
+   "start": 1744.5,
+   "end": 1745.68,
+   "es": "Isidro es,",
+   "id": 862,
+   "slot": 1.1,
+   "max_chars_pl": 15,
+   "pl": "Isidro jest"
+  },
+  {
+   "start": 1745.68,
+   "end": 1746.76,
+   "es": "quizás,",
+   "id": 863,
+   "slot": 1.0,
+   "max_chars_pl": 14,
+   "pl": "być może"
+  },
+  {
+   "start": 1746.76,
+   "end": 1750.02,
+   "es": "el criminal más exitoso de su generación.",
+   "id": 864,
+   "slot": 3.18,
+   "max_chars_pl": 44,
+   "pl": "najbardziej udanym przestępcą swojego pokolenia."
+  },
+  {
+   "start": 1750.02,
+   "end": 1750.94,
+   "es": "Al final,",
+   "id": 865,
+   "slot": 0.84,
+   "max_chars_pl": 11,
+   "pl": "Ostatecznie"
+  },
+  {
+   "start": 1750.94,
+   "end": 1752.3,
+   "es": "la historia del Chapo Isidro",
+   "id": 866,
+   "slot": 1.28,
+   "max_chars_pl": 17,
+   "pl": "historia El Chapo Isidro"
+  },
+  {
+   "start": 1752.3,
+   "end": 1755.18,
+   "es": "nos enseña una lección escalofriante.",
+   "id": 867,
+   "slot": 2.8,
+   "max_chars_pl": 39,
+   "pl": "uczy nas mrożącej krew lekcji."
+  },
+  {
+   "start": 1755.18,
+   "end": 1757.4,
+   "es": "El criminal más peligroso",
+   "id": 868,
+   "slot": 2.14,
+   "max_chars_pl": 29,
+   "pl": "Najniebezpieczniejszy przestępca"
+  },
+  {
+   "start": 1757.4,
+   "end": 1759.48,
+   "es": "no es el que hace más ruido,",
+   "id": 869,
+   "slot": 2.0,
+   "max_chars_pl": 28,
+   "pl": "to nie ten, który robi najwięcej hałasu,"
+  },
+  {
+   "start": 1759.48,
+   "end": 1761.4,
+   "es": "sino el que sabe hacerse necesario",
+   "id": 870,
+   "slot": 1.84,
+   "max_chars_pl": 25,
+   "pl": "lecz ten, który umie stać się niezbędny"
+  },
+  {
+   "start": 1761.4,
+   "end": 1763.1,
+   "es": "e invisible.",
+   "id": 871,
+   "slot": 1.62,
+   "max_chars_pl": 22,
+   "pl": "i niewidzialny."
+  },
+  {
+   "start": 1763.1,
+   "end": 1764.54,
+   "es": "Él es la prueba de que,",
+   "id": 872,
+   "slot": 1.36,
+   "max_chars_pl": 19,
+   "pl": "Jest dowodem, że"
+  },
+  {
+   "start": 1764.54,
+   "end": 1765.6,
+   "es": "mientras las noticias",
+   "id": 873,
+   "slot": 0.98,
+   "max_chars_pl": 13,
+   "pl": "podczas gdy wiadomości"
+  },
+  {
+   "start": 1765.6,
+   "end": 1768.48,
+   "es": "nos muestran capturas espectaculares,",
+   "id": 874,
+   "slot": 2.8,
+   "max_chars_pl": 39,
+   "pl": "pokazują nam spektakularne zatrzymania,"
+  },
+  {
+   "start": 1768.48,
+   "end": 1770.2,
+   "es": "los verdaderos dueños del negocio",
+   "id": 875,
+   "slot": 1.64,
+   "max_chars_pl": 22,
+   "pl": "prawdziwi właściciele biznesu"
+  },
+  {
+   "start": 1770.2,
+   "end": 1772.54,
+   "es": "están en algún lugar de la montaña,",
+   "id": 876,
+   "slot": 2.26,
+   "max_chars_pl": 31,
+   "pl": "są gdzieś w górach,"
+  },
+  {
+   "start": 1772.54,
+   "end": 1775.54,
+   "es": "planeando el siguiente movimiento.",
+   "id": 877,
+   "slot": 2.92,
+   "max_chars_pl": 40,
+   "pl": "planując kolejny ruch."
+  },
+  {
+   "start": 1775.54,
+   "end": 1777.3,
+   "es": "¿Crees que en la era de los satélites",
+   "id": 878,
+   "slot": 1.68,
+   "max_chars_pl": 23,
+   "pl": "Czy sądzisz, że w erze satelitów"
+  },
+  {
+   "start": 1777.3,
+   "end": 1778.7,
+   "es": "y la inteligencia artificial",
+   "id": 879,
+   "slot": 1.32,
+   "max_chars_pl": 18,
+   "pl": "i sztucznej inteligencji"
+  },
+  {
+   "start": 1778.7,
+   "end": 1781.34,
+   "es": "alguien puede ser un fantasma para siempre?",
+   "id": 880,
+   "slot": 2.56,
+   "max_chars_pl": 35,
+   "pl": "ktoś może być duchem na zawsze?"
+  },
+  {
+   "start": 1781.34,
+   "end": 1782.6,
+   "es": "¿O es solo cuestión de tiempo",
+   "id": 881,
+   "slot": 1.18,
+   "max_chars_pl": 16,
+   "pl": "A może to tylko kwestia czasu,"
+  },
+  {
+   "start": 1782.6,
+   "end": 1784.3,
+   "es": "para que la tecnología alcance",
+   "id": 882,
+   "slot": 1.62,
+   "max_chars_pl": 22,
+   "pl": "aż technologia dosięgnie"
+  },
+  {
+   "start": 1784.3,
+   "end": 1786.38,
+   "es": "al Chapo Isidro?",
+   "id": 883,
+   "slot": 2.0,
+   "max_chars_pl": 28,
+   "pl": "El Chapo Isidro?"
+  },
+  {
+   "start": 1786.38,
+   "end": 1788.8,
+   "es": "Déjanos tu opinión en los comentarios.",
+   "id": 884,
+   "slot": 2.34,
+   "max_chars_pl": 32,
+   "pl": "Zostaw swoją opinię w komentarzach."
+  },
+  {
+   "start": 1788.8,
+   "end": 1790.2,
+   "es": "Y si quieres seguir descubriendo",
+   "id": 885,
+   "slot": 1.32,
+   "max_chars_pl": 18,
+   "pl": "A jeśli chcesz dalej odkrywać"
+  },
+  {
+   "start": 1790.2,
+   "end": 1791.5,
+   "es": "las historias que el mundo",
+   "id": 886,
+   "slot": 1.22,
+   "max_chars_pl": 17,
+   "pl": "historie, które świat"
+  },
+  {
+   "start": 1791.5,
+   "end": 1792.86,
+   "es": "prefiere ocultar,",
+   "id": 887,
+   "slot": 1.28,
+   "max_chars_pl": 17,
+   "pl": "woli ukrywać,"
+  },
+  {
+   "start": 1792.86,
+   "end": 1793.96,
+   "es": "suscríbete.",
+   "id": 888,
+   "slot": 1.02,
+   "max_chars_pl": 14,
+   "pl": "subskrybuj."
+  },
+  {
+   "start": 1793.96,
+   "end": 1795.44,
+   "es": "Porque en este canal,",
+   "id": 889,
+   "slot": 1.4,
+   "max_chars_pl": 19,
+   "pl": "Bo na tym kanale"
+  },
+  {
+   "start": 1795.44,
+   "end": 1797.875,
+   "es": "la realidad siempre supera a la ficción.",
+   "id": 890,
+   "slot": 2.355,
+   "max_chars_pl": 32,
+   "pl": "rzeczywistość zawsze przewyższa fikcję."
+  }
+ ]
+}
