@@ -6,3 +6,6 @@
 - Transcripción: «Mini League/Mini Leak» = **Mini Lic**; «Semanario Z» = tygodnik **Zeta**; «Río 12» = **Riodoce**; «Damazo/Dámaz O.» = **Dámaso**; la frase 833 es dudosa en la transcripción («grupo de damas o alianzas»).
 - Los hechos del video (varios «según…») se tradujeron fielmente, no se verificaron.
 - QA: APROBADO (`qa_reporte.md`). Avisos: cifras escritas con letras y longitud de frases cortas (cortes de oración).
+
+## Intro de suscripción (10 s)
+Añadida delante del video sin tocar el resto (concat sin recodificar; 300 + 61277 fotogramas). Planos a 1966,6 s y 628 s, frase 3, color celeste. Pausas: sin pausas ≥ 0,7 s según el QA sobre voz limpia (máx. 0,70 s), nada que recortar. Pendiente: tarjetas de texto que quedaron en español (OCR sin terminar).
