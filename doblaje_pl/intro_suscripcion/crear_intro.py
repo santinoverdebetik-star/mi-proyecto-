@@ -35,6 +35,9 @@ def main():
     p.add_argument('--voz-piper', required=True); p.add_argument('--doblar', default=str(AQUI.parent / 'doblar.py'))
     p.add_argument('--a-inicio', type=float, required=True, help='segundo del plano dramático (sin texto en pantalla)')
     p.add_argument('--b-inicio', type=float, required=True, help='segundo del 2º plano (sin texto en pantalla, ≥4 s de duración)')
+    p.add_argument('--musica-inicio', type=float, help='segundo del archivo de música (por defecto = --a-inicio)')
+    p.add_argument('--b-dur', type=float, default=3.95, help='duración natural del 2º plano (el resto se congela con zoom)')
+    p.add_argument('--relleno', type=float, default=1.0, help='zoom base (p. ej. 1.18) para tapar las barras negras de fotos/planos con marco')
     p.add_argument('--frase', type=int, default=1, choices=FRASES); p.add_argument('--color', default='naranja', choices=COLORES)
     p.add_argument('--salida', required=True)
     p.add_argument('--unir', help='video doblado final (ya recortado) al que se le antepone la intro'); p.add_argument('--final')
@@ -51,10 +54,10 @@ def main():
     voz = np.zeros(int(10 * SR), dtype=np.float32)
     voz[int(t1 * SR):int(t1 * SR) + len(xs[0])] += xs[0]; voz[int(t2 * SR):int(t2 * SR) + len(xs[1])] += xs[1]
     d.escribir_wav(tmp / 'voz.wav', voz)
-    durA = round(t2, 2); durB = round(10 - durA, 2); bnat = min(3.95, durB - 0.2)
-    flt = (f"[0:v]setpts=PTS-STARTPTS,scale=1280:720,fps=30,format=yuv420p[vA];"
+    durA = round(t2, 2); durB = round(10 - durA, 2); bnat = min(a.b_dur, durB - 0.2)
+    flt = (f"[0:v]setpts=PTS-STARTPTS,scale=1280:720,fps=30,scale=iw*{a.relleno}:-1,crop=1280:720,setsar=1,format=yuv420p[vA];"
            f"[1:v]setpts=PTS-STARTPTS,scale=1280:720,fps=30,tpad=stop_mode=clone:stop_duration={durB - bnat + 0.2:.2f},trim=duration={durB:.2f},setpts=PTS-STARTPTS,"
-           f"zoompan=z='min(1+0.0011*on,1.2)':x='iw/2-(iw/zoom/2)':y='ih/2-(ih/zoom/2)':d=1:s=1280x720:fps=30,format=yuv420p[vB];"
+           f"zoompan=z='min({a.relleno}+0.0011*on,{a.relleno + 0.2})':x='iw/2-(iw/zoom/2)':y='ih/2-(ih/zoom/2)':d=1:s=1280x720:fps=30,setsar=1,setsar=1,format=yuv420p[vB];"
            f"[vA][vB]concat=n=2:v=1:a=0[vc];"
            f"[2:v]format=rgba,setpts=PTS-STARTPTS+{t2 + 0.8:.2f}/TB[btn];[vc][btn]overlay=440:520:eof_action=pass:format=auto[vo];"
            f"[vo]drawtext=fontfile={FONT}:text='SUBSKRYBUJ':fontsize=104:fontcolor=white:borderw=7:bordercolor=black@0.85:shadowx=3:shadowy=4:x=(w-text_w)/2:y=70:alpha='min(1,max(0,(t-{t2 + 0.07:.2f})/0.45))',"
@@ -68,7 +71,7 @@ def main():
           "[1:a]loudnorm=I=-14.6:TP=-1.5:LRA=11,aresample=48000,pan=stereo|c0=c0|c1=c0[vz];"
           "[mus][vz]amix=inputs=2:duration=first:normalize=0,apad=whole_dur=10,atrim=end=10,alimiter=limit=0.708:level=0[a]")
     (tmp / 'filtro_a.txt').write_text(fa)
-    sh(['ffmpeg', '-v', 'error', '-y', '-ss', a.a_inicio, '-t', 10, '-i', a.musica, '-i', tmp / 'voz.wav', '-filter_complex_script', tmp / 'filtro_a.txt',
+    sh(['ffmpeg', '-v', 'error', '-y', '-ss', a.musica_inicio if a.musica_inicio is not None else a.a_inicio, '-t', 10, '-i', a.musica, '-i', tmp / 'voz.wav', '-filter_complex_script', tmp / 'filtro_a.txt',
         '-map', '[a]', '-c:a', 'aac', '-b:a', '192k', '-ar', 48000, '-ac', 2, tmp / 'a.m4a'])
     sh(['ffmpeg', '-v', 'error', '-y', '-i', tmp / 'v.mp4', '-i', tmp / 'a.m4a', '-c', 'copy', '-t', 10, '-metadata:s:a:0', 'language=pol', '-movflags', '+faststart', a.salida])
     print(f'Intro lista: {a.salida} (narración {t1:.1f}–{fin:.1f} s; título desde {t2:.1f} s)')
