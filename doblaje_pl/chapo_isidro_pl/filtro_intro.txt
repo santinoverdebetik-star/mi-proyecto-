@@ -1,0 +1,8 @@
+[0:v]setpts=PTS-STARTPTS,scale=1280:720,fps=30,format=yuv420p[vA];
+[1:v]setpts=PTS-STARTPTS,scale=1280:720,fps=30,tpad=stop_mode=clone:stop_duration=3.0,trim=duration=6.6,setpts=PTS-STARTPTS,zoompan=z='min(1+0.0011*on,1.2)':x='iw/2-(iw/zoom/2)':y='ih/2-(ih/zoom/2)':d=1:s=1280x720:fps=30,format=yuv420p[vB];
+[vA][vB]concat=n=2:v=1:a=0[vc];
+[2:v]format=rgba,setpts=PTS-STARTPTS+4.2/TB[btn];
+[vc][btn]overlay=440:520:eof_action=pass:format=auto[vo];
+[vo]drawtext=fontfile=/usr/share/fonts/opentype/inter/InterDisplay-Bold.otf:text='SUBSKRYBUJ':fontsize=104:fontcolor=white:borderw=7:bordercolor=black@0.85:shadowx=3:shadowy=4:x=(w-text_w)/2:y=70:alpha='min(1,max(0,(t-3.45)/0.45))',
+drawtext=fontfile=/usr/share/fonts/opentype/inter/InterDisplay-Bold.otf:text='Królestwo Przestępcze':fontsize=54:fontcolor=0xFFB020:borderw=5:bordercolor=black@0.85:shadowx=2:shadowy=3:x=(w-text_w)/2:y=195:alpha='min(1,max(0,(t-3.8)/0.45))',
+fade=t=in:st=0:d=0.4,fade=t=out:st=9.7:d=0.3[v]

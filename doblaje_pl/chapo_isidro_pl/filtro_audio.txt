@@ -1,0 +1,3 @@
+[0:a]aresample=48000,volume=1.0,afade=t=in:st=0:d=0.3,afade=t=out:st=9.2:d=0.8[mus];
+[1:a]loudnorm=I=-14.6:TP=-1.5:LRA=11,aresample=48000,pan=stereo|c0=c0|c1=c0[vz];
+[mus][vz]amix=inputs=2:duration=first:normalize=0,apad=whole_dur=10,atrim=end=10,alimiter=limit=0.708:level=0[a]
