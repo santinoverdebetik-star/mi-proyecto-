@@ -1,0 +1,4604 @@
+{
+ "video_dur": 1953.309025,
+ "segments": [
+  {
+   "start": 0.0,
+   "end": 5.4,
+   "es": "La mitología del narcotráfico en México nos ha acostumbrado a historias de campesinos que,",
+   "id": 1,
+   "slot": 5.32,
+   "max_chars_pl": 74,
+   "pl": "Mitologia narkobiznesu w Meksyku przyzwyczaiła nas do historii chłopów, którzy"
+  },
+  {
+   "start": 5.4,
+   "end": 12.16,
+   "es": "a fuerza de balaceras y lealtad ciega, logran escalar hasta la cima de las organizaciones criminales.",
+   "id": 2,
+   "slot": 6.68,
+   "max_chars_pl": 93,
+   "pl": "dzięki strzelaninom i ślepej lojalności wspinają się na szczyt organizacji przestępczych."
+  },
+  {
+   "start": 12.16,
+   "end": 17.88,
+   "es": "Sin embargo, tras la sombra proyectada por la caída de nemecio o cegueras herbantes,",
+   "id": 3,
+   "slot": 5.64,
+   "max_chars_pl": 78,
+   "pl": "Jednak w cieniu upadku Nemesia Oseguery Cervantesa,"
+  },
+  {
+   "start": 17.88,
+   "end": 24.76,
+   "es": "el mencho ha emergido un perfil diametralmente opuesto y mil veces más peligroso.",
+   "id": 4,
+   "slot": 6.8,
+   "max_chars_pl": 95,
+   "pl": "El Mencho, wyłonił się profil całkowicie odmienny i tysiąc razy bardziej niebezpieczny."
+  },
+  {
+   "start": 24.76,
+   "end": 29.4,
+   "es": "Olviden al administrador de escritorio o al viejo capo de la sierra.",
+   "id": 5,
+   "slot": 4.6,
+   "max_chars_pl": 64,
+   "pl": "Zapomnijcie o biurowym księgowym i o starym capo z gór."
+  },
+  {
+   "start": 29.44,
+   "end": 37.0,
+   "es": "El verdadero hombre que está reclamando su lugar en la cúspide del Cártel Jalisco Nueva Generación, CJNG,",
+   "id": 6,
+   "slot": 7.48,
+   "max_chars_pl": 104,
+   "pl": "Prawdziwy człowiek, który upomina się o szczyt Kartelu Jalisco Nueva Generación, CJNG,"
+  },
+  {
+   "start": 37.0,
+   "end": 41.84,
+   "es": "es un estratega militar despiadado, un joven con educación de élite",
+   "id": 7,
+   "slot": 4.76,
+   "max_chars_pl": 66,
+   "pl": "to bezlitosny strateg wojskowy, młody człowiek z elitarnym wykształceniem"
+  },
+  {
+   "start": 41.84,
+   "end": 45.92,
+   "es": "y el comandante de una legión de mercenarios extranjeros.",
+   "id": 8,
+   "slot": 4.0,
+   "max_chars_pl": 56,
+   "pl": "i dowódca legionu zagranicznych najemników."
+  },
+  {
+   "start": 45.92,
+   "end": 48.76,
+   "es": "Su nombre es Abraham Ambriscano.",
+   "id": 9,
+   "slot": 2.76,
+   "max_chars_pl": 38,
+   "pl": "Nazywa się Abraham Ambriscano."
+  },
+  {
+   "start": 48.76,
+   "end": 52.56,
+   "es": "Aunque en los reportes de inteligencia militar más clasificados",
+   "id": 10,
+   "slot": 3.72,
+   "max_chars_pl": 52,
+   "pl": "Choć w najbardziej tajnych raportach wywiadu wojskowego"
+  },
+  {
+   "start": 52.56,
+   "end": 55.8,
+   "es": "y en las calles ensangrentadas de tierra caliente,",
+   "id": 11,
+   "slot": 3.16,
+   "max_chars_pl": 44,
+   "pl": "i na zalanych krwią ulicach Tierra Caliente"
+  },
+  {
+   "start": 55.8,
+   "end": 59.08,
+   "es": "se le conoce simplemente como El Yogurt.",
+   "id": 12,
+   "slot": 3.2,
+   "max_chars_pl": 44,
+   "pl": "znany jest po prostu jako El Yogurt."
+  },
+  {
+   "start": 59.08,
+   "end": 66.16,
+   "es": "Este no es un cuento sobre contadores invisibles, es la crónica de una insurgencia paramilitar.",
+   "id": 13,
+   "slot": 7.0,
+   "max_chars_pl": 98,
+   "pl": "To nie jest opowieść o niewidzialnych księgowych, to kronika paramilitarnej insurekcji."
+  },
+  {
+   "start": 66.16,
+   "end": 71.32,
+   "es": "Ambriscano ha transformado las reglas del juego en la guerra de los cárteles.",
+   "id": 14,
+   "slot": 5.08,
+   "max_chars_pl": 71,
+   "pl": "Ambriscano zmienił zasady gry w wojnie karteli."
+  },
+  {
+   "start": 71.32,
+   "end": 76.44,
+   "es": "Mientras otros líderes locales reclutan a jóvenes sin experiencia de las calles,",
+   "id": 15,
+   "slot": 5.04,
+   "max_chars_pl": 70,
+   "pl": "Podczas gdy inni lokalni przywódcy werbują młodych, bez doświadczenia z ulicy,"
+  },
+  {
+   "start": 76.44,
+   "end": 79.48,
+   "es": "El Yogurt decidió importar la guerra.",
+   "id": 16,
+   "slot": 2.96,
+   "max_chars_pl": 41,
+   "pl": "El Yogurt postanowił sprowadzić wojnę z zagranicy."
+  },
+  {
+   "start": 79.48,
+   "end": 86.36,
+   "es": "Él es la mente maestra detrás de la contratación masiva de exmilitares y exguerrilleros sudamericanos,",
+   "id": 17,
+   "slot": 6.8,
+   "max_chars_pl": 95,
+   "pl": "To mózg stojący za masowym zatrudnianiem byłych wojskowych i partyzantów z Ameryki Południowej,"
+  },
+  {
+   "start": 86.36,
+   "end": 88.92,
+   "es": "creando un escuadrón de la muerte tan letal",
+   "id": 18,
+   "slot": 2.48,
+   "max_chars_pl": 34,
+   "pl": "tworząc szwadron śmierci tak śmiercionośny,"
+  },
+  {
+   "start": 88.92,
+   "end": 94.8,
+   "es": "que el propio ejército mexicano ha tenido que cambiar sus tácticas para enfrentarlos.",
+   "id": 19,
+   "slot": 5.8,
+   "max_chars_pl": 81,
+   "pl": "że sama armia meksykańska musiała zmienić swoją taktykę, by stawić im czoła."
+  },
+  {
+   "start": 94.8,
+   "end": 98.24,
+   "es": "En este video vamos a destrozar los mitos",
+   "id": 20,
+   "slot": 3.36,
+   "max_chars_pl": 47,
+   "pl": "W tym filmie obalimy mity"
+  },
+  {
+   "start": 98.24,
+   "end": 102.68,
+   "es": "y a adentrarnos en la verdadera historia de Abraham Ambriscano,",
+   "id": 21,
+   "slot": 4.36,
+   "max_chars_pl": 61,
+   "pl": "i zagłębimy się w prawdziwą historię Abrahama Ambriscano,"
+  },
+  {
+   "start": 102.68,
+   "end": 108.32,
+   "es": "el joven de 29 años que combinó la logística internacional con el terrorismo urbano",
+   "id": 22,
+   "slot": 5.56,
+   "max_chars_pl": 77,
+   "pl": "dwudziestodziewięciolatka, który połączył międzynarodową logistykę z terroryzmem miejskim,"
+  },
+  {
+   "start": 108.32,
+   "end": 114.72,
+   "es": "para convertirse en el nuevo señor de la guerra del CJNG, Abraham Ambriscano,",
+   "id": 23,
+   "slot": 6.32,
+   "max_chars_pl": 88,
+   "pl": "by stać się nowym panem wojny CJNG, Abrahama Ambriscano,"
+  },
+  {
+   "start": 114.72,
+   "end": 121.28,
+   "es": "también identificado en expedientes judiciales bajo el nombre de Abraham Jesús Ambriscano.",
+   "id": 24,
+   "slot": 6.48,
+   "max_chars_pl": 90,
+   "pl": "występującego też w aktach sądowych jako Abraham Jesús Ambriscano."
+  },
+  {
+   "start": 121.28,
+   "end": 125.2,
+   "es": "Es el prototipo perfecto del narco millennial.",
+   "id": 25,
+   "slot": 3.84,
+   "max_chars_pl": 53,
+   "pl": "To idealny prototyp narco millenialsa."
+  },
+  {
+   "start": 125.2,
+   "end": 130.12,
+   "es": "A sus escasos 29 años, no se formó cuidando plantíos de marihuana",
+   "id": 26,
+   "slot": 4.84,
+   "max_chars_pl": 67,
+   "pl": "W swoich zaledwie dwudziestu dziewięciu latach nie uczył się, pilnując plantacji marihuany"
+  },
+  {
+   "start": 130.12,
+   "end": 133.2,
+   "es": "ni haciendo guardia en casas de seguridad.",
+   "id": 27,
+   "slot": 3.0,
+   "max_chars_pl": 42,
+   "pl": "ani trzymając wartę w kryjówkach."
+  },
+  {
+   "start": 133.2,
+   "end": 139.16,
+   "es": "Los reportes de agencias internacionales de inteligencia sugieren un origen escalofriante.",
+   "id": 28,
+   "slot": 5.88,
+   "max_chars_pl": 82,
+   "pl": "Raporty międzynarodowych agencji wywiadowczych sugerują przerażające pochodzenie."
+  },
+  {
+   "start": 139.16,
+   "end": 142.92,
+   "es": "Ambriscano es un hombre con un nivel educativo superior,",
+   "id": 29,
+   "slot": 3.68,
+   "max_chars_pl": 51,
+   "pl": "Ambriscano jest człowiekiem z wyższym wykształceniem,"
+  },
+  {
+   "start": 142.92,
+   "end": 146.84,
+   "es": "habiendo cursado presuntamente estudios de posgrado en logística",
+   "id": 30,
+   "slot": 3.84,
+   "max_chars_pl": 53,
+   "pl": "który podobno odbył studia podyplomowe z logistyki"
+  },
+  {
+   "start": 146.84,
+   "end": 150.28,
+   "es": "y cadena de suministro en los Estados Unidos.",
+   "id": 31,
+   "slot": 3.36,
+   "max_chars_pl": 47,
+   "pl": "i zarządzania łańcuchem dostaw w Stanach Zjednoczonych."
+  },
+  {
+   "start": 150.28,
+   "end": 152.84,
+   "es": "Esta educación no lo alejó del crimen.",
+   "id": 32,
+   "slot": 2.48,
+   "max_chars_pl": 34,
+   "pl": "To wykształcenie nie oddaliło go od przestępczości."
+  },
+  {
+   "start": 152.84,
+   "end": 157.32,
+   "es": "Al contrario, lo convirtió en un arma de destrucción masiva.",
+   "id": 33,
+   "slot": 4.4,
+   "max_chars_pl": 61,
+   "pl": "Wręcz przeciwnie, uczyniło z niego broń masowego rażenia."
+  },
+  {
+   "start": 157.32,
+   "end": 161.52,
+   "es": "Él aplicó las teorías de eficiencia corporativa y logística global",
+   "id": 34,
+   "slot": 4.12,
+   "max_chars_pl": 57,
+   "pl": "Zastosował teorie efektywności korporacyjnej i globalnej logistyki"
+  },
+  {
+   "start": 161.52,
+   "end": 167.52,
+   "es": "directamente a la estructura armada y de tráfico del Cártel Jalisco Nueva Generación.",
+   "id": 35,
+   "slot": 5.92,
+   "max_chars_pl": 82,
+   "pl": "bezpośrednio do zbrojnej struktury i handlu Kartelu Jalisco Nueva Generación."
+  },
+  {
+   "start": 167.52,
+   "end": 170.12,
+   "es": "Su juventud es engañosa.",
+   "id": 36,
+   "slot": 2.52,
+   "max_chars_pl": 35,
+   "pl": "Jego młody wiek jest zwodniczy."
+  },
+  {
+   "start": 170.12,
+   "end": 174.28,
+   "es": "Detrás de ese perfil educado se esconde un psicópata táctico",
+   "id": 37,
+   "slot": 4.08,
+   "max_chars_pl": 57,
+   "pl": "Za tym wykształconym obliczem kryje się taktyczny psychopata,"
+  },
+  {
+   "start": 174.28,
+   "end": 180.04,
+   "es": "que entendió rápidamente que la fuerza bruta sin inteligencia es inútil.",
+   "id": 38,
+   "slot": 5.68,
+   "max_chars_pl": 79,
+   "pl": "który szybko zrozumiał, że brutalna siła bez inteligencji jest bezużyteczna."
+  },
+  {
+   "start": 180.04,
+   "end": 186.16,
+   "es": "El yogurt ascendió en las filas del cartel no por ser un familiar directo de la cúpula,",
+   "id": 39,
+   "slot": 6.04,
+   "max_chars_pl": 84,
+   "pl": "El Yogurt awansował w szeregach kartelu nie dlatego, że był bliskim krewnym władz,"
+  },
+  {
+   "start": 186.16,
+   "end": 192.96,
+   "es": "sino por su asombrosa capacidad para resolver problemas logísticos complejos en zonas de guerra.",
+   "id": 40,
+   "slot": 6.72,
+   "max_chars_pl": 94,
+   "pl": "lecz dzięki zdumiewającej umiejętności rozwiązywania złożonych problemów logistycznych w strefach wojny."
+  },
+  {
+   "start": 192.96,
+   "end": 196.44,
+   "es": "Él sabía cómo mover un cargamento de precursores químicos",
+   "id": 41,
+   "slot": 3.4,
+   "max_chars_pl": 47,
+   "pl": "Wiedział, jak przewieźć ładunek prekursorów chemicznych"
+  },
+  {
+   "start": 196.44,
+   "end": 200.48,
+   "es": "Desde un puerto hasta un laboratorio en la sierra sin ser detectado,",
+   "id": 42,
+   "slot": 3.96,
+   "max_chars_pl": 55,
+   "pl": "z portu do laboratorium w górach niezauważonym,"
+  },
+  {
+   "start": 200.48,
+   "end": 204.48,
+   "es": "y más importante aún, sabía cómo defender esa ruta.",
+   "id": 43,
+   "slot": 3.92,
+   "max_chars_pl": 54,
+   "pl": "a co ważniejsze, wiedział, jak tę trasę obronić."
+  },
+  {
+   "start": 204.48,
+   "end": 208.48,
+   "es": "Su perfil rompe con la tradición del CJNG.",
+   "id": 44,
+   "slot": 3.92,
+   "max_chars_pl": 54,
+   "pl": "Jego profil łamie tradycję CJNG."
+  },
+  {
+   "start": 208.48,
+   "end": 213.4,
+   "es": "No es un hombre de la vieja guardia que respeta los códigos no escritos del narco.",
+   "id": 45,
+   "slot": 4.84,
+   "max_chars_pl": 67,
+   "pl": "To nie człowiek starej gwardii, który szanuje niepisane kodeksy narco."
+  },
+  {
+   "start": 213.4,
+   "end": 218.28,
+   "es": "Es un pragmático absoluto que ve el territorio mexicano como un tablero de ajedrez",
+   "id": 46,
+   "slot": 4.8,
+   "max_chars_pl": 67,
+   "pl": "To absolutny pragmatyk, który widzi terytorium Meksyku jak szachownicę,"
+  },
+  {
+   "start": 218.28,
+   "end": 221.96,
+   "es": "donde las piezas se mueven con precisión matemática",
+   "id": 47,
+   "slot": 3.6,
+   "max_chars_pl": 50,
+   "pl": "na której figury poruszają się z matematyczną precyzją,"
+  },
+  {
+   "start": 221.96,
+   "end": 226.24,
+   "es": "y donde la vida humana es simplemente un costo operativo.",
+   "id": 48,
+   "slot": 4.24,
+   "max_chars_pl": 59,
+   "pl": "a ludzkie życie to po prostu koszt operacyjny."
+  },
+  {
+   "start": 226.28,
+   "end": 232.88,
+   "es": "El verdadero poder de Abraham Ambriscano no radica en los millones de dólares que transitan por sus cuentas",
+   "id": 49,
+   "slot": 6.52,
+   "max_chars_pl": 91,
+   "pl": "Prawdziwa potęga Abrahama Ambriscano nie leży w milionach dolarów przepływających przez jego konta"
+  },
+  {
+   "start": 232.88,
+   "end": 237.88,
+   "es": "ni en las toneladas de fentanilo que cruzan la frontera bajo su supervisión.",
+   "id": 50,
+   "slot": 4.92,
+   "max_chars_pl": 68,
+   "pl": "ani w tonach fentanylu przekraczających granicę pod jego nadzorem."
+  },
+  {
+   "start": 237.88,
+   "end": 242.12,
+   "es": "Su verdadero poder, aquel que lo ha convertido en una leyenda negra",
+   "id": 51,
+   "slot": 4.16,
+   "max_chars_pl": 58,
+   "pl": "Jego prawdziwa potęga, ta, która uczyniła go czarną legendą"
+  },
+  {
+   "start": 242.12,
+   "end": 245.96,
+   "es": "dentro de la cúpula del Cártel Jalisco Nueva Generación,",
+   "id": 52,
+   "slot": 3.76,
+   "max_chars_pl": 52,
+   "pl": "w kręgu władzy Kartelu Jalisco Nueva Generación,"
+  },
+  {
+   "start": 245.96,
+   "end": 252.12,
+   "es": "respira, marcha en formación y aprieta el gatillo con una frialdad mecánica.",
+   "id": 53,
+   "slot": 6.12,
+   "max_chars_pl": 85,
+   "pl": "oddycha, maszeruje w szyku i naciska spust z mechanicznym chłodem."
+  },
+  {
+   "start": 252.16,
+   "end": 259.36,
+   "es": "Cuando el yogurt asumió el control operativo de la hiperviolenta región de Tierra Caliente y la Sierra Costa,",
+   "id": 54,
+   "slot": 7.12,
+   "max_chars_pl": 99,
+   "pl": "Kiedy El Yogurt przejął operacyjną kontrolę nad niezwykle brutalnym regionem Tierra Caliente i Sierra Costa,"
+  },
+  {
+   "start": 259.36,
+   "end": 265.24,
+   "es": "se enfrentó a una realidad matemática y táctica que sus predecesores se negaban a aceptar.",
+   "id": 55,
+   "slot": 5.8,
+   "max_chars_pl": 81,
+   "pl": "stanął w obliczu matematycznej i taktycznej rzeczywistości, której jego poprzednicy nie chcieli przyjąć."
+  },
+  {
+   "start": 265.24,
+   "end": 269.76,
+   "es": "Los sicarios locales, por más despiadados y leales que fueran,",
+   "id": 56,
+   "slot": 4.44,
+   "max_chars_pl": 62,
+   "pl": "Lokalni płatni zabójcy, choćby najbardziej bezwzględni i lojalni,"
+  },
+  {
+   "start": 269.76,
+   "end": 275.52,
+   "es": "eran simple carne de cañón frente a las fuerzas especiales del Estado mexicano.",
+   "id": 57,
+   "slot": 5.68,
+   "max_chars_pl": 79,
+   "pl": "byli zwykłym mięsem armatnim wobec sił specjalnych państwa meksykańskiego."
+  },
+  {
+   "start": 275.52,
+   "end": 278.8,
+   "es": "Eran jóvenes reclutados de los barrios periféricos",
+   "id": 58,
+   "slot": 3.2,
+   "max_chars_pl": 44,
+   "pl": "Byli młodymi ludźmi rekrutowanymi z peryferyjnych dzielnic,"
+  },
+  {
+   "start": 278.8,
+   "end": 283.68,
+   "es": "con armas largas que apenas sabían empuñar y nula disciplina táctica",
+   "id": 59,
+   "slot": 4.8,
+   "max_chars_pl": 67,
+   "pl": "z długą bronią, której ledwo umieli używać, i zerową dyscypliną taktyczną,"
+  },
+  {
+   "start": 283.68,
+   "end": 288.12,
+   "es": "que caían por docenas en cada enfrentamiento directo.",
+   "id": 60,
+   "slot": 4.36,
+   "max_chars_pl": 61,
+   "pl": "ginącymi całymi tuzinami w każdym bezpośrednim starciu."
+  },
+  {
+   "start": 288.12,
+   "end": 294.36,
+   "es": "Para la mente analítica y logística de Ambriscano, esto no era solo una tragedia humana,",
+   "id": 61,
+   "slot": 6.16,
+   "max_chars_pl": 86,
+   "pl": "Dla analitycznego, logistycznego umysłu Ambriscano nie była to tylko ludzka tragedia,"
+  },
+  {
+   "start": 294.36,
+   "end": 299.16,
+   "es": "era una ineficiencia operativa inaceptable que costaba millones.",
+   "id": 62,
+   "slot": 4.72,
+   "max_chars_pl": 66,
+   "pl": "lecz niedopuszczalna nieefektywność operacyjna, która kosztowała miliony."
+  },
+  {
+   "start": 299.16,
+   "end": 304.44,
+   "es": "Su solución a este problema de recursos humanos fue tan brillante como aterradora.",
+   "id": 63,
+   "slot": 5.2,
+   "max_chars_pl": 72,
+   "pl": "Jego rozwiązanie tego problemu kadrowego było równie genialne, co przerażające."
+  },
+  {
+   "start": 304.44,
+   "end": 307.4,
+   "es": "Si el Estado mexicano tiene soldados de élite,",
+   "id": 64,
+   "slot": 2.88,
+   "max_chars_pl": 40,
+   "pl": "Jeśli państwo meksykańskie ma elitarnych żołnierzy,"
+  },
+  {
+   "start": 307.4,
+   "end": 311.68,
+   "es": "el cartel debía construir su propio ejército profesional.",
+   "id": 65,
+   "slot": 4.2,
+   "max_chars_pl": 58,
+   "pl": "kartel musiał zbudować własną zawodową armię."
+  },
+  {
+   "start": 311.68,
+   "end": 318.4,
+   "es": "Así fue como gestó, financió y bautizó a su guardia personal y principal célula de choque,",
+   "id": 66,
+   "slot": 6.64,
+   "max_chars_pl": 92,
+   "pl": "Tak powstała jego osobista gwardia i główna komórka uderzeniowa,"
+  },
+  {
+   "start": 318.4,
+   "end": 323.76,
+   "es": "un grupo paramilitar de pesadilla autodenominado Los Indestructibles.",
+   "id": 67,
+   "slot": 5.28,
+   "max_chars_pl": 73,
+   "pl": "koszmarna grupa paramilitarna nazywająca siebie Los Indestructibles."
+  },
+  {
+   "start": 323.76,
+   "end": 328.88,
+   "es": "Pero el yogurt sabía perfectamente que no encontraría la disciplina castrense",
+   "id": 68,
+   "slot": 5.04,
+   "max_chars_pl": 70,
+   "pl": "Ale El Yogurt doskonale wiedział, że wojskowej dyscypliny,"
+  },
+  {
+   "start": 328.88,
+   "end": 332.68,
+   "es": "que buscaba en las calles de Jalisco o Michoacán.",
+   "id": 69,
+   "slot": 3.72,
+   "max_chars_pl": 52,
+   "pl": "której szukał, nie znajdzie na ulicach Jalisco czy Michoacán."
+  },
+  {
+   "start": 332.68,
+   "end": 335.92,
+   "es": "Necesitaba hombres curtidos por la guerra real,",
+   "id": 70,
+   "slot": 3.16,
+   "max_chars_pl": 44,
+   "pl": "Potrzebował ludzi zahartowanych prawdziwą wojną,"
+  },
+  {
+   "start": 335.92,
+   "end": 342.24,
+   "es": "profesionales de la muerte que no se inmutarán ante el fuego cruzado de una ametralladora Minigun.",
+   "id": 71,
+   "slot": 6.24,
+   "max_chars_pl": 87,
+   "pl": "zawodowców od śmierci, których nie wzruszy ogień krzyżowy karabinu Minigun."
+  },
+  {
+   "start": 342.24,
+   "end": 346.04,
+   "es": "Abrió entonces una red de reclutamiento internacional,",
+   "id": 72,
+   "slot": 3.72,
+   "max_chars_pl": 52,
+   "pl": "Otworzył więc międzynarodową sieć rekrutacji,"
+  },
+  {
+   "start": 346.04,
+   "end": 352.0,
+   "es": "fijando su mirada directamente en Sudamérica, específicamente en Colombia.",
+   "id": 73,
+   "slot": 5.88,
+   "max_chars_pl": 82,
+   "pl": "kierując wzrok prosto na Amerykę Południową, a konkretnie na Kolumbię."
+  },
+  {
+   "start": 352.0,
+   "end": 357.16,
+   "es": "Ambriscano comenzó a financiar una tubería de talento letal ininterrumpida,",
+   "id": 74,
+   "slot": 5.08,
+   "max_chars_pl": 71,
+   "pl": "Ambriscano zaczął finansować nieprzerwany strumień śmiercionośnych talentów,"
+  },
+  {
+   "start": 357.16,
+   "end": 360.44,
+   "es": "importando a decenas de exmilitares colombianos,",
+   "id": 75,
+   "slot": 3.2,
+   "max_chars_pl": 44,
+   "pl": "sprowadzając dziesiątki byłych żołnierzy kolumbijskich,"
+  },
+  {
+   "start": 360.44,
+   "end": 363.84,
+   "es": "antiguos miembros de comandos de operaciones especiales",
+   "id": 76,
+   "slot": 3.32,
+   "max_chars_pl": 46,
+   "pl": "dawnych członków komandosów sił specjalnych"
+  },
+  {
+   "start": 363.84,
+   "end": 369.4,
+   "es": "y veteranos combatientes de guerrillas históricas como las FARC y el ELN.",
+   "id": 77,
+   "slot": 5.48,
+   "max_chars_pl": 76,
+   "pl": "i weteranów historycznych partyzantek, takich jak FARC i ELN."
+  },
+  {
+   "start": 369.4,
+   "end": 370.88,
+   "es": "¿Por qué Colombia?",
+   "id": 78,
+   "slot": 1.4,
+   "max_chars_pl": 19,
+   "pl": "Dlaczego Kolumbia?"
+  },
+  {
+   "start": 370.88,
+   "end": 376.28,
+   "es": "Porque es un país que lleva más de medio siglo perfeccionando el arte de la guerra asimétrica,",
+   "id": 79,
+   "slot": 5.32,
+   "max_chars_pl": 74,
+   "pl": "Bo to kraj, który od ponad pół wieku doskonali sztukę wojny asymetrycznej,"
+  },
+  {
+   "start": 376.28,
+   "end": 381.52,
+   "es": "la supervivencia extrema en la selva y el combate urbano de alta intensidad.",
+   "id": 80,
+   "slot": 5.16,
+   "max_chars_pl": 72,
+   "pl": "ekstremalnego przetrwania w dżungli i walki miejskiej o wysokiej intensywności."
+  },
+  {
+   "start": 381.52,
+   "end": 386.52,
+   "es": "Estos hombres, muchos de ellos retirados con pensiones insuficientes o desplazados",
+   "id": 81,
+   "slot": 4.92,
+   "max_chars_pl": 68,
+   "pl": "Ci ludzie, wielu z nich odeszło na niewystarczające emerytury lub zostało wysiedlonych"
+  },
+  {
+   "start": 386.52,
+   "end": 388.32,
+   "es": "tras los Acuerdos de Paz,",
+   "id": 82,
+   "slot": 1.72,
+   "max_chars_pl": 24,
+   "pl": "po porozumieniach pokojowych,"
+  },
+  {
+   "start": 388.32,
+   "end": 395.84,
+   "es": "llegan a México buscando los sueldos estratosféricos que el CEJNG puede pagar en dólares.",
+   "id": 83,
+   "slot": 7.44,
+   "max_chars_pl": 104,
+   "pl": "przybywają do Meksyku w poszukiwaniu astronomicznych zarobków, jakie CJNG może wypłacać w dolarach."
+  },
+  {
+   "start": 395.84,
+   "end": 403.4,
+   "es": "Traen consigo un nivel de pericia táctica que alteró para siempre el equilibrio de poder en el occidente mexicano.",
+   "id": 84,
+   "slot": 7.48,
+   "max_chars_pl": 104,
+   "pl": "Przywożą ze sobą poziom taktycznej biegłości, który na zawsze zmienił układ sił na zachodzie Meksyku."
+  },
+  {
+   "start": 403.4,
+   "end": 411.44,
+   "es": "Al traer a estos mercenarios, el yogurt no solo importó gatilleros, importó doctrina militar de alto nivel.",
+   "id": 85,
+   "slot": 8.0,
+   "max_chars_pl": 112,
+   "pl": "Sprowadzając tych najemników, El Yogurt nie importował tylko zabójców, lecz doktrynę wojskową najwyższego poziomu."
+  },
+  {
+   "start": 411.48,
+   "end": 416.76,
+   "es": "Los indestructibles introdujeron tácticas de terrorismo y guerra de guerrillas",
+   "id": 86,
+   "slot": 5.2,
+   "max_chars_pl": 72,
+   "pl": "Los Indestructibles wprowadzili taktyki terroryzmu i wojny partyzanckiej,"
+  },
+  {
+   "start": 416.76,
+   "end": 421.84,
+   "es": "que México jamás había experimentado con tal grado de sofisticación.",
+   "id": 87,
+   "slot": 5.0,
+   "max_chars_pl": 70,
+   "pl": "jakich Meksyk nigdy wcześniej nie doświadczył w tak wyrafinowanym stopniu."
+  },
+  {
+   "start": 421.84,
+   "end": 426.56,
+   "es": "Hablamos de la implementación sistemática de campos minados antipersonales",
+   "id": 88,
+   "slot": 4.64,
+   "max_chars_pl": 64,
+   "pl": "Mówimy o systematycznym stosowaniu min przeciwpiechotnych"
+  },
+  {
+   "start": 426.56,
+   "end": 430.56,
+   "es": "para proteger los perímetros de los megalaboratorios clandestinos,",
+   "id": 89,
+   "slot": 3.92,
+   "max_chars_pl": 54,
+   "pl": "do ochrony obwodów potężnych, tajnych laboratoriów,"
+  },
+  {
+   "start": 430.56,
+   "end": 436.36,
+   "es": "el diseño y despliegue de artefactos explosivos improvisados y EDS,",
+   "id": 90,
+   "slot": 5.72,
+   "max_chars_pl": 80,
+   "pl": "o projektowaniu i rozmieszczaniu improwizowanych ładunków wybuchowych, IED,"
+  },
+  {
+   "start": 436.36,
+   "end": 440.72,
+   "es": "de detonación remota para emboscar convoyes blindados del ejército",
+   "id": 91,
+   "slot": 4.28,
+   "max_chars_pl": 59,
+   "pl": "zdalnie detonowanych, by urządzać zasadzki na opancerzone konwoje armii,"
+  },
+  {
+   "start": 440.72,
+   "end": 443.76,
+   "es": "y el uso coordinado de francotiradores.",
+   "id": 92,
+   "slot": 2.96,
+   "max_chars_pl": 41,
+   "pl": "oraz skoordynowanym użyciu snajperów."
+  },
+  {
+   "start": 443.76,
+   "end": 450.44,
+   "es": "Equipados con rifles Barret calibre 50 para neutralizar amenazas desde kilómetros de distancia.",
+   "id": 93,
+   "slot": 6.6,
+   "max_chars_pl": 92,
+   "pl": "Wyposażonych w karabiny Barrett kalibru pięćdziesiąt, by neutralizować zagrożenia z odległości kilometrów."
+  },
+  {
+   "start": 450.44,
+   "end": 453.28,
+   "es": "Bajo la estricta dirección de estos extranjeros,",
+   "id": 94,
+   "slot": 2.76,
+   "max_chars_pl": 38,
+   "pl": "Pod surowym kierownictwem tych cudzoziemców"
+  },
+  {
+   "start": 453.28,
+   "end": 458.12,
+   "es": "las escaramuzas dejaron de ser tiroteos caóticos desde camionetas en movimiento",
+   "id": 95,
+   "slot": 4.76,
+   "max_chars_pl": 66,
+   "pl": "potyczki przestały być chaotycznymi strzelaninami z jadących pickupów,"
+  },
+  {
+   "start": 458.12,
+   "end": 462.56,
+   "es": "para convertirse en asaltos de infantería perfectamente coreografiados,",
+   "id": 96,
+   "slot": 4.36,
+   "max_chars_pl": 61,
+   "pl": "a stały się doskonale wyreżyserowanymi szturmami piechoty,"
+  },
+  {
+   "start": 462.56,
+   "end": 466.2,
+   "es": "con fuego de cobertura y maniobras de flanqueo.",
+   "id": 97,
+   "slot": 3.6,
+   "max_chars_pl": 50,
+   "pl": "z ogniem osłonowym i manewrami oskrzydlającymi."
+  },
+  {
+   "start": 466.24,
+   "end": 471.2,
+   "es": "Pero existe un factor aún más escalofriante en la estrategia de El Yogurt,",
+   "id": 98,
+   "slot": 4.88,
+   "max_chars_pl": 68,
+   "pl": "Ale w strategii El Yogurta istnieje jeszcze bardziej przerażający czynnik,"
+  },
+  {
+   "start": 471.2,
+   "end": 477.36,
+   "es": "un beneficio psicológico y sociológico macabro al utilizar una legión extranjera.",
+   "id": 99,
+   "slot": 6.08,
+   "max_chars_pl": 85,
+   "pl": "makabryczna korzyść psychologiczna i socjologiczna z użycia legionu cudzoziemców."
+  },
+  {
+   "start": 477.36,
+   "end": 483.0,
+   "es": "Estos mercenarios sudamericanos no tienen lazos de sangre ni raíces en México,",
+   "id": 100,
+   "slot": 5.56,
+   "max_chars_pl": 77,
+   "pl": "Ci południowoamerykańscy najemnicy nie mają więzów krwi ani korzeni w Meksyku,"
+  },
+  {
+   "start": 483.0,
+   "end": 487.24,
+   "es": "no sienten absolutamente ninguna empatía por la población local,",
+   "id": 101,
+   "slot": 4.16,
+   "max_chars_pl": 58,
+   "pl": "nie odczuwają absolutnie żadnej empatii wobec miejscowej ludności,"
+  },
+  {
+   "start": 487.24,
+   "end": 490.04,
+   "es": "no tienen familiares en los pueblos que ocupan",
+   "id": 102,
+   "slot": 2.72,
+   "max_chars_pl": 38,
+   "pl": "nie mają rodzin w zajmowanych miasteczkach"
+  },
+  {
+   "start": 490.04,
+   "end": 493.0,
+   "es": "y no les tiembla el pulso si reciben la orden de arrasar",
+   "id": 103,
+   "slot": 2.88,
+   "max_chars_pl": 40,
+   "pl": "i ręka im nie zadrży, gdy dostaną rozkaz zrównania z ziemią"
+  },
+  {
+   "start": 493.0,
+   "end": 496.48,
+   "es": "con una comunidad entera que se niega a colaborar.",
+   "id": 104,
+   "slot": 3.4,
+   "max_chars_pl": 47,
+   "pl": "całej społeczności, która odmawia współpracy."
+  },
+  {
+   "start": 496.48,
+   "end": 502.2,
+   "es": "Operan bajo una disciplina marcial estricta, fría y totalmente desapegada.",
+   "id": 105,
+   "slot": 5.64,
+   "max_chars_pl": 78,
+   "pl": "Działają w ścisłej, chłodnej i całkowicie wyzutej z uczuć dyscyplinie wojskowej."
+  },
+  {
+   "start": 502.2,
+   "end": 509.4,
+   "es": "Para ellos, Michoacán, Jalisco o Colima son simplemente zonas de despliegue militar.",
+   "id": 106,
+   "slot": 7.12,
+   "max_chars_pl": 99,
+   "pl": "Dla nich Michoacán, Jalisco czy Colima to po prostu strefy rozmieszczenia wojsk."
+  },
+  {
+   "start": 509.4,
+   "end": 512.68,
+   "es": "Los civiles son daños colaterales aceptables",
+   "id": 107,
+   "slot": 3.2,
+   "max_chars_pl": 44,
+   "pl": "Cywile są dopuszczalnymi stratami ubocznymi,"
+  },
+  {
+   "start": 512.68,
+   "end": 517.68,
+   "es": "y los cárteles rivales son objetivos a exterminar por contrato.",
+   "id": 108,
+   "slot": 4.96,
+   "max_chars_pl": 69,
+   "pl": "a rywalizujące kartele to cele do likwidacji na zlecenie."
+  },
+  {
+   "start": 517.72,
+   "end": 523.08,
+   "es": "Esta falta de arraigo elimina de tajo cualquier posibilidad de traición por remordimiento,",
+   "id": 109,
+   "slot": 5.28,
+   "max_chars_pl": 73,
+   "pl": "Ten brak zakorzenienia raz na zawsze eliminuje możliwość zdrady z wyrzutów sumienia,"
+  },
+  {
+   "start": 523.08,
+   "end": 526.76,
+   "es": "extorsión familiar o presión comunitaria.",
+   "id": 110,
+   "slot": 3.6,
+   "max_chars_pl": 50,
+   "pl": "szantażu rodzinnego czy presji społeczności."
+  },
+  {
+   "start": 526.76,
+   "end": 530.36,
+   "es": "Además de fungir como su letal guardia pretoriana,",
+   "id": 111,
+   "slot": 3.52,
+   "max_chars_pl": 49,
+   "pl": "Poza tym, że pełnią funkcję jego śmiercionośnej gwardii pretoriańskiej,"
+  },
+  {
+   "start": 530.36,
+   "end": 537.2,
+   "es": "los miembros de Los Indestructibles cumplen un rol fundamental como instructores tácticos.",
+   "id": 112,
+   "slot": 6.76,
+   "max_chars_pl": 94,
+   "pl": "członkowie Los Indestructibles odgrywają kluczową rolę instruktorów taktycznych."
+  },
+  {
+   "start": 537.2,
+   "end": 543.96,
+   "es": "Las remotas montañas de la Sierra Acosta se han convertido en auténticos campos de entrenamiento paramilitar,",
+   "id": 113,
+   "slot": 6.68,
+   "max_chars_pl": 93,
+   "pl": "Odległe góry Sierra Costa stały się prawdziwymi obozami szkoleniowymi dla paramilitarnych,"
+  },
+  {
+   "start": 543.96,
+   "end": 548.92,
+   "es": "donde estos veteranos de guerra transmiten sus conocimientos a las bases más jóvenes",
+   "id": 114,
+   "slot": 4.88,
+   "max_chars_pl": 68,
+   "pl": "gdzie ci weterani wojenni przekazują swoją wiedzę młodszym członkom"
+  },
+  {
+   "start": 548.92,
+   "end": 552.64,
+   "es": "y prometedoras del CJNGE.",
+   "id": 115,
+   "slot": 3.64,
+   "max_chars_pl": 50,
+   "pl": "i obiecującym szeregowcom CJNG."
+  },
+  {
+   "start": 552.64,
+   "end": 555.64,
+   "es": "Les enseñan a moverse en sigilo por el monte,",
+   "id": 116,
+   "slot": 2.92,
+   "max_chars_pl": 40,
+   "pl": "Uczą ich poruszać się bezszelestnie po lesie,"
+  },
+  {
+   "start": 555.64,
+   "end": 560.72,
+   "es": "a fabricar explosivos caseros de alto rendimiento con fertilizantes agrícolas",
+   "id": 117,
+   "slot": 5.0,
+   "max_chars_pl": 70,
+   "pl": "wytwarzać domowe materiały wybuchowe o wysokiej mocy z nawozów rolniczych"
+  },
+  {
+   "start": 560.72,
+   "end": 566.56,
+   "es": "y a operar escuadrones de drones comerciales para lanzar ataques aéreos de precisión.",
+   "id": 118,
+   "slot": 5.76,
+   "max_chars_pl": 80,
+   "pl": "i obsługiwać eskadry komercyjnych dronów do precyzyjnych ataków z powietrza."
+  },
+  {
+   "start": 566.56,
+   "end": 570.88,
+   "es": "Están creando una nueva generación de sicarios altamente tecnificados",
+   "id": 119,
+   "slot": 4.24,
+   "max_chars_pl": 59,
+   "pl": "Tworzą nowe pokolenie wysoce wyszkolonych technicznie płatnych zabójców,"
+  },
+  {
+   "start": 570.88,
+   "end": 573.64,
+   "es": "y mortalmente eficientes.",
+   "id": 120,
+   "slot": 2.68,
+   "max_chars_pl": 37,
+   "pl": "śmiertelnie skutecznych."
+  },
+  {
+   "start": 573.64,
+   "end": 576.4,
+   "es": "Con Los Indestructibles a su mando,",
+   "id": 121,
+   "slot": 2.68,
+   "max_chars_pl": 37,
+   "pl": "Z Los Indestructibles pod swoim dowództwem"
+  },
+  {
+   "start": 576.4,
+   "end": 583.72,
+   "es": "Abraham Ambriscano trascendió la figura del jefe de plaza tradicional o del narco de la vieja escuela.",
+   "id": 122,
+   "slot": 7.24,
+   "max_chars_pl": 101,
+   "pl": "Abraham Ambriscano wyszedł poza postać tradycyjnego szefa plaza czy narco starej szkoły."
+  },
+  {
+   "start": 583.72,
+   "end": 586.96,
+   "es": "Dejó de liderar una simple facción de delincuentes",
+   "id": 123,
+   "slot": 3.16,
+   "max_chars_pl": 44,
+   "pl": "Przestał kierować zwykłą frakcją przestępców,"
+  },
+  {
+   "start": 586.96,
+   "end": 591.88,
+   "es": "para convertirse en el comandante en jefe de una empresa militar privada,",
+   "id": 124,
+   "slot": 4.84,
+   "max_chars_pl": 67,
+   "pl": "by stać się głównodowodzącym prywatnej firmy wojskowej,"
+  },
+  {
+   "start": 591.88,
+   "end": 593.64,
+   "es": "PMC,",
+   "id": 125,
+   "slot": 1.68,
+   "max_chars_pl": 23,
+   "pl": "PMC,"
+  },
+  {
+   "start": 593.64,
+   "end": 595.8,
+   "es": "operando al margen de la ley,",
+   "id": 126,
+   "slot": 2.08,
+   "max_chars_pl": 29,
+   "pl": "działającej poza prawem"
+  },
+  {
+   "start": 595.8,
+   "end": 601.44,
+   "es": "al servicio exclusivo de la cúpula del Cártel Jalisco Nueva Generación.",
+   "id": 127,
+   "slot": 5.56,
+   "max_chars_pl": 77,
+   "pl": "na wyłączną służbę władz Kartelu Jalisco Nueva Generación."
+  },
+  {
+   "start": 601.44,
+   "end": 605.32,
+   "es": "Esta legión extranjera es la razón fundamental por la cual",
+   "id": 128,
+   "slot": 3.8,
+   "max_chars_pl": 53,
+   "pl": "Ten obcy legion jest zasadniczym powodem, dla którego"
+  },
+  {
+   "start": 605.32,
+   "end": 610.04,
+   "es": "el yogurt ha logrado blindar su territorio contra el Estado,",
+   "id": 129,
+   "slot": 4.64,
+   "max_chars_pl": 64,
+   "pl": "El Yogurt zdołał uszczelnić swoje terytorium przed państwem,"
+  },
+  {
+   "start": 610.04,
+   "end": 614.0,
+   "es": "expandir sus rutas de fentanilo con total impunidad",
+   "id": 130,
+   "slot": 3.88,
+   "max_chars_pl": 54,
+   "pl": "rozszerzyć trasy fentanylu z całkowitą bezkarnością"
+  },
+  {
+   "start": 614.0,
+   "end": 617.96,
+   "es": "y sentarse a la mesa con los hombres más poderosos del país,",
+   "id": 131,
+   "slot": 3.88,
+   "max_chars_pl": 54,
+   "pl": "i zasiąść do stołu z najpotężniejszymi ludźmi w kraju,"
+  },
+  {
+   "start": 617.96,
+   "end": 621.4,
+   "es": "demostrando que en la guerra moderna del narcotráfico,",
+   "id": 132,
+   "slot": 3.36,
+   "max_chars_pl": 47,
+   "pl": "dowodząc, że we współczesnej wojnie narkotykowej"
+  },
+  {
+   "start": 621.4,
+   "end": 627.64,
+   "es": "la victoria pertenece a quien invierte en la profesionalización y la industrialización del terror.",
+   "id": 133,
+   "slot": 6.16,
+   "max_chars_pl": 86,
+   "pl": "zwycięstwo należy do tego, kto inwestuje w profesjonalizację i industrializację terroru."
+  },
+  {
+   "start": 627.64,
+   "end": 630.6,
+   "es": "Toda guerra necesita un teatro de operaciones,",
+   "id": 134,
+   "slot": 2.88,
+   "max_chars_pl": 40,
+   "pl": "Każda wojna potrzebuje teatru działań,"
+  },
+  {
+   "start": 630.6,
+   "end": 632.88,
+   "es": "un tablero donde se derrama la sangre",
+   "id": 135,
+   "slot": 2.2,
+   "max_chars_pl": 30,
+   "pl": "areny, na której leje się krew"
+  },
+  {
+   "start": 632.88,
+   "end": 636.36,
+   "es": "y se consolida el verdadero poder.",
+   "id": 136,
+   "slot": 3.4,
+   "max_chars_pl": 47,
+   "pl": "i umacnia prawdziwa władza."
+  },
+  {
+   "start": 636.36,
+   "end": 638.08,
+   "es": "Para Abraham Ambriscano,",
+   "id": 137,
+   "slot": 1.64,
+   "max_chars_pl": 22,
+   "pl": "Dla Abrahama Ambriscano,"
+  },
+  {
+   "start": 638.08,
+   "end": 639.44,
+   "es": "¿el yogurt?",
+   "id": 138,
+   "slot": 1.28,
+   "max_chars_pl": 17,
+   "pl": "El Yogurta,"
+  },
+  {
+   "start": 639.44,
+   "end": 643.88,
+   "es": "El imperio no se construye en las oficinas de cristal de las zonas financieras,",
+   "id": 139,
+   "slot": 4.36,
+   "max_chars_pl": 61,
+   "pl": "imperium nie powstaje w szklanych biurach dzielnic finansowych,"
+  },
+  {
+   "start": 643.88,
+   "end": 647.24,
+   "es": "sino en la geografía más brutal, indomable",
+   "id": 140,
+   "slot": 3.28,
+   "max_chars_pl": 45,
+   "pl": "lecz w najbardziej brutalnej, nieujarzmionej"
+  },
+  {
+   "start": 647.24,
+   "end": 650.92,
+   "es": "y estratégicamente perfecta de todo el país,",
+   "id": 141,
+   "slot": 3.6,
+   "max_chars_pl": 50,
+   "pl": "i strategicznie doskonałej geografii całego kraju,"
+  },
+  {
+   "start": 650.92,
+   "end": 656.56,
+   "es": "el vértice donde colisionan los estados de Michoacán, Jalisco y Colima.",
+   "id": 142,
+   "slot": 5.6,
+   "max_chars_pl": 78,
+   "pl": "w punkcie, gdzie zderzają się stany Michoacán, Jalisco i Colima."
+  },
+  {
+   "start": 656.6,
+   "end": 661.16,
+   "es": "A esta extensa región se le conoce en los pasillos de la inteligencia militar",
+   "id": 143,
+   "slot": 4.48,
+   "max_chars_pl": 62,
+   "pl": "Ten rozległy region znany jest w korytarzach wywiadu wojskowego"
+  },
+  {
+   "start": 661.16,
+   "end": 665.32,
+   "es": "y agencias internacionales como el Triángulo de la Muerte.",
+   "id": 144,
+   "slot": 4.08,
+   "max_chars_pl": 57,
+   "pl": "i agencji międzynarodowych jako Trójkąt Śmierci."
+  },
+  {
+   "start": 665.32,
+   "end": 670.28,
+   "es": "Es una franja de tierra que parece haber sido diseñada por la propia naturaleza,",
+   "id": 145,
+   "slot": 4.88,
+   "max_chars_pl": 68,
+   "pl": "To pas ziemi, który wygląda, jakby sama natura zaprojektowała go"
+  },
+  {
+   "start": 670.28,
+   "end": 676.08,
+   "es": "específicamente para librar una guerra de guerrillas interminable y de desgaste.",
+   "id": 146,
+   "slot": 5.72,
+   "max_chars_pl": 80,
+   "pl": "specjalnie do prowadzenia niekończącej się, wyczerpującej wojny partyzanckiej."
+  },
+  {
+   "start": 676.08,
+   "end": 681.76,
+   "es": "Su dominio absoluto y paramilitar se concentra en la subregión de la Sierra Costa,",
+   "id": 147,
+   "slot": 5.6,
+   "max_chars_pl": 78,
+   "pl": "Jego absolutne, paramilitarne panowanie koncentruje się w podregionie Sierra Costa,"
+  },
+  {
+   "start": 681.76,
+   "end": 687.12,
+   "es": "asfixiando con puño de hierro municipios históricamente devastados por el abandono",
+   "id": 148,
+   "slot": 5.28,
+   "max_chars_pl": 73,
+   "pl": "dusząc żelazną pięścią gminy od dawna wyniszczone zaniedbaniem"
+  },
+  {
+   "start": 687.12,
+   "end": 692.32,
+   "es": "y la violencia extrema como Chinicuila, Aquila y Qualcomán.",
+   "id": 149,
+   "slot": 5.12,
+   "max_chars_pl": 71,
+   "pl": "i skrajną przemocą, jak Chinicuila, Aquila i Coalcomán."
+  },
+  {
+   "start": 692.32,
+   "end": 696.92,
+   "es": "Esta elección geográfica no obedece a la tradición ni a la casualidad,",
+   "id": 150,
+   "slot": 4.52,
+   "max_chars_pl": 63,
+   "pl": "Ten wybór geograficzny nie wynika z tradycji ani przypadku,"
+  },
+  {
+   "start": 696.92,
+   "end": 702.92,
+   "es": "sino a una visión logística y corporativa magistral por parte de Ambriscano.",
+   "id": 151,
+   "slot": 5.92,
+   "max_chars_pl": 82,
+   "pl": "lecz z mistrzowskiej wizji logistycznej i korporacyjnej Ambriscano."
+  },
+  {
+   "start": 702.92,
+   "end": 708.0,
+   "es": "El Triángulo de la Muerte ofrece una dualidad perfecta e irreemplazable.",
+   "id": 152,
+   "slot": 5.0,
+   "max_chars_pl": 70,
+   "pl": "Trójkąt Śmierci oferuje idealną i niezastąpioną dwoistość."
+  },
+  {
+   "start": 708.0,
+   "end": 715.24,
+   "es": "Por un lado, tiene una salida directa, extensa y privilegiada a las costas del Océano Pacífico.",
+   "id": 153,
+   "slot": 7.16,
+   "max_chars_pl": 100,
+   "pl": "Z jednej strony ma bezpośredni, rozległy i uprzywilejowany dostęp do wybrzeża Oceanu Spokojnego."
+  },
+  {
+   "start": 715.24,
+   "end": 719.8,
+   "es": "Al controlar de facto las rutas terrestres que descienden hacia los puertos comerciales",
+   "id": 154,
+   "slot": 4.48,
+   "max_chars_pl": 62,
+   "pl": "Kontrolując de facto szlaki lądowe, które schodzą do portów handlowych"
+  },
+  {
+   "start": 719.8,
+   "end": 723.96,
+   "es": "de Manzanillo en Colima y Lázaro Cárdenas en Michoacán,",
+   "id": 155,
+   "slot": 4.08,
+   "max_chars_pl": 57,
+   "pl": "Manzanillo w Colima i Lázaro Cárdenas w Michoacán,"
+  },
+  {
+   "start": 723.96,
+   "end": 730.72,
+   "es": "el yogurt tiene su mano firmemente puesta sobre la vena yugular del comercio global ilícito.",
+   "id": 156,
+   "slot": 6.68,
+   "max_chars_pl": 93,
+   "pl": "El Yogurt trzyma mocno rękę na szyjnej żyle nielegalnego handlu światowego."
+  },
+  {
+   "start": 730.72,
+   "end": 735.44,
+   "es": "Por estos puertos de aguas profundas no solo salen los minerales robados,",
+   "id": 157,
+   "slot": 4.64,
+   "max_chars_pl": 64,
+   "pl": "Przez te głębokowodne porty wypływają nie tylko skradzione minerały,"
+  },
+  {
+   "start": 735.44,
+   "end": 740.64,
+   "es": "sino que entra la mercancía más valiosa y mortífera del planeta en este momento,",
+   "id": 158,
+   "slot": 5.12,
+   "max_chars_pl": 71,
+   "pl": "ale też wpływa najcenniejszy i najbardziej śmiercionośny towar planety w tej chwili,"
+  },
+  {
+   "start": 740.64,
+   "end": 744.12,
+   "es": "los precursores químicos provenientes de Asia.",
+   "id": 159,
+   "slot": 3.4,
+   "max_chars_pl": 47,
+   "pl": "prekursory chemiczne pochodzące z Azji."
+  },
+  {
+   "start": 744.12,
+   "end": 749.2,
+   "es": "Ambriscano sabe que quien controla la playa controla el flujo del fentanilo,",
+   "id": 160,
+   "slot": 5.0,
+   "max_chars_pl": 70,
+   "pl": "Ambriscano wie, że kto kontroluje plażę, kontroluje przepływ fentanylu,"
+  },
+  {
+   "start": 749.2,
+   "end": 756.4,
+   "es": "y quien controla el fentanilo dicta las reglas de toda la estructura del Cártel Jalisco Nueva Generación.",
+   "id": 161,
+   "slot": 7.12,
+   "max_chars_pl": 99,
+   "pl": "a kto kontroluje fentanyl, dyktuje zasady całej struktury Kartelu Jalisco Nueva Generación."
+  },
+  {
+   "start": 756.4,
+   "end": 763.28,
+   "es": "Pero de nada sirve tener un puerto internacional, si no puedes proteger la mercancía tierra adentro.",
+   "id": 162,
+   "slot": 6.84,
+   "max_chars_pl": 95,
+   "pl": "Ale na nic międzynarodowy port, jeśli nie możesz chronić towaru w głębi lądu."
+  },
+  {
+   "start": 763.32,
+   "end": 770.64,
+   "es": "Aquí es donde la escarpada topografía de la Sierra Costa se convierte en el escudo definitivo del cartel.",
+   "id": 163,
+   "slot": 7.24,
+   "max_chars_pl": 101,
+   "pl": "Tu właśnie urwista topografia Sierra Costa staje się ostateczną tarczą kartelu."
+  },
+  {
+   "start": 770.64,
+   "end": 775.24,
+   "es": "Las montañas irregulares, los barrancos intransitables",
+   "id": 164,
+   "slot": 4.52,
+   "max_chars_pl": 63,
+   "pl": "Nierówne góry, nieprzejezdne wąwozy"
+  },
+  {
+   "start": 775.24,
+   "end": 778.84,
+   "es": "y los caminos de herradura que se desmoronan con las lluvias",
+   "id": 165,
+   "slot": 3.52,
+   "max_chars_pl": 49,
+   "pl": "i górskie ścieżki, które rozmywają się podczas deszczów,"
+  },
+  {
+   "start": 778.84,
+   "end": 785.12,
+   "es": "son una barrera natural que anula por completo la ventaja mecanizada del ejército mexicano.",
+   "id": 166,
+   "slot": 6.2,
+   "max_chars_pl": 86,
+   "pl": "są naturalną barierą, która całkowicie niweluje przewagę zmechanizowaną armii meksykańskiej."
+  },
+  {
+   "start": 785.12,
+   "end": 790.16,
+   "es": "Los tanques, las tanquetas y los pesados convoyes blindados del gobierno",
+   "id": 167,
+   "slot": 4.96,
+   "max_chars_pl": 69,
+   "pl": "Czołgi, transportery i ciężkie opancerzone konwoje rządu"
+  },
+  {
+   "start": 790.16,
+   "end": 794.04,
+   "es": "son prácticamente inútiles en este terreno hostil.",
+   "id": 168,
+   "slot": 3.8,
+   "max_chars_pl": 53,
+   "pl": "są praktycznie bezużyteczne na tym wrogim terenie."
+  },
+  {
+   "start": 794.04,
+   "end": 800.68,
+   "es": "Ambriscano ha transformado esta vasta región forestal en una ciudadela inexpugnable.",
+   "id": 169,
+   "slot": 6.56,
+   "max_chars_pl": 91,
+   "pl": "Ambriscano przekształcił ten rozległy region leśny w nie do zdobycia cytadelę."
+  },
+  {
+   "start": 800.68,
+   "end": 804.44,
+   "es": "Sus mercenarios colombianos, los indestructibles,",
+   "id": 170,
+   "slot": 3.68,
+   "max_chars_pl": 51,
+   "pl": "Jego kolumbijscy najemnicy, Los Indestructibles,"
+  },
+  {
+   "start": 804.44,
+   "end": 811.28,
+   "es": "han aplicado sus décadas de experiencia en las selvas sudamericanas para fortificar cada acceso.",
+   "id": 171,
+   "slot": 6.76,
+   "max_chars_pl": 94,
+   "pl": "wykorzystali dziesięciolecia doświadczenia z południowoamerykańskich dżungli, by ufortyfikować każdy dostęp."
+  },
+  {
+   "start": 811.28,
+   "end": 815.2,
+   "es": "Han sembrado los caminos de terracería con campos minados.",
+   "id": 172,
+   "slot": 3.88,
+   "max_chars_pl": 54,
+   "pl": "Zaminowali drogi gruntowe."
+  },
+  {
+   "start": 815.24,
+   "end": 821.32,
+   "es": "Han establecido cuellos de botella tácticos, conocidos como zonas de aniquilación.",
+   "id": 173,
+   "slot": 6.0,
+   "max_chars_pl": 84,
+   "pl": "Stworzyli taktyczne wąskie gardła, zwane strefami unicestwienia."
+  },
+  {
+   "start": 821.32,
+   "end": 825.64,
+   "es": "Y han posicionado nidos de francotiradores con rifles Barrett",
+   "id": 174,
+   "slot": 4.24,
+   "max_chars_pl": 59,
+   "pl": "I rozmieścili gniazda snajperskie z karabinami Barrett"
+  },
+  {
+   "start": 825.64,
+   "end": 830.16,
+   "es": "calibre 50 perfectamente camuflados en la maleza.",
+   "id": 175,
+   "slot": 4.44,
+   "max_chars_pl": 62,
+   "pl": "kalibru pięćdziesiąt, doskonale zamaskowane w zaroślach."
+  },
+  {
+   "start": 830.16,
+   "end": 836.04,
+   "es": "Para las tropas federales, patrullar esta zona es un ejercicio de terror psicológico.",
+   "id": 176,
+   "slot": 5.8,
+   "max_chars_pl": 81,
+   "pl": "Dla wojsk federalnych patrolowanie tej strefy to ćwiczenie z terroru psychologicznego."
+  },
+  {
+   "start": 836.04,
+   "end": 842.52,
+   "es": "Entrar a la Sierra Costa sin la autorización tácita de el yogurt es, literalmente,",
+   "id": 177,
+   "slot": 6.4,
+   "max_chars_pl": 89,
+   "pl": "Wejść do Sierra Costa bez cichego pozwolenia El Yogurta to dosłownie"
+  },
+  {
+   "start": 842.52,
+   "end": 845.48,
+   "es": "caminar hacia una emboscada segura.",
+   "id": 178,
+   "slot": 2.88,
+   "max_chars_pl": 40,
+   "pl": "iść prosto w pewną zasadzkę."
+  },
+  {
+   "start": 845.48,
+   "end": 848.28,
+   "es": "En lo más profundo de esta fortaleza verde,",
+   "id": 179,
+   "slot": 2.72,
+   "max_chars_pl": 38,
+   "pl": "W samym sercu tej zielonej fortecy,"
+  },
+  {
+   "start": 848.28,
+   "end": 854.4,
+   "es": "ocultos bajo el espeso docel forestal que bloquea la visión de los satélites espías de la DEA",
+   "id": 180,
+   "slot": 6.04,
+   "max_chars_pl": 84,
+   "pl": "ukryte pod gęstym okapem leśnym, który zasłania widok szpiegowskim satelitom DEA"
+  },
+  {
+   "start": 854.4,
+   "end": 857.28,
+   "es": "y los aviones de reconocimiento táctico,",
+   "id": 181,
+   "slot": 2.8,
+   "max_chars_pl": 39,
+   "pl": "i samolotom rozpoznania taktycznego,"
+  },
+  {
+   "start": 857.28,
+   "end": 861.92,
+   "es": "se esconden los verdaderos motores del imperio financiero de Ambriscano,",
+   "id": 182,
+   "slot": 4.56,
+   "max_chars_pl": 63,
+   "pl": "kryją się prawdziwe silniki finansowego imperium Ambriscano,"
+  },
+  {
+   "start": 861.92,
+   "end": 865.44,
+   "es": "los megalaboratorios de drogas sintéticas.",
+   "id": 183,
+   "slot": 3.44,
+   "max_chars_pl": 48,
+   "pl": "megalaboratoria narkotyków syntetycznych."
+  },
+  {
+   "start": 865.44,
+   "end": 871.08,
+   "es": "No estamos hablando de campamentos improvisados con lonas de plástico sostenidas por ramas,",
+   "id": 184,
+   "slot": 5.56,
+   "max_chars_pl": 77,
+   "pl": "Nie mówimy o prowizorycznych obozach z plastikowych plandek zawieszonych na gałęziach,"
+  },
+  {
+   "start": 871.08,
+   "end": 876.24,
+   "es": "sino de instalaciones industriales de procesamiento químico de alta capacidad.",
+   "id": 185,
+   "slot": 5.08,
+   "max_chars_pl": 71,
+   "pl": "lecz o przemysłowych instalacjach przetwarzania chemicznego o dużej wydajności."
+  },
+  {
+   "start": 876.24,
+   "end": 880.56,
+   "es": "Estos complejos clandestinos operan las 24 horas del día,",
+   "id": 186,
+   "slot": 4.24,
+   "max_chars_pl": 59,
+   "pl": "Te tajne kompleksy pracują dwadzieścia cztery godziny na dobę,"
+  },
+  {
+   "start": 880.56,
+   "end": 884.28,
+   "es": "protegidos por anillos de seguridad concéntricos.",
+   "id": 187,
+   "slot": 3.64,
+   "max_chars_pl": 50,
+   "pl": "chronione koncentrycznymi pierścieniami bezpieczeństwa."
+  },
+  {
+   "start": 884.28,
+   "end": 889.2,
+   "es": "El perímetro exterior es patrullado desde el aire por enjambres de drones comerciales",
+   "id": 188,
+   "slot": 4.84,
+   "max_chars_pl": 67,
+   "pl": "Zewnętrzny obwód patrolują z powietrza roje komercyjnych dronów"
+  },
+  {
+   "start": 889.2,
+   "end": 892.36,
+   "es": "equipados con cámaras térmicas e infrarrojas,",
+   "id": 189,
+   "slot": 3.08,
+   "max_chars_pl": 43,
+   "pl": "wyposażonych w kamery termowizyjne i na podczerwień,"
+  },
+  {
+   "start": 892.36,
+   "end": 900.0,
+   "es": "operados por vigías altamente entrenados para detectar la firma de calor de cualquier patrulla militar a kilómetros de distancia,",
+   "id": 190,
+   "slot": 7.6,
+   "max_chars_pl": 106,
+   "pl": "obsługiwane przez doskonale wyszkolonych obserwatorów, wykrywających ślad cieplny każdego patrolu wojskowego z odległości kilometrów,"
+  },
+  {
+   "start": 900.04,
+   "end": 906.8,
+   "es": "permitiendo la evacuación y destrucción de la evidencia antes de que el gobierno siquiera se acerque.",
+   "id": 191,
+   "slot": 6.68,
+   "max_chars_pl": 93,
+   "pl": "co pozwala ewakuować się i zniszczyć dowody, zanim rząd zdąży się zbliżyć."
+  },
+  {
+   "start": 906.8,
+   "end": 916.0,
+   "es": "La genialidad logística de Ambriscano es tan avanzada que ha logrado crear un ecosistema económico cerrado dentro de este territorio.",
+   "id": 192,
+   "slot": 9.12,
+   "max_chars_pl": 127,
+   "pl": "Logistyczny geniusz Ambriscano jest tak zaawansowany, że stworzył zamknięty ekosystem gospodarczy na tym terytorium."
+  },
+  {
+   "start": 916.0,
+   "end": 921.0,
+   "es": "Además del narcotráfico, ha monopolizado la extracción ilegal de minerales,",
+   "id": 193,
+   "slot": 4.92,
+   "max_chars_pl": 68,
+   "pl": "Oprócz narkobiznesu zmonopolizował nielegalne wydobycie minerałów,"
+  },
+  {
+   "start": 921.0,
+   "end": 924.68,
+   "es": "especialmente la minería de hierro en la zona de Aquila.",
+   "id": 194,
+   "slot": 3.6,
+   "max_chars_pl": 50,
+   "pl": "zwłaszcza kopalnictwo żelaza w rejonie Aquila."
+  },
+  {
+   "start": 924.68,
+   "end": 929.2,
+   "es": "Utiliza exactamente la misma infraestructura de transporte pesado.",
+   "id": 195,
+   "slot": 4.44,
+   "max_chars_pl": 62,
+   "pl": "Wykorzystuje dokładnie tę samą infrastrukturę transportu ciężkiego."
+  },
+  {
+   "start": 929.2,
+   "end": 932.44,
+   "es": "Los mismos sobornos a autoridades locales.",
+   "id": 196,
+   "slot": 3.16,
+   "max_chars_pl": 44,
+   "pl": "Te same łapówki dla lokalnych władz."
+  },
+  {
+   "start": 932.44,
+   "end": 937.44,
+   "es": "Y la misma protección paramilitar para extraer miles de toneladas de mineral,",
+   "id": 197,
+   "slot": 4.92,
+   "max_chars_pl": 68,
+   "pl": "I tę samą ochronę paramilitarną, by wydobyć tysiące ton rudy,"
+  },
+  {
+   "start": 937.44,
+   "end": 942.08,
+   "es": "que luego son enviadas a China a través de los puertos que controla.",
+   "id": 198,
+   "slot": 4.56,
+   "max_chars_pl": 63,
+   "pl": "którą następnie wysyła się do Chin przez porty, które kontroluje."
+  },
+  {
+   "start": 942.08,
+   "end": 947.12,
+   "es": "Este hierro a menudo se utiliza como moneda de trueque directo con las mafias asiáticas",
+   "id": 199,
+   "slot": 4.96,
+   "max_chars_pl": 69,
+   "pl": "To żelazo często służy jako bezpośrednia waluta wymienna z azjatyckimi mafiami,"
+  },
+  {
+   "start": 947.12,
+   "end": 950.96,
+   "es": "para pagar los colosales cargamentos de precursores químicos,",
+   "id": 200,
+   "slot": 3.76,
+   "max_chars_pl": 52,
+   "pl": "by płacić za kolosalne dostawy prekursorów chemicznych,"
+  },
+  {
+   "start": 950.96,
+   "end": 957.96,
+   "es": "creando un ciclo de lavado de dinero físico que evade por completo el radar del sistema bancario internacional.",
+   "id": 201,
+   "slot": 6.92,
+   "max_chars_pl": 96,
+   "pl": "tworząc fizyczny cykl prania pieniędzy, który całkowicie omija radar międzynarodowego systemu bankowego."
+  },
+  {
+   "start": 957.96,
+   "end": 962.2,
+   "es": "Finalmente, el producto terminado debe salir hacia el norte.",
+   "id": 202,
+   "slot": 4.16,
+   "max_chars_pl": 58,
+   "pl": "Wreszcie gotowy produkt musi trafić na północ."
+  },
+  {
+   "start": 962.2,
+   "end": 968.08,
+   "es": "Para ello, el Yogurt ha tejido una extensa telaraña de rutas fantasma.",
+   "id": 203,
+   "slot": 5.8,
+   "max_chars_pl": 81,
+   "pl": "W tym celu El Yogurt utkał rozległą pajęczynę widmowych tras."
+  },
+  {
+   "start": 968.08,
+   "end": 974.28,
+   "es": "Son cientos de kilómetros de caminos de brecha clandestinos, ausentes en los mapas oficiales",
+   "id": 204,
+   "slot": 6.12,
+   "max_chars_pl": 85,
+   "pl": "To setki kilometrów tajnych dróg przez bezdroża, nieobecnych na oficjalnych mapach,"
+  },
+  {
+   "start": 974.28,
+   "end": 982.12,
+   "es": "que conectan la inaccesible sierra directamente con las autopistas principales que llevan a la frontera estadounidense.",
+   "id": 205,
+   "slot": 7.76,
+   "max_chars_pl": 108,
+   "pl": "łączących niedostępną sierrę bezpośrednio z głównymi autostradami prowadzącymi do granicy ze Stanami Zjednoczonymi."
+  },
+  {
+   "start": 982.12,
+   "end": 987.16,
+   "es": "Para Abraham Ambriscano, el Triángulo de la Muerte no es una simple plaza.",
+   "id": 206,
+   "slot": 4.96,
+   "max_chars_pl": 69,
+   "pl": "Dla Abrahama Ambriscano Trójkąt Śmierci to nie zwykłe plaza."
+  },
+  {
+   "start": 987.16,
+   "end": 989.64,
+   "es": "Es una nación soberana.",
+   "id": 207,
+   "slot": 2.4,
+   "max_chars_pl": 33,
+   "pl": "To suwerenny naród."
+  },
+  {
+   "start": 989.64,
+   "end": 995.04,
+   "es": "Al dominar la logística portuaria, fortificar las montañas con mercenarios",
+   "id": 208,
+   "slot": 5.32,
+   "max_chars_pl": 74,
+   "pl": "Dominując nad logistyką portową, fortyfikując góry najemnikami"
+  },
+  {
+   "start": 995.04,
+   "end": 998.8,
+   "es": "y establecer una economía subterránea indetectable,",
+   "id": 209,
+   "slot": 3.68,
+   "max_chars_pl": 51,
+   "pl": "i budując niewykrywalną podziemną gospodarkę,"
+  },
+  {
+   "start": 998.8,
+   "end": 1004.0,
+   "es": "ha construido un estado narcoparamilitar, donde el gobierno federal sabe que,",
+   "id": 210,
+   "slot": 5.12,
+   "max_chars_pl": 71,
+   "pl": "zbudował państwo narkoparamilitarne, w którym rząd federalny wie, że"
+  },
+  {
+   "start": 1004.0,
+   "end": 1008.52,
+   "es": "a todos los efectos prácticos, ha perdido el control.",
+   "id": 211,
+   "slot": 4.44,
+   "max_chars_pl": 62,
+   "pl": "do wszelkich praktycznych celów stracił kontrolę."
+  },
+  {
+   "start": 1008.52,
+   "end": 1013.8,
+   "es": "Si el ejército de mercenarios colombianos es el músculo que aterroriza la sierra,",
+   "id": 212,
+   "slot": 5.24,
+   "max_chars_pl": 73,
+   "pl": "Jeśli armia kolumbijskich najemników to mięśnie, które terroryzują sierrę,"
+  },
+  {
+   "start": 1013.84,
+   "end": 1018.76,
+   "es": "y el Triángulo de la Muerte es la fortaleza impenetrable que los resguarda,",
+   "id": 213,
+   "slot": 4.84,
+   "max_chars_pl": 67,
+   "pl": "a Trójkąt Śmierci to niezdobyta forteca, która ich chroni,"
+  },
+  {
+   "start": 1018.76,
+   "end": 1023.8,
+   "es": "el verdadero motor que bombea sangre y miles de millones de dólares,",
+   "id": 214,
+   "slot": 4.96,
+   "max_chars_pl": 69,
+   "pl": "prawdziwy silnik, który pompuje krew i miliardy dolarów"
+  },
+  {
+   "start": 1023.8,
+   "end": 1029.84,
+   "es": "a la estructura de Abraham Ambriscano, es su dominio absoluto sobre la química.",
+   "id": 215,
+   "slot": 5.96,
+   "max_chars_pl": 83,
+   "pl": "do struktury Abrahama Ambriscano, to jego absolutne panowanie nad chemią."
+  },
+  {
+   "start": 1029.84,
+   "end": 1033.32,
+   "es": "En el organigrama del Cártel Jalisco Nueva Generación,",
+   "id": 216,
+   "slot": 3.4,
+   "max_chars_pl": 47,
+   "pl": "W organigramie Kartelu Jalisco Nueva Generación"
+  },
+  {
+   "start": 1033.32,
+   "end": 1037.24,
+   "es": "el Yogurt no es solo un comandante paramilitar.",
+   "id": 217,
+   "slot": 3.84,
+   "max_chars_pl": 53,
+   "pl": "El Yogurt to nie tylko dowódca paramilitarny."
+  },
+  {
+   "start": 1037.24,
+   "end": 1042.52,
+   "es": "Es el arquitecto operativo supremo de la producción y distribución de drogas sintéticas",
+   "id": 218,
+   "slot": 5.2,
+   "max_chars_pl": 72,
+   "pl": "To najwyższy operacyjny architekt produkcji i dystrybucji narkotyków syntetycznych"
+  },
+  {
+   "start": 1042.52,
+   "end": 1044.72,
+   "es": "en el occidente de México.",
+   "id": 219,
+   "slot": 2.12,
+   "max_chars_pl": 29,
+   "pl": "na zachodzie Meksyku."
+  },
+  {
+   "start": 1044.72,
+   "end": 1050.12,
+   "es": "Mientras los viejos capos añoran las épocas doradas de los sembradíos de marihuana y amapola,",
+   "id": 220,
+   "slot": 5.32,
+   "max_chars_pl": 74,
+   "pl": "Podczas gdy starzy capo tęsknią za złotymi czasami plantacji marihuany i maku,"
+  },
+  {
+   "start": 1050.12,
+   "end": 1054.56,
+   "es": "Ambriscano entendió desde el primer día que el futuro del imperio criminal",
+   "id": 221,
+   "slot": 4.36,
+   "max_chars_pl": 61,
+   "pl": "Ambriscano zrozumiał od pierwszego dnia, że przyszłość imperium przestępczego"
+  },
+  {
+   "start": 1054.56,
+   "end": 1059.32,
+   "es": "no se cultivaba en la tierra, sino que se sintetizaba en laboratorios.",
+   "id": 222,
+   "slot": 4.68,
+   "max_chars_pl": 65,
+   "pl": "nie uprawia się w ziemi, lecz syntetyzuje w laboratoriach."
+  },
+  {
+   "start": 1059.32,
+   "end": 1062.48,
+   "es": "Él es el maestro indiscutible del fentanilo,",
+   "id": 223,
+   "slot": 3.08,
+   "max_chars_pl": 43,
+   "pl": "Jest niekwestionowanym mistrzem fentanylu,"
+  },
+  {
+   "start": 1062.48,
+   "end": 1066.0,
+   "es": "el opiáceo sintético cincuenta veces más potente",
+   "id": 224,
+   "slot": 3.44,
+   "max_chars_pl": 48,
+   "pl": "syntetycznego opioidu pięćdziesiąt razy silniejszego"
+  },
+  {
+   "start": 1066.0,
+   "end": 1070.4,
+   "es": "que la heroína que ha reconfigurado el mapa del narcotráfico global.",
+   "id": 225,
+   "slot": 4.32,
+   "max_chars_pl": 60,
+   "pl": "niż heroina, który przekształcił mapę światowego narkobiznesu."
+  },
+  {
+   "start": 1070.4,
+   "end": 1073.04,
+   "es": "Su formación en logística de alto nivel",
+   "id": 226,
+   "slot": 2.56,
+   "max_chars_pl": 35,
+   "pl": "Jego wykształcenie z logistyki na wysokim poziomie"
+  },
+  {
+   "start": 1073.04,
+   "end": 1078.72,
+   "es": "brilla con una oscuridad aterradora cuando se analiza su cadena de suministro.",
+   "id": 227,
+   "slot": 5.6,
+   "max_chars_pl": 78,
+   "pl": "lśni przerażającą ciemnością, gdy przeanalizować jego łańcuch dostaw."
+  },
+  {
+   "start": 1078.72,
+   "end": 1085.56,
+   "es": "El Yogurt transformó un proceso caótico en una línea de ensamblaje industrial casi perfecta.",
+   "id": 228,
+   "slot": 6.76,
+   "max_chars_pl": 94,
+   "pl": "El Yogurt zamienił chaotyczny proces w niemal doskonałą przemysłową linię montażową."
+  },
+  {
+   "start": 1085.56,
+   "end": 1089.6,
+   "es": "Todo comienza en los puertos de Manzanillo y Lázaro Cárdenas,",
+   "id": 229,
+   "slot": 3.96,
+   "max_chars_pl": 55,
+   "pl": "Wszystko zaczyna się w portach Manzanillo i Lázaro Cárdenas,"
+  },
+  {
+   "start": 1089.6,
+   "end": 1095.8,
+   "es": "donde recibe toneladas métricas de precursores químicos provenientes de China e India",
+   "id": 230,
+   "slot": 6.12,
+   "max_chars_pl": 85,
+   "pl": "gdzie odbiera tony metryczne prekursorów chemicznych pochodzących z Chin i Indii,"
+  },
+  {
+   "start": 1095.8,
+   "end": 1100.32,
+   "es": "para evitar las incautaciones masivas que paralizaban a otros líderes.",
+   "id": 231,
+   "slot": 4.44,
+   "max_chars_pl": 62,
+   "pl": "by uniknąć masowych konfiskat, które paraliżowały innych przywódców."
+  },
+  {
+   "start": 1100.32,
+   "end": 1106.36,
+   "es": "Ambriscano diseñó un sistema de transporte terrestre basado en células ciegas.",
+   "id": 232,
+   "slot": 5.96,
+   "max_chars_pl": 83,
+   "pl": "Ambriscano zaprojektował system transportu lądowego oparty na ślepych ogniwach."
+  },
+  {
+   "start": 1106.36,
+   "end": 1108.88,
+   "es": "En este modelo de compartimentación extrema,",
+   "id": 233,
+   "slot": 2.44,
+   "max_chars_pl": 34,
+   "pl": "W tym modelu ekstremalnej kompartmentalizacji"
+  },
+  {
+   "start": 1108.88,
+   "end": 1112.28,
+   "es": "la carga se divide y se transfiere de un vehículo a otro",
+   "id": 234,
+   "slot": 3.32,
+   "max_chars_pl": 46,
+   "pl": "ładunek jest dzielony i przekazywany z jednego pojazdu do drugiego"
+  },
+  {
+   "start": 1112.28,
+   "end": 1116.44,
+   "es": "en múltiples puntos ciegos a lo largo de la carretera.",
+   "id": 235,
+   "slot": 4.08,
+   "max_chars_pl": 57,
+   "pl": "w wielu martwych punktach wzdłuż drogi."
+  },
+  {
+   "start": 1116.44,
+   "end": 1123.28,
+   "es": "Ningún conductor, halcón o escolta conoce la ruta completa ni el destino final.",
+   "id": 236,
+   "slot": 6.76,
+   "max_chars_pl": 94,
+   "pl": "Żaden kierowca, obserwator ani eskorta nie zna całej trasy ani miejsca docelowego."
+  },
+  {
+   "start": 1123.28,
+   "end": 1125.6,
+   "es": "Si el ejército intercepta un camión,",
+   "id": 237,
+   "slot": 2.24,
+   "max_chars_pl": 31,
+   "pl": "Jeśli armia przechwyci ciężarówkę,"
+  },
+  {
+   "start": 1125.6,
+   "end": 1130.6,
+   "es": "la pérdida es mínima y el eslabón de información se rompe instantáneamente,",
+   "id": 238,
+   "slot": 4.92,
+   "max_chars_pl": 68,
+   "pl": "strata jest minimalna, a ogniwo informacji zostaje natychmiast zerwane,"
+  },
+  {
+   "start": 1130.6,
+   "end": 1134.52,
+   "es": "protegiendo la ubicación de los laboratorios centrales.",
+   "id": 239,
+   "slot": 3.84,
+   "max_chars_pl": 53,
+   "pl": "chroniąc lokalizację głównych laboratoriów."
+  },
+  {
+   "start": 1134.52,
+   "end": 1138.88,
+   "es": "Una vez que los precursores químicos logran sortear los cercos militares",
+   "id": 240,
+   "slot": 4.28,
+   "max_chars_pl": 59,
+   "pl": "Gdy prekursory chemiczne zdołają przedrzeć się przez wojskowe blokady"
+  },
+  {
+   "start": 1138.88,
+   "end": 1142.0,
+   "es": "y se internan en la espesura de la Sierra Costa,",
+   "id": 241,
+   "slot": 3.04,
+   "max_chars_pl": 42,
+   "pl": "i zagłębić w gęstwinę Sierra Costa,"
+  },
+  {
+   "start": 1142.0,
+   "end": 1146.04,
+   "es": "la rústica imagen del narco laboratorio desaparece.",
+   "id": 242,
+   "slot": 3.96,
+   "max_chars_pl": 55,
+   "pl": "rustykalny obraz narkolaboratorium znika."
+  },
+  {
+   "start": 1146.04,
+   "end": 1148.72,
+   "es": "Ambriscano ha industrializado el proceso,",
+   "id": 243,
+   "slot": 2.6,
+   "max_chars_pl": 36,
+   "pl": "Ambriscano uprzemysłowił ten proces,"
+  },
+  {
+   "start": 1148.72,
+   "end": 1153.32,
+   "es": "erigiendo fábricas químicas de alta eficiencia en medio de la nada,",
+   "id": 244,
+   "slot": 4.52,
+   "max_chars_pl": 63,
+   "pl": "wznosząc wysoce wydajne fabryki chemiczne pośrodku niczego,"
+  },
+  {
+   "start": 1153.32,
+   "end": 1156.52,
+   "es": "alimentadas por generadores industriales silenciados",
+   "id": 245,
+   "slot": 3.12,
+   "max_chars_pl": 43,
+   "pl": "zasilane wyciszonymi generatorami przemysłowymi"
+  },
+  {
+   "start": 1156.52,
+   "end": 1161.28,
+   "es": "y equipadas con reactores de acero inoxidable y prensas troqueladoras,",
+   "id": 246,
+   "slot": 4.68,
+   "max_chars_pl": 65,
+   "pl": "i wyposażone w reaktory ze stali nierdzewnej oraz prasy tłoczące,"
+  },
+  {
+   "start": 1161.28,
+   "end": 1167.88,
+   "es": "capaces de producir cientos de miles de pastillas M30 falsificadas por hora.",
+   "id": 247,
+   "slot": 6.52,
+   "max_chars_pl": 91,
+   "pl": "zdolne produkować setki tysięcy podrabianych tabletek M trzydzieści na godzinę."
+  },
+  {
+   "start": 1167.88,
+   "end": 1172.04,
+   "es": "El fentanilo es el negocio perfecto para su mente corporativa.",
+   "id": 248,
+   "slot": 4.08,
+   "max_chars_pl": 57,
+   "pl": "Fentanyl to idealny biznes dla jego korporacyjnego umysłu."
+  },
+  {
+   "start": 1172.04,
+   "end": 1174.32,
+   "es": "No depende de las temporadas de lluvia,",
+   "id": 249,
+   "slot": 2.2,
+   "max_chars_pl": 30,
+   "pl": "Nie zależy od pór deszczowych,"
+  },
+  {
+   "start": 1174.32,
+   "end": 1177.72,
+   "es": "los márgenes de ganancias superan el mil por ciento",
+   "id": 250,
+   "slot": 3.32,
+   "max_chars_pl": 46,
+   "pl": "marże zysku przekraczają tysiąc procent,"
+  },
+  {
+   "start": 1177.72,
+   "end": 1180.24,
+   "es": "y el producto final es tan compacto",
+   "id": 251,
+   "slot": 2.44,
+   "max_chars_pl": 34,
+   "pl": "a produkt końcowy jest tak zwarty,"
+  },
+  {
+   "start": 1180.24,
+   "end": 1185.04,
+   "es": "que una fortuna multimillonaria cabe en la cajuela de un auto compacto.",
+   "id": 252,
+   "slot": 4.72,
+   "max_chars_pl": 66,
+   "pl": "że wielomilionowa fortuna mieści się w bagażniku kompaktowego auta."
+  },
+  {
+   "start": 1185.04,
+   "end": 1187.8,
+   "es": "Al controlar esta línea de producción masiva,",
+   "id": 253,
+   "slot": 2.68,
+   "max_chars_pl": 37,
+   "pl": "Kontrolując tę masową linię produkcyjną,"
+  },
+  {
+   "start": 1187.8,
+   "end": 1190.72,
+   "es": "el yogurt garantiza la liquidez financiera",
+   "id": 254,
+   "slot": 2.84,
+   "max_chars_pl": 39,
+   "pl": "El Yogurt gwarantuje płynność finansową,"
+  },
+  {
+   "start": 1190.72,
+   "end": 1196.28,
+   "es": "que mantiene a su ejército de exmilitares bien pagado y artillado hasta los dientes.",
+   "id": 255,
+   "slot": 5.48,
+   "max_chars_pl": 76,
+   "pl": "która utrzymuje jego armię byłych wojskowych dobrze opłaconą i uzbrojoną po zęby."
+  },
+  {
+   "start": 1196.28,
+   "end": 1199.84,
+   "es": "Pero la genialidad operativa de Abraham Ambriscano",
+   "id": 256,
+   "slot": 3.48,
+   "max_chars_pl": 48,
+   "pl": "Ale operacyjny geniusz Abrahama Ambriscano"
+  },
+  {
+   "start": 1199.84,
+   "end": 1202.68,
+   "es": "no se limita a la logística de los químicos.",
+   "id": 257,
+   "slot": 2.76,
+   "max_chars_pl": 38,
+   "pl": "nie ogranicza się do logistyki chemikaliów."
+  },
+  {
+   "start": 1202.68,
+   "end": 1207.32,
+   "es": "Es, ante todo, un maestro de la diplomacia criminal,",
+   "id": 258,
+   "slot": 4.6,
+   "max_chars_pl": 64,
+   "pl": "Jest przede wszystkim mistrzem dyplomacji przestępczej,"
+  },
+  {
+   "start": 1207.36,
+   "end": 1211.52,
+   "es": "una cualidad extremadamente rara en un entorno dominado por el ego",
+   "id": 259,
+   "slot": 4.08,
+   "max_chars_pl": 57,
+   "pl": "cechy wyjątkowo rzadkiej w środowisku rządzonym przez ego"
+  },
+  {
+   "start": 1211.52,
+   "end": 1213.8,
+   "es": "y la sed de venganza.",
+   "id": 260,
+   "slot": 2.2,
+   "max_chars_pl": 30,
+   "pl": "i żądzę zemsty."
+  },
+  {
+   "start": 1213.8,
+   "end": 1216.48,
+   "es": "Administrar una red industrial de este calibre",
+   "id": 261,
+   "slot": 2.6,
+   "max_chars_pl": 36,
+   "pl": "Zarządzanie przemysłową siecią tego kalibru"
+  },
+  {
+   "start": 1216.48,
+   "end": 1219.92,
+   "es": "requiere un recurso que escasea en tierra caliente,",
+   "id": 262,
+   "slot": 3.36,
+   "max_chars_pl": 47,
+   "pl": "wymaga zasobu, którego brakuje w Tierra Caliente,"
+  },
+  {
+   "start": 1219.92,
+   "end": 1224.8,
+   "es": "la paz o, al menos, una guerra controlada.",
+   "id": 263,
+   "slot": 4.8,
+   "max_chars_pl": 67,
+   "pl": "pokoju lub przynajmniej kontrolowanej wojny."
+  },
+  {
+   "start": 1224.8,
+   "end": 1226.8,
+   "es": "Fue entonces cuando el yogurt",
+   "id": 264,
+   "slot": 1.92,
+   "max_chars_pl": 26,
+   "pl": "Wtedy El Yogurt"
+  },
+  {
+   "start": 1226.8,
+   "end": 1231.2,
+   "es": "ejecutó una jugada maestra que sacudió los cimientos de lampa en México",
+   "id": 265,
+   "slot": 4.32,
+   "max_chars_pl": 60,
+   "pl": "wykonał mistrzowski ruch, który wstrząsnął posadami świata narkotykowego w Meksyku"
+  },
+  {
+   "start": 1231.2,
+   "end": 1235.84,
+   "es": "y dejó perplejos a los analistas de inteligencia del gobierno federal.",
+   "id": 266,
+   "slot": 4.6,
+   "max_chars_pl": 64,
+   "pl": "i wprawił w osłupienie analityków wywiadu rządu federalnego."
+  },
+  {
+   "start": 1235.88,
+   "end": 1240.56,
+   "es": "Dejó de lado años de matanzas, decapitaciones y odio visceral",
+   "id": 267,
+   "slot": 4.6,
+   "max_chars_pl": 64,
+   "pl": "Odłożył na bok lata rzezi, dekapitacji i instynktownej nienawiści"
+  },
+  {
+   "start": 1240.56,
+   "end": 1244.72,
+   "es": "y forjó una alianza táctica con el cártel de Los Viagras,",
+   "id": 268,
+   "slot": 4.08,
+   "max_chars_pl": 57,
+   "pl": "i zawarł taktyczny sojusz z kartelem Los Viagras,"
+  },
+  {
+   "start": 1244.72,
+   "end": 1249.36,
+   "es": "la facción más beligerante de la coalición de Cárteles Unidos.",
+   "id": 269,
+   "slot": 4.56,
+   "max_chars_pl": 63,
+   "pl": "najbardziej wojowniczą frakcją koalicji Cárteles Unidos."
+  },
+  {
+   "start": 1249.36,
+   "end": 1252.96,
+   "es": "Históricamente, el CJNG y Los Viagras",
+   "id": 270,
+   "slot": 3.52,
+   "max_chars_pl": 49,
+   "pl": "Historycznie CJNG i Los Viagras"
+  },
+  {
+   "start": 1252.96,
+   "end": 1257.0,
+   "es": "habían protagonizado la guerra civil más sangrienta de Michoacán,",
+   "id": 271,
+   "slot": 3.96,
+   "max_chars_pl": 55,
+   "pl": "prowadziły najkrwawszą wojnę domową w Michoacán,"
+  },
+  {
+   "start": 1257.0,
+   "end": 1262.64,
+   "es": "quemando pueblos enteros en su disputa por el control de la región de Tierra Caliente.",
+   "id": 272,
+   "slot": 5.56,
+   "max_chars_pl": 77,
+   "pl": "paląc całe wsie w sporze o kontrolę nad regionem Tierra Caliente."
+  },
+  {
+   "start": 1262.64,
+   "end": 1266.24,
+   "es": "Para cualquier otro comandante del cártel de las cuatro letras,",
+   "id": 273,
+   "slot": 3.52,
+   "max_chars_pl": 49,
+   "pl": "Dla każdego innego dowódcy kartelu czterech liter"
+  },
+  {
+   "start": 1266.24,
+   "end": 1269.48,
+   "es": "sentarse a negociar con los hermanos Sierra Santana,",
+   "id": 274,
+   "slot": 3.16,
+   "max_chars_pl": 44,
+   "pl": "zasiąść do negocjacji z braćmi Sierra Santana,"
+  },
+  {
+   "start": 1269.48,
+   "end": 1271.24,
+   "es": "líderes de Los Viagras,",
+   "id": 275,
+   "slot": 1.68,
+   "max_chars_pl": 23,
+   "pl": "przywódcami Los Viagras,"
+  },
+  {
+   "start": 1271.24,
+   "end": 1274.52,
+   "es": "habría sido considerado alta traición.",
+   "id": 276,
+   "slot": 3.2,
+   "max_chars_pl": 44,
+   "pl": "byłoby uznane za zdradę stanu."
+  },
+  {
+   "start": 1274.52,
+   "end": 1279.88,
+   "es": "Pero el yogurt no opera bajo los códigos del machismo o el honor mafioso,",
+   "id": 277,
+   "slot": 5.28,
+   "max_chars_pl": 73,
+   "pl": "Ale El Yogurt nie kieruje się kodeksem machizmu czy honoru mafijnego,"
+  },
+  {
+   "start": 1279.88,
+   "end": 1285.32,
+   "es": "opera bajo la doctrina militar de no librar batallas en dos frentes simultáneos.",
+   "id": 278,
+   "slot": 5.36,
+   "max_chars_pl": 75,
+   "pl": "kieruje się doktryną wojskową, by nie prowadzić bitew na dwóch frontach jednocześnie."
+  },
+  {
+   "start": 1285.32,
+   "end": 1288.2,
+   "es": "Esta alianza impía fue un pacto de no agresión",
+   "id": 279,
+   "slot": 2.8,
+   "max_chars_pl": 39,
+   "pl": "Ten niegodziwy sojusz był paktem o nieagresji"
+  },
+  {
+   "start": 1288.2,
+   "end": 1292.16,
+   "es": "y una división milimétrica de negocios y territorios.",
+   "id": 280,
+   "slot": 3.88,
+   "max_chars_pl": 54,
+   "pl": "i milimetrowym podziałem interesów i terytoriów."
+  },
+  {
+   "start": 1292.16,
+   "end": 1296.92,
+   "es": "Fue un apretón de manos con el diablo para asegurar la supervivencia mutua.",
+   "id": 281,
+   "slot": 4.68,
+   "max_chars_pl": 65,
+   "pl": "Był uściskiem dłoni z diabłem w celu zapewnienia wzajemnego przetrwania."
+  },
+  {
+   "start": 1296.92,
+   "end": 1301.92,
+   "es": "El cálculo estratégico detrás de esta tregua es escalofriante.",
+   "id": 282,
+   "slot": 4.92,
+   "max_chars_pl": 68,
+   "pl": "Strategiczna kalkulacja stojąca za tym rozejmem jest przerażająca."
+  },
+  {
+   "start": 1301.92,
+   "end": 1306.2,
+   "es": "Al pacificar su flanco oriental y detener la sangría de recursos y hombres",
+   "id": 283,
+   "slot": 4.2,
+   "max_chars_pl": 58,
+   "pl": "Uspokajając swoją wschodnią flankę i kładąc kres wykrwawianiu zasobów i ludzi,"
+  },
+  {
+   "start": 1306.2,
+   "end": 1310.08,
+   "es": "que implicaba pelear contra Los Viagras pueblo por pueblo,",
+   "id": 284,
+   "slot": 3.8,
+   "max_chars_pl": 53,
+   "pl": "jakie oznaczała walka z Los Viagras wieś po wsi,"
+  },
+  {
+   "start": 1310.08,
+   "end": 1314.08,
+   "es": "Ambriscano logró un objetivo táctico devastador.",
+   "id": 285,
+   "slot": 3.92,
+   "max_chars_pl": 54,
+   "pl": "Ambriscano osiągnął druzgocący cel taktyczny."
+  },
+  {
+   "start": 1314.08,
+   "end": 1318.0,
+   "es": "Liberó todo el poder de fuego de su guardia de élite.",
+   "id": 286,
+   "slot": 3.84,
+   "max_chars_pl": 53,
+   "pl": "Uwolnił całą siłę ognia swojej elitarnej gwardii."
+  },
+  {
+   "start": 1318.0,
+   "end": 1319.72,
+   "es": "De la noche a la mañana,",
+   "id": 287,
+   "slot": 1.64,
+   "max_chars_pl": 22,
+   "pl": "Z dnia na dzień"
+  },
+  {
+   "start": 1319.72,
+   "end": 1321.8,
+   "es": "los francotiradores colombianos,",
+   "id": 288,
+   "slot": 2.0,
+   "max_chars_pl": 28,
+   "pl": "kolumbijscy snajperzy,"
+  },
+  {
+   "start": 1321.8,
+   "end": 1324.24,
+   "es": "los operadores de drones explosivos",
+   "id": 289,
+   "slot": 2.36,
+   "max_chars_pl": 33,
+   "pl": "operatorzy dronów wybuchowych"
+  },
+  {
+   "start": 1324.24,
+   "end": 1327.32,
+   "es": "y los comandos de Los Indestructibles",
+   "id": 290,
+   "slot": 3.0,
+   "max_chars_pl": 42,
+   "pl": "i komandosi Los Indestructibles"
+  },
+  {
+   "start": 1327.32,
+   "end": 1330.44,
+   "es": "dejaron de desgastarse contra sicarios locales.",
+   "id": 291,
+   "slot": 3.04,
+   "max_chars_pl": 42,
+   "pl": "przestali się wyniszczać w walce z lokalnymi płatnymi zabójcami."
+  },
+  {
+   "start": 1330.44,
+   "end": 1334.92,
+   "es": "Ahora, con la retaguardia asegurada por esta alianza impía,",
+   "id": 292,
+   "slot": 4.4,
+   "max_chars_pl": 61,
+   "pl": "Teraz, z tyłami zabezpieczonymi przez ten niegodziwy sojusz,"
+  },
+  {
+   "start": 1334.92,
+   "end": 1341.76,
+   "es": "el yogurt ha girado la artillería pesada del CJNG en una sola dirección.",
+   "id": 293,
+   "slot": 6.76,
+   "max_chars_pl": 94,
+   "pl": "El Yogurt skierował ciężką artylerię CJNG w jednym kierunku."
+  },
+  {
+   "start": 1341.76,
+   "end": 1345.36,
+   "es": "Toda la maquinaria de guerra paramilitar que ha construido",
+   "id": 294,
+   "slot": 3.52,
+   "max_chars_pl": 49,
+   "pl": "Cała paramilitarna machina wojenna, którą zbudował,"
+  },
+  {
+   "start": 1345.36,
+   "end": 1348.76,
+   "es": "está enfocada en aniquilar a las Fuerzas Armadas de México",
+   "id": 295,
+   "slot": 3.32,
+   "max_chars_pl": 46,
+   "pl": "jest ukierunkowana na unicestwienie Sił Zbrojnych Meksyku,"
+  },
+  {
+   "start": 1348.76,
+   "end": 1351.04,
+   "es": "que intentan penetrar la sierra",
+   "id": 296,
+   "slot": 2.2,
+   "max_chars_pl": 30,
+   "pl": "które próbują wedrzeć się w sierrę,"
+  },
+  {
+   "start": 1351.04,
+   "end": 1354.28,
+   "es": "y en repeler cualquier incursión de las facciones operativas",
+   "id": 297,
+   "slot": 3.16,
+   "max_chars_pl": 44,
+   "pl": "i na odpieranie każdej inwazji frakcji operacyjnych"
+  },
+  {
+   "start": 1354.28,
+   "end": 1356.32,
+   "es": "del Cártel de Sinaloa.",
+   "id": 298,
+   "slot": 1.96,
+   "max_chars_pl": 27,
+   "pl": "Kartelu Sinaloa."
+  },
+  {
+   "start": 1356.32,
+   "end": 1358.92,
+   "es": "Al pactar con sus peores enemigos,",
+   "id": 299,
+   "slot": 2.52,
+   "max_chars_pl": 35,
+   "pl": "Zawierając pakt ze swoimi najgorszymi wrogami,"
+  },
+  {
+   "start": 1358.92,
+   "end": 1363.88,
+   "es": "Abraham Ambriscano demostró que su ambición no tiene límites morales,",
+   "id": 300,
+   "slot": 4.88,
+   "max_chars_pl": 68,
+   "pl": "Abraham Ambriscano pokazał, że jego ambicja nie zna granic moralnych,"
+  },
+  {
+   "start": 1363.88,
+   "end": 1368.44,
+   "es": "consolidándose no solo como el arquitecto de la epidemia del fentanilo,",
+   "id": 301,
+   "slot": 4.48,
+   "max_chars_pl": 62,
+   "pl": "umacniając się nie tylko jako architekt epidemii fentanylu,"
+  },
+  {
+   "start": 1368.44,
+   "end": 1370.84,
+   "es": "sino como el estratega militar más letal",
+   "id": 302,
+   "slot": 2.32,
+   "max_chars_pl": 32,
+   "pl": "lecz jako najbardziej śmiercionośny strateg wojskowy"
+  },
+  {
+   "start": 1370.84,
+   "end": 1373.84,
+   "es": "de la nueva generación del narcotráfico,",
+   "id": 303,
+   "slot": 2.92,
+   "max_chars_pl": 40,
+   "pl": "nowego pokolenia narkobiznesu,"
+  },
+  {
+   "start": 1373.84,
+   "end": 1377.24,
+   "es": "en el ajedrez sangriento del narcotráfico mexicano.",
+   "id": 304,
+   "slot": 3.32,
+   "max_chars_pl": 46,
+   "pl": "na krwawej szachownicy meksykańskiego narkobiznesu."
+  },
+  {
+   "start": 1377.24,
+   "end": 1379.88,
+   "es": "La desinformación es un arma tan letal",
+   "id": 305,
+   "slot": 2.6,
+   "max_chars_pl": 36,
+   "pl": "Dezinformacja to broń równie śmiercionośna"
+  },
+  {
+   "start": 1379.92,
+   "end": 1382.2,
+   "es": "como un fusil de asalto.",
+   "id": 306,
+   "slot": 2.2,
+   "max_chars_pl": 30,
+   "pl": "jak karabin szturmowy."
+  },
+  {
+   "start": 1382.2,
+   "end": 1387.2,
+   "es": "Durante años, el verdadero nivel jerárquico de Abraham Ambriscano",
+   "id": 307,
+   "slot": 4.92,
+   "max_chars_pl": 68,
+   "pl": "Przez lata prawdziwy poziom w hierarchii Abrahama Ambriscano"
+  },
+  {
+   "start": 1387.2,
+   "end": 1389.12,
+   "es": "fue motivo de acalorados debates",
+   "id": 308,
+   "slot": 1.84,
+   "max_chars_pl": 25,
+   "pl": "był przedmiotem gorących debat"
+  },
+  {
+   "start": 1389.12,
+   "end": 1393.52,
+   "es": "entre los analistas de inteligencia de la DEA y la Sedena.",
+   "id": 309,
+   "slot": 4.32,
+   "max_chars_pl": 60,
+   "pl": "wśród analityków wywiadu DEA i Sedeny."
+  },
+  {
+   "start": 1393.52,
+   "end": 1395.48,
+   "es": "Muchos lo subestimaban,",
+   "id": 310,
+   "slot": 1.88,
+   "max_chars_pl": 26,
+   "pl": "Wielu go niedoceniało,"
+  },
+  {
+   "start": 1395.48,
+   "end": 1398.92,
+   "es": "catalogándolo como un jefe de plaza hiperviolento,",
+   "id": 311,
+   "slot": 3.36,
+   "max_chars_pl": 47,
+   "pl": "klasyfikując jako skrajnie brutalnego szefa plaza,"
+  },
+  {
+   "start": 1398.92,
+   "end": 1401.08,
+   "es": "un simple señor de la guerra regional",
+   "id": 312,
+   "slot": 2.08,
+   "max_chars_pl": 29,
+   "pl": "zwykłego regionalnego pana wojny,"
+  },
+  {
+   "start": 1401.08,
+   "end": 1404.68,
+   "es": "que servía como muro de contención en Michoacán.",
+   "id": 313,
+   "slot": 3.52,
+   "max_chars_pl": 49,
+   "pl": "który służył jako mur obronny w Michoacán."
+  },
+  {
+   "start": 1404.68,
+   "end": 1407.08,
+   "es": "Sin embargo, la niebla de la guerra",
+   "id": 314,
+   "slot": 2.32,
+   "max_chars_pl": 32,
+   "pl": "Jednak mgła wojny"
+  },
+  {
+   "start": 1407.08,
+   "end": 1411.4,
+   "es": "se disipó de la forma más abrupta y reveladora posible.",
+   "id": 315,
+   "slot": 4.24,
+   "max_chars_pl": 59,
+   "pl": "rozwiała się w najbardziej gwałtowny i wymowny sposób."
+  },
+  {
+   "start": 1411.4,
+   "end": 1414.36,
+   "es": "A finales de febrero de 2026,",
+   "id": 316,
+   "slot": 2.88,
+   "max_chars_pl": 40,
+   "pl": "Pod koniec lutego dwa tysiące dwudziestego szóstego roku"
+  },
+  {
+   "start": 1414.36,
+   "end": 1417.76,
+   "es": "un evento sacudió las estructuras de seguridad nacional",
+   "id": 317,
+   "slot": 3.32,
+   "max_chars_pl": 46,
+   "pl": "wydarzenie wstrząsnęło strukturami bezpieczeństwa narodowego"
+  },
+  {
+   "start": 1417.76,
+   "end": 1420.0,
+   "es": "y reescribió por completo el organigrama",
+   "id": 318,
+   "slot": 2.16,
+   "max_chars_pl": 30,
+   "pl": "i całkowicie przepisało organigram"
+  },
+  {
+   "start": 1420.0,
+   "end": 1422.84,
+   "es": "del Cártel Jalisco Nueva Generación,",
+   "id": 319,
+   "slot": 2.76,
+   "max_chars_pl": 38,
+   "pl": "Kartelu Jalisco Nueva Generación,"
+  },
+  {
+   "start": 1422.84,
+   "end": 1426.48,
+   "es": "destapando la cruda realidad sobre quién sostiene verdaderamente",
+   "id": 320,
+   "slot": 3.56,
+   "max_chars_pl": 49,
+   "pl": "ujawniając brutalną prawdę o tym, kto naprawdę trzyma"
+  },
+  {
+   "start": 1426.48,
+   "end": 1431.88,
+   "es": "las riendas de la organización tras el vacío dejado por el Mencho.",
+   "id": 321,
+   "slot": 5.32,
+   "max_chars_pl": 74,
+   "pl": "stery organizacji po pustce, którą zostawił El Mencho."
+  },
+  {
+   "start": 1431.88,
+   "end": 1435.08,
+   "es": "El escenario de esta revelación no fue una cueva polvorienta",
+   "id": 322,
+   "slot": 3.12,
+   "max_chars_pl": 43,
+   "pl": "Sceną tego objawienia nie była zakurzona jaskinia"
+  },
+  {
+   "start": 1435.08,
+   "end": 1436.68,
+   "es": "en tierra caliente,",
+   "id": 323,
+   "slot": 1.52,
+   "max_chars_pl": 21,
+   "pl": "w Tierra Caliente,"
+  },
+  {
+   "start": 1436.68,
+   "end": 1440.76,
+   "es": "sino el apacible y boscoso pueblo mágico de Tapalpa,",
+   "id": 324,
+   "slot": 4.0,
+   "max_chars_pl": 56,
+   "pl": "lecz spokojne, zalesione magiczne miasteczko Tapalpa"
+  },
+  {
+   "start": 1440.76,
+   "end": 1442.96,
+   "es": "en el estado de Jalisco.",
+   "id": 325,
+   "slot": 2.12,
+   "max_chars_pl": 29,
+   "pl": "w stanie Jalisco."
+  },
+  {
+   "start": 1442.96,
+   "end": 1444.68,
+   "es": "Este destino turístico,",
+   "id": 326,
+   "slot": 1.64,
+   "max_chars_pl": 22,
+   "pl": "Ten cel turystyczny,"
+  },
+  {
+   "start": 1444.68,
+   "end": 1449.64,
+   "es": "conocido por sus cabañas de ultralujo ocultas entre densos pinares,",
+   "id": 327,
+   "slot": 4.88,
+   "max_chars_pl": 68,
+   "pl": "znany z ultraluksusowych chat ukrytych wśród gęstych sosnowych lasów,"
+  },
+  {
+   "start": 1449.64,
+   "end": 1454.08,
+   "es": "se había convertido en el refugio predilecto de la cúpula del cártel",
+   "id": 328,
+   "slot": 4.36,
+   "max_chars_pl": 61,
+   "pl": "stał się ulubionym schronieniem władz kartelu"
+  },
+  {
+   "start": 1454.08,
+   "end": 1456.28,
+   "es": "para sostener reuniones de alto nivel",
+   "id": 329,
+   "slot": 2.12,
+   "max_chars_pl": 29,
+   "pl": "na spotkania na wysokim szczeblu"
+  },
+  {
+   "start": 1456.28,
+   "end": 1460.04,
+   "es": "lejos del radar de las zonas urbanas calientes.",
+   "id": 330,
+   "slot": 3.68,
+   "max_chars_pl": 51,
+   "pl": "z dala od radaru gorących obszarów miejskich."
+  },
+  {
+   "start": 1460.04,
+   "end": 1464.2,
+   "es": "Bajo el amparo de la madrugada y en medio de un sigilo absoluto,",
+   "id": 331,
+   "slot": 4.12,
+   "max_chars_pl": 57,
+   "pl": "Pod osłoną wczesnego świtu i w absolutnej ciszy"
+  },
+  {
+   "start": 1464.24,
+   "end": 1469.04,
+   "es": "fuerzas especiales aerotransportadas del Ejército Mexicano y la Marina",
+   "id": 332,
+   "slot": 4.72,
+   "max_chars_pl": 66,
+   "pl": "powietrznodesantowe siły specjalne Armii Meksykańskiej i Marynarki"
+  },
+  {
+   "start": 1469.04,
+   "end": 1472.24,
+   "es": "ejecutaron una operación quirúrgica.",
+   "id": 333,
+   "slot": 3.12,
+   "max_chars_pl": 43,
+   "pl": "przeprowadziły chirurgiczną operację."
+  },
+  {
+   "start": 1472.24,
+   "end": 1476.4,
+   "es": "Los helicópteros Black Hawk descendieron apagados,",
+   "id": 334,
+   "slot": 4.08,
+   "max_chars_pl": 57,
+   "pl": "Śmigłowce Black Hawk lądowały z wyłączonymi światłami,"
+  },
+  {
+   "start": 1476.4,
+   "end": 1482.24,
+   "es": "utilizando visión nocturna para asaltar un complejo de cabañas fortificadas.",
+   "id": 335,
+   "slot": 5.76,
+   "max_chars_pl": 80,
+   "pl": "używając noktowizji, by zaatakować kompleks ufortyfikowanych chat."
+  },
+  {
+   "start": 1482.24,
+   "end": 1484.04,
+   "es": "El objetivo principal,",
+   "id": 336,
+   "slot": 1.72,
+   "max_chars_pl": 24,
+   "pl": "Główny cel,"
+  },
+  {
+   "start": 1484.04,
+   "end": 1489.4,
+   "es": "alertado por un anillo de seguridad corrompido con escasos minutos de anticipación,",
+   "id": 337,
+   "slot": 5.28,
+   "max_chars_pl": 73,
+   "pl": "ostrzeżony na kilka minut przed atakiem przez skorumpowany pierścień ochrony,"
+  },
+  {
+   "start": 1489.4,
+   "end": 1493.4,
+   "es": "logró escapar desvaneciéndose en la espesura del bosque,",
+   "id": 338,
+   "slot": 3.92,
+   "max_chars_pl": 54,
+   "pl": "zdołał uciec, rozpływając się w gęstwinie lasu,"
+  },
+  {
+   "start": 1493.4,
+   "end": 1495.36,
+   "es": "pero en su huida desesperada,",
+   "id": 339,
+   "slot": 1.88,
+   "max_chars_pl": 26,
+   "pl": "ale w desperackiej ucieczce"
+  },
+  {
+   "start": 1495.36,
+   "end": 1500.56,
+   "es": "cometió el error más catastrófico en la historia reciente del CJNG.",
+   "id": 340,
+   "slot": 5.12,
+   "max_chars_pl": 71,
+   "pl": "popełnił najbardziej katastrofalny błąd w najnowszej historii CJNG."
+  },
+  {
+   "start": 1500.56,
+   "end": 1505.64,
+   "es": "Dejó atrás el santo Grial, de la inteligencia criminal.",
+   "id": 341,
+   "slot": 5.0,
+   "max_chars_pl": 70,
+   "pl": "Zostawił po sobie Święty Graal wywiadu przestępczego."
+  },
+  {
+   "start": 1505.64,
+   "end": 1507.88,
+   "es": "Al irrumpir en la cabaña principal,",
+   "id": 342,
+   "slot": 2.16,
+   "max_chars_pl": 30,
+   "pl": "Wdzierając się do głównej chaty,"
+  },
+  {
+   "start": 1507.88,
+   "end": 1512.2,
+   "es": "las fuerzas federales no encontraron montañas de efectivo ni arsenales,",
+   "id": 343,
+   "slot": 4.24,
+   "max_chars_pl": 59,
+   "pl": "siły federalne nie znalazły gór gotówki ani arsenałów,"
+  },
+  {
+   "start": 1512.2,
+   "end": 1515.24,
+   "es": "sino algo infinitamente más valioso.",
+   "id": 344,
+   "slot": 2.96,
+   "max_chars_pl": 41,
+   "pl": "lecz coś nieskończenie cenniejszego."
+  },
+  {
+   "start": 1515.24,
+   "end": 1517.24,
+   "es": "Sobre una mesa de cristal,",
+   "id": 345,
+   "slot": 1.92,
+   "max_chars_pl": 26,
+   "pl": "Na szklanym stole,"
+  },
+  {
+   "start": 1517.24,
+   "end": 1520.4,
+   "es": "rodeada de radios de comunicación encriptados,",
+   "id": 346,
+   "slot": 3.08,
+   "max_chars_pl": 43,
+   "pl": "otoczonym szyfrowanymi radiostacjami,"
+  },
+  {
+   "start": 1520.4,
+   "end": 1523.24,
+   "es": "yacía la matriz operativa del cártel,",
+   "id": 347,
+   "slot": 2.76,
+   "max_chars_pl": 38,
+   "pl": "leżała operacyjna matryca kartelu,"
+  },
+  {
+   "start": 1523.24,
+   "end": 1525.76,
+   "es": "la Narconómina.",
+   "id": 348,
+   "slot": 2.44,
+   "max_chars_pl": 34,
+   "pl": "Narconómina."
+  },
+  {
+   "start": 1525.76,
+   "end": 1529.52,
+   "es": "Este hallazgo no era una simple libreta de apuntes rústica,",
+   "id": 349,
+   "slot": 3.68,
+   "max_chars_pl": 51,
+   "pl": "To znalezisko nie było zwykłym rustykalnym notesem,"
+  },
+  {
+   "start": 1529.52,
+   "end": 1533.2,
+   "es": "sino un sofisticado sistema de contabilidad híbrido,",
+   "id": 350,
+   "slot": 3.6,
+   "max_chars_pl": 50,
+   "pl": "lecz wyrafinowanym hybrydowym systemem księgowym,"
+  },
+  {
+   "start": 1533.2,
+   "end": 1537.24,
+   "es": "compuesto por discos duros de estado sólido con encriptación militar",
+   "id": 351,
+   "slot": 3.96,
+   "max_chars_pl": 55,
+   "pl": "złożonym z dysków półprzewodnikowych z szyfrowaniem wojskowym"
+  },
+  {
+   "start": 1537.24,
+   "end": 1541.48,
+   "es": "y libros de contabilidad físicos meticulosamente actualizados,",
+   "id": 352,
+   "slot": 4.16,
+   "max_chars_pl": 58,
+   "pl": "i fizycznych ksiąg rachunkowych skrupulatnie aktualizowanych,"
+  },
+  {
+   "start": 1541.48,
+   "end": 1548.12,
+   "es": "que reflejaban la reestructuración corporativa total del imperio criminal en la era posmencho.",
+   "id": 353,
+   "slot": 6.56,
+   "max_chars_pl": 91,
+   "pl": "które odzwierciedlały całkowitą restrukturyzację korporacyjną imperium przestępczego w erze po Menchu."
+  },
+  {
+   "start": 1548.12,
+   "end": 1552.0,
+   "es": "Los criptoanalistas de la fiscalía y la inteligencia militar",
+   "id": 354,
+   "slot": 3.8,
+   "max_chars_pl": 53,
+   "pl": "Kryptoanalitycy prokuratury i wywiadu wojskowego"
+  },
+  {
+   "start": 1552.0,
+   "end": 1555.24,
+   "es": "tardaron días en desentrañar las hojas de cálculo",
+   "id": 355,
+   "slot": 3.16,
+   "max_chars_pl": 44,
+   "pl": "przez dni rozszyfrowywali arkusze kalkulacyjne,"
+  },
+  {
+   "start": 1555.24,
+   "end": 1559.36,
+   "es": "y lo que encontraron, el ola sangre de los altos mandos.",
+   "id": 356,
+   "slot": 4.04,
+   "max_chars_pl": 56,
+   "pl": "a to, co znaleźli, ujawniło krwawe tajemnice najwyższych dowódców."
+  },
+  {
+   "start": 1559.36,
+   "end": 1562.28,
+   "es": "Los documentos detallaban con frialdad corporativa",
+   "id": 357,
+   "slot": 2.84,
+   "max_chars_pl": 39,
+   "pl": "Dokumenty z korporacyjnym chłodem opisywały"
+  },
+  {
+   "start": 1562.28,
+   "end": 1565.28,
+   "es": "el presupuesto bélico de la organización.",
+   "id": 358,
+   "slot": 2.92,
+   "max_chars_pl": 40,
+   "pl": "budżet wojenny organizacji."
+  },
+  {
+   "start": 1565.28,
+   "end": 1567.88,
+   "es": "Había columnas enteras destinadas a la adquisición",
+   "id": 359,
+   "slot": 2.52,
+   "max_chars_pl": 35,
+   "pl": "Były całe kolumny przeznaczone na zakup"
+  },
+  {
+   "start": 1567.88,
+   "end": 1571.48,
+   "es": "en el Mercado Negro Internacional de Armamento Antiaéreo,",
+   "id": 360,
+   "slot": 3.52,
+   "max_chars_pl": 49,
+   "pl": "na międzynarodowym czarnym rynku uzbrojenia przeciwlotniczego,"
+  },
+  {
+   "start": 1571.48,
+   "end": 1573.76,
+   "es": "lanzacoetes RPG,",
+   "id": 361,
+   "slot": 2.2,
+   "max_chars_pl": 30,
+   "pl": "wyrzutni rakiet RPG,"
+  },
+  {
+   "start": 1573.76,
+   "end": 1577.52,
+   "es": "refacciones para fusiles Barret, calibre 50,",
+   "id": 362,
+   "slot": 3.68,
+   "max_chars_pl": 51,
+   "pl": "części zamiennych do karabinów Barrett kalibru pięćdziesiąt"
+  },
+  {
+   "start": 1577.52,
+   "end": 1582.04,
+   "es": "y flotas enteras de drones comerciales listos para ser artillados.",
+   "id": 363,
+   "slot": 4.44,
+   "max_chars_pl": 62,
+   "pl": "i całych flot komercyjnych dronów gotowych do uzbrojenia."
+  },
+  {
+   "start": 1582.04,
+   "end": 1586.32,
+   "es": "Aún más perturbador era el registro de la nómina de la impunidad,",
+   "id": 364,
+   "slot": 4.2,
+   "max_chars_pl": 58,
+   "pl": "Jeszcze bardziej niepokojący był rejestr listy płac bezkarności,"
+  },
+  {
+   "start": 1586.32,
+   "end": 1588.96,
+   "es": "listas detalladas con claves alfanuméricas",
+   "id": 365,
+   "slot": 2.56,
+   "max_chars_pl": 35,
+   "pl": "szczegółowe wykazy z kodami alfanumerycznymi,"
+  },
+  {
+   "start": 1588.96,
+   "end": 1593.12,
+   "es": "que correspondían a sobornos multimillonarios pagados en dólares",
+   "id": 366,
+   "slot": 4.08,
+   "max_chars_pl": 57,
+   "pl": "które odpowiadały wielomilionowym łapówkom wypłacanym w dolarach"
+  },
+  {
+   "start": 1593.12,
+   "end": 1595.96,
+   "es": "y criptomonedas a comandantes de policía,",
+   "id": 367,
+   "slot": 2.76,
+   "max_chars_pl": 38,
+   "pl": "i kryptowalutach komendantom policji,"
+  },
+  {
+   "start": 1595.96,
+   "end": 1598.24,
+   "es": "jueces, políticos locales",
+   "id": 368,
+   "slot": 2.2,
+   "max_chars_pl": 30,
+   "pl": "sędziom, lokalnym politykom"
+  },
+  {
+   "start": 1598.24,
+   "end": 1603.0,
+   "es": "y mandos militares corrompidos en al menos 10 estados de la República.",
+   "id": 369,
+   "slot": 4.68,
+   "max_chars_pl": 65,
+   "pl": "i skorumpowanym dowódcom wojskowym w co najmniej dziesięciu stanach Republiki."
+  },
+  {
+   "start": 1603.0,
+   "end": 1605.2,
+   "es": "Pero la verdadera bomba de tiempo detonó",
+   "id": 370,
+   "slot": 2.12,
+   "max_chars_pl": 29,
+   "pl": "Ale prawdziwa bomba zegarowa wybuchła,"
+  },
+  {
+   "start": 1605.2,
+   "end": 1609.4,
+   "es": "al analizar el vértice de esta estructura financiera y militar.",
+   "id": 371,
+   "slot": 4.12,
+   "max_chars_pl": 57,
+   "pl": "gdy przeanalizowano wierzchołek tej struktury finansowej i wojskowej."
+  },
+  {
+   "start": 1609.4,
+   "end": 1613.44,
+   "es": "En la página cero del organigrama de pagos y toma de decisiones,",
+   "id": 372,
+   "slot": 3.96,
+   "max_chars_pl": 55,
+   "pl": "Na stronie zerowej organigramu płatności i podejmowania decyzji,"
+  },
+  {
+   "start": 1613.44,
+   "end": 1615.8,
+   "es": "donde se asignan las partidas presupuestales",
+   "id": 373,
+   "slot": 2.28,
+   "max_chars_pl": 31,
+   "pl": "gdzie przydziela się pozycje budżetowe"
+  },
+  {
+   "start": 1615.8,
+   "end": 1618.4,
+   "es": "de miles de millones de pesos,",
+   "id": 374,
+   "slot": 2.52,
+   "max_chars_pl": 35,
+   "pl": "na miliardy pesos,"
+  },
+  {
+   "start": 1618.4,
+   "end": 1620.16,
+   "es": "el nombre de Jesús Ambrís,",
+   "id": 375,
+   "slot": 1.68,
+   "max_chars_pl": 23,
+   "pl": "nazwisko Jesúsa Ambriscano,"
+  },
+  {
+   "start": 1620.16,
+   "end": 1623.88,
+   "es": "la identidad legal detrás del alias El Yogurt,",
+   "id": 376,
+   "slot": 3.64,
+   "max_chars_pl": 50,
+   "pl": "legalna tożsamość kryjąca się za pseudonimem El Yogurt,"
+  },
+  {
+   "start": 1623.88,
+   "end": 1626.52,
+   "es": "no figuraba como un subordinado.",
+   "id": 377,
+   "slot": 2.56,
+   "max_chars_pl": 35,
+   "pl": "nie figurowało jako podwładnego."
+  },
+  {
+   "start": 1626.52,
+   "end": 1629.16,
+   "es": "Su nombre estaba impreso en letras mayúsculas",
+   "id": 378,
+   "slot": 2.56,
+   "max_chars_pl": 35,
+   "pl": "Jego nazwisko było wydrukowane wielkimi literami"
+  },
+  {
+   "start": 1629.16,
+   "end": 1631.56,
+   "es": "en la misma línea de mando horizontal,",
+   "id": 379,
+   "slot": 2.32,
+   "max_chars_pl": 32,
+   "pl": "w tej samej poziomej linii dowodzenia"
+  },
+  {
+   "start": 1631.56,
+   "end": 1635.08,
+   "es": "que figuras legendarias e intocables del cártel como",
+   "id": 380,
+   "slot": 3.44,
+   "max_chars_pl": 48,
+   "pl": "co legendarne i nietykalne postacie kartelu, takie jak"
+  },
+  {
+   "start": 1635.08,
+   "end": 1637.28,
+   "es": "El Zapo, La Gallina",
+   "id": 381,
+   "slot": 2.12,
+   "max_chars_pl": 29,
+   "pl": "El Sapo, La Gallina"
+  },
+  {
+   "start": 1637.28,
+   "end": 1640.36,
+   "es": "y el todopoderoso Ricardo Ruiz Velasco,",
+   "id": 382,
+   "slot": 3.0,
+   "max_chars_pl": 42,
+   "pl": "i wszechmocny Ricardo Ruiz Velasco,"
+  },
+  {
+   "start": 1640.36,
+   "end": 1643.04,
+   "es": "alias Doble R.",
+   "id": 383,
+   "slot": 2.6,
+   "max_chars_pl": 36,
+   "pl": "pseudonim Doble R."
+  },
+  {
+   "start": 1643.04,
+   "end": 1646.96,
+   "es": "Los documentos probaban que Ambrís Cano no recibía órdenes.",
+   "id": 384,
+   "slot": 3.84,
+   "max_chars_pl": 53,
+   "pl": "Dokumenty dowodziły, że Ambriscano nie przyjmował rozkazów."
+  },
+  {
+   "start": 1646.96,
+   "end": 1649.12,
+   "es": "Él las firmaba.",
+   "id": 385,
+   "slot": 2.08,
+   "max_chars_pl": 29,
+   "pl": "On je podpisywał."
+  },
+  {
+   "start": 1649.12,
+   "end": 1652.8,
+   "es": "La narconómina de Tapalpa reveló que El Yogurt",
+   "id": 386,
+   "slot": 3.6,
+   "max_chars_pl": 50,
+   "pl": "Narconómina z Tapalpy ujawniła, że El Yogurt"
+  },
+  {
+   "start": 1652.8,
+   "end": 1656.52,
+   "es": "es el principal financiador de su propio ejército privado",
+   "id": 387,
+   "slot": 3.64,
+   "max_chars_pl": 50,
+   "pl": "jest głównym finansistą swojej prywatnej armii"
+  },
+  {
+   "start": 1656.52,
+   "end": 1658.88,
+   "es": "y uno de los mayores aportadores de capital",
+   "id": 388,
+   "slot": 2.28,
+   "max_chars_pl": 31,
+   "pl": "i jednym z największych dostarczycieli kapitału"
+  },
+  {
+   "start": 1658.88,
+   "end": 1662.32,
+   "es": "a la estructura central del CJNG,",
+   "id": 389,
+   "slot": 3.4,
+   "max_chars_pl": 47,
+   "pl": "do centralnej struktury CJNG,"
+  },
+  {
+   "start": 1662.36,
+   "end": 1665.84,
+   "es": "gracias a sus colosales ganancias derivadas del fentanilo",
+   "id": 390,
+   "slot": 3.4,
+   "max_chars_pl": 47,
+   "pl": "dzięki kolosalnym zyskom z fentanylu"
+  },
+  {
+   "start": 1665.84,
+   "end": 1667.48,
+   "es": "y la minería ilegal.",
+   "id": 391,
+   "slot": 1.56,
+   "max_chars_pl": 21,
+   "pl": "i nielegalnego górnictwa."
+  },
+  {
+   "start": 1667.48,
+   "end": 1670.56,
+   "es": "Los pagos registrados a mercenarios sudamericanos",
+   "id": 392,
+   "slot": 3.0,
+   "max_chars_pl": 42,
+   "pl": "Płatności odnotowane dla południowoamerykańskich najemników"
+  },
+  {
+   "start": 1670.56,
+   "end": 1673.92,
+   "es": "bajo el concepto de instructores especiales",
+   "id": 393,
+   "slot": 3.28,
+   "max_chars_pl": 45,
+   "pl": "pod pozycją specjalnych instruktorów"
+  },
+  {
+   "start": 1673.92,
+   "end": 1675.92,
+   "es": "confirmaron la internacionalización",
+   "id": 394,
+   "slot": 1.92,
+   "max_chars_pl": 26,
+   "pl": "potwierdziły umiędzynarodowienie"
+  },
+  {
+   "start": 1675.92,
+   "end": 1678.12,
+   "es": "de su guardia paramilitar.",
+   "id": 395,
+   "slot": 2.12,
+   "max_chars_pl": 29,
+   "pl": "jego paramilitarnej gwardii."
+  },
+  {
+   "start": 1678.12,
+   "end": 1680.08,
+   "es": "Esta revelación documental,",
+   "id": 396,
+   "slot": 1.88,
+   "max_chars_pl": 26,
+   "pl": "To udokumentowane ujawnienie,"
+  },
+  {
+   "start": 1680.08,
+   "end": 1684.8,
+   "es": "filtrada en los reportes de inteligencia de febrero de 2026,",
+   "id": 397,
+   "slot": 4.64,
+   "max_chars_pl": 64,
+   "pl": "przecieknięte w raportach wywiadu z lutego dwa tysiące dwudziestego szóstego roku,"
+  },
+  {
+   "start": 1684.8,
+   "end": 1687.96,
+   "es": "catapultó a Abraham Ambrís Cano de manera inmediata",
+   "id": 398,
+   "slot": 3.08,
+   "max_chars_pl": 43,
+   "pl": "natychmiast wyniosło Abrahama Ambriscano"
+  },
+  {
+   "start": 1687.96,
+   "end": 1690.96,
+   "es": "a la lista de los objetivos prioritarios globales",
+   "id": 399,
+   "slot": 2.92,
+   "max_chars_pl": 40,
+   "pl": "na listę globalnych priorytetowych celów"
+  },
+  {
+   "start": 1690.96,
+   "end": 1694.6,
+   "es": "del Departamento de Justicia de los Estados Unidos.",
+   "id": 400,
+   "slot": 3.56,
+   "max_chars_pl": 49,
+   "pl": "Departamentu Sprawiedliwości Stanów Zjednoczonych."
+  },
+  {
+   "start": 1694.6,
+   "end": 1697.16,
+   "es": "La incautación de Tapalpa destruyó el mito",
+   "id": 401,
+   "slot": 2.48,
+   "max_chars_pl": 34,
+   "pl": "Zajęcie w Tapalpie zniszczyło mit"
+  },
+  {
+   "start": 1697.16,
+   "end": 1700.2,
+   "es": "de un cártel fragmentado y descabezado.",
+   "id": 402,
+   "slot": 2.96,
+   "max_chars_pl": 41,
+   "pl": "o podzielonym i pozbawionym głowy kartelu."
+  },
+  {
+   "start": 1700.2,
+   "end": 1702.36,
+   "es": "Demostró empíricamente que la organización",
+   "id": 403,
+   "slot": 2.08,
+   "max_chars_pl": 29,
+   "pl": "Wykazało empirycznie, że organizacja"
+  },
+  {
+   "start": 1702.36,
+   "end": 1704.84,
+   "es": "simplemente había mutado hacia un consejo",
+   "id": 404,
+   "slot": 2.4,
+   "max_chars_pl": 33,
+   "pl": "po prostu przekształciła się w radę"
+  },
+  {
+   "start": 1704.84,
+   "end": 1706.92,
+   "es": "de administración paramilitar,",
+   "id": 405,
+   "slot": 2.0,
+   "max_chars_pl": 28,
+   "pl": "nadzorczą o charakterze paramilitarnym,"
+  },
+  {
+   "start": 1706.92,
+   "end": 1709.92,
+   "es": "un sindicato del terror donde Abraham Ambrís Cano",
+   "id": 406,
+   "slot": 2.92,
+   "max_chars_pl": 40,
+   "pl": "syndykat terroru, w którym Abraham Ambriscano"
+  },
+  {
+   "start": 1709.92,
+   "end": 1712.6,
+   "es": "se sienta en la cabecera de la mesa.",
+   "id": 407,
+   "slot": 2.6,
+   "max_chars_pl": 36,
+   "pl": "zasiada u szczytu stołu."
+  },
+  {
+   "start": 1712.6,
+   "end": 1716.16,
+   "es": "Para el gobierno mexicano y las agencias internacionales,",
+   "id": 408,
+   "slot": 3.48,
+   "max_chars_pl": 48,
+   "pl": "Dla rządu meksykańskiego i agencji międzynarodowych"
+  },
+  {
+   "start": 1716.16,
+   "end": 1719.4,
+   "es": "El Yogurt dejó de ser un simple problema regional",
+   "id": 409,
+   "slot": 4.16,
+   "max_chars_pl": 58,
+   "pl": "El Yogurt przestał być zwykłym problemem regionalnym,"
+  },
+  {
+   "start": 1720.4,
+   "end": 1723.0,
+   "es": "para convertirse en una amenaza existencial",
+   "id": 410,
+   "slot": 2.52,
+   "max_chars_pl": 35,
+   "pl": "stając się egzystencjalnym zagrożeniem"
+  },
+  {
+   "start": 1723.0,
+   "end": 1724.6,
+   "es": "al Estado de Derecho.",
+   "id": 411,
+   "slot": 1.52,
+   "max_chars_pl": 21,
+   "pl": "dla państwa prawa."
+  },
+  {
+   "start": 1724.6,
+   "end": 1726.6,
+   "es": "Un hombre que no solo co-gobierna",
+   "id": 412,
+   "slot": 1.92,
+   "max_chars_pl": 26,
+   "pl": "Człowiekiem, który nie tylko współrządzi"
+  },
+  {
+   "start": 1726.6,
+   "end": 1729.6,
+   "es": "el imperio criminal más poderoso de México,",
+   "id": 413,
+   "slot": 2.92,
+   "max_chars_pl": 40,
+   "pl": "najpotężniejszym imperium przestępczym Meksyku,"
+  },
+  {
+   "start": 1729.6,
+   "end": 1732.48,
+   "es": "sino que cuenta con la chequera y el ejército",
+   "id": 414,
+   "slot": 2.8,
+   "max_chars_pl": 39,
+   "pl": "lecz dysponuje książeczką czekową i armią,"
+  },
+  {
+   "start": 1732.48,
+   "end": 1735.48,
+   "es": "para declararle la guerra a la nación entera.",
+   "id": 415,
+   "slot": 2.92,
+   "max_chars_pl": 40,
+   "pl": "by wypowiedzieć wojnę całemu narodowi."
+  },
+  {
+   "start": 1735.48,
+   "end": 1737.68,
+   "es": "El impacto real de Abraham Ambrís Cano",
+   "id": 416,
+   "slot": 2.12,
+   "max_chars_pl": 29,
+   "pl": "Prawdziwy wpływ Abrahama Ambriscano"
+  },
+  {
+   "start": 1737.68,
+   "end": 1739.8,
+   "es": "en el conflicto armado mexicano",
+   "id": 417,
+   "slot": 2.04,
+   "max_chars_pl": 28,
+   "pl": "na meksykański konflikt zbrojny"
+  },
+  {
+   "start": 1739.8,
+   "end": 1743.6,
+   "es": "no se mide únicamente en toneladas de drogas exportadas",
+   "id": 418,
+   "slot": 3.72,
+   "max_chars_pl": 52,
+   "pl": "mierzy się nie tylko w tonach eksportowanych narkotyków"
+  },
+  {
+   "start": 1743.6,
+   "end": 1747.24,
+   "es": "ni en millones de dólares acumulados en la narconómina,",
+   "id": 419,
+   "slot": 3.64,
+   "max_chars_pl": 50,
+   "pl": "ani w milionach dolarów zgromadzonych w narconómina,"
+  },
+  {
+   "start": 1747.32,
+   "end": 1748.84,
+   "es": "sino en la brutal evolución",
+   "id": 420,
+   "slot": 1.44,
+   "max_chars_pl": 20,
+   "pl": "lecz w brutalnej ewolucji"
+  },
+  {
+   "start": 1748.84,
+   "end": 1751.84,
+   "es": "de las tácticas de combate en el terreno.",
+   "id": 421,
+   "slot": 2.92,
+   "max_chars_pl": 40,
+   "pl": "taktyki walki w terenie."
+  },
+  {
+   "start": 1751.84,
+   "end": 1754.56,
+   "es": "El Yogurt pasará a la historia criminal",
+   "id": 422,
+   "slot": 2.64,
+   "max_chars_pl": 36,
+   "pl": "El Yogurt przejdzie do historii przestępczości"
+  },
+  {
+   "start": 1754.56,
+   "end": 1757.12,
+   "es": "como el pionero absoluto en la adaptación",
+   "id": 423,
+   "slot": 2.48,
+   "max_chars_pl": 34,
+   "pl": "jako absolutny pionier adaptacji"
+  },
+  {
+   "start": 1757.12,
+   "end": 1759.08,
+   "es": "de la guerra moderna asimétrica",
+   "id": 424,
+   "slot": 1.88,
+   "max_chars_pl": 26,
+   "pl": "nowoczesnej wojny asymetrycznej"
+  },
+  {
+   "start": 1759.08,
+   "end": 1761.6,
+   "es": "al entorno del narcotráfico.",
+   "id": 425,
+   "slot": 2.44,
+   "max_chars_pl": 34,
+   "pl": "do środowiska narkobiznesu."
+  },
+  {
+   "start": 1761.6,
+   "end": 1764.64,
+   "es": "Hasta hace poco, la doctrina de los cárteles",
+   "id": 426,
+   "slot": 2.96,
+   "max_chars_pl": 41,
+   "pl": "Do niedawna doktryna karteli"
+  },
+  {
+   "start": 1764.64,
+   "end": 1767.52,
+   "es": "se basaba en la intimidación por volumen,",
+   "id": 427,
+   "slot": 2.8,
+   "max_chars_pl": 39,
+   "pl": "opierała się na zastraszaniu liczebnością,"
+  },
+  {
+   "start": 1767.52,
+   "end": 1770.72,
+   "es": "caravanas interminables de camionetas blindadas",
+   "id": 428,
+   "slot": 3.12,
+   "max_chars_pl": 43,
+   "pl": "niekończących się karawanach opancerzonych pickupów"
+  },
+  {
+   "start": 1770.72,
+   "end": 1774.12,
+   "es": "rotuladas con las siglas del CJNG,",
+   "id": 429,
+   "slot": 3.36,
+   "max_chars_pl": 47,
+   "pl": "oznaczonych skrótem CJNG,"
+  },
+  {
+   "start": 1774.16,
+   "end": 1775.96,
+   "es": "que buscaban el topón",
+   "id": 430,
+   "slot": 1.72,
+   "max_chars_pl": 24,
+   "pl": "które szukały starcia czołowego,"
+  },
+  {
+   "start": 1775.96,
+   "end": 1779.04,
+   "es": "o enfrentamiento directo a campo abierto.",
+   "id": 431,
+   "slot": 3.0,
+   "max_chars_pl": 42,
+   "pl": "czyli bezpośredniej walki na otwartym terenie."
+  },
+  {
+   "start": 1779.04,
+   "end": 1782.16,
+   "es": "Sin embargo, bajo la estricta y letal instrucción",
+   "id": 432,
+   "slot": 3.04,
+   "max_chars_pl": 42,
+   "pl": "Jednak pod surowym i śmiercionośnym kierownictwem"
+  },
+  {
+   "start": 1782.16,
+   "end": 1784.44,
+   "es": "de su guardia pretoriana de exmilitares",
+   "id": 433,
+   "slot": 2.2,
+   "max_chars_pl": 30,
+   "pl": "jego gwardii pretoriańskiej złożonej z byłych wojskowych"
+  },
+  {
+   "start": 1784.44,
+   "end": 1786.8,
+   "es": "y exguerrilleros colombianos,",
+   "id": 434,
+   "slot": 2.28,
+   "max_chars_pl": 31,
+   "pl": "i kolumbijskich partyzantów,"
+  },
+  {
+   "start": 1786.8,
+   "end": 1788.52,
+   "es": "la facción de Ambrís Cano",
+   "id": 435,
+   "slot": 1.64,
+   "max_chars_pl": 22,
+   "pl": "frakcja Ambriscano"
+  },
+  {
+   "start": 1788.52,
+   "end": 1791.92,
+   "es": "abandonó ese modelo obsoleto y suicida.",
+   "id": 436,
+   "slot": 3.32,
+   "max_chars_pl": 46,
+   "pl": "porzuciła ten przestarzały i samobójczy model."
+  },
+  {
+   "start": 1791.92,
+   "end": 1795.08,
+   "es": "En su lugar, adoptaron una doctrina paramilitar",
+   "id": 437,
+   "slot": 3.08,
+   "max_chars_pl": 43,
+   "pl": "Zamiast tego przyjęła doktrynę paramilitarną"
+  },
+  {
+   "start": 1795.08,
+   "end": 1799.04,
+   "es": "de hostigamiento constante, emboscadas calculadas",
+   "id": 438,
+   "slot": 3.88,
+   "max_chars_pl": 54,
+   "pl": "ciągłego nękania, wyrachowanych zasadzek"
+  },
+  {
+   "start": 1799.04,
+   "end": 1802.88,
+   "es": "y un desgaste extremo diseñado para quebrar la moral.",
+   "id": 439,
+   "slot": 3.76,
+   "max_chars_pl": 52,
+   "pl": "i ekstremalnego wyniszczania, mającego złamać morale."
+  },
+  {
+   "start": 1802.88,
+   "end": 1806.84,
+   "es": "Tanto de sus rivales como de las Fuerzas Armadas.",
+   "id": 440,
+   "slot": 3.88,
+   "max_chars_pl": 54,
+   "pl": "Zarówno rywali, jak i Sił Zbrojnych."
+  },
+  {
+   "start": 1806.84,
+   "end": 1810.4,
+   "es": "El símbolo más aterrador de esta nueva era de exterminio",
+   "id": 441,
+   "slot": 3.48,
+   "max_chars_pl": 48,
+   "pl": "Najbardziej przerażającym symbolem tej nowej ery eksterminacji"
+  },
+  {
+   "start": 1810.4,
+   "end": 1813.04,
+   "es": "es la guerra aérea no tripulada.",
+   "id": 442,
+   "slot": 2.56,
+   "max_chars_pl": 35,
+   "pl": "jest bezzałogowa wojna powietrzna."
+  },
+  {
+   "start": 1813.04,
+   "end": 1815.64,
+   "es": "Los indestructibles fueron los primeros",
+   "id": 443,
+   "slot": 2.52,
+   "max_chars_pl": 35,
+   "pl": "Los Indestructibles byli pierwszymi,"
+  },
+  {
+   "start": 1815.64,
+   "end": 1817.68,
+   "es": "en sistematizar y perfeccionar el uso",
+   "id": 444,
+   "slot": 1.96,
+   "max_chars_pl": 27,
+   "pl": "którzy usystematyzowali i udoskonalili użycie"
+  },
+  {
+   "start": 1817.68,
+   "end": 1819.6,
+   "es": "de drones comerciales adaptados",
+   "id": 445,
+   "slot": 1.84,
+   "max_chars_pl": 25,
+   "pl": "przystosowanych dronów komercyjnych"
+  },
+  {
+   "start": 1819.6,
+   "end": 1822.0,
+   "es": "como bombarderos tácticos.",
+   "id": 446,
+   "slot": 2.32,
+   "max_chars_pl": 32,
+   "pl": "jako bombowców taktycznych."
+  },
+  {
+   "start": 1822.0,
+   "end": 1825.16,
+   "es": "Ya no se trata de simples aparatos de vigilancia.",
+   "id": 447,
+   "slot": 3.08,
+   "max_chars_pl": 43,
+   "pl": "Nie chodzi już o zwykłe urządzenia obserwacyjne."
+  },
+  {
+   "start": 1825.16,
+   "end": 1828.4,
+   "es": "Los ingenieros al servicio de El Yogurt",
+   "id": 448,
+   "slot": 3.16,
+   "max_chars_pl": 44,
+   "pl": "Inżynierowie na usługach El Yogurta"
+  },
+  {
+   "start": 1828.4,
+   "end": 1831.12,
+   "es": "modifican estos cuadricópteros de alta gama",
+   "id": 449,
+   "slot": 2.72,
+   "max_chars_pl": 38,
+   "pl": "modyfikują te zaawansowane kwadrokoptery"
+  },
+  {
+   "start": 1831.2,
+   "end": 1833.28,
+   "es": "con ganchos de liberación remota",
+   "id": 450,
+   "slot": 2.0,
+   "max_chars_pl": 28,
+   "pl": "zdalnie zwalnianymi zaczepami,"
+  },
+  {
+   "start": 1833.28,
+   "end": 1837.32,
+   "es": "para dejar caer cargas de explosivo plástico C4,",
+   "id": 451,
+   "slot": 3.96,
+   "max_chars_pl": 55,
+   "pl": "by zrzucać ładunki plastycznego materiału wybuchowego C cztery,"
+  },
+  {
+   "start": 1837.32,
+   "end": 1839.72,
+   "es": "municiones de mortero modificadas",
+   "id": 452,
+   "slot": 2.32,
+   "max_chars_pl": 32,
+   "pl": "przerobione pociski moździerzowe"
+  },
+  {
+   "start": 1839.72,
+   "end": 1843.48,
+   "es": "o letales tubos de PV, serrellenos de pólvora,",
+   "id": 453,
+   "slot": 3.68,
+   "max_chars_pl": 51,
+   "pl": "lub śmiercionośne rury z PVC wypełnione prochem,"
+  },
+  {
+   "start": 1843.48,
+   "end": 1845.44,
+   "es": "clavos y valines de acero",
+   "id": 454,
+   "slot": 1.88,
+   "max_chars_pl": 26,
+   "pl": "gwoździami i stalowymi kulkami łożyskowymi,"
+  },
+  {
+   "start": 1845.44,
+   "end": 1848.72,
+   "es": "para maximizar la mutilación antipersonal.",
+   "id": 455,
+   "slot": 3.2,
+   "max_chars_pl": 44,
+   "pl": "by zmaksymalizować okaleczanie ludzi."
+  },
+  {
+   "start": 1848.72,
+   "end": 1851.96,
+   "es": "El efecto psicológico sobre las tropas terrestres",
+   "id": 456,
+   "slot": 3.16,
+   "max_chars_pl": 44,
+   "pl": "Efekt psychologiczny na wojska lądowe"
+  },
+  {
+   "start": 1851.96,
+   "end": 1853.64,
+   "es": "es devastador.",
+   "id": 457,
+   "slot": 1.6,
+   "max_chars_pl": 22,
+   "pl": "jest druzgocący."
+  },
+  {
+   "start": 1853.64,
+   "end": 1855.4,
+   "es": "El simple zumbido de las hélices",
+   "id": 458,
+   "slot": 1.68,
+   "max_chars_pl": 23,
+   "pl": "Samo brzęczenie śmigieł"
+  },
+  {
+   "start": 1855.4,
+   "end": 1857.4,
+   "es": "en el cielo nocturno de Michoacán",
+   "id": 459,
+   "slot": 1.96,
+   "max_chars_pl": 27,
+   "pl": "na nocnym niebie Michoacán"
+  },
+  {
+   "start": 1857.44,
+   "end": 1858.96,
+   "es": "es suficiente para paralizar",
+   "id": 460,
+   "slot": 1.44,
+   "max_chars_pl": 20,
+   "pl": "wystarczy, by sparaliżować"
+  },
+  {
+   "start": 1858.96,
+   "end": 1861.24,
+   "es": "a una patrulla del ejército,",
+   "id": 461,
+   "slot": 2.2,
+   "max_chars_pl": 30,
+   "pl": "patrol wojskowy,"
+  },
+  {
+   "start": 1861.24,
+   "end": 1863.04,
+   "es": "sabiendo que la muerte puede llover",
+   "id": 462,
+   "slot": 1.72,
+   "max_chars_pl": 24,
+   "pl": "wiedząc, że śmierć może spaść z nieba"
+  },
+  {
+   "start": 1863.04,
+   "end": 1864.72,
+   "es": "desde un enemigo invisible",
+   "id": 463,
+   "slot": 1.6,
+   "max_chars_pl": 22,
+   "pl": "z rąk niewidzialnego wroga,"
+  },
+  {
+   "start": 1864.72,
+   "end": 1867.16,
+   "es": "que opera a kilómetros de distancia,",
+   "id": 464,
+   "slot": 2.36,
+   "max_chars_pl": 33,
+   "pl": "który działa z odległości kilometrów,"
+  },
+  {
+   "start": 1867.16,
+   "end": 1868.8,
+   "es": "a salvo tras el resplandor",
+   "id": 465,
+   "slot": 1.56,
+   "max_chars_pl": 21,
+   "pl": "bezpieczny za blaskiem"
+  },
+  {
+   "start": 1868.8,
+   "end": 1871.2,
+   "es": "de una tableta electrónica.",
+   "id": 466,
+   "slot": 2.32,
+   "max_chars_pl": 32,
+   "pl": "ekranu tabletu."
+  },
+  {
+   "start": 1871.2,
+   "end": 1873.52,
+   "es": "La historia de Abraham Ambriscano",
+   "id": 467,
+   "slot": 2.24,
+   "max_chars_pl": 31,
+   "pl": "Historia Abrahama Ambriscano"
+  },
+  {
+   "start": 1873.52,
+   "end": 1874.6,
+   "es": "es la prueba viviente",
+   "id": 468,
+   "slot": 1.0,
+   "max_chars_pl": 14,
+   "pl": "jest żywym dowodem,"
+  },
+  {
+   "start": 1874.6,
+   "end": 1877.36,
+   "es": "de que el Cártel Jalisco Nueva Generación",
+   "id": 469,
+   "slot": 2.68,
+   "max_chars_pl": 37,
+   "pl": "że Kartel Jalisco Nueva Generación"
+  },
+  {
+   "start": 1877.36,
+   "end": 1879.84,
+   "es": "está mutando hacia una forma de criminalidad",
+   "id": 470,
+   "slot": 2.4,
+   "max_chars_pl": 33,
+   "pl": "mutuje w kierunku formy przestępczości"
+  },
+  {
+   "start": 1879.84,
+   "end": 1882.84,
+   "es": "mucho más sofisticada y letal.",
+   "id": 471,
+   "slot": 2.92,
+   "max_chars_pl": 40,
+   "pl": "znacznie bardziej wyrafinowanej i śmiercionośnej."
+  },
+  {
+   "start": 1882.84,
+   "end": 1884.44,
+   "es": "La caída de los viejos líderes",
+   "id": 472,
+   "slot": 1.52,
+   "max_chars_pl": 21,
+   "pl": "Upadek starych przywódców"
+  },
+  {
+   "start": 1884.44,
+   "end": 1886.68,
+   "es": "no debilitó a la organización.",
+   "id": 473,
+   "slot": 2.16,
+   "max_chars_pl": 30,
+   "pl": "nie osłabił organizacji."
+  },
+  {
+   "start": 1886.68,
+   "end": 1888.08,
+   "es": "Simplemente abrió la puerta",
+   "id": 474,
+   "slot": 1.32,
+   "max_chars_pl": 18,
+   "pl": "Po prostu otworzył drzwi,"
+  },
+  {
+   "start": 1888.08,
+   "end": 1890.2,
+   "es": "para que depredadores más jóvenes,",
+   "id": 475,
+   "slot": 2.04,
+   "max_chars_pl": 28,
+   "pl": "by młodsi drapieżcy,"
+  },
+  {
+   "start": 1890.2,
+   "end": 1891.36,
+   "es": "más educados",
+   "id": 476,
+   "slot": 1.08,
+   "max_chars_pl": 15,
+   "pl": "lepiej wykształceni"
+  },
+  {
+   "start": 1891.36,
+   "end": 1893.68,
+   "es": "y con una visión militar internacional",
+   "id": 477,
+   "slot": 2.24,
+   "max_chars_pl": 31,
+   "pl": "i z międzynarodową wizją wojskową"
+  },
+  {
+   "start": 1893.68,
+   "end": 1895.44,
+   "es": "tomaran el control.",
+   "id": 478,
+   "slot": 1.68,
+   "max_chars_pl": 23,
+   "pl": "przejęli kontrolę."
+  },
+  {
+   "start": 1895.44,
+   "end": 1898.88,
+   "es": "El yogurt representa la tormenta perfecta.",
+   "id": 479,
+   "slot": 3.36,
+   "max_chars_pl": 47,
+   "pl": "El Yogurt to idealna burza."
+  },
+  {
+   "start": 1898.88,
+   "end": 1900.52,
+   "es": "Tiene la educación logística",
+   "id": 480,
+   "slot": 1.56,
+   "max_chars_pl": 21,
+   "pl": "Ma wykształcenie logistyczne,"
+  },
+  {
+   "start": 1900.52,
+   "end": 1903.08,
+   "es": "para inundar el mundo con fentanilo,",
+   "id": 481,
+   "slot": 2.48,
+   "max_chars_pl": 34,
+   "pl": "by zalać świat fentanylem,"
+  },
+  {
+   "start": 1903.08,
+   "end": 1904.28,
+   "es": "la falta de escrúpulos",
+   "id": 482,
+   "slot": 1.12,
+   "max_chars_pl": 15,
+   "pl": "brak skrupułów,"
+  },
+  {
+   "start": 1904.28,
+   "end": 1906.52,
+   "es": "para pactar con enemigos históricos",
+   "id": 483,
+   "slot": 2.16,
+   "max_chars_pl": 30,
+   "pl": "by zawierać pakty z historycznymi wrogami,"
+  },
+  {
+   "start": 1906.52,
+   "end": 1907.76,
+   "es": "y el ejército privado",
+   "id": 484,
+   "slot": 1.16,
+   "max_chars_pl": 16,
+   "pl": "i prywatną armię"
+  },
+  {
+   "start": 1907.76,
+   "end": 1909.2,
+   "es": "de mercenarios extranjeros",
+   "id": 485,
+   "slot": 1.36,
+   "max_chars_pl": 19,
+   "pl": "zagranicznych najemników,"
+  },
+  {
+   "start": 1909.2,
+   "end": 1910.64,
+   "es": "necesario para arrodillar",
+   "id": 486,
+   "slot": 1.36,
+   "max_chars_pl": 19,
+   "pl": "potrzebną, by rzucić na kolana"
+  },
+  {
+   "start": 1910.64,
+   "end": 1912.8,
+   "es": "a cualquier fuerza de seguridad",
+   "id": 487,
+   "slot": 2.08,
+   "max_chars_pl": 29,
+   "pl": "każdą siłę bezpieczeństwa,"
+  },
+  {
+   "start": 1912.8,
+   "end": 1915.2,
+   "es": "que se interponga en su camino.",
+   "id": 488,
+   "slot": 2.32,
+   "max_chars_pl": 32,
+   "pl": "która stanie mu na drodze."
+  },
+  {
+   "start": 1915.2,
+   "end": 1916.92,
+   "es": "Mientras las autoridades siguen",
+   "id": 489,
+   "slot": 1.64,
+   "max_chars_pl": 22,
+   "pl": "Podczas gdy władze wciąż"
+  },
+  {
+   "start": 1916.92,
+   "end": 1919.28,
+   "es": "buscando a los fantasmas del pasado,",
+   "id": 490,
+   "slot": 2.28,
+   "max_chars_pl": 31,
+   "pl": "szukają duchów przeszłości,"
+  },
+  {
+   "start": 1919.28,
+   "end": 1920.4,
+   "es": "el yogurt",
+   "id": 491,
+   "slot": 1.04,
+   "max_chars_pl": 14,
+   "pl": "El Yogurt"
+  },
+  {
+   "start": 1920.4,
+   "end": 1921.84,
+   "es": "está consolidando su poder",
+   "id": 492,
+   "slot": 1.36,
+   "max_chars_pl": 19,
+   "pl": "umacnia swoją władzę"
+  },
+  {
+   "start": 1921.84,
+   "end": 1924.32,
+   "es": "en el triángulo de la muerte.",
+   "id": 493,
+   "slot": 2.4,
+   "max_chars_pl": 33,
+   "pl": "w Trójkącie Śmierci."
+  },
+  {
+   "start": 1924.32,
+   "end": 1925.44,
+   "es": "Con su nombre escrito",
+   "id": 494,
+   "slot": 1.04,
+   "max_chars_pl": 14,
+   "pl": "Z jego nazwiskiem wpisanym"
+  },
+  {
+   "start": 1925.44,
+   "end": 1927.16,
+   "es": "en lo más alto de la narconómina",
+   "id": 495,
+   "slot": 1.64,
+   "max_chars_pl": 22,
+   "pl": "na samej górze narconómina"
+  },
+  {
+   "start": 1927.16,
+   "end": 1928.32,
+   "es": "del Mencho,",
+   "id": 496,
+   "slot": 1.08,
+   "max_chars_pl": 15,
+   "pl": "El Mencho,"
+  },
+  {
+   "start": 1928.32,
+   "end": 1929.32,
+   "es": "la pregunta ya no es",
+   "id": 497,
+   "slot": 0.92,
+   "max_chars_pl": 12,
+   "pl": "pytanie nie brzmi już,"
+  },
+  {
+   "start": 1929.32,
+   "end": 1930.88,
+   "es": "si Abraham Ambriscano",
+   "id": 498,
+   "slot": 1.48,
+   "max_chars_pl": 20,
+   "pl": "czy Abraham Ambriscano"
+  },
+  {
+   "start": 1930.88,
+   "end": 1932.52,
+   "es": "será uno de los grandes líderes",
+   "id": 499,
+   "slot": 1.56,
+   "max_chars_pl": 21,
+   "pl": "będzie jednym z wielkich przywódców"
+  },
+  {
+   "start": 1932.52,
+   "end": 1933.76,
+   "es": "del cartel,",
+   "id": 500,
+   "slot": 1.16,
+   "max_chars_pl": 16,
+   "pl": "kartelu,"
+  },
+  {
+   "start": 1933.76,
+   "end": 1935.8,
+   "es": "sino si algún día logrará reclamar",
+   "id": 501,
+   "slot": 1.96,
+   "max_chars_pl": 27,
+   "pl": "lecz czy kiedykolwiek zdoła upomnieć się"
+  },
+  {
+   "start": 1935.8,
+   "end": 1938.6,
+   "es": "el trono absoluto para sí mismo.",
+   "id": 502,
+   "slot": 2.72,
+   "max_chars_pl": 38,
+   "pl": "o absolutny tron dla siebie."
+  },
+  {
+   "start": 1938.6,
+   "end": 1940.4,
+   "es": "El joven de 29 años",
+   "id": 503,
+   "slot": 1.72,
+   "max_chars_pl": 24,
+   "pl": "Dwudziestodziewięciolatek"
+  },
+  {
+   "start": 1940.4,
+   "end": 1942.0,
+   "es": "ha demostrado que en el México",
+   "id": 504,
+   "slot": 1.52,
+   "max_chars_pl": 21,
+   "pl": "pokazał, że we współczesnym"
+  },
+  {
+   "start": 1942.0,
+   "end": 1943.4,
+   "es": "contemporáneo",
+   "id": 505,
+   "slot": 1.32,
+   "max_chars_pl": 18,
+   "pl": "Meksyku"
+  },
+  {
+   "start": 1943.4,
+   "end": 1944.84,
+   "es": "el poder ya no pertenece",
+   "id": 506,
+   "slot": 1.36,
+   "max_chars_pl": 19,
+   "pl": "władza już nie należy"
+  },
+  {
+   "start": 1944.84,
+   "end": 1946.76,
+   "es": "a quien siembra la amapola,",
+   "id": 507,
+   "slot": 1.84,
+   "max_chars_pl": 25,
+   "pl": "do tego, kto sieje mak,"
+  },
+  {
+   "start": 1946.76,
+   "end": 1948.84,
+   "es": "sino a quien controla los drones,",
+   "id": 508,
+   "slot": 2.0,
+   "max_chars_pl": 28,
+   "pl": "lecz do tego, kto kontroluje drony,"
+  },
+  {
+   "start": 1948.84,
+   "end": 1950.36,
+   "es": "los explosivos",
+   "id": 509,
+   "slot": 1.44,
+   "max_chars_pl": 20,
+   "pl": "materiały wybuchowe"
+  },
+  {
+   "start": 1950.36,
+   "end": 1951.2,
+   "es": "y a los hombres",
+   "id": 510,
+   "slot": 0.76,
+   "max_chars_pl": 10,
+   "pl": "i ludzi,"
+  },
+  {
+   "start": 1951.2,
+   "end": 1953.2,
+   "es": "que no tienen miedo de usarlos.",
+   "id": 511,
+   "slot": 2.029,
+   "max_chars_pl": 28,
+   "pl": "którzy nie boją się ich użyć."
+  }
+ ]
+}
