@@ -2,7 +2,7 @@
 # -*- coding: utf-8 -*-
 """Intro de 10 s de aviso de suscripción (obligatoria en cada doblaje; ver CLAUDE.md).
 Narración polaca + dos planos del propio video + título «SUBSKRYBUJ» + botón animado Subskrybuj/Subskrybujesz + música original.
-VARIAR en cada video: planos (--a-inicio/--b-inicio), frase (--frase 1|2|3|4) y color del nombre (--color), para que no sea siempre igual.
+VARIAR en cada video: planos (--a-inicio/--b-inicio), frase (--frase 1|2|3|4|5) y color del nombre (--color), para que no sea siempre igual.
 
   python crear_intro.py --video original.mp4 --musica work/no_vocals.wav --voz-piper voices/pl_PL-mc_speech-medium.onnx \
       --a-inicio 230 --b-inicio 390 --frase 2 --salida intro.mp4 [--unir doblado.mp4 --final salida_con_intro.mp4]
@@ -23,6 +23,8 @@ FRASES = {
         f"zasubskrybuj kanał {CANAL} i kliknij dzwoneczek, by nie przegapić następnej."),
     4: ("Zanim przejdziemy dalej: jeśli podoba ci się ten kanał,",
         f"zasubskrybuj {CANAL} i włącz dzwoneczek, a każdy nowy odcinek trafi prosto do ciebie."),
+    5: ("Nim zaczniemy, mała rzecz: jeśli ten film cię zainteresuje,",
+        f"zasubskrybuj kanał {CANAL} i dzwoneczek też włącz, żeby nic cię nie ominęło."),
 }
 COLORES = {'naranja': '0xFFB020', 'rojo': '0xFF4D4D', 'blanco': '0xFFFFFF', 'celeste': '0x5CD6FF', 'verde': '0x7CFF6B', 'amarillo': '0xFFE94D'}
 
