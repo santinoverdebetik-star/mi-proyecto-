@@ -456,9 +456,12 @@ def cmd_recortar_pausas(a):
     if (w / 'no_vocals.wav').exists():
         escribir_wav_estereo(w / 'musica_c.wav', trocear_audio(leer_wav_estereo(w / 'no_vocals.wav'), cortes, fps, cruce=int(0.12 * SR)))
     expr = '+'.join(f'between(n,{f0},{f1 - 1})' for f0, f1 in cortes)
-    (w / 'filtro.txt').write_text(f"[0:v]select='{expr}',setpts=N/({fps:.6f}*TB)[v];"
+    # algunos videos mezclan fotogramas con etiquetas de color distintas (pc/bt470bg y tv/bt709): ffmpeg reinicia el filtro en cada cambio y select/setpts pierden la cuenta;
+    # por eso -reinit_filter 0 y se normaliza el color explícitamente antes de cortar
+    norm = 'scale=in_range=auto:out_range=tv:in_color_matrix=auto:out_color_matrix=bt709,setparams=range=tv:colorspace=bt709:color_primaries=bt709:color_trc=bt709,format=yuv420p,'
+    (w / 'filtro.txt').write_text(f"[0:v]{norm}select='{expr}',setpts=N/({fps:.6f}*TB)[v];"
                                   f'[1:a]apad=whole_dur={dur_out:.3f},atrim=end={dur_out:.3f},alimiter=limit=0.708:level=0[m]', encoding='utf-8')
-    run([FF, '-y', '-v', 'error', '-i', a.video, '-i', w / 'mix_c.wav', '-filter_complex_script', w / 'filtro.txt',
+    run([FF, '-y', '-v', 'error', '-reinit_filter', '0', '-i', a.video, '-i', w / 'mix_c.wav', '-filter_complex_script', w / 'filtro.txt',
          '-map', '[v]', '-map', '[m]', '-c:v', 'libx264', '-preset', a.preset, '-crf', a.crf, '-pix_fmt', 'yuv420p', '-r', f'{fps:.6f}',
          '-c:a', 'aac', '-b:a', f'{a.audio_kbps}k', '-ar', SR, '-metadata:s:a:0', f'language={ISO3.get(a.idioma, a.idioma)}',
          '-movflags', '+faststart', a.salida])
