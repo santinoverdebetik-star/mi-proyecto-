@@ -80,7 +80,16 @@ def main():
     sh(['ffmpeg', '-v', 'error', '-y', '-i', tmp / 'v.mp4', '-i', tmp / 'a.m4a', '-c', 'copy', '-t', 10, '-metadata:s:a:0', 'language=pol', '-movflags', '+faststart', a.salida])
     print(f'Intro lista: {a.salida} (narración {t1:.1f}–{fin:.1f} s; título desde {t2:.1f} s)')
     if a.unir:
-        lista = tmp / 'lista.txt'; lista.write_text(f"file '{Path(a.salida).resolve()}'\nfile '{Path(a.unir).resolve()}'\n")
+        # la intro se hace a 1280x720; si el video es de otra resolución se reescala (y se fija en 300 fotogramas) para que el concat sin recodificar sea válido
+        def sonda(f, e):
+            return subprocess.run(['ffprobe', '-v', 'error', '-select_streams', 'v:0', '-show_entries', f'stream={e}', '-of', 'csv=p=0', str(f)], capture_output=True, text=True).stdout.strip()
+        w, h = (int(x) for x in sonda(a.unir, 'width,height').split(','))
+        intro = Path(a.salida).resolve()
+        if (w, h) != (1280, 720) or sonda(intro, 'nb_frames') != '300':
+            intro = tmp / 'intro_ajustada.mp4'
+            sh(['ffmpeg', '-v', 'error', '-y', '-i', a.salida, '-vf', f'scale={w}:{h}:flags=lanczos,setsar=1,format=yuv420p', '-frames:v', 300, '-c:v', 'libx264', '-preset', 'medium', '-crf', 22,
+                '-r', 30, '-c:a', 'copy', '-t', 10, '-movflags', '+faststart', intro])
+        lista = tmp / 'lista.txt'; lista.write_text(f"file '{intro}'\nfile '{Path(a.unir).resolve()}'\n")
         sh(['ffmpeg', '-v', 'error', '-y', '-f', 'concat', '-safe', 0, '-i', lista, '-c', 'copy', '-movflags', '+faststart', '-metadata:s:a:0', 'language=pol', a.final])
         print(f'Video final con intro: {a.final}')
 

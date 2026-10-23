@@ -12,20 +12,20 @@
   },
   {
    "start": 4.56,
-   "end": 9.68,
+   "end": 9.48,
    "es": "en una prisión de máxima seguridad. En un centro de convenciones de Guadalajara,",
    "id": 2,
-   "slot": 5.04,
-   "max_chars_pl": 70,
+   "slot": 4.84,
+   "max_chars_pl": 67,
    "pl": "w więzieniu o zaostrzonym rygorze, w centrum kongresowym w Guadalajarze"
   },
   {
-   "start": 9.68,
+   "start": 9.48,
    "end": 14.32,
    "es": "una modelo caminó por una pasarela vestida con ropa que llevaba su cara, su apodo y",
    "id": 3,
-   "slot": 4.56,
-   "max_chars_pl": 63,
+   "slot": 4.76,
+   "max_chars_pl": 66,
    "pl": "modelka szła po wybiegu w ubraniach z jego twarzą, jego pseudonimem i"
   },
   {
@@ -48,73 +48,73 @@
   },
   {
    "start": 26.6,
-   "end": 31.22,
+   "end": 31.56,
    "es": "que usaba su nombre como si fuera el de una estrella de la moda. Había chaquetas,",
    "id": 6,
-   "slot": 4.54,
-   "max_chars_pl": 63,
+   "slot": 4.88,
+   "max_chars_pl": 68,
    "pl": "która używała jego nazwiska, jakby było nazwiskiem gwiazdy mody. Były kurtki,"
   },
   {
-   "start": 31.22,
+   "start": 31.56,
    "end": 38.0,
    "es": "cinturones, gorras, billeteras, zapatos, licor. Y detrás de todo eso, no había un socio del",
    "id": 7,
-   "slot": 6.7,
-   "max_chars_pl": 93,
+   "slot": 6.36,
+   "max_chars_pl": 89,
    "pl": "paski, czapki, portfele, buty, alkohol. A za tym wszystkim nie stał wspólnik"
   },
   {
    "start": 38.0,
-   "end": 45.12,
+   "end": 45.5,
    "es": "cartel, ni un operador, ni un testaferro clásico. Había una mujer, una médica cirujana,",
    "id": 8,
-   "slot": 7.04,
-   "max_chars_pl": 98,
+   "slot": 7.42,
+   "max_chars_pl": 103,
    "pl": "kartelu, ani operator, ani klasyczny słup. Stała kobieta, lekarka chirurg,"
   },
   {
-   "start": 45.12,
-   "end": 51.28,
+   "start": 45.5,
+   "end": 51.62,
    "es": "su hija mayor. Durante unos meses, esa marca estuvo en todas partes. En redes sociales,",
    "id": 9,
-   "slot": 6.08,
-   "max_chars_pl": 85,
+   "slot": 6.04,
+   "max_chars_pl": 84,
    "pl": "jego najstarsza córka. Przez kilka miesięcy ta marka była wszędzie. W mediach społecznościowych,"
   },
   {
-   "start": 51.28,
+   "start": 51.62,
    "end": 56.4,
    "es": "en notas de periódicos de medio planeta, en vitrinas donde una chaqueta podía costar lo",
    "id": 10,
-   "slot": 5.04,
-   "max_chars_pl": 70,
+   "slot": 4.7,
+   "max_chars_pl": 65,
    "pl": "w gazetach połowy świata, na wystawach, gdzie kurtka mogła kosztować tyle,"
   },
   {
    "start": 56.4,
-   "end": 61.68,
+   "end": 61.96,
    "es": "que gana un trabajador en varias semanas. Y después, casi tan rápido como había aparecido,",
    "id": 11,
-   "slot": 5.2,
-   "max_chars_pl": 72,
+   "slot": 5.48,
+   "max_chars_pl": 76,
    "pl": "ile pracownik zarabia przez kilka tygodni. A potem, niemal tak szybko, jak się pojawiła,"
   },
   {
-   "start": 61.68,
-   "end": 67.36,
+   "start": 61.96,
+   "end": 67.3,
    "es": "desapareció. La página web dejó de funcionar. Las tiendas se vaciaron. El",
    "id": 12,
-   "slot": 5.6,
-   "max_chars_pl": 78,
+   "slot": 5.26,
+   "max_chars_pl": 73,
    "pl": "zniknęła. Strona internetowa przestała działać. Sklepy opustoszały."
   },
   {
-   "start": 67.36,
+   "start": 67.3,
    "end": 72.52,
    "es": "proyecto se evaporó, como si alguien hubiera decidido que ese nombre nunca debió convertirse",
    "id": 13,
-   "slot": 5.08,
+   "slot": 5.14,
    "max_chars_pl": 71,
    "pl": "Projekt wyparował, jakby ktoś postanowił, że to nazwisko nigdy nie powinno stać się"
   },
@@ -138,20 +138,20 @@
   },
   {
    "start": 82.36,
-   "end": 87.64,
+   "end": 87.48,
    "es": "planeta se esfumó de esa manera? ¿Fue un fracaso comercial? ¿Una derrota legal? ¿Una",
    "id": 16,
-   "slot": 5.2,
-   "max_chars_pl": 72,
+   "slot": 5.04,
+   "max_chars_pl": 70,
    "pl": "świata rozpłynął się w taki sposób? Czy to była porażka handlowa? Przegrana prawna?"
   },
   {
-   "start": 87.64,
+   "start": 87.48,
    "end": 93.24,
    "es": "presión invisible? ¿O simplemente una retirada calculada? Y sobre todo, ¿quién era realmente",
    "id": 17,
-   "slot": 5.52,
-   "max_chars_pl": 77,
+   "slot": 5.68,
+   "max_chars_pl": 79,
    "pl": "Niewidzialny nacisk? A może po prostu wyrachowany odwrót? A przede wszystkim, kim naprawdę była"
   },
   {
@@ -174,20 +174,20 @@
   },
   {
    "start": 104.44,
-   "end": 109.76,
+   "end": 109.64,
    "es": "con la cara de su padre. Pero su historia es bastante más complicada que esa frase. Es",
    "id": 20,
-   "slot": 5.24,
-   "max_chars_pl": 73,
+   "slot": 5.12,
+   "max_chars_pl": 71,
    "pl": "z twarzą ojca. Ale jej historia jest znacznie bardziej skomplikowana niż to zdanie. To"
   },
   {
-   "start": 109.76,
+   "start": 109.64,
    "end": 114.72,
    "es": "la historia de una familia atrapada entre la medicina y el narcotráfico, entre el negocio",
    "id": 21,
-   "slot": 4.88,
-   "max_chars_pl": 68,
+   "slot": 5.0,
+   "max_chars_pl": 70,
    "pl": "historia rodziny uwięzionej między medycyną a narkobiznesem, między legalnym biznesem"
   },
   {
@@ -219,20 +219,20 @@
   },
   {
    "start": 129.44,
-   "end": 134.96,
+   "end": 135.28,
    "es": "y, a su manera, más valioso. El nombre. Para entender cómo se llegó hasta esa pasarela,",
    "id": 25,
-   "slot": 5.44,
-   "max_chars_pl": 76,
+   "slot": 5.76,
+   "max_chars_pl": 80,
    "pl": "i na swój sposób cenniejszego. Nazwisko. Aby zrozumieć, jak doszło do tego wybiegu,"
   },
   {
-   "start": 134.96,
+   "start": 135.28,
    "end": 142.12,
    "es": "hay que volver atrás. Bastante atrás. Alejandrina Giselle Guzmán Salazar es, según los reportes de",
    "id": 26,
-   "slot": 7.08,
-   "max_chars_pl": 99,
+   "slot": 6.76,
+   "max_chars_pl": 94,
    "pl": "trzeba cofnąć się w czasie. Całkiem daleko. Alejandrina Giselle Guzmán Salazar jest, według najczęściej powtarzanych doniesień"
   },
   {
@@ -246,20 +246,20 @@
   },
   {
    "start": 147.36,
-   "end": 153.36,
+   "end": 153.3,
    "es": "mundo conoce como el chapo y de su primera esposa, María Alejandrina Salazar Hernández. Es",
    "id": 28,
-   "slot": 5.92,
+   "slot": 5.86,
    "max_chars_pl": 82,
    "pl": "świat zna jako Chapo, i jego pierwszej żony, Maríi Alejandriny Salazar Hernández."
   },
   {
-   "start": 153.36,
+   "start": 153.3,
    "end": 159.56,
    "es": "decir, la hija mayor del capo más buscado de su generación. Creció, como casi todos los",
    "id": 29,
-   "slot": 6.12,
-   "max_chars_pl": 85,
+   "slot": 6.18,
+   "max_chars_pl": 86,
    "pl": "Czyli najstarszą córką najbardziej poszukiwanego capo swojego pokolenia. Dorastała, jak prawie wszystkie"
   },
   {
@@ -300,20 +300,20 @@
   },
   {
    "start": 180.04,
-   "end": 184.2,
+   "end": 184.6,
    "es": "De acuerdo con documentos que distintos medios citaron a lo largo de los años,",
    "id": 34,
-   "slot": 4.08,
-   "max_chars_pl": 57,
+   "slot": 4.48,
+   "max_chars_pl": 62,
    "pl": "Według dokumentów, które na przestrzeni lat cytowały różne media,"
   },
   {
-   "start": 184.2,
+   "start": 184.6,
    "end": 189.74,
    "es": "Alejandrina estudió para convertirse en médica cirujana y terminó esos estudios alrededor de",
    "id": 35,
-   "slot": 5.46,
-   "max_chars_pl": 76,
+   "slot": 5.06,
+   "max_chars_pl": 70,
    "pl": "Alejandrina kształciła się na lekarkę chirurga i ukończyła studia około"
   },
   {
@@ -390,20 +390,20 @@
   },
   {
    "start": 232.52,
-   "end": 237.84,
+   "end": 238.2,
    "es": "pena subrayar desde el principio, porque va a reaparecer una y otra vez. Por un lado,",
    "id": 44,
-   "slot": 5.24,
-   "max_chars_pl": 73,
+   "slot": 5.6,
+   "max_chars_pl": 78,
    "pl": "podkreślić od początku, bo będzie wracać raz za razem. Z jednej strony"
   },
   {
-   "start": 237.84,
+   "start": 238.2,
    "end": 243.78,
    "es": "una carrera legal, respetable, difícil de conseguir. Por el otro, un apellido que abre",
    "id": 45,
-   "slot": 5.86,
-   "max_chars_pl": 82,
+   "slot": 5.5,
+   "max_chars_pl": 77,
    "pl": "legalna kariera, szanowana, trudna do zdobycia. Z drugiej nazwisko, które otwiera"
   },
   {
@@ -480,38 +480,38 @@
   },
   {
    "start": 287.0,
-   "end": 291.8,
+   "end": 291.7,
    "es": "de décadas, hasta convertirse en uno de los líderes del Cartel de Sinaloa, la",
    "id": 54,
-   "slot": 4.72,
-   "max_chars_pl": 66,
+   "slot": 4.62,
+   "max_chars_pl": 64,
    "pl": "dziesięciolecia, aż został jednym z przywódców Kartelu Sinaloa,"
   },
   {
-   "start": 291.8,
+   "start": 291.7,
    "end": 296.88,
    "es": "organización de narcotráfico más poderosa de México y una de las más influyentes del mundo.",
    "id": 55,
-   "slot": 5.0,
-   "max_chars_pl": 70,
+   "slot": 5.1,
+   "max_chars_pl": 71,
    "pl": "najpotężniejszej organizacji narkotykowej Meksyku i jednej z najbardziej wpływowych na świecie."
   },
   {
    "start": 296.88,
-   "end": 301.92,
+   "end": 301.62,
    "es": "Su historia incluye todo lo que convierte a un criminal en leyenda popular. Fugas",
    "id": 56,
-   "slot": 4.96,
-   "max_chars_pl": 69,
+   "slot": 4.66,
+   "max_chars_pl": 65,
    "pl": "Jego historia zawiera wszystko, co z przestępcy robi ludową legendę. Spektakularne"
   },
   {
-   "start": 301.92,
+   "start": 301.62,
    "end": 307.32,
    "es": "espectaculares, capturas, traiciones, alianzas, guerras entre carteles y una",
    "id": 57,
-   "slot": 5.32,
-   "max_chars_pl": 74,
+   "slot": 5.62,
+   "max_chars_pl": 78,
    "pl": "ucieczki, aresztowania, zdrady, sojusze, wojny między kartelami i"
   },
   {
@@ -579,38 +579,38 @@
   },
   {
    "start": 346.24,
-   "end": 352.08,
+   "end": 352.46,
    "es": "que expusieron, ante un jurado, el funcionamiento interno del cartel de Sinaloa, las rutas,",
    "id": 65,
-   "slot": 5.76,
-   "max_chars_pl": 80,
+   "slot": 6.14,
+   "max_chars_pl": 85,
    "pl": "które ujawniły przed ławą przysięgłych wewnętrzne funkcjonowanie Kartelu Sinaloa, trasy,"
   },
   {
-   "start": 352.08,
+   "start": 352.46,
    "end": 357.84,
    "es": "los sobornos, los túneles, los métodos para mover toneladas de droga hacia Estados Unidos.",
    "id": 66,
-   "slot": 5.68,
-   "max_chars_pl": 79,
+   "slot": 5.3,
+   "max_chars_pl": 74,
    "pl": "łapówki, tunele, metody przerzucania ton narkotyków do Stanów Zjednoczonych."
   },
   {
    "start": 357.84,
-   "end": 362.56,
+   "end": 362.82,
    "es": "La figura del capo, que durante décadas había vivido entre la sombra y el mito,",
    "id": 67,
-   "slot": 4.64,
-   "max_chars_pl": 64,
+   "slot": 4.9,
+   "max_chars_pl": 68,
    "pl": "Postać capo, który przez dziesięciolecia żył w cieniu i micie,"
   },
   {
-   "start": 362.56,
+   "start": 362.82,
    "end": 366.88,
    "es": "quedaba por fin desmenuzada en un expediente judicial. Y mientras ese",
    "id": 68,
-   "slot": 4.24,
-   "max_chars_pl": 59,
+   "slot": 3.98,
+   "max_chars_pl": 55,
    "pl": "została wreszcie rozłożona na części pierwsze w aktach sądowych. A gdy ta"
   },
   {
@@ -633,20 +633,20 @@
   },
   {
    "start": 377.12,
-   "end": 383.6,
+   "end": 383.8,
    "es": "Cuanto más caía el hombre real, más brillaba la leyenda. Y toda leyenda, tarde o temprano,",
    "id": 71,
-   "slot": 6.4,
-   "max_chars_pl": 89,
+   "slot": 6.6,
+   "max_chars_pl": 92,
    "pl": "Im bardziej upadał prawdziwy człowiek, tym jaśniej świeciła legenda. A każda legenda prędzej czy później"
   },
   {
-   "start": 383.6,
+   "start": 383.8,
    "end": 389.28,
    "es": "atrae a alguien que quiere venderla. Pero hay un episodio puntual, mucho menos sangriento que",
    "id": 72,
-   "slot": 5.6,
-   "max_chars_pl": 78,
+   "slot": 5.4,
+   "max_chars_pl": 75,
    "pl": "przyciąga kogoś, kto chce ją sprzedać. Ale jest jeden konkretny epizod, znacznie mniej krwawy niż"
   },
   {
@@ -705,20 +705,20 @@
   },
   {
    "start": 424.48,
-   "end": 429.72,
+   "end": 430.0,
    "es": "negocios estadounidense estaba poniendo, en la misma tabla que empresarios y magnates legales,",
    "id": 79,
-   "slot": 5.16,
-   "max_chars_pl": 72,
+   "slot": 5.44,
+   "max_chars_pl": 76,
    "pl": "biznesowy umieścił w jednej tabeli z legalnymi przedsiębiorcami i magnatami"
   },
   {
-   "start": 429.72,
+   "start": 430.0,
    "end": 436.12,
    "es": "a un narcotraficante prófugo con una recompensa millonaria sobre su cabeza. La reacción en México",
    "id": 80,
-   "slot": 6.32,
-   "max_chars_pl": 88,
+   "slot": 6.04,
+   "max_chars_pl": 84,
    "pl": "ściganego handlarza narkotyków, za którego głowę wyznaczono milionową nagrodę. Reakcja w Meksyku"
   },
   {
@@ -759,29 +759,29 @@
   },
   {
    "start": 456.52,
-   "end": 461.84,
+   "end": 462.18,
    "es": "de la época, Felipe Calderón, reprochó que ciertas revistas terminaran en los hechos,",
    "id": 85,
-   "slot": 5.24,
-   "max_chars_pl": 73,
+   "slot": 5.58,
+   "max_chars_pl": 78,
    "pl": "Felipe Calderón, zarzucił, że pewne magazyny w praktyce kończą,"
   },
   {
-   "start": 461.84,
-   "end": 467.08,
+   "start": 462.18,
+   "end": 467.46,
    "es": "enalteciendo a criminales. Y la polémica no hizo más que crecer cuando, meses después,",
    "id": 86,
-   "slot": 5.16,
+   "slot": 5.2,
    "max_chars_pl": 72,
    "pl": "wynosząc przestępców na piedestał. A kontrowersja tylko rosła, gdy kilka miesięcy później,"
   },
   {
-   "start": 467.08,
+   "start": 467.46,
    "end": 472.88,
    "es": "ese mismo año, Forbes volvió a mencionarlo, esta vez en su lista de las personas más",
    "id": 87,
-   "slot": 5.72,
-   "max_chars_pl": 80,
+   "slot": 5.34,
+   "max_chars_pl": 74,
    "pl": "w tym samym roku, Forbes wspomniał o nim ponownie, tym razem na liście najbardziej"
   },
   {
@@ -804,38 +804,38 @@
   },
   {
    "start": 482.76,
-   "end": 488.64,
+   "end": 489.0,
    "es": "mexicano merecían siquiera figurar en semejantes listas. La metodología para calcular esa fortuna,",
    "id": 90,
-   "slot": 5.8,
-   "max_chars_pl": 81,
+   "slot": 6.16,
+   "max_chars_pl": 86,
    "pl": "meksykański capo, w ogóle zasługują na miejsce na takich listach. Metodologia obliczania tego majątku,"
   },
   {
-   "start": 488.64,
+   "start": 489.0,
    "end": 493.8,
    "es": "por cierto, nunca se explicó del todo. Cuando una periodista preguntó cómo habían",
    "id": 91,
-   "slot": 5.08,
-   "max_chars_pl": 71,
+   "slot": 4.72,
+   "max_chars_pl": 66,
    "pl": "swoją drogą, nigdy nie została do końca wyjaśniona. Gdy dziennikarka zapytała, jak doszli"
   },
   {
    "start": 493.8,
-   "end": 498.84,
+   "end": 499.12,
    "es": "llegado a esa cifra, un editor respondió, simplemente, que el método era propietario,",
    "id": 92,
-   "slot": 4.96,
-   "max_chars_pl": 69,
+   "slot": 5.24,
+   "max_chars_pl": 73,
    "pl": "do tej kwoty, redaktor odpowiedział po prostu, że metoda jest zastrzeżona,"
   },
   {
-   "start": 498.84,
+   "start": 499.12,
    "end": 504.16,
    "es": "es decir, secreto. Guzmán se mantuvo en la lista de multimillonarios hasta alrededor",
    "id": 93,
-   "slot": 5.24,
-   "max_chars_pl": 73,
+   "slot": 4.96,
+   "max_chars_pl": 69,
    "pl": "czyli tajna. Guzmán utrzymał się na liście miliarderów mniej więcej do"
   },
   {
@@ -894,20 +894,20 @@
   },
   {
    "start": 536.96,
-   "end": 541.64,
+   "end": 541.58,
    "es": "condensaba la idea de que un hombre de la sierra de Sinaloa había llegado a codearse en",
    "id": 100,
-   "slot": 4.6,
-   "max_chars_pl": 64,
+   "slot": 4.54,
+   "max_chars_pl": 63,
    "pl": "skupiała w sobie ideę, że człowiek z gór Sinaloa zdołał stanąć w jednym rzędzie"
   },
   {
-   "start": 541.64,
+   "start": 541.58,
    "end": 547.7,
    "es": "papel con los más ricos del planeta. Años después, ese número terminaría cosido en chaquetas y",
    "id": 101,
-   "slot": 5.98,
-   "max_chars_pl": 83,
+   "slot": 6.04,
+   "max_chars_pl": 84,
    "pl": "na papierze z najbogatszymi ludźmi planety. Lata później ta liczba została wszyta w kurtki i"
   },
   {
@@ -984,29 +984,29 @@
   },
   {
    "start": 589.7,
-   "end": 594.62,
+   "end": 594.98,
    "es": "incluyó en sus listas de sancionados a familiares directos del capo, entre ellos,",
    "id": 110,
-   "slot": 4.84,
-   "max_chars_pl": 67,
+   "slot": 5.2,
+   "max_chars_pl": 72,
    "pl": "umieścił na listach sankcyjnych bliskich krewnych capo, wśród nich,"
   },
   {
-   "start": 594.62,
-   "end": 600.18,
+   "start": 594.98,
+   "end": 599.9,
    "es": "según esos anuncios oficiales, a su esposa María Alejandrina Salazar Hernández y a su",
    "id": 111,
-   "slot": 5.48,
-   "max_chars_pl": 76,
+   "slot": 4.84,
+   "max_chars_pl": 67,
    "pl": "według oficjalnych komunikatów, jego żonę Maríę Alejandrinę Salazar Hernández i jego"
   },
   {
-   "start": 600.18,
+   "start": 599.9,
    "end": 605.46,
    "es": "hijo Jesús Alfredo Guzmán Salazar, acusándolos de brindar apoyo a las actividades del cartel",
    "id": 112,
-   "slot": 5.2,
-   "max_chars_pl": 72,
+   "slot": 5.48,
+   "max_chars_pl": 76,
    "pl": "syna Jesúsa Alfreda Guzmána Salazara, oskarżając ich o wspieranie działalności kartelu"
   },
   {
@@ -1047,29 +1047,29 @@
   },
   {
    "start": 627.38,
-   "end": 632.7,
+   "end": 633.1,
    "es": "por un cargamento ni por una orden de captura, sino por un proyecto que, al menos en su fachada,",
    "id": 117,
-   "slot": 5.24,
-   "max_chars_pl": 73,
+   "slot": 5.64,
+   "max_chars_pl": 78,
    "pl": "z powodu transportu ani nakazu aresztowania, lecz projektu, który, przynajmniej z pozoru,"
   },
   {
-   "start": 632.7,
-   "end": 639.02,
+   "start": 633.1,
+   "end": 638.7,
    "es": "era perfectamente legal. Registrar y explotar comercialmente el nombre de su padre. Y aquí",
    "id": 118,
-   "slot": 6.24,
-   "max_chars_pl": 87,
+   "slot": 5.52,
+   "max_chars_pl": 77,
    "pl": "był całkowicie legalny. Zarejestrować i komercyjnie wykorzystać nazwisko ojca. I tu"
   },
   {
-   "start": 639.02,
-   "end": 643.58,
+   "start": 638.7,
+   "end": 643.62,
    "es": "es donde hay que detenerse en un detalle que la mayoría de la gente desconoce. La idea",
    "id": 119,
-   "slot": 4.52,
-   "max_chars_pl": 63,
+   "slot": 4.84,
+   "max_chars_pl": 67,
    "pl": "trzeba zatrzymać się przy szczególe, którego większość ludzi nie zna. Pomysł"
   },
   {
@@ -1083,29 +1083,29 @@
   },
   {
    "start": 648.86,
-   "end": 653.26,
+   "end": 653.5,
    "es": "cuando el capo ya estaba preso. Según los expedientes citados por la prensa,",
    "id": 121,
-   "slot": 4.32,
-   "max_chars_pl": 60,
+   "slot": 4.56,
+   "max_chars_pl": 63,
    "pl": "gdy capo siedział już w więzieniu. Według akt cytowanych przez prasę,"
   },
   {
-   "start": 653.26,
-   "end": 658.5,
+   "start": 653.5,
+   "end": 658.9,
    "es": "los intentos de registrar el nombre comenzaron bastante antes. De acuerdo con esos reportes,",
    "id": 122,
-   "slot": 5.16,
-   "max_chars_pl": 72,
+   "slot": 5.32,
+   "max_chars_pl": 74,
    "pl": "próby zarejestrowania nazwiska zaczęły się znacznie wcześniej. Według tych doniesień,"
   },
   {
-   "start": 658.5,
+   "start": 658.9,
    "end": 663.58,
    "es": "ya alrededor de 2011 se habían presentado ante el Instituto Mexicano de la Propiedad",
    "id": 123,
-   "slot": 5.0,
-   "max_chars_pl": 70,
+   "slot": 4.6,
+   "max_chars_pl": 64,
    "pl": "już około dwa tysiące jedenastego roku złożono w Meksykańskim Instytucie Własności"
   },
   {
@@ -1119,20 +1119,20 @@
   },
   {
    "start": 669.18,
-   "end": 674.82,
+   "end": 674.64,
    "es": "las marcas en México, solicitudes para registrar expresiones como Joaquín el Chapo Guzmán y el",
    "id": 125,
-   "slot": 5.56,
-   "max_chars_pl": 77,
+   "slot": 5.38,
+   "max_chars_pl": 75,
    "pl": "znaki towarowe w Meksyku, wnioski o rejestrację takich wyrażeń jak Joaquín el Chapo Guzmán i"
   },
   {
-   "start": 674.82,
+   "start": 674.64,
    "end": 680.78,
    "es": "Chapo Guzmán. Esas primeras solicitudes, atribuidas a la hija del capo, fueron rechazadas.",
    "id": 126,
-   "slot": 5.88,
-   "max_chars_pl": 82,
+   "slot": 6.06,
+   "max_chars_pl": 84,
    "pl": "El Chapo Guzmán. Te pierwsze wnioski, przypisywane córce capo, zostały odrzucone."
   },
   {
@@ -1191,20 +1191,20 @@
   },
   {
    "start": 711.94,
-   "end": 716.7,
+   "end": 716.94,
    "es": "algo para que se entienda la dimensión de lo que estaba pasando. El intento de Alejandrina",
    "id": 133,
-   "slot": 4.68,
-   "max_chars_pl": 65,
+   "slot": 4.92,
+   "max_chars_pl": 68,
    "pl": "jedno, by zrozumieć skalę tego, co się działo. Próba Alejandriny"
   },
   {
-   "start": 716.7,
+   "start": 716.94,
    "end": 721.9,
    "es": "no era un caso aislado ni una ocurrencia personal. Era parte de un fenómeno más amplio",
    "id": 134,
-   "slot": 5.12,
-   "max_chars_pl": 71,
+   "slot": 4.88,
+   "max_chars_pl": 68,
    "pl": "nie była odosobnionym przypadkiem ani osobistym kaprysem. Była częścią szerszego zjawiska"
   },
   {
@@ -1236,16 +1236,16 @@
   },
   {
    "start": 735.7,
-   "end": 740.3,
+   "end": 740.56,
    "es": "espectáculo. Uno de los casos más sonados fue el de Miguel Ángel Félix Gallardo,",
    "id": 138,
-   "slot": 4.52,
-   "max_chars_pl": 63,
+   "slot": 4.78,
+   "max_chars_pl": 66,
    "pl": "show-biznesu. Jednym z najgłośniejszych przypadków był Miguel Ángel Félix Gallardo,"
   },
   {
-   "start": 740.3,
-   "end": 744.98,
+   "start": 740.56,
+   "end": 745.24,
    "es": "el histórico fundador del narcotráfico mexicano moderno, apodado el jefe de jefes,",
    "id": 139,
    "slot": 4.6,
@@ -1253,30 +1253,30 @@
    "pl": "historyczny założyciel nowoczesnego meksykańskiego narkobiznesu, zwany szefem szefów,"
   },
   {
-   "start": 744.98,
-   "end": 750.62,
+   "start": 745.24,
+   "end": 750.66,
    "es": "cuya solicitud de registro de marca fue presentada hacia fines de 2019. El patrón",
    "id": 140,
-   "slot": 5.6,
-   "max_chars_pl": 78,
+   "slot": 5.34,
+   "max_chars_pl": 74,
    "pl": "którego wniosek o rejestrację znaku złożono pod koniec dwa tysiące dziewiętnastego roku. Schemat"
   },
   {
    "start": 750.66,
-   "end": 755.42,
+   "end": 755.74,
    "es": "se repetía tomar el nombre de un criminal famoso, cargado de leyenda por canciones,",
    "id": 141,
-   "slot": 4.68,
-   "max_chars_pl": 65,
+   "slot": 5.0,
+   "max_chars_pl": 70,
    "pl": "się powtarzał: wziąć nazwisko słynnego przestępcy, naładowane legendą z piosenek,"
   },
   {
-   "start": 755.42,
+   "start": 755.74,
    "end": 761.22,
    "es": "series y rumores, y tratar de convertirlo en una fuente legal de ingresos. En el caso de",
    "id": 142,
-   "slot": 5.72,
-   "max_chars_pl": 80,
+   "slot": 5.4,
+   "max_chars_pl": 75,
    "pl": "seriali i plotek, i spróbować zamienić je w legalne źródło dochodu. W przypadku"
   },
   {
@@ -1398,20 +1398,20 @@
   },
   {
    "start": 835.62,
-   "end": 840.42,
+   "end": 840.72,
    "es": "criminal. Era el nombre del capo envuelto en el lenguaje de los negocios, del lujo,",
    "id": 156,
-   "slot": 4.72,
-   "max_chars_pl": 66,
+   "slot": 5.02,
+   "max_chars_pl": 70,
    "pl": "przestępcy. To było nazwisko capo owinięte w język biznesu, luksusu,"
   },
   {
-   "start": 840.42,
+   "start": 840.72,
    "end": 846.7,
    "es": "de las listas de millonarios. Era, en el fondo, una manera de decir sin decir. Y mientras",
    "id": 157,
-   "slot": 6.2,
-   "max_chars_pl": 86,
+   "slot": 5.9,
+   "max_chars_pl": 82,
    "pl": "list milionerów. To był w gruncie rzeczy sposób, by powiedzieć, nie mówiąc. A gdy"
   },
   {
@@ -1425,20 +1425,20 @@
   },
   {
    "start": 851.26,
-   "end": 856.5,
+   "end": 856.3,
    "es": "no esperar el permiso para empezar a vender. Esto es algo que conviene entender bien. Una",
    "id": 159,
-   "slot": 5.16,
-   "max_chars_pl": 72,
+   "slot": 4.96,
+   "max_chars_pl": 69,
    "pl": "nie czekać na zgodę, by zacząć sprzedawać. Warto to dobrze zrozumieć."
   },
   {
-   "start": 856.5,
+   "start": 856.3,
    "end": 861.94,
    "es": "cosa es tener una marca registrada y protegida por la ley, y otra muy distinta es lanzar productos",
    "id": 160,
-   "slot": 5.36,
-   "max_chars_pl": 75,
+   "slot": 5.56,
+   "max_chars_pl": 77,
    "pl": "Co innego mieć zarejestrowany znak chroniony prawem, a co innego wprowadzać produkty"
   },
   {
@@ -1461,20 +1461,20 @@
   },
   {
    "start": 873.74,
-   "end": 879.22,
+   "end": 879.02,
    "es": "moda que se celebra cada año en la ciudad de Guadalajara, la marca El Chapo 701 hizo",
    "id": 163,
-   "slot": 5.4,
-   "max_chars_pl": 75,
+   "slot": 5.2,
+   "max_chars_pl": 72,
    "pl": "mody, które co roku odbywają się w Guadalajarze, marka El Chapo 701 miała"
   },
   {
-   "start": 879.22,
+   "start": 879.02,
    "end": 884.78,
    "es": "su gran presentación en sociedad. Modelos desfilando, prensa invitada, fotógrafos,",
    "id": 164,
-   "slot": 5.48,
-   "max_chars_pl": 76,
+   "slot": 5.68,
+   "max_chars_pl": 79,
    "pl": "swoją wielką prezentację. Modelki na wybiegu, zaproszona prasa, fotografowie,"
   },
   {
@@ -1515,20 +1515,20 @@
   },
   {
    "start": 905.18,
-   "end": 911.3,
+   "end": 911.64,
    "es": "se definía el destino final de Joaquín Guzmán Loera. El 17 de julio de 2019,",
    "id": 169,
-   "slot": 6.04,
-   "max_chars_pl": 84,
+   "slot": 6.38,
+   "max_chars_pl": 89,
    "pl": "ważyły się ostateczne losy Joaquína Guzmána Loery. Siedemnastego lipca dwa tysiące dziewiętnastego roku"
   },
   {
-   "start": 911.3,
+   "start": 911.64,
    "end": 916.66,
    "es": "un juez estadounidense lo condenó a cadena perpetua más 30 años, tras un juicio que había",
    "id": 170,
-   "slot": 5.28,
-   "max_chars_pl": 73,
+   "slot": 4.94,
+   "max_chars_pl": 69,
    "pl": "amerykański sędzia skazał go na dożywocie plus trzydzieści lat po procesie, który"
   },
   {
@@ -1542,74 +1542,74 @@
   },
   {
    "start": 922.22,
-   "end": 926.9,
+   "end": 926.5,
    "es": "padre escuchaba en una sala blindada que jamás volvería a ser un hombre libre, la hija",
    "id": 172,
-   "slot": 4.6,
-   "max_chars_pl": 64,
+   "slot": 4.2,
+   "max_chars_pl": 58,
    "pl": "ojciec słuchał w opancerzonej sali, że już nigdy nie będzie wolnym człowiekiem, córka"
   },
   {
-   "start": 926.9,
-   "end": 931.98,
+   "start": 926.5,
+   "end": 932.36,
    "es": "presentaba, en un centro de convenciones iluminado, la ropa que llevaría su nombre al mundo.",
    "id": 173,
-   "slot": 5.0,
-   "max_chars_pl": 70,
+   "slot": 5.78,
+   "max_chars_pl": 80,
    "pl": "prezentowała w rozświetlonym centrum kongresowym ubrania, które miały zanieść jej nazwisko w świat."
   },
   {
-   "start": 931.98,
-   "end": 937.42,
+   "start": 932.36,
+   "end": 937.04,
    "es": "La caída definitiva de uno coincidía con el lanzamiento comercial del otro. El hombre",
    "id": 174,
-   "slot": 5.36,
-   "max_chars_pl": 75,
+   "slot": 4.6,
+   "max_chars_pl": 64,
    "pl": "Ostateczny upadek jednego zbiegł się z komercyjnym startem drugiego. Człowiek"
   },
   {
-   "start": 937.42,
+   "start": 937.04,
    "end": 942.94,
    "es": "desaparecía dentro del sistema penitenciario estadounidense. Su marca, en cambio, empezaba",
    "id": 175,
-   "slot": 5.44,
-   "max_chars_pl": 76,
+   "slot": 5.82,
+   "max_chars_pl": 81,
    "pl": "znikał w amerykańskim systemie więziennym. Jego marka natomiast zaczynała"
   },
   {
    "start": 942.94,
-   "end": 949.46,
+   "end": 949.7,
    "es": "a circular. ¿Y qué era, exactamente, el Chapo 701? Según las crónicas de la época,",
    "id": 176,
-   "slot": 6.44,
-   "max_chars_pl": 90,
+   "slot": 6.68,
+   "max_chars_pl": 93,
    "pl": "krążyć. A czym dokładnie było Chapo 701? Według ówczesnych relacji"
   },
   {
-   "start": 949.46,
+   "start": 949.7,
    "end": 954.86,
    "es": "se trataba de una línea bastante amplia de ropa y accesorios. Había chaquetas, camisas,",
    "id": 177,
-   "slot": 5.32,
-   "max_chars_pl": 74,
+   "slot": 5.08,
+   "max_chars_pl": 71,
    "pl": "była to dość szeroka linia ubrań i akcesoriów. Były kurtki, koszule,"
   },
   {
    "start": 954.86,
-   "end": 961.7,
+   "end": 962.42,
    "es": "pantalones, gorras, sombreros, cinturones, billeteras, carteras, zapatos, trajes de baño,",
    "id": 178,
-   "slot": 7.6,
-   "max_chars_pl": 106,
+   "slot": 7.48,
+   "max_chars_pl": 104,
    "pl": "spodnie, czapki, kapelusze, paski, portfele, torebki, buty, kostiumy kąpielowe,"
   },
   {
-   "start": 962.54,
+   "start": 962.42,
    "end": 968.4,
    "es": "pero también objetos más específicos, joyería, encendedores, petacas para licor e incluso",
    "id": 179,
-   "slot": 5.78,
-   "max_chars_pl": 80,
+   "slot": 5.9,
+   "max_chars_pl": 82,
    "pl": "ale także bardziej szczególne przedmioty, biżuteria, zapalniczki, piersiówki i nawet"
   },
   {
@@ -1650,19 +1650,19 @@
   },
   {
    "start": 988.86,
-   "end": 995.02,
+   "end": 995.04,
    "es": "por encima de los 700 dólares. No era entonces ropa pensada para un consumidor cualquiera.",
    "id": 184,
-   "slot": 6.08,
+   "slot": 6.1,
    "max_chars_pl": 85,
    "pl": "ponad siedmiuset dolarów. Nie było to więc ubranie dla zwykłego konsumenta."
   },
   {
-   "start": 995.02,
+   "start": 995.04,
    "end": 999.98,
    "es": "Era un producto de nicho, dirigido a quienes querían exhibir, literalmente puesta sobre",
    "id": 185,
-   "slot": 4.88,
+   "slot": 4.86,
    "max_chars_pl": 68,
    "pl": "Był to produkt niszowy, skierowany do tych, którzy chcieli pokazać, dosłownie na własnym"
   },
@@ -1677,29 +1677,29 @@
   },
   {
    "start": 1004.98,
-   "end": 1010.06,
+   "end": 1009.76,
    "es": "un detalle particularmente llamativo, de esos que dicen mucho más de lo que parece.",
    "id": 187,
-   "slot": 5.0,
-   "max_chars_pl": 70,
+   "slot": 4.7,
+   "max_chars_pl": 65,
    "pl": "szczegół szczególnie uderzający, z tych, które mówią znacznie więcej, niż się wydaje."
   },
   {
-   "start": 1010.06,
-   "end": 1014.4,
+   "start": 1009.76,
+   "end": 1014.3,
    "es": "Según promotores del proyecto citados por la prensa, una parte de los productos,",
    "id": 188,
-   "slot": 4.26,
-   "max_chars_pl": 59,
+   "slot": 4.46,
+   "max_chars_pl": 62,
    "pl": "Według promotorów projektu cytowanych przez prasę część produktów,"
   },
   {
-   "start": 1014.4,
+   "start": 1014.3,
    "end": 1018.06,
    "es": "en especial algunos cinturones hechos a mano, habría sido confeccionada por",
    "id": 189,
-   "slot": 3.58,
-   "max_chars_pl": 50,
+   "slot": 3.68,
+   "max_chars_pl": 51,
    "pl": "zwłaszcza niektóre ręcznie robione paski, miała być wykonana przez"
   },
   {
@@ -1767,20 +1767,20 @@
   },
   {
    "start": 1054.54,
-   "end": 1060.46,
+   "end": 1060.24,
    "es": "cosía cinturones con su nombre. Es el tipo de detalle que resume toda la historia. En el",
    "id": 197,
-   "slot": 5.84,
-   "max_chars_pl": 81,
+   "slot": 5.62,
+   "max_chars_pl": 78,
    "pl": "szyło paski z jego nazwiskiem. To rodzaj szczegółu, który streszcza całą historię. W"
   },
   {
-   "start": 1060.46,
+   "start": 1060.24,
    "end": 1065.7,
    "es": "mundo del Chapo, hasta la derrota se transforma en relato. La marca no se quedó solo en la",
    "id": 198,
-   "slot": 5.16,
-   "max_chars_pl": 72,
+   "slot": 5.38,
+   "max_chars_pl": 75,
    "pl": "świecie Chapo nawet klęska zamienia się w opowieść. Marka nie ograniczyła się do"
   },
   {
@@ -1794,20 +1794,20 @@
   },
   {
    "start": 1070.98,
-   "end": 1076.54,
+   "end": 1076.92,
    "es": "se construía una imagen de glamour alrededor de un nombre que, para las autoridades de dos países,",
    "id": 200,
-   "slot": 5.48,
-   "max_chars_pl": 76,
+   "slot": 5.86,
+   "max_chars_pl": 82,
    "pl": "budowano wizerunek glamouru wokół nazwiska, które dla władz dwóch krajów"
   },
   {
-   "start": 1076.54,
+   "start": 1076.92,
    "end": 1082.1,
    "es": "era sinónimo de crimen. Y aquí conviene hacer una pausa, porque es fácil quedarse en la anécdota",
    "id": 201,
-   "slot": 5.48,
-   "max_chars_pl": 76,
+   "slot": 5.1,
+   "max_chars_pl": 71,
    "pl": "było synonimem przestępstwa. I tu warto zrobić pauzę, bo łatwo zatrzymać się na anegdocie"
   },
   {
@@ -1830,20 +1830,20 @@
   },
   {
    "start": 1092.58,
-   "end": 1097.26,
+   "end": 1097.58,
    "es": "condenado por inundar de drogas a buena parte del continente. Un hombre responsable,",
    "id": 204,
-   "slot": 4.6,
-   "max_chars_pl": 64,
+   "slot": 4.92,
+   "max_chars_pl": 68,
    "pl": "skazanego za zalewanie narkotykami dużej części kontynentu. Człowieka odpowiedzialnego,"
   },
   {
-   "start": 1097.26,
+   "start": 1097.58,
    "end": 1102.86,
    "es": "según las Cortes, de una organización ligada a miles de muertes y reempaquetarlo como un",
    "id": 205,
-   "slot": 5.52,
-   "max_chars_pl": 77,
+   "slot": 5.2,
+   "max_chars_pl": 72,
    "pl": "według sądów, za organizację powiązaną z tysiącami zgonów, i przepakować go jako"
   },
   {
@@ -1893,20 +1893,20 @@
   },
   {
    "start": 1129.86,
-   "end": 1135.22,
+   "end": 1135.6,
    "es": "La diferencia era que, esta vez, el homenaje no se cantaba. Se podía comprar,",
    "id": 211,
-   "slot": 5.28,
-   "max_chars_pl": 73,
+   "slot": 5.66,
+   "max_chars_pl": 79,
    "pl": "Różnica polegała na tym, że tym razem hołd nie był śpiewany. Można go było kupić,"
   },
   {
-   "start": 1135.22,
+   "start": 1135.6,
    "end": 1140.1,
    "es": "envolver y llevar puesto. ¿Quién estaba al frente de todo esto? Aquí la historia se",
    "id": 212,
-   "slot": 4.8,
-   "max_chars_pl": 67,
+   "slot": 4.42,
+   "max_chars_pl": 61,
    "pl": "zapakować i nosić. Kto stał za tym wszystkim? Tu historia robi się"
   },
   {
@@ -2046,38 +2046,38 @@
   },
   {
    "start": 1216.08,
-   "end": 1222.12,
+   "end": 1221.94,
    "es": "perfil mucho más amplio. Pero entonces, ocurrió algo que empezó a cambiar el equilibrio. Y no",
    "id": 228,
-   "slot": 5.96,
-   "max_chars_pl": 83,
+   "slot": 5.78,
+   "max_chars_pl": 80,
    "pl": "znacznie szerszego profilu. Ale wtedy wydarzyło się coś, co zaczęło zmieniać równowagę. I nie"
   },
   {
-   "start": 1222.12,
+   "start": 1221.94,
    "end": 1227.56,
    "es": "fue un enemigo del cartel ni un operativo policial. Fue, otra vez, la burocracia.",
    "id": 229,
-   "slot": 5.36,
-   "max_chars_pl": 75,
+   "slot": 5.54,
+   "max_chars_pl": 77,
    "pl": "był to wróg kartelu ani operacja policyjna. Była to, znów, biurokracja."
   },
   {
    "start": 1227.56,
-   "end": 1232.2,
+   "end": 1232.56,
    "es": "El mismo instituto de marcas que años antes había rechazado el Chapo Guzmán,",
    "id": 230,
-   "slot": 4.56,
-   "max_chars_pl": 63,
+   "slot": 4.92,
+   "max_chars_pl": 68,
    "pl": "Ten sam urząd znaków towarowych, który lata wcześniej odrzucił Chapo Guzmán,"
   },
   {
-   "start": 1232.2,
+   "start": 1232.56,
    "end": 1236.84,
    "es": "volvió a interponerse en el camino. Según los expedientes citados por la prensa,",
    "id": 231,
-   "slot": 4.56,
-   "max_chars_pl": 63,
+   "slot": 4.2,
+   "max_chars_pl": 58,
    "pl": "znów stanął jej na drodze. Według akt cytowanych przez prasę,"
   },
   {
@@ -2154,20 +2154,20 @@
   },
   {
    "start": 1281.48,
-   "end": 1285.8,
+   "end": 1286.6,
    "es": "que parecía tan único en realidad ya circulaba en el mercado en manos ajenas.",
    "id": 240,
-   "slot": 4.68,
-   "max_chars_pl": 65,
+   "slot": 5.04,
+   "max_chars_pl": 70,
    "pl": "który wydawał się tak wyjątkowy, w rzeczywistości już krążył na rynku w cudzych rękach."
   },
   {
-   "start": 1286.24,
+   "start": 1286.6,
    "end": 1292.52,
    "es": "La batalla legal continuó por otros frentes. En noviembre de 2021, distintos medios informaron",
    "id": 241,
-   "slot": 6.2,
-   "max_chars_pl": 86,
+   "slot": 5.84,
+   "max_chars_pl": 81,
    "pl": "Bitwa prawna toczyła się na innych frontach. W listopadzie dwa tysiące dwudziestego pierwszego roku różne media poinformowały,"
   },
   {
@@ -2235,38 +2235,38 @@
   },
   {
    "start": 1330.28,
-   "end": 1334.92,
+   "end": 1335.32,
    "es": "Era un imperio comercial construido sobre un terreno que las autoridades se negaban,",
    "id": 249,
-   "slot": 4.56,
-   "max_chars_pl": 63,
+   "slot": 4.96,
+   "max_chars_pl": 69,
    "pl": "Było to imperium handlowe zbudowane na gruncie, którego władze odmawiały"
   },
   {
-   "start": 1334.92,
+   "start": 1335.32,
    "end": 1340.2,
    "es": "una y otra vez, a escriturar. Y aquí hay que retroceder unos años para entender que la",
    "id": 250,
-   "slot": 5.2,
-   "max_chars_pl": 72,
+   "slot": 4.8,
+   "max_chars_pl": 67,
    "pl": "raz po raz zapisać w księdze wieczystej. I tu trzeba cofnąć się o kilka lat, by zrozumieć, że"
   },
   {
    "start": 1340.2,
-   "end": 1344.68,
+   "end": 1345.04,
    "es": "relación de Alejandrina con la ley, y en particular con la justicia estadounidense,",
    "id": 251,
-   "slot": 4.4,
-   "max_chars_pl": 61,
+   "slot": 4.76,
+   "max_chars_pl": 66,
    "pl": "relacja Alejandriny z prawem, a zwłaszcza z amerykańskim wymiarem sprawiedliwości,"
   },
   {
-   "start": 1344.68,
+   "start": 1345.04,
    "end": 1350.44,
    "es": "ya era complicada mucho antes de la pasarela, porque hubo un episodio anterior, bastante más",
    "id": 252,
-   "slot": 5.68,
-   "max_chars_pl": 79,
+   "slot": 5.32,
+   "max_chars_pl": 74,
    "pl": "była skomplikowana na długo przed wybiegiem, bo był wcześniejszy epizod, znacznie bardziej"
   },
   {
@@ -2379,20 +2379,20 @@
   },
   {
    "start": 1412.6,
-   "end": 1416.92,
+   "end": 1417.14,
    "es": "organizado que advirtieron que podía tratarse de un caso de identidad confusa,",
    "id": 265,
-   "slot": 4.24,
-   "max_chars_pl": 59,
+   "slot": 4.46,
+   "max_chars_pl": 62,
    "pl": "zorganizowanej, którzy ostrzegali, że mogło chodzić o pomyłkę tożsamości,"
   },
   {
-   "start": 1416.92,
+   "start": 1417.14,
    "end": 1422.04,
    "es": "de una detención reportada con demasiada prisa, como si fuera un golpe contra la familia del",
    "id": 266,
-   "slot": 5.04,
-   "max_chars_pl": 70,
+   "slot": 4.82,
+   "max_chars_pl": 67,
    "pl": "o zatrzymanie nagłośnione zbyt pochopnie, jakby było ciosem w rodzinę"
   },
   {
@@ -2406,38 +2406,38 @@
   },
   {
    "start": 1426.72,
-   "end": 1431.8,
+   "end": 1431.46,
    "es": "a Los Ángeles para dar a luz a su hijo. Según las coberturas de la época, terminó",
    "id": 268,
-   "slot": 5.0,
-   "max_chars_pl": 70,
+   "slot": 4.66,
+   "max_chars_pl": 65,
    "pl": "do Los Angeles, by urodzić dziecko. Według relacji z tamtego czasu ostatecznie"
   },
   {
-   "start": 1431.8,
+   "start": 1431.46,
    "end": 1436.8,
    "es": "declarándose culpable de un cargo migratorio, fue sentenciada al tiempo que ya había pasado",
    "id": 269,
-   "slot": 4.92,
-   "max_chars_pl": 68,
+   "slot": 5.26,
+   "max_chars_pl": 73,
    "pl": "przyznała się do zarzutu imigracyjnego, została skazana na czas, który już spędziła"
   },
   {
    "start": 1436.8,
-   "end": 1442.88,
+   "end": 1443.1,
    "es": "detenida y fue deportada a Tijuana. Un episodio breve, extraño, nunca del todo aclarado,",
    "id": 270,
-   "slot": 6.0,
-   "max_chars_pl": 84,
+   "slot": 6.22,
+   "max_chars_pl": 87,
    "pl": "w areszcie, i została deportowana do Tijuany. Epizod krótki, dziwny, nigdy do końca wyjaśniony,"
   },
   {
-   "start": 1442.88,
+   "start": 1443.1,
    "end": 1447.56,
    "es": "que dejó flotando una pregunta que acompaña a esta historia. ¿Cuánto de lo que sabemos",
    "id": 271,
-   "slot": 4.6,
-   "max_chars_pl": 64,
+   "slot": 4.38,
+   "max_chars_pl": 61,
    "pl": "który zostawił w powietrzu pytanie towarzyszące tej historii. Ile z tego, co wiemy"
   },
   {
@@ -2532,20 +2532,20 @@
   },
   {
    "start": 1502.28,
-   "end": 1507.24,
+   "end": 1507.56,
    "es": "viejas y notas de archivo. El nombre seguía circulando en el mundo de la narcocultura,",
    "id": 282,
-   "slot": 4.88,
-   "max_chars_pl": 68,
+   "slot": 5.2,
+   "max_chars_pl": 72,
    "pl": "zdjęcia i notatki z archiwów. Nazwisko wciąż krążyło w świecie narkokultury,"
   },
   {
-   "start": 1507.24,
+   "start": 1507.56,
    "end": 1512.44,
    "es": "en imitaciones y en productos sin relación con la familia, pero la empresa como tal se había",
    "id": 283,
-   "slot": 5.12,
-   "max_chars_pl": 71,
+   "slot": 4.8,
+   "max_chars_pl": 67,
    "pl": "w podróbkach i produktach niezwiązanych z rodziną, ale firma jako taka"
   },
   {
@@ -2577,20 +2577,20 @@
   },
   {
    "start": 1527.28,
-   "end": 1534.64,
+   "end": 1534.42,
    "es": "maneras. Veamos cada una. La primera explicación, y quizás la más sólida, es la legal. Sin el",
    "id": 287,
-   "slot": 7.28,
-   "max_chars_pl": 101,
+   "slot": 7.06,
+   "max_chars_pl": 98,
    "pl": "sposoby. Przyjrzyjmy się każdej. Pierwsze wyjaśnienie, i być może najsolidniejsze, jest prawne. Bez"
   },
   {
-   "start": 1534.64,
+   "start": 1534.42,
    "end": 1540.16,
    "es": "registro de marca aprobado por el IMPI, el proyecto nunca tuvo piso firme. Las negativas",
    "id": 288,
-   "slot": 5.44,
-   "max_chars_pl": 76,
+   "slot": 5.66,
+   "max_chars_pl": 79,
    "pl": "rejestracji znaku zatwierdzonej przez IMPI projekt nigdy nie miał twardego gruntu. Powtarzające się"
   },
   {
@@ -2631,20 +2631,20 @@
   },
   {
    "start": 1559.44,
-   "end": 1564.36,
+   "end": 1564.0,
    "es": "de un criminal condenado. Es un negocio condenado a vivir en la precariedad. Desde",
    "id": 293,
-   "slot": 4.84,
-   "max_chars_pl": 67,
+   "slot": 4.48,
+   "max_chars_pl": 62,
    "pl": "skazanego przestępcy. To biznes skazany na życie w niepewności. Z"
   },
   {
-   "start": 1564.36,
+   "start": 1564.0,
    "end": 1569.04,
    "es": "esta mirada, la marca no desapareció por un golpe espectacular, sino por asfixia",
    "id": 294,
-   "slot": 4.6,
-   "max_chars_pl": 64,
+   "slot": 4.96,
+   "max_chars_pl": 69,
    "pl": "tej perspektywy marka nie zniknęła przez spektakularny cios, lecz przez administracyjne"
   },
   {
@@ -2658,20 +2658,20 @@
   },
   {
    "start": 1573.16,
-   "end": 1578.2,
+   "end": 1578.6,
    "es": "La segunda explicación tiene que ver con la presión. Alrededor de la familia Guzmán,",
    "id": 296,
-   "slot": 5.0,
-   "max_chars_pl": 70,
+   "slot": 5.36,
+   "max_chars_pl": 75,
    "pl": "Drugie wyjaśnienie dotyczy presji. Wokół rodziny Guzmán"
   },
   {
-   "start": 1578.24,
+   "start": 1578.6,
    "end": 1584.32,
    "es": "en esos mismos años se tensaba el cerco por todos lados. El padre, condenado a cadena",
    "id": 297,
-   "slot": 6.0,
-   "max_chars_pl": 84,
+   "slot": 5.64,
+   "max_chars_pl": 78,
    "pl": "w tych samych latach zaciskał się pierścień ze wszystkich stron. Ojciec skazany na dożywocie"
   },
   {
@@ -2721,38 +2721,38 @@
   },
   {
    "start": 1611.72,
-   "end": 1617.24,
+   "end": 1617.56,
    "es": "inconveniente en medio de tanta exposición judicial. A veces, en el mundo del narcotráfico,",
    "id": 303,
-   "slot": 5.44,
-   "max_chars_pl": 76,
+   "slot": 5.76,
+   "max_chars_pl": 80,
    "pl": "niewygodne w obliczu takiego nacisku sądowego. Czasem w świecie narkobiznesu"
   },
   {
-   "start": 1617.24,
+   "start": 1617.56,
    "end": 1621.76,
    "es": "el mejor negocio es dejar de llamar la atención. La tercera explicación es la",
    "id": 304,
-   "slot": 4.44,
-   "max_chars_pl": 62,
+   "slot": 4.12,
+   "max_chars_pl": 57,
    "pl": "najlepszym biznesem jest przestać zwracać na siebie uwagę. Trzecie wyjaśnienie jest"
   },
   {
    "start": 1621.76,
-   "end": 1627.08,
+   "end": 1627.3,
    "es": "más simple y por eso mismo, la más fácil de olvidar. Que el negocio, puro y duro,",
    "id": 305,
-   "slot": 5.24,
-   "max_chars_pl": 73,
+   "slot": 5.46,
+   "max_chars_pl": 76,
    "pl": "najprostsze i właśnie dlatego najłatwiejsze do zapomnienia. Że biznes, po prostu,"
   },
   {
-   "start": 1627.08,
+   "start": 1627.3,
    "end": 1632.48,
    "es": "no funcionó lo suficiente. Una línea de ropa de precios altos, con un público limitado,",
    "id": 306,
-   "slot": 5.32,
-   "max_chars_pl": 74,
+   "slot": 5.1,
+   "max_chars_pl": 71,
    "pl": "nie działał wystarczająco dobrze. Linia ubrań o wysokich cenach, z ograniczoną publicznością,"
   },
   {
@@ -2784,47 +2784,47 @@
   },
   {
    "start": 1647.96,
-   "end": 1653.36,
+   "end": 1653.64,
    "es": "locales. Es posible que, pasada la novedad, la marca simplemente dejara de ser rentable.",
    "id": 310,
-   "slot": 5.32,
-   "max_chars_pl": 74,
+   "slot": 5.6,
+   "max_chars_pl": 78,
    "pl": "lokali. Możliwe, że po minięciu nowości marka po prostu przestała być opłacalna."
   },
   {
-   "start": 1653.36,
-   "end": 1658.0,
+   "start": 1653.64,
+   "end": 1658.34,
    "es": "Ninguna de estas versiones excluye a las otras. Lo más probable, de hecho,",
    "id": 311,
-   "slot": 4.56,
-   "max_chars_pl": 63,
+   "slot": 4.62,
+   "max_chars_pl": 64,
    "pl": "Żadna z tych wersji nie wyklucza pozostałych. Najprawdopodobniej zresztą"
   },
   {
-   "start": 1658.0,
-   "end": 1664.28,
+   "start": 1658.34,
+   "end": 1664.22,
    "es": "es que la desaparición del Chapo 701 haya sido el resultado de las tres cosas a la vez. Un",
    "id": 312,
-   "slot": 6.2,
-   "max_chars_pl": 86,
+   "slot": 5.8,
+   "max_chars_pl": 81,
    "pl": "zniknięcie Chapo 701 było wynikiem wszystkich trzech rzeczy naraz. Projekt"
   },
   {
-   "start": 1664.28,
-   "end": 1669.4,
+   "start": 1664.22,
+   "end": 1669.1,
    "es": "proyecto sin respaldo legal, presionado por el cerco judicial sobre la familia y sin el",
    "id": 313,
-   "slot": 5.04,
-   "max_chars_pl": 70,
+   "slot": 4.8,
+   "max_chars_pl": 67,
    "pl": "bez poparcia prawnego, pod presją sądowego okrążenia rodziny i bez"
   },
   {
-   "start": 1669.4,
+   "start": 1669.1,
    "end": 1675.52,
    "es": "músculo comercial para sobrevivir por sí mismo. Pero, y esto es clave, ninguna autoridad salió",
    "id": 314,
-   "slot": 6.04,
-   "max_chars_pl": 84,
+   "slot": 6.34,
+   "max_chars_pl": 88,
    "pl": "siły handlowej, by przetrwać samodzielnie. Ale, i to jest kluczowe, żadne władze nigdy"
   },
   {
@@ -2838,20 +2838,20 @@
   },
   {
    "start": 1680.12,
-   "end": 1685.36,
+   "end": 1685.74,
    "es": "pública y detallada. El negocio nació con una pasarela y titulares en todo el planeta,",
    "id": 316,
-   "slot": 5.16,
-   "max_chars_pl": 72,
+   "slot": 5.54,
+   "max_chars_pl": 77,
    "pl": "publicznej i szczegółowej wersji. Biznes narodził się z wybiegiem i nagłówkami na całym świecie,"
   },
   {
-   "start": 1685.36,
+   "start": 1685.74,
    "end": 1690.8,
    "es": "y murió en silencio, sin comunicado, sin despedida. Apareció con estruendo y se fue",
    "id": 317,
-   "slot": 5.36,
-   "max_chars_pl": 75,
+   "slot": 4.98,
+   "max_chars_pl": 69,
    "pl": "a umarł w ciszy, bez komunikatu, bez pożegnania. Pojawił się z hukiem i odszedł"
   },
   {
@@ -2874,20 +2874,20 @@
   },
   {
    "start": 1699.44,
-   "end": 1703.8,
+   "end": 1703.52,
    "es": "La figura pública de Alejandrina Giselle Guzmán Salazar se fue",
    "id": 320,
-   "slot": 4.28,
-   "max_chars_pl": 59,
+   "slot": 4.0,
+   "max_chars_pl": 56,
    "pl": "Publiczna postać Alejandriny Giselle Guzmán Salazar stopniowo"
   },
   {
-   "start": 1703.8,
+   "start": 1703.52,
    "end": 1707.52,
    "es": "replegando a la par de su marca. Después del ciclo de atención que",
    "id": 321,
-   "slot": 3.64,
-   "max_chars_pl": 50,
+   "slot": 3.92,
+   "max_chars_pl": 54,
    "pl": "wycofywała się wraz z jej marką. Po cyklu zainteresowania, który"
   },
   {
@@ -2901,20 +2901,20 @@
   },
   {
    "start": 1712.24,
-   "end": 1717.68,
+   "end": 1717.96,
    "es": "vez con menos frecuencia en los grandes medios. No hubo, al menos de manera pública y confirmada,",
    "id": 323,
-   "slot": 5.36,
-   "max_chars_pl": 75,
+   "slot": 5.64,
+   "max_chars_pl": 78,
    "pl": "rzadziej w wielkich mediach. Nie było, przynajmniej publicznie i potwierdzenie,"
   },
   {
-   "start": 1717.68,
+   "start": 1717.96,
    "end": 1722.76,
    "es": "ni una gran caída judicial espectacular ni un nuevo lanzamiento que repitiera el impacto",
    "id": 324,
-   "slot": 5.0,
-   "max_chars_pl": 70,
+   "slot": 4.72,
+   "max_chars_pl": 66,
    "pl": "ani wielkiego spektakularnego upadku sądowego, ani nowego startu, który powtórzyłby efekt"
   },
   {
@@ -2991,29 +2991,29 @@
   },
   {
    "start": 1763.88,
-   "end": 1768.08,
+   "end": 1768.38,
    "es": "Guzmán, fue el centro de dos operativos que paralizaron la ciudad de Culiacán,",
    "id": 333,
-   "slot": 4.12,
-   "max_chars_pl": 57,
+   "slot": 4.42,
+   "max_chars_pl": 61,
    "pl": "Guzmán, był w centrum dwóch operacji, które sparaliżowały miasto Culiacán,"
   },
   {
-   "start": 1768.08,
-   "end": 1773.24,
+   "start": 1768.38,
+   "end": 1773.52,
    "es": "el primero en 2019, cuando el gobierno terminó liberándolo ante la ola de violencia,",
    "id": 334,
-   "slot": 5.08,
-   "max_chars_pl": 71,
+   "slot": 5.06,
+   "max_chars_pl": 70,
    "pl": "pierwszej w dwa tysiące dziewiętnastym, gdy rząd ostatecznie go uwolnił w obliczu fali przemocy,"
   },
   {
-   "start": 1773.24,
+   "start": 1773.52,
    "end": 1779.48,
    "es": "y el segundo en 2023, cuando finalmente fue capturado y, más tarde, enviado a Estados Unidos.",
    "id": 335,
-   "slot": 6.16,
-   "max_chars_pl": 86,
+   "slot": 5.88,
+   "max_chars_pl": 82,
    "pl": "i drugiej w dwa tysiące dwudziestym trzecim, gdy w końcu został schwytany i później wydany Stanom Zjednoczonym."
   },
   {
@@ -3054,20 +3054,20 @@
   },
   {
    "start": 1801.12,
-   "end": 1806.6,
+   "end": 1806.44,
    "es": "sangre el noroeste de México. El apellido Guzmán siguió generando titulares, pero",
    "id": 340,
-   "slot": 5.4,
-   "max_chars_pl": 75,
+   "slot": 5.24,
+   "max_chars_pl": 73,
    "pl": "krwią północny zachód Meksyku. Nazwisko Guzmán wciąż generowało nagłówki, ale"
   },
   {
-   "start": 1806.6,
+   "start": 1806.44,
    "end": 1810.88,
    "es": "cada vez más por la vía de la violencia y de los tribunales, y cada vez menos",
    "id": 341,
-   "slot": 4.2,
-   "max_chars_pl": 58,
+   "slot": 4.36,
+   "max_chars_pl": 61,
    "pl": "coraz częściej przez przemoc i sądy, a coraz rzadziej"
   },
   {
@@ -3081,56 +3081,56 @@
   },
   {
    "start": 1816.36,
-   "end": 1820.48,
+   "end": 1820.36,
    "es": "luminoso y extraño en medio de una historia familiar marcada por la sangre,",
    "id": 343,
-   "slot": 4.04,
-   "max_chars_pl": 56,
+   "slot": 3.92,
+   "max_chars_pl": 54,
    "pl": "i dziwnym nawiasem w historii rodziny naznaczonej krwią,"
   },
   {
-   "start": 1820.48,
-   "end": 1826.16,
+   "start": 1820.36,
+   "end": 1825.96,
    "es": "la cárcel y la persecución internacional. Y, sin embargo, el número sobrevivió,",
    "id": 344,
-   "slot": 5.6,
-   "max_chars_pl": 78,
+   "slot": 5.52,
+   "max_chars_pl": 77,
    "pl": "więzieniem i międzynarodowym pościgiem. A jednak liczba przetrwała,"
   },
   {
-   "start": 1826.16,
-   "end": 1832.4,
+   "start": 1825.96,
+   "end": 1832.28,
    "es": "esa cifra que una revista de negocios repartió casi por accidente en 2009. El 701 se",
    "id": 345,
-   "slot": 6.16,
-   "max_chars_pl": 86,
+   "slot": 6.24,
+   "max_chars_pl": 87,
    "pl": "ta liczba, którą magazyn biznesowy rozdał prawie przypadkiem w dwa tysiące dziewiątym. Siedemset jeden"
   },
   {
-   "start": 1832.4,
+   "start": 1832.28,
    "end": 1837.12,
    "es": "independizó por completo de la marca que intentó apropiárselo. Hoy sigue circulando",
    "id": 346,
-   "slot": 4.64,
-   "max_chars_pl": 64,
+   "slot": 4.76,
+   "max_chars_pl": 66,
    "pl": "całkowicie uniezależniło się od marki, która próbowała je sobie przywłaszczyć. Dziś wciąż krąży"
   },
   {
    "start": 1837.12,
-   "end": 1842.52,
+   "end": 1842.44,
    "es": "en el universo de la narcocultura, en canciones, en ropa de otros fabricantes,",
    "id": 347,
-   "slot": 5.32,
-   "max_chars_pl": 74,
+   "slot": 5.24,
+   "max_chars_pl": 73,
    "pl": "w uniwersum narkokultury, w piosenkach, w ubraniach innych producentów,"
   },
   {
-   "start": 1842.52,
+   "start": 1842.44,
    "end": 1847.16,
    "es": "en imágenes que nada tienen que ver con la empresa de la hija del Chapo. El símbolo",
    "id": 348,
-   "slot": 4.56,
-   "max_chars_pl": 63,
+   "slot": 4.64,
+   "max_chars_pl": 64,
    "pl": "na obrazach, które nie mają nic wspólnego z firmą córki Chapo. Symbol"
   },
   {
@@ -3171,38 +3171,38 @@
   },
   {
    "start": 1868.2,
-   "end": 1873.8,
+   "end": 1873.78,
    "es": "no se deja poseer. Al final, la historia de Alejandrina Giselle Guzmán Salazar y",
    "id": 353,
-   "slot": 5.52,
+   "slot": 5.5,
    "max_chars_pl": 77,
    "pl": "nie daje się posiąść. W końcu historia Alejandriny Giselle Guzmán Salazar i"
   },
   {
-   "start": 1873.8,
+   "start": 1873.78,
    "end": 1879.72,
    "es": "del Chapo 701 no es realmente la historia de una marca de ropa. Es la historia de lo que",
    "id": 354,
-   "slot": 5.84,
-   "max_chars_pl": 81,
+   "slot": 5.86,
+   "max_chars_pl": 82,
    "pl": "Chapo 701 nie jest naprawdę historią marki odzieżowej. To historia tego, co"
   },
   {
    "start": 1879.72,
-   "end": 1884.56,
+   "end": 1884.18,
    "es": "hacen los herederos cuando lo único que queda de un imperio no es el imperio en sí, sino su",
    "id": 355,
-   "slot": 4.76,
-   "max_chars_pl": 66,
+   "slot": 4.38,
+   "max_chars_pl": 61,
    "pl": "robią spadkobiercy, gdy z imperium zostaje nie samo imperium, lecz jego"
   },
   {
-   "start": 1884.56,
+   "start": 1884.18,
    "end": 1890.16,
    "es": "nombre. Es la historia de una médica cirujana que, pudiendo haber desaparecido en el anonimato",
    "id": 356,
-   "slot": 5.52,
-   "max_chars_pl": 77,
+   "slot": 5.9,
+   "max_chars_pl": 82,
    "pl": "nazwisko. To historia lekarki chirurga, która, mogąc zniknąć w anonimowości"
   },
   {
@@ -3225,20 +3225,20 @@
   },
   {
    "start": 1900.96,
-   "end": 1906.84,
+   "end": 1906.6,
    "es": "etiqueta cosida a la ropa. Y es, sobre todo, la historia de un fracaso silencioso. El de",
    "id": 359,
-   "slot": 5.8,
-   "max_chars_pl": 81,
+   "slot": 5.56,
+   "max_chars_pl": 77,
    "pl": "metkę przyszytą do ubrania. I jest to przede wszystkim historia cichej porażki. Biznesu,"
   },
   {
-   "start": 1906.84,
+   "start": 1906.6,
    "end": 1911.52,
    "es": "un negocio que nació del escándalo y murió de olvido, sin que nadie firmara su acta de",
    "id": 360,
-   "slot": 4.6,
-   "max_chars_pl": 64,
+   "slot": 4.84,
+   "max_chars_pl": 67,
    "pl": "który narodził się ze skandalu i umarł z zapomnienia, bez nikogo, kto podpisałby jego akt"
   },
   {
@@ -3297,19 +3297,19 @@
   },
   {
    "start": 1945.08,
-   "end": 1950.68,
+   "end": 1950.64,
    "es": "Pero el proyecto se deshizo entre negativas de registro, cercos judiciales y silencios. Y",
    "id": 367,
-   "slot": 5.52,
-   "max_chars_pl": 77,
+   "slot": 5.48,
+   "max_chars_pl": 76,
    "pl": "Ale projekt rozpadł się wśród odmów rejestracji, sądowych okrążeń i milczenia. A"
   },
   {
-   "start": 1950.68,
+   "start": 1950.64,
    "end": 1955.84,
    "es": "mientras no exista una explicación oficial y completa sobre por qué esa marca se evaporó tan",
    "id": 368,
-   "slot": 5.08,
+   "slot": 5.12,
    "max_chars_pl": 71,
    "pl": "dopóki nie będzie oficjalnego i pełnego wyjaśnienia, dlaczego ta marka wyparowała tak"
   },
@@ -3342,7 +3342,7 @@
   },
   {
    "start": 1971.0,
-   "end": 1973.28,
+   "end": 1973.845,
    "es": "tantas veces, volvió a desaparecer.",
    "id": 372,
    "slot": 2.765,
