@@ -25,8 +25,10 @@ FRASES = {
         f"zasubskrybuj {CANAL} i włącz dzwoneczek, a każdy nowy odcinek trafi prosto do ciebie."),
     5: ("Nim zaczniemy, mała rzecz: jeśli ten film cię zainteresuje,",
         f"zasubskrybuj kanał {CANAL} i dzwoneczek też włącz, żeby nic cię nie ominęło."),
+    6: ("Chwileczkę, zanim zaczniemy: jeśli ten kanał ci się podoba,",
+        f"zasubskrybuj {CANAL} i uruchom dzwoneczek, a kolejne historie będą czekać na ciebie."),
 }
-COLORES = {'naranja': '0xFFB020', 'rojo': '0xFF4D4D', 'blanco': '0xFFFFFF', 'celeste': '0x5CD6FF', 'verde': '0x7CFF6B', 'amarillo': '0xFFE94D'}
+COLORES = {'naranja': '0xFFB020', 'rojo': '0xFF4D4D', 'blanco': '0xFFFFFF', 'celeste': '0x5CD6FF', 'verde': '0x7CFF6B', 'amarillo': '0xFFE94D', 'rosa': '0xFF7AD9'}
 
 
 def sh(cmd):
