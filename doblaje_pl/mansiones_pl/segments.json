@@ -1,0 +1,7313 @@
+{
+ "video_dur": 1982.848,
+ "segments": [
+  {
+   "start": 0.0,
+   "end": 3.72,
+   "es": "Hay una casa en Culiacán que el sol está borrando despacio.",
+   "id": 1,
+   "slot": 3.64,
+   "max_chars_pl": 50,
+   "pl": "W Culiacán stoi dom, który słońce powoli zaciera."
+  },
+  {
+   "start": 3.72,
+   "end": 5.96,
+   "es": "Las ventanas no tienen vidrios.",
+   "id": 2,
+   "slot": 2.16,
+   "max_chars_pl": 30,
+   "pl": "W oknach nie ma szyb."
+  },
+  {
+   "start": 5.96,
+   "end": 8.5,
+   "es": "Las paredes, que alguna vez fueron blancas,",
+   "id": 3,
+   "slot": 2.46,
+   "max_chars_pl": 34,
+   "pl": "Ściany, kiedyś białe,"
+  },
+  {
+   "start": 8.5,
+   "end": 11.32,
+   "es": "están manchadas de humedad y de pintadas.",
+   "id": 4,
+   "slot": 2.74,
+   "max_chars_pl": 38,
+   "pl": "są poplamione wilgocią i graffiti."
+  },
+  {
+   "start": 11.32,
+   "end": 14.2,
+   "es": "En el jardín crece la maleza entre los escombros de lo que",
+   "id": 5,
+   "slot": 2.8,
+   "max_chars_pl": 39,
+   "pl": "W ogrodzie chwasty rosną między gruzami tego, co kiedyś było"
+  },
+  {
+   "start": 14.2,
+   "end": 15.5,
+   "es": "fue una alberca.",
+   "id": 6,
+   "slot": 1.22,
+   "max_chars_pl": 17,
+   "pl": "basenem."
+  },
+  {
+   "start": 15.5,
+   "end": 17.32,
+   "es": "Adentro, en uno de los baños,",
+   "id": 7,
+   "slot": 1.74,
+   "max_chars_pl": 24,
+   "pl": "W środku, w jednej z łazienek,"
+  },
+  {
+   "start": 17.32,
+   "end": 19.8,
+   "es": "hay una tina de mármol levantada del piso,",
+   "id": 8,
+   "slot": 2.4,
+   "max_chars_pl": 33,
+   "pl": "marmurowa wanna uniesiona nad podłogą,"
+  },
+  {
+   "start": 19.8,
+   "end": 22.84,
+   "es": "como si alguien la hubiera arrancado con rabia.",
+   "id": 9,
+   "slot": 2.96,
+   "max_chars_pl": 41,
+   "pl": "jakby ktoś wyrwał ją z furią."
+  },
+  {
+   "start": 22.84,
+   "end": 26.82,
+   "es": "Debajo de esa tina, hace años, empezaba un túnel.",
+   "id": 10,
+   "slot": 3.9,
+   "max_chars_pl": 54,
+   "pl": "Pod tą wanną, przed laty, zaczynał się tunel."
+  },
+  {
+   "start": 26.82,
+   "end": 29.76,
+   "es": "Y por ese túnel escapó uno de los hombres más buscados",
+   "id": 11,
+   "slot": 2.86,
+   "max_chars_pl": 40,
+   "pl": "I tym tunelem uciekł jeden z najbardziej poszukiwanych"
+  },
+  {
+   "start": 29.76,
+   "end": 31.02,
+   "es": "del planeta.",
+   "id": 12,
+   "slot": 1.18,
+   "max_chars_pl": 16,
+   "pl": "ludzi świata."
+  },
+  {
+   "start": 31.02,
+   "end": 33.26,
+   "es": "Hoy esa casa no vale casi nada.",
+   "id": 13,
+   "slot": 2.16,
+   "max_chars_pl": 30,
+   "pl": "Dziś ten dom nie jest wart prawie nic."
+  },
+  {
+   "start": 33.26,
+   "end": 36.56,
+   "es": "El gobierno intentó venderla y nadie la quiso.",
+   "id": 14,
+   "slot": 3.22,
+   "max_chars_pl": 45,
+   "pl": "Rząd próbował go sprzedać i nikt go nie chciał."
+  },
+  {
+   "start": 36.56,
+   "end": 38.74,
+   "es": "Después la intentó rifar.",
+   "id": 15,
+   "slot": 2.1,
+   "max_chars_pl": 29,
+   "pl": "Potem próbował go wylosować."
+  },
+  {
+   "start": 38.74,
+   "end": 41.72,
+   "es": "Y lo único que queda de ella es un cascarón vacío que los",
+   "id": 16,
+   "slot": 2.9,
+   "max_chars_pl": 40,
+   "pl": "A zostało po nim tylko puste skorupisko, na które sąsiedzi"
+  },
+  {
+   "start": 41.72,
+   "end": 44.24,
+   "es": "vecinos miran de reojo cuando pasan,",
+   "id": 17,
+   "slot": 2.44,
+   "max_chars_pl": 34,
+   "pl": "patrzą ukradkiem, gdy tamtędy przechodzą,"
+  },
+  {
+   "start": 44.24,
+   "end": 46.14,
+   "es": "como se mira una tumba.",
+   "id": 18,
+   "slot": 1.82,
+   "max_chars_pl": 25,
+   "pl": "tak, jak patrzy się na grób."
+  },
+  {
+   "start": 46.14,
+   "end": 48.58,
+   "es": "Durante años nos contaron una historia,",
+   "id": 19,
+   "slot": 2.36,
+   "max_chars_pl": 33,
+   "pl": "Przez lata opowiadano nam historię,"
+  },
+  {
+   "start": 48.58,
+   "end": 50.92,
+   "es": "la historia de tres hombres que amasaron la fortuna",
+   "id": 20,
+   "slot": 2.26,
+   "max_chars_pl": 31,
+   "pl": "historię trzech mężczyzn, którzy zbili majątek"
+  },
+  {
+   "start": 50.92,
+   "end": 53.9,
+   "es": "criminal más grande de la que se tenga memoria.",
+   "id": 21,
+   "slot": 2.9,
+   "max_chars_pl": 40,
+   "pl": "przestępczy największy, jaki pamięta świat."
+  },
+  {
+   "start": 53.9,
+   "end": 56.76,
+   "es": "Nos hablaron de palacios con columnas de oro,",
+   "id": 22,
+   "slot": 2.78,
+   "max_chars_pl": 38,
+   "pl": "Mówiono nam o pałacach ze złotymi kolumnami,"
+  },
+  {
+   "start": 56.76,
+   "end": 60.3,
+   "es": "de zoológicos privados, de autos deportivos,",
+   "id": 23,
+   "slot": 3.46,
+   "max_chars_pl": 48,
+   "pl": "o prywatnych zoo, o sportowych samochodach,"
+  },
+  {
+   "start": 60.3,
+   "end": 63.52,
+   "es": "de relojes que costaban lo que una familia entera gana en toda",
+   "id": 24,
+   "slot": 3.14,
+   "max_chars_pl": 43,
+   "pl": "o zegarkach wartych tyle, ile cała rodzina zarabia przez całe"
+  },
+  {
+   "start": 63.52,
+   "end": 64.32,
+   "es": "su vida.",
+   "id": 25,
+   "slot": 0.72,
+   "max_chars_pl": 10,
+   "pl": "życie."
+  },
+  {
+   "start": 64.32,
+   "end": 66.54,
+   "es": "Nos pusieron una cifra en la cabeza,",
+   "id": 26,
+   "slot": 2.14,
+   "max_chars_pl": 29,
+   "pl": "Wbito nam do głowy pewną liczbę,"
+  },
+  {
+   "start": 66.54,
+   "end": 69.78,
+   "es": "una cifra tan enorme que ya ni siquiera parece dinero.",
+   "id": 27,
+   "slot": 3.16,
+   "max_chars_pl": 44,
+   "pl": "liczbę tak ogromną, że już nawet nie przypomina pieniędzy."
+  },
+  {
+   "start": 69.78,
+   "end": 72.82,
+   "es": "Hasta 50,000 millones de dólares decían,",
+   "id": 28,
+   "slot": 2.96,
+   "max_chars_pl": 41,
+   "pl": "Mówiono o pięćdziesięciu miliardach dolarów,"
+  },
+  {
+   "start": 72.82,
+   "end": 76.52,
+   "es": "sumando lo que movieron el Chapo, el Mencho y el Mayo.",
+   "id": 29,
+   "slot": 3.62,
+   "max_chars_pl": 50,
+   "pl": "sumując to, co przerzucili Chapo, Mencho i Mayo."
+  },
+  {
+   "start": 76.52,
+   "end": 79.36,
+   "es": "Pero hoy, cuando uno va a buscar esos imperios,",
+   "id": 30,
+   "slot": 2.76,
+   "max_chars_pl": 38,
+   "pl": "Ale dziś, gdy ktoś idzie szukać tych imperiów,"
+  },
+  {
+   "start": 79.36,
+   "end": 80.88,
+   "es": "encuentra otra cosa.",
+   "id": 31,
+   "slot": 1.44,
+   "max_chars_pl": 20,
+   "pl": "znajduje coś innego."
+  },
+  {
+   "start": 80.88,
+   "end": 82.74,
+   "es": "Encuentra casas vacías.",
+   "id": 32,
+   "slot": 1.78,
+   "max_chars_pl": 24,
+   "pl": "Znajduje puste domy."
+  },
+  {
+   "start": 82.74,
+   "end": 85.66,
+   "es": "Encuentra ranchos que el monte se está tragando.",
+   "id": 33,
+   "slot": 2.84,
+   "max_chars_pl": 39,
+   "pl": "Znajduje rancza, które pochłania busz."
+  },
+  {
+   "start": 85.66,
+   "end": 88.68,
+   "es": "Encuentra órdenes judiciales que exigen devolver miles de",
+   "id": 34,
+   "slot": 2.94,
+   "max_chars_pl": 41,
+   "pl": "Znajduje nakazy sądowe, które żądają zwrotu tysięcy"
+  },
+  {
+   "start": 88.68,
+   "end": 91.52,
+   "es": "millones de dólares que nunca aparecieron.",
+   "id": 35,
+   "slot": 2.76,
+   "max_chars_pl": 38,
+   "pl": "milionów dolarów, które nigdy się nie pojawiły."
+  },
+  {
+   "start": 91.52,
+   "end": 94.04,
+   "es": "Encuentra subastas donde los palacios del narco se",
+   "id": 36,
+   "slot": 2.44,
+   "max_chars_pl": 34,
+   "pl": "Znajduje aukcje, na których pałace narkotykowe"
+  },
+  {
+   "start": 94.04,
+   "end": 97.22,
+   "es": "rematan por una fracción de lo que supuestamente valían",
+   "id": 37,
+   "slot": 3.1,
+   "max_chars_pl": 43,
+   "pl": "idą za ułamek tego, ile rzekomo były warte,"
+  },
+  {
+   "start": 97.22,
+   "end": 98.68,
+   "es": "cuando se logran vender.",
+   "id": 38,
+   "slot": 1.38,
+   "max_chars_pl": 19,
+   "pl": "o ile uda się je sprzedać."
+  },
+  {
+   "start": 98.68,
+   "end": 100.6,
+   "es": "Uno de los tres está muerto.",
+   "id": 39,
+   "slot": 1.84,
+   "max_chars_pl": 25,
+   "pl": "Jeden z tej trójki nie żyje."
+  },
+  {
+   "start": 100.6,
+   "end": 102.74,
+   "es": "Lo enterraron este mismo año.",
+   "id": 40,
+   "slot": 2.06,
+   "max_chars_pl": 28,
+   "pl": "Pochowano go w tym samym roku."
+  },
+  {
+   "start": 102.74,
+   "end": 105.32,
+   "es": "Otro está en una celda de concreto en una prisión de",
+   "id": 41,
+   "slot": 2.5,
+   "max_chars_pl": 35,
+   "pl": "Drugi siedzi w betonowej celi w więzieniu"
+  },
+  {
+   "start": 105.32,
+   "end": 108.0,
+   "es": "máxima seguridad en las montañas de Colorado,",
+   "id": 42,
+   "slot": 2.6,
+   "max_chars_pl": 36,
+   "pl": "o zaostrzonym rygorze w górach Kolorado,"
+  },
+  {
+   "start": 108.0,
+   "end": 110.26,
+   "es": "de donde nadie ha escapado jamás.",
+   "id": 43,
+   "slot": 2.18,
+   "max_chars_pl": 30,
+   "pl": "skąd nikt nigdy nie uciekł."
+  },
+  {
+   "start": 110.26,
+   "end": 112.54,
+   "es": "Y el tercero, un anciano enfermo,",
+   "id": 44,
+   "slot": 2.2,
+   "max_chars_pl": 30,
+   "pl": "A trzeci, schorowany starzec,"
+  },
+  {
+   "start": 112.54,
+   "end": 116.34,
+   "es": "acaba de ser condenado a morir en una cárcel de Estados Unidos,",
+   "id": 45,
+   "slot": 3.72,
+   "max_chars_pl": 52,
+   "pl": "został właśnie skazany na śmierć w amerykańskim więzieniu,"
+  },
+  {
+   "start": 116.34,
+   "end": 119.82,
+   "es": "lejos de la sierra donde se escondió durante medio siglo.",
+   "id": 46,
+   "slot": 3.4,
+   "max_chars_pl": 47,
+   "pl": "daleko od sierry, gdzie ukrywał się przez pół wieku."
+  },
+  {
+   "start": 119.82,
+   "end": 122.4,
+   "es": "Esta es la historia de lo que de verdad quedó,",
+   "id": 47,
+   "slot": 2.5,
+   "max_chars_pl": 35,
+   "pl": "To historia tego, co naprawdę zostało,"
+  },
+  {
+   "start": 122.4,
+   "end": 124.66,
+   "es": "no del mito, de las ruinas.",
+   "id": 48,
+   "slot": 2.18,
+   "max_chars_pl": 30,
+   "pl": "nie mitu, lecz ruin."
+  },
+  {
+   "start": 124.66,
+   "end": 127.32,
+   "es": "Esta es la historia de las mansiones abandonadas de el",
+   "id": 49,
+   "slot": 2.58,
+   "max_chars_pl": 36,
+   "pl": "To historia opuszczonych rezydencji"
+  },
+  {
+   "start": 127.32,
+   "end": 129.72,
+   "es": "Chapo, el Mencho y el Mayo.",
+   "id": 50,
+   "slot": 2.32,
+   "max_chars_pl": 32,
+   "pl": "Chapo, Mencho i Mayo."
+  },
+  {
+   "start": 129.72,
+   "end": 132.6,
+   "es": "Y de la pregunta que casi nadie se anima a hacer en voz",
+   "id": 51,
+   "slot": 2.8,
+   "max_chars_pl": 39,
+   "pl": "I pytania, które prawie nikt nie ma odwagi zadać na"
+  },
+  {
+   "start": 132.6,
+   "end": 133.48,
+   "es": "alta.",
+   "id": 52,
+   "slot": 0.8,
+   "max_chars_pl": 11,
+   "pl": "głos."
+  },
+  {
+   "start": 133.48,
+   "end": 135.54,
+   "es": "Si estos hombres eran tan ricos,",
+   "id": 53,
+   "slot": 1.98,
+   "max_chars_pl": 27,
+   "pl": "Skoro ci ludzie byli tak bogaci,"
+  },
+  {
+   "start": 135.54,
+   "end": 137.2,
+   "es": "¿dónde está el dinero?",
+   "id": 54,
+   "slot": 1.58,
+   "max_chars_pl": 22,
+   "pl": "gdzie są pieniądze?"
+  },
+  {
+   "start": 137.2,
+   "end": 139.06,
+   "es": "Empecemos por el número.",
+   "id": 55,
+   "slot": 1.78,
+   "max_chars_pl": 24,
+   "pl": "Zacznijmy od liczby."
+  },
+  {
+   "start": 139.06,
+   "end": 141.58,
+   "es": "Porque el número es el corazón de la leyenda.",
+   "id": 56,
+   "slot": 2.44,
+   "max_chars_pl": 34,
+   "pl": "Bo liczba jest sercem legendy."
+  },
+  {
+   "start": 141.58,
+   "end": 143.64,
+   "es": "Cada vez que se habla de estos capos,",
+   "id": 57,
+   "slot": 1.98,
+   "max_chars_pl": 27,
+   "pl": "Za każdym razem, gdy mówi się o bossach,"
+  },
+  {
+   "start": 143.64,
+   "end": 145.68,
+   "es": "alguien lanza una cantidad.",
+   "id": 58,
+   "slot": 1.96,
+   "max_chars_pl": 27,
+   "pl": "ktoś rzuca jakąś kwotę."
+  },
+  {
+   "start": 145.68,
+   "end": 148.7,
+   "es": "Que si el Chapo valía mil millones de dólares.",
+   "id": 59,
+   "slot": 2.94,
+   "max_chars_pl": 41,
+   "pl": "Że Chapo miał miliard dolarów."
+  },
+  {
+   "start": 148.7,
+   "end": 151.36,
+   "es": "Que si el Mayo acumuló 15 mil millones.",
+   "id": 60,
+   "slot": 2.58,
+   "max_chars_pl": 36,
+   "pl": "Że Mayo zgromadził piętnaście miliardów."
+  },
+  {
+   "start": 151.36,
+   "end": 153.84,
+   "es": "Que si entre los tres juntaron un imperio de decenas de",
+   "id": 61,
+   "slot": 2.4,
+   "max_chars_pl": 33,
+   "pl": "Że razem zbudowali imperium warte dziesiątki"
+  },
+  {
+   "start": 153.84,
+   "end": 155.1,
+   "es": "miles de millones.",
+   "id": 62,
+   "slot": 1.18,
+   "max_chars_pl": 16,
+   "pl": "miliardów."
+  },
+  {
+   "start": 155.1,
+   "end": 157.1,
+   "es": "La cifra crece con cada video,",
+   "id": 63,
+   "slot": 1.92,
+   "max_chars_pl": 26,
+   "pl": "Liczba rośnie z każdym filmem,"
+  },
+  {
+   "start": 157.1,
+   "end": 158.56,
+   "es": "con cada reportaje,",
+   "id": 64,
+   "slot": 1.38,
+   "max_chars_pl": 19,
+   "pl": "z każdym reportażem,"
+  },
+  {
+   "start": 158.56,
+   "end": 160.68,
+   "es": "con cada rumor de cantina.",
+   "id": 65,
+   "slot": 2.04,
+   "max_chars_pl": 28,
+   "pl": "z każdą plotką z kantyny."
+  },
+  {
+   "start": 160.68,
+   "end": 161.98,
+   "es": "Y mientras más crece,",
+   "id": 66,
+   "slot": 1.22,
+   "max_chars_pl": 17,
+   "pl": "A im bardziej rośnie,"
+  },
+  {
+   "start": 161.98,
+   "end": 164.06,
+   "es": "menos la cuestión a nadie.",
+   "id": 67,
+   "slot": 2.0,
+   "max_chars_pl": 28,
+   "pl": "tym mniej kto ją kwestionuje."
+  },
+  {
+   "start": 164.06,
+   "end": 165.7,
+   "es": "Conviene detenerse aquí,",
+   "id": 68,
+   "slot": 1.56,
+   "max_chars_pl": 21,
+   "pl": "Warto się tu zatrzymać,"
+  },
+  {
+   "start": 165.7,
+   "end": 169.04,
+   "es": "porque la verdad es más incómoda que la leyenda.",
+   "id": 69,
+   "slot": 3.26,
+   "max_chars_pl": 45,
+   "pl": "bo prawda jest bardziej niewygodna niż legenda."
+  },
+  {
+   "start": 169.04,
+   "end": 171.46,
+   "es": "Nadie ha contado nunca ese dinero.",
+   "id": 70,
+   "slot": 2.34,
+   "max_chars_pl": 32,
+   "pl": "Nikt nigdy nie policzył tych pieniędzy."
+  },
+  {
+   "start": 171.46,
+   "end": 173.86,
+   "es": "Nadie lo ha visto apilado en una bóveda.",
+   "id": 71,
+   "slot": 2.32,
+   "max_chars_pl": 32,
+   "pl": "Nikt nie widział ich ułożonych w skarbcu."
+  },
+  {
+   "start": 173.86,
+   "end": 177.12,
+   "es": "Las grandes cifras que circulan no son el saldo de una cuenta",
+   "id": 72,
+   "slot": 3.18,
+   "max_chars_pl": 44,
+   "pl": "Wielkie sumy, które krążą, nie są saldem konta"
+  },
+  {
+   "start": 177.12,
+   "end": 177.78,
+   "es": "de banco.",
+   "id": 73,
+   "slot": 0.58,
+   "max_chars_pl": 8,
+   "pl": "bankowego."
+  },
+  {
+   "start": 177.78,
+   "end": 179.68,
+   "es": "Son estimaciones, cálculos,",
+   "id": 74,
+   "slot": 1.82,
+   "max_chars_pl": 25,
+   "pl": "To szacunki, wyliczenia,"
+  },
+  {
+   "start": 179.68,
+   "end": 183.22,
+   "es": "órdenes judiciales y muchas veces pura mitología.",
+   "id": 75,
+   "slot": 3.46,
+   "max_chars_pl": 48,
+   "pl": "nakazy sądowe i często zwykła mitologia."
+  },
+  {
+   "start": 183.22,
+   "end": 184.12,
+   "es": "Hace años,",
+   "id": 76,
+   "slot": 0.82,
+   "max_chars_pl": 11,
+   "pl": "Przed laty"
+  },
+  {
+   "start": 184.12,
+   "end": 187.08,
+   "es": "una famosa revista de negocios incluyó a El Chapo",
+   "id": 77,
+   "slot": 2.88,
+   "max_chars_pl": 40,
+   "pl": "słynny magazyn biznesowy umieścił Chapo"
+  },
+  {
+   "start": 187.08,
+   "end": 189.4,
+   "es": "en su lista de hombres más ricos del mundo.",
+   "id": 78,
+   "slot": 2.24,
+   "max_chars_pl": 31,
+   "pl": "na liście najbogatszych ludzi świata."
+  },
+  {
+   "start": 189.4,
+   "end": 192.28,
+   "es": "Y le calculó una fortuna de alrededor de mil millones",
+   "id": 79,
+   "slot": 2.8,
+   "max_chars_pl": 39,
+   "pl": "I wyliczył mu majątek około miliarda"
+  },
+  {
+   "start": 192.28,
+   "end": 193.5,
+   "es": "de dólares.",
+   "id": 80,
+   "slot": 1.14,
+   "max_chars_pl": 15,
+   "pl": "dolarów."
+  },
+  {
+   "start": 193.5,
+   "end": 195.18,
+   "es": "Fue un cálculo discutido,",
+   "id": 81,
+   "slot": 1.6,
+   "max_chars_pl": 22,
+   "pl": "To było sporne wyliczenie,"
+  },
+  {
+   "start": 195.18,
+   "end": 198.3,
+   "es": "basado en suposiciones sobre cuánta droga movía",
+   "id": 82,
+   "slot": 3.04,
+   "max_chars_pl": 42,
+   "pl": "oparte na założeniach, ile narkotyków przerzucał"
+  },
+  {
+   "start": 198.3,
+   "end": 200.56,
+   "es": "y cuánto ganaba por cada envío.",
+   "id": 83,
+   "slot": 2.18,
+   "max_chars_pl": 30,
+   "pl": "i ile zarabiał na każdej dostawie."
+  },
+  {
+   "start": 200.56,
+   "end": 202.48,
+   "es": "La propia revista admitió después",
+   "id": 84,
+   "slot": 1.84,
+   "max_chars_pl": 25,
+   "pl": "Sam magazyn przyznał później,"
+  },
+  {
+   "start": 202.48,
+   "end": 204.72,
+   "es": "que era casi imposible de comprobar.",
+   "id": 85,
+   "slot": 2.16,
+   "max_chars_pl": 30,
+   "pl": "że prawie niemożliwe jest to udowodnić."
+  },
+  {
+   "start": 204.72,
+   "end": 207.04,
+   "es": "Pero el número ya estaba suelto en el mundo",
+   "id": 86,
+   "slot": 2.24,
+   "max_chars_pl": 31,
+   "pl": "Ale liczba już krążyła po świecie,"
+  },
+  {
+   "start": 207.04,
+   "end": 209.84,
+   "es": "y el mundo lo repitió hasta volverlo verdad.",
+   "id": 87,
+   "slot": 2.72,
+   "max_chars_pl": 38,
+   "pl": "a świat powtarzał ją, aż stała się prawdą."
+  },
+  {
+   "start": 209.84,
+   "end": 212.7,
+   "es": "Cuando a El Chapo lo sentenciaron en Estados Unidos,",
+   "id": 88,
+   "slot": 2.78,
+   "max_chars_pl": 38,
+   "pl": "Gdy Chapo skazano w Stanach Zjednoczonych,"
+  },
+  {
+   "start": 212.7,
+   "end": 216.86,
+   "es": "un juez ordenó que devolviera 12.600 millones de dólares.",
+   "id": 89,
+   "slot": 4.08,
+   "max_chars_pl": 57,
+   "pl": "sędzia nakazał mu zwrot dwunastu miliardów sześciuset milionów dolarów."
+  },
+  {
+   "start": 216.86,
+   "end": 218.56,
+   "es": "Suena demoledor.",
+   "id": 90,
+   "slot": 1.62,
+   "max_chars_pl": 22,
+   "pl": "Brzmi druzgocąco."
+  },
+  {
+   "start": 218.56,
+   "end": 221.48,
+   "es": "Pero los propios fiscales reconocieron que esa cantidad",
+   "id": 91,
+   "slot": 2.84,
+   "max_chars_pl": 39,
+   "pl": "Ale sami prokuratorzy przyznali, że ta kwota"
+  },
+  {
+   "start": 221.48,
+   "end": 223.84,
+   "es": "era un estimado de lo que creían que había ganado",
+   "id": 92,
+   "slot": 2.28,
+   "max_chars_pl": 31,
+   "pl": "była szacunkiem tego, co ich zdaniem zarobił"
+  },
+  {
+   "start": 223.84,
+   "end": 225.98,
+   "es": "con la droga a lo largo de década",
+   "id": 93,
+   "slot": 2.06,
+   "max_chars_pl": 28,
+   "pl": "na narkotykach przez dekady,"
+  },
+  {
+   "start": 225.98,
+   "end": 228.04,
+   "es": "y que no pretendían demostrar en el juicio",
+   "id": 94,
+   "slot": 1.98,
+   "max_chars_pl": 27,
+   "pl": "i że nie zamierzali dowodzić na procesie,"
+  },
+  {
+   "start": 228.04,
+   "end": 229.94,
+   "es": "que tuviera ese dinero guardado.",
+   "id": 95,
+   "slot": 1.82,
+   "max_chars_pl": 25,
+   "pl": "że ma te pieniądze schowane."
+  },
+  {
+   "start": 229.94,
+   "end": 232.72,
+   "es": "Sus abogados fueron más crudos todavía.",
+   "id": 96,
+   "slot": 2.7,
+   "max_chars_pl": 37,
+   "pl": "Jego adwokaci byli jeszcze bardziej bezpośredni."
+  },
+  {
+   "start": 232.72,
+   "end": 235.38,
+   "es": "Dijeron que la orden era, palabra por palabra,",
+   "id": 97,
+   "slot": 2.58,
+   "max_chars_pl": 36,
+   "pl": "Powiedzieli, że ten nakaz był, słowo w słowo,"
+  },
+  {
+   "start": 235.38,
+   "end": 236.94,
+   "es": "un ejercicio académico,",
+   "id": 98,
+   "slot": 1.48,
+   "max_chars_pl": 20,
+   "pl": "ćwiczeniem akademickim,"
+  },
+  {
+   "start": 236.94,
+   "end": 238.76,
+   "es": "porque el gobierno no había localizado",
+   "id": 99,
+   "slot": 1.74,
+   "max_chars_pl": 24,
+   "pl": "bo rząd nie namierzył"
+  },
+  {
+   "start": 238.76,
+   "end": 241.64,
+   "es": "ni un solo dólar de esa supuesta fortuna.",
+   "id": 100,
+   "slot": 2.8,
+   "max_chars_pl": 39,
+   "pl": "ani jednego dolara tego rzekomego majątku."
+  },
+  {
+   "start": 241.64,
+   "end": 243.76,
+   "es": "Esa frase, un ejercicio académico,",
+   "id": 101,
+   "slot": 2.04,
+   "max_chars_pl": 28,
+   "pl": "To zdanie, ćwiczenie akademickie,"
+  },
+  {
+   "start": 243.76,
+   "end": 245.34,
+   "es": "debería quedarse grabada",
+   "id": 102,
+   "slot": 1.5,
+   "max_chars_pl": 21,
+   "pl": "powinno zostać wryte w pamięć,"
+  },
+  {
+   "start": 245.34,
+   "end": 247.52,
+   "es": "porque resume toda esta historia.",
+   "id": 103,
+   "slot": 2.1,
+   "max_chars_pl": 29,
+   "pl": "bo streszcza całą tę historię."
+  },
+  {
+   "start": 247.52,
+   "end": 250.04,
+   "es": "Las cifras existen en los papeles.",
+   "id": 104,
+   "slot": 2.44,
+   "max_chars_pl": 34,
+   "pl": "Liczby istnieją na papierze."
+  },
+  {
+   "start": 250.04,
+   "end": 253.76,
+   "es": "El dinero en la vida real casi nunca aparece.",
+   "id": 105,
+   "slot": 3.64,
+   "max_chars_pl": 50,
+   "pl": "Pieniądze w prawdziwym życiu prawie nigdy się nie pojawiają."
+  },
+  {
+   "start": 253.76,
+   "end": 256.16,
+   "es": "Con el mayo pasó algo parecido.",
+   "id": 106,
+   "slot": 2.32,
+   "max_chars_pl": 32,
+   "pl": "Z Mayo stało się coś podobnego."
+  },
+  {
+   "start": 256.16,
+   "end": 258.72,
+   "es": "Cuando lo condenaron, apenas este año,",
+   "id": 107,
+   "slot": 2.48,
+   "max_chars_pl": 34,
+   "pl": "Gdy go skazano, dopiero w tym roku,"
+  },
+  {
+   "start": 258.72,
+   "end": 262.28,
+   "es": "el juez ordenó que entregara 15.000 millones de dólares.",
+   "id": 108,
+   "slot": 3.48,
+   "max_chars_pl": 48,
+   "pl": "sędzia nakazał mu oddanie piętnastu miliardów dolarów."
+  },
+  {
+   "start": 262.28,
+   "end": 265.92,
+   "es": "Otra cantidad brutal, otra cifra para los titulares.",
+   "id": 109,
+   "slot": 3.56,
+   "max_chars_pl": 49,
+   "pl": "Kolejna brutalna kwota, kolejna liczba na nagłówki."
+  },
+  {
+   "start": 265.92,
+   "end": 269.2,
+   "es": "Y otra vez la misma pregunta flotando en el aire.",
+   "id": 110,
+   "slot": 3.2,
+   "max_chars_pl": 44,
+   "pl": "I znów to samo pytanie wiszące w powietrzu."
+  },
+  {
+   "start": 269.2,
+   "end": 271.62,
+   "es": "¿Dónde están esos 15.000 millones?",
+   "id": 111,
+   "slot": 2.34,
+   "max_chars_pl": 32,
+   "pl": "Gdzie jest tych piętnaście miliardów?"
+  },
+  {
+   "start": 271.62,
+   "end": 272.58,
+   "es": "¿En qué banco?",
+   "id": 112,
+   "slot": 0.88,
+   "max_chars_pl": 12,
+   "pl": "W jakim banku?"
+  },
+  {
+   "start": 272.58,
+   "end": 273.56,
+   "es": "¿En qué país?",
+   "id": 113,
+   "slot": 0.9,
+   "max_chars_pl": 12,
+   "pl": "W jakim kraju?"
+  },
+  {
+   "start": 273.56,
+   "end": 275.34,
+   "es": "¿Debajo de qué piso?",
+   "id": 114,
+   "slot": 1.7,
+   "max_chars_pl": 23,
+   "pl": "Pod którą podłogą?"
+  },
+  {
+   "start": 275.34,
+   "end": 278.4,
+   "es": "Y con el Mencho, la Agencia Antidrogas de Estados Unidos",
+   "id": 115,
+   "slot": 2.98,
+   "max_chars_pl": 41,
+   "pl": "A w przypadku Mencho amerykańska Agencja do Walki z Narkotykami"
+  },
+  {
+   "start": 278.4,
+   "end": 280.0,
+   "es": "llegó a calcular que había ganado",
+   "id": 116,
+   "slot": 1.52,
+   "max_chars_pl": 21,
+   "pl": "wyliczyła, że zarobił"
+  },
+  {
+   "start": 280.0,
+   "end": 283.12,
+   "es": "más de 1.000 millones de dólares a lo largo de su carrera.",
+   "id": 117,
+   "slot": 3.04,
+   "max_chars_pl": 42,
+   "pl": "ponad miliard dolarów w trakcie swojej kariery."
+  },
+  {
+   "start": 283.12,
+   "end": 284.76,
+   "es": "Pero esa misma agencia aclara",
+   "id": 118,
+   "slot": 1.56,
+   "max_chars_pl": 21,
+   "pl": "Ale ta sama agencja zaznacza,"
+  },
+  {
+   "start": 284.76,
+   "end": 287.02,
+   "es": "que es una estimación no verificada.",
+   "id": 119,
+   "slot": 2.18,
+   "max_chars_pl": 30,
+   "pl": "że to niezweryfikowany szacunek."
+  },
+  {
+   "start": 287.02,
+   "end": 288.26,
+   "es": "No es un dato.",
+   "id": 120,
+   "slot": 1.16,
+   "max_chars_pl": 16,
+   "pl": "To nie jest dana."
+  },
+  {
+   "start": 288.26,
+   "end": 290.76,
+   "es": "Es una sospecha con forma de número.",
+   "id": 121,
+   "slot": 2.42,
+   "max_chars_pl": 33,
+   "pl": "To podejrzenie w kształcie liczby."
+  },
+  {
+   "start": 290.76,
+   "end": 292.86,
+   "es": "Así que antes de entrar a las mansiones,",
+   "id": 122,
+   "slot": 2.02,
+   "max_chars_pl": 28,
+   "pl": "Zanim więc wejdziemy do rezydencji,"
+  },
+  {
+   "start": 292.86,
+   "end": 294.52,
+   "es": "hay que entender una cosa.",
+   "id": 123,
+   "slot": 1.58,
+   "max_chars_pl": 22,
+   "pl": "trzeba zrozumieć jedno."
+  },
+  {
+   "start": 294.52,
+   "end": 296.2,
+   "es": "Cuando alguien dice que estos tres hombres",
+   "id": 124,
+   "slot": 1.6,
+   "max_chars_pl": 22,
+   "pl": "Gdy ktoś mówi, że ci trzej"
+  },
+  {
+   "start": 296.2,
+   "end": 299.34,
+   "es": "tenían un imperio de 50.000 millones de dólares,",
+   "id": 125,
+   "slot": 3.06,
+   "max_chars_pl": 42,
+   "pl": "mieli imperium warte pięćdziesiąt miliardów dolarów,"
+  },
+  {
+   "start": 299.34,
+   "end": 301.46,
+   "es": "no está citando un documento.",
+   "id": 126,
+   "slot": 2.04,
+   "max_chars_pl": 28,
+   "pl": "nie cytuje żadnego dokumentu."
+  },
+  {
+   "start": 301.46,
+   "end": 303.12,
+   "es": "Está sumando leyendas.",
+   "id": 127,
+   "slot": 1.58,
+   "max_chars_pl": 22,
+   "pl": "Sumuje legendy."
+  },
+  {
+   "start": 303.12,
+   "end": 304.84,
+   "es": "Y esta historia trata justamente",
+   "id": 128,
+   "slot": 1.64,
+   "max_chars_pl": 22,
+   "pl": "A ta historia dotyczy właśnie"
+  },
+  {
+   "start": 304.84,
+   "end": 307.32,
+   "es": "de la distancia que hay entre esa leyenda",
+   "id": 129,
+   "slot": 2.4,
+   "max_chars_pl": 33,
+   "pl": "dystansu między tą legendą"
+  },
+  {
+   "start": 307.32,
+   "end": 309.32,
+   "es": "y lo que uno encuentra cuando por fin",
+   "id": 130,
+   "slot": 1.92,
+   "max_chars_pl": 26,
+   "pl": "a tym, co się znajduje, gdy w końcu"
+  },
+  {
+   "start": 309.32,
+   "end": 312.86,
+   "es": "abre la puerta de uno de esos palacios y mira adentro.",
+   "id": 131,
+   "slot": 3.46,
+   "max_chars_pl": 48,
+   "pl": "otworzy się drzwi jednego z tych pałaców i zajrzy do środka."
+  },
+  {
+   "start": 312.86,
+   "end": 315.56,
+   "es": "Empecemos por el más famoso de los tres.",
+   "id": 132,
+   "slot": 2.62,
+   "max_chars_pl": 36,
+   "pl": "Zacznijmy od najsłynniejszego z całej trójki."
+  },
+  {
+   "start": 315.56,
+   "end": 317.54,
+   "es": "Joaquín Guzmán lo era.",
+   "id": 133,
+   "slot": 1.9,
+   "max_chars_pl": 26,
+   "pl": "Był nim Joaquín Guzmán."
+  },
+  {
+   "start": 317.54,
+   "end": 318.64,
+   "es": "El Chapo.",
+   "id": 134,
+   "slot": 1.02,
+   "max_chars_pl": 14,
+   "pl": "Chapo."
+  },
+  {
+   "start": 318.64,
+   "end": 321.04,
+   "es": "Durante años, la imagen que vendieron de él",
+   "id": 135,
+   "slot": 2.32,
+   "max_chars_pl": 32,
+   "pl": "Przez lata obraz, który o nim sprzedawano,"
+  },
+  {
+   "start": 321.04,
+   "end": 322.5,
+   "es": "fue la de un rey.",
+   "id": 136,
+   "slot": 1.38,
+   "max_chars_pl": 19,
+   "pl": "był obrazem króla."
+  },
+  {
+   "start": 322.5,
+   "end": 324.72,
+   "es": "Un hombre que vivía rodeado de lujo,",
+   "id": 137,
+   "slot": 2.14,
+   "max_chars_pl": 29,
+   "pl": "Człowieka żyjącego w otoczeniu luksusu,"
+  },
+  {
+   "start": 324.72,
+   "end": 326.06,
+   "es": "que regalaba autos,",
+   "id": 138,
+   "slot": 1.26,
+   "max_chars_pl": 17,
+   "pl": "który rozdawał samochody,"
+  },
+  {
+   "start": 326.06,
+   "end": 328.06,
+   "es": "que hacía fiestas interminables,",
+   "id": 139,
+   "slot": 1.92,
+   "max_chars_pl": 26,
+   "pl": "który urządzał niekończące się przyjęcia,"
+  },
+  {
+   "start": 328.06,
+   "end": 329.9,
+   "es": "que tenía el mundo a sus pies.",
+   "id": 140,
+   "slot": 1.76,
+   "max_chars_pl": 24,
+   "pl": "który miał świat u stóp."
+  },
+  {
+   "start": 329.9,
+   "end": 331.56,
+   "es": "Pero cuando las fuerzas de seguridad",
+   "id": 141,
+   "slot": 1.58,
+   "max_chars_pl": 22,
+   "pl": "Ale gdy siły bezpieczeństwa"
+  },
+  {
+   "start": 331.56,
+   "end": 333.84,
+   "es": "entraron por fin a sus casas en Culiacán,",
+   "id": 142,
+   "slot": 2.2,
+   "max_chars_pl": 30,
+   "pl": "w końcu weszły do jego domów w Culiacán,"
+  },
+  {
+   "start": 333.84,
+   "end": 337.22,
+   "es": "lo que encontraron no se parecía al palacio de un rey.",
+   "id": 143,
+   "slot": 3.3,
+   "max_chars_pl": 46,
+   "pl": "to, co znalazły, nie przypominało pałacu króla."
+  },
+  {
+   "start": 337.22,
+   "end": 340.64,
+   "es": "Se parecía más a la madriguera de un animal acorralado.",
+   "id": 144,
+   "slot": 3.34,
+   "max_chars_pl": 46,
+   "pl": "Bardziej przypominało norę osaczonego zwierzęcia."
+  },
+  {
+   "start": 340.64,
+   "end": 344.28,
+   "es": "El Chapo no tenía una sola mansión deslumbrante en Culiacán.",
+   "id": 145,
+   "slot": 3.56,
+   "max_chars_pl": 49,
+   "pl": "Chapo nie miał w Culiacán ani jednej olśniewającej rezydencji."
+  },
+  {
+   "start": 344.28,
+   "end": 345.58,
+   "es": "Tenía una red.",
+   "id": 146,
+   "slot": 1.22,
+   "max_chars_pl": 17,
+   "pl": "Miał sieć."
+  },
+  {
+   "start": 345.58,
+   "end": 347.1,
+   "es": "Según las autoridades,",
+   "id": 147,
+   "slot": 1.44,
+   "max_chars_pl": 20,
+   "pl": "Według władz"
+  },
+  {
+   "start": 347.1,
+   "end": 349.96,
+   "es": "compró y reforzó al menos siete casas de seguridad",
+   "id": 148,
+   "slot": 2.78,
+   "max_chars_pl": 38,
+   "pl": "kupił i umocnił co najmniej siedem kryjówek"
+  },
+  {
+   "start": 349.96,
+   "end": 351.9,
+   "es": "repartidas por la ciudad.",
+   "id": 149,
+   "slot": 1.86,
+   "max_chars_pl": 26,
+   "pl": "rozsianych po całym mieście."
+  },
+  {
+   "start": 351.9,
+   "end": 355.2,
+   "es": "Por fuera, casi todas parecían viviendas comunes,",
+   "id": 150,
+   "slot": 3.22,
+   "max_chars_pl": 45,
+   "pl": "Z zewnątrz prawie wszystkie wyglądały jak zwykłe domy"
+  },
+  {
+   "start": 355.2,
+   "end": 356.86,
+   "es": "de clase media acomodada,",
+   "id": 151,
+   "slot": 1.58,
+   "max_chars_pl": 22,
+   "pl": "zamożnej klasy średniej,"
+  },
+  {
+   "start": 356.86,
+   "end": 358.46,
+   "es": "en barrios tranquilos.",
+   "id": 152,
+   "slot": 1.52,
+   "max_chars_pl": 21,
+   "pl": "w spokojnych dzielnicach."
+  },
+  {
+   "start": 358.46,
+   "end": 360.34,
+   "es": "Nada que llamara la atención.",
+   "id": 153,
+   "slot": 1.8,
+   "max_chars_pl": 25,
+   "pl": "Nic, co zwracałoby uwagę."
+  },
+  {
+   "start": 360.34,
+   "end": 362.5,
+   "es": "Y esa era exactamente la idea.",
+   "id": 154,
+   "slot": 2.08,
+   "max_chars_pl": 29,
+   "pl": "I o to właśnie chodziło."
+  },
+  {
+   "start": 362.5,
+   "end": 363.56,
+   "es": "Porque por dentro,",
+   "id": 155,
+   "slot": 0.98,
+   "max_chars_pl": 13,
+   "pl": "Bo w środku"
+  },
+  {
+   "start": 363.56,
+   "end": 366.24,
+   "es": "esas casas escondían una obra de ingeniería",
+   "id": 156,
+   "slot": 2.6,
+   "max_chars_pl": 36,
+   "pl": "te domy skrywały dzieło inżynierii"
+  },
+  {
+   "start": 366.24,
+   "end": 368.16,
+   "es": "hecha de pura paranoia.",
+   "id": 157,
+   "slot": 1.84,
+   "max_chars_pl": 25,
+   "pl": "zbudowane z czystej paranoi."
+  },
+  {
+   "start": 368.16,
+   "end": 371.24,
+   "es": "Varias de ellas estaban conectadas entre sí.",
+   "id": 158,
+   "slot": 3.0,
+   "max_chars_pl": 42,
+   "pl": "Kilka z nich było ze sobą połączonych."
+  },
+  {
+   "start": 371.24,
+   "end": 374.16,
+   "es": "Y casi todas estaban conectadas al sistema de drenaje",
+   "id": 159,
+   "slot": 2.84,
+   "max_chars_pl": 39,
+   "pl": "A prawie wszystkie łączyły tunele z kanalizacją"
+  },
+  {
+   "start": 374.16,
+   "end": 376.4,
+   "es": "de la ciudad a través de túneles.",
+   "id": 160,
+   "slot": 2.16,
+   "max_chars_pl": 30,
+   "pl": "miasta."
+  },
+  {
+   "start": 376.4,
+   "end": 379.36,
+   "es": "El Capo había convertido las alcantarillas de Culiacán",
+   "id": 161,
+   "slot": 2.88,
+   "max_chars_pl": 40,
+   "pl": "Chapo zamienił kanały Culiacán"
+  },
+  {
+   "start": 379.36,
+   "end": 381.98,
+   "es": "en su propia red secreta de escape.",
+   "id": 162,
+   "slot": 2.54,
+   "max_chars_pl": 35,
+   "pl": "w swoją tajną sieć ucieczki."
+  },
+  {
+   "start": 381.98,
+   "end": 383.8,
+   "es": "Podía meterse en una casa,",
+   "id": 163,
+   "slot": 1.74,
+   "max_chars_pl": 24,
+   "pl": "Mógł wejść do domu,"
+  },
+  {
+   "start": 383.8,
+   "end": 385.48,
+   "es": "desaparecer bajo el piso",
+   "id": 164,
+   "slot": 1.6,
+   "max_chars_pl": 22,
+   "pl": "zniknąć pod podłogą"
+  },
+  {
+   "start": 385.48,
+   "end": 387.82,
+   "es": "y salir, kilómetros después,",
+   "id": 165,
+   "slot": 2.26,
+   "max_chars_pl": 31,
+   "pl": "i wyjść kilometry dalej,"
+  },
+  {
+   "start": 387.82,
+   "end": 389.52,
+   "es": "en otro punto de la ciudad,",
+   "id": 166,
+   "slot": 1.62,
+   "max_chars_pl": 22,
+   "pl": "w innym punkcie miasta,"
+  },
+  {
+   "start": 389.52,
+   "end": 392.86,
+   "es": "mientras los soldados seguían rodeando la puerta equivocada.",
+   "id": 167,
+   "slot": 3.26,
+   "max_chars_pl": 45,
+   "pl": "podczas gdy żołnierze wciąż otaczali niewłaściwe drzwi."
+  },
+  {
+   "start": 392.86,
+   "end": 395.08,
+   "es": "La pieza más famosa de ese laberinto",
+   "id": 168,
+   "slot": 2.14,
+   "max_chars_pl": 29,
+   "pl": "Najsłynniejszym elementem tego labiryntu"
+  },
+  {
+   "start": 395.08,
+   "end": 396.8,
+   "es": "era una tina de baño.",
+   "id": 169,
+   "slot": 1.64,
+   "max_chars_pl": 22,
+   "pl": "była wanna."
+  },
+  {
+   "start": 396.8,
+   "end": 397.96,
+   "es": "En una de las casas,",
+   "id": 170,
+   "slot": 1.08,
+   "max_chars_pl": 15,
+   "pl": "W jednym z domów,"
+  },
+  {
+   "start": 397.96,
+   "end": 399.22,
+   "es": "debajo de la bañera,",
+   "id": 171,
+   "slot": 1.18,
+   "max_chars_pl": 16,
+   "pl": "pod wanną,"
+  },
+  {
+   "start": 399.22,
+   "end": 401.4,
+   "es": "había un mecanismo hidráulico.",
+   "id": 172,
+   "slot": 2.1,
+   "max_chars_pl": 29,
+   "pl": "krył się mechanizm hydrauliczny."
+  },
+  {
+   "start": 401.4,
+   "end": 403.02,
+   "es": "La tina se levantaba entera,",
+   "id": 173,
+   "slot": 1.54,
+   "max_chars_pl": 21,
+   "pl": "Wanna unosiła się w całości,"
+  },
+  {
+   "start": 403.02,
+   "end": 404.08,
+   "es": "como una tapa,",
+   "id": 174,
+   "slot": 0.98,
+   "max_chars_pl": 13,
+   "pl": "jak klapa,"
+  },
+  {
+   "start": 404.08,
+   "end": 406.12,
+   "es": "y debajo aparecía la boca de un túnel",
+   "id": 175,
+   "slot": 1.96,
+   "max_chars_pl": 27,
+   "pl": "a pod nią otwierało się wejście do tunelu,"
+  },
+  {
+   "start": 406.12,
+   "end": 409.32,
+   "es": "que conectaba con el drenaje y con las otras viviendas.",
+   "id": 176,
+   "slot": 3.12,
+   "max_chars_pl": 43,
+   "pl": "który łączył się z kanalizacją i z innymi domami."
+  },
+  {
+   "start": 409.32,
+   "end": 411.54,
+   "es": "En febrero del año 2014,",
+   "id": 177,
+   "slot": 2.14,
+   "max_chars_pl": 29,
+   "pl": "W lutym dwa tysiące czternastego roku,"
+  },
+  {
+   "start": 411.54,
+   "end": 414.06,
+   "es": "cuando la Marina por fin cercó al Chapo,",
+   "id": 178,
+   "slot": 2.44,
+   "max_chars_pl": 34,
+   "pl": "gdy marynarka w końcu osaczyła Chapo,"
+  },
+  {
+   "start": 414.06,
+   "end": 416.86,
+   "es": "él se metió por ese agujero debajo de la tina",
+   "id": 179,
+   "slot": 2.72,
+   "max_chars_pl": 38,
+   "pl": "wszedł on przez ten otwór pod wanną"
+  },
+  {
+   "start": 416.86,
+   "end": 418.14,
+   "es": "y se esfumó.",
+   "id": 180,
+   "slot": 1.2,
+   "max_chars_pl": 16,
+   "pl": "i zniknął."
+  },
+  {
+   "start": 418.14,
+   "end": 420.4,
+   "es": "Tardaron días en volver a dar con él.",
+   "id": 181,
+   "slot": 2.18,
+   "max_chars_pl": 30,
+   "pl": "Odnalezienie go zajęło im całe dni."
+  },
+  {
+   "start": 420.4,
+   "end": 423.08,
+   "es": "Hubo otro detalle que dejó helados a los periodistas",
+   "id": 182,
+   "slot": 2.6,
+   "max_chars_pl": 36,
+   "pl": "Był jeszcze jeden szczegół, który zmroził dziennikarzy,"
+  },
+  {
+   "start": 423.08,
+   "end": 425.28,
+   "es": "que después recorrieron esas casas.",
+   "id": 183,
+   "slot": 2.12,
+   "max_chars_pl": 29,
+   "pl": "którzy potem oglądali te domy."
+  },
+  {
+   "start": 425.28,
+   "end": 426.36,
+   "es": "Las puertas.",
+   "id": 184,
+   "slot": 1.0,
+   "max_chars_pl": 14,
+   "pl": "Drzwi."
+  },
+  {
+   "start": 426.36,
+   "end": 428.28,
+   "es": "No eran puertas normales.",
+   "id": 185,
+   "slot": 1.84,
+   "max_chars_pl": 25,
+   "pl": "To nie były zwykłe drzwi."
+  },
+  {
+   "start": 428.28,
+   "end": 429.66,
+   "es": "Estaban reforzadas",
+   "id": 186,
+   "slot": 1.3,
+   "max_chars_pl": 18,
+   "pl": "Były wzmocnione"
+  },
+  {
+   "start": 429.66,
+   "end": 432.64,
+   "es": "y, en muchos casos, rellenas de agua.",
+   "id": 187,
+   "slot": 2.9,
+   "max_chars_pl": 40,
+   "pl": "i w wielu wypadkach wypełnione wodą."
+  },
+  {
+   "start": 432.64,
+   "end": 434.8,
+   "es": "Suena absurdo hasta que te lo explican.",
+   "id": 188,
+   "slot": 2.08,
+   "max_chars_pl": 29,
+   "pl": "Brzmi absurdalnie, póki ktoś tego nie wyjaśni."
+  },
+  {
+   "start": 434.8,
+   "end": 436.48,
+   "es": "Una puerta hueca sede fácil",
+   "id": 189,
+   "slot": 1.6,
+   "max_chars_pl": 22,
+   "pl": "Puste drzwi łatwo ustępują"
+  },
+  {
+   "start": 436.48,
+   "end": 438.1,
+   "es": "ante un golpe de barreta.",
+   "id": 190,
+   "slot": 1.54,
+   "max_chars_pl": 21,
+   "pl": "pod uderzeniem taranu."
+  },
+  {
+   "start": 438.1,
+   "end": 439.6,
+   "es": "Pero una puerta llena de agua",
+   "id": 191,
+   "slot": 1.42,
+   "max_chars_pl": 19,
+   "pl": "Ale drzwi pełne wody"
+  },
+  {
+   "start": 439.6,
+   "end": 441.24,
+   "es": "distribuye la fuerza del impacto",
+   "id": 192,
+   "slot": 1.56,
+   "max_chars_pl": 21,
+   "pl": "rozkładają siłę uderzenia"
+  },
+  {
+   "start": 441.24,
+   "end": 442.88,
+   "es": "y aguanta mucho más.",
+   "id": 193,
+   "slot": 1.56,
+   "max_chars_pl": 21,
+   "pl": "i wytrzymują dużo dłużej."
+  },
+  {
+   "start": 442.88,
+   "end": 445.0,
+   "es": "Cada segundo que esa puerta resistía",
+   "id": 194,
+   "slot": 2.04,
+   "max_chars_pl": 28,
+   "pl": "Każda sekunda, którą te drzwi wytrzymały,"
+  },
+  {
+   "start": 445.0,
+   "end": 447.36,
+   "es": "era un segundo que el hombre del otro lado ganaba",
+   "id": 195,
+   "slot": 2.28,
+   "max_chars_pl": 31,
+   "pl": "była sekundą, którą tamten zyskiwał,"
+  },
+  {
+   "start": 447.36,
+   "end": 449.48,
+   "es": "para bajar por el túnel.",
+   "id": 196,
+   "slot": 2.04,
+   "max_chars_pl": 28,
+   "pl": "by zejść do tunelu."
+  },
+  {
+   "start": 449.48,
+   "end": 450.84,
+   "es": "Eso es lo que de verdad había",
+   "id": 197,
+   "slot": 1.28,
+   "max_chars_pl": 17,
+   "pl": "Tak naprawdę wyglądały"
+  },
+  {
+   "start": 450.84,
+   "end": 453.92,
+   "es": "en los supuestos palacios de El Chapo en Culiacán.",
+   "id": 198,
+   "slot": 3.0,
+   "max_chars_pl": 42,
+   "pl": "te rzekome pałace Chapo w Culiacán."
+  },
+  {
+   "start": 453.92,
+   "end": 455.62,
+   "es": "No columnas de oro,",
+   "id": 199,
+   "slot": 1.62,
+   "max_chars_pl": 22,
+   "pl": "Nie złote kolumny,"
+  },
+  {
+   "start": 455.62,
+   "end": 456.96,
+   "es": "tubos de drenaje,",
+   "id": 200,
+   "slot": 1.26,
+   "max_chars_pl": 17,
+   "pl": "rury kanalizacyjne,"
+  },
+  {
+   "start": 456.96,
+   "end": 458.1,
+   "es": "puertas con agua,",
+   "id": 201,
+   "slot": 1.06,
+   "max_chars_pl": 14,
+   "pl": "drzwi z wodą,"
+  },
+  {
+   "start": 458.1,
+   "end": 459.72,
+   "es": "tinas que se levantaban.",
+   "id": 202,
+   "slot": 1.54,
+   "max_chars_pl": 21,
+   "pl": "wanny, które się unosiły."
+  },
+  {
+   "start": 459.72,
+   "end": 462.06,
+   "es": "No eran casas para vivir bien.",
+   "id": 203,
+   "slot": 2.26,
+   "max_chars_pl": 31,
+   "pl": "To nie były domy do dobrego życia."
+  },
+  {
+   "start": 462.06,
+   "end": 464.12,
+   "es": "Eran casas para no morir.",
+   "id": 204,
+   "slot": 1.98,
+   "max_chars_pl": 27,
+   "pl": "To były domy, by nie umrzeć."
+  },
+  {
+   "start": 464.12,
+   "end": 466.86,
+   "es": "Eran trincheras disfrazadas de hogares.",
+   "id": 205,
+   "slot": 2.66,
+   "max_chars_pl": 37,
+   "pl": "To były okopy przebrane za domy."
+  },
+  {
+   "start": 466.86,
+   "end": 469.76,
+   "es": "Y hay algo profundamente revelador en eso.",
+   "id": 206,
+   "slot": 2.82,
+   "max_chars_pl": 39,
+   "pl": "I jest w tym coś głęboko wymownego."
+  },
+  {
+   "start": 469.76,
+   "end": 472.08,
+   "es": "El hombre al que pintaban como el dueño del mundo",
+   "id": 207,
+   "slot": 2.24,
+   "max_chars_pl": 31,
+   "pl": "Człowiek, którego malowano jako pana świata,"
+  },
+  {
+   "start": 472.08,
+   "end": 475.48,
+   "es": "vivía como un prófugo dentro de su propio reino.",
+   "id": 208,
+   "slot": 3.32,
+   "max_chars_pl": 46,
+   "pl": "żył jak zbieg we własnym królestwie."
+  },
+  {
+   "start": 475.48,
+   "end": 477.42,
+   "es": "Dormía con la ropa puesta.",
+   "id": 209,
+   "slot": 1.86,
+   "max_chars_pl": 26,
+   "pl": "Spał w ubraniu."
+  },
+  {
+   "start": 477.42,
+   "end": 480.4,
+   "es": "Tenía rutas de escape debajo de la cama.",
+   "id": 210,
+   "slot": 2.9,
+   "max_chars_pl": 40,
+   "pl": "Miał drogi ucieczki pod łóżkiem."
+  },
+  {
+   "start": 480.4,
+   "end": 482.36,
+   "es": "No disfrutaba su fortuna.",
+   "id": 211,
+   "slot": 1.88,
+   "max_chars_pl": 26,
+   "pl": "Nie cieszył się swoim majątkiem."
+  },
+  {
+   "start": 482.36,
+   "end": 483.38,
+   "es": "La vigilaba,",
+   "id": 212,
+   "slot": 0.94,
+   "max_chars_pl": 13,
+   "pl": "Strzegł go,"
+  },
+  {
+   "start": 483.38,
+   "end": 484.9,
+   "es": "aterrado de perderla,",
+   "id": 213,
+   "slot": 1.44,
+   "max_chars_pl": 20,
+   "pl": "przerażony, że go straci,"
+  },
+  {
+   "start": 484.9,
+   "end": 487.34,
+   "es": "aterrado de que llegaran por él.",
+   "id": 214,
+   "slot": 2.36,
+   "max_chars_pl": 33,
+   "pl": "przerażony, że po niego przyjdą."
+  },
+  {
+   "start": 487.34,
+   "end": 488.26,
+   "es": "Y, al final,",
+   "id": 215,
+   "slot": 0.84,
+   "max_chars_pl": 11,
+   "pl": "I w końcu"
+  },
+  {
+   "start": 488.26,
+   "end": 489.5,
+   "es": "llegaron.",
+   "id": 216,
+   "slot": 1.16,
+   "max_chars_pl": 16,
+   "pl": "przyszli."
+  },
+  {
+   "start": 489.5,
+   "end": 492.58,
+   "es": "La leyenda del Chapo se construyó sobre sus fugas.",
+   "id": 217,
+   "slot": 3.0,
+   "max_chars_pl": 42,
+   "pl": "Legenda Chapo zbudowała się na jego ucieczkach."
+  },
+  {
+   "start": 492.58,
+   "end": 495.68,
+   "es": "Se escapó de una cárcel de máxima seguridad escondido,",
+   "id": 218,
+   "slot": 3.02,
+   "max_chars_pl": 42,
+   "pl": "Uciekł z więzienia o zaostrzonym rygorze, ukryty,"
+  },
+  {
+   "start": 495.68,
+   "end": 497.5,
+   "es": "según la versión más repetida,",
+   "id": 219,
+   "slot": 1.74,
+   "max_chars_pl": 24,
+   "pl": "według najczęściej powtarzanej wersji,"
+  },
+  {
+   "start": 497.5,
+   "end": 499.48,
+   "es": "en un carrito de lavandería.",
+   "id": 220,
+   "slot": 1.9,
+   "max_chars_pl": 26,
+   "pl": "w wózku z pościelą."
+  },
+  {
+   "start": 499.48,
+   "end": 501.48,
+   "es": "Años después se escapó de otra prisión",
+   "id": 221,
+   "slot": 1.92,
+   "max_chars_pl": 26,
+   "pl": "Lata później uciekł z kolejnego więzienia"
+  },
+  {
+   "start": 501.48,
+   "end": 503.52,
+   "es": "por un túnel iluminado y ventilado,",
+   "id": 222,
+   "slot": 1.96,
+   "max_chars_pl": 27,
+   "pl": "oświetlonym i wentylowanym tunelem,"
+  },
+  {
+   "start": 503.52,
+   "end": 505.6,
+   "es": "con una motocicleta sobre rieles,",
+   "id": 223,
+   "slot": 2.0,
+   "max_chars_pl": 28,
+   "pl": "z motocyklem na szynach,"
+  },
+  {
+   "start": 505.6,
+   "end": 509.22,
+   "es": "excavado durante meses por debajo de la regadera de su celda.",
+   "id": 224,
+   "slot": 3.54,
+   "max_chars_pl": 49,
+   "pl": "kopanym miesiącami pod prysznicem jego celi."
+  },
+  {
+   "start": 509.22,
+   "end": 511.62,
+   "es": "Cada fuga agrandaba el mito.",
+   "id": 225,
+   "slot": 2.32,
+   "max_chars_pl": 32,
+   "pl": "Każda ucieczka powiększała mit."
+  },
+  {
+   "start": 511.62,
+   "end": 515.12,
+   "es": "Cada fuga lo volvía más intocable a los ojos de la gente.",
+   "id": 226,
+   "slot": 3.42,
+   "max_chars_pl": 47,
+   "pl": "Każda ucieczka czyniła go w oczach ludzi bardziej nietykalnym."
+  },
+  {
+   "start": 515.12,
+   "end": 516.92,
+   "es": "Pero las fugas se acabaron.",
+   "id": 227,
+   "slot": 1.72,
+   "max_chars_pl": 24,
+   "pl": "Ale ucieczki się skończyły."
+  },
+  {
+   "start": 516.92,
+   "end": 519.38,
+   "es": "Lo recapturaron tras una persecución feroz,",
+   "id": 228,
+   "slot": 2.38,
+   "max_chars_pl": 33,
+   "pl": "Złapano go po zaciekłym pościgu,"
+  },
+  {
+   "start": 519.38,
+   "end": 521.08,
+   "es": "y esta vez el gobierno mexicano",
+   "id": 229,
+   "slot": 1.62,
+   "max_chars_pl": 22,
+   "pl": "a tym razem rząd meksykański"
+  },
+  {
+   "start": 521.08,
+   "end": 524.3,
+   "es": "no quiso correr el riesgo de una tercera humillación.",
+   "id": 230,
+   "slot": 3.14,
+   "max_chars_pl": 43,
+   "pl": "nie chciał ryzykować trzeciego upokorzenia."
+  },
+  {
+   "start": 524.3,
+   "end": 528.1,
+   "es": "En el año 2017 lo extraditaron a Estados Unidos.",
+   "id": 231,
+   "slot": 3.72,
+   "max_chars_pl": 52,
+   "pl": "W dwa tysiące siedemnastym roku wydano go Stanom Zjednoczonym."
+  },
+  {
+   "start": 528.1,
+   "end": 530.5,
+   "es": "Allá no había túneles bajo la regadera.",
+   "id": 232,
+   "slot": 2.32,
+   "max_chars_pl": 32,
+   "pl": "Tam nie było tuneli pod prysznicem."
+  },
+  {
+   "start": 530.5,
+   "end": 533.42,
+   "es": "Allá no había comandantes que se pudieran comprar.",
+   "id": 233,
+   "slot": 2.84,
+   "max_chars_pl": 39,
+   "pl": "Tam nie było komendantów, których można kupić."
+  },
+  {
+   "start": 533.42,
+   "end": 534.88,
+   "es": "Allá estaba solo.",
+   "id": 234,
+   "slot": 1.38,
+   "max_chars_pl": 19,
+   "pl": "Tam był sam."
+  },
+  {
+   "start": 534.88,
+   "end": 538.28,
+   "es": "El juicio se celebró en Nueva York y duró casi tres meses.",
+   "id": 235,
+   "slot": 3.32,
+   "max_chars_pl": 46,
+   "pl": "Proces odbył się w Nowym Jorku i trwał prawie trzy miesiące."
+  },
+  {
+   "start": 538.28,
+   "end": 541.1,
+   "es": "Desfilaron testigos que habían sido sus socios,",
+   "id": 236,
+   "slot": 2.74,
+   "max_chars_pl": 38,
+   "pl": "Przewinęli się świadkowie, którzy byli jego wspólnikami,"
+  },
+  {
+   "start": 541.1,
+   "end": 542.24,
+   "es": "sus pilotos,",
+   "id": 237,
+   "slot": 1.06,
+   "max_chars_pl": 14,
+   "pl": "jego pilotami,"
+  },
+  {
+   "start": 542.24,
+   "end": 543.4,
+   "es": "sus sicarios,",
+   "id": 238,
+   "slot": 1.08,
+   "max_chars_pl": 15,
+   "pl": "jego płatnymi zabójcami,"
+  },
+  {
+   "start": 543.4,
+   "end": 544.96,
+   "es": "su gente de confianza,",
+   "id": 239,
+   "slot": 1.48,
+   "max_chars_pl": 20,
+   "pl": "jego zaufanymi ludźmi,"
+  },
+  {
+   "start": 544.96,
+   "end": 547.2,
+   "es": "hombres que lo habían conocido por dentro",
+   "id": 240,
+   "slot": 2.16,
+   "max_chars_pl": 30,
+   "pl": "mężczyźni, którzy znali go od środka"
+  },
+  {
+   "start": 547.2,
+   "end": 549.12,
+   "es": "y que, para salvarse ellos,",
+   "id": 241,
+   "slot": 1.84,
+   "max_chars_pl": 25,
+   "pl": "i którzy, by ratować siebie,"
+  },
+  {
+   "start": 549.12,
+   "end": 550.74,
+   "es": "lo hundieron a él.",
+   "id": 242,
+   "slot": 1.54,
+   "max_chars_pl": 21,
+   "pl": "pogrążyli jego."
+  },
+  {
+   "start": 550.74,
+   "end": 552.78,
+   "es": "Se habló de toneladas de cocaína,",
+   "id": 243,
+   "slot": 1.96,
+   "max_chars_pl": 27,
+   "pl": "Mówiono o tonach kokainy,"
+  },
+  {
+   "start": 552.78,
+   "end": 554.9,
+   "es": "de sobornos a lo más alto del poder,",
+   "id": 244,
+   "slot": 2.04,
+   "max_chars_pl": 28,
+   "pl": "o łapówkach na najwyższych szczytach władzy,"
+  },
+  {
+   "start": 554.9,
+   "end": 556.18,
+   "es": "de asesinatos.",
+   "id": 245,
+   "slot": 1.2,
+   "max_chars_pl": 16,
+   "pl": "o morderstwach."
+  },
+  {
+   "start": 556.18,
+   "end": 559.56,
+   "es": "En el año 2019 el juez dictó la sentencia,",
+   "id": 246,
+   "slot": 3.3,
+   "max_chars_pl": 46,
+   "pl": "W dwa tysiące dziewiętnastym roku sędzia wydał wyrok,"
+  },
+  {
+   "start": 559.56,
+   "end": 562.3,
+   "es": "cadena perpetua más 30 años.",
+   "id": 247,
+   "slot": 2.66,
+   "max_chars_pl": 37,
+   "pl": "dożywocie plus trzydzieści lat."
+  },
+  {
+   "start": 562.3,
+   "end": 565.26,
+   "es": "El chapo no volvería a pisar la calle nunca.",
+   "id": 248,
+   "slot": 2.88,
+   "max_chars_pl": 40,
+   "pl": "Chapo nigdy więcej nie miał stanąć na ulicy."
+  },
+  {
+   "start": 565.26,
+   "end": 567.48,
+   "es": "Y junto con la condena vino aquella orden",
+   "id": 249,
+   "slot": 2.14,
+   "max_chars_pl": 29,
+   "pl": "A razem z wyrokiem przyszedł ten nakaz"
+  },
+  {
+   "start": 567.48,
+   "end": 570.78,
+   "es": "de devolver 12.600 millones de dólares,",
+   "id": 250,
+   "slot": 3.22,
+   "max_chars_pl": 45,
+   "pl": "zwrotu dwunastu miliardów sześciuset milionów dolarów,"
+  },
+  {
+   "start": 570.78,
+   "end": 572.96,
+   "es": "el número que llenó los titulares.",
+   "id": 251,
+   "slot": 2.1,
+   "max_chars_pl": 29,
+   "pl": "liczba, która zapełniła nagłówki."
+  },
+  {
+   "start": 572.96,
+   "end": 574.62,
+   "es": "El número que, como vimos,",
+   "id": 252,
+   "slot": 1.58,
+   "max_chars_pl": 22,
+   "pl": "Liczba, którą, jak widzieliśmy,"
+  },
+  {
+   "start": 574.62,
+   "end": 577.8,
+   "es": "los propios abogados llamaron un ejercicio académico",
+   "id": 253,
+   "slot": 3.1,
+   "max_chars_pl": 43,
+   "pl": "sami adwokaci nazwali ćwiczeniem akademickim,"
+  },
+  {
+   "start": 577.8,
+   "end": 579.88,
+   "es": "porque el dinero jamás se encontró.",
+   "id": 254,
+   "slot": 2.0,
+   "max_chars_pl": 28,
+   "pl": "bo pieniędzy nigdy nie znaleziono."
+  },
+  {
+   "start": 579.88,
+   "end": 582.08,
+   "es": "Se lo llevaron a la prisión de máxima seguridad",
+   "id": 255,
+   "slot": 2.12,
+   "max_chars_pl": 29,
+   "pl": "Zabrano go do więzienia o zaostrzonym rygorze"
+  },
+  {
+   "start": 582.08,
+   "end": 583.98,
+   "es": "de Florence, en Colorado.",
+   "id": 256,
+   "slot": 1.82,
+   "max_chars_pl": 25,
+   "pl": "we Florence, w Kolorado."
+  },
+  {
+   "start": 583.98,
+   "end": 585.38,
+   "es": "La llaman la Supermax",
+   "id": 257,
+   "slot": 1.32,
+   "max_chars_pl": 18,
+   "pl": "Nazywają je Supermax"
+  },
+  {
+   "start": 585.38,
+   "end": 588.86,
+   "es": "y tiene fama de ser la cárcel más dura de Estados Unidos.",
+   "id": 258,
+   "slot": 3.4,
+   "max_chars_pl": 47,
+   "pl": "i słynie jako najsurowsze więzienie w Stanach Zjednoczonych."
+  },
+  {
+   "start": 588.86,
+   "end": 590.12,
+   "es": "Celdas de concreto,",
+   "id": 259,
+   "slot": 1.18,
+   "max_chars_pl": 16,
+   "pl": "Betonowe cele,"
+  },
+  {
+   "start": 590.12,
+   "end": 592.28,
+   "es": "ventanas estrechas por las que apenas se ve",
+   "id": 260,
+   "slot": 2.08,
+   "max_chars_pl": 29,
+   "pl": "wąskie okna, przez które ledwie widać"
+  },
+  {
+   "start": 592.28,
+   "end": 593.62,
+   "es": "un pedazo de cielo.",
+   "id": 261,
+   "slot": 1.26,
+   "max_chars_pl": 17,
+   "pl": "kawałek nieba."
+  },
+  {
+   "start": 593.62,
+   "end": 595.82,
+   "es": "Aislamiento casi total.",
+   "id": 262,
+   "slot": 2.12,
+   "max_chars_pl": 29,
+   "pl": "Niemal całkowita izolacja."
+  },
+  {
+   "start": 595.82,
+   "end": 597.56,
+   "es": "De ese lugar dicen,",
+   "id": 263,
+   "slot": 1.66,
+   "max_chars_pl": 23,
+   "pl": "O tym miejscu mówią,"
+  },
+  {
+   "start": 597.56,
+   "end": 599.98,
+   "es": "nunca ha escapado nadie desde que abrió.",
+   "id": 264,
+   "slot": 2.34,
+   "max_chars_pl": 32,
+   "pl": "że od otwarcia nikt stamtąd nie uciekł."
+  },
+  {
+   "start": 599.98,
+   "end": 601.46,
+   "es": "Para el hombre de los túneles,",
+   "id": 265,
+   "slot": 1.4,
+   "max_chars_pl": 19,
+   "pl": "Dla człowieka tuneli,"
+  },
+  {
+   "start": 601.46,
+   "end": 602.76,
+   "es": "para el rey de las fugas,",
+   "id": 266,
+   "slot": 1.22,
+   "max_chars_pl": 17,
+   "pl": "dla króla ucieczek,"
+  },
+  {
+   "start": 602.76,
+   "end": 605.38,
+   "es": "no podía haber castigo más preciso.",
+   "id": 267,
+   "slot": 2.54,
+   "max_chars_pl": 35,
+   "pl": "nie mogło być kary trafniejszej."
+  },
+  {
+   "start": 605.38,
+   "end": 606.96,
+   "es": "Encerrarlo en el único sitio",
+   "id": 268,
+   "slot": 1.5,
+   "max_chars_pl": 21,
+   "pl": "Zamknąć go w jedynym miejscu,"
+  },
+  {
+   "start": 606.96,
+   "end": 609.36,
+   "es": "del que es imposible cavar una salida.",
+   "id": 269,
+   "slot": 2.32,
+   "max_chars_pl": 32,
+   "pl": "z którego nie da się wykopać wyjścia."
+  },
+  {
+   "start": 609.36,
+   "end": 611.78,
+   "es": "Ahí sigue, hasta donde se sabe,",
+   "id": 270,
+   "slot": 2.34,
+   "max_chars_pl": 32,
+   "pl": "Tam siedzi, o ile wiadomo,"
+  },
+  {
+   "start": 611.78,
+   "end": 613.08,
+   "es": "un hombre pequeño,",
+   "id": 271,
+   "slot": 1.22,
+   "max_chars_pl": 17,
+   "pl": "niewysoki mężczyzna,"
+  },
+  {
+   "start": 613.08,
+   "end": 614.7,
+   "es": "envejeciendo en una celda.",
+   "id": 272,
+   "slot": 1.54,
+   "max_chars_pl": 21,
+   "pl": "starzejący się w celi."
+  },
+  {
+   "start": 614.7,
+   "end": 615.88,
+   "es": "Mientras afuera su nombre",
+   "id": 273,
+   "slot": 1.1,
+   "max_chars_pl": 15,
+   "pl": "A na zewnątrz jego nazwisko"
+  },
+  {
+   "start": 615.88,
+   "end": 617.74,
+   "es": "se volvía serie de televisión,",
+   "id": 274,
+   "slot": 1.78,
+   "max_chars_pl": 24,
+   "pl": "stawało się serialem telewizyjnym,"
+  },
+  {
+   "start": 617.74,
+   "end": 619.44,
+   "es": "canción y leyenda.",
+   "id": 275,
+   "slot": 1.62,
+   "max_chars_pl": 22,
+   "pl": "piosenką i legendą."
+  },
+  {
+   "start": 619.44,
+   "end": 620.84,
+   "es": "El imperio seguía creciendo",
+   "id": 276,
+   "slot": 1.32,
+   "max_chars_pl": 18,
+   "pl": "Imperium rosło dalej"
+  },
+  {
+   "start": 620.84,
+   "end": 622.54,
+   "es": "en la imaginación de todos.",
+   "id": 277,
+   "slot": 1.62,
+   "max_chars_pl": 22,
+   "pl": "w wyobraźni wszystkich."
+  },
+  {
+   "start": 622.54,
+   "end": 623.56,
+   "es": "Pero las casas,",
+   "id": 278,
+   "slot": 0.94,
+   "max_chars_pl": 13,
+   "pl": "Ale domy,"
+  },
+  {
+   "start": 623.56,
+   "end": 624.44,
+   "es": "las de verdad,",
+   "id": 279,
+   "slot": 0.8,
+   "max_chars_pl": 11,
+   "pl": "te prawdziwe,"
+  },
+  {
+   "start": 624.44,
+   "end": 625.6,
+   "es": "las de ladrillo,",
+   "id": 280,
+   "slot": 1.08,
+   "max_chars_pl": 15,
+   "pl": "z cegły,"
+  },
+  {
+   "start": 625.6,
+   "end": 627.14,
+   "es": "empezaban a pudrirse.",
+   "id": 281,
+   "slot": 1.46,
+   "max_chars_pl": 20,
+   "pl": "zaczynały gnić."
+  },
+  {
+   "start": 627.14,
+   "end": 628.76,
+   "es": "Entonces el gobierno mexicano",
+   "id": 282,
+   "slot": 1.54,
+   "max_chars_pl": 21,
+   "pl": "Wtedy rząd meksykański"
+  },
+  {
+   "start": 628.76,
+   "end": 631.84,
+   "es": "tuvo una idea que sonaba casi poética.",
+   "id": 283,
+   "slot": 3.0,
+   "max_chars_pl": 42,
+   "pl": "wpadł na pomysł, który brzmiał niemal poetycko."
+  },
+  {
+   "start": 631.84,
+   "end": 634.44,
+   "es": "Si el narco le había robado tanto al pueblo,",
+   "id": 284,
+   "slot": 2.52,
+   "max_chars_pl": 35,
+   "pl": "Skoro narkobiznes tyle ukradł ludowi,"
+  },
+  {
+   "start": 634.44,
+   "end": 636.52,
+   "es": "que el pueblo recuperara algo,",
+   "id": 285,
+   "slot": 2.0,
+   "max_chars_pl": 28,
+   "pl": "niech lud coś odzyska."
+  },
+  {
+   "start": 636.52,
+   "end": 637.86,
+   "es": "tomarían las casas,",
+   "id": 286,
+   "slot": 1.26,
+   "max_chars_pl": 17,
+   "pl": "Zabiorą domy,"
+  },
+  {
+   "start": 637.86,
+   "end": 638.68,
+   "es": "los ranchos,",
+   "id": 287,
+   "slot": 0.74,
+   "max_chars_pl": 10,
+   "pl": "rancza,"
+  },
+  {
+   "start": 638.68,
+   "end": 641.4,
+   "es": "los autos y las joyas incautadas a los capos,",
+   "id": 288,
+   "slot": 2.64,
+   "max_chars_pl": 36,
+   "pl": "samochody i biżuterię skonfiskowane bossom,"
+  },
+  {
+   "start": 641.4,
+   "end": 643.84,
+   "es": "los venderían o los rifarían",
+   "id": 289,
+   "slot": 2.36,
+   "max_chars_pl": 33,
+   "pl": "sprzedadzą je lub wylosują,"
+  },
+  {
+   "start": 643.84,
+   "end": 646.08,
+   "es": "y ese dinero volvería a la gente.",
+   "id": 290,
+   "slot": 2.16,
+   "max_chars_pl": 30,
+   "pl": "a te pieniądze wrócą do ludzi."
+  },
+  {
+   "start": 646.08,
+   "end": 647.96,
+   "es": "Para eso existe un instituto encargado",
+   "id": 291,
+   "slot": 1.8,
+   "max_chars_pl": 25,
+   "pl": "Po to istnieje instytut powołany,"
+  },
+  {
+   "start": 647.96,
+   "end": 650.36,
+   "es": "de administrar y devolver al pueblo lo que,",
+   "id": 292,
+   "slot": 2.32,
+   "max_chars_pl": 32,
+   "pl": "by zarządzać i zwracać ludowi to, co,"
+  },
+  {
+   "start": 650.36,
+   "end": 651.2,
+   "es": "según el estado,",
+   "id": 293,
+   "slot": 0.76,
+   "max_chars_pl": 10,
+   "pl": "według państwa,"
+  },
+  {
+   "start": 651.2,
+   "end": 652.32,
+   "es": "le fue robado.",
+   "id": 294,
+   "slot": 1.04,
+   "max_chars_pl": 14,
+   "pl": "mu skradziono."
+  },
+  {
+   "start": 652.32,
+   "end": 654.68,
+   "es": "La idea era hermosa en el papel.",
+   "id": 295,
+   "slot": 2.28,
+   "max_chars_pl": 31,
+   "pl": "Pomysł był piękny na papierze."
+  },
+  {
+   "start": 654.68,
+   "end": 655.56,
+   "es": "En la práctica,",
+   "id": 296,
+   "slot": 0.8,
+   "max_chars_pl": 11,
+   "pl": "W praktyce"
+  },
+  {
+   "start": 655.56,
+   "end": 658.08,
+   "es": "chocó de frente con una verdad incómoda.",
+   "id": 297,
+   "slot": 2.44,
+   "max_chars_pl": 34,
+   "pl": "zderzył się czołowo z niewygodną prawdą."
+  },
+  {
+   "start": 658.08,
+   "end": 660.84,
+   "es": "Casi nadie quiere comprar la casa de un narco.",
+   "id": 298,
+   "slot": 2.68,
+   "max_chars_pl": 37,
+   "pl": "Prawie nikt nie chce kupić domu narkotykowego bossa."
+  },
+  {
+   "start": 660.84,
+   "end": 663.14,
+   "es": "La residencia más simbólica de todas,",
+   "id": 299,
+   "slot": 2.22,
+   "max_chars_pl": 31,
+   "pl": "Najbardziej symboliczna rezydencja ze wszystkich,"
+  },
+  {
+   "start": 663.14,
+   "end": 665.44,
+   "es": "aquella casa de culiacán con la tina",
+   "id": 300,
+   "slot": 2.22,
+   "max_chars_pl": 31,
+   "pl": "ten dom w Culiacán z wanną"
+  },
+  {
+   "start": 665.44,
+   "end": 668.78,
+   "es": "y el túnel por donde el chapo escapó en el año 2014,",
+   "id": 301,
+   "slot": 3.26,
+   "max_chars_pl": 45,
+   "pl": "i tunelem, którym Chapo uciekł w dwa tysiące czternastym roku,"
+  },
+  {
+   "start": 668.78,
+   "end": 672.0,
+   "es": "se convirtió en el ejemplo perfecto del fracaso.",
+   "id": 302,
+   "slot": 3.14,
+   "max_chars_pl": 43,
+   "pl": "stał się doskonałym przykładem porażki."
+  },
+  {
+   "start": 672.0,
+   "end": 674.34,
+   "es": "Primero la pusieron en una subasta.",
+   "id": 303,
+   "slot": 2.26,
+   "max_chars_pl": 31,
+   "pl": "Najpierw wystawiono go na aukcji."
+  },
+  {
+   "start": 674.34,
+   "end": 676.22,
+   "es": "Nadie ofertó por ella.",
+   "id": 304,
+   "slot": 1.8,
+   "max_chars_pl": 25,
+   "pl": "Nikt nie dał ani grosza."
+  },
+  {
+   "start": 676.22,
+   "end": 678.18,
+   "es": "Ni una sola mano se levantó.",
+   "id": 305,
+   "slot": 1.88,
+   "max_chars_pl": 26,
+   "pl": "Nie podniosła się ani jedna ręka."
+  },
+  {
+   "start": 678.18,
+   "end": 680.32,
+   "es": "Entonces decidieron meterla como premio",
+   "id": 306,
+   "slot": 2.06,
+   "max_chars_pl": 28,
+   "pl": "Postanowiono więc uczynić go nagrodą"
+  },
+  {
+   "start": 680.32,
+   "end": 682.54,
+   "es": "en un sorteo de la Lotería Nacional,",
+   "id": 307,
+   "slot": 2.14,
+   "max_chars_pl": 29,
+   "pl": "w losowaniu Loterii Narodowej,"
+  },
+  {
+   "start": 682.54,
+   "end": 685.32,
+   "es": "junto con otras propiedades incautadas.",
+   "id": 308,
+   "slot": 2.7,
+   "max_chars_pl": 37,
+   "pl": "razem z innymi skonfiskowanymi nieruchomościami."
+  },
+  {
+   "start": 685.32,
+   "end": 686.28,
+   "es": "Antes de rifarla,",
+   "id": 309,
+   "slot": 0.88,
+   "max_chars_pl": 12,
+   "pl": "Zanim go wylosowano,"
+  },
+  {
+   "start": 686.28,
+   "end": 687.86,
+   "es": "tuvieron que arreglarla.",
+   "id": 310,
+   "slot": 1.5,
+   "max_chars_pl": 21,
+   "pl": "trzeba było go naprawić."
+  },
+  {
+   "start": 687.86,
+   "end": 690.6,
+   "es": "Taparon el ducto que iba de la tina al túnel.",
+   "id": 311,
+   "slot": 2.66,
+   "max_chars_pl": 37,
+   "pl": "Zasłonięto przewód biegnący od wanny do tunelu."
+  },
+  {
+   "start": 690.6,
+   "end": 692.66,
+   "es": "Quitaron las cámaras de vigilancia.",
+   "id": 312,
+   "slot": 1.98,
+   "max_chars_pl": 27,
+   "pl": "Zdjęto kamery monitoringu."
+  },
+  {
+   "start": 692.66,
+   "end": 694.7,
+   "es": "Le dieron una mano de pintura.",
+   "id": 313,
+   "slot": 1.96,
+   "max_chars_pl": 27,
+   "pl": "Pomalowano ściany."
+  },
+  {
+   "start": 694.7,
+   "end": 698.72,
+   "es": "La evaluaron en alrededor de 3.600.000 pesos.",
+   "id": 314,
+   "slot": 3.94,
+   "max_chars_pl": 55,
+   "pl": "Wyceniono go na około trzy miliony sześćset tysięcy pesos."
+  },
+  {
+   "start": 698.72,
+   "end": 701.8,
+   "es": "Es decir, muchísimo menos de lo que cualquiera imaginaría",
+   "id": 315,
+   "slot": 3.0,
+   "max_chars_pl": 42,
+   "pl": "Czyli o wiele mniej, niż ktokolwiek by sądził,"
+  },
+  {
+   "start": 701.8,
+   "end": 704.16,
+   "es": "que vale una casa ligada a la leyenda del narco",
+   "id": 316,
+   "slot": 2.28,
+   "max_chars_pl": 31,
+   "pl": "że wart jest dom związany z legendą"
+  },
+  {
+   "start": 704.16,
+   "end": 705.72,
+   "es": "más famoso del mundo.",
+   "id": 317,
+   "slot": 1.48,
+   "max_chars_pl": 20,
+   "pl": "najsłynniejszego bossa świata."
+  },
+  {
+   "start": 705.72,
+   "end": 707.76,
+   "es": "Otras casas del chapo en Culiacán",
+   "id": 318,
+   "slot": 1.96,
+   "max_chars_pl": 27,
+   "pl": "Inne domy Chapo w Culiacán"
+  },
+  {
+   "start": 707.76,
+   "end": 709.94,
+   "es": "sí lograron venderse en subasta,",
+   "id": 319,
+   "slot": 2.1,
+   "max_chars_pl": 29,
+   "pl": "udało się sprzedać na aukcji,"
+  },
+  {
+   "start": 709.94,
+   "end": 712.32,
+   "es": "pero por cantidades que, sumadas,",
+   "id": 320,
+   "slot": 2.3,
+   "max_chars_pl": 32,
+   "pl": "ale za kwoty, które razem"
+  },
+  {
+   "start": 712.32,
+   "end": 715.5,
+   "es": "apenas rondaron unos pocos millones de pesos.",
+   "id": 321,
+   "slot": 3.1,
+   "max_chars_pl": 43,
+   "pl": "ledwie sięgnęły kilku milionów pesos."
+  },
+  {
+   "start": 715.5,
+   "end": 718.0,
+   "es": "Una miseria comparada con los miles de millones",
+   "id": 322,
+   "slot": 2.42,
+   "max_chars_pl": 33,
+   "pl": "Grosze w porównaniu z miliardami"
+  },
+  {
+   "start": 718.0,
+   "end": 719.74,
+   "es": "de dólares de los titulares.",
+   "id": 323,
+   "slot": 1.66,
+   "max_chars_pl": 23,
+   "pl": "dolarów z nagłówków."
+  },
+  {
+   "start": 719.74,
+   "end": 721.06,
+   "es": "Y para colmo,",
+   "id": 324,
+   "slot": 1.24,
+   "max_chars_pl": 17,
+   "pl": "A na dodatek"
+  },
+  {
+   "start": 721.06,
+   "end": 722.56,
+   "es": "varias de esas propiedades",
+   "id": 325,
+   "slot": 1.42,
+   "max_chars_pl": 19,
+   "pl": "kilka z tych nieruchomości"
+  },
+  {
+   "start": 722.56,
+   "end": 724.86,
+   "es": "terminaron en manos del propio municipio,",
+   "id": 326,
+   "slot": 2.22,
+   "max_chars_pl": 31,
+   "pl": "wylądowało w rękach samej gminy,"
+  },
+  {
+   "start": 724.86,
+   "end": 727.62,
+   "es": "sin comprador particular que las quisiera.",
+   "id": 327,
+   "slot": 2.68,
+   "max_chars_pl": 37,
+   "pl": "bo nie znalazł się żaden prywatny nabywca."
+  },
+  {
+   "start": 727.62,
+   "end": 729.84,
+   "es": "Hubo un caso todavía más revelador,",
+   "id": 328,
+   "slot": 2.14,
+   "max_chars_pl": 29,
+   "pl": "Był jeszcze bardziej wymowny przypadek,"
+  },
+  {
+   "start": 729.84,
+   "end": 731.4,
+   "es": "el de una lujosa residencia",
+   "id": 329,
+   "slot": 1.48,
+   "max_chars_pl": 20,
+   "pl": "luksusowa rezydencja"
+  },
+  {
+   "start": 731.4,
+   "end": 734.18,
+   "es": "en una zona elegante de la capital del país.",
+   "id": 330,
+   "slot": 2.7,
+   "max_chars_pl": 37,
+   "pl": "w eleganckiej dzielnicy stolicy kraju."
+  },
+  {
+   "start": 734.18,
+   "end": 736.48,
+   "es": "La sacaron a subasta en un acto público,",
+   "id": 331,
+   "slot": 2.22,
+   "max_chars_pl": 31,
+   "pl": "Wystawiono ją na publicznej aukcji,"
+  },
+  {
+   "start": 736.48,
+   "end": 737.7,
+   "es": "con mucha prensa,",
+   "id": 332,
+   "slot": 1.14,
+   "max_chars_pl": 15,
+   "pl": "przy kamerach prasy,"
+  },
+  {
+   "start": 737.7,
+   "end": 740.84,
+   "es": "en los jardines de la antigua residencia oficial.",
+   "id": 333,
+   "slot": 3.06,
+   "max_chars_pl": 42,
+   "pl": "w ogrodach dawnej rezydencji prezydenckiej."
+  },
+  {
+   "start": 740.84,
+   "end": 744.2,
+   "es": "El martillo cayó en casi 50 millones de pesos.",
+   "id": 334,
+   "slot": 3.28,
+   "max_chars_pl": 45,
+   "pl": "Młotek opadł przy prawie pięćdziesięciu milionach pesos."
+  },
+  {
+   "start": 744.2,
+   "end": 746.78,
+   "es": "Hubo alguien que levantó la mano para quedársela.",
+   "id": 335,
+   "slot": 2.5,
+   "max_chars_pl": 35,
+   "pl": "Ktoś podniósł rękę, by ją zdobyć."
+  },
+  {
+   "start": 746.78,
+   "end": 750.28,
+   "es": "Y después, la compra simplemente no se concretó.",
+   "id": 336,
+   "slot": 3.42,
+   "max_chars_pl": 47,
+   "pl": "A potem zakup po prostu nie doszedł do skutku."
+  },
+  {
+   "start": 750.28,
+   "end": 751.84,
+   "es": "La operación se cayó.",
+   "id": 337,
+   "slot": 1.48,
+   "max_chars_pl": 20,
+   "pl": "Transakcja upadła."
+  },
+  {
+   "start": 751.84,
+   "end": 753.28,
+   "es": "La mansión del narco,",
+   "id": 338,
+   "slot": 1.36,
+   "max_chars_pl": 19,
+   "pl": "Rezydencja bossa"
+  },
+  {
+   "start": 753.28,
+   "end": 754.1,
+   "es": "otra vez,",
+   "id": 339,
+   "slot": 0.74,
+   "max_chars_pl": 10,
+   "pl": "znów"
+  },
+  {
+   "start": 754.1,
+   "end": 755.7,
+   "es": "se quedó sin dueño.",
+   "id": 340,
+   "slot": 1.52,
+   "max_chars_pl": 21,
+   "pl": "została bez właściciela."
+  },
+  {
+   "start": 755.7,
+   "end": 758.96,
+   "es": "Ese es el patrón que se repite una y otra vez.",
+   "id": 341,
+   "slot": 3.18,
+   "max_chars_pl": 44,
+   "pl": "Taki schemat powtarza się raz za razem."
+  },
+  {
+   "start": 758.96,
+   "end": 761.66,
+   "es": "Las casas de El Chapo no son activos valiosos,",
+   "id": 342,
+   "slot": 2.62,
+   "max_chars_pl": 36,
+   "pl": "Domy Chapo nie są cennym majątkiem,"
+  },
+  {
+   "start": 761.66,
+   "end": 762.86,
+   "es": "son estigmas.",
+   "id": 343,
+   "slot": 1.12,
+   "max_chars_pl": 15,
+   "pl": "są piętnem."
+  },
+  {
+   "start": 762.86,
+   "end": 765.52,
+   "es": "Nadie quiere vivir donde durmió un capo.",
+   "id": 344,
+   "slot": 2.58,
+   "max_chars_pl": 36,
+   "pl": "Nikt nie chce mieszkać tam, gdzie spał boss."
+  },
+  {
+   "start": 765.52,
+   "end": 767.48,
+   "es": "Nadie quiere explicar a las visitas",
+   "id": 345,
+   "slot": 1.88,
+   "max_chars_pl": 26,
+   "pl": "Nikt nie chce tłumaczyć gościom,"
+  },
+  {
+   "start": 767.48,
+   "end": 770.22,
+   "es": "por qué hay un túnel tapado debajo del baño.",
+   "id": 346,
+   "slot": 2.66,
+   "max_chars_pl": 37,
+   "pl": "dlaczego pod łazienką jest zasypany tunel."
+  },
+  {
+   "start": 770.22,
+   "end": 772.24,
+   "es": "Nadie quiere el fantasma ni el miedo",
+   "id": 347,
+   "slot": 1.94,
+   "max_chars_pl": 27,
+   "pl": "Nikt nie chce ducha ani strachu,"
+  },
+  {
+   "start": 772.24,
+   "end": 774.18,
+   "es": "que viene con la escritura.",
+   "id": 348,
+   "slot": 1.86,
+   "max_chars_pl": 26,
+   "pl": "który idzie w parze z aktem własności."
+  },
+  {
+   "start": 774.18,
+   "end": 775.62,
+   "es": "Y mientras tanto,",
+   "id": 349,
+   "slot": 1.36,
+   "max_chars_pl": 19,
+   "pl": "A tymczasem,"
+  },
+  {
+   "start": 775.62,
+   "end": 776.98,
+   "es": "abandonadas,",
+   "id": 350,
+   "slot": 1.28,
+   "max_chars_pl": 17,
+   "pl": "opuszczone,"
+  },
+  {
+   "start": 776.98,
+   "end": 779.02,
+   "es": "esas casas se deterioran.",
+   "id": 351,
+   "slot": 1.96,
+   "max_chars_pl": 27,
+   "pl": "te domy niszczeją."
+  },
+  {
+   "start": 779.02,
+   "end": 780.2,
+   "es": "Las saquean.",
+   "id": 352,
+   "slot": 1.1,
+   "max_chars_pl": 15,
+   "pl": "Są plądrowane."
+  },
+  {
+   "start": 780.2,
+   "end": 783.26,
+   "es": "Les roban hasta los cables de cobre de las paredes.",
+   "id": 353,
+   "slot": 2.98,
+   "max_chars_pl": 41,
+   "pl": "Kradną z nich nawet miedziane kable ze ścian."
+  },
+  {
+   "start": 783.26,
+   "end": 785.58,
+   "es": "El sol y la humedad hacen el resto.",
+   "id": 354,
+   "slot": 2.24,
+   "max_chars_pl": 31,
+   "pl": "Resztę robi słońce i wilgoć."
+  },
+  {
+   "start": 785.58,
+   "end": 788.28,
+   "es": "Y no se crea que lo que se halló dentro de esas casas",
+   "id": 355,
+   "slot": 2.62,
+   "max_chars_pl": 36,
+   "pl": "I nie sądźcie, że to, co znaleziono w tych domach,"
+  },
+  {
+   "start": 788.28,
+   "end": 790.12,
+   "es": "compensaba la decepción.",
+   "id": 356,
+   "slot": 1.76,
+   "max_chars_pl": 24,
+   "pl": "wynagrodziło rozczarowanie."
+  },
+  {
+   "start": 790.12,
+   "end": 792.86,
+   "es": "Cuando las autoridades inventarían lo incautado,",
+   "id": 357,
+   "slot": 2.66,
+   "max_chars_pl": 37,
+   "pl": "Gdy władze sporządzały spis skonfiskowanych dóbr,"
+  },
+  {
+   "start": 792.86,
+   "end": 794.72,
+   "es": "aparecieron objetos de lujo,",
+   "id": 358,
+   "slot": 1.78,
+   "max_chars_pl": 24,
+   "pl": "pojawiły się luksusowe przedmioty,"
+  },
+  {
+   "start": 794.72,
+   "end": 795.26,
+   "es": "sí,",
+   "id": 359,
+   "slot": 0.46,
+   "max_chars_pl": 6,
+   "pl": "tak,"
+  },
+  {
+   "start": 795.26,
+   "end": 797.9,
+   "es": "vehículos caros abandonados en los garajes,",
+   "id": 360,
+   "slot": 2.56,
+   "max_chars_pl": 35,
+   "pl": "drogie pojazdy porzucone w garażach,"
+  },
+  {
+   "start": 797.9,
+   "end": 798.56,
+   "es": "joyas,",
+   "id": 361,
+   "slot": 0.58,
+   "max_chars_pl": 8,
+   "pl": "biżuteria,"
+  },
+  {
+   "start": 798.56,
+   "end": 799.94,
+   "es": "relojes costosos,",
+   "id": 362,
+   "slot": 1.3,
+   "max_chars_pl": 18,
+   "pl": "kosztowne zegarki,"
+  },
+  {
+   "start": 799.94,
+   "end": 801.98,
+   "es": "hasta un par de embarcaciones.",
+   "id": 363,
+   "slot": 1.96,
+   "max_chars_pl": 27,
+   "pl": "nawet kilka łodzi."
+  },
+  {
+   "start": 801.98,
+   "end": 804.48,
+   "es": "El botín del narco más famoso del mundo,",
+   "id": 364,
+   "slot": 2.42,
+   "max_chars_pl": 33,
+   "pl": "Łup najsłynniejszego narkotykowego bossa świata,"
+  },
+  {
+   "start": 804.48,
+   "end": 806.38,
+   "es": "pero puestos en subasta.",
+   "id": 365,
+   "slot": 1.82,
+   "max_chars_pl": 25,
+   "pl": "ale wystawiony na aukcji."
+  },
+  {
+   "start": 806.38,
+   "end": 809.94,
+   "es": "Incluso esos tesoros se vendieron por cantidades modestas,",
+   "id": 366,
+   "slot": 3.48,
+   "max_chars_pl": 48,
+   "pl": "Nawet te skarby sprzedano za skromne kwoty,"
+  },
+  {
+   "start": 809.94,
+   "end": 812.38,
+   "es": "muy lejos del brillo que prometían.",
+   "id": 367,
+   "slot": 2.36,
+   "max_chars_pl": 33,
+   "pl": "bardzo dalekie od blasku, który obiecywały."
+  },
+  {
+   "start": 812.38,
+   "end": 814.16,
+   "es": "Un reloj carísimo deja de serlo",
+   "id": 368,
+   "slot": 1.7,
+   "max_chars_pl": 23,
+   "pl": "Bardzo drogi zegarek przestaje nim być,"
+  },
+  {
+   "start": 814.16,
+   "end": 816.44,
+   "es": "cuando el comprador sabe de dónde viene",
+   "id": 369,
+   "slot": 2.2,
+   "max_chars_pl": 30,
+   "pl": "gdy kupujący wie, skąd pochodzi,"
+  },
+  {
+   "start": 816.44,
+   "end": 819.22,
+   "es": "y teme lo que podría acarrearle tenerlo.",
+   "id": 370,
+   "slot": 2.7,
+   "max_chars_pl": 37,
+   "pl": "i boi się, co może mu przynieść jego posiadanie."
+  },
+  {
+   "start": 819.22,
+   "end": 821.28,
+   "es": "Hasta el oro del capo perdía su valor",
+   "id": 371,
+   "slot": 1.98,
+   "max_chars_pl": 27,
+   "pl": "Nawet złoto bossa traciło wartość,"
+  },
+  {
+   "start": 821.28,
+   "end": 823.4,
+   "es": "al tocar la mesa de remates.",
+   "id": 372,
+   "slot": 2.04,
+   "max_chars_pl": 28,
+   "pl": "gdy trafiało na stół licytatora."
+  },
+  {
+   "start": 823.4,
+   "end": 825.86,
+   "es": "Porque el verdadero precio de esos objetos",
+   "id": 373,
+   "slot": 2.38,
+   "max_chars_pl": 33,
+   "pl": "Bo prawdziwa cena tych przedmiotów"
+  },
+  {
+   "start": 825.86,
+   "end": 827.46,
+   "es": "nunca fue el del mercado,",
+   "id": 374,
+   "slot": 1.52,
+   "max_chars_pl": 21,
+   "pl": "nigdy nie była ceną rynkową,"
+  },
+  {
+   "start": 827.46,
+   "end": 830.26,
+   "es": "sino el del miedo que venía pegado a ellos.",
+   "id": 375,
+   "slot": 2.72,
+   "max_chars_pl": 38,
+   "pl": "lecz ceną strachu, który był do nich przyklejony."
+  },
+  {
+   "start": 830.26,
+   "end": 833.88,
+   "es": "El inventario de bienes incautados al narcotráfico en México",
+   "id": 376,
+   "slot": 3.54,
+   "max_chars_pl": 49,
+   "pl": "Spis dóbr skonfiskowanych narkobiznesowi w Meksyku"
+  },
+  {
+   "start": 833.88,
+   "end": 835.76,
+   "es": "llegó a tener, en un momento,",
+   "id": 377,
+   "slot": 1.8,
+   "max_chars_pl": 25,
+   "pl": "w pewnym momencie obejmował"
+  },
+  {
+   "start": 835.76,
+   "end": 838.54,
+   "es": "decenas de inmuebles esperando comprador.",
+   "id": 378,
+   "slot": 2.7,
+   "max_chars_pl": 37,
+   "pl": "dziesiątki nieruchomości czekających na nabywcę."
+  },
+  {
+   "start": 838.54,
+   "end": 839.96,
+   "es": "Casas que nadie compra,",
+   "id": 379,
+   "slot": 1.34,
+   "max_chars_pl": 18,
+   "pl": "Domy, których nikt nie kupuje,"
+  },
+  {
+   "start": 839.96,
+   "end": 841.76,
+   "es": "que el Estado no puede mantener,",
+   "id": 380,
+   "slot": 1.72,
+   "max_chars_pl": 24,
+   "pl": "których państwo nie może utrzymać,"
+  },
+  {
+   "start": 841.76,
+   "end": 845.08,
+   "es": "que se vuelven ruinas custodiadas por candados oxidados.",
+   "id": 381,
+   "slot": 3.24,
+   "max_chars_pl": 45,
+   "pl": "i które stają się ruinami strzeżonymi zardzewiałymi kłódkami."
+  },
+  {
+   "start": 845.08,
+   "end": 846.92,
+   "es": "El imperio de ladrillo del Chapo",
+   "id": 382,
+   "slot": 1.76,
+   "max_chars_pl": 24,
+   "pl": "Ceglane imperium Chapo"
+  },
+  {
+   "start": 846.92,
+   "end": 849.08,
+   "es": "no se repartió entre el pueblo.",
+   "id": 383,
+   "slot": 2.08,
+   "max_chars_pl": 29,
+   "pl": "nie zostało rozdzielone między lud."
+  },
+  {
+   "start": 849.08,
+   "end": 850.98,
+   "es": "Se quedó pudriéndose al sol.",
+   "id": 384,
+   "slot": 1.82,
+   "max_chars_pl": 25,
+   "pl": "Zostało gnić na słońcu."
+  },
+  {
+   "start": 850.98,
+   "end": 853.64,
+   "es": "Y aquí conviene cambiar de personaje.",
+   "id": 385,
+   "slot": 2.58,
+   "max_chars_pl": 36,
+   "pl": "I tu warto zmienić bohatera."
+  },
+  {
+   "start": 853.64,
+   "end": 856.28,
+   "es": "Porque el segundo de nuestros tres hombres entendió,",
+   "id": 386,
+   "slot": 2.56,
+   "max_chars_pl": 35,
+   "pl": "Bo drugi z naszej trójki zrozumiał"
+  },
+  {
+   "start": 856.28,
+   "end": 857.72,
+   "es": "desde el principio,",
+   "id": 387,
+   "slot": 1.36,
+   "max_chars_pl": 19,
+   "pl": "od samego początku"
+  },
+  {
+   "start": 857.72,
+   "end": 860.46,
+   "es": "algo que el Chapo nunca entendió del todo.",
+   "id": 388,
+   "slot": 2.66,
+   "max_chars_pl": 37,
+   "pl": "coś, czego Chapo nigdy do końca nie pojął."
+  },
+  {
+   "start": 860.46,
+   "end": 864.22,
+   "es": "Entendió que la fortuna que se ve es la fortuna que se pierde.",
+   "id": 389,
+   "slot": 3.68,
+   "max_chars_pl": 51,
+   "pl": "Zrozumiał, że fortuna, którą widać, to fortuna, którą się traci."
+  },
+  {
+   "start": 864.22,
+   "end": 866.1,
+   "es": "Ismael Zambada García.",
+   "id": 390,
+   "slot": 1.8,
+   "max_chars_pl": 25,
+   "pl": "Ismael Zambada García."
+  },
+  {
+   "start": 866.1,
+   "end": 867.44,
+   "es": "El Mayo.",
+   "id": 391,
+   "slot": 1.26,
+   "max_chars_pl": 17,
+   "pl": "Mayo."
+  },
+  {
+   "start": 867.44,
+   "end": 868.86,
+   "es": "El socio del Chapo.",
+   "id": 392,
+   "slot": 1.34,
+   "max_chars_pl": 18,
+   "pl": "Wspólnik Chapo."
+  },
+  {
+   "start": 868.86,
+   "end": 871.66,
+   "es": "El otro gran jefe del Cártel de Sinaloa.",
+   "id": 393,
+   "slot": 2.72,
+   "max_chars_pl": 38,
+   "pl": "Drugi wielki szef Kartelu z Sinaloa."
+  },
+  {
+   "start": 871.66,
+   "end": 873.82,
+   "es": "Y durante más de 40 años,",
+   "id": 394,
+   "slot": 2.08,
+   "max_chars_pl": 29,
+   "pl": "I przez ponad czterdzieści lat"
+  },
+  {
+   "start": 873.82,
+   "end": 877.04,
+   "es": "el capo más buscado que jamás pisó una cárcel.",
+   "id": 395,
+   "slot": 3.14,
+   "max_chars_pl": 43,
+   "pl": "najbardziej poszukiwany boss, który nigdy nie trafił za kraty."
+  },
+  {
+   "start": 877.04,
+   "end": 879.2,
+   "es": "Mientras el Chapo construía su leyenda",
+   "id": 396,
+   "slot": 2.08,
+   "max_chars_pl": 29,
+   "pl": "Podczas gdy Chapo budował swoją legendę"
+  },
+  {
+   "start": 879.2,
+   "end": 881.08,
+   "es": "a base de fugas espectaculares",
+   "id": 397,
+   "slot": 1.8,
+   "max_chars_pl": 25,
+   "pl": "na spektakularnych ucieczkach"
+  },
+  {
+   "start": 881.08,
+   "end": 883.18,
+   "es": "y de aparecer hasta en entrevistas,",
+   "id": 398,
+   "slot": 2.02,
+   "max_chars_pl": 28,
+   "pl": "i udzielał nawet wywiadów,"
+  },
+  {
+   "start": 883.18,
+   "end": 885.88,
+   "es": "el Mayo hacía exactamente lo contrario.",
+   "id": 399,
+   "slot": 2.62,
+   "max_chars_pl": 36,
+   "pl": "Mayo robił dokładnie odwrotnie."
+  },
+  {
+   "start": 885.88,
+   "end": 888.04,
+   "es": "Casi no existen fotos suyas.",
+   "id": 400,
+   "slot": 2.08,
+   "max_chars_pl": 29,
+   "pl": "Prawie nie ma jego zdjęć."
+  },
+  {
+   "start": 888.04,
+   "end": 889.46,
+   "es": "No daba entrevistas.",
+   "id": 401,
+   "slot": 1.34,
+   "max_chars_pl": 18,
+   "pl": "Nie udzielał wywiadów."
+  },
+  {
+   "start": 889.46,
+   "end": 891.02,
+   "es": "No presumía.",
+   "id": 402,
+   "slot": 1.48,
+   "max_chars_pl": 20,
+   "pl": "Nie chwalił się."
+  },
+  {
+   "start": 891.02,
+   "end": 893.42,
+   "es": "No salía en videos de fiestas.",
+   "id": 403,
+   "slot": 2.32,
+   "max_chars_pl": 32,
+   "pl": "Nie pojawiał się w filmach z imprez."
+  },
+  {
+   "start": 893.42,
+   "end": 897.32,
+   "es": "No se dejaba ver en antros rodeado de música y botellas.",
+   "id": 404,
+   "slot": 3.82,
+   "max_chars_pl": 53,
+   "pl": "Nie dawał się widzieć w klubach wśród muzyki i butelek."
+  },
+  {
+   "start": 897.32,
+   "end": 901.46,
+   "es": "Durante décadas fue, literalmente, un fantasma con nombre.",
+   "id": 405,
+   "slot": 4.06,
+   "max_chars_pl": 56,
+   "pl": "Przez dekady był, dosłownie, duchem z nazwiskiem."
+  },
+  {
+   "start": 901.46,
+   "end": 904.04,
+   "es": "¿Dónde estaba su imperio entonces?",
+   "id": 406,
+   "slot": 2.5,
+   "max_chars_pl": 35,
+   "pl": "Gdzie więc było jego imperium?"
+  },
+  {
+   "start": 904.04,
+   "end": 906.86,
+   "es": "No en revistas, no en mansiones de portada.",
+   "id": 407,
+   "slot": 2.74,
+   "max_chars_pl": 38,
+   "pl": "Nie w magazynach, nie w rezydencjach z okładek."
+  },
+  {
+   "start": 906.86,
+   "end": 909.8,
+   "es": "Estaba en la sierra de Sinaloa, en el campo,",
+   "id": 408,
+   "slot": 2.86,
+   "max_chars_pl": 40,
+   "pl": "Było w górach Sinaloa, na wsi,"
+  },
+  {
+   "start": 909.8,
+   "end": 912.34,
+   "es": "escondido a plena vista en forma de ranchos,",
+   "id": 409,
+   "slot": 2.46,
+   "max_chars_pl": 34,
+   "pl": "ukryte na widoku w postaci rancz,"
+  },
+  {
+   "start": 912.34,
+   "end": 914.62,
+   "es": "de ganado, de tierras de cultivo,",
+   "id": 410,
+   "slot": 2.2,
+   "max_chars_pl": 30,
+   "pl": "bydła, pól uprawnych,"
+  },
+  {
+   "start": 914.62,
+   "end": 918.04,
+   "es": "de negocios que por fuera parecían perfectamente legales.",
+   "id": 411,
+   "slot": 3.34,
+   "max_chars_pl": 46,
+   "pl": "interesów, które z zewnątrz wyglądały zupełnie legalnie."
+  },
+  {
+   "start": 918.04,
+   "end": 919.96,
+   "es": "Se contaba que el Mayo movía dinero",
+   "id": 412,
+   "slot": 1.84,
+   "max_chars_pl": 25,
+   "pl": "Opowiadano, że Mayo przepuszczał pieniądze"
+  },
+  {
+   "start": 919.96,
+   "end": 922.28,
+   "es": "a través de empresas de productos del campo,",
+   "id": 413,
+   "slot": 2.24,
+   "max_chars_pl": 31,
+   "pl": "przez firmy z produktami rolnymi,"
+  },
+  {
+   "start": 922.28,
+   "end": 924.64,
+   "es": "de establos, de flotas de camiones,",
+   "id": 414,
+   "slot": 2.28,
+   "max_chars_pl": 31,
+   "pl": "obory, floty ciężarówek,"
+  },
+  {
+   "start": 924.64,
+   "end": 926.76,
+   "es": "de todo aquello que en una región agrícola",
+   "id": 415,
+   "slot": 2.04,
+   "max_chars_pl": 28,
+   "pl": "przez wszystko to, co w regionie rolniczym"
+  },
+  {
+   "start": 926.76,
+   "end": 928.74,
+   "es": "no levanta ni una ceja.",
+   "id": 416,
+   "slot": 1.9,
+   "max_chars_pl": 26,
+   "pl": "nie wzbudza ani jednego uniesienia brwi."
+  },
+  {
+   "start": 928.74,
+   "end": 931.1,
+   "es": "Esa era su genialidad oscura.",
+   "id": 417,
+   "slot": 2.28,
+   "max_chars_pl": 31,
+   "pl": "Na tym polegał jego mroczny geniusz."
+  },
+  {
+   "start": 931.1,
+   "end": 934.24,
+   "es": "El Chapo necesitaba que lo vieran para sentirse rey.",
+   "id": 418,
+   "slot": 3.06,
+   "max_chars_pl": 42,
+   "pl": "Chapo potrzebował, by go widziano, by czuć się królem."
+  },
+  {
+   "start": 934.24,
+   "end": 936.08,
+   "es": "El Mayo necesitaba que no lo vieran",
+   "id": 419,
+   "slot": 1.76,
+   "max_chars_pl": 24,
+   "pl": "Mayo potrzebował, by go nie widziano,"
+  },
+  {
+   "start": 936.08,
+   "end": 937.96,
+   "es": "para seguir siendo rico.",
+   "id": 420,
+   "slot": 1.8,
+   "max_chars_pl": 25,
+   "pl": "by pozostać bogatym."
+  },
+  {
+   "start": 937.96,
+   "end": 941.46,
+   "es": "Uno construyó palacios llenos de túneles para escapar.",
+   "id": 421,
+   "slot": 3.42,
+   "max_chars_pl": 47,
+   "pl": "Jeden zbudował pałace pełne tuneli ucieczki."
+  },
+  {
+   "start": 941.46,
+   "end": 943.46,
+   "es": "El otro no construyó palacios.",
+   "id": 422,
+   "slot": 1.92,
+   "max_chars_pl": 26,
+   "pl": "Drugi nie zbudował pałaców."
+  },
+  {
+   "start": 943.46,
+   "end": 945.34,
+   "es": "Se disolvió en el paisaje.",
+   "id": 423,
+   "slot": 1.8,
+   "max_chars_pl": 25,
+   "pl": "Rozpuścił się w krajobrazie."
+  },
+  {
+   "start": 945.34,
+   "end": 948.0,
+   "es": "Se volvió un ranchero más entre miles de rancheros,",
+   "id": 424,
+   "slot": 2.58,
+   "max_chars_pl": 36,
+   "pl": "Stał się jednym z tysięcy rolników,"
+  },
+  {
+   "start": 948.0,
+   "end": 950.8,
+   "es": "un viejo con sombrero en un camino de terracería,",
+   "id": 425,
+   "slot": 2.72,
+   "max_chars_pl": 38,
+   "pl": "starcem w kapeluszu na polnej drodze,"
+  },
+  {
+   "start": 950.8,
+   "end": 953.22,
+   "es": "imposible de distinguir del resto.",
+   "id": 426,
+   "slot": 2.34,
+   "max_chars_pl": 32,
+   "pl": "nie do odróżnienia od reszty."
+  },
+  {
+   "start": 953.22,
+   "end": 956.88,
+   "es": "Pensemoslo bien, porque encierra una ironía feroz.",
+   "id": 427,
+   "slot": 3.58,
+   "max_chars_pl": 50,
+   "pl": "Pomyślmy o tym dobrze, bo kryje się w tym dzika ironia."
+  },
+  {
+   "start": 956.88,
+   "end": 959.08,
+   "es": "Durante años, el mundo entero fantasió",
+   "id": 428,
+   "slot": 2.12,
+   "max_chars_pl": 29,
+   "pl": "Przez lata cały świat fantazjował"
+  },
+  {
+   "start": 959.08,
+   "end": 961.64,
+   "es": "con las mansiones del narco, las albercas,",
+   "id": 429,
+   "slot": 2.48,
+   "max_chars_pl": 34,
+   "pl": "o rezydencjach narkotykowych bossów, basenach,"
+  },
+  {
+   "start": 961.64,
+   "end": 963.96,
+   "es": "los animales exóticos, el oro.",
+   "id": 430,
+   "slot": 2.24,
+   "max_chars_pl": 31,
+   "pl": "egzotycznych zwierzętach, złocie."
+  },
+  {
+   "start": 963.96,
+   "end": 965.76,
+   "es": "Y resulta que el capo que de verdad",
+   "id": 431,
+   "slot": 1.72,
+   "max_chars_pl": 24,
+   "pl": "A okazuje się, że boss, który naprawdę"
+  },
+  {
+   "start": 965.76,
+   "end": 968.94,
+   "es": "conservó su fortuna y su libertad durante más tiempo",
+   "id": 432,
+   "slot": 3.1,
+   "max_chars_pl": 43,
+   "pl": "zachował fortunę i wolność najdłużej,"
+  },
+  {
+   "start": 968.94,
+   "end": 972.06,
+   "es": "fue precisamente el que renunció a todo eso.",
+   "id": 433,
+   "slot": 3.04,
+   "max_chars_pl": 42,
+   "pl": "był właśnie tym, który zrezygnował z tego wszystkiego."
+  },
+  {
+   "start": 972.06,
+   "end": 974.34,
+   "es": "El que no tuvo palacio de portada.",
+   "id": 434,
+   "slot": 2.2,
+   "max_chars_pl": 30,
+   "pl": "Tym, który nie miał pałacu z okładki."
+  },
+  {
+   "start": 974.34,
+   "end": 977.4,
+   "es": "El que vivió como cualquier viejo del campo.",
+   "id": 435,
+   "slot": 2.98,
+   "max_chars_pl": 41,
+   "pl": "Tym, który żył jak każdy stary człowiek ze wsi."
+  },
+  {
+   "start": 977.4,
+   "end": 980.14,
+   "es": "El lujo, en el fondo, no era poder.",
+   "id": 436,
+   "slot": 2.66,
+   "max_chars_pl": 37,
+   "pl": "Luksus w gruncie rzeczy nie był władzą."
+  },
+  {
+   "start": 980.14,
+   "end": 981.54,
+   "es": "Era una correa.",
+   "id": 437,
+   "slot": 1.32,
+   "max_chars_pl": 18,
+   "pl": "Był smyczą."
+  },
+  {
+   "start": 981.54,
+   "end": 984.56,
+   "es": "Cada mansión llamativa, cada auto deportivo,",
+   "id": 438,
+   "slot": 2.94,
+   "max_chars_pl": 41,
+   "pl": "Każda rzucająca się w oczy rezydencja, każdy sportowy samochód,"
+  },
+  {
+   "start": 984.56,
+   "end": 986.84,
+   "es": "cada fiesta filmada, era una pista más",
+   "id": 439,
+   "slot": 2.2,
+   "max_chars_pl": 30,
+   "pl": "każda sfilmowana impreza była kolejnym śladem,"
+  },
+  {
+   "start": 986.84,
+   "end": 988.88,
+   "es": "que acercaba a los cazadores.",
+   "id": 440,
+   "slot": 1.96,
+   "max_chars_pl": 27,
+   "pl": "który przybliżał łowców."
+  },
+  {
+   "start": 988.88,
+   "end": 992.48,
+   "es": "El mayo lo entendió y por eso duró más que todos.",
+   "id": 441,
+   "slot": 3.52,
+   "max_chars_pl": 49,
+   "pl": "Mayo to zrozumiał i dlatego przetrwał dłużej niż wszyscy."
+  },
+  {
+   "start": 992.48,
+   "end": 996.0,
+   "es": "El chapo no lo entendió y por eso cayó una y otra vez",
+   "id": 442,
+   "slot": 3.44,
+   "max_chars_pl": 48,
+   "pl": "Chapo tego nie zrozumiał i dlatego upadał raz za razem,"
+  },
+  {
+   "start": 996.0,
+   "end": 997.84,
+   "es": "antes de caer para siempre.",
+   "id": 443,
+   "slot": 1.76,
+   "max_chars_pl": 24,
+   "pl": "zanim upadł na zawsze."
+  },
+  {
+   "start": 997.84,
+   "end": 1000.72,
+   "es": "Por eso, cuando uno busca las mansiones abandonadas",
+   "id": 444,
+   "slot": 2.8,
+   "max_chars_pl": 39,
+   "pl": "Dlatego, gdy szuka się opuszczonych rezydencji"
+  },
+  {
+   "start": 1000.72,
+   "end": 1004.14,
+   "es": "del mayo, casi no encuentra nada que fotografiar.",
+   "id": 445,
+   "slot": 3.34,
+   "max_chars_pl": 46,
+   "pl": "Mayo, prawie nie ma czego fotografować."
+  },
+  {
+   "start": 1004.14,
+   "end": 1007.66,
+   "es": "No hay una casa con tina y túnel que se vuelva símbolo.",
+   "id": 446,
+   "slot": 3.44,
+   "max_chars_pl": 48,
+   "pl": "Nie ma domu z wanną i tunelem, który stałby się symbolem."
+  },
+  {
+   "start": 1007.66,
+   "end": 1010.48,
+   "es": "No hay una residencia de columnas que se pueda subastar",
+   "id": 447,
+   "slot": 2.74,
+   "max_chars_pl": 38,
+   "pl": "Nie ma rezydencji z kolumnami, którą dałoby się wystawić na aukcji"
+  },
+  {
+   "start": 1010.48,
+   "end": 1012.26,
+   "es": "con los reflectores encima.",
+   "id": 448,
+   "slot": 1.7,
+   "max_chars_pl": 23,
+   "pl": "w blasku reflektorów."
+  },
+  {
+   "start": 1012.26,
+   "end": 1014.78,
+   "es": "Su fortuna fue invisible por diseño.",
+   "id": 449,
+   "slot": 2.44,
+   "max_chars_pl": 34,
+   "pl": "Jego fortuna była niewidzialna z założenia."
+  },
+  {
+   "start": 1014.78,
+   "end": 1018.04,
+   "es": "Y una fortuna invisible es también una fortuna casi",
+   "id": 450,
+   "slot": 3.18,
+   "max_chars_pl": 44,
+   "pl": "A niewidzialna fortuna jest też fortuną prawie"
+  },
+  {
+   "start": 1018.04,
+   "end": 1019.92,
+   "es": "imposible de recuperar.",
+   "id": 451,
+   "slot": 1.8,
+   "max_chars_pl": 25,
+   "pl": "niemożliwą do odzyskania."
+  },
+  {
+   "start": 1019.92,
+   "end": 1021.74,
+   "es": "Ahí está la paradoja.",
+   "id": 452,
+   "slot": 1.74,
+   "max_chars_pl": 24,
+   "pl": "Oto paradoks."
+  },
+  {
+   "start": 1021.74,
+   "end": 1025.52,
+   "es": "El mayo fue probablemente mucho más rico y mucho más",
+   "id": 453,
+   "slot": 3.7,
+   "max_chars_pl": 51,
+   "pl": "Mayo był prawdopodobnie znacznie bogatszy i znacznie"
+  },
+  {
+   "start": 1025.52,
+   "end": 1028.16,
+   "es": "poderoso que el chapo durante más tiempo.",
+   "id": 454,
+   "slot": 2.56,
+   "max_chars_pl": 35,
+   "pl": "potężniejszy niż Chapo przez dłuższy czas."
+  },
+  {
+   "start": 1028.16,
+   "end": 1029.88,
+   "es": "Sobrevivió a todos.",
+   "id": 455,
+   "slot": 1.64,
+   "max_chars_pl": 22,
+   "pl": "Przeżył wszystkich."
+  },
+  {
+   "start": 1029.88,
+   "end": 1032.5,
+   "es": "Vio caer a sus socios, a sus enemigos,",
+   "id": 456,
+   "slot": 2.54,
+   "max_chars_pl": 35,
+   "pl": "Widział upadek swoich wspólników, swoich wrogów,"
+  },
+  {
+   "start": 1032.5,
+   "end": 1034.48,
+   "es": "a toda una generación de capos.",
+   "id": 457,
+   "slot": 1.9,
+   "max_chars_pl": 26,
+   "pl": "całego pokolenia bossów."
+  },
+  {
+   "start": 1034.48,
+   "end": 1038.24,
+   "es": "Y él seguía ahí, libre, viejo, tranquilo en sus",
+   "id": 458,
+   "slot": 3.68,
+   "max_chars_pl": 51,
+   "pl": "A on wciąż tam był, wolny, stary, spokojny w swoich"
+  },
+  {
+   "start": 1038.24,
+   "end": 1039.32,
+   "es": "montañas.",
+   "id": 459,
+   "slot": 1.0,
+   "max_chars_pl": 14,
+   "pl": "górach."
+  },
+  {
+   "start": 1039.32,
+   "end": 1042.44,
+   "es": "Y, sin embargo, de su imperio quedan menos huellas visibles",
+   "id": 460,
+   "slot": 3.04,
+   "max_chars_pl": 42,
+   "pl": "A jednak po jego imperium zostało mniej widocznych śladów"
+  },
+  {
+   "start": 1042.44,
+   "end": 1043.64,
+   "es": "que de cualquiera.",
+   "id": 461,
+   "slot": 1.12,
+   "max_chars_pl": 15,
+   "pl": "niż po kimkolwiek."
+  },
+  {
+   "start": 1043.64,
+   "end": 1046.34,
+   "es": "Porque lo construyó para que no quedara ninguna.",
+   "id": 462,
+   "slot": 2.62,
+   "max_chars_pl": 36,
+   "pl": "Bo zbudował je tak, by nie zostały żadne."
+  },
+  {
+   "start": 1046.34,
+   "end": 1049.22,
+   "es": "La historia de cómo cayó el mayo parece inventada.",
+   "id": 463,
+   "slot": 2.8,
+   "max_chars_pl": 39,
+   "pl": "Historia tego, jak upadł Mayo, wydaje się zmyślona."
+  },
+  {
+   "start": 1049.22,
+   "end": 1050.98,
+   "es": "Y, sin embargo, ocurrió.",
+   "id": 464,
+   "slot": 1.68,
+   "max_chars_pl": 23,
+   "pl": "A jednak się wydarzyła."
+  },
+  {
+   "start": 1050.98,
+   "end": 1053.88,
+   "es": "Después de más de 40 años esquivando a todos los",
+   "id": 465,
+   "slot": 2.82,
+   "max_chars_pl": 39,
+   "pl": "Po ponad czterdziestu latach unikania wszystkich"
+  },
+  {
+   "start": 1053.88,
+   "end": 1056.34,
+   "es": "ejércitos y a todas las agencias del mundo,",
+   "id": 466,
+   "slot": 2.38,
+   "max_chars_pl": 33,
+   "pl": "armii i wszystkich agencji świata"
+  },
+  {
+   "start": 1056.34,
+   "end": 1059.26,
+   "es": "no lo atrapó un operativo, no lo delató una cámara,",
+   "id": 467,
+   "slot": 2.84,
+   "max_chars_pl": 39,
+   "pl": "nie złapała go operacja, nie wydała go kamera,"
+  },
+  {
+   "start": 1059.26,
+   "end": 1060.96,
+   "es": "no lo traicionó un túnel.",
+   "id": 468,
+   "slot": 1.62,
+   "max_chars_pl": 22,
+   "pl": "nie zdradził go tunel."
+  },
+  {
+   "start": 1060.96,
+   "end": 1063.24,
+   "es": "Según la versión que él mismo cuenta,",
+   "id": 469,
+   "slot": 2.2,
+   "max_chars_pl": 30,
+   "pl": "Według wersji, którą sam opowiada,"
+  },
+  {
+   "start": 1063.24,
+   "end": 1065.62,
+   "es": "lo traicionó la gente más cercana.",
+   "id": 470,
+   "slot": 2.3,
+   "max_chars_pl": 32,
+   "pl": "zdradzili go najbliżsi."
+  },
+  {
+   "start": 1065.62,
+   "end": 1069.98,
+   "es": "En julio del año 2024, el mayo subió a una avioneta.",
+   "id": 471,
+   "slot": 4.28,
+   "max_chars_pl": 59,
+   "pl": "W lipcu dwa tysiące dwudziestego czwartego roku Mayo wsiadł do awionetki."
+  },
+  {
+   "start": 1069.98,
+   "end": 1073.04,
+   "es": "Él asegura que lo engañaron, que lo secuestraron,",
+   "id": 472,
+   "slot": 2.98,
+   "max_chars_pl": 41,
+   "pl": "Twierdzi, że go oszukano, że porwano go,"
+  },
+  {
+   "start": 1073.04,
+   "end": 1074.74,
+   "es": "que lo subieron por la fuerza,",
+   "id": 473,
+   "slot": 1.62,
+   "max_chars_pl": 22,
+   "pl": "że wciągnięto go siłą,"
+  },
+  {
+   "start": 1074.74,
+   "end": 1077.46,
+   "es": "y que lo entregaron del otro lado de la frontera.",
+   "id": 474,
+   "slot": 2.64,
+   "max_chars_pl": 36,
+   "pl": "i że wydano go po drugiej stronie granicy."
+  },
+  {
+   "start": 1077.46,
+   "end": 1080.98,
+   "es": "La avioneta aterrizó cerca de El Paso, en Texas,",
+   "id": 475,
+   "slot": 3.44,
+   "max_chars_pl": 48,
+   "pl": "Awionetka wylądowała w pobliżu El Paso w Teksasie,"
+  },
+  {
+   "start": 1080.98,
+   "end": 1083.24,
+   "es": "y al bajarlo estaban esperando los agentes",
+   "id": 476,
+   "slot": 2.18,
+   "max_chars_pl": 30,
+   "pl": "a gdy go wyprowadzono, czekali już"
+  },
+  {
+   "start": 1083.24,
+   "end": 1084.84,
+   "es": "estadounidenses.",
+   "id": 477,
+   "slot": 1.52,
+   "max_chars_pl": 21,
+   "pl": "amerykańscy agenci."
+  },
+  {
+   "start": 1084.84,
+   "end": 1087.68,
+   "es": "El fantasma de la sierra, el hombre que nunca había",
+   "id": 478,
+   "slot": 2.76,
+   "max_chars_pl": 38,
+   "pl": "Duch z sierry, człowiek, który nigdy nie"
+  },
+  {
+   "start": 1087.68,
+   "end": 1090.24,
+   "es": "pisado una celda, cayó por fin,",
+   "id": 479,
+   "slot": 2.48,
+   "max_chars_pl": 34,
+   "pl": "siedział w celi, w końcu upadł,"
+  },
+  {
+   "start": 1090.24,
+   "end": 1093.78,
+   "es": "ya anciano, en manos de la justicia de Estados Unidos.",
+   "id": 480,
+   "slot": 3.46,
+   "max_chars_pl": 48,
+   "pl": "już starcem, w ręce amerykańskiego wymiaru sprawiedliwości."
+  },
+  {
+   "start": 1093.78,
+   "end": 1097.82,
+   "es": "Y cayó, según su propio relato, entregado por los suyos.",
+   "id": 481,
+   "slot": 3.96,
+   "max_chars_pl": 55,
+   "pl": "I upadł, według własnej relacji, wydany przez swoich."
+  },
+  {
+   "start": 1097.82,
+   "end": 1099.74,
+   "es": "Lo que vino después fue rápido,",
+   "id": 482,
+   "slot": 1.84,
+   "max_chars_pl": 25,
+   "pl": "To, co nastąpiło potem, poszło szybko,"
+  },
+  {
+   "start": 1099.74,
+   "end": 1102.4,
+   "es": "comparado con el calvario judicial del Chapo.",
+   "id": 483,
+   "slot": 2.58,
+   "max_chars_pl": 36,
+   "pl": "w porównaniu z sądową gehenną Chapo."
+  },
+  {
+   "start": 1102.4,
+   "end": 1105.72,
+   "es": "Al principio, los fiscales estadounidenses evaluaron",
+   "id": 484,
+   "slot": 3.24,
+   "max_chars_pl": 45,
+   "pl": "Na początku amerykańscy prokuratorzy rozważali"
+  },
+  {
+   "start": 1105.72,
+   "end": 1107.7,
+   "es": "pedir para él la pena de muerte,",
+   "id": 485,
+   "slot": 1.9,
+   "max_chars_pl": 26,
+   "pl": "wnioskowanie dla niego o karę śmierci,"
+  },
+  {
+   "start": 1107.7,
+   "end": 1110.1,
+   "es": "pero finalmente retiraron esa posibilidad.",
+   "id": 486,
+   "slot": 2.32,
+   "max_chars_pl": 32,
+   "pl": "ale ostatecznie wycofali tę możliwość."
+  },
+  {
+   "start": 1110.1,
+   "end": 1114.54,
+   "es": "Y en agosto del año 2025, el mayo se declaró culpable.",
+   "id": 487,
+   "slot": 4.36,
+   "max_chars_pl": 61,
+   "pl": "A w sierpniu dwa tysiące dwudziestego piątego roku Mayo przyznał się do winy."
+  },
+  {
+   "start": 1114.54,
+   "end": 1117.16,
+   "es": "Admitió ante el tribunal haber sido uno de los jefes",
+   "id": 488,
+   "slot": 2.54,
+   "max_chars_pl": 35,
+   "pl": "Przyznał przed sądem, że był jednym z głównych"
+  },
+  {
+   "start": 1117.16,
+   "end": 1119.44,
+   "es": "principales de la organización criminal durante",
+   "id": 489,
+   "slot": 2.2,
+   "max_chars_pl": 30,
+   "pl": "szefów organizacji przestępczej przez"
+  },
+  {
+   "start": 1119.44,
+   "end": 1120.44,
+   "es": "décadas.",
+   "id": 490,
+   "slot": 0.92,
+   "max_chars_pl": 12,
+   "pl": "dekady."
+  },
+  {
+   "start": 1120.44,
+   "end": 1123.76,
+   "es": "No hubo juicio largo, no hubo desfile de testigos.",
+   "id": 491,
+   "slot": 3.24,
+   "max_chars_pl": 45,
+   "pl": "Nie było długiego procesu, nie było pochodu świadków."
+  },
+  {
+   "start": 1123.76,
+   "end": 1127.0,
+   "es": "El viejo bajó la cabeza y aceptó su destino.",
+   "id": 492,
+   "slot": 3.16,
+   "max_chars_pl": 44,
+   "pl": "Starzec spuścił głowę i przyjął swój los."
+  },
+  {
+   "start": 1127.0,
+   "end": 1129.3,
+   "es": "La sentencia llegó este mismo año,",
+   "id": 493,
+   "slot": 2.22,
+   "max_chars_pl": 31,
+   "pl": "Wyrok zapadł w tym samym roku,"
+  },
+  {
+   "start": 1129.3,
+   "end": 1133.32,
+   "es": "en julio del año 2026, cadena perpetua,",
+   "id": 494,
+   "slot": 3.94,
+   "max_chars_pl": 55,
+   "pl": "w lipcu dwa tysiące dwudziestego szóstego roku, dożywocie,"
+  },
+  {
+   "start": 1133.32,
+   "end": 1135.46,
+   "es": "sin posibilidad de salir jamás,",
+   "id": 495,
+   "slot": 2.06,
+   "max_chars_pl": 28,
+   "pl": "bez możliwości wyjścia na wolność,"
+  },
+  {
+   "start": 1135.46,
+   "end": 1137.9,
+   "es": "y de nuevo, una cifra descomunal,",
+   "id": 496,
+   "slot": 2.36,
+   "max_chars_pl": 33,
+   "pl": "i znów ogromna liczba,"
+  },
+  {
+   "start": 1137.9,
+   "end": 1141.0,
+   "es": "la orden de entregar 15,000 millones de dólares.",
+   "id": 497,
+   "slot": 3.02,
+   "max_chars_pl": 42,
+   "pl": "nakaz zwrotu piętnastu miliardów dolarów."
+  },
+  {
+   "start": 1141.0,
+   "end": 1143.14,
+   "es": "El juez, al dictar la condena,",
+   "id": 498,
+   "slot": 2.06,
+   "max_chars_pl": 28,
+   "pl": "Sędzia, wydając wyrok,"
+  },
+  {
+   "start": 1143.14,
+   "end": 1145.44,
+   "es": "hizo una recomendación casi humana.",
+   "id": 499,
+   "slot": 2.22,
+   "max_chars_pl": 31,
+   "pl": "wydał zalecenie niemal ludzkie."
+  },
+  {
+   "start": 1145.44,
+   "end": 1148.2,
+   "es": "Pidió que, por su edad avanzada y sus problemas de",
+   "id": 500,
+   "slot": 2.68,
+   "max_chars_pl": 37,
+   "pl": "Poprosił, by ze względu na podeszły wiek i problemy"
+  },
+  {
+   "start": 1148.2,
+   "end": 1150.92,
+   "es": "salud, lo enviaran a un hospital penitenciario en",
+   "id": 501,
+   "slot": 2.64,
+   "max_chars_pl": 36,
+   "pl": "zdrowotne umieszczono go w szpitalu więziennym"
+  },
+  {
+   "start": 1150.92,
+   "end": 1152.64,
+   "es": "lugar de a una celda común.",
+   "id": 502,
+   "slot": 1.64,
+   "max_chars_pl": 22,
+   "pl": "zamiast w zwykłej celi."
+  },
+  {
+   "start": 1152.64,
+   "end": 1154.9,
+   "es": "Esa es la imagen final de el mayo.",
+   "id": 503,
+   "slot": 2.18,
+   "max_chars_pl": 30,
+   "pl": "To ostatni obraz Mayo."
+  },
+  {
+   "start": 1154.9,
+   "end": 1157.92,
+   "es": "No un rey en un palacio, sino un anciano enfermo",
+   "id": 504,
+   "slot": 2.94,
+   "max_chars_pl": 41,
+   "pl": "Nie król w pałacu, lecz chory starzec"
+  },
+  {
+   "start": 1157.92,
+   "end": 1160.64,
+   "es": "condenado a morir en una cárcel extranjera,",
+   "id": 505,
+   "slot": 2.64,
+   "max_chars_pl": 36,
+   "pl": "skazany na śmierć w zagranicznym więzieniu,"
+  },
+  {
+   "start": 1160.64,
+   "end": 1163.48,
+   "es": "a miles de kilómetros de la sierra donde pasó toda",
+   "id": 506,
+   "slot": 2.76,
+   "max_chars_pl": 38,
+   "pl": "tysiące kilometrów od sierry, gdzie spędził całe"
+  },
+  {
+   "start": 1163.48,
+   "end": 1164.34,
+   "es": "su vida.",
+   "id": 507,
+   "slot": 0.78,
+   "max_chars_pl": 10,
+   "pl": "życie."
+  },
+  {
+   "start": 1164.34,
+   "end": 1166.8,
+   "es": "El hombre que hizo su fortuna invisible para que",
+   "id": 508,
+   "slot": 2.38,
+   "max_chars_pl": 33,
+   "pl": "Człowiek, który uczynił majątek niewidzialnym, by"
+  },
+  {
+   "start": 1166.8,
+   "end": 1169.96,
+   "es": "nadie pudiera quitársela, terminó con todo quitado.",
+   "id": 509,
+   "slot": 3.08,
+   "max_chars_pl": 43,
+   "pl": "nikt nie mógł mu go odebrać, skończył z odebranym wszystkim."
+  },
+  {
+   "start": 1169.96,
+   "end": 1173.94,
+   "es": "La libertad, la salud, el país y, sobre el papel,",
+   "id": 510,
+   "slot": 3.9,
+   "max_chars_pl": 54,
+   "pl": "Wolnością, zdrowiem, krajem i, na papierze,"
+  },
+  {
+   "start": 1173.94,
+   "end": 1177.5,
+   "es": "15,000 millones de dólares que nadie sabe dónde buscar.",
+   "id": 511,
+   "slot": 3.48,
+   "max_chars_pl": 48,
+   "pl": "piętnastoma miliardami dolarów, których nikt nie wie, gdzie szukać."
+  },
+  {
+   "start": 1177.5,
+   "end": 1180.06,
+   "es": "Porque esa es la otra parte de la historia.",
+   "id": 512,
+   "slot": 2.48,
+   "max_chars_pl": 34,
+   "pl": "Bo to jest druga strona tej historii."
+  },
+  {
+   "start": 1180.06,
+   "end": 1183.48,
+   "es": "Igual que con El Chapo, esos 15,000 millones son una",
+   "id": 513,
+   "slot": 3.34,
+   "max_chars_pl": 46,
+   "pl": "Tak jak w przypadku Chapo, te piętnaście miliardów to"
+  },
+  {
+   "start": 1183.48,
+   "end": 1185.88,
+   "es": "orden, no un hallazgo.",
+   "id": 514,
+   "slot": 2.32,
+   "max_chars_pl": 32,
+   "pl": "nakaz, nie odkrycie."
+  },
+  {
+   "start": 1185.88,
+   "end": 1189.14,
+   "es": "El Estado puede escribir el número en una sentencia.",
+   "id": 515,
+   "slot": 3.18,
+   "max_chars_pl": 44,
+   "pl": "Państwo może wpisać liczbę do wyroku."
+  },
+  {
+   "start": 1189.14,
+   "end": 1192.1,
+   "es": "Encontrar el dinero es harina de otro costal.",
+   "id": 516,
+   "slot": 2.88,
+   "max_chars_pl": 40,
+   "pl": "Znaleźć pieniądze to już zupełnie inna sprawa."
+  },
+  {
+   "start": 1192.1,
+   "end": 1195.0,
+   "es": "Una fortuna que se construyó para ser invisible",
+   "id": 517,
+   "slot": 2.82,
+   "max_chars_pl": 39,
+   "pl": "Fortuna zbudowana, by być niewidzialną,"
+  },
+  {
+   "start": 1195.0,
+   "end": 1198.14,
+   "es": "no se vuelve visible solo porque un juez lo ordene.",
+   "id": 518,
+   "slot": 3.06,
+   "max_chars_pl": 42,
+   "pl": "nie staje się widzialna tylko dlatego, że sędzia tak nakaże."
+  },
+  {
+   "start": 1198.14,
+   "end": 1199.98,
+   "es": "Nos queda el tercer hombre.",
+   "id": 519,
+   "slot": 1.76,
+   "max_chars_pl": 24,
+   "pl": "Zostaje nam trzeci człowiek."
+  },
+  {
+   "start": 1199.98,
+   "end": 1203.32,
+   "es": "Y es, quizá, el más temido de los tres.",
+   "id": 520,
+   "slot": 3.26,
+   "max_chars_pl": 45,
+   "pl": "I jest, być może, najgroźniejszy z całej trójki."
+  },
+  {
+   "start": 1203.32,
+   "end": 1206.54,
+   "es": "Nemesio Oseguera Cervantes, el Mencho,",
+   "id": 521,
+   "slot": 3.14,
+   "max_chars_pl": 43,
+   "pl": "Nemesio Oseguera Cervantes, Mencho,"
+  },
+  {
+   "start": 1206.54,
+   "end": 1209.68,
+   "es": "fundador y jefe del cartel Jalisco Nueva Generación,",
+   "id": 522,
+   "slot": 3.06,
+   "max_chars_pl": 42,
+   "pl": "założyciel i szef kartelu Jalisco Nowe Pokolenie,"
+  },
+  {
+   "start": 1209.68,
+   "end": 1212.56,
+   "es": "la organización que en pocos años se convirtió en una de",
+   "id": 523,
+   "slot": 2.8,
+   "max_chars_pl": 39,
+   "pl": "organizacji, która w kilka lat stała się jedną z"
+  },
+  {
+   "start": 1212.56,
+   "end": 1215.36,
+   "es": "las más violentas y extensas del continente.",
+   "id": 524,
+   "slot": 2.72,
+   "max_chars_pl": 38,
+   "pl": "najbardziej brutalnych i rozległych na kontynencie."
+  },
+  {
+   "start": 1215.36,
+   "end": 1218.82,
+   "es": "El Mencho tampoco fue un hombre de palacios deportada.",
+   "id": 525,
+   "slot": 3.38,
+   "max_chars_pl": 47,
+   "pl": "Mencho też nie był człowiekiem pałaców z okładek."
+  },
+  {
+   "start": 1218.82,
+   "end": 1221.76,
+   "es": "En eso se parecía más a El Mayo que a El Chapo.",
+   "id": 526,
+   "slot": 2.86,
+   "max_chars_pl": 40,
+   "pl": "Pod tym względem bardziej przypominał Mayo niż Chapo."
+  },
+  {
+   "start": 1221.76,
+   "end": 1224.68,
+   "es": "Vivió durante sus últimos años como una sombra que se",
+   "id": 527,
+   "slot": 2.84,
+   "max_chars_pl": 39,
+   "pl": "Żył przez ostatnie lata jak cień, który"
+  },
+  {
+   "start": 1224.68,
+   "end": 1227.8,
+   "es": "movía entre las montañas de Jalisco y de Michoacán.",
+   "id": 528,
+   "slot": 3.04,
+   "max_chars_pl": 42,
+   "pl": "przemieszczał się między górami Jalisco i Michoacán."
+  },
+  {
+   "start": 1227.8,
+   "end": 1230.02,
+   "es": "Dormía en ranchos, en cabañas,",
+   "id": 529,
+   "slot": 2.14,
+   "max_chars_pl": 29,
+   "pl": "Spał na rancza, w chatach,"
+  },
+  {
+   "start": 1230.02,
+   "end": 1232.74,
+   "es": "en casas de seguridad perdidas en el monte,",
+   "id": 530,
+   "slot": 2.64,
+   "max_chars_pl": 36,
+   "pl": "w kryjówkach zagubionych w buszu,"
+  },
+  {
+   "start": 1232.74,
+   "end": 1235.9,
+   "es": "rodeado de anillos y anillos de vigilantes armados.",
+   "id": 531,
+   "slot": 3.08,
+   "max_chars_pl": 43,
+   "pl": "otoczony kręgami uzbrojonych strażników."
+  },
+  {
+   "start": 1235.9,
+   "end": 1238.0,
+   "es": "Cambiaba de lugar constantemente.",
+   "id": 532,
+   "slot": 2.02,
+   "max_chars_pl": 28,
+   "pl": "Stale zmieniał miejsce."
+  },
+  {
+   "start": 1238.0,
+   "end": 1240.82,
+   "es": "Padecía problemas de salud y, según las versiones,",
+   "id": 533,
+   "slot": 2.74,
+   "max_chars_pl": 38,
+   "pl": "Miał problemy zdrowotne i, według relacji,"
+  },
+  {
+   "start": 1240.82,
+   "end": 1243.4,
+   "es": "dependía de cuidados especiales que lo obligaban a",
+   "id": 534,
+   "slot": 2.5,
+   "max_chars_pl": 35,
+   "pl": "potrzebował specjalnej opieki, która zmuszała go do"
+  },
+  {
+   "start": 1243.4,
+   "end": 1247.04,
+   "es": "moverse con una estructura casi militar a su alrededor.",
+   "id": 535,
+   "slot": 3.56,
+   "max_chars_pl": 49,
+   "pl": "poruszania się z niemal wojskową ochroną wokół siebie."
+  },
+  {
+   "start": 1247.04,
+   "end": 1249.66,
+   "es": "Su imperio tampoco era una mansión.",
+   "id": 536,
+   "slot": 2.54,
+   "max_chars_pl": 35,
+   "pl": "Jego imperium też nie było rezydencją."
+  },
+  {
+   "start": 1249.66,
+   "end": 1251.1,
+   "es": "Era una maquinaria.",
+   "id": 537,
+   "slot": 1.36,
+   "max_chars_pl": 19,
+   "pl": "Było maszynerią."
+  },
+  {
+   "start": 1251.1,
+   "end": 1253.86,
+   "es": "Se le atribuían, a través de prestanombres,",
+   "id": 538,
+   "slot": 2.68,
+   "max_chars_pl": 37,
+   "pl": "Przypisywano mu, przez podstawione osoby,"
+  },
+  {
+   "start": 1253.86,
+   "end": 1257.52,
+   "es": "restaurantes, inmobiliarias y negocios de todo tipo.",
+   "id": 539,
+   "slot": 3.58,
+   "max_chars_pl": 50,
+   "pl": "restauracje, firmy nieruchomościowe i interesy wszelkiego rodzaju."
+  },
+  {
+   "start": 1257.52,
+   "end": 1260.0,
+   "es": "Una red de empresas que servían para lavar el dinero",
+   "id": 540,
+   "slot": 2.4,
+   "max_chars_pl": 33,
+   "pl": "Sieć firm, które służyły do prania pieniędzy"
+  },
+  {
+   "start": 1260.0,
+   "end": 1262.88,
+   "es": "de la droga y para darle una fachada respetable a la",
+   "id": 541,
+   "slot": 2.8,
+   "max_chars_pl": 39,
+   "pl": "z narkotyków i do nadania szacownej fasady"
+  },
+  {
+   "start": 1262.88,
+   "end": 1263.88,
+   "es": "fortuna.",
+   "id": 542,
+   "slot": 0.92,
+   "max_chars_pl": 12,
+   "pl": "fortunie."
+  },
+  {
+   "start": 1263.88,
+   "end": 1266.28,
+   "es": "La Agencia Antidrogas de Estados Unidos llegó a",
+   "id": 543,
+   "slot": 2.32,
+   "max_chars_pl": 32,
+   "pl": "Amerykańska Agencja do Walki z Narkotykami wyliczyła,"
+  },
+  {
+   "start": 1266.28,
+   "end": 1269.6,
+   "es": "calcular que había ganado más de mil millones de dólares.",
+   "id": 544,
+   "slot": 3.24,
+   "max_chars_pl": 45,
+   "pl": "że zarobił ponad miliard dolarów."
+  },
+  {
+   "start": 1269.6,
+   "end": 1273.04,
+   "es": "Aunque, insistamos, esa cifra es una estimación que nunca",
+   "id": 545,
+   "slot": 3.36,
+   "max_chars_pl": 47,
+   "pl": "Choć, powtórzmy, ta liczba to szacunek, którego nigdy"
+  },
+  {
+   "start": 1273.04,
+   "end": 1273.96,
+   "es": "se comprobó.",
+   "id": 546,
+   "slot": 0.84,
+   "max_chars_pl": 11,
+   "pl": "nie potwierdzono."
+  },
+  {
+   "start": 1273.96,
+   "end": 1276.44,
+   "es": "El último de sus escondites fue una cabaña en un",
+   "id": 547,
+   "slot": 2.4,
+   "max_chars_pl": 33,
+   "pl": "Jego ostatnią kryjówką była chata na"
+  },
+  {
+   "start": 1276.44,
+   "end": 1278.66,
+   "es": "fraccionamiento campestre en Tapalpa,",
+   "id": 548,
+   "slot": 2.14,
+   "max_chars_pl": 29,
+   "pl": "wiejskim osiedlu w Tapalpa,"
+  },
+  {
+   "start": 1278.66,
+   "end": 1281.36,
+   "es": "en Jalisco, una zona de bosques de pino,",
+   "id": 549,
+   "slot": 2.62,
+   "max_chars_pl": 36,
+   "pl": "w Jalisco, w okolicy sosnowych lasów,"
+  },
+  {
+   "start": 1281.36,
+   "end": 1284.0,
+   "es": "de aire frío y de casas de descanso para gente",
+   "id": 550,
+   "slot": 2.56,
+   "max_chars_pl": 35,
+   "pl": "chłodnego powietrza i domów wypoczynkowych dla"
+  },
+  {
+   "start": 1284.0,
+   "end": 1284.88,
+   "es": "adinerada.",
+   "id": 551,
+   "slot": 0.8,
+   "max_chars_pl": 11,
+   "pl": "zamożnych."
+  },
+  {
+   "start": 1284.88,
+   "end": 1286.72,
+   "es": "Un lugar hermoso, tranquilo,",
+   "id": 552,
+   "slot": 1.76,
+   "max_chars_pl": 24,
+   "pl": "Piękne, spokojne miejsce,"
+  },
+  {
+   "start": 1286.72,
+   "end": 1289.36,
+   "es": "el tipo de sitio al que la gente va a desconectarse del",
+   "id": 553,
+   "slot": 2.56,
+   "max_chars_pl": 35,
+   "pl": "z tych, do których ludzie jeżdżą, by odciąć się od"
+  },
+  {
+   "start": 1289.36,
+   "end": 1290.08,
+   "es": "mundo.",
+   "id": 554,
+   "slot": 0.64,
+   "max_chars_pl": 8,
+   "pl": "świata."
+  },
+  {
+   "start": 1290.08,
+   "end": 1292.88,
+   "es": "Ahí, entre los árboles, se escondía el hombre más",
+   "id": 555,
+   "slot": 2.72,
+   "max_chars_pl": 38,
+   "pl": "Tam, wśród drzew, ukrywał się najbardziej"
+  },
+  {
+   "start": 1292.88,
+   "end": 1294.72,
+   "es": "buscado de México.",
+   "id": 556,
+   "slot": 1.76,
+   "max_chars_pl": 24,
+   "pl": "poszukiwany człowiek Meksyku."
+  },
+  {
+   "start": 1294.72,
+   "end": 1297.02,
+   "es": "Y es importante decir algo con claridad,",
+   "id": 557,
+   "slot": 2.22,
+   "max_chars_pl": 31,
+   "pl": "I trzeba powiedzieć coś jasno,"
+  },
+  {
+   "start": 1297.02,
+   "end": 1300.24,
+   "es": "porque toca el núcleo de las reglas de esta historia.",
+   "id": 558,
+   "slot": 3.14,
+   "max_chars_pl": 43,
+   "pl": "bo dotyka to sedna zasad tej historii."
+  },
+  {
+   "start": 1300.24,
+   "end": 1303.32,
+   "es": "Las autoridades ni siquiera atribuyen formalmente esa",
+   "id": 559,
+   "slot": 3.0,
+   "max_chars_pl": 42,
+   "pl": "Władze nawet formalnie nie przypisują tej"
+  },
+  {
+   "start": 1303.32,
+   "end": 1304.64,
+   "es": "cabaña a El Mencho.",
+   "id": 560,
+   "slot": 1.24,
+   "max_chars_pl": 17,
+   "pl": "chaty Mencho."
+  },
+  {
+   "start": 1304.64,
+   "end": 1307.92,
+   "es": "La describen como un refugio temporal que utilizaba,",
+   "id": 561,
+   "slot": 3.2,
+   "max_chars_pl": 44,
+   "pl": "Opisują ją jako tymczasową kryjówkę, z której korzystał,"
+  },
+  {
+   "start": 1307.92,
+   "end": 1310.4,
+   "es": "no como una propiedad a su nombre.",
+   "id": 562,
+   "slot": 2.4,
+   "max_chars_pl": 33,
+   "pl": "a nie jako nieruchomość na jego nazwisko."
+  },
+  {
+   "start": 1310.4,
+   "end": 1313.36,
+   "es": "El predio tiene título de propiedad y posesión,",
+   "id": 563,
+   "slot": 2.88,
+   "max_chars_pl": 40,
+   "pl": "Działka ma tytuł własności i posiadania,"
+  },
+  {
+   "start": 1313.36,
+   "end": 1316.88,
+   "es": "pero sin antecedentes claros en el registro público.",
+   "id": 564,
+   "slot": 3.44,
+   "max_chars_pl": 48,
+   "pl": "ale bez jasnej historii w rejestrze publicznym."
+  },
+  {
+   "start": 1316.88,
+   "end": 1320.04,
+   "es": "Es decir, ni siquiera la casa donde pasó sus últimos",
+   "id": 565,
+   "slot": 3.08,
+   "max_chars_pl": 43,
+   "pl": "Czyli nawet dom, w którym spędził swoje ostatnie"
+  },
+  {
+   "start": 1320.04,
+   "end": 1322.52,
+   "es": "días era oficialmente suya.",
+   "id": 566,
+   "slot": 2.4,
+   "max_chars_pl": 33,
+   "pl": "dni, nie był oficjalnie jego."
+  },
+  {
+   "start": 1322.52,
+   "end": 1325.6,
+   "es": "El hombre del imperio de mil millones de dólares murió,",
+   "id": 567,
+   "slot": 3.0,
+   "max_chars_pl": 42,
+   "pl": "Człowiek z imperium wartym miliard dolarów zginął"
+  },
+  {
+   "start": 1325.6,
+   "end": 1328.56,
+   "es": "escondido en una cabaña que, en los papeles,",
+   "id": 568,
+   "slot": 2.88,
+   "max_chars_pl": 40,
+   "pl": "ukryty w chacie, która na papierze"
+  },
+  {
+   "start": 1328.56,
+   "end": 1330.28,
+   "es": "pertenecía a otro.",
+   "id": 569,
+   "slot": 1.64,
+   "max_chars_pl": 22,
+   "pl": "należała do kogoś innego."
+  },
+  {
+   "start": 1330.28,
+   "end": 1332.36,
+   "es": "Porque sí, El Mencho murió.",
+   "id": 570,
+   "slot": 2.0,
+   "max_chars_pl": 28,
+   "pl": "Bo tak, Mencho nie żyje."
+  },
+  {
+   "start": 1332.36,
+   "end": 1335.32,
+   "es": "Y este es el dato más reciente y más confirmado de",
+   "id": 571,
+   "slot": 2.88,
+   "max_chars_pl": 40,
+   "pl": "I to jest najnowszy i najlepiej potwierdzony fakt"
+  },
+  {
+   "start": 1335.32,
+   "end": 1336.98,
+   "es": "toda nuestra historia.",
+   "id": 572,
+   "slot": 1.58,
+   "max_chars_pl": 22,
+   "pl": "z całej naszej historii."
+  },
+  {
+   "start": 1336.98,
+   "end": 1340.08,
+   "es": "El 22 de febrero del año 2026,",
+   "id": 573,
+   "slot": 3.02,
+   "max_chars_pl": 42,
+   "pl": "Dwudziestego drugiego lutego dwa tysiące dwudziestego szóstego roku,"
+  },
+  {
+   "start": 1340.08,
+   "end": 1343.24,
+   "es": "en un operativo del ejército en esa zona de Tapalpa,",
+   "id": 574,
+   "slot": 3.08,
+   "max_chars_pl": 43,
+   "pl": "w operacji wojska w rejonie Tapalpa,"
+  },
+  {
+   "start": 1343.24,
+   "end": 1345.94,
+   "es": "Nemesio Ocegueras Cervantes fue abatido.",
+   "id": 575,
+   "slot": 2.62,
+   "max_chars_pl": 36,
+   "pl": "Nemesio Oseguera Cervantes został zabity."
+  },
+  {
+   "start": 1345.94,
+   "end": 1348.18,
+   "es": "No es un rumor ni una versión.",
+   "id": 576,
+   "slot": 2.16,
+   "max_chars_pl": 30,
+   "pl": "To nie plotka ani wersja."
+  },
+  {
+   "start": 1348.18,
+   "end": 1349.64,
+   "es": "Hay acta de defunción,",
+   "id": 577,
+   "slot": 1.38,
+   "max_chars_pl": 19,
+   "pl": "Jest akt zgonu,"
+  },
+  {
+   "start": 1349.64,
+   "end": 1352.68,
+   "es": "hay peritajes de la Fiscalía General de la República,",
+   "id": 578,
+   "slot": 2.96,
+   "max_chars_pl": 41,
+   "pl": "są ekspertyzy Prokuratury Generalnej Republiki,"
+  },
+  {
+   "start": 1352.68,
+   "end": 1355.6,
+   "es": "y hubo una conferencia oficial donde las autoridades",
+   "id": 579,
+   "slot": 2.84,
+   "max_chars_pl": 39,
+   "pl": "i odbyła się oficjalna konferencja, na której władze"
+  },
+  {
+   "start": 1355.6,
+   "end": 1357.16,
+   "es": "confirmaron su muerte.",
+   "id": 580,
+   "slot": 1.48,
+   "max_chars_pl": 20,
+   "pl": "potwierdziły jego śmierć."
+  },
+  {
+   "start": 1357.16,
+   "end": 1359.88,
+   "es": "El fundador del cartel Jalisco Nueva Generación,",
+   "id": 581,
+   "slot": 2.64,
+   "max_chars_pl": 36,
+   "pl": "Założyciel kartelu Jalisco Nowe Pokolenie,"
+  },
+  {
+   "start": 1359.88,
+   "end": 1362.26,
+   "es": "el capo que durante años pareció intocable,",
+   "id": 582,
+   "slot": 2.3,
+   "max_chars_pl": 32,
+   "pl": "boss, który przez lata wydawał się nietykalny,"
+  },
+  {
+   "start": 1362.26,
+   "end": 1364.12,
+   "es": "fue finalmente alcanzado.",
+   "id": 583,
+   "slot": 1.78,
+   "max_chars_pl": 24,
+   "pl": "został w końcu dosięgnięty."
+  },
+  {
+   "start": 1364.12,
+   "end": 1366.34,
+   "es": "Lo sepultaron después en Zapopán.",
+   "id": 584,
+   "slot": 2.14,
+   "max_chars_pl": 29,
+   "pl": "Pochowano go później w Zapopan."
+  },
+  {
+   "start": 1366.34,
+   "end": 1369.06,
+   "es": "Y entonces, con la casa ya en manos del Estado,",
+   "id": 585,
+   "slot": 2.64,
+   "max_chars_pl": 36,
+   "pl": "A potem, gdy dom był już w rękach państwa,"
+  },
+  {
+   "start": 1369.06,
+   "end": 1371.32,
+   "es": "empezó otra vez el mismo ritual que vimos con el",
+   "id": 586,
+   "slot": 2.18,
+   "max_chars_pl": 30,
+   "pl": "zaczął się ten sam rytuał, który widzieliśmy przy"
+  },
+  {
+   "start": 1371.32,
+   "end": 1372.12,
+   "es": "Chapo.",
+   "id": 587,
+   "slot": 0.72,
+   "max_chars_pl": 10,
+   "pl": "Chapo."
+  },
+  {
+   "start": 1372.12,
+   "end": 1375.0,
+   "es": "El Instituto de Bienes Incautados puso esa",
+   "id": 588,
+   "slot": 2.8,
+   "max_chars_pl": 39,
+   "pl": "Instytut Dóbr Skonfiskowanych wystawił tę"
+  },
+  {
+   "start": 1375.0,
+   "end": 1376.56,
+   "es": "propiedad a la venta.",
+   "id": 589,
+   "slot": 1.48,
+   "max_chars_pl": 20,
+   "pl": "nieruchomość na sprzedaż."
+  },
+  {
+   "start": 1376.56,
+   "end": 1378.08,
+   "es": "La cabaña de Tapalpa,",
+   "id": 590,
+   "slot": 1.44,
+   "max_chars_pl": 20,
+   "pl": "Chatę w Tapalpa,"
+  },
+  {
+   "start": 1378.08,
+   "end": 1380.76,
+   "es": "descrita como un terreno rústico de más de 13.000",
+   "id": 591,
+   "slot": 2.6,
+   "max_chars_pl": 36,
+   "pl": "opisaną jako teren wiejski, ponad trzynaście tysięcy"
+  },
+  {
+   "start": 1380.76,
+   "end": 1381.88,
+   "es": "metros cuadrados,",
+   "id": 592,
+   "slot": 1.04,
+   "max_chars_pl": 14,
+   "pl": "metrów kwadratowych,"
+  },
+  {
+   "start": 1381.88,
+   "end": 1384.4,
+   "es": "salió a subasta a sobrecerrado con un precio de",
+   "id": 593,
+   "slot": 2.44,
+   "max_chars_pl": 34,
+   "pl": "wystawiono na aukcję w zamkniętych ofertach z ceną"
+  },
+  {
+   "start": 1384.4,
+   "end": 1387.08,
+   "es": "arranque de casi 13 millones de pesos,",
+   "id": 594,
+   "slot": 2.6,
+   "max_chars_pl": 36,
+   "pl": "wywoławczą prawie trzynaście milionów pesos,"
+  },
+  {
+   "start": 1387.08,
+   "end": 1390.62,
+   "es": "el equivalente a unos 750.000 dólares.",
+   "id": 595,
+   "slot": 3.46,
+   "max_chars_pl": 48,
+   "pl": "co odpowiada około siedmiuset pięćdziesięciu tysiącom dolarów."
+  },
+  {
+   "start": 1390.62,
+   "end": 1393.2,
+   "es": "La licitación se realizó a finales de mayo de este",
+   "id": 596,
+   "slot": 2.5,
+   "max_chars_pl": 35,
+   "pl": "Przetarg odbył się pod koniec maja tego"
+  },
+  {
+   "start": 1393.2,
+   "end": 1393.92,
+   "es": "año.",
+   "id": 597,
+   "slot": 0.64,
+   "max_chars_pl": 8,
+   "pl": "roku."
+  },
+  {
+   "start": 1393.92,
+   "end": 1395.48,
+   "es": "Pero fíjense en el detalle,",
+   "id": 598,
+   "slot": 1.48,
+   "max_chars_pl": 20,
+   "pl": "Ale zwróćcie uwagę na szczegół,"
+  },
+  {
+   "start": 1395.48,
+   "end": 1398.04,
+   "es": "porque vuelve a ser el mismo de siempre.",
+   "id": 599,
+   "slot": 2.48,
+   "max_chars_pl": 34,
+   "pl": "bo znów jest ten sam co zawsze."
+  },
+  {
+   "start": 1398.04,
+   "end": 1400.34,
+   "es": "Esa cabaña no salió sola.",
+   "id": 600,
+   "slot": 2.22,
+   "max_chars_pl": 31,
+   "pl": "Ta chata nie poszła sama."
+  },
+  {
+   "start": 1400.34,
+   "end": 1402.8,
+   "es": "Salió como parte de un paquete enorme,",
+   "id": 601,
+   "slot": 2.38,
+   "max_chars_pl": 33,
+   "pl": "Poszła jako część ogromnego pakietu,"
+  },
+  {
+   "start": 1402.8,
+   "end": 1405.48,
+   "es": "una subasta nacional de más de 200 propiedades",
+   "id": 602,
+   "slot": 2.6,
+   "max_chars_pl": 36,
+   "pl": "krajowej aukcji ponad dwustu nieruchomości"
+  },
+  {
+   "start": 1405.48,
+   "end": 1407.7,
+   "es": "repartidas en 75 lotes,",
+   "id": 603,
+   "slot": 2.14,
+   "max_chars_pl": 29,
+   "pl": "podzielonych na siedemdziesiąt pięć partii,"
+  },
+  {
+   "start": 1407.7,
+   "end": 1409.3,
+   "es": "en estados como Jalisco,",
+   "id": 604,
+   "slot": 1.52,
+   "max_chars_pl": 21,
+   "pl": "w stanach takich jak Jalisco,"
+  },
+  {
+   "start": 1409.3,
+   "end": 1411.26,
+   "es": "Guerrero y Quintana Roo.",
+   "id": 605,
+   "slot": 1.88,
+   "max_chars_pl": 26,
+   "pl": "Guerrero i Quintana Roo."
+  },
+  {
+   "start": 1411.26,
+   "end": 1411.76,
+   "es": "Casas,",
+   "id": 606,
+   "slot": 0.42,
+   "max_chars_pl": 5,
+   "pl": "Domy,"
+  },
+  {
+   "start": 1411.76,
+   "end": 1412.58,
+   "es": "terrenos,",
+   "id": 607,
+   "slot": 0.74,
+   "max_chars_pl": 10,
+   "pl": "grunty,"
+  },
+  {
+   "start": 1412.58,
+   "end": 1414.06,
+   "es": "locales comerciales,",
+   "id": 608,
+   "slot": 1.4,
+   "max_chars_pl": 19,
+   "pl": "lokale handlowe,"
+  },
+  {
+   "start": 1414.06,
+   "end": 1416.44,
+   "es": "todos provenientes de incautaciones ligadas a",
+   "id": 609,
+   "slot": 2.3,
+   "max_chars_pl": 32,
+   "pl": "wszystko pochodzące z konfiskat związanych z"
+  },
+  {
+   "start": 1416.44,
+   "end": 1418.24,
+   "es": "delitos federales.",
+   "id": 610,
+   "slot": 1.72,
+   "max_chars_pl": 24,
+   "pl": "przestępstwami federalnymi."
+  },
+  {
+   "start": 1418.24,
+   "end": 1420.72,
+   "es": "El último refugio del capo más temido del país",
+   "id": 611,
+   "slot": 2.4,
+   "max_chars_pl": 33,
+   "pl": "Ostatnie schronienie najgroźniejszego bossa kraju"
+  },
+  {
+   "start": 1420.72,
+   "end": 1422.92,
+   "es": "no fue tratado como una reliquia ni como un",
+   "id": 612,
+   "slot": 2.12,
+   "max_chars_pl": 29,
+   "pl": "nie było traktowane jak relikwia ani jak"
+  },
+  {
+   "start": 1422.92,
+   "end": 1423.9,
+   "es": "trofeo.",
+   "id": 613,
+   "slot": 0.9,
+   "max_chars_pl": 12,
+   "pl": "trofeum."
+  },
+  {
+   "start": 1423.9,
+   "end": 1426.24,
+   "es": "Fue tratado como un renglón más en una larga",
+   "id": 614,
+   "slot": 2.26,
+   "max_chars_pl": 31,
+   "pl": "Było traktowane jak jeszcze jedna pozycja na długiej"
+  },
+  {
+   "start": 1426.24,
+   "end": 1428.8,
+   "es": "lista de bienes que el Estado necesita quitarse de",
+   "id": 615,
+   "slot": 2.48,
+   "max_chars_pl": 34,
+   "pl": "liście dóbr, których państwo musi się"
+  },
+  {
+   "start": 1428.8,
+   "end": 1429.9,
+   "es": "encima.",
+   "id": 616,
+   "slot": 1.02,
+   "max_chars_pl": 14,
+   "pl": "pozbyć."
+  },
+  {
+   "start": 1429.9,
+   "end": 1432.0,
+   "es": "Lo mismo con sus empresas.",
+   "id": 617,
+   "slot": 2.02,
+   "max_chars_pl": 28,
+   "pl": "Tak samo z jego firmami."
+  },
+  {
+   "start": 1432.0,
+   "end": 1433.0,
+   "es": "Los restaurantes,",
+   "id": 618,
+   "slot": 0.92,
+   "max_chars_pl": 12,
+   "pl": "Restauracje,"
+  },
+  {
+   "start": 1433.0,
+   "end": 1434.26,
+   "es": "las inmobiliarias,",
+   "id": 619,
+   "slot": 1.18,
+   "max_chars_pl": 16,
+   "pl": "firmy nieruchomościowe,"
+  },
+  {
+   "start": 1434.26,
+   "end": 1436.36,
+   "es": "los negocios de fachada que se le atribuían",
+   "id": 620,
+   "slot": 2.02,
+   "max_chars_pl": 28,
+   "pl": "interesy przykrywkowe, które mu przypisywano,"
+  },
+  {
+   "start": 1436.36,
+   "end": 1437.62,
+   "es": "fueron, en parte,",
+   "id": 621,
+   "slot": 1.18,
+   "max_chars_pl": 16,
+   "pl": "zostały, częściowo,"
+  },
+  {
+   "start": 1437.62,
+   "end": 1439.88,
+   "es": "asegurados por las autoridades de México y de",
+   "id": 622,
+   "slot": 2.18,
+   "max_chars_pl": 30,
+   "pl": "zabezpieczone przez władze Meksyku i"
+  },
+  {
+   "start": 1439.88,
+   "end": 1441.14,
+   "es": "Estados Unidos.",
+   "id": 623,
+   "slot": 1.18,
+   "max_chars_pl": 16,
+   "pl": "Stanów Zjednoczonych."
+  },
+  {
+   "start": 1441.14,
+   "end": 1443.36,
+   "es": "Pero asegurar no es lo mismo que encontrar una",
+   "id": 624,
+   "slot": 2.14,
+   "max_chars_pl": 29,
+   "pl": "Ale zabezpieczyć to nie to samo, co znaleźć"
+  },
+  {
+   "start": 1443.36,
+   "end": 1444.58,
+   "es": "fortuna.",
+   "id": 625,
+   "slot": 1.14,
+   "max_chars_pl": 15,
+   "pl": "fortunę."
+  },
+  {
+   "start": 1444.58,
+   "end": 1446.18,
+   "es": "Buena parte de ese dinero,",
+   "id": 626,
+   "slot": 1.52,
+   "max_chars_pl": 21,
+   "pl": "Duża część tych pieniędzy,"
+  },
+  {
+   "start": 1446.18,
+   "end": 1448.34,
+   "es": "si de verdad llegó a esas cifras,",
+   "id": 627,
+   "slot": 2.08,
+   "max_chars_pl": 29,
+   "pl": "jeśli naprawdę osiągnęła takie sumy,"
+  },
+  {
+   "start": 1448.34,
+   "end": 1450.6,
+   "es": "nunca se materializó en algo que el Estado",
+   "id": 628,
+   "slot": 2.18,
+   "max_chars_pl": 30,
+   "pl": "nigdy nie zmaterializowała się w czymś, co państwo"
+  },
+  {
+   "start": 1450.6,
+   "end": 1453.22,
+   "es": "pudiera agarrar con las manos y vender.",
+   "id": 629,
+   "slot": 2.54,
+   "max_chars_pl": 35,
+   "pl": "mogłoby chwycić w ręce i sprzedać."
+  },
+  {
+   "start": 1453.22,
+   "end": 1454.84,
+   "es": "Se diluyó en la economía,",
+   "id": 630,
+   "slot": 1.54,
+   "max_chars_pl": 21,
+   "pl": "Rozmyła się w gospodarce,"
+  },
+  {
+   "start": 1454.84,
+   "end": 1456.14,
+   "es": "en prestanombres,",
+   "id": 631,
+   "slot": 1.22,
+   "max_chars_pl": 17,
+   "pl": "w podstawionych osobach,"
+  },
+  {
+   "start": 1456.14,
+   "end": 1458.32,
+   "es": "en operaciones que son casi imposibles de",
+   "id": 632,
+   "slot": 2.1,
+   "max_chars_pl": 29,
+   "pl": "w operacjach, które są prawie niemożliwe do"
+  },
+  {
+   "start": 1458.32,
+   "end": 1459.3,
+   "es": "rastrear.",
+   "id": 633,
+   "slot": 0.9,
+   "max_chars_pl": 12,
+   "pl": "wyśledzenia."
+  },
+  {
+   "start": 1459.3,
+   "end": 1460.62,
+   "es": "Así que otra vez,",
+   "id": 634,
+   "slot": 1.24,
+   "max_chars_pl": 17,
+   "pl": "Więc znów"
+  },
+  {
+   "start": 1460.62,
+   "end": 1462.5,
+   "es": "la ecuación no cierra.",
+   "id": 635,
+   "slot": 1.8,
+   "max_chars_pl": 25,
+   "pl": "rachunek się nie zgadza."
+  },
+  {
+   "start": 1462.5,
+   "end": 1465.66,
+   "es": "Se habla de un imperio de mil millones de dólares.",
+   "id": 636,
+   "slot": 3.08,
+   "max_chars_pl": 43,
+   "pl": "Mówi się o imperium wartym miliard dolarów."
+  },
+  {
+   "start": 1465.66,
+   "end": 1466.58,
+   "es": "Y lo que queda,",
+   "id": 637,
+   "slot": 0.84,
+   "max_chars_pl": 11,
+   "pl": "A to, co zostaje,"
+  },
+  {
+   "start": 1466.58,
+   "end": 1467.48,
+   "es": "tangible,",
+   "id": 638,
+   "slot": 0.82,
+   "max_chars_pl": 11,
+   "pl": "namacalne,"
+  },
+  {
+   "start": 1467.48,
+   "end": 1469.36,
+   "es": "es una cabaña en el bosque que ni siquiera",
+   "id": 639,
+   "slot": 1.8,
+   "max_chars_pl": 25,
+   "pl": "to chata w lesie, która nawet"
+  },
+  {
+   "start": 1469.36,
+   "end": 1470.72,
+   "es": "estaba a su nombre,",
+   "id": 640,
+   "slot": 1.28,
+   "max_chars_pl": 17,
+   "pl": "nie była na jego nazwisko,"
+  },
+  {
+   "start": 1470.72,
+   "end": 1473.52,
+   "es": "puesta en remate dentro de un paquete de saldos",
+   "id": 641,
+   "slot": 2.72,
+   "max_chars_pl": 38,
+   "pl": "wystawiona na aukcji w pakiecie przecenionych dóbr"
+  },
+  {
+   "start": 1473.52,
+   "end": 1476.24,
+   "es": "y unos cuantos negocios asegurados.",
+   "id": 642,
+   "slot": 2.64,
+   "max_chars_pl": 36,
+   "pl": "i kilku zabezpieczonych firm."
+  },
+  {
+   "start": 1476.24,
+   "end": 1477.88,
+   "es": "El mito dice imperio,",
+   "id": 643,
+   "slot": 1.56,
+   "max_chars_pl": 21,
+   "pl": "Mit mówi: imperium,"
+  },
+  {
+   "start": 1477.88,
+   "end": 1480.48,
+   "es": "la realidad dice una casa de descanso rematada",
+   "id": 644,
+   "slot": 2.52,
+   "max_chars_pl": 35,
+   "pl": "rzeczywistość mówi: dom wypoczynkowy sprzedany"
+  },
+  {
+   "start": 1480.48,
+   "end": 1482.28,
+   "es": "entre 200 más.",
+   "id": 645,
+   "slot": 1.72,
+   "max_chars_pl": 24,
+   "pl": "wśród dwustu innych."
+  },
+  {
+   "start": 1482.28,
+   "end": 1484.4,
+   "es": "Detengámonos un momento en esa máquina,",
+   "id": 646,
+   "slot": 2.04,
+   "max_chars_pl": 28,
+   "pl": "Zatrzymajmy się na chwilę przy tej maszynie,"
+  },
+  {
+   "start": 1484.4,
+   "end": 1486.64,
+   "es": "porque es una de las partes más fascinantes",
+   "id": 647,
+   "slot": 2.16,
+   "max_chars_pl": 30,
+   "pl": "bo to jedna z najbardziej fascynujących"
+  },
+  {
+   "start": 1486.64,
+   "end": 1489.2,
+   "es": "y más tristes de toda esta historia.",
+   "id": 648,
+   "slot": 2.48,
+   "max_chars_pl": 34,
+   "pl": "i najsmutniejszych części całej tej historii."
+  },
+  {
+   "start": 1489.2,
+   "end": 1491.28,
+   "es": "La máquina que intenta convertir la riqueza",
+   "id": 649,
+   "slot": 2.0,
+   "max_chars_pl": 28,
+   "pl": "Maszyna, która próbuje zamienić bogactwo"
+  },
+  {
+   "start": 1491.28,
+   "end": 1493.6,
+   "es": "del narco en dinero para la gente.",
+   "id": 650,
+   "slot": 2.24,
+   "max_chars_pl": 31,
+   "pl": "narkobiznesu w pieniądze dla ludzi."
+  },
+  {
+   "start": 1493.6,
+   "end": 1495.86,
+   "es": "La idea, repito, es noble.",
+   "id": 651,
+   "slot": 2.18,
+   "max_chars_pl": 30,
+   "pl": "Pomysł, powtarzam, jest szlachetny."
+  },
+  {
+   "start": 1495.86,
+   "end": 1499.1,
+   "es": "El crimen organizado le robó al país durante décadas.",
+   "id": 652,
+   "slot": 3.16,
+   "max_chars_pl": 44,
+   "pl": "Zorganizowana przestępczość okradała kraj przez dekady."
+  },
+  {
+   "start": 1499.1,
+   "end": 1500.94,
+   "es": "Le robó en forma de violencia,",
+   "id": 653,
+   "slot": 1.76,
+   "max_chars_pl": 24,
+   "pl": "Okradała go w postaci przemocy,"
+  },
+  {
+   "start": 1500.94,
+   "end": 1501.76,
+   "es": "de vidas,",
+   "id": 654,
+   "slot": 0.74,
+   "max_chars_pl": 10,
+   "pl": "żyć,"
+  },
+  {
+   "start": 1501.76,
+   "end": 1502.52,
+   "es": "de miedo,",
+   "id": 655,
+   "slot": 0.68,
+   "max_chars_pl": 9,
+   "pl": "strachu,"
+  },
+  {
+   "start": 1502.52,
+   "end": 1504.04,
+   "es": "de corrupción.",
+   "id": 656,
+   "slot": 1.44,
+   "max_chars_pl": 20,
+   "pl": "korupcji."
+  },
+  {
+   "start": 1504.04,
+   "end": 1505.16,
+   "es": "Devolver algo,",
+   "id": 657,
+   "slot": 1.04,
+   "max_chars_pl": 14,
+   "pl": "Oddać cokolwiek,"
+  },
+  {
+   "start": 1505.16,
+   "end": 1508.48,
+   "es": "aunque sea en forma de casas subastadas y rifas,",
+   "id": 658,
+   "slot": 3.24,
+   "max_chars_pl": 45,
+   "pl": "choćby w postaci domów z aukcji i loterii,"
+  },
+  {
+   "start": 1508.48,
+   "end": 1510.78,
+   "es": "tiene un valor simbólico enorme.",
+   "id": 659,
+   "slot": 2.22,
+   "max_chars_pl": 31,
+   "pl": "ma ogromną wartość symboliczną."
+  },
+  {
+   "start": 1510.78,
+   "end": 1512.58,
+   "es": "Es el Estado diciendo,",
+   "id": 660,
+   "slot": 1.72,
+   "max_chars_pl": 24,
+   "pl": "To państwo mówiące:"
+  },
+  {
+   "start": 1512.58,
+   "end": 1514.72,
+   "es": "esto que acumularon con sangre,",
+   "id": 661,
+   "slot": 2.06,
+   "max_chars_pl": 28,
+   "pl": "to, co zgromadzili krwią,"
+  },
+  {
+   "start": 1514.72,
+   "end": 1516.16,
+   "es": "ahora es del pueblo.",
+   "id": 662,
+   "slot": 1.36,
+   "max_chars_pl": 19,
+   "pl": "teraz należy do ludu."
+  },
+  {
+   "start": 1516.16,
+   "end": 1519.54,
+   "es": "El problema es que la realidad se resiste a esa poesía.",
+   "id": 663,
+   "slot": 3.3,
+   "max_chars_pl": 46,
+   "pl": "Problem w tym, że rzeczywistość opiera się tej poezji."
+  },
+  {
+   "start": 1519.54,
+   "end": 1520.28,
+   "es": "Primero,",
+   "id": 664,
+   "slot": 0.66,
+   "max_chars_pl": 9,
+   "pl": "Po pierwsze,"
+  },
+  {
+   "start": 1520.28,
+   "end": 1523.72,
+   "es": "porque las propiedades del narco son difíciles de vender.",
+   "id": 665,
+   "slot": 3.36,
+   "max_chars_pl": 47,
+   "pl": "bo nieruchomości narkobiznesu trudno sprzedać."
+  },
+  {
+   "start": 1523.72,
+   "end": 1524.74,
+   "es": "Ya lo vimos,",
+   "id": 666,
+   "slot": 0.94,
+   "max_chars_pl": 13,
+   "pl": "Już widzieliśmy,"
+  },
+  {
+   "start": 1524.74,
+   "end": 1526.72,
+   "es": "nadie quiere la casa del chapo,",
+   "id": 667,
+   "slot": 1.9,
+   "max_chars_pl": 26,
+   "pl": "nikt nie chce domu Chapo,"
+  },
+  {
+   "start": 1526.72,
+   "end": 1528.4,
+   "es": "nadie quiere el fantasma.",
+   "id": 668,
+   "slot": 1.6,
+   "max_chars_pl": 22,
+   "pl": "nikt nie chce ducha."
+  },
+  {
+   "start": 1528.4,
+   "end": 1529.32,
+   "es": "Segundo,",
+   "id": 669,
+   "slot": 0.84,
+   "max_chars_pl": 11,
+   "pl": "Po drugie,"
+  },
+  {
+   "start": 1529.32,
+   "end": 1531.36,
+   "es": "porque mantenerlas cuesta dinero.",
+   "id": 670,
+   "slot": 1.96,
+   "max_chars_pl": 27,
+   "pl": "bo ich utrzymanie kosztuje."
+  },
+  {
+   "start": 1531.36,
+   "end": 1534.46,
+   "es": "Una casa vacía que no se vende se convierte en un gasto,",
+   "id": 671,
+   "slot": 3.02,
+   "max_chars_pl": 42,
+   "pl": "Pusty dom, który się nie sprzedaje, staje się wydatkiem,"
+  },
+  {
+   "start": 1534.46,
+   "end": 1536.0,
+   "es": "no en un ingreso.",
+   "id": 672,
+   "slot": 1.46,
+   "max_chars_pl": 20,
+   "pl": "a nie dochodem."
+  },
+  {
+   "start": 1536.0,
+   "end": 1537.22,
+   "es": "Hay que custodiarla,",
+   "id": 673,
+   "slot": 1.14,
+   "max_chars_pl": 15,
+   "pl": "Trzeba go pilnować,"
+  },
+  {
+   "start": 1537.22,
+   "end": 1538.2,
+   "es": "repararla,",
+   "id": 674,
+   "slot": 0.9,
+   "max_chars_pl": 12,
+   "pl": "naprawiać,"
+  },
+  {
+   "start": 1538.2,
+   "end": 1540.18,
+   "es": "pagar impuestos sobre ella.",
+   "id": 675,
+   "slot": 1.9,
+   "max_chars_pl": 26,
+   "pl": "płacić od niego podatki."
+  },
+  {
+   "start": 1540.18,
+   "end": 1542.0,
+   "es": "Muchas simplemente se abandonan",
+   "id": 676,
+   "slot": 1.74,
+   "max_chars_pl": 24,
+   "pl": "Wiele po prostu porzuca się"
+  },
+  {
+   "start": 1542.0,
+   "end": 1543.54,
+   "es": "y se las come el tiempo.",
+   "id": 677,
+   "slot": 1.46,
+   "max_chars_pl": 20,
+   "pl": "i pożera je czas."
+  },
+  {
+   "start": 1543.54,
+   "end": 1544.34,
+   "es": "Y tercero,",
+   "id": 678,
+   "slot": 0.72,
+   "max_chars_pl": 10,
+   "pl": "A po trzecie,"
+  },
+  {
+   "start": 1544.34,
+   "end": 1546.58,
+   "es": "porque el acto de rematar casas de narco",
+   "id": 679,
+   "slot": 2.16,
+   "max_chars_pl": 30,
+   "pl": "bo sprzedaż domów narkotykowych bossów"
+  },
+  {
+   "start": 1546.58,
+   "end": 1548.54,
+   "es": "ha estado rodeado de polémica.",
+   "id": 680,
+   "slot": 1.88,
+   "max_chars_pl": 26,
+   "pl": "otaczały kontrowersje."
+  },
+  {
+   "start": 1548.54,
+   "end": 1552.42,
+   "es": "Hubo rifas y subastas que se anunciaron con enormes reflectores,",
+   "id": 681,
+   "slot": 3.8,
+   "max_chars_pl": 53,
+   "pl": "Były loterie i aukcje ogłaszane z wielką pompą,"
+  },
+  {
+   "start": 1552.42,
+   "end": 1555.36,
+   "es": "como grandes triunfos del Estado contra el crimen,",
+   "id": 682,
+   "slot": 2.86,
+   "max_chars_pl": 40,
+   "pl": "jako wielkie triumfy państwa nad przestępczością,"
+  },
+  {
+   "start": 1555.36,
+   "end": 1559.7,
+   "es": "y que después resultaron mucho menos espectaculares de lo prometido.",
+   "id": 683,
+   "slot": 4.26,
+   "max_chars_pl": 59,
+   "pl": "które potem okazały się dużo mniej spektakularne, niż obiecywano."
+  },
+  {
+   "start": 1559.7,
+   "end": 1562.28,
+   "es": "Propiedades que no se vendían.",
+   "id": 684,
+   "slot": 2.5,
+   "max_chars_pl": 35,
+   "pl": "Nieruchomości, które się nie sprzedawały."
+  },
+  {
+   "start": 1562.28,
+   "end": 1565.16,
+   "es": "Premios que no se entregaban como se había dicho.",
+   "id": 685,
+   "slot": 2.8,
+   "max_chars_pl": 39,
+   "pl": "Nagrody, które nie były wydawane tak, jak mówiono."
+  },
+  {
+   "start": 1565.16,
+   "end": 1568.3,
+   "es": "Montos recaudados que cuando se sumaban con honestidad",
+   "id": 686,
+   "slot": 3.06,
+   "max_chars_pl": 42,
+   "pl": "Zebrane kwoty, które uczciwie zsumowane"
+  },
+  {
+   "start": 1568.3,
+   "end": 1570.6,
+   "es": "eran una gota frente al océano de las cifras",
+   "id": 687,
+   "slot": 2.22,
+   "max_chars_pl": 31,
+   "pl": "były kroplą w morzu liczb,"
+  },
+  {
+   "start": 1570.6,
+   "end": 1572.84,
+   "es": "que se manejaban en los discursos.",
+   "id": 688,
+   "slot": 2.16,
+   "max_chars_pl": 30,
+   "pl": "którymi posługiwano się w przemówieniach."
+  },
+  {
+   "start": 1572.84,
+   "end": 1575.32,
+   "es": "Hay algo casi filosófico en todo esto.",
+   "id": 689,
+   "slot": 2.4,
+   "max_chars_pl": 33,
+   "pl": "W tym wszystkim jest coś niemal filozoficznego."
+  },
+  {
+   "start": 1575.32,
+   "end": 1578.3,
+   "es": "El narco construye su poder sobre una ilusión.",
+   "id": 690,
+   "slot": 2.9,
+   "max_chars_pl": 40,
+   "pl": "Narkobiznes buduje swoją władzę na iluzji."
+  },
+  {
+   "start": 1578.3,
+   "end": 1580.4,
+   "es": "La ilusión de la riqueza infinita,",
+   "id": 691,
+   "slot": 2.02,
+   "max_chars_pl": 28,
+   "pl": "Iluzji nieskończonego bogactwa,"
+  },
+  {
+   "start": 1580.4,
+   "end": 1581.52,
+   "es": "de los palacios,",
+   "id": 692,
+   "slot": 1.04,
+   "max_chars_pl": 14,
+   "pl": "pałaców,"
+  },
+  {
+   "start": 1581.52,
+   "end": 1582.6,
+   "es": "de los autos,",
+   "id": 693,
+   "slot": 1.0,
+   "max_chars_pl": 14,
+   "pl": "samochodów,"
+  },
+  {
+   "start": 1582.6,
+   "end": 1586.0,
+   "es": "de que el dinero fácil compra la felicidad y la eternidad.",
+   "id": 694,
+   "slot": 3.32,
+   "max_chars_pl": 46,
+   "pl": "że łatwe pieniądze kupują szczęście i wieczność."
+  },
+  {
+   "start": 1586.0,
+   "end": 1590.9,
+   "es": "Y cuando ese poder cae y el Estado abre las puertas de los palacios para repartirlos,",
+   "id": 695,
+   "slot": 4.82,
+   "max_chars_pl": 67,
+   "pl": "A gdy ta władza upada, a państwo otwiera drzwi pałaców, by je rozdać,"
+  },
+  {
+   "start": 1590.9,
+   "end": 1593.98,
+   "es": "descubre que la ilusión no se puede repartir.",
+   "id": 696,
+   "slot": 3.0,
+   "max_chars_pl": 42,
+   "pl": "odkrywa, że iluzji nie da się rozdzielić."
+  },
+  {
+   "start": 1593.98,
+   "end": 1596.24,
+   "es": "Porque nunca fue del todo real.",
+   "id": 697,
+   "slot": 2.18,
+   "max_chars_pl": 30,
+   "pl": "Bo nigdy nie była do końca prawdziwa."
+  },
+  {
+   "start": 1596.24,
+   "end": 1598.14,
+   "es": "Lo que queda no es oro.",
+   "id": 698,
+   "slot": 1.82,
+   "max_chars_pl": 25,
+   "pl": "To, co zostaje, nie jest złotem."
+  },
+  {
+   "start": 1598.14,
+   "end": 1599.52,
+   "es": "Son cascarones.",
+   "id": 699,
+   "slot": 1.3,
+   "max_chars_pl": 18,
+   "pl": "To skorupy."
+  },
+  {
+   "start": 1599.52,
+   "end": 1601.66,
+   "es": "Casas sin alma que nadie quiere.",
+   "id": 700,
+   "slot": 2.06,
+   "max_chars_pl": 28,
+   "pl": "Domy bez duszy, których nikt nie chce."
+  },
+  {
+   "start": 1601.66,
+   "end": 1603.52,
+   "es": "Ranchos que el monte reclama.",
+   "id": 701,
+   "slot": 1.78,
+   "max_chars_pl": 24,
+   "pl": "Rancza, które zabiera busz."
+  },
+  {
+   "start": 1603.52,
+   "end": 1607.62,
+   "es": "Cifras en papeles que no corresponden a nada que se pueda tocar.",
+   "id": 702,
+   "slot": 4.02,
+   "max_chars_pl": 56,
+   "pl": "Liczby na papierze, które nie odpowiadają niczemu, co można dotknąć."
+  },
+  {
+   "start": 1607.62,
+   "end": 1611.3,
+   "es": "La máquina que iba a devolverle al pueblo los palacios del narco terminó,",
+   "id": 703,
+   "slot": 3.6,
+   "max_chars_pl": 50,
+   "pl": "Maszyna, która miała oddać ludowi pałace narkobiznesu, skończyła"
+  },
+  {
+   "start": 1611.3,
+   "end": 1612.48,
+   "es": "muchas veces,",
+   "id": 704,
+   "slot": 1.1,
+   "max_chars_pl": 15,
+   "pl": "często"
+  },
+  {
+   "start": 1612.48,
+   "end": 1614.04,
+   "es": "administrando ruinas.",
+   "id": 705,
+   "slot": 1.48,
+   "max_chars_pl": 20,
+   "pl": "zarządzając ruinami."
+  },
+  {
+   "start": 1614.04,
+   "end": 1618.76,
+   "es": "Y así llegamos a la pregunta que ha estado latiendo debajo de toda esta historia.",
+   "id": 706,
+   "slot": 4.64,
+   "max_chars_pl": 64,
+   "pl": "I tak docieramy do pytania, które pulsuje pod całą tą historią."
+  },
+  {
+   "start": 1618.76,
+   "end": 1621.66,
+   "es": "Si estos tres hombres movieron, entre todos,",
+   "id": 707,
+   "slot": 2.82,
+   "max_chars_pl": 39,
+   "pl": "Jeśli ci trzej mężczyźni przerzucili, wszyscy razem,"
+  },
+  {
+   "start": 1621.66,
+   "end": 1625.34,
+   "es": "cantidades que se cuentan en decenas de miles de millones de dólares,",
+   "id": 708,
+   "slot": 3.6,
+   "max_chars_pl": 50,
+   "pl": "kwoty liczone w dziesiątkach miliardów dolarów,"
+  },
+  {
+   "start": 1625.34,
+   "end": 1627.0,
+   "es": "¿dónde está ese dinero?",
+   "id": 709,
+   "slot": 1.58,
+   "max_chars_pl": 22,
+   "pl": "gdzie są te pieniądze?"
+  },
+  {
+   "start": 1627.0,
+   "end": 1629.08,
+   "es": "Juntemos las cuentas oficiales,",
+   "id": 710,
+   "slot": 2.0,
+   "max_chars_pl": 28,
+   "pl": "Zsumujmy oficjalne rachunki,"
+  },
+  {
+   "start": 1629.08,
+   "end": 1632.44,
+   "es": "las que están escritas en sentencias y en expedientes.",
+   "id": 711,
+   "slot": 3.28,
+   "max_chars_pl": 45,
+   "pl": "te zapisane w wyrokach i aktach."
+  },
+  {
+   "start": 1632.44,
+   "end": 1637.14,
+   "es": "A El Chapo le ordenaron devolver 12.600 millones de dólares.",
+   "id": 712,
+   "slot": 4.62,
+   "max_chars_pl": 64,
+   "pl": "Chapo nakazano zwrot dwunastu miliardów sześciuset milionów dolarów."
+  },
+  {
+   "start": 1637.14,
+   "end": 1639.8,
+   "es": "A El Mayo, 15.000 millones.",
+   "id": 713,
+   "slot": 2.58,
+   "max_chars_pl": 36,
+   "pl": "Mayo piętnaście miliardów."
+  },
+  {
+   "start": 1639.8,
+   "end": 1642.9,
+   "es": "A El Mencho le calcularon más de 1.000 millones.",
+   "id": 714,
+   "slot": 3.02,
+   "max_chars_pl": 42,
+   "pl": "Mencho wyliczono ponad miliard."
+  },
+  {
+   "start": 1642.9,
+   "end": 1646.44,
+   "es": "Sumados, pasan de los 28.000 millones de dólares.",
+   "id": 715,
+   "slot": 3.46,
+   "max_chars_pl": 48,
+   "pl": "Razem to ponad dwadzieścia osiem miliardów dolarów."
+  },
+  {
+   "start": 1646.44,
+   "end": 1649.72,
+   "es": "Solo en cifras judiciales y estimaciones de agencias.",
+   "id": 716,
+   "slot": 3.2,
+   "max_chars_pl": 44,
+   "pl": "Tylko w liczbach sądowych i szacunkach agencji."
+  },
+  {
+   "start": 1649.72,
+   "end": 1654.2,
+   "es": "Y si uno agrega las cifras más generosas que circulan en la prensa y en internet,",
+   "id": 717,
+   "slot": 4.4,
+   "max_chars_pl": 61,
+   "pl": "A jeśli dodać najhojniejsze liczby krążące w prasie i w internecie,"
+  },
+  {
+   "start": 1654.2,
+   "end": 1658.3,
+   "es": "no cuesta nada llegar a esa leyenda de los 50.000 millones del título.",
+   "id": 718,
+   "slot": 4.02,
+   "max_chars_pl": 56,
+   "pl": "łatwo dojść do tej legendy pięćdziesięciu miliardów z tytułu."
+  },
+  {
+   "start": 1658.3,
+   "end": 1661.7,
+   "es": "Ahora bien, frente a esas montañas de dinero en los papeles,",
+   "id": 719,
+   "slot": 3.32,
+   "max_chars_pl": 46,
+   "pl": "Otóż wobec tych gór pieniędzy na papierze,"
+  },
+  {
+   "start": 1661.7,
+   "end": 1663.84,
+   "es": "¿cuánto se recuperó de verdad?",
+   "id": 720,
+   "slot": 2.06,
+   "max_chars_pl": 28,
+   "pl": "ile naprawdę odzyskano?"
+  },
+  {
+   "start": 1663.84,
+   "end": 1666.82,
+   "es": "Casas que se rematan por unos millones de pesos.",
+   "id": 721,
+   "slot": 2.9,
+   "max_chars_pl": 40,
+   "pl": "Domy sprzedane za kilka milionów pesos."
+  },
+  {
+   "start": 1666.82,
+   "end": 1670.4,
+   "es": "Un rancho en el bosque vendido dentro de un paquete de saldos.",
+   "id": 722,
+   "slot": 3.5,
+   "max_chars_pl": 49,
+   "pl": "Ranczo w lesie sprzedane w pakiecie przecenionych dóbr."
+  },
+  {
+   "start": 1670.4,
+   "end": 1672.24,
+   "es": "Unos negocios asegurados.",
+   "id": 723,
+   "slot": 1.76,
+   "max_chars_pl": 24,
+   "pl": "Kilka zabezpieczonych firm."
+  },
+  {
+   "start": 1672.24,
+   "end": 1675.56,
+   "es": "Joyas, relojes, autos de lujo abandonados.",
+   "id": 724,
+   "slot": 3.24,
+   "max_chars_pl": 45,
+   "pl": "Biżuteria, zegarki, luksusowe samochody porzucone."
+  },
+  {
+   "start": 1675.56,
+   "end": 1677.24,
+   "es": "Un par de embarcaciones.",
+   "id": 725,
+   "slot": 1.6,
+   "max_chars_pl": 22,
+   "pl": "Kilka łodzi."
+  },
+  {
+   "start": 1677.24,
+   "end": 1682.46,
+   "es": "Si uno suma todo lo tangible que el Estado logró de verdad agarrar y convertir en dinero,",
+   "id": 726,
+   "slot": 5.14,
+   "max_chars_pl": 71,
+   "pl": "Jeśli zsumować wszystko, co państwu naprawdę udało się uchwycić i zamienić w pieniądze,"
+  },
+  {
+   "start": 1682.46,
+   "end": 1687.74,
+   "es": "el resultado es ridículamente pequeño comparado con las cifras de los titulares.",
+   "id": 727,
+   "slot": 5.2,
+   "max_chars_pl": 72,
+   "pl": "wynik jest śmiesznie mały w porównaniu z liczbami z nagłówków."
+  },
+  {
+   "start": 1687.74,
+   "end": 1689.74,
+   "es": "Es una fracción minúscula.",
+   "id": 728,
+   "slot": 1.92,
+   "max_chars_pl": 26,
+   "pl": "To znikomy ułamek."
+  },
+  {
+   "start": 1689.74,
+   "end": 1692.54,
+   "es": "Centavos frente a cada dólar supuesto.",
+   "id": 729,
+   "slot": 2.72,
+   "max_chars_pl": 38,
+   "pl": "Centy na każdego rzekomego dolara."
+  },
+  {
+   "start": 1692.54,
+   "end": 1694.82,
+   "es": "Entonces, ¿dónde está el resto?",
+   "id": 730,
+   "slot": 2.2,
+   "max_chars_pl": 30,
+   "pl": "Gdzie więc jest reszta?"
+  },
+  {
+   "start": 1694.82,
+   "end": 1698.36,
+   "es": "Hay varias respuestas y ninguna es tranquilizadora.",
+   "id": 731,
+   "slot": 3.46,
+   "max_chars_pl": 48,
+   "pl": "Jest kilka odpowiedzi i żadna nie jest uspokajająca."
+  },
+  {
+   "start": 1698.36,
+   "end": 1703.8,
+   "es": "Una parte de ese dinero probablemente nunca existió en la forma concentrada que imaginamos.",
+   "id": 732,
+   "slot": 5.36,
+   "max_chars_pl": 75,
+   "pl": "Część tych pieniędzy prawdopodobnie nigdy nie istniała w skoncentrowanej postaci, jaką sobie wyobrażamy."
+  },
+  {
+   "start": 1703.8,
+   "end": 1707.12,
+   "es": "Las ganancias del narco no se apilan en una sola bóveda.",
+   "id": 733,
+   "slot": 3.24,
+   "max_chars_pl": 45,
+   "pl": "Zyski narkobiznesu nie leżą w jednym skarbcu."
+  },
+  {
+   "start": 1707.12,
+   "end": 1714.4,
+   "es": "Se reparten en el camino entre miles de operadores, sobornos, gastos, pérdidas, decomisos.",
+   "id": 734,
+   "slot": 7.2,
+   "max_chars_pl": 100,
+   "pl": "Rozchodzą się po drodze między tysiące operatorów, łapówki, wydatki, straty, konfiskaty."
+  },
+  {
+   "start": 1714.4,
+   "end": 1719.56,
+   "es": "El río del dinero de la droga es caudaloso, pero también se evapora constantemente.",
+   "id": 735,
+   "slot": 5.08,
+   "max_chars_pl": 71,
+   "pl": "Rzeka pieniędzy z narkotyków jest rwąca, ale też stale paruje."
+  },
+  {
+   "start": 1719.56,
+   "end": 1721.06,
+   "es": "Otra parte se lavó.",
+   "id": 736,
+   "slot": 1.42,
+   "max_chars_pl": 19,
+   "pl": "Inną część wyprano."
+  },
+  {
+   "start": 1721.06,
+   "end": 1724.74,
+   "es": "Se metió en la economía legal, en negocios que parecen limpios,",
+   "id": 737,
+   "slot": 3.6,
+   "max_chars_pl": 50,
+   "pl": "Wpuszczono w legalną gospodarkę, w interesy, które wyglądają na czyste,"
+  },
+  {
+   "start": 1724.74,
+   "end": 1727.98,
+   "es": "en bienes raíces, en empresas, en terrenos,",
+   "id": 738,
+   "slot": 3.16,
+   "max_chars_pl": 44,
+   "pl": "w nieruchomości, firmy, grunty,"
+  },
+  {
+   "start": 1727.98,
+   "end": 1732.46,
+   "es": "en cadenas de propiedades a nombre de prestanombres que quizá nunca se descubran.",
+   "id": 739,
+   "slot": 4.4,
+   "max_chars_pl": 61,
+   "pl": "w łańcuchy własności na nazwiska podstawionych osób, które może nigdy nie zostaną wykryte."
+  },
+  {
+   "start": 1732.46,
+   "end": 1736.18,
+   "es": "Ese dinero no está en una mansión con letrero de narco.",
+   "id": 740,
+   "slot": 3.64,
+   "max_chars_pl": 50,
+   "pl": "Te pieniądze nie leżą w rezydencji z napisem narkobiznes."
+  },
+  {
+   "start": 1736.18,
+   "end": 1741.22,
+   "es": "Está disfrazado de comercio honrado, imposible de distinguir del resto.",
+   "id": 741,
+   "slot": 4.96,
+   "max_chars_pl": 69,
+   "pl": "Są przebrane za uczciwy handel, nie do odróżnienia od reszty."
+  },
+  {
+   "start": 1741.22,
+   "end": 1744.0,
+   "es": "Y hay una ironía final escondida aquí.",
+   "id": 742,
+   "slot": 2.7,
+   "max_chars_pl": 37,
+   "pl": "I jest tu ukryta ostatnia ironia."
+  },
+  {
+   "start": 1744.0,
+   "end": 1748.94,
+   "es": "El dinero que el narco oculta con tanto cuidado rara vez disfruta a quien lo ocultó.",
+   "id": 743,
+   "slot": 4.86,
+   "max_chars_pl": 68,
+   "pl": "Pieniądze, które narkobiznes tak starannie ukrywa, rzadko cieszą tego, kto je ukrył."
+  },
+  {
+   "start": 1748.94,
+   "end": 1753.02,
+   "es": "Se queda atrapado en la clandestinidad, inútil, enterrado.",
+   "id": 744,
+   "slot": 4.0,
+   "max_chars_pl": 56,
+   "pl": "Zostają uwięzione w podziemiu, bezużyteczne, zakopane."
+  },
+  {
+   "start": 1753.02,
+   "end": 1756.1,
+   "es": "Incapaz de gastarse sin delatar a su dueño.",
+   "id": 745,
+   "slot": 3.0,
+   "max_chars_pl": 42,
+   "pl": "Nie do wydania bez zdradzenia właściciela."
+  },
+  {
+   "start": 1756.1,
+   "end": 1760.3,
+   "es": "Un capo puede tener, en teoría, mil millones de dólares",
+   "id": 746,
+   "slot": 4.12,
+   "max_chars_pl": 57,
+   "pl": "Boss może mieć, teoretycznie, miliard dolarów"
+  },
+  {
+   "start": 1760.3,
+   "end": 1764.92,
+   "es": "y pasar sus últimos días en una cabaña prestada o en una celda de concreto,",
+   "id": 747,
+   "slot": 4.54,
+   "max_chars_pl": 63,
+   "pl": "i spędzić ostatnie dni w pożyczonej chacie albo w betonowej celi,"
+  },
+  {
+   "start": 1764.92,
+   "end": 1768.44,
+   "es": "sin poder tocar un solo billete de esa montaña invisible.",
+   "id": 748,
+   "slot": 3.44,
+   "max_chars_pl": 48,
+   "pl": "nie mogąc dotknąć ani jednego banknotu z tej niewidzialnej góry."
+  },
+  {
+   "start": 1768.44,
+   "end": 1772.44,
+   "es": "La fortuna del narco se parece al tesoro maldito de los cuentos.",
+   "id": 749,
+   "slot": 3.92,
+   "max_chars_pl": 54,
+   "pl": "Fortuna narkobiznesu przypomina przeklęty skarb z bajek."
+  },
+  {
+   "start": 1772.44,
+   "end": 1777.0,
+   "es": "Brilla, existe, pero quema las manos del que intenta usarla.",
+   "id": 750,
+   "slot": 4.48,
+   "max_chars_pl": 62,
+   "pl": "Lśni, istnieje, ale parzy ręce temu, kto próbuje jej użyć."
+  },
+  {
+   "start": 1777.0,
+   "end": 1780.3,
+   "es": "De nada sirve ser el hombre más rico del cementerio.",
+   "id": 751,
+   "slot": 3.22,
+   "max_chars_pl": 45,
+   "pl": "Na nic zdaje się być najbogatszym człowiekiem na cmentarzu."
+  },
+  {
+   "start": 1780.3,
+   "end": 1785.2,
+   "es": "Y otra parte, sencillamente, está escondida donde nadie la ha encontrado.",
+   "id": 752,
+   "slot": 4.82,
+   "max_chars_pl": 67,
+   "pl": "A jeszcze inna część po prostu leży tam, gdzie nikt jej nie znalazł."
+  },
+  {
+   "start": 1785.2,
+   "end": 1788.42,
+   "es": "Enterrada, guardada, movida a otros países.",
+   "id": 753,
+   "slot": 3.14,
+   "max_chars_pl": 43,
+   "pl": "Zakopana, schowana, przeniesiona do innych krajów."
+  },
+  {
+   "start": 1788.42,
+   "end": 1792.96,
+   "es": "Perdida con la muerte o la captura de quienes conocían el secreto.",
+   "id": 754,
+   "slot": 4.46,
+   "max_chars_pl": 62,
+   "pl": "Utracona wraz ze śmiercią lub schwytaniem tych, którzy znali sekret."
+  },
+  {
+   "start": 1792.96,
+   "end": 1798.54,
+   "es": "Cuando un capo cae, muchas veces se lleva a la tumba o a la celda el mapa de su propia fortuna.",
+   "id": 755,
+   "slot": 5.5,
+   "max_chars_pl": 77,
+   "pl": "Gdy boss upada, często zabiera do grobu lub do celi mapę własnej fortuny."
+  },
+  {
+   "start": 1798.54,
+   "end": 1800.9,
+   "es": "La conclusión es incómoda pero clara.",
+   "id": 756,
+   "slot": 2.28,
+   "max_chars_pl": 31,
+   "pl": "Wniosek jest niewygodny, ale jasny."
+  },
+  {
+   "start": 1800.9,
+   "end": 1805.66,
+   "es": "El imperio de 50.000 millones de dólares, en gran parte, es humo.",
+   "id": 757,
+   "slot": 4.68,
+   "max_chars_pl": 65,
+   "pl": "Imperium warte pięćdziesiąt miliardów dolarów jest w dużej mierze dymem."
+  },
+  {
+   "start": 1805.66,
+   "end": 1810.36,
+   "es": "Existió como poder, como miedo, como violencia, como río de droga,",
+   "id": 758,
+   "slot": 4.62,
+   "max_chars_pl": 64,
+   "pl": "Istniało jako władza, jako strach, jako przemoc, jako rzeka narkotyków,"
+  },
+  {
+   "start": 1810.36,
+   "end": 1816.2,
+   "es": "pero como tesoro concreto, como palacios y bóvedas que el Estado pudiera abrir y repartir.",
+   "id": 759,
+   "slot": 5.76,
+   "max_chars_pl": 80,
+   "pl": "ale jako konkretny skarb, jako pałace i skarbce, które państwo mogłoby otworzyć i rozdzielić,"
+  },
+  {
+   "start": 1816.2,
+   "end": 1820.5,
+   "es": "Fue siempre mucho más pequeño y mucho más mítico de lo que nos contaron.",
+   "id": 760,
+   "slot": 4.22,
+   "max_chars_pl": 59,
+   "pl": "było zawsze dużo mniejsze i dużo bardziej mityczne, niż nam opowiadano."
+  },
+  {
+   "start": 1820.5,
+   "end": 1822.82,
+   "es": "Las mansiones eran desechables.",
+   "id": 761,
+   "slot": 2.24,
+   "max_chars_pl": 31,
+   "pl": "Rezydencje były jednorazowe."
+  },
+  {
+   "start": 1822.82,
+   "end": 1825.92,
+   "es": "El verdadero imperio nunca estuvo en los ladrillos.",
+   "id": 762,
+   "slot": 3.02,
+   "max_chars_pl": 42,
+   "pl": "Prawdziwe imperium nigdy nie tkwiło w cegłach."
+  },
+  {
+   "start": 1825.92,
+   "end": 1830.26,
+   "es": "Volvamos, al final, a esa casa de culiacán con la que empezamos.",
+   "id": 763,
+   "slot": 4.26,
+   "max_chars_pl": 59,
+   "pl": "Wróćmy na koniec do tego domu w Culiacán, od którego zaczęliśmy."
+  },
+  {
+   "start": 1830.26,
+   "end": 1833.66,
+   "es": "La casa de la tina levantada y el túnel tapado.",
+   "id": 764,
+   "slot": 3.32,
+   "max_chars_pl": 46,
+   "pl": "Domu z uniesioną wanną i zasypanym tunelem."
+  },
+  {
+   "start": 1833.66,
+   "end": 1837.4,
+   "es": "La casa que nadie quiso comprar ni ganarse en una rifa.",
+   "id": 765,
+   "slot": 3.66,
+   "max_chars_pl": 51,
+   "pl": "Domu, którego nikt nie chciał kupić ani wygrać na loterii."
+  },
+  {
+   "start": 1837.4,
+   "end": 1839.78,
+   "es": "El sol sigue borrándola despacio.",
+   "id": 766,
+   "slot": 2.3,
+   "max_chars_pl": 32,
+   "pl": "Słońce wciąż powoli go zaciera."
+  },
+  {
+   "start": 1839.78,
+   "end": 1846.26,
+   "es": "Y mientras se borra, nos deja una lección que ninguno de los tres hombres de esta historia quiso aprender a tiempo.",
+   "id": 767,
+   "slot": 6.4,
+   "max_chars_pl": 89,
+   "pl": "A gdy się zaciera, zostawia nam lekcję, której żaden z trzech bohaterów tej historii nie chciał się nauczyć na czas."
+  },
+  {
+   "start": 1846.26,
+   "end": 1849.02,
+   "es": "Esto es lo que de verdad quedó de los tres imperios.",
+   "id": 768,
+   "slot": 2.68,
+   "max_chars_pl": 37,
+   "pl": "Oto, co naprawdę zostało z trzech imperiów."
+  },
+  {
+   "start": 1849.02,
+   "end": 1854.66,
+   "es": "Del chapo quedó un hombre pequeño envejeciendo en una celda de concreto en las montañas de Colorado,",
+   "id": 769,
+   "slot": 5.56,
+   "max_chars_pl": 77,
+   "pl": "Po Chapo został niewysoki mężczyzna starzejący się w betonowej celi w górach Kolorado,"
+  },
+  {
+   "start": 1854.66,
+   "end": 1857.88,
+   "es": "en la única prisión de la que no se puede cavar una salida,",
+   "id": 770,
+   "slot": 3.14,
+   "max_chars_pl": 43,
+   "pl": "w jedynym więzieniu, z którego nie da się wykopać wyjścia,"
+  },
+  {
+   "start": 1857.88,
+   "end": 1861.0,
+   "es": "mientras sus casas se pudren a miles de kilómetros.",
+   "id": 771,
+   "slot": 3.04,
+   "max_chars_pl": 42,
+   "pl": "podczas gdy jego domy gniją tysiące kilometrów dalej."
+  },
+  {
+   "start": 1861.0,
+   "end": 1865.9,
+   "es": "De El Mayo quedó un anciano enfermo, condenado a morir en una cárcel extranjera.",
+   "id": 772,
+   "slot": 4.82,
+   "max_chars_pl": 67,
+   "pl": "Po Mayo został chory starzec skazany na śmierć w zagranicznym więzieniu."
+  },
+  {
+   "start": 1865.9,
+   "end": 1870.92,
+   "es": "Traicionado, según él, por los suyos, con una fortuna invisible que construyó tan bien",
+   "id": 773,
+   "slot": 4.94,
+   "max_chars_pl": 69,
+   "pl": "Zdradzony, według niego, przez swoich, z niewidzialną fortuną, którą zbudował tak dobrze,"
+  },
+  {
+   "start": 1870.92,
+   "end": 1873.94,
+   "es": "que ni siquiera el estado que lo juzga logra encontrarla.",
+   "id": 774,
+   "slot": 2.94,
+   "max_chars_pl": 41,
+   "pl": "że nawet państwo, które go sądzi, nie potrafi jej znaleźć."
+  },
+  {
+   "start": 1873.94,
+   "end": 1878.0,
+   "es": "Y de El Mencho quedó una tumba en Zapopán y una cabaña en el bosque,",
+   "id": 775,
+   "slot": 3.98,
+   "max_chars_pl": 55,
+   "pl": "A po Mencho został grób w Zapopan i chata w lesie,"
+  },
+  {
+   "start": 1878.0,
+   "end": 1880.78,
+   "es": "rematada entre 200 propiedades más.",
+   "id": 776,
+   "slot": 2.7,
+   "max_chars_pl": 37,
+   "pl": "sprzedana wśród dwustu innych nieruchomości."
+  },
+  {
+   "start": 1880.78,
+   "end": 1883.54,
+   "es": "Una casa que ni siquiera estaba a su nombre.",
+   "id": 777,
+   "slot": 2.68,
+   "max_chars_pl": 37,
+   "pl": "Dom, który nawet nie był na jego nazwisko."
+  },
+  {
+   "start": 1883.54,
+   "end": 1887.52,
+   "es": "Tres hombres que, según la leyenda, tuvieron el mundo en las manos.",
+   "id": 778,
+   "slot": 3.9,
+   "max_chars_pl": 54,
+   "pl": "Trzej mężczyźni, którzy według legendy mieli świat w rękach."
+  },
+  {
+   "start": 1887.52,
+   "end": 1892.5,
+   "es": "Y lo que les quedó al final fue una celda, un hospital penitenciario y una lápida.",
+   "id": 779,
+   "slot": 4.9,
+   "max_chars_pl": 68,
+   "pl": "A to, co im zostało na końcu, to cela, szpital więzienny i nagrobek."
+  },
+  {
+   "start": 1892.5,
+   "end": 1894.7,
+   "es": "Ni los palacios los acompañaron.",
+   "id": 780,
+   "slot": 2.12,
+   "max_chars_pl": 29,
+   "pl": "Nawet pałace im nie towarzyszyły."
+  },
+  {
+   "start": 1894.7,
+   "end": 1896.5,
+   "es": "Ni el dinero los salvó.",
+   "id": 781,
+   "slot": 1.72,
+   "max_chars_pl": 24,
+   "pl": "Nawet pieniądze ich nie uratowały."
+  },
+  {
+   "start": 1896.5,
+   "end": 1899.02,
+   "es": "Ni el miedo que sembraron los hizo eternos.",
+   "id": 782,
+   "slot": 2.44,
+   "max_chars_pl": 34,
+   "pl": "Nawet strach, który zasiali, nie uczynił ich wiecznymi."
+  },
+  {
+   "start": 1899.02,
+   "end": 1901.32,
+   "es": "Y conviene no romantizar nada de esto,",
+   "id": 783,
+   "slot": 2.22,
+   "max_chars_pl": 31,
+   "pl": "I nie należy tego wszystkiego romantyzować,"
+  },
+  {
+   "start": 1901.32,
+   "end": 1903.72,
+   "es": "porque detrás de cada una de esas fortunas",
+   "id": 784,
+   "slot": 2.32,
+   "max_chars_pl": 32,
+   "pl": "bo za każdą z tych fortun"
+  },
+  {
+   "start": 1903.72,
+   "end": 1907.74,
+   "es": "hay un reguero de víctimas que no salen los titulares de la subasta.",
+   "id": 785,
+   "slot": 3.94,
+   "max_chars_pl": 55,
+   "pl": "ciągnie się ślad ofiar, których nie ma w nagłówkach aukcji."
+  },
+  {
+   "start": 1907.74,
+   "end": 1910.56,
+   "es": "Están los muertos de las guerras entre cárteles.",
+   "id": 786,
+   "slot": 2.74,
+   "max_chars_pl": 38,
+   "pl": "Są zabici w wojnach między kartelami."
+  },
+  {
+   "start": 1910.56,
+   "end": 1913.78,
+   "es": "Están los desaparecidos cuyas familias todavía buscan.",
+   "id": 787,
+   "slot": 3.14,
+   "max_chars_pl": 43,
+   "pl": "Są zaginieni, których rodziny wciąż szukają."
+  },
+  {
+   "start": 1913.78,
+   "end": 1916.74,
+   "es": "Están los pueblos enteros atrapados por la extorsión.",
+   "id": 788,
+   "slot": 2.88,
+   "max_chars_pl": 40,
+   "pl": "Są całe miasteczka uwięzione w szantażu."
+  },
+  {
+   "start": 1916.74,
+   "end": 1919.6,
+   "es": "Los policías y los periodistas asesinados.",
+   "id": 789,
+   "slot": 2.78,
+   "max_chars_pl": 38,
+   "pl": "Zamordowani policjanci i dziennikarze."
+  },
+  {
+   "start": 1919.6,
+   "end": 1923.94,
+   "es": "Los jóvenes que entraron a ese mundo deslumbrados por la promesa del dinero fácil",
+   "id": 790,
+   "slot": 4.26,
+   "max_chars_pl": 59,
+   "pl": "Młodzi, którzy weszli w ten świat zauroczeni obietnicą łatwych pieniędzy"
+  },
+  {
+   "start": 1923.94,
+   "end": 1927.46,
+   "es": "y terminaron en una fosa antes de los 25 años.",
+   "id": 791,
+   "slot": 3.44,
+   "max_chars_pl": 48,
+   "pl": "i skończyli w grobie przed dwudziestym piątym rokiem życia."
+  },
+  {
+   "start": 1927.46,
+   "end": 1931.32,
+   "es": "Ese es el verdadero costo de los 50.000 millones de dólares.",
+   "id": 792,
+   "slot": 3.78,
+   "max_chars_pl": 52,
+   "pl": "To prawdziwy koszt pięćdziesięciu miliardów dolarów."
+  },
+  {
+   "start": 1931.32,
+   "end": 1933.08,
+   "es": "No se mide en casas.",
+   "id": 793,
+   "slot": 1.68,
+   "max_chars_pl": 23,
+   "pl": "Nie mierzy się go w domach."
+  },
+  {
+   "start": 1933.08,
+   "end": 1934.58,
+   "es": "Se mide en vidas.",
+   "id": 794,
+   "slot": 1.42,
+   "max_chars_pl": 19,
+   "pl": "Mierzy się go w życiach."
+  },
+  {
+   "start": 1934.58,
+   "end": 1937.78,
+   "es": "Las mansiones abandonadas del narco son, al final,",
+   "id": 795,
+   "slot": 3.12,
+   "max_chars_pl": 43,
+   "pl": "Opuszczone rezydencje narkobiznesu są w końcu"
+  },
+  {
+   "start": 1937.78,
+   "end": 1940.74,
+   "es": "un monumento silencioso a una mentira.",
+   "id": 796,
+   "slot": 2.88,
+   "max_chars_pl": 40,
+   "pl": "cichym pomnikiem kłamstwa."
+  },
+  {
+   "start": 1940.74,
+   "end": 1943.98,
+   "es": "La mentira de que esta vida construye algo que dura.",
+   "id": 797,
+   "slot": 3.16,
+   "max_chars_pl": 44,
+   "pl": "Kłamstwa, że to życie buduje coś, co trwa."
+  },
+  {
+   "start": 1943.98,
+   "end": 1946.34,
+   "es": "No construye palacios eternos.",
+   "id": 798,
+   "slot": 2.28,
+   "max_chars_pl": 31,
+   "pl": "Nie buduje wiecznych pałaców."
+  },
+  {
+   "start": 1946.34,
+   "end": 1949.46,
+   "es": "Construye trincheras con túneles debajo de la tina.",
+   "id": 799,
+   "slot": 3.04,
+   "max_chars_pl": 42,
+   "pl": "Buduje okopy z tunelami pod wanną."
+  },
+  {
+   "start": 1949.46,
+   "end": 1951.8,
+   "es": "Construye escondites en el bosque.",
+   "id": 800,
+   "slot": 2.26,
+   "max_chars_pl": 31,
+   "pl": "Buduje kryjówki w lesie."
+  },
+  {
+   "start": 1951.8,
+   "end": 1953.26,
+   "es": "Construye tumbas.",
+   "id": 801,
+   "slot": 1.38,
+   "max_chars_pl": 19,
+   "pl": "Buduje groby."
+  },
+  {
+   "start": 1953.26,
+   "end": 1956.4,
+   "es": "Y cuando el hombre cae, lo único que queda de su imperio",
+   "id": 802,
+   "slot": 3.06,
+   "max_chars_pl": 42,
+   "pl": "A gdy człowiek upada, jedyne, co zostaje z jego imperium,"
+  },
+  {
+   "start": 1956.4,
+   "end": 1959.44,
+   "es": "es una casa vacía que el sol borra despacio.",
+   "id": 803,
+   "slot": 2.96,
+   "max_chars_pl": 41,
+   "pl": "to pusty dom, który słońce powoli zaciera."
+  },
+  {
+   "start": 1959.44,
+   "end": 1963.24,
+   "es": "Y una pregunta que sus propios herederos tampoco sabrán responder.",
+   "id": 804,
+   "slot": 3.72,
+   "max_chars_pl": 52,
+   "pl": "I pytanie, na które nie odpowiedzą też jego własni spadkobiercy."
+  },
+  {
+   "start": 1963.24,
+   "end": 1965.28,
+   "es": "¿Dónde quedó todo lo que valía la pena",
+   "id": 805,
+   "slot": 1.96,
+   "max_chars_pl": 27,
+   "pl": "Gdzie podziało się wszystko, co miało wartość,"
+  },
+  {
+   "start": 1965.28,
+   "end": 1967.96,
+   "es": "si lo único que sobrevivió fueron las ruinas?",
+   "id": 806,
+   "slot": 2.6,
+   "max_chars_pl": 36,
+   "pl": "skoro przetrwały tylko ruiny?"
+  },
+  {
+   "start": 1967.96,
+   "end": 1970.12,
+   "es": "Si esta historia te hizo ver de otra manera",
+   "id": 807,
+   "slot": 2.08,
+   "max_chars_pl": 29,
+   "pl": "Jeśli ta historia sprawiła, że inaczej spojrzałeś"
+  },
+  {
+   "start": 1970.12,
+   "end": 1973.92,
+   "es": "el mito del narco rico y todopoderoso, déjanoslo saber.",
+   "id": 808,
+   "slot": 3.72,
+   "max_chars_pl": 52,
+   "pl": "na mit bogatego i wszechmocnego narkobossa, daj nam znać."
+  },
+  {
+   "start": 1973.92,
+   "end": 1975.56,
+   "es": "Y quédate en el canal.",
+   "id": 809,
+   "slot": 1.56,
+   "max_chars_pl": 21,
+   "pl": "I zostań na kanale."
+  },
+  {
+   "start": 1975.56,
+   "end": 1977.58,
+   "es": "Porque detrás de cada leyenda del crimen",
+   "id": 810,
+   "slot": 1.94,
+   "max_chars_pl": 27,
+   "pl": "Bo za każdą legendą przestępczości"
+  },
+  {
+   "start": 1977.58,
+   "end": 1980.08,
+   "es": "hay una verdad que casi siempre es más dura",
+   "id": 811,
+   "slot": 2.42,
+   "max_chars_pl": 33,
+   "pl": "kryje się prawda, która prawie zawsze jest twardsza"
+  },
+  {
+   "start": 1980.08,
+   "end": 1982.848,
+   "es": "y mucho más reveladora que la leyenda.",
+   "id": 812,
+   "slot": 2.688,
+   "max_chars_pl": 37,
+   "pl": "i dużo bardziej wymowna niż legenda."
+  }
+ ]
+}
