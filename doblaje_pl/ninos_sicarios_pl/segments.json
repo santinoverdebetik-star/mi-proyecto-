@@ -1,0 +1,7070 @@
+{
+ "video_dur": 1902.379,
+ "segments": [
+  {
+   "start": 0.0,
+   "end": 3.82,
+   "es": "Tenía 11 años la primera vez que degolló a un hombre.",
+   "id": 1,
+   "slot": 3.74,
+   "max_chars_pl": 52,
+   "pl": "Miał jedenaście lat, gdy po raz pierwszy poderżnął gardło człowiekowi."
+  },
+  {
+   "start": 3.82,
+   "end": 5.76,
+   "es": "No es una frase de película.",
+   "id": 2,
+   "slot": 1.86,
+   "max_chars_pl": 26,
+   "pl": "To nie jest kwestia z filmu."
+  },
+  {
+   "start": 5.76,
+   "end": 7.68,
+   "es": "No es una leyenda de internet.",
+   "id": 3,
+   "slot": 1.84,
+   "max_chars_pl": 25,
+   "pl": "To nie jest internetowa legenda."
+  },
+  {
+   "start": 7.68,
+   "end": 10.82,
+   "es": "Es la confesión que un niño dio frente a una cámara,",
+   "id": 4,
+   "slot": 3.06,
+   "max_chars_pl": 42,
+   "pl": "To wyznanie, które chłopiec złożył przed kamerą,"
+  },
+  {
+   "start": 10.82,
+   "end": 14.38,
+   "es": "con la voz todavía aguda, mientras soldados lo rodeaban",
+   "id": 5,
+   "slot": 3.48,
+   "max_chars_pl": 48,
+   "pl": "wciąż cienkim głosem, otoczony przez żołnierzy,"
+  },
+  {
+   "start": 14.38,
+   "end": 16.96,
+   "es": "y los periodistas le preguntaban cuántas personas",
+   "id": 6,
+   "slot": 2.5,
+   "max_chars_pl": 35,
+   "pl": "a dziennikarze pytali go, ilu ludzi"
+  },
+  {
+   "start": 16.96,
+   "end": 18.1,
+   "es": "había matado.",
+   "id": 7,
+   "slot": 1.06,
+   "max_chars_pl": 14,
+   "pl": "zabił."
+  },
+  {
+   "start": 18.1,
+   "end": 20.32,
+   "es": "Él contestó como quien responde una tarea de la",
+   "id": 8,
+   "slot": 2.14,
+   "max_chars_pl": 29,
+   "pl": "Odpowiedział jak na zadanie"
+  },
+  {
+   "start": 20.32,
+   "end": 21.14,
+   "es": "escuela.",
+   "id": 9,
+   "slot": 0.74,
+   "max_chars_pl": 10,
+   "pl": "domowe."
+  },
+  {
+   "start": 21.14,
+   "end": 23.52,
+   "es": "Cuatro, que las había degollado,",
+   "id": 10,
+   "slot": 2.3,
+   "max_chars_pl": 32,
+   "pl": "Czterech, że poderżnął im gardła,"
+  },
+  {
+   "start": 23.52,
+   "end": 25.36,
+   "es": "que al principio le daba miedo,",
+   "id": 11,
+   "slot": 1.76,
+   "max_chars_pl": 24,
+   "pl": "że na początku się bał,"
+  },
+  {
+   "start": 25.36,
+   "end": 27.6,
+   "es": "pero que después ya no sentía nada.",
+   "id": 12,
+   "slot": 2.16,
+   "max_chars_pl": 30,
+   "pl": "ale potem już nic nie czuł."
+  },
+  {
+   "start": 27.6,
+   "end": 29.36,
+   "es": "Ese niño existió.",
+   "id": 13,
+   "slot": 1.68,
+   "max_chars_pl": 23,
+   "pl": "To dziecko istniało naprawdę."
+  },
+  {
+   "start": 29.36,
+   "end": 30.86,
+   "es": "Y no fue el único.",
+   "id": 14,
+   "slot": 1.42,
+   "max_chars_pl": 19,
+   "pl": "I nie było jedyne."
+  },
+  {
+   "start": 30.86,
+   "end": 33.76,
+   "es": "En este documental vas a conocer a los cinco sicarios más",
+   "id": 15,
+   "slot": 2.82,
+   "max_chars_pl": 39,
+   "pl": "W tym dokumencie poznasz pięciu najmłodszych płatnych zabójców,"
+  },
+  {
+   "start": 33.76,
+   "end": 36.94,
+   "es": "jóvenes de los que se tenga registro en América Latina.",
+   "id": 16,
+   "slot": 3.1,
+   "max_chars_pl": 43,
+   "pl": "o jakich zachowały się zapisy w całej Ameryce Łacińskiej."
+  },
+  {
+   "start": 36.94,
+   "end": 39.64,
+   "es": "Cinco menores de edad a los que un cártel les puso un",
+   "id": 17,
+   "slot": 2.62,
+   "max_chars_pl": 36,
+   "pl": "Pięciu nieletnich, którym kartel wsadził do rąk"
+  },
+  {
+   "start": 39.64,
+   "end": 42.86,
+   "es": "arma en las manos antes de que terminaran la secundaria.",
+   "id": 18,
+   "slot": 3.14,
+   "max_chars_pl": 43,
+   "pl": "broń, zanim skończyli gimnazjum."
+  },
+  {
+   "start": 42.86,
+   "end": 45.16,
+   "es": "Algunos tenían 14 años.",
+   "id": 19,
+   "slot": 2.22,
+   "max_chars_pl": 31,
+   "pl": "Niektórzy mieli czternaście lat."
+  },
+  {
+   "start": 45.16,
+   "end": 46.66,
+   "es": "Otros, 13.",
+   "id": 20,
+   "slot": 1.42,
+   "max_chars_pl": 19,
+   "pl": "Inni trzynaście."
+  },
+  {
+   "start": 46.66,
+   "end": 49.76,
+   "es": "Y el más joven de todos, según su propia confesión,",
+   "id": 21,
+   "slot": 3.02,
+   "max_chars_pl": 42,
+   "pl": "A najmłodszy z nich, według jego własnego wyznania,"
+  },
+  {
+   "start": 49.76,
+   "end": 51.32,
+   "es": "apenas 11.",
+   "id": 22,
+   "slot": 1.48,
+   "max_chars_pl": 20,
+   "pl": "zaledwie jedenaście."
+  },
+  {
+   "start": 51.32,
+   "end": 54.0,
+   "es": "Pero este video no va a celebrar a nadie,",
+   "id": 23,
+   "slot": 2.6,
+   "max_chars_pl": 36,
+   "pl": "Ale ten film nikogo nie będzie wychwalał,"
+  },
+  {
+   "start": 54.0,
+   "end": 56.56,
+   "es": "porque detrás de cada uno de estos apodos que suenan",
+   "id": 24,
+   "slot": 2.48,
+   "max_chars_pl": 34,
+   "pl": "bo za każdym z tych przydomków, które brzmią jak"
+  },
+  {
+   "start": 56.56,
+   "end": 59.1,
+   "es": "acorrido, hay la misma historia repetida.",
+   "id": 25,
+   "slot": 2.46,
+   "max_chars_pl": 34,
+   "pl": "korrido, kryje się ta sama powtarzająca się historia."
+  },
+  {
+   "start": 59.1,
+   "end": 61.96,
+   "es": "Un chico pobre, reclutado por un adulto,",
+   "id": 26,
+   "slot": 2.78,
+   "max_chars_pl": 38,
+   "pl": "Biedny chłopak, zwerbowany przez dorosłego,"
+  },
+  {
+   "start": 61.96,
+   "end": 64.84,
+   "es": "usado como mano de obra barata y desechable,",
+   "id": 27,
+   "slot": 2.8,
+   "max_chars_pl": 39,
+   "pl": "wykorzystany jak tania i jednorazowa siła robocza"
+  },
+  {
+   "start": 64.84,
+   "end": 67.88,
+   "es": "y abandonado en el momento en que dejó de servir.",
+   "id": 28,
+   "slot": 2.96,
+   "max_chars_pl": 41,
+   "pl": "i porzucony w chwili, gdy przestał się przydawać."
+  },
+  {
+   "start": 67.88,
+   "end": 71.1,
+   "es": "Casi ninguno de ellos llegó vivo a la mayoría de edad.",
+   "id": 29,
+   "slot": 3.14,
+   "max_chars_pl": 43,
+   "pl": "Prawie żaden z nich nie dożył pełnoletności."
+  },
+  {
+   "start": 71.1,
+   "end": 73.48,
+   "es": "Los que no murieron acribillados terminaron en",
+   "id": 30,
+   "slot": 2.3,
+   "max_chars_pl": 32,
+   "pl": "Ci, którzy nie zginęli od kul,"
+  },
+  {
+   "start": 73.48,
+   "end": 74.5,
+   "es": "una celda.",
+   "id": 31,
+   "slot": 0.94,
+   "max_chars_pl": 13,
+   "pl": "wylądowali w celi."
+  },
+  {
+   "start": 74.5,
+   "end": 77.58,
+   "es": "Y mientras hablamos, los cárteles siguen sumando,",
+   "id": 32,
+   "slot": 3.0,
+   "max_chars_pl": 42,
+   "pl": "A w tej chwili kartele wciąż powiększają szeregi,"
+  },
+  {
+   "start": 77.58,
+   "end": 79.5,
+   "es": "según organizaciones civiles,",
+   "id": 33,
+   "slot": 1.84,
+   "max_chars_pl": 25,
+   "pl": "według organizacji społecznych,"
+  },
+  {
+   "start": 79.5,
+   "end": 82.1,
+   "es": "a cuatro menores por hora a sus filas.",
+   "id": 34,
+   "slot": 2.52,
+   "max_chars_pl": 35,
+   "pl": "o czworo nieletnich na godzinę."
+  },
+  {
+   "start": 82.1,
+   "end": 83.92,
+   "es": "Vamos a contar quiénes fueron,",
+   "id": 35,
+   "slot": 1.74,
+   "max_chars_pl": 24,
+   "pl": "Opowiemy, kim byli,"
+  },
+  {
+   "start": 83.92,
+   "end": 86.52,
+   "es": "de qué se les acusó y cómo terminaron.",
+   "id": 36,
+   "slot": 2.52,
+   "max_chars_pl": 35,
+   "pl": "o co ich oskarżono i jak skończyli."
+  },
+  {
+   "start": 86.52,
+   "end": 89.0,
+   "es": "Vamos a separar lo que confirmó la justicia de lo",
+   "id": 37,
+   "slot": 2.4,
+   "max_chars_pl": 33,
+   "pl": "Oddzielimy to, co potwierdził sąd,"
+  },
+  {
+   "start": 89.0,
+   "end": 91.92,
+   "es": "que solo son versiones que circulan en redes.",
+   "id": 38,
+   "slot": 2.84,
+   "max_chars_pl": 39,
+   "pl": "od wersji, które tylko krążą w sieci."
+  },
+  {
+   "start": 91.92,
+   "end": 93.66,
+   "es": "Y vamos a nombrar a las víctimas,",
+   "id": 39,
+   "slot": 1.66,
+   "max_chars_pl": 23,
+   "pl": "I wymienimy z imienia ofiary,"
+  },
+  {
+   "start": 93.66,
+   "end": 96.28,
+   "es": "porque detrás de cada uno de estos niños con un rifle,",
+   "id": 40,
+   "slot": 2.54,
+   "max_chars_pl": 35,
+   "pl": "bo za każdym z tych dzieci z karabinem"
+  },
+  {
+   "start": 96.28,
+   "end": 99.32,
+   "es": "hay familias enteras que los lloran a ellos y familias",
+   "id": 41,
+   "slot": 2.96,
+   "max_chars_pl": 41,
+   "pl": "stoją całe rodziny, które po nich płaczą, i rodziny"
+  },
+  {
+   "start": 99.32,
+   "end": 101.56,
+   "es": "enteras que lloran a los que ellos mataron.",
+   "id": 42,
+   "slot": 2.16,
+   "max_chars_pl": 30,
+   "pl": "które płaczą po tych, których oni zabili."
+  },
+  {
+   "start": 101.56,
+   "end": 105.06,
+   "es": "Empecemos por entender una cosa que casi nadie se pregunta.",
+   "id": 43,
+   "slot": 3.42,
+   "max_chars_pl": 47,
+   "pl": "Zacznijmy od zrozumienia czegoś, o co prawie nikt nie pyta."
+  },
+  {
+   "start": 105.06,
+   "end": 107.6,
+   "es": "¿Por qué un cártel querría a un niño de 11 años en",
+   "id": 44,
+   "slot": 2.46,
+   "max_chars_pl": 34,
+   "pl": "Dlaczego kartel miałby chcieć jedenastolatka"
+  },
+  {
+   "start": 107.6,
+   "end": 108.6,
+   "es": "sus filas?",
+   "id": 45,
+   "slot": 0.92,
+   "max_chars_pl": 12,
+   "pl": "w swoich szeregach?"
+  },
+  {
+   "start": 108.6,
+   "end": 111.58,
+   "es": "La respuesta es tan fría que cuesta escribirla.",
+   "id": 46,
+   "slot": 2.9,
+   "max_chars_pl": 40,
+   "pl": "Odpowiedź jest tak zimna, że trudno ją zapisać."
+  },
+  {
+   "start": 111.58,
+   "end": 114.58,
+   "es": "Los cárteles no reclutan niños por accidente.",
+   "id": 47,
+   "slot": 2.92,
+   "max_chars_pl": 40,
+   "pl": "Kartele nie werbują dzieci przez przypadek."
+  },
+  {
+   "start": 114.58,
+   "end": 117.56,
+   "es": "Los reclutan a propósito, porque para ellos un niño es",
+   "id": 48,
+   "slot": 2.9,
+   "max_chars_pl": 40,
+   "pl": "Robią to celowo, bo dla nich dziecko to"
+  },
+  {
+   "start": 117.56,
+   "end": 118.96,
+   "es": "el soldado perfecto.",
+   "id": 49,
+   "slot": 1.32,
+   "max_chars_pl": 18,
+   "pl": "idealny żołnierz."
+  },
+  {
+   "start": 118.96,
+   "end": 121.7,
+   "es": "Y lo es por tres razones muy concretas.",
+   "id": 50,
+   "slot": 2.66,
+   "max_chars_pl": 37,
+   "pl": "I jest nim z trzech bardzo konkretnych powodów."
+  },
+  {
+   "start": 121.7,
+   "end": 123.3,
+   "es": "La primera es la ley.",
+   "id": 51,
+   "slot": 1.52,
+   "max_chars_pl": 21,
+   "pl": "Pierwszy to prawo."
+  },
+  {
+   "start": 123.3,
+   "end": 125.84,
+   "es": "En México y en buena parte de América Latina,",
+   "id": 52,
+   "slot": 2.46,
+   "max_chars_pl": 34,
+   "pl": "W Meksyku i w dużej części Ameryki Łacińskiej"
+  },
+  {
+   "start": 125.84,
+   "end": 129.24,
+   "es": "un menor de edad que comete un delito no puede ser juzgado",
+   "id": 53,
+   "slot": 3.32,
+   "max_chars_pl": 46,
+   "pl": "nieletni, który popełni przestępstwo, nie może być sądzony"
+  },
+  {
+   "start": 129.24,
+   "end": 130.46,
+   "es": "como un adulto.",
+   "id": 54,
+   "slot": 1.14,
+   "max_chars_pl": 15,
+   "pl": "jak dorosły."
+  },
+  {
+   "start": 130.46,
+   "end": 133.16,
+   "es": "Si lo detienen, no va a una prisión federal.",
+   "id": 55,
+   "slot": 2.62,
+   "max_chars_pl": 36,
+   "pl": "Jeśli go zatrzymają, nie trafia do więzienia federalnego."
+  },
+  {
+   "start": 133.16,
+   "end": 136.0,
+   "es": "Va a un centro de internamiento para adolescentes.",
+   "id": 56,
+   "slot": 2.76,
+   "max_chars_pl": 38,
+   "pl": "Trafia do zakładu poprawczego dla młodzieży."
+  },
+  {
+   "start": 136.0,
+   "end": 139.68,
+   "es": "Y en el peor de los casos, pasa unos pocos años encerrado.",
+   "id": 57,
+   "slot": 3.6,
+   "max_chars_pl": 50,
+   "pl": "A w najgorszym wypadku spędza za kratami kilka lat."
+  },
+  {
+   "start": 139.68,
+   "end": 142.68,
+   "es": "Para el crimen organizado, eso significa que un niño es",
+   "id": 58,
+   "slot": 2.92,
+   "max_chars_pl": 40,
+   "pl": "Dla zorganizowanej przestępczości to znaczy, że dziecko to"
+  },
+  {
+   "start": 142.68,
+   "end": 144.58,
+   "es": "un sicario que, aunque caiga,",
+   "id": 59,
+   "slot": 1.82,
+   "max_chars_pl": 25,
+   "pl": "zabójca, który nawet jeśli wpadnie,"
+  },
+  {
+   "start": 144.58,
+   "end": 146.36,
+   "es": "casi no representa un costo.",
+   "id": 60,
+   "slot": 1.7,
+   "max_chars_pl": 23,
+   "pl": "prawie nic nie kosztuje."
+  },
+  {
+   "start": 146.36,
+   "end": 149.16,
+   "es": "Es, en el lenguaje helado de los expertos,",
+   "id": 61,
+   "slot": 2.72,
+   "max_chars_pl": 38,
+   "pl": "To, w lodowatym języku ekspertów,"
+  },
+  {
+   "start": 149.16,
+   "end": 151.92,
+   "es": "un recurso prácticamente desechable.",
+   "id": 62,
+   "slot": 2.68,
+   "max_chars_pl": 37,
+   "pl": "zasób praktycznie jednorazowy."
+  },
+  {
+   "start": 151.92,
+   "end": 154.2,
+   "es": "La segunda razón es el dinero.",
+   "id": 63,
+   "slot": 2.2,
+   "max_chars_pl": 30,
+   "pl": "Drugi powód to pieniądze."
+  },
+  {
+   "start": 154.2,
+   "end": 155.86,
+   "es": "Un niño cuesta poco.",
+   "id": 64,
+   "slot": 1.58,
+   "max_chars_pl": 22,
+   "pl": "Dziecko kosztuje niewiele."
+  },
+  {
+   "start": 155.86,
+   "end": 158.38,
+   "es": "No pide un sueldo de jefe, no negocia,",
+   "id": 65,
+   "slot": 2.44,
+   "max_chars_pl": 34,
+   "pl": "Nie żąda pensji szefa, nie negocjuje,"
+  },
+  {
+   "start": 158.38,
+   "end": 161.2,
+   "es": "se conforma con un par de tenis, un teléfono,",
+   "id": 66,
+   "slot": 2.74,
+   "max_chars_pl": 38,
+   "pl": "zadowoli się parą butów sportowych, telefonem,"
+  },
+  {
+   "start": 161.2,
+   "end": 164.12,
+   "es": "algo de dinero para su familia o simplemente con la",
+   "id": 67,
+   "slot": 2.84,
+   "max_chars_pl": 39,
+   "pl": "trochę pieniędzmi dla rodziny albo po prostu"
+  },
+  {
+   "start": 164.12,
+   "end": 166.8,
+   "es": "sensación de pertenecer a algo por primera vez en su",
+   "id": 68,
+   "slot": 2.6,
+   "max_chars_pl": 36,
+   "pl": "poczuciem przynależności po raz pierwszy w"
+  },
+  {
+   "start": 166.8,
+   "end": 167.7,
+   "es": "vida.",
+   "id": 69,
+   "slot": 0.82,
+   "max_chars_pl": 11,
+   "pl": "życiu."
+  },
+  {
+   "start": 167.7,
+   "end": 170.32,
+   "es": "Muchos de estos chicos vienen de casas donde hubo",
+   "id": 70,
+   "slot": 2.54,
+   "max_chars_pl": 35,
+   "pl": "Wielu z tych chłopców pochodzi z domów, w których była"
+  },
+  {
+   "start": 170.32,
+   "end": 172.72,
+   "es": "violencia, abandono o hambre.",
+   "id": 71,
+   "slot": 2.32,
+   "max_chars_pl": 32,
+   "pl": "przemoc, porzucenie albo głód."
+  },
+  {
+   "start": 172.72,
+   "end": 175.8,
+   "es": "Un estudio citado en Colombia encontró que casi 8 de",
+   "id": 72,
+   "slot": 3.0,
+   "max_chars_pl": 42,
+   "pl": "Badanie cytowane w Kolumbii wykazało, że prawie ośmioro z"
+  },
+  {
+   "start": 175.8,
+   "end": 178.6,
+   "es": "cada 10 menores reclutados por grupos armados habían",
+   "id": 73,
+   "slot": 2.72,
+   "max_chars_pl": 38,
+   "pl": "każdych dziesięciorga nieletnich zwerbowanych przez grupy zbrojne"
+  },
+  {
+   "start": 178.6,
+   "end": 182.0,
+   "es": "sufrido violencia dentro de su propia familia antes de",
+   "id": 74,
+   "slot": 3.32,
+   "max_chars_pl": 46,
+   "pl": "doświadczyło przemocy we własnej rodzinie, zanim"
+  },
+  {
+   "start": 182.0,
+   "end": 183.1,
+   "es": "entrar.",
+   "id": 75,
+   "slot": 1.02,
+   "max_chars_pl": 14,
+   "pl": "do nich dołączyło."
+  },
+  {
+   "start": 183.1,
+   "end": 185.44,
+   "es": "El cártel no los seduce con lujo.",
+   "id": 76,
+   "slot": 2.26,
+   "max_chars_pl": 31,
+   "pl": "Kartel nie uwodzi ich luksusem."
+  },
+  {
+   "start": 185.44,
+   "end": 187.8,
+   "es": "Los seduce con lo que nadie más les dio.",
+   "id": 77,
+   "slot": 2.28,
+   "max_chars_pl": 31,
+   "pl": "Uwodzi ich tym, czego nikt inny im nie dał."
+  },
+  {
+   "start": 187.8,
+   "end": 191.02,
+   "es": "Comida, respeto y una figura que los mire.",
+   "id": 78,
+   "slot": 3.14,
+   "max_chars_pl": 43,
+   "pl": "Jedzeniem, szacunkiem i kimś, kto na nich patrzy."
+  },
+  {
+   "start": 191.02,
+   "end": 193.2,
+   "es": "Y la tercera razón es la lealtad.",
+   "id": 79,
+   "slot": 2.1,
+   "max_chars_pl": 29,
+   "pl": "A trzeci powód to lojalność."
+  },
+  {
+   "start": 193.2,
+   "end": 195.88,
+   "es": "Un niño todavía no tiene un criterio formado.",
+   "id": 80,
+   "slot": 2.6,
+   "max_chars_pl": 36,
+   "pl": "Dziecko nie ma jeszcze ukształtowanego osądu."
+  },
+  {
+   "start": 195.88,
+   "end": 197.12,
+   "es": "Es moldeable.",
+   "id": 81,
+   "slot": 1.16,
+   "max_chars_pl": 16,
+   "pl": "Można je formować."
+  },
+  {
+   "start": 197.12,
+   "end": 199.64,
+   "es": "Se le puede enseñar a obedecer sin preguntar,",
+   "id": 82,
+   "slot": 2.44,
+   "max_chars_pl": 34,
+   "pl": "Można je nauczyć posłuszeństwa bez pytań,"
+  },
+  {
+   "start": 199.64,
+   "end": 201.84,
+   "es": "a ver la violencia como algo normal,",
+   "id": 83,
+   "slot": 2.12,
+   "max_chars_pl": 29,
+   "pl": "patrzenia na przemoc jak na coś normalnego,"
+  },
+  {
+   "start": 201.84,
+   "end": 204.24,
+   "es": "a sentir que el grupo es su única familia.",
+   "id": 84,
+   "slot": 2.32,
+   "max_chars_pl": 32,
+   "pl": "odczuwania, że grupa to jedyna rodzina."
+  },
+  {
+   "start": 204.24,
+   "end": 207.56,
+   "es": "Los reclutadores lo saben y por eso los buscan cada vez más",
+   "id": 85,
+   "slot": 3.24,
+   "max_chars_pl": 45,
+   "pl": "Werbownicy o tym wiedzą i dlatego szukają coraz"
+  },
+  {
+   "start": 207.56,
+   "end": 208.5,
+   "es": "jóvenes.",
+   "id": 86,
+   "slot": 0.86,
+   "max_chars_pl": 12,
+   "pl": "młodszych."
+  },
+  {
+   "start": 208.5,
+   "end": 212.2,
+   "es": "Conviene entender cómo los enganchan porque casi nunca es",
+   "id": 87,
+   "slot": 3.62,
+   "max_chars_pl": 50,
+   "pl": "Warto zrozumieć, jak ich wciągają, bo prawie nigdy nie dzieje się to"
+  },
+  {
+   "start": 212.2,
+   "end": 213.3,
+   "es": "de golpe.",
+   "id": 88,
+   "slot": 1.02,
+   "max_chars_pl": 14,
+   "pl": "od razu."
+  },
+  {
+   "start": 213.3,
+   "end": 216.3,
+   "es": "Según organizaciones civiles que estudian el fenómeno,",
+   "id": 89,
+   "slot": 2.92,
+   "max_chars_pl": 40,
+   "pl": "Według organizacji społecznych, które badają to zjawisko,"
+  },
+  {
+   "start": 216.3,
+   "end": 220.04,
+   "es": "el reclutamiento suele ser un ascenso perverso por etapas",
+   "id": 90,
+   "slot": 3.66,
+   "max_chars_pl": 51,
+   "pl": "werbunek to zwykle perfidne wspinanie się po szczeblach,"
+  },
+  {
+   "start": 220.04,
+   "end": 223.24,
+   "es": "que va apagando la conciencia del niño poco a poco.",
+   "id": 91,
+   "slot": 3.12,
+   "max_chars_pl": 43,
+   "pl": "które po trochu wygasza sumienie dziecka."
+  },
+  {
+   "start": 223.24,
+   "end": 225.1,
+   "es": "Primero lo ponen de halcón.",
+   "id": 92,
+   "slot": 1.78,
+   "max_chars_pl": 24,
+   "pl": "Najpierw robią z niego sokoła."
+  },
+  {
+   "start": 225.1,
+   "end": 227.76,
+   "es": "Un vigía parado en una esquina que avisa por radio",
+   "id": 93,
+   "slot": 2.58,
+   "max_chars_pl": 36,
+   "pl": "Obserwatora stojącego na rogu, który przez radio ostrzega,"
+  },
+  {
+   "start": 227.76,
+   "end": 230.3,
+   "es": "cuando pasa la policía a un rival.",
+   "id": 94,
+   "slot": 2.46,
+   "max_chars_pl": 34,
+   "pl": "gdy zbliża się policja albo rywale."
+  },
+  {
+   "start": 230.3,
+   "end": 233.44,
+   "es": "Es un trabajo que a un chico de 9 o 10 años le parece un",
+   "id": 95,
+   "slot": 3.06,
+   "max_chars_pl": 42,
+   "pl": "Dla dziewięcio- czy dziesięciolatka to praca, która wygląda jak"
+  },
+  {
+   "start": 233.44,
+   "end": 236.48,
+   "es": "juego y que le deja algo de dinero y un teléfono.",
+   "id": 96,
+   "slot": 2.96,
+   "max_chars_pl": 41,
+   "pl": "zabawa, a przynosi trochę pieniędzy i telefon."
+  },
+  {
+   "start": 236.48,
+   "end": 237.46,
+   "es": "Después sube.",
+   "id": 97,
+   "slot": 0.9,
+   "max_chars_pl": 12,
+   "pl": "Potem awansuje."
+  },
+  {
+   "start": 237.46,
+   "end": 239.86,
+   "es": "Lo usan para empacar o transportar droga,",
+   "id": 98,
+   "slot": 2.32,
+   "max_chars_pl": 32,
+   "pl": "Każą mu pakować lub wozić narkotyki,"
+  },
+  {
+   "start": 239.86,
+   "end": 242.86,
+   "es": "para cobrar pequeñas cuotas, para manejar.",
+   "id": 99,
+   "slot": 2.92,
+   "max_chars_pl": 40,
+   "pl": "do ściągania drobnych opłat, do jeżdżenia samochodem."
+  },
+  {
+   "start": 242.86,
+   "end": 245.84,
+   "es": "Y solo al final, al que ya demostró que obedece y que no",
+   "id": 100,
+   "slot": 2.9,
+   "max_chars_pl": 40,
+   "pl": "I dopiero na końcu temu, kto okazał posłuszeństwo"
+  },
+  {
+   "start": 245.84,
+   "end": 248.12,
+   "es": "tiembla, le ponen el arma en la mano.",
+   "id": 101,
+   "slot": 2.2,
+   "max_chars_pl": 30,
+   "pl": "i się nie boi, wkładają broń do ręki."
+  },
+  {
+   "start": 248.12,
+   "end": 250.04,
+   "es": "Para cuando dispara por primera vez,",
+   "id": 102,
+   "slot": 1.84,
+   "max_chars_pl": 25,
+   "pl": "Gdy strzela po raz pierwszy,"
+  },
+  {
+   "start": 250.04,
+   "end": 253.46,
+   "es": "ya lleva años viendo la violencia como algo cotidiano.",
+   "id": 103,
+   "slot": 3.34,
+   "max_chars_pl": 46,
+   "pl": "od lat patrzy na przemoc jak na codzienność."
+  },
+  {
+   "start": 253.46,
+   "end": 256.28,
+   "es": "No lo convierten en asesino en un día.",
+   "id": 104,
+   "slot": 2.74,
+   "max_chars_pl": 38,
+   "pl": "Nie robią z niego mordercy w jeden dzień."
+  },
+  {
+   "start": 256.28,
+   "end": 258.26,
+   "es": "Lo cocinan a fuego lento.",
+   "id": 105,
+   "slot": 1.9,
+   "max_chars_pl": 26,
+   "pl": "Gotują go na wolnym ogniu."
+  },
+  {
+   "start": 258.26,
+   "end": 261.92,
+   "es": "A ese método viejo se le sumó uno nuevo y más veloz.",
+   "id": 106,
+   "slot": 3.58,
+   "max_chars_pl": 50,
+   "pl": "Do tej starej metody dołączyła nowa, szybsza."
+  },
+  {
+   "start": 261.92,
+   "end": 263.5,
+   "es": "Las redes sociales.",
+   "id": 107,
+   "slot": 1.5,
+   "max_chars_pl": 21,
+   "pl": "Media społecznościowe."
+  },
+  {
+   "start": 263.5,
+   "end": 266.48,
+   "es": "Investigaciones periodísticas han documentado cómo los",
+   "id": 108,
+   "slot": 2.9,
+   "max_chars_pl": 40,
+   "pl": "Dziennikarskie śledztwa udokumentowały, jak"
+  },
+  {
+   "start": 266.48,
+   "end": 269.48,
+   "es": "grupos criminales usan plataformas como las de videos",
+   "id": 109,
+   "slot": 2.92,
+   "max_chars_pl": 40,
+   "pl": "grupy przestępcze używają platform z krótkimi filmami,"
+  },
+  {
+   "start": 269.48,
+   "end": 273.0,
+   "es": "cortos, las redes abiertas y hasta los videojuegos en línea",
+   "id": 110,
+   "slot": 3.44,
+   "max_chars_pl": 48,
+   "pl": "otwartych sieci, a nawet gier internetowych"
+  },
+  {
+   "start": 273.0,
+   "end": 274.44,
+   "es": "para captar menores.",
+   "id": 111,
+   "slot": 1.36,
+   "max_chars_pl": 19,
+   "pl": "do pozyskiwania nieletnich."
+  },
+  {
+   "start": 274.44,
+   "end": 277.5,
+   "es": "Publican imágenes de armas, de fajos de billetes,",
+   "id": 112,
+   "slot": 2.98,
+   "max_chars_pl": 41,
+   "pl": "Publikują zdjęcia broni, plików banknotów,"
+  },
+  {
+   "start": 277.5,
+   "end": 280.32,
+   "es": "de camionetas y de hombres rodeados de lujo,",
+   "id": 113,
+   "slot": 2.74,
+   "max_chars_pl": 38,
+   "pl": "pickupów i mężczyzn otoczonych luksusem,"
+  },
+  {
+   "start": 280.32,
+   "end": 282.92,
+   "es": "con la promesa implícita de una vida de respeto y",
+   "id": 114,
+   "slot": 2.52,
+   "max_chars_pl": 35,
+   "pl": "z niewypowiedzianą obietnicą życia pełnego szacunku"
+  },
+  {
+   "start": 282.92,
+   "end": 284.14,
+   "es": "pertenencia.",
+   "id": 115,
+   "slot": 1.14,
+   "max_chars_pl": 15,
+   "pl": "i przynależności."
+  },
+  {
+   "start": 284.14,
+   "end": 286.58,
+   "es": "Luego escriben por mensaje privado.",
+   "id": 116,
+   "slot": 2.36,
+   "max_chars_pl": 33,
+   "pl": "Potem piszą w prywatnej wiadomości."
+  },
+  {
+   "start": 286.58,
+   "end": 290.48,
+   "es": "Ofrecen trabajo de seguridad bien pagado y citan al chico.",
+   "id": 117,
+   "slot": 3.82,
+   "max_chars_pl": 53,
+   "pl": "Oferują dobrze płatną pracę ochroniarza i umawiają się z chłopcem."
+  },
+  {
+   "start": 290.48,
+   "end": 293.02,
+   "es": "Lo que para el niño empieza como un reto viral,",
+   "id": 118,
+   "slot": 2.46,
+   "max_chars_pl": 34,
+   "pl": "To, co dla dziecka zaczyna się jak viralowe wyzwanie,"
+  },
+  {
+   "start": 293.02,
+   "end": 295.2,
+   "es": "como algo que vio en su teléfono y le pareció",
+   "id": 119,
+   "slot": 2.1,
+   "max_chars_pl": 29,
+   "pl": "jak coś z telefonu, co wydało mu się"
+  },
+  {
+   "start": 295.2,
+   "end": 298.16,
+   "es": "emocionante, termina en una casa de seguridad de la que",
+   "id": 120,
+   "slot": 2.88,
+   "max_chars_pl": 40,
+   "pl": "ekscytujące, kończy się w kryjówce, z której"
+  },
+  {
+   "start": 298.16,
+   "end": 299.58,
+   "es": "muchos ya no salen.",
+   "id": 121,
+   "slot": 1.34,
+   "max_chars_pl": 18,
+   "pl": "wielu już nie wychodzi."
+  },
+  {
+   "start": 299.58,
+   "end": 302.12,
+   "es": "Y hay un detalle que repite en quienes investigan estos",
+   "id": 122,
+   "slot": 2.46,
+   "max_chars_pl": 34,
+   "pl": "Jest też szczegół, który powtarzają badacze tych"
+  },
+  {
+   "start": 302.12,
+   "end": 302.94,
+   "es": "casos.",
+   "id": 123,
+   "slot": 0.74,
+   "max_chars_pl": 10,
+   "pl": "spraw."
+  },
+  {
+   "start": 302.94,
+   "end": 306.06,
+   "es": "La prueba de iniciación en muchas bandas consiste,",
+   "id": 124,
+   "slot": 3.04,
+   "max_chars_pl": 42,
+   "pl": "Próba wtajemniczenia w wielu gangach polega,"
+  },
+  {
+   "start": 306.06,
+   "end": 309.72,
+   "es": "literalmente, en medir cuánto se atreve el niño a hacer,",
+   "id": 125,
+   "slot": 3.58,
+   "max_chars_pl": 50,
+   "pl": "dosłownie na sprawdzeniu, na ile dziecko się odważy,"
+  },
+  {
+   "start": 309.72,
+   "end": 312.5,
+   "es": "cuánta sangre aguanta, qué tan jóvenes,",
+   "id": 126,
+   "slot": 2.7,
+   "max_chars_pl": 37,
+   "pl": "ile krwi zniesie. A jeśli chodzi o wiek,"
+  },
+  {
+   "start": 312.5,
+   "end": 314.16,
+   "es": "las cifras asustan.",
+   "id": 127,
+   "slot": 1.58,
+   "max_chars_pl": 22,
+   "pl": "liczby przerażają."
+  },
+  {
+   "start": 314.16,
+   "end": 316.4,
+   "es": "Según análisis citados por la prensa,",
+   "id": 128,
+   "slot": 2.16,
+   "max_chars_pl": 30,
+   "pl": "Według analiz cytowanych przez prasę"
+  },
+  {
+   "start": 316.4,
+   "end": 318.76,
+   "es": "los grupos criminales suelen captar a niñas y",
+   "id": 129,
+   "slot": 2.28,
+   "max_chars_pl": 31,
+   "pl": "grupy przestępcze zwykle werbują dziewczynki i"
+  },
+  {
+   "start": 318.76,
+   "end": 321.62,
+   "es": "niños entre los 9 y los 11 años.",
+   "id": 130,
+   "slot": 2.78,
+   "max_chars_pl": 38,
+   "pl": "chłopców w wieku od dziewięciu do jedenastu lat."
+  },
+  {
+   "start": 321.62,
+   "end": 323.86,
+   "es": "Pero un informe gubernamental mexicano,",
+   "id": 131,
+   "slot": 2.16,
+   "max_chars_pl": 30,
+   "pl": "Ale meksykański raport rządowy,"
+  },
+  {
+   "start": 323.86,
+   "end": 327.28,
+   "es": "difundido hace poco, reveló casos de menores de apenas 6",
+   "id": 132,
+   "slot": 3.34,
+   "max_chars_pl": 46,
+   "pl": "opublikowany niedawno, ujawnił dzieci mające ledwie sześć"
+  },
+  {
+   "start": 327.28,
+   "end": 329.58,
+   "es": "años vinculados al crimen organizado.",
+   "id": 133,
+   "slot": 2.22,
+   "max_chars_pl": 31,
+   "pl": "lat, związane z przestępczością zorganizowaną."
+  },
+  {
+   "start": 329.58,
+   "end": 330.76,
+   "es": "6 años.",
+   "id": 134,
+   "slot": 1.1,
+   "max_chars_pl": 15,
+   "pl": "Sześć lat."
+  },
+  {
+   "start": 330.76,
+   "end": 333.32,
+   "es": "La edad en la que un niño apenas está aprendiendo a",
+   "id": 135,
+   "slot": 2.48,
+   "max_chars_pl": 34,
+   "pl": "Wiek, w którym dziecko dopiero uczy się"
+  },
+  {
+   "start": 333.32,
+   "end": 334.18,
+   "es": "leer.",
+   "id": 136,
+   "slot": 0.78,
+   "max_chars_pl": 10,
+   "pl": "czytać."
+  },
+  {
+   "start": 334.18,
+   "end": 336.88,
+   "es": "Las estimaciones de cuántos son varían muchísimo porque",
+   "id": 137,
+   "slot": 2.62,
+   "max_chars_pl": 36,
+   "pl": "Szacunki, ilu ich jest, bardzo się różnią, bo"
+  },
+  {
+   "start": 336.88,
+   "end": 340.0,
+   "es": "no hay un registro oficial y el fenómeno vive en la",
+   "id": 138,
+   "slot": 3.04,
+   "max_chars_pl": 42,
+   "pl": "nie ma oficjalnego rejestru, a to zjawisko żyje w"
+  },
+  {
+   "start": 340.0,
+   "end": 340.82,
+   "es": "sombra.",
+   "id": 139,
+   "slot": 0.74,
+   "max_chars_pl": 10,
+   "pl": "cieniu."
+  },
+  {
+   "start": 340.82,
+   "end": 343.68,
+   "es": "La Oficina de Asuntos Laborales de Estados Unidos",
+   "id": 140,
+   "slot": 2.78,
+   "max_chars_pl": 38,
+   "pl": "Amerykański Departament Pracy"
+  },
+  {
+   "start": 343.68,
+   "end": 346.6,
+   "es": "ha hablado de unos 30,000 menores dentro de grupos",
+   "id": 141,
+   "slot": 2.84,
+   "max_chars_pl": 39,
+   "pl": "mówił o około trzydziestu tysiącach nieletnich w grupach"
+  },
+  {
+   "start": 346.6,
+   "end": 348.28,
+   "es": "criminales en México.",
+   "id": 142,
+   "slot": 1.6,
+   "max_chars_pl": 22,
+   "pl": "przestępczych w Meksyku."
+  },
+  {
+   "start": 348.28,
+   "end": 351.58,
+   "es": "Otros análisis elevan la cifra a 35,000.",
+   "id": 143,
+   "slot": 3.22,
+   "max_chars_pl": 45,
+   "pl": "Inne analizy podnoszą tę liczbę do trzydziestu pięciu tysięcy."
+  },
+  {
+   "start": 351.58,
+   "end": 354.4,
+   "es": "Y las organizaciones que trabajan en prevención advierten",
+   "id": 144,
+   "slot": 2.74,
+   "max_chars_pl": 38,
+   "pl": "A organizacje zajmujące się profilaktyką ostrzegają,"
+  },
+  {
+   "start": 354.4,
+   "end": 357.8,
+   "es": "que hay hasta 200,000 niños y adolescentes en riesgo de ser",
+   "id": 145,
+   "slot": 3.32,
+   "max_chars_pl": 46,
+   "pl": "że nawet dwieście tysięcy dzieci i nastolatków jest zagrożonych"
+  },
+  {
+   "start": 357.8,
+   "end": 359.02,
+   "es": "reclutados.",
+   "id": 146,
+   "slot": 1.14,
+   "max_chars_pl": 15,
+   "pl": "zwerbowaniem."
+  },
+  {
+   "start": 359.02,
+   "end": 360.78,
+   "es": "Son números aproximados.",
+   "id": 147,
+   "slot": 1.68,
+   "max_chars_pl": 23,
+   "pl": "To liczby przybliżone."
+  },
+  {
+   "start": 360.78,
+   "end": 362.64,
+   "es": "Hay que decirlo con honestidad.",
+   "id": 148,
+   "slot": 1.78,
+   "max_chars_pl": 24,
+   "pl": "Trzeba to uczciwie powiedzieć."
+  },
+  {
+   "start": 362.64,
+   "end": 365.88,
+   "es": "Pero ni siquiera el más bajo de todos debería existir.",
+   "id": 149,
+   "slot": 3.16,
+   "max_chars_pl": 44,
+   "pl": "Ale nawet najniższa z nich nie powinna istnieć."
+  },
+  {
+   "start": 365.88,
+   "end": 367.38,
+   "es": "Hay un dato más.",
+   "id": 150,
+   "slot": 1.42,
+   "max_chars_pl": 19,
+   "pl": "Jest jeszcze jedna dana."
+  },
+  {
+   "start": 367.38,
+   "end": 370.08,
+   "es": "Y es el más escalofriante de todos.",
+   "id": 151,
+   "slot": 2.62,
+   "max_chars_pl": 36,
+   "pl": "I to najbardziej mrożąca krew w żyłach."
+  },
+  {
+   "start": 370.08,
+   "end": 372.54,
+   "es": "Según cálculos citados por la prensa,",
+   "id": 152,
+   "slot": 2.38,
+   "max_chars_pl": 33,
+   "pl": "Według wyliczeń cytowanych przez prasę"
+  },
+  {
+   "start": 372.54,
+   "end": 375.28,
+   "es": "la vida útil de uno de estos niños sicarios es de",
+   "id": 153,
+   "slot": 2.66,
+   "max_chars_pl": 37,
+   "pl": "okres użyteczności takiego dziecka-zabójcy wynosi"
+  },
+  {
+   "start": 375.28,
+   "end": 377.38,
+   "es": "apenas 5 o 6 años.",
+   "id": 154,
+   "slot": 2.02,
+   "max_chars_pl": 28,
+   "pl": "zaledwie pięć albo sześć lat."
+  },
+  {
+   "start": 377.38,
+   "end": 380.5,
+   "es": "No porque se retiren, porque mueren.",
+   "id": 155,
+   "slot": 3.04,
+   "max_chars_pl": 42,
+   "pl": "Nie dlatego, że przechodzą na emeryturę, tylko dlatego, że giną."
+  },
+  {
+   "start": 380.5,
+   "end": 383.72,
+   "es": "El cártel los usa, los quema y los reemplaza con el",
+   "id": 156,
+   "slot": 3.14,
+   "max_chars_pl": 43,
+   "pl": "Kartel ich używa, spala i zastępuje"
+  },
+  {
+   "start": 383.72,
+   "end": 384.76,
+   "es": "siguiente.",
+   "id": 157,
+   "slot": 0.96,
+   "max_chars_pl": 13,
+   "pl": "następnym."
+  },
+  {
+   "start": 384.76,
+   "end": 385.72,
+   "es": "Hay fila.",
+   "id": 158,
+   "slot": 0.88,
+   "max_chars_pl": 12,
+   "pl": "Jest kolejka."
+  },
+  {
+   "start": 385.72,
+   "end": 388.64,
+   "es": "Con eso en la cabeza, empecemos la cuenta.",
+   "id": 159,
+   "slot": 2.84,
+   "max_chars_pl": 39,
+   "pl": "Mając to w głowie, zacznijmy odliczanie."
+  },
+  {
+   "start": 388.64,
+   "end": 390.0,
+   "es": "Número 5.",
+   "id": 160,
+   "slot": 1.28,
+   "max_chars_pl": 17,
+   "pl": "Numer pięć."
+  },
+  {
+   "start": 390.0,
+   "end": 392.96,
+   "es": "Número 5 y el único de esta lista que,",
+   "id": 161,
+   "slot": 2.88,
+   "max_chars_pl": 40,
+   "pl": "Numer pięć i jedyny na tej liście, który,"
+  },
+  {
+   "start": 392.96,
+   "end": 395.6,
+   "es": "hasta donde se sabe, sigue con vida.",
+   "id": 162,
+   "slot": 2.56,
+   "max_chars_pl": 35,
+   "pl": "o ile wiadomo, wciąż żyje."
+  },
+  {
+   "start": 395.6,
+   "end": 397.7,
+   "es": "Octubre de 2025.",
+   "id": 163,
+   "slot": 2.02,
+   "max_chars_pl": 28,
+   "pl": "Październik dwa tysiące dwudziestego piątego roku."
+  },
+  {
+   "start": 397.7,
+   "end": 400.18,
+   "es": "En una ranchería del municipio de Centro,",
+   "id": 164,
+   "slot": 2.4,
+   "max_chars_pl": 33,
+   "pl": "W osadzie w gminie Centro,"
+  },
+  {
+   "start": 400.18,
+   "end": 403.36,
+   "es": "en Tabasco, una fuerza especial de reacción táctica",
+   "id": 165,
+   "slot": 3.1,
+   "max_chars_pl": 43,
+   "pl": "w Tabasco, specjalna grupa szybkiego reagowania"
+  },
+  {
+   "start": 403.36,
+   "end": 406.8,
+   "es": "capturó de madrugada a un adolescente.",
+   "id": 166,
+   "slot": 3.36,
+   "max_chars_pl": 47,
+   "pl": "zatrzymała o świcie nastolatka."
+  },
+  {
+   "start": 406.8,
+   "end": 409.62,
+   "es": "Los medios lo bautizaron con dos apodos,",
+   "id": 167,
+   "slot": 2.74,
+   "max_chars_pl": 38,
+   "pl": "Media nadały mu dwa przydomki,"
+  },
+  {
+   "start": 409.62,
+   "end": 412.38,
+   "es": "el niño sicario y el niño piedra.",
+   "id": 168,
+   "slot": 2.68,
+   "max_chars_pl": 37,
+   "pl": "dziecko-zabójca i dziecko-kamień."
+  },
+  {
+   "start": 412.38,
+   "end": 415.32,
+   "es": "Por tratarse de un menor, su nombre completo no se",
+   "id": 169,
+   "slot": 2.86,
+   "max_chars_pl": 40,
+   "pl": "Ponieważ jest nieletni, jego pełne imię i nazwisko nie"
+  },
+  {
+   "start": 415.32,
+   "end": 416.34,
+   "es": "difundió.",
+   "id": 170,
+   "slot": 0.94,
+   "max_chars_pl": 13,
+   "pl": "nie ujawniono."
+  },
+  {
+   "start": 416.34,
+   "end": 419.24,
+   "es": "Apenas su nombre de pila y una inicial.",
+   "id": 171,
+   "slot": 2.82,
+   "max_chars_pl": 39,
+   "pl": "Podano tylko imię i inicjał."
+  },
+  {
+   "start": 419.24,
+   "end": 422.44,
+   "es": "Y por respeto a esa regla, nosotros tampoco lo vamos",
+   "id": 172,
+   "slot": 3.12,
+   "max_chars_pl": 43,
+   "pl": "I z szacunku dla tej zasady my też go nie"
+  },
+  {
+   "start": 422.44,
+   "end": 423.42,
+   "es": "a repetir.",
+   "id": 173,
+   "slot": 0.9,
+   "max_chars_pl": 12,
+   "pl": "powtórzymy."
+  },
+  {
+   "start": 423.42,
+   "end": 425.66,
+   "es": "Lo que sí se difundió fue su edad,",
+   "id": 174,
+   "slot": 2.16,
+   "max_chars_pl": 30,
+   "pl": "Ujawniono za to jego wiek,"
+  },
+  {
+   "start": 425.66,
+   "end": 428.32,
+   "es": "aunque las fuentes no se pusieron de acuerdo.",
+   "id": 175,
+   "slot": 2.58,
+   "max_chars_pl": 36,
+   "pl": "choć źródła nie były zgodne."
+  },
+  {
+   "start": 428.32,
+   "end": 430.8,
+   "es": "Unos reportes hablaron de 14 años,",
+   "id": 176,
+   "slot": 2.4,
+   "max_chars_pl": 33,
+   "pl": "Jedne doniesienia mówiły o czternastu latach,"
+  },
+  {
+   "start": 430.8,
+   "end": 433.8,
+   "es": "otros de 15, 14 o 15.",
+   "id": 177,
+   "slot": 2.92,
+   "max_chars_pl": 40,
+   "pl": "inne o piętnastu, czternaście lub piętnaście."
+  },
+  {
+   "start": 433.8,
+   "end": 436.56,
+   "es": "La edad de un chico de tercero de secundaria y lo",
+   "id": 178,
+   "slot": 2.68,
+   "max_chars_pl": 37,
+   "pl": "Wiek chłopca z trzeciej klasy gimnazjum, a to,"
+  },
+  {
+   "start": 436.56,
+   "end": 439.44,
+   "es": "que se le atribuyó es lo que convierte este caso en algo",
+   "id": 179,
+   "slot": 2.8,
+   "max_chars_pl": 39,
+   "pl": "co mu przypisano, sprawia, że ta sprawa jest czymś"
+  },
+  {
+   "start": 439.44,
+   "end": 441.24,
+   "es": "más que una nota policial.",
+   "id": 180,
+   "slot": 1.72,
+   "max_chars_pl": 24,
+   "pl": "więcej niż policyjną notatką."
+  },
+  {
+   "start": 441.24,
+   "end": 443.92,
+   "es": "Según las autoridades, este adolescente no era un",
+   "id": 181,
+   "slot": 2.6,
+   "max_chars_pl": 36,
+   "pl": "Według władz ten nastolatek nie był"
+  },
+  {
+   "start": 443.92,
+   "end": 445.62,
+   "es": "mandadero cualquiera.",
+   "id": 182,
+   "slot": 1.62,
+   "max_chars_pl": 22,
+   "pl": "zwykłym chłopcem na posyłki."
+  },
+  {
+   "start": 445.62,
+   "end": 448.48,
+   "es": "Lo señalaron como pieza de un grupo delictivo dedicado",
+   "id": 183,
+   "slot": 2.78,
+   "max_chars_pl": 38,
+   "pl": "Wskazano go jako element grupy przestępczej zajmującej się"
+  },
+  {
+   "start": 448.48,
+   "end": 452.2,
+   "es": "al secuestro, a la venta de droga y al cobro de piso.",
+   "id": 184,
+   "slot": 3.64,
+   "max_chars_pl": 50,
+   "pl": "porwaniami, sprzedażą narkotyków i ściąganiem haraczu."
+  },
+  {
+   "start": 452.2,
+   "end": 454.56,
+   "es": "Cuando lo detuvieron, llevaba encima una",
+   "id": 185,
+   "slot": 2.28,
+   "max_chars_pl": 31,
+   "pl": "Gdy go zatrzymano, miał przy sobie"
+  },
+  {
+   "start": 454.56,
+   "end": 455.86,
+   "es": "subametrayadora.",
+   "id": 186,
+   "slot": 1.22,
+   "max_chars_pl": 17,
+   "pl": "pistolet maszynowy."
+  },
+  {
+   "start": 455.86,
+   "end": 458.52,
+   "es": "Y la acusación más estremecedora fue que habría",
+   "id": 187,
+   "slot": 2.58,
+   "max_chars_pl": 36,
+   "pl": "A najbardziej wstrząsający zarzut mówił, że miał"
+  },
+  {
+   "start": 458.52,
+   "end": 460.96,
+   "es": "participado en quemar las casas de personas que se",
+   "id": 188,
+   "slot": 2.36,
+   "max_chars_pl": 33,
+   "pl": "uczestniczyć w paleniu domów ludzi, którzy"
+  },
+  {
+   "start": 460.96,
+   "end": 463.72,
+   "es": "negaban a pagarle al grupo la llamada cuota de",
+   "id": 189,
+   "slot": 2.68,
+   "max_chars_pl": 37,
+   "pl": "odmawiali grupie płacenia tak zwanej opłaty"
+  },
+  {
+   "start": 463.72,
+   "end": 465.08,
+   "es": "protección.",
+   "id": 190,
+   "slot": 1.28,
+   "max_chars_pl": 17,
+   "pl": "ochronnej."
+  },
+  {
+   "start": 465.08,
+   "end": 467.76,
+   "es": "Familias que perdieron su techo por no tener con qué",
+   "id": 191,
+   "slot": 2.6,
+   "max_chars_pl": 36,
+   "pl": "Rodziny, które straciły dach, bo nie miały czym"
+  },
+  {
+   "start": 467.76,
+   "end": 469.84,
+   "es": "pagarle a un niño con un arma.",
+   "id": 192,
+   "slot": 2.0,
+   "max_chars_pl": 28,
+   "pl": "zapłacić dziecku z bronią."
+  },
+  {
+   "start": 469.84,
+   "end": 472.0,
+   "es": "En el teléfono celular del adolescente,",
+   "id": 193,
+   "slot": 2.08,
+   "max_chars_pl": 29,
+   "pl": "W telefonie komórkowym nastolatka"
+  },
+  {
+   "start": 472.0,
+   "end": 475.42,
+   "es": "los investigadores encontraron algo que te hiela la sangre.",
+   "id": 194,
+   "slot": 3.34,
+   "max_chars_pl": 46,
+   "pl": "śledczy znaleźli coś, od czego krew się ścina."
+  },
+  {
+   "start": 475.42,
+   "end": 478.88,
+   "es": "Videos de una mujer que al parecer había sido secuestrada",
+   "id": 195,
+   "slot": 3.38,
+   "max_chars_pl": 47,
+   "pl": "Nagrania kobiety, która najwyraźniej została porwana,"
+  },
+  {
+   "start": 478.88,
+   "end": 481.64,
+   "es": "y las imágenes del asesinato de otra víctima.",
+   "id": 196,
+   "slot": 2.68,
+   "max_chars_pl": 37,
+   "pl": "i zdjęcia z zabójstwa innej ofiary."
+  },
+  {
+   "start": 481.64,
+   "end": 484.32,
+   "es": "Un menor de 14 años cargando en el bolsillo la",
+   "id": 197,
+   "slot": 2.6,
+   "max_chars_pl": 36,
+   "pl": "Czternastolatek, który nosił w kieszeni"
+  },
+  {
+   "start": 484.32,
+   "end": 486.54,
+   "es": "prueba de los crímenes de su grupo,",
+   "id": 198,
+   "slot": 2.14,
+   "max_chars_pl": 29,
+   "pl": "dowody zbrodni swojej grupy,"
+  },
+  {
+   "start": 486.54,
+   "end": 489.12,
+   "es": "como quien guarda fotos de una fiesta.",
+   "id": 199,
+   "slot": 2.5,
+   "max_chars_pl": 35,
+   "pl": "jak ktoś, kto trzyma zdjęcia z przyjęcia."
+  },
+  {
+   "start": 489.12,
+   "end": 492.54,
+   "es": "Junto a él detuvieron a un adulto de 37 años,",
+   "id": 200,
+   "slot": 3.34,
+   "max_chars_pl": 46,
+   "pl": "Razem z nim zatrzymano trzydziestosiedmiolatka,"
+  },
+  {
+   "start": 492.54,
+   "end": 494.08,
+   "es": "apodado el chuncho,",
+   "id": 201,
+   "slot": 1.46,
+   "max_chars_pl": 20,
+   "pl": "zwanego Chuncho,"
+  },
+  {
+   "start": 494.08,
+   "end": 496.74,
+   "es": "señalado como parte de la misma célula.",
+   "id": 202,
+   "slot": 2.58,
+   "max_chars_pl": 36,
+   "pl": "wskazanego jako członka tej samej komórki."
+  },
+  {
+   "start": 496.74,
+   "end": 499.08,
+   "es": "Y ese contraste lo dice todo.",
+   "id": 203,
+   "slot": 2.26,
+   "max_chars_pl": 31,
+   "pl": "I ten kontrast mówi wszystko."
+  },
+  {
+   "start": 499.08,
+   "end": 501.3,
+   "es": "El que planeaba era el adulto.",
+   "id": 204,
+   "slot": 2.14,
+   "max_chars_pl": 29,
+   "pl": "Planował dorosły."
+  },
+  {
+   "start": 501.3,
+   "end": 502.46,
+   "es": "El que daba la cara,",
+   "id": 205,
+   "slot": 1.08,
+   "max_chars_pl": 15,
+   "pl": "Ten na pierwszej linii,"
+  },
+  {
+   "start": 502.46,
+   "end": 504.96,
+   "es": "el que arriesgaba la vida y el que iba a pagar era el",
+   "id": 206,
+   "slot": 2.42,
+   "max_chars_pl": 33,
+   "pl": "ryzykował życie i miał zapłacić, był"
+  },
+  {
+   "start": 504.96,
+   "end": 505.92,
+   "es": "niño.",
+   "id": 207,
+   "slot": 0.88,
+   "max_chars_pl": 12,
+   "pl": "chłopiec."
+  },
+  {
+   "start": 505.92,
+   "end": 508.6,
+   "es": "Aquí aparece la grieta más incómoda de todo este",
+   "id": 208,
+   "slot": 2.6,
+   "max_chars_pl": 36,
+   "pl": "Tu pojawia się najbardziej niewygodna szczelina w całym tym"
+  },
+  {
+   "start": 508.6,
+   "end": 509.36,
+   "es": "tema.",
+   "id": 209,
+   "slot": 0.68,
+   "max_chars_pl": 9,
+   "pl": "temacie."
+  },
+  {
+   "start": 509.36,
+   "end": 512.08,
+   "es": "Porque a este adolescente lo vincularon a proceso.",
+   "id": 210,
+   "slot": 2.64,
+   "max_chars_pl": 36,
+   "pl": "Bo temu nastolatkowi postawiono zarzuty."
+  },
+  {
+   "start": 512.08,
+   "end": 512.82,
+   "es": "Sí.",
+   "id": 211,
+   "slot": 0.66,
+   "max_chars_pl": 9,
+   "pl": "Tak."
+  },
+  {
+   "start": 512.82,
+   "end": 514.74,
+   "es": "Pero por delitos contra la salud,",
+   "id": 212,
+   "slot": 1.84,
+   "max_chars_pl": 25,
+   "pl": "Ale za przestępstwa przeciwko zdrowiu,"
+  },
+  {
+   "start": 514.74,
+   "end": 516.54,
+   "es": "es decir, por narcotráfico.",
+   "id": 213,
+   "slot": 1.72,
+   "max_chars_pl": 24,
+   "pl": "czyli za handel narkotykami."
+  },
+  {
+   "start": 516.54,
+   "end": 518.98,
+   "es": "Y será juzgado como lo que es ante la ley.",
+   "id": 214,
+   "slot": 2.36,
+   "max_chars_pl": 33,
+   "pl": "I będzie sądzony jako to, kim jest w świetle prawa."
+  },
+  {
+   "start": 518.98,
+   "end": 519.86,
+   "es": "Un menor.",
+   "id": 215,
+   "slot": 0.8,
+   "max_chars_pl": 11,
+   "pl": "Nieletni."
+  },
+  {
+   "start": 519.86,
+   "end": 521.92,
+   "es": "No irá a una prisión federal.",
+   "id": 216,
+   "slot": 1.98,
+   "max_chars_pl": 27,
+   "pl": "Nie trafi do więzienia federalnego."
+  },
+  {
+   "start": 521.92,
+   "end": 525.26,
+   "es": "Pasará por un centro de internamiento para adolescentes.",
+   "id": 217,
+   "slot": 3.26,
+   "max_chars_pl": 45,
+   "pl": "Przejdzie przez zakład poprawczy dla młodzieży."
+  },
+  {
+   "start": 525.26,
+   "end": 526.62,
+   "es": "Y en unos pocos años,",
+   "id": 218,
+   "slot": 1.28,
+   "max_chars_pl": 17,
+   "pl": "A za kilka lat,"
+  },
+  {
+   "start": 526.62,
+   "end": 527.64,
+   "es": "si nada cambia,",
+   "id": 219,
+   "slot": 0.94,
+   "max_chars_pl": 13,
+   "pl": "jeśli nic się nie zmieni,"
+  },
+  {
+   "start": 527.64,
+   "end": 529.16,
+   "es": "podría salir.",
+   "id": 220,
+   "slot": 1.44,
+   "max_chars_pl": 20,
+   "pl": "może wyjść."
+  },
+  {
+   "start": 529.16,
+   "end": 530.44,
+   "es": "Con 14 años,",
+   "id": 221,
+   "slot": 1.2,
+   "max_chars_pl": 16,
+   "pl": "Mając czternaście lat,"
+  },
+  {
+   "start": 530.44,
+   "end": 532.08,
+   "es": "un historial de violencia y,",
+   "id": 222,
+   "slot": 1.56,
+   "max_chars_pl": 21,
+   "pl": "historię przemocy i"
+  },
+  {
+   "start": 532.08,
+   "end": 532.82,
+   "es": "afuera,",
+   "id": 223,
+   "slot": 0.66,
+   "max_chars_pl": 9,
+   "pl": "na zewnątrz"
+  },
+  {
+   "start": 532.82,
+   "end": 535.56,
+   "es": "el mismo grupo que lo reclutó esperándolo.",
+   "id": 224,
+   "slot": 2.66,
+   "max_chars_pl": 37,
+   "pl": "tę samą grupę, która go zwerbowała, czekającą."
+  },
+  {
+   "start": 535.56,
+   "end": 537.44,
+   "es": "Por eso ocupa el número 5",
+   "id": 225,
+   "slot": 1.8,
+   "max_chars_pl": 25,
+   "pl": "Dlatego zajmuje numer pięć"
+  },
+  {
+   "start": 537.44,
+   "end": 539.28,
+   "es": "y no un lugar más alto.",
+   "id": 226,
+   "slot": 1.76,
+   "max_chars_pl": 24,
+   "pl": "a nie wyższe miejsce."
+  },
+  {
+   "start": 539.28,
+   "end": 540.84,
+   "es": "No por ser menos grave,",
+   "id": 227,
+   "slot": 1.48,
+   "max_chars_pl": 20,
+   "pl": "Nie dlatego, że mniej poważny,"
+  },
+  {
+   "start": 540.84,
+   "end": 543.64,
+   "es": "sino porque su historia todavía no terminó.",
+   "id": 228,
+   "slot": 2.72,
+   "max_chars_pl": 38,
+   "pl": "ale dlatego, że jego historia jeszcze się nie skończyła."
+  },
+  {
+   "start": 543.64,
+   "end": 546.24,
+   "es": "Es el recordatorio de que esto no es un fenómeno del",
+   "id": 229,
+   "slot": 2.52,
+   "max_chars_pl": 35,
+   "pl": "To przypomnienie, że to nie jest zjawisko"
+  },
+  {
+   "start": 546.24,
+   "end": 547.02,
+   "es": "pasado,",
+   "id": 230,
+   "slot": 0.7,
+   "max_chars_pl": 9,
+   "pl": "z przeszłości,"
+  },
+  {
+   "start": 547.02,
+   "end": 550.2,
+   "es": "de los corridos viejos y las fotos amarillentas.",
+   "id": 231,
+   "slot": 3.1,
+   "max_chars_pl": 43,
+   "pl": "starych korrido i pożółkłych fotografii."
+  },
+  {
+   "start": 550.2,
+   "end": 551.94,
+   "es": "Está pasando ahora mismo.",
+   "id": 232,
+   "slot": 1.66,
+   "max_chars_pl": 23,
+   "pl": "Dzieje się teraz."
+  },
+  {
+   "start": 551.94,
+   "end": 554.06,
+   "es": "Hace apenas unos meses.",
+   "id": 233,
+   "slot": 2.04,
+   "max_chars_pl": 28,
+   "pl": "Zaledwie kilka miesięcy temu."
+  },
+  {
+   "start": 554.06,
+   "end": 556.92,
+   "es": "Y el próximo niño de la lista ya está siendo reclutado en",
+   "id": 234,
+   "slot": 2.78,
+   "max_chars_pl": 38,
+   "pl": "A następne dziecko z listy jest właśnie werbowane"
+  },
+  {
+   "start": 556.92,
+   "end": 559.3,
+   "es": "algún barrio donde el estado llegó tarde.",
+   "id": 235,
+   "slot": 2.3,
+   "max_chars_pl": 32,
+   "pl": "w dzielnicy, do której państwo dotarło za późno."
+  },
+  {
+   "start": 559.3,
+   "end": 561.2,
+   "es": "Pero si este es el que sobrevive,",
+   "id": 236,
+   "slot": 1.82,
+   "max_chars_pl": 25,
+   "pl": "Ale jeśli ten jest tym, który przeżył,"
+  },
+  {
+   "start": 561.2,
+   "end": 565.08,
+   "es": "el número 4 es el que muestra cómo terminan casi todos.",
+   "id": 237,
+   "slot": 3.8,
+   "max_chars_pl": 53,
+   "pl": "numer cztery pokazuje, jak kończy prawie każdy."
+  },
+  {
+   "start": 565.08,
+   "end": 566.04,
+   "es": "Número 4.",
+   "id": 238,
+   "slot": 0.88,
+   "max_chars_pl": 12,
+   "pl": "Numer cztery."
+  },
+  {
+   "start": 566.04,
+   "end": 568.96,
+   "es": "Y con él empieza la parte de esta historia donde los niños",
+   "id": 239,
+   "slot": 2.84,
+   "max_chars_pl": 39,
+   "pl": "I od niego zaczyna się ta część historii, w której dzieci"
+  },
+  {
+   "start": 568.96,
+   "end": 570.28,
+   "es": "ya no salen caminando.",
+   "id": 240,
+   "slot": 1.24,
+   "max_chars_pl": 17,
+   "pl": "już nie wychodzą same."
+  },
+  {
+   "start": 570.28,
+   "end": 572.34,
+   "es": "Agosto de 2026.",
+   "id": 241,
+   "slot": 1.98,
+   "max_chars_pl": 27,
+   "pl": "Sierpień dwa tysiące dwudziestego szóstego roku."
+  },
+  {
+   "start": 572.34,
+   "end": 573.54,
+   "es": "Hace muy poco.",
+   "id": 242,
+   "slot": 1.12,
+   "max_chars_pl": 15,
+   "pl": "Całkiem niedawno."
+  },
+  {
+   "start": 573.54,
+   "end": 574.4,
+   "es": "En Michoacán,",
+   "id": 243,
+   "slot": 0.78,
+   "max_chars_pl": 10,
+   "pl": "W Michoacán,"
+  },
+  {
+   "start": 574.4,
+   "end": 577.0,
+   "es": "uno de los estados más golpeados por la guerra entre",
+   "id": 244,
+   "slot": 2.52,
+   "max_chars_pl": 35,
+   "pl": "jednym ze stanów najbardziej poszkodowanych przez wojnę"
+  },
+  {
+   "start": 577.0,
+   "end": 577.64,
+   "es": "cárteles,",
+   "id": 245,
+   "slot": 0.56,
+   "max_chars_pl": 7,
+   "pl": "karteli,"
+  },
+  {
+   "start": 577.64,
+   "end": 580.88,
+   "es": "el gobierno federal montó un operativo contra una célula de",
+   "id": 246,
+   "slot": 3.16,
+   "max_chars_pl": 44,
+   "pl": "rząd federalny przeprowadził operację przeciwko komórce"
+  },
+  {
+   "start": 580.88,
+   "end": 582.3,
+   "es": "cárteles unidos.",
+   "id": 247,
+   "slot": 1.34,
+   "max_chars_pl": 18,
+   "pl": "Zjednoczonych Karteli."
+  },
+  {
+   "start": 582.3,
+   "end": 583.84,
+   "es": "Cuando el humo se despejó,",
+   "id": 248,
+   "slot": 1.46,
+   "max_chars_pl": 20,
+   "pl": "Gdy dym opadł,"
+  },
+  {
+   "start": 583.84,
+   "end": 586.54,
+   "es": "entre los cuerpos había un adolescente.",
+   "id": 249,
+   "slot": 2.62,
+   "max_chars_pl": 36,
+   "pl": "wśród ciał leżał nastolatek."
+  },
+  {
+   "start": 586.54,
+   "end": 589.02,
+   "es": "Se llamaba Jesús Alberto Sandoval.",
+   "id": 250,
+   "slot": 2.4,
+   "max_chars_pl": 33,
+   "pl": "Nazywał się Jesús Alberto Sandoval."
+  },
+  {
+   "start": 589.02,
+   "end": 591.28,
+   "es": "Lo conocían como Chuchito Nini.",
+   "id": 251,
+   "slot": 2.18,
+   "max_chars_pl": 30,
+   "pl": "Znano go jako Chuchito Nini."
+  },
+  {
+   "start": 591.28,
+   "end": 592.96,
+   "es": "Tenía 15 años.",
+   "id": 252,
+   "slot": 1.6,
+   "max_chars_pl": 22,
+   "pl": "Miał piętnaście lat."
+  },
+  {
+   "start": 592.96,
+   "end": 595.48,
+   "es": "Las autoridades lo identificaron como parte del",
+   "id": 253,
+   "slot": 2.44,
+   "max_chars_pl": 34,
+   "pl": "Władze uznały go za część"
+  },
+  {
+   "start": 595.48,
+   "end": 598.9,
+   "es": "círculo de seguridad de un mando de esa organización.",
+   "id": 254,
+   "slot": 3.34,
+   "max_chars_pl": 46,
+   "pl": "kręgu ochrony jednego z dowódców tej organizacji."
+  },
+  {
+   "start": 598.9,
+   "end": 600.6,
+   "es": "En otras palabras,",
+   "id": 255,
+   "slot": 1.62,
+   "max_chars_pl": 22,
+   "pl": "Innymi słowy,"
+  },
+  {
+   "start": 600.6,
+   "end": 601.98,
+   "es": "era escolta.",
+   "id": 256,
+   "slot": 1.3,
+   "max_chars_pl": 18,
+   "pl": "był eskortą."
+  },
+  {
+   "start": 601.98,
+   "end": 605.08,
+   "es": "Un guardaespaldas adolescente de un jefe criminal.",
+   "id": 257,
+   "slot": 3.02,
+   "max_chars_pl": 42,
+   "pl": "Nastoletnim ochroniarzem szefa przestępczego."
+  },
+  {
+   "start": 605.08,
+   "end": 606.32,
+   "es": "A los 15 años,",
+   "id": 258,
+   "slot": 1.16,
+   "max_chars_pl": 16,
+   "pl": "W wieku piętnastu lat"
+  },
+  {
+   "start": 606.32,
+   "end": 609.72,
+   "es": "su trabajo era poner el cuerpo entre las balas y su patrón.",
+   "id": 259,
+   "slot": 3.32,
+   "max_chars_pl": 46,
+   "pl": "jego zadaniem było wstawić ciało między kule a patrona."
+  },
+  {
+   "start": 609.72,
+   "end": 612.48,
+   "es": "Y ese trabajo lo cumplió de la peor manera.",
+   "id": 260,
+   "slot": 2.68,
+   "max_chars_pl": 37,
+   "pl": "I tę pracę wykonał w najgorszy możliwy sposób."
+  },
+  {
+   "start": 612.48,
+   "end": 614.34,
+   "es": "Murió haciéndolo.",
+   "id": 261,
+   "slot": 1.78,
+   "max_chars_pl": 24,
+   "pl": "Zginął, robiąc to."
+  },
+  {
+   "start": 614.34,
+   "end": 617.5,
+   "es": "Detengámonos un segundo en lo que significa eso.",
+   "id": 262,
+   "slot": 3.08,
+   "max_chars_pl": 43,
+   "pl": "Zatrzymajmy się na chwilę nad tym, co to znaczy."
+  },
+  {
+   "start": 617.5,
+   "end": 618.74,
+   "es": "A los 15 años,",
+   "id": 263,
+   "slot": 1.16,
+   "max_chars_pl": 16,
+   "pl": "W wieku piętnastu lat"
+  },
+  {
+   "start": 618.74,
+   "end": 621.58,
+   "es": "un chico debería estar preocupado por un examen,",
+   "id": 264,
+   "slot": 2.76,
+   "max_chars_pl": 38,
+   "pl": "chłopak powinien martwić się sprawdzianem,"
+  },
+  {
+   "start": 621.58,
+   "end": 622.5,
+   "es": "por una chica,",
+   "id": 265,
+   "slot": 0.84,
+   "max_chars_pl": 11,
+   "pl": "dziewczyną,"
+  },
+  {
+   "start": 622.5,
+   "end": 624.2,
+   "es": "por un partido de fútbol.",
+   "id": 266,
+   "slot": 1.62,
+   "max_chars_pl": 22,
+   "pl": "meczem piłki nożnej."
+  },
+  {
+   "start": 624.2,
+   "end": 626.06,
+   "es": "Chuchito Nini estaba armado,",
+   "id": 267,
+   "slot": 1.78,
+   "max_chars_pl": 24,
+   "pl": "Chuchito Nini był uzbrojony,"
+  },
+  {
+   "start": 626.06,
+   "end": 629.16,
+   "es": "custodiando a un hombre que lo usaba como escudo humano",
+   "id": 268,
+   "slot": 3.02,
+   "max_chars_pl": 42,
+   "pl": "strzegł człowieka, który używał go jako żywej tarczy"
+  },
+  {
+   "start": 629.16,
+   "end": 632.22,
+   "es": "en medio de una de las zonas más violentas del país.",
+   "id": 269,
+   "slot": 2.98,
+   "max_chars_pl": 41,
+   "pl": "w jednej z najbardziej brutalnych stref kraju."
+  },
+  {
+   "start": 632.22,
+   "end": 634.04,
+   "es": "No llegó a los 16.",
+   "id": 270,
+   "slot": 1.74,
+   "max_chars_pl": 24,
+   "pl": "Nie dożył szesnastu lat."
+  },
+  {
+   "start": 634.04,
+   "end": 636.4,
+   "es": "Su muerte provocó algo poco común.",
+   "id": 271,
+   "slot": 2.28,
+   "max_chars_pl": 31,
+   "pl": "Jego śmierć wywołała coś niezwykłego."
+  },
+  {
+   "start": 636.4,
+   "end": 638.24,
+   "es": "Una conversación nacional.",
+   "id": 272,
+   "slot": 1.76,
+   "max_chars_pl": 24,
+   "pl": "Ogólnokrajową rozmowę."
+  },
+  {
+   "start": 638.24,
+   "end": 640.38,
+   "es": "Porque cada vez que cae un niño sicario,",
+   "id": 273,
+   "slot": 2.06,
+   "max_chars_pl": 28,
+   "pl": "Bo za każdym razem, gdy ginie dziecko-zabójca,"
+  },
+  {
+   "start": 640.38,
+   "end": 642.72,
+   "es": "el país se divide entre dos reacciones.",
+   "id": 274,
+   "slot": 2.26,
+   "max_chars_pl": 31,
+   "pl": "kraj dzieli się na dwie reakcje."
+  },
+  {
+   "start": 642.72,
+   "end": 644.78,
+   "es": "Y las dos son parte del problema.",
+   "id": 275,
+   "slot": 1.98,
+   "max_chars_pl": 27,
+   "pl": "I obie są częścią problemu."
+  },
+  {
+   "start": 644.78,
+   "end": 647.0,
+   "es": "Están los que dicen era un delincuente,",
+   "id": 276,
+   "slot": 2.14,
+   "max_chars_pl": 29,
+   "pl": "Są ci, którzy mówią, że był przestępcą,"
+  },
+  {
+   "start": 647.0,
+   "end": 648.22,
+   "es": "se lo buscó.",
+   "id": 277,
+   "slot": 1.14,
+   "max_chars_pl": 15,
+   "pl": "sam sobie winien."
+  },
+  {
+   "start": 648.22,
+   "end": 652.46,
+   "es": "Como si un chico de 15 años pudiera buscarse de verdad un destino así.",
+   "id": 278,
+   "slot": 4.16,
+   "max_chars_pl": 58,
+   "pl": "Jakby piętnastolatek naprawdę mógł sam sobie wybrać taki los."
+  },
+  {
+   "start": 652.46,
+   "end": 655.02,
+   "es": "Y están los que lo convierten en un héroe de corrido,",
+   "id": 279,
+   "slot": 2.48,
+   "max_chars_pl": 34,
+   "pl": "I są ci, którzy robią z niego bohatera korrido,"
+  },
+  {
+   "start": 655.02,
+   "end": 656.66,
+   "es": "los que le dedican canciones",
+   "id": 280,
+   "slot": 1.56,
+   "max_chars_pl": 21,
+   "pl": "którzy dedykują mu piosenki"
+  },
+  {
+   "start": 656.66,
+   "end": 659.56,
+   "es": "y lo pintan como un valiente caído en batalla.",
+   "id": 281,
+   "slot": 2.82,
+   "max_chars_pl": 39,
+   "pl": "i malują go jako dzielnego poległego w walce."
+  },
+  {
+   "start": 659.56,
+   "end": 662.5,
+   "es": "Las dos reacciones le fallan al mismo niño.",
+   "id": 282,
+   "slot": 2.86,
+   "max_chars_pl": 40,
+   "pl": "Obie reakcje zawodzą to samo dziecko."
+  },
+  {
+   "start": 662.5,
+   "end": 663.7,
+   "es": "Una lo condena.",
+   "id": 283,
+   "slot": 1.12,
+   "max_chars_pl": 15,
+   "pl": "Jedna je potępia."
+  },
+  {
+   "start": 663.7,
+   "end": 665.4,
+   "es": "La otra lo glorifica.",
+   "id": 284,
+   "slot": 1.62,
+   "max_chars_pl": 22,
+   "pl": "Druga je uwielbia."
+  },
+  {
+   "start": 665.4,
+   "end": 669.02,
+   "es": "Y ninguna se pregunta quién le puso el arma en la mano a los 14.",
+   "id": 285,
+   "slot": 3.54,
+   "max_chars_pl": 49,
+   "pl": "I żadna nie pyta, kto wsadził mu broń do ręki, gdy miał czternaście lat."
+  },
+  {
+   "start": 669.02,
+   "end": 671.84,
+   "es": "Porque esa es la cuenta que nadie quiere hacer.",
+   "id": 286,
+   "slot": 2.74,
+   "max_chars_pl": 38,
+   "pl": "Bo to jest rachunek, którego nikt nie chce zrobić."
+  },
+  {
+   "start": 671.84,
+   "end": 675.06,
+   "es": "Si murió a los 15 siendo ya escolta de un jefe,",
+   "id": 287,
+   "slot": 3.14,
+   "max_chars_pl": 43,
+   "pl": "Jeśli zginął w wieku piętnastu lat, jako eskorta szefa,"
+  },
+  {
+   "start": 675.06,
+   "end": 676.56,
+   "es": "¿a qué edad entró?",
+   "id": 288,
+   "slot": 1.42,
+   "max_chars_pl": 19,
+   "pl": "w jakim wieku wstąpił?"
+  },
+  {
+   "start": 676.56,
+   "end": 677.96,
+   "es": "¿A los 14?",
+   "id": 289,
+   "slot": 1.32,
+   "max_chars_pl": 18,
+   "pl": "W wieku czternastu?"
+  },
+  {
+   "start": 677.96,
+   "end": 679.2,
+   "es": "¿A los 13?",
+   "id": 290,
+   "slot": 1.16,
+   "max_chars_pl": 16,
+   "pl": "Trzynastu?"
+  },
+  {
+   "start": 679.2,
+   "end": 680.88,
+   "es": "Alguien lo reclutó.",
+   "id": 291,
+   "slot": 1.6,
+   "max_chars_pl": 22,
+   "pl": "Ktoś go zwerbował."
+  },
+  {
+   "start": 680.88,
+   "end": 682.46,
+   "es": "Alguien lo entrenó.",
+   "id": 292,
+   "slot": 1.5,
+   "max_chars_pl": 21,
+   "pl": "Ktoś go wyszkolił."
+  },
+  {
+   "start": 682.46,
+   "end": 686.28,
+   "es": "Alguien decidió que ese chico valía menos que el hombre al que protegía.",
+   "id": 293,
+   "slot": 3.74,
+   "max_chars_pl": 52,
+   "pl": "Ktoś zdecydował, że ten chłopak jest wart mniej niż człowiek, którego chronił."
+  },
+  {
+   "start": 686.28,
+   "end": 688.24,
+   "es": "Y ese alguien, casi siempre,",
+   "id": 294,
+   "slot": 1.88,
+   "max_chars_pl": 26,
+   "pl": "A ten ktoś, prawie zawsze,"
+  },
+  {
+   "start": 688.24,
+   "end": 691.68,
+   "es": "sigue vivo y libre, reclutando al que sigue.",
+   "id": 295,
+   "slot": 3.36,
+   "max_chars_pl": 47,
+   "pl": "żyje dalej na wolności, werbując następnego."
+  },
+  {
+   "start": 691.68,
+   "end": 694.6,
+   "es": "Hay un detalle que resume la frialdad del sistema.",
+   "id": 296,
+   "slot": 2.84,
+   "max_chars_pl": 39,
+   "pl": "Jest jeden szczegół, który podsumowuje chłód tego systemu."
+  },
+  {
+   "start": 694.6,
+   "end": 696.98,
+   "es": "Cuando un niño como Chuchito Nini muere,",
+   "id": 297,
+   "slot": 2.3,
+   "max_chars_pl": 32,
+   "pl": "Gdy umiera dziecko takie jak Chuchito Nini,"
+  },
+  {
+   "start": 696.98,
+   "end": 699.32,
+   "es": "para el cártel no es una baja importante.",
+   "id": 298,
+   "slot": 2.26,
+   "max_chars_pl": 31,
+   "pl": "dla kartelu to nie jest ważna strata."
+  },
+  {
+   "start": 699.32,
+   "end": 700.6,
+   "es": "Es un gasto menor.",
+   "id": 299,
+   "slot": 1.2,
+   "max_chars_pl": 16,
+   "pl": "To drobny wydatek."
+  },
+  {
+   "start": 700.6,
+   "end": 701.78,
+   "es": "Un reemplazo.",
+   "id": 300,
+   "slot": 1.1,
+   "max_chars_pl": 15,
+   "pl": "Zamiennik."
+  },
+  {
+   "start": 701.78,
+   "end": 704.7,
+   "es": "La fila de chicos dispuestos a ocupar su lugar,",
+   "id": 301,
+   "slot": 2.84,
+   "max_chars_pl": 39,
+   "pl": "Kolejka chłopców gotowych zająć jego miejsce,"
+  },
+  {
+   "start": 704.7,
+   "end": 706.98,
+   "es": "por hambre, por admiración o por miedo,",
+   "id": 302,
+   "slot": 2.2,
+   "max_chars_pl": 30,
+   "pl": "z głodu, z podziwu albo ze strachu,"
+  },
+  {
+   "start": 706.98,
+   "end": 708.4,
+   "es": "no se detiene.",
+   "id": 303,
+   "slot": 1.34,
+   "max_chars_pl": 18,
+   "pl": "się nie kończy."
+  },
+  {
+   "start": 708.4,
+   "end": 710.98,
+   "es": "El reclutador simplemente va al mismo barrio,",
+   "id": 304,
+   "slot": 2.5,
+   "max_chars_pl": 35,
+   "pl": "Werbownik po prostu idzie do tej samej dzielnicy,"
+  },
+  {
+   "start": 710.98,
+   "end": 713.8,
+   "es": "busca a otro de 14 años con tenis rotos",
+   "id": 305,
+   "slot": 2.74,
+   "max_chars_pl": 38,
+   "pl": "szuka kolejnego czternastolatka w podartych butach"
+  },
+  {
+   "start": 713.8,
+   "end": 716.56,
+   "es": "y le ofrece exactamente lo que le ofreció a este.",
+   "id": 306,
+   "slot": 2.68,
+   "max_chars_pl": 37,
+   "pl": "i oferuje mu dokładnie to, co zaoferował temu."
+  },
+  {
+   "start": 716.56,
+   "end": 718.4,
+   "es": "Chuchito Nini es el número cuatro",
+   "id": 307,
+   "slot": 1.76,
+   "max_chars_pl": 24,
+   "pl": "Chuchito Nini to numer cztery,"
+  },
+  {
+   "start": 718.4,
+   "end": 721.8,
+   "es": "porque su caso es el más reciente de los que terminaron en muerte",
+   "id": 308,
+   "slot": 3.32,
+   "max_chars_pl": 46,
+   "pl": "bo jego sprawa jest najświeższa z tych zakończonych śmiercią,"
+  },
+  {
+   "start": 721.8,
+   "end": 724.2,
+   "es": "y porque pone nombre y edad a una estadística",
+   "id": 309,
+   "slot": 2.32,
+   "max_chars_pl": 32,
+   "pl": "i bo nadaje imię i wiek statystyce,"
+  },
+  {
+   "start": 724.2,
+   "end": 726.68,
+   "es": "que solemos leer sin sentir nada.",
+   "id": 310,
+   "slot": 2.4,
+   "max_chars_pl": 33,
+   "pl": "którą zwykle czytamy, nic nie czując."
+  },
+  {
+   "start": 726.68,
+   "end": 729.8,
+   "es": "15 años, un operativo, un cuerpo",
+   "id": 311,
+   "slot": 3.04,
+   "max_chars_pl": 42,
+   "pl": "Piętnaście lat, jedna operacja, jedno ciało"
+  },
+  {
+   "start": 729.8,
+   "end": 733.24,
+   "es": "y un corrido que, en lugar de advertir, invita al siguiente.",
+   "id": 312,
+   "slot": 3.36,
+   "max_chars_pl": 47,
+   "pl": "i korrido, które zamiast ostrzegać, zaprasza następnego."
+  },
+  {
+   "start": 733.24,
+   "end": 735.48,
+   "es": "El número tres nos saca de México",
+   "id": 313,
+   "slot": 2.16,
+   "max_chars_pl": 30,
+   "pl": "Numer trzy wyprowadza nas z Meksyku,"
+  },
+  {
+   "start": 735.48,
+   "end": 737.84,
+   "es": "porque este dolor no conoce fronteras.",
+   "id": 314,
+   "slot": 2.28,
+   "max_chars_pl": 31,
+   "pl": "bo ten ból nie zna granic."
+  },
+  {
+   "start": 737.84,
+   "end": 738.94,
+   "es": "Número tres.",
+   "id": 315,
+   "slot": 1.02,
+   "max_chars_pl": 14,
+   "pl": "Numer trzy."
+  },
+  {
+   "start": 738.94,
+   "end": 741.4,
+   "es": "Y para encontrarlo hay que cruzar a Colombia,",
+   "id": 316,
+   "slot": 2.38,
+   "max_chars_pl": 33,
+   "pl": "Aby go znaleźć, trzeba przekroczyć granicę do Kolumbii,"
+  },
+  {
+   "start": 741.4,
+   "end": 744.6,
+   "es": "el país donde el niño sicario no es una noticia nueva,",
+   "id": 317,
+   "slot": 3.12,
+   "max_chars_pl": 43,
+   "pl": "kraju, w którym dziecko-zabójca to nie nowa wiadomość,"
+  },
+  {
+   "start": 744.6,
+   "end": 747.44,
+   "es": "sino una herida vieja de más de 40 años.",
+   "id": 318,
+   "slot": 2.76,
+   "max_chars_pl": 38,
+   "pl": "tylko stara rana sprzed ponad czterdziestu lat."
+  },
+  {
+   "start": 747.44,
+   "end": 749.86,
+   "es": "2019, Medellín.",
+   "id": 319,
+   "slot": 2.34,
+   "max_chars_pl": 32,
+   "pl": "Dwa tysiące dziewiętnasty rok, Medellín."
+  },
+  {
+   "start": 749.86,
+   "end": 753.08,
+   "es": "La policía capturó a un adolescente de 14 años",
+   "id": 320,
+   "slot": 3.14,
+   "max_chars_pl": 43,
+   "pl": "Policja zatrzymała czternastolatka,"
+  },
+  {
+   "start": 753.08,
+   "end": 756.14,
+   "es": "identificado por la fiscalía solo con iniciales,",
+   "id": 321,
+   "slot": 2.98,
+   "max_chars_pl": 41,
+   "pl": "którego prokuratura określiła tylko inicjałami,"
+  },
+  {
+   "start": 756.14,
+   "end": 758.32,
+   "es": "tras matar a dos personas.",
+   "id": 322,
+   "slot": 2.1,
+   "max_chars_pl": 29,
+   "pl": "po zabiciu dwóch osób."
+  },
+  {
+   "start": 758.32,
+   "end": 761.4,
+   "es": "Pero la investigación destapó algo mucho peor.",
+   "id": 323,
+   "slot": 3.0,
+   "max_chars_pl": 42,
+   "pl": "Ale śledztwo odkryło coś znacznie gorszego."
+  },
+  {
+   "start": 761.4,
+   "end": 765.28,
+   "es": "A ese chico se le llegaron a atribuir al menos 12 homicidios.",
+   "id": 324,
+   "slot": 3.8,
+   "max_chars_pl": 53,
+   "pl": "Temu chłopcu przypisano co najmniej dwanaście zabójstw."
+  },
+  {
+   "start": 765.28,
+   "end": 766.14,
+   "es": "12.",
+   "id": 325,
+   "slot": 0.78,
+   "max_chars_pl": 10,
+   "pl": "Dwanaście."
+  },
+  {
+   "start": 766.14,
+   "end": 769.86,
+   "es": "Y según los reportes, él mismo presumía de 10.",
+   "id": 326,
+   "slot": 3.64,
+   "max_chars_pl": 50,
+   "pl": "A według doniesień sam chwalił się dziesięcioma."
+  },
+  {
+   "start": 769.86,
+   "end": 771.68,
+   "es": "A los 14 años,",
+   "id": 327,
+   "slot": 1.74,
+   "max_chars_pl": 24,
+   "pl": "W wieku czternastu lat"
+  },
+  {
+   "start": 771.68,
+   "end": 775.54,
+   "es": "hubo un detalle que lo volvió símbolo de todo un sistema roto.",
+   "id": 328,
+   "slot": 3.78,
+   "max_chars_pl": 52,
+   "pl": "był jeden szczegół, który uczynił go symbolem całego zepsutego systemu."
+  },
+  {
+   "start": 775.54,
+   "end": 776.8,
+   "es": "Cuando lo detuvieron,",
+   "id": 329,
+   "slot": 1.18,
+   "max_chars_pl": 16,
+   "pl": "Gdy go zatrzymano,"
+  },
+  {
+   "start": 776.8,
+   "end": 780.5,
+   "es": "el menor se presentó con una credencial de identidad falsa.",
+   "id": 330,
+   "slot": 3.62,
+   "max_chars_pl": 50,
+   "pl": "nieletni okazał fałszywy dowód tożsamości."
+  },
+  {
+   "start": 780.5,
+   "end": 782.18,
+   "es": "¿De quién era el documento?",
+   "id": 331,
+   "slot": 1.6,
+   "max_chars_pl": 22,
+   "pl": "Czyj to był dokument?"
+  },
+  {
+   "start": 782.18,
+   "end": 783.5,
+   "es": "De su hermano.",
+   "id": 332,
+   "slot": 1.24,
+   "max_chars_pl": 17,
+   "pl": "Jego brata."
+  },
+  {
+   "start": 783.5,
+   "end": 785.56,
+   "es": "Un hermano que tenía 13 años.",
+   "id": 333,
+   "slot": 1.98,
+   "max_chars_pl": 27,
+   "pl": "Brata, który miał trzynaście lat."
+  },
+  {
+   "start": 785.56,
+   "end": 786.7,
+   "es": "Es decir,",
+   "id": 334,
+   "slot": 1.06,
+   "max_chars_pl": 14,
+   "pl": "To znaczy,"
+  },
+  {
+   "start": 786.7,
+   "end": 788.84,
+   "es": "para esconder a un asesino de 14,",
+   "id": 335,
+   "slot": 2.06,
+   "max_chars_pl": 28,
+   "pl": "żeby ukryć czternastoletniego zabójcę,"
+  },
+  {
+   "start": 788.84,
+   "end": 792.38,
+   "es": "la familia usó la identidad de un niño todavía más chico.",
+   "id": 336,
+   "slot": 3.46,
+   "max_chars_pl": 48,
+   "pl": "rodzina użyła tożsamości jeszcze młodszego dziecka."
+  },
+  {
+   "start": 792.38,
+   "end": 794.9,
+   "es": "Dos hermanos, 13 y 14 años,",
+   "id": 337,
+   "slot": 2.44,
+   "max_chars_pl": 34,
+   "pl": "Dwóch braci, trzynastolatek i czternastolatek,"
+  },
+  {
+   "start": 794.9,
+   "end": 797.18,
+   "es": "tragados por la misma maquinaria.",
+   "id": 338,
+   "slot": 2.2,
+   "max_chars_pl": 30,
+   "pl": "pożartych przez tę samą maszynerię."
+  },
+  {
+   "start": 797.18,
+   "end": 798.0,
+   "es": "Por su edad,",
+   "id": 339,
+   "slot": 0.74,
+   "max_chars_pl": 10,
+   "pl": "Z powodu wieku"
+  },
+  {
+   "start": 798.0,
+   "end": 801.02,
+   "es": "la ley colombiana lo trataba en un primer momento,",
+   "id": 340,
+   "slot": 2.94,
+   "max_chars_pl": 41,
+   "pl": "kolumbijskie prawo początkowo traktowało go"
+  },
+  {
+   "start": 801.02,
+   "end": 803.62,
+   "es": "como alguien que casi no podía ser procesado.",
+   "id": 341,
+   "slot": 2.52,
+   "max_chars_pl": 35,
+   "pl": "jak kogoś, kogo prawie nie można było sądzić."
+  },
+  {
+   "start": 803.62,
+   "end": 805.36,
+   "es": "Y ahí está otra vez la trampa.",
+   "id": 342,
+   "slot": 1.66,
+   "max_chars_pl": 23,
+   "pl": "I oto znowu pułapka."
+  },
+  {
+   "start": 805.36,
+   "end": 807.24,
+   "es": "El mismo vacío legal que en México",
+   "id": 343,
+   "slot": 1.8,
+   "max_chars_pl": 25,
+   "pl": "Ta sama luka prawna, która w Meksyku"
+  },
+  {
+   "start": 807.24,
+   "end": 810.18,
+   "es": "convierte a los niños en soldados ideales existe,",
+   "id": 344,
+   "slot": 2.86,
+   "max_chars_pl": 40,
+   "pl": "czyni z dzieci idealnych żołnierzy, istnieje,"
+  },
+  {
+   "start": 810.18,
+   "end": 811.42,
+   "es": "con otras palabras,",
+   "id": 345,
+   "slot": 1.16,
+   "max_chars_pl": 16,
+   "pl": "innymi słowy,"
+  },
+  {
+   "start": 811.42,
+   "end": 812.86,
+   "es": "en toda la región.",
+   "id": 346,
+   "slot": 1.36,
+   "max_chars_pl": 19,
+   "pl": "w całym regionie."
+  },
+  {
+   "start": 812.86,
+   "end": 816.38,
+   "es": "Pero para entender por qué Colombia pesa tanto en esta historia,",
+   "id": 347,
+   "slot": 3.44,
+   "max_chars_pl": 48,
+   "pl": "Ale żeby zrozumieć, dlaczego Kolumbia tak wiele znaczy w tej historii,"
+  },
+  {
+   "start": 816.38,
+   "end": 817.8,
+   "es": "hay que mirar más atrás,",
+   "id": 348,
+   "slot": 1.34,
+   "max_chars_pl": 18,
+   "pl": "trzeba spojrzeć dalej wstecz,"
+  },
+  {
+   "start": 817.8,
+   "end": 819.3,
+   "es": "mucho más atrás.",
+   "id": 349,
+   "slot": 1.42,
+   "max_chars_pl": 19,
+   "pl": "znacznie dalej wstecz."
+  },
+  {
+   "start": 819.3,
+   "end": 821.14,
+   "es": "A los años 80 y 90,",
+   "id": 350,
+   "slot": 1.76,
+   "max_chars_pl": 24,
+   "pl": "Na lata osiemdziesiąte i dziewięćdziesiąte,"
+  },
+  {
+   "start": 821.14,
+   "end": 824.52,
+   "es": "a la época del Cártel de Medellín y de Pablo Escobar.",
+   "id": 351,
+   "slot": 3.3,
+   "max_chars_pl": 46,
+   "pl": "na czasy Kartelu z Medellín i Pabla Escobara."
+  },
+  {
+   "start": 824.52,
+   "end": 825.78,
+   "es": "En aquel entonces,",
+   "id": 352,
+   "slot": 1.18,
+   "max_chars_pl": 16,
+   "pl": "W tamtym czasie"
+  },
+  {
+   "start": 825.78,
+   "end": 830.64,
+   "es": "las comunas pobres de Medellín se convirtieron en semilleros de sicarios adolescentes.",
+   "id": 353,
+   "slot": 4.78,
+   "max_chars_pl": 66,
+   "pl": "biedne komuny Medellín stały się wylęgarniami nastoletnich płatnych zabójców."
+  },
+  {
+   "start": 830.64,
+   "end": 834.4,
+   "es": "Eran chicos de barrios marginados a los que se les ofrecía dinero,",
+   "id": 354,
+   "slot": 3.68,
+   "max_chars_pl": 51,
+   "pl": "Byli to chłopcy z zepchniętych na margines dzielnic, którym oferowano pieniądze,"
+  },
+  {
+   "start": 834.4,
+   "end": 836.88,
+   "es": "motos y armas a cambio de matar.",
+   "id": 355,
+   "slot": 2.4,
+   "max_chars_pl": 33,
+   "pl": "motocykle i broń w zamian za zabijanie."
+  },
+  {
+   "start": 836.88,
+   "end": 839.28,
+   "es": "Según un criminólogo citado por la prensa,",
+   "id": 356,
+   "slot": 2.32,
+   "max_chars_pl": 32,
+   "pl": "Według kryminologa cytowanego przez prasę"
+  },
+  {
+   "start": 839.28,
+   "end": 843.7,
+   "es": "en el entorno del cártel existía una práctica a la que llamaban los suizos.",
+   "id": 357,
+   "slot": 4.34,
+   "max_chars_pl": 60,
+   "pl": "w otoczeniu kartelu istniała praktyka zwana los suizos, czyli Szwajcarzy."
+  },
+  {
+   "start": 843.7,
+   "end": 846.88,
+   "es": "Jóvenes y menores vinculados a misiones casi suicidas,",
+   "id": 358,
+   "slot": 3.1,
+   "max_chars_pl": 43,
+   "pl": "Młodzi ludzie i nieletni wysyłani na misje niemal samobójcze,"
+  },
+  {
+   "start": 846.88,
+   "end": 849.72,
+   "es": "de las que se sabía que probablemente no volverían.",
+   "id": 359,
+   "slot": 2.76,
+   "max_chars_pl": 38,
+   "pl": "z których wiadomo było, że prawdopodobnie nie wrócą."
+  },
+  {
+   "start": 849.72,
+   "end": 851.72,
+   "es": "Chicos tratados como munición.",
+   "id": 360,
+   "slot": 1.92,
+   "max_chars_pl": 26,
+   "pl": "Chłopcy traktowani jak amunicja."
+  },
+  {
+   "start": 851.72,
+   "end": 853.84,
+   "es": "El caso más emblemático de aquella época",
+   "id": 361,
+   "slot": 2.04,
+   "max_chars_pl": 28,
+   "pl": "Najbardziej emblematyczny przypadek tamtych czasów"
+  },
+  {
+   "start": 853.84,
+   "end": 856.4,
+   "es": "fue un hombre conocido por el alias Pinina,",
+   "id": 362,
+   "slot": 2.48,
+   "max_chars_pl": 34,
+   "pl": "to człowiek znany pod pseudonimem Pinina,"
+  },
+  {
+   "start": 856.4,
+   "end": 860.08,
+   "es": "uno de los sicarios más cercanos y favoritos de Escobar.",
+   "id": 363,
+   "slot": 3.6,
+   "max_chars_pl": 50,
+   "pl": "jeden z najbliższych i ulubionych płatnych zabójców Escobara."
+  },
+  {
+   "start": 860.08,
+   "end": 863.0,
+   "es": "Se cree que empezó en el sicariato a los 15 años.",
+   "id": 364,
+   "slot": 2.84,
+   "max_chars_pl": 39,
+   "pl": "Uważa się, że zaczął zabijać w wieku piętnastu lat."
+  },
+  {
+   "start": 863.0,
+   "end": 867.88,
+   "es": "Murió en un operativo policial en 1990, a los 29.",
+   "id": 365,
+   "slot": 4.8,
+   "max_chars_pl": 67,
+   "pl": "Zginął w operacji policyjnej w tysiąc dziewięćset dziewięćdziesiątym roku, mając dwadzieścia dziewięć lat."
+  },
+  {
+   "start": 867.88,
+   "end": 869.7,
+   "es": "Para los estándares de ese mundo,",
+   "id": 366,
+   "slot": 1.74,
+   "max_chars_pl": 24,
+   "pl": "Według standardów tamtego świata"
+  },
+  {
+   "start": 869.7,
+   "end": 872.66,
+   "es": "llegar a los 29 ya era casi una vejez.",
+   "id": 367,
+   "slot": 2.88,
+   "max_chars_pl": 40,
+   "pl": "dożycie dwudziestu dziewięciu lat było niemal starością."
+  },
+  {
+   "start": 872.66,
+   "end": 875.1,
+   "es": "Y hay un eco todavía más oscuro.",
+   "id": 368,
+   "slot": 2.36,
+   "max_chars_pl": 33,
+   "pl": "I jest jeszcze mroczniejsze echo."
+  },
+  {
+   "start": 875.1,
+   "end": 877.54,
+   "es": "A un sicario joven, alias Jerry,",
+   "id": 369,
+   "slot": 2.36,
+   "max_chars_pl": 33,
+   "pl": "Młodego płatnego zabójcę, pseudonim Jerry,"
+  },
+  {
+   "start": 877.54,
+   "end": 879.2,
+   "es": "se lo señaló como el autor material",
+   "id": 370,
+   "slot": 1.58,
+   "max_chars_pl": 22,
+   "pl": "wskazano jako wykonawcę"
+  },
+  {
+   "start": 879.2,
+   "end": 884.4,
+   "es": "del asesinato del candidato presidencial Carlos Pizarro, en 1990.",
+   "id": 371,
+   "slot": 5.12,
+   "max_chars_pl": 71,
+   "pl": "zabójstwa kandydata na prezydenta Carlosa Pizarro w tysiąc dziewięćset dziewięćdziesiątym roku."
+  },
+  {
+   "start": 884.4,
+   "end": 887.14,
+   "es": "Jerry fue abatido casi de inmediato.",
+   "id": 372,
+   "slot": 2.66,
+   "max_chars_pl": 37,
+   "pl": "Jerry został zastrzelony niemal natychmiast."
+  },
+  {
+   "start": 887.14,
+   "end": 888.3,
+   "es": "Años después,",
+   "id": 373,
+   "slot": 1.08,
+   "max_chars_pl": 15,
+   "pl": "Lata później"
+  },
+  {
+   "start": 888.3,
+   "end": 890.36,
+   "es": "el jefe paramilitar Carlos Castaño",
+   "id": 374,
+   "slot": 1.98,
+   "max_chars_pl": 27,
+   "pl": "przywódca paramilitarny Carlos Castaño"
+  },
+  {
+   "start": 890.36,
+   "end": 893.08,
+   "es": "reconoció haber entrenado a ese sicario.",
+   "id": 375,
+   "slot": 2.64,
+   "max_chars_pl": 36,
+   "pl": "przyznał, że wyszkolił tego zabójcę."
+  },
+  {
+   "start": 893.08,
+   "end": 894.56,
+   "es": "Un adulto entrenó a un joven",
+   "id": 376,
+   "slot": 1.4,
+   "max_chars_pl": 19,
+   "pl": "Dorosły wyszkolił młodego,"
+  },
+  {
+   "start": 894.56,
+   "end": 897.08,
+   "es": "para matar a un candidato a la presidencia,",
+   "id": 377,
+   "slot": 2.44,
+   "max_chars_pl": 34,
+   "pl": "żeby zabił kandydata na prezydenta,"
+  },
+  {
+   "start": 897.08,
+   "end": 899.12,
+   "es": "y el joven murió esa misma mañana,",
+   "id": 378,
+   "slot": 1.96,
+   "max_chars_pl": 27,
+   "pl": "a młody zginął tego samego ranka,"
+  },
+  {
+   "start": 899.12,
+   "end": 900.72,
+   "es": "sin poder contar nada.",
+   "id": 379,
+   "slot": 1.52,
+   "max_chars_pl": 21,
+   "pl": "nie mogąc nic opowiedzieć."
+  },
+  {
+   "start": 900.72,
+   "end": 903.02,
+   "es": "El patrón, otra vez.",
+   "id": 380,
+   "slot": 2.22,
+   "max_chars_pl": 31,
+   "pl": "Znowu patron."
+  },
+  {
+   "start": 903.02,
+   "end": 906.02,
+   "es": "El niño pone la mano, el adulto pone el plan,",
+   "id": 381,
+   "slot": 2.92,
+   "max_chars_pl": 40,
+   "pl": "Dziecko dostarcza rękę, dorosły plan,"
+  },
+  {
+   "start": 906.02,
+   "end": 909.48,
+   "es": "y solo uno de los dos sobrevive para rendir cuentas.",
+   "id": 382,
+   "slot": 3.38,
+   "max_chars_pl": 47,
+   "pl": "a tylko jeden z nich przeżywa, by zdać z tego sprawę."
+  },
+  {
+   "start": 909.48,
+   "end": 911.42,
+   "es": "Hoy el problema sigue abierto",
+   "id": 383,
+   "slot": 1.86,
+   "max_chars_pl": 26,
+   "pl": "Dziś problem wciąż pozostaje otwarty"
+  },
+  {
+   "start": 911.42,
+   "end": 913.74,
+   "es": "y llega más alto de lo que imaginas.",
+   "id": 384,
+   "slot": 2.24,
+   "max_chars_pl": 31,
+   "pl": "i sięga wyżej, niż sobie wyobrażasz."
+  },
+  {
+   "start": 913.74,
+   "end": 916.08,
+   "es": "Según la Defensoría del Pueblo de Colombia,",
+   "id": 385,
+   "slot": 2.26,
+   "max_chars_pl": 31,
+   "pl": "Według Rzecznika Praw Obywatelskich Kolumbii"
+  },
+  {
+   "start": 916.08,
+   "end": 920.0,
+   "es": "solo en 2024 fueron reclutados más de 400 niños,",
+   "id": 386,
+   "slot": 3.84,
+   "max_chars_pl": 53,
+   "pl": "tylko w dwa tysiące dwudziestym czwartym roku zwerbowano ponad czterystu chłopców,"
+  },
+  {
+   "start": 920.0,
+   "end": 921.64,
+   "es": "niñas y adolescentes,",
+   "id": 387,
+   "slot": 1.56,
+   "max_chars_pl": 21,
+   "pl": "dziewcząt i nastolatków,"
+  },
+  {
+   "start": 921.64,
+   "end": 924.24,
+   "es": "una cifra mayor que la del año anterior.",
+   "id": 388,
+   "slot": 2.52,
+   "max_chars_pl": 35,
+   "pl": "więcej niż rok wcześniej."
+  },
+  {
+   "start": 924.24,
+   "end": 926.04,
+   "es": "Y las propias autoridades admiten",
+   "id": 389,
+   "slot": 1.72,
+   "max_chars_pl": 24,
+   "pl": "A same władze przyznają,"
+  },
+  {
+   "start": 926.04,
+   "end": 927.74,
+   "es": "que el número real es más alto,",
+   "id": 390,
+   "slot": 1.62,
+   "max_chars_pl": 22,
+   "pl": "że prawdziwa liczba jest wyższa,"
+  },
+  {
+   "start": 927.74,
+   "end": 930.3,
+   "es": "porque muchos casos jamás se denuncian.",
+   "id": 391,
+   "slot": 2.48,
+   "max_chars_pl": 34,
+   "pl": "bo wiele przypadków nigdy nie jest zgłaszanych."
+  },
+  {
+   "start": 930.3,
+   "end": 932.12,
+   "es": "El reclutamiento ya no es solo cosa",
+   "id": 392,
+   "slot": 1.74,
+   "max_chars_pl": 24,
+   "pl": "Werbunek to już nie tylko sprawa"
+  },
+  {
+   "start": 932.12,
+   "end": 934.06,
+   "es": "del viejo cártel de Medellín.",
+   "id": 393,
+   "slot": 1.86,
+   "max_chars_pl": 26,
+   "pl": "starego kartelu z Medellín."
+  },
+  {
+   "start": 934.06,
+   "end": 936.08,
+   "es": "Hoy lo practican disidencias armadas",
+   "id": 394,
+   "slot": 1.94,
+   "max_chars_pl": 27,
+   "pl": "Dziś praktykują go zbrojne ugrupowania"
+  },
+  {
+   "start": 936.08,
+   "end": 938.2,
+   "es": "y bandas que se disputan los barrios,",
+   "id": 395,
+   "slot": 2.04,
+   "max_chars_pl": 28,
+   "pl": "i gangi, które walczą o dzielnice"
+  },
+  {
+   "start": 938.2,
+   "end": 941.44,
+   "es": "y que ven en cada chico pobre a un soldado en potencia.",
+   "id": 396,
+   "slot": 3.16,
+   "max_chars_pl": 44,
+   "pl": "i widzą w każdym biednym chłopcu potencjalnego żołnierza."
+  },
+  {
+   "start": 941.44,
+   "end": 942.56,
+   "es": "Y para que nadie piense",
+   "id": 397,
+   "slot": 1.04,
+   "max_chars_pl": 14,
+   "pl": "A żeby nikt nie myślał,"
+  },
+  {
+   "start": 942.56,
+   "end": 945.18,
+   "es": "que esto se queda en los barrios marginados,",
+   "id": 398,
+   "slot": 2.54,
+   "max_chars_pl": 35,
+   "pl": "że to dotyczy tylko zepchniętych na margines dzielnic,"
+  },
+  {
+   "start": 945.18,
+   "end": 948.64,
+   "es": "basta un ejemplo reciente que estremeció al país entero.",
+   "id": 399,
+   "slot": 3.38,
+   "max_chars_pl": 47,
+   "pl": "wystarczy świeży przykład, który wstrząsnął całym krajem."
+  },
+  {
+   "start": 948.64,
+   "end": 950.48,
+   "es": "En el ataque armado contra el senador",
+   "id": 400,
+   "slot": 1.76,
+   "max_chars_pl": 24,
+   "pl": "W zamachu zbrojnym na senatora"
+  },
+  {
+   "start": 950.48,
+   "end": 953.24,
+   "es": "y precandidato presidencial, Miguel Uribe Turbay,",
+   "id": 401,
+   "slot": 2.68,
+   "max_chars_pl": 37,
+   "pl": "i prekandydata na prezydenta, Miguela Uribe Turbaya,"
+  },
+  {
+   "start": 953.24,
+   "end": 955.84,
+   "es": "el principal sospechoso señalado por la prensa,",
+   "id": 402,
+   "slot": 2.52,
+   "max_chars_pl": 35,
+   "pl": "głównym podejrzanym, wskazanym przez prasę,"
+  },
+  {
+   "start": 955.84,
+   "end": 958.0,
+   "es": "fue, otra vez, un menor,",
+   "id": 403,
+   "slot": 2.08,
+   "max_chars_pl": 29,
+   "pl": "był znowu nieletni,"
+  },
+  {
+   "start": 958.0,
+   "end": 960.84,
+   "es": "un adolescente de apenas 15 años.",
+   "id": 404,
+   "slot": 2.76,
+   "max_chars_pl": 38,
+   "pl": "nastolatek mający zaledwie piętnaście lat."
+  },
+  {
+   "start": 960.84,
+   "end": 963.16,
+   "es": "Un chico de 15 usado para intentar matar",
+   "id": 405,
+   "slot": 2.24,
+   "max_chars_pl": 31,
+   "pl": "Piętnastolatek użyty, by spróbować zabić"
+  },
+  {
+   "start": 963.16,
+   "end": 966.62,
+   "es": "a una de las figuras políticas más visibles de Colombia.",
+   "id": 406,
+   "slot": 3.38,
+   "max_chars_pl": 47,
+   "pl": "jedną z najbardziej widocznych postaci politycznych Kolumbii."
+  },
+  {
+   "start": 966.62,
+   "end": 969.06,
+   "es": "La misma fórmula de hace 40 años,",
+   "id": 407,
+   "slot": 2.36,
+   "max_chars_pl": 33,
+   "pl": "Ta sama formuła sprzed czterdziestu lat,"
+  },
+  {
+   "start": 969.06,
+   "end": 971.98,
+   "es": "el mismo Jerry de 1990,",
+   "id": 408,
+   "slot": 2.84,
+   "max_chars_pl": 39,
+   "pl": "ten sam Jerry z tysiąc dziewięćset dziewięćdziesiątego roku,"
+  },
+  {
+   "start": 971.98,
+   "end": 974.78,
+   "es": "repetida con otra cara y otro nombre.",
+   "id": 409,
+   "slot": 2.72,
+   "max_chars_pl": 38,
+   "pl": "powtórzona z inną twarzą i innym imieniem."
+  },
+  {
+   "start": 974.78,
+   "end": 976.4,
+   "es": "Porque el arma más desechable,",
+   "id": 410,
+   "slot": 1.54,
+   "max_chars_pl": 21,
+   "pl": "Bo najbardziej jednorazową bronią"
+  },
+  {
+   "start": 976.4,
+   "end": 979.02,
+   "es": "para quien ordena, sigue siendo la misma.",
+   "id": 411,
+   "slot": 2.54,
+   "max_chars_pl": 35,
+   "pl": "dla tego, kto wydaje rozkazy, wciąż jest to samo."
+  },
+  {
+   "start": 979.02,
+   "end": 980.04,
+   "es": "Un niño.",
+   "id": 412,
+   "slot": 0.94,
+   "max_chars_pl": 13,
+   "pl": "Dziecko."
+  },
+  {
+   "start": 980.04,
+   "end": 981.26,
+   "es": "El niño de Medellín,",
+   "id": 413,
+   "slot": 1.14,
+   "max_chars_pl": 15,
+   "pl": "Dziecko z Medellín,"
+  },
+  {
+   "start": 981.26,
+   "end": 983.32,
+   "es": "con 12 muertes a los 14 años",
+   "id": 414,
+   "slot": 1.98,
+   "max_chars_pl": 27,
+   "pl": "z dwunastoma ofiarami w wieku czternastu lat"
+  },
+  {
+   "start": 983.32,
+   "end": 986.16,
+   "es": "y la credencial de su hermano de 13 en el bolsillo,",
+   "id": 415,
+   "slot": 2.76,
+   "max_chars_pl": 38,
+   "pl": "i dowodem trzynastoletniego brata w kieszeni,"
+  },
+  {
+   "start": 986.16,
+   "end": 987.72,
+   "es": "es el número 3.",
+   "id": 416,
+   "slot": 1.48,
+   "max_chars_pl": 20,
+   "pl": "to numer trzy."
+  },
+  {
+   "start": 987.72,
+   "end": 990.32,
+   "es": "Porque en él se juntan el presente y la herencia.",
+   "id": 417,
+   "slot": 2.52,
+   "max_chars_pl": 35,
+   "pl": "Bo w nim spotykają się teraźniejszość i dziedzictwo."
+  },
+  {
+   "start": 990.32,
+   "end": 992.82,
+   "es": "Un país donde, desde hace cuatro décadas,",
+   "id": 418,
+   "slot": 2.42,
+   "max_chars_pl": 33,
+   "pl": "Kraj, w którym od czterech dekad"
+  },
+  {
+   "start": 992.82,
+   "end": 994.84,
+   "es": "los adultos siguen encontrando niños",
+   "id": 419,
+   "slot": 1.94,
+   "max_chars_pl": 27,
+   "pl": "dorośli wciąż znajdują dzieci,"
+  },
+  {
+   "start": 994.84,
+   "end": 996.72,
+   "es": "a quienes convertir en armas.",
+   "id": 420,
+   "slot": 1.8,
+   "max_chars_pl": 25,
+   "pl": "które można zamienić w broń."
+  },
+  {
+   "start": 996.72,
+   "end": 999.58,
+   "es": "El número 2 nos devuelve a la frontera de México,",
+   "id": 421,
+   "slot": 2.78,
+   "max_chars_pl": 38,
+   "pl": "Numer dwa wraca z nami na granicę z Meksykiem,"
+  },
+  {
+   "start": 999.58,
+   "end": 1001.84,
+   "es": "con un chico cuyo apodo se volvió canción",
+   "id": 422,
+   "slot": 2.18,
+   "max_chars_pl": 30,
+   "pl": "z chłopcem, którego przydomek został piosenką,"
+  },
+  {
+   "start": 1001.84,
+   "end": 1004.12,
+   "es": "antes de que cumpliera los 16.",
+   "id": 423,
+   "slot": 2.2,
+   "max_chars_pl": 30,
+   "pl": "zanim skończył szesnaście lat."
+  },
+  {
+   "start": 1004.12,
+   "end": 1005.48,
+   "es": "Número 2.",
+   "id": 424,
+   "slot": 1.28,
+   "max_chars_pl": 17,
+   "pl": "Numer dwa."
+  },
+  {
+   "start": 1005.48,
+   "end": 1007.16,
+   "es": "Juanito Pistolas.",
+   "id": 425,
+   "slot": 1.6,
+   "max_chars_pl": 22,
+   "pl": "Juanito Pistolas."
+  },
+  {
+   "start": 1007.16,
+   "end": 1009.04,
+   "es": "Nuevo Laredo, Tamaulipas,",
+   "id": 426,
+   "slot": 1.8,
+   "max_chars_pl": 25,
+   "pl": "Nuevo Laredo, Tamaulipas,"
+  },
+  {
+   "start": 1009.04,
+   "end": 1011.28,
+   "es": "en la frontera con Estados Unidos.",
+   "id": 427,
+   "slot": 2.16,
+   "max_chars_pl": 30,
+   "pl": "na granicy ze Stanami Zjednoczonymi."
+  },
+  {
+   "start": 1011.28,
+   "end": 1013.22,
+   "es": "Territorio del Cártel del Noreste",
+   "id": 428,
+   "slot": 1.86,
+   "max_chars_pl": 26,
+   "pl": "Terytorium Kartelu Północnego Wschodu"
+  },
+  {
+   "start": 1013.22,
+   "end": 1014.96,
+   "es": "y de su ala más temida.",
+   "id": 429,
+   "slot": 1.66,
+   "max_chars_pl": 23,
+   "pl": "i jego najbardziej obawianego skrzydła."
+  },
+  {
+   "start": 1014.96,
+   "end": 1016.64,
+   "es": "Un grupo de choque al que llamaban",
+   "id": 430,
+   "slot": 1.6,
+   "max_chars_pl": 22,
+   "pl": "Grupy uderzeniowej zwanej"
+  },
+  {
+   "start": 1016.64,
+   "end": 1018.22,
+   "es": "la Tropa del Infierno.",
+   "id": 431,
+   "slot": 1.5,
+   "max_chars_pl": 21,
+   "pl": "Tropa del Infierno, Oddział Piekieł."
+  },
+  {
+   "start": 1018.22,
+   "end": 1020.56,
+   "es": "Un nombre que no era exageración.",
+   "id": 432,
+   "slot": 2.26,
+   "max_chars_pl": 31,
+   "pl": "Nazwa, która nie była przesadą."
+  },
+  {
+   "start": 1020.56,
+   "end": 1023.02,
+   "es": "Y dentro de esa tropa había niños.",
+   "id": 433,
+   "slot": 2.38,
+   "max_chars_pl": 33,
+   "pl": "A w tym oddziale były dzieci."
+  },
+  {
+   "start": 1023.02,
+   "end": 1024.28,
+   "es": "Muchos niños.",
+   "id": 434,
+   "slot": 1.18,
+   "max_chars_pl": 16,
+   "pl": "Bardzo wiele dzieci."
+  },
+  {
+   "start": 1024.28,
+   "end": 1026.6,
+   "es": "Reclutados, según reportó la prensa",
+   "id": 435,
+   "slot": 2.24,
+   "max_chars_pl": 31,
+   "pl": "Zwerbowane, jak podała prasa,"
+  },
+  {
+   "start": 1026.6,
+   "end": 1028.9,
+   "es": "citando a la Fiscalía de Tamaulipas",
+   "id": 436,
+   "slot": 2.22,
+   "max_chars_pl": 31,
+   "pl": "powołując się na prokuraturę Tamaulipas,"
+  },
+  {
+   "start": 1028.9,
+   "end": 1031.18,
+   "es": "en las colonias populares de la ciudad,",
+   "id": 437,
+   "slot": 2.2,
+   "max_chars_pl": 30,
+   "pl": "w biednych dzielnicach miasta,"
+  },
+  {
+   "start": 1031.18,
+   "end": 1033.76,
+   "es": "donde el crimen organizado entra a las secundarias",
+   "id": 438,
+   "slot": 2.5,
+   "max_chars_pl": 35,
+   "pl": "gdzie zorganizowana przestępczość wchodzi do gimnazjów"
+  },
+  {
+   "start": 1033.76,
+   "end": 1036.3,
+   "es": "y a los bachilleratos a buscar carne nueva.",
+   "id": 439,
+   "slot": 2.46,
+   "max_chars_pl": 34,
+   "pl": "i liceów, żeby szukać świeżego mięsa."
+  },
+  {
+   "start": 1036.3,
+   "end": 1038.24,
+   "es": "Uno de esos chicos pasó a la historia",
+   "id": 440,
+   "slot": 1.86,
+   "max_chars_pl": 26,
+   "pl": "Jeden z tych chłopców przeszedł do historii"
+  },
+  {
+   "start": 1038.24,
+   "end": 1040.34,
+   "es": "con el apodo de Juanito Pistolas.",
+   "id": 441,
+   "slot": 2.02,
+   "max_chars_pl": 28,
+   "pl": "pod przydomkiem Juanito Pistolas."
+  },
+  {
+   "start": 1040.34,
+   "end": 1043.0,
+   "es": "Y su historia, aunque mezcla datos confirmados",
+   "id": 442,
+   "slot": 2.58,
+   "max_chars_pl": 36,
+   "pl": "A jego historia, choć miesza potwierdzone dane"
+  },
+  {
+   "start": 1043.0,
+   "end": 1045.16,
+   "es": "con rumores de redes sociales,",
+   "id": 443,
+   "slot": 2.08,
+   "max_chars_pl": 29,
+   "pl": "z plotkami z mediów społecznościowych,"
+  },
+  {
+   "start": 1045.16,
+   "end": 1046.96,
+   "es": "se volvió el retrato perfecto",
+   "id": 444,
+   "slot": 1.72,
+   "max_chars_pl": 24,
+   "pl": "stała się idealnym portretem"
+  },
+  {
+   "start": 1046.96,
+   "end": 1049.26,
+   "es": "de lo que es la Tropa del Infierno.",
+   "id": 445,
+   "slot": 2.22,
+   "max_chars_pl": 31,
+   "pl": "tego, czym jest Oddział Piekieł."
+  },
+  {
+   "start": 1049.26,
+   "end": 1050.98,
+   "es": "Vamos con lo confirmado.",
+   "id": 446,
+   "slot": 1.64,
+   "max_chars_pl": 22,
+   "pl": "Zacznijmy od potwierdzonych faktów."
+  },
+  {
+   "start": 1050.98,
+   "end": 1053.44,
+   "es": "Según registros de la Fiscalía de Tamaulipas",
+   "id": 447,
+   "slot": 2.38,
+   "max_chars_pl": 33,
+   "pl": "Według rejestrów prokuratury Tamaulipas"
+  },
+  {
+   "start": 1053.44,
+   "end": 1054.98,
+   "es": "citados por milenio,",
+   "id": 448,
+   "slot": 1.46,
+   "max_chars_pl": 20,
+   "pl": "cytowanych przez dziennik Milenio"
+  },
+  {
+   "start": 1054.98,
+   "end": 1057.54,
+   "es": "fue detenido en el año 2016,",
+   "id": 449,
+   "slot": 2.48,
+   "max_chars_pl": 34,
+   "pl": "został zatrzymany w dwa tysiące szesnastym roku,"
+  },
+  {
+   "start": 1057.54,
+   "end": 1059.36,
+   "es": "cuando tenía 13 años.",
+   "id": 450,
+   "slot": 1.74,
+   "max_chars_pl": 24,
+   "pl": "gdy miał trzynaście lat."
+  },
+  {
+   "start": 1059.36,
+   "end": 1060.2,
+   "es": "13.",
+   "id": 451,
+   "slot": 0.76,
+   "max_chars_pl": 10,
+   "pl": "Trzynaście."
+  },
+  {
+   "start": 1060.2,
+   "end": 1062.6,
+   "es": "Y como era menor, lo liberaron.",
+   "id": 452,
+   "slot": 2.32,
+   "max_chars_pl": 32,
+   "pl": "A ponieważ był nieletni, wypuszczono go."
+  },
+  {
+   "start": 1062.6,
+   "end": 1065.78,
+   "es": "Volvió a las calles, volvió al grupo y subió.",
+   "id": 453,
+   "slot": 3.1,
+   "max_chars_pl": 43,
+   "pl": "Wrócił na ulice, wrócił do grupy i awansował."
+  },
+  {
+   "start": 1065.78,
+   "end": 1068.72,
+   "es": "Dentro de su célula llegó a tener grado de comandante.",
+   "id": 454,
+   "slot": 2.86,
+   "max_chars_pl": 40,
+   "pl": "W swojej komórce dosłużył się stopnia komendanta."
+  },
+  {
+   "start": 1068.72,
+   "end": 1072.56,
+   "es": "Un comandante adolescente al mando de otros adolescentes.",
+   "id": 455,
+   "slot": 3.76,
+   "max_chars_pl": 52,
+   "pl": "Nastoletni komendant dowodzący innymi nastolatkami."
+  },
+  {
+   "start": 1072.56,
+   "end": 1074.48,
+   "es": "Ahora lo que no está confirmado",
+   "id": 456,
+   "slot": 1.84,
+   "max_chars_pl": 25,
+   "pl": "Teraz to, co nie jest potwierdzone,"
+  },
+  {
+   "start": 1074.48,
+   "end": 1076.08,
+   "es": "y que decimos como versión.",
+   "id": 457,
+   "slot": 1.52,
+   "max_chars_pl": 21,
+   "pl": "i co podajemy jako wersję."
+  },
+  {
+   "start": 1076.08,
+   "end": 1078.24,
+   "es": "En redes sociales circuló durante años",
+   "id": 458,
+   "slot": 2.08,
+   "max_chars_pl": 29,
+   "pl": "W sieci przez lata krążyła informacja,"
+  },
+  {
+   "start": 1078.24,
+   "end": 1080.36,
+   "es": "que se había unido al cártel a los 13",
+   "id": 459,
+   "slot": 2.04,
+   "max_chars_pl": 28,
+   "pl": "że dołączył do kartelu w wieku trzynastu lat,"
+  },
+  {
+   "start": 1080.36,
+   "end": 1082.32,
+   "es": "y hasta un narcocorrido lo bautizó",
+   "id": 460,
+   "slot": 1.88,
+   "max_chars_pl": 26,
+   "pl": "a nawet narkokorrido nadało mu przydomek"
+  },
+  {
+   "start": 1082.32,
+   "end": 1085.26,
+   "es": "Comandante Chiquitín, el Comandante Chiquito.",
+   "id": 461,
+   "slot": 2.86,
+   "max_chars_pl": 40,
+   "pl": "Comandante Chiquitín, Mały Komendant."
+  },
+  {
+   "start": 1085.26,
+   "end": 1088.08,
+   "es": "Una canción para celebrar a un niño con un rifle.",
+   "id": 462,
+   "slot": 2.74,
+   "max_chars_pl": 38,
+   "pl": "Piosenka na cześć dziecka z karabinem."
+  },
+  {
+   "start": 1088.08,
+   "end": 1091.5,
+   "es": "También circuló, de una sola fuente y sin confirmación,",
+   "id": 463,
+   "slot": 3.34,
+   "max_chars_pl": 46,
+   "pl": "Krążyło też, z jednego źródła i bez potwierdzenia,"
+  },
+  {
+   "start": 1091.5,
+   "end": 1093.92,
+   "es": "que sus propios padres habrían sido asesinados",
+   "id": 464,
+   "slot": 2.34,
+   "max_chars_pl": 32,
+   "pl": "że jego rodzice mieli zostać zamordowani"
+  },
+  {
+   "start": 1093.92,
+   "end": 1096.3,
+   "es": "por el mismo cártel que lo reclutó.",
+   "id": 465,
+   "slot": 2.3,
+   "max_chars_pl": 32,
+   "pl": "przez ten sam kartel, który go zwerbował."
+  },
+  {
+   "start": 1096.3,
+   "end": 1099.72,
+   "es": "Si eso fuera cierto, sería el colmo de la crueldad.",
+   "id": 466,
+   "slot": 3.34,
+   "max_chars_pl": 46,
+   "pl": "Gdyby to była prawda, byłoby to szczyt okrucieństwa."
+  },
+  {
+   "start": 1099.72,
+   "end": 1101.2,
+   "es": "El grupo que lo dejó huérfano",
+   "id": 467,
+   "slot": 1.4,
+   "max_chars_pl": 19,
+   "pl": "Grupa, która osierociła go,"
+  },
+  {
+   "start": 1101.2,
+   "end": 1103.5,
+   "es": "fue el mismo que lo adoptó como arma.",
+   "id": 468,
+   "slot": 2.22,
+   "max_chars_pl": 31,
+   "pl": "była tą samą, która przyjęła go jako broń."
+  },
+  {
+   "start": 1103.5,
+   "end": 1105.48,
+   "es": "Pero lo marcamos como lo que es.",
+   "id": 469,
+   "slot": 1.9,
+   "max_chars_pl": 26,
+   "pl": "Ale oznaczamy to tak, czym jest."
+  },
+  {
+   "start": 1105.48,
+   "end": 1107.22,
+   "es": "Un dato sin verificar.",
+   "id": 470,
+   "slot": 1.66,
+   "max_chars_pl": 23,
+   "pl": "Niezweryfikowaną informacją."
+  },
+  {
+   "start": 1107.22,
+   "end": 1109.72,
+   "es": "Lo que sí es un hecho es cómo terminó.",
+   "id": 471,
+   "slot": 2.42,
+   "max_chars_pl": 33,
+   "pl": "Faktem jest natomiast to, jak skończył."
+  },
+  {
+   "start": 1109.72,
+   "end": 1112.0,
+   "es": "Agosto de 2019.",
+   "id": 472,
+   "slot": 2.2,
+   "max_chars_pl": 30,
+   "pl": "Sierpień dwa tysiące dziewiętnastego roku."
+  },
+  {
+   "start": 1112.0,
+   "end": 1115.0,
+   "es": "En un enfrentamiento con la Policía Estatal de Tamaulipas",
+   "id": 473,
+   "slot": 2.92,
+   "max_chars_pl": 40,
+   "pl": "W starciu z policją stanową Tamaulipas"
+  },
+  {
+   "start": 1115.0,
+   "end": 1116.08,
+   "es": "en Nuevo Laredo,",
+   "id": 474,
+   "slot": 1.0,
+   "max_chars_pl": 14,
+   "pl": "w Nuevo Laredo"
+  },
+  {
+   "start": 1116.08,
+   "end": 1117.92,
+   "es": "Juanito Pistolas murió.",
+   "id": 475,
+   "slot": 1.76,
+   "max_chars_pl": 24,
+   "pl": "Juanito Pistolas zginął."
+  },
+  {
+   "start": 1117.92,
+   "end": 1119.62,
+   "es": "Tenía 16 años.",
+   "id": 476,
+   "slot": 1.62,
+   "max_chars_pl": 22,
+   "pl": "Miał szesnaście lat."
+  },
+  {
+   "start": 1119.62,
+   "end": 1121.88,
+   "es": "La descripción de su muerte es brutal.",
+   "id": 477,
+   "slot": 2.18,
+   "max_chars_pl": 30,
+   "pl": "Opis jego śmierci jest brutalny."
+  },
+  {
+   "start": 1121.88,
+   "end": 1124.98,
+   "es": "Y la damos solo para que nadie romantice este final.",
+   "id": 478,
+   "slot": 3.02,
+   "max_chars_pl": 42,
+   "pl": "Podajemy go tylko po to, żeby nikt nie romantyzował tego końca."
+  },
+  {
+   "start": 1124.98,
+   "end": 1128.74,
+   "es": "El cuerpo quedó prácticamente decapitado por los disparos.",
+   "id": 479,
+   "slot": 3.68,
+   "max_chars_pl": 51,
+   "pl": "Ciało zostało praktycznie pozbawione głowy przez strzały."
+  },
+  {
+   "start": 1128.74,
+   "end": 1131.36,
+   "es": "Así terminó el Comandante Chiquitín.",
+   "id": 480,
+   "slot": 2.54,
+   "max_chars_pl": 35,
+   "pl": "Tak skończył Comandante Chiquitín."
+  },
+  {
+   "start": 1131.36,
+   "end": 1133.22,
+   "es": "No en una balada heroica.",
+   "id": 481,
+   "slot": 1.78,
+   "max_chars_pl": 24,
+   "pl": "Nie w bohaterskiej balladzie."
+  },
+  {
+   "start": 1133.22,
+   "end": 1136.2,
+   "es": "En el piso, a los 16, destrozado.",
+   "id": 482,
+   "slot": 2.9,
+   "max_chars_pl": 40,
+   "pl": "Na ziemi, w wieku szesnastu lat, zmasakrowany."
+  },
+  {
+   "start": 1136.2,
+   "end": 1137.84,
+   "es": "Piensa en la línea de tiempo.",
+   "id": 483,
+   "slot": 1.56,
+   "max_chars_pl": 21,
+   "pl": "Pomyśl o osi czasu."
+  },
+  {
+   "start": 1137.84,
+   "end": 1141.54,
+   "es": "A los 13 lo detuvieron por primera vez y lo soltaron.",
+   "id": 484,
+   "slot": 3.62,
+   "max_chars_pl": 50,
+   "pl": "W wieku trzynastu lat zatrzymano go po raz pierwszy i wypuszczono."
+  },
+  {
+   "start": 1141.54,
+   "end": 1143.92,
+   "es": "A los 16 estaba muerto.",
+   "id": 485,
+   "slot": 2.3,
+   "max_chars_pl": 32,
+   "pl": "W wieku szesnastu był martwy."
+  },
+  {
+   "start": 1143.92,
+   "end": 1145.52,
+   "es": "Toda su carrera criminal,",
+   "id": 486,
+   "slot": 1.52,
+   "max_chars_pl": 21,
+   "pl": "Cała jego przestępcza kariera,"
+  },
+  {
+   "start": 1145.52,
+   "end": 1147.76,
+   "es": "desde el reclutamiento hasta la tumba,",
+   "id": 487,
+   "slot": 2.16,
+   "max_chars_pl": 30,
+   "pl": "od werbunku aż po grób,"
+  },
+  {
+   "start": 1147.76,
+   "end": 1150.6,
+   "es": "cupo en los años en que un chico normal pasa de primero",
+   "id": 488,
+   "slot": 2.76,
+   "max_chars_pl": 38,
+   "pl": "zmieściła się w latach, gdy zwykły chłopak przechodzi z pierwszej"
+  },
+  {
+   "start": 1150.6,
+   "end": 1153.02,
+   "es": "de secundaria a primero de preparatoria.",
+   "id": 489,
+   "slot": 2.34,
+   "max_chars_pl": 32,
+   "pl": "klasy gimnazjum do pierwszej klasy liceum."
+  },
+  {
+   "start": 1153.02,
+   "end": 1156.1,
+   "es": "Eso es la vida útil de la que hablábamos al principio.",
+   "id": 490,
+   "slot": 3.0,
+   "max_chars_pl": 42,
+   "pl": "To jest ten okres użyteczności, o którym mówiliśmy na początku."
+  },
+  {
+   "start": 1156.1,
+   "end": 1157.62,
+   "es": "No es una metáfora.",
+   "id": 491,
+   "slot": 1.44,
+   "max_chars_pl": 20,
+   "pl": "To nie metafora."
+  },
+  {
+   "start": 1157.62,
+   "end": 1158.66,
+   "es": "Es esto.",
+   "id": 492,
+   "slot": 0.96,
+   "max_chars_pl": 13,
+   "pl": "To właśnie to."
+  },
+  {
+   "start": 1158.66,
+   "end": 1160.46,
+   "es": "Y mientras su cuerpo se enfriaba,",
+   "id": 493,
+   "slot": 1.72,
+   "max_chars_pl": 24,
+   "pl": "A gdy jego ciało stygło,"
+  },
+  {
+   "start": 1160.46,
+   "end": 1162.44,
+   "es": "en algún teléfono ya sonaba el corrido",
+   "id": 494,
+   "slot": 1.9,
+   "max_chars_pl": 26,
+   "pl": "w jakimś telefonie już grało korrido,"
+  },
+  {
+   "start": 1162.44,
+   "end": 1164.26,
+   "es": "que lo convertía en leyenda.",
+   "id": 495,
+   "slot": 1.74,
+   "max_chars_pl": 24,
+   "pl": "które robiło z niego legendę."
+  },
+  {
+   "start": 1164.26,
+   "end": 1166.2,
+   "es": "Y en alguna colonia de Nuevo Laredo,",
+   "id": 496,
+   "slot": 1.86,
+   "max_chars_pl": 26,
+   "pl": "A w jakiejś dzielnicy Nuevo Laredo"
+  },
+  {
+   "start": 1166.2,
+   "end": 1169.1,
+   "es": "ya había otro chico de 13 escuchándolo,",
+   "id": 497,
+   "slot": 2.82,
+   "max_chars_pl": 39,
+   "pl": "już był inny trzynastolatek, który go słuchał,"
+  },
+  {
+   "start": 1169.1,
+   "end": 1172.18,
+   "es": "pensando que él también podía ser comandante.",
+   "id": 498,
+   "slot": 3.0,
+   "max_chars_pl": 42,
+   "pl": "myśląc, że on też może zostać komendantem."
+  },
+  {
+   "start": 1172.18,
+   "end": 1175.12,
+   "es": "La tropa del infierno no se quedó sin soldados.",
+   "id": 499,
+   "slot": 2.86,
+   "max_chars_pl": 40,
+   "pl": "Oddziałowi Piekieł nie zabrakło żołnierzy."
+  },
+  {
+   "start": 1175.12,
+   "end": 1176.32,
+   "es": "Nunca se queda.",
+   "id": 500,
+   "slot": 1.12,
+   "max_chars_pl": 15,
+   "pl": "Nigdy ich nie brakuje."
+  },
+  {
+   "start": 1176.32,
+   "end": 1178.98,
+   "es": "Juanito Pistolas es el número dos.",
+   "id": 501,
+   "slot": 2.58,
+   "max_chars_pl": 36,
+   "pl": "Juanito Pistolas to numer dwa."
+  },
+  {
+   "start": 1178.98,
+   "end": 1181.56,
+   "es": "Pero el número uno es el niño que le puso cara",
+   "id": 502,
+   "slot": 2.5,
+   "max_chars_pl": 35,
+   "pl": "Ale numer jeden to dziecko, które nadało twarz"
+  },
+  {
+   "start": 1181.56,
+   "end": 1184.48,
+   "es": "a todo este horror ante las cámaras del mundo.",
+   "id": 503,
+   "slot": 2.84,
+   "max_chars_pl": 39,
+   "pl": "całej tej grozie przed kamerami całego świata."
+  },
+  {
+   "start": 1184.48,
+   "end": 1187.52,
+   "es": "El que confesó haber aprendido a matar a los 11.",
+   "id": 504,
+   "slot": 2.96,
+   "max_chars_pl": 41,
+   "pl": "Ten, który wyznał, że nauczył się zabijać w wieku jedenastu lat."
+  },
+  {
+   "start": 1187.52,
+   "end": 1189.74,
+   "es": "Número uno, el Ponchis.",
+   "id": 505,
+   "slot": 2.14,
+   "max_chars_pl": 29,
+   "pl": "Numer jeden, El Ponchis."
+  },
+  {
+   "start": 1189.74,
+   "end": 1192.0,
+   "es": "Su nombre es Edgar Jiménez Lugo.",
+   "id": 506,
+   "slot": 2.18,
+   "max_chars_pl": 30,
+   "pl": "Nazywa się Edgar Jiménez Lugo."
+  },
+  {
+   "start": 1192.0,
+   "end": 1194.34,
+   "es": "Y a diferencia del resto de esta lista,",
+   "id": 507,
+   "slot": 2.26,
+   "max_chars_pl": 31,
+   "pl": "I w odróżnieniu od reszty z tej listy"
+  },
+  {
+   "start": 1194.34,
+   "end": 1197.8,
+   "es": "su nombre sí es público, porque su caso es viejo.",
+   "id": 508,
+   "slot": 3.38,
+   "max_chars_pl": 47,
+   "pl": "jego imię i nazwisko są publiczne, bo jego sprawa jest stara."
+  },
+  {
+   "start": 1197.8,
+   "end": 1201.18,
+   "es": "Él ya es un adulto y él mismo habló frente a las cámaras.",
+   "id": 509,
+   "slot": 3.3,
+   "max_chars_pl": 46,
+   "pl": "Jest już dorosły i sam mówił przed kamerami."
+  },
+  {
+   "start": 1201.18,
+   "end": 1203.94,
+   "es": "Lo que dijo esa noche de diciembre de 2010,",
+   "id": 510,
+   "slot": 2.68,
+   "max_chars_pl": 37,
+   "pl": "To, co powiedział tamtej nocy w grudniu dwa tysiące dziesiątego,"
+  },
+  {
+   "start": 1203.94,
+   "end": 1206.32,
+   "es": "dio la vuelta al planeta y obligó a medio mundo",
+   "id": 511,
+   "slot": 2.3,
+   "max_chars_pl": 32,
+   "pl": "obiegło planetę i zmusiło pół świata"
+  },
+  {
+   "start": 1206.32,
+   "end": 1208.44,
+   "es": "a mirar algo que prefería ignorar.",
+   "id": 512,
+   "slot": 2.04,
+   "max_chars_pl": 28,
+   "pl": "do spojrzenia na to, co wolało ignorować."
+  },
+  {
+   "start": 1208.44,
+   "end": 1211.04,
+   "es": "Edgar nació en San Diego, California.",
+   "id": 513,
+   "slot": 2.52,
+   "max_chars_pl": 35,
+   "pl": "Edgar urodził się w San Diego w Kalifornii."
+  },
+  {
+   "start": 1211.04,
+   "end": 1214.34,
+   "es": "Era por nacimiento ciudadano estadounidense,",
+   "id": 514,
+   "slot": 3.22,
+   "max_chars_pl": 45,
+   "pl": "Z urodzenia był obywatelem Stanów Zjednoczonych,"
+  },
+  {
+   "start": 1214.34,
+   "end": 1216.62,
+   "es": "pero terminó en Morelos, México.",
+   "id": 515,
+   "slot": 2.2,
+   "max_chars_pl": 30,
+   "pl": "ale wylądował w Morelos w Meksyku."
+  },
+  {
+   "start": 1216.62,
+   "end": 1218.68,
+   "es": "Y ahí, siendo apenas un niño,",
+   "id": 516,
+   "slot": 1.98,
+   "max_chars_pl": 27,
+   "pl": "I tam, będąc zaledwie dzieckiem,"
+  },
+  {
+   "start": 1218.68,
+   "end": 1221.22,
+   "es": "lo absorbió el Cártel del Pacífico Sur.",
+   "id": 517,
+   "slot": 2.46,
+   "max_chars_pl": 34,
+   "pl": "wciągnął go Kartel Południowego Pacyfiku."
+  },
+  {
+   "start": 1221.22,
+   "end": 1224.16,
+   "es": "Según su propia confesión, aprendió a torturar",
+   "id": 518,
+   "slot": 2.86,
+   "max_chars_pl": 40,
+   "pl": "Według jego własnego wyznania nauczył się torturować"
+  },
+  {
+   "start": 1224.16,
+   "end": 1226.3,
+   "es": "y a ejecutar a los 11 años.",
+   "id": 519,
+   "slot": 2.06,
+   "max_chars_pl": 28,
+   "pl": "i zabijać w wieku jedenastu lat."
+  },
+  {
+   "start": 1226.3,
+   "end": 1227.12,
+   "es": "11.",
+   "id": 520,
+   "slot": 0.74,
+   "max_chars_pl": 10,
+   "pl": "Jedenaście."
+  },
+  {
+   "start": 1227.12,
+   "end": 1230.12,
+   "es": "En diciembre de 2010, la Marina lo detuvo",
+   "id": 521,
+   "slot": 2.92,
+   "max_chars_pl": 40,
+   "pl": "W grudniu dwa tysiące dziesiątego roku marynarka go zatrzymała,"
+  },
+  {
+   "start": 1230.12,
+   "end": 1232.34,
+   "es": "cuando intentaba volar a Tijuana.",
+   "id": 522,
+   "slot": 2.14,
+   "max_chars_pl": 29,
+   "pl": "gdy próbował odlecieć do Tijuany."
+  },
+  {
+   "start": 1232.34,
+   "end": 1234.2,
+   "es": "Tenía 14 años.",
+   "id": 523,
+   "slot": 1.78,
+   "max_chars_pl": 24,
+   "pl": "Miał czternaście lat."
+  },
+  {
+   "start": 1234.2,
+   "end": 1237.18,
+   "es": "Y lo que ocurrió después quedó grabado para siempre.",
+   "id": 524,
+   "slot": 2.9,
+   "max_chars_pl": 40,
+   "pl": "A to, co wydarzyło się potem, zostało nagrane na zawsze."
+  },
+  {
+   "start": 1237.18,
+   "end": 1239.26,
+   "es": "Frente a un enjambre de periodistas,",
+   "id": 525,
+   "slot": 2.0,
+   "max_chars_pl": 28,
+   "pl": "Przed rojem dziennikarzy,"
+  },
+  {
+   "start": 1239.26,
+   "end": 1242.56,
+   "es": "con cara de niño y voz de niño, Edgar confesó.",
+   "id": 526,
+   "slot": 3.22,
+   "max_chars_pl": 45,
+   "pl": "z twarzą dziecka i głosem dziecka, Edgar się przyznał."
+  },
+  {
+   "start": 1242.56,
+   "end": 1245.12,
+   "es": "Dijo que había degollado a cuatro personas.",
+   "id": 527,
+   "slot": 2.48,
+   "max_chars_pl": 34,
+   "pl": "Powiedział, że poderżnął gardło czterem osobom."
+  },
+  {
+   "start": 1245.12,
+   "end": 1247.46,
+   "es": "Dijo que trabajaba para el Cártel.",
+   "id": 528,
+   "slot": 2.26,
+   "max_chars_pl": 31,
+   "pl": "Powiedział, że pracował dla kartelu."
+  },
+  {
+   "start": 1247.46,
+   "end": 1250.04,
+   "es": "Explicó, con una calma que daba más miedo",
+   "id": 529,
+   "slot": 2.5,
+   "max_chars_pl": 35,
+   "pl": "Wyjaśnił, ze spokojem, który przerażał bardziej"
+  },
+  {
+   "start": 1250.04,
+   "end": 1252.9,
+   "es": "que cualquier grito, que lo drogaban antes de matar",
+   "id": 530,
+   "slot": 2.78,
+   "max_chars_pl": 38,
+   "pl": "niż jakikolwiek krzyk, że odurzano go przed zabijaniem"
+  },
+  {
+   "start": 1252.9,
+   "end": 1254.82,
+   "es": "y que le decían que si no lo hacía,",
+   "id": 531,
+   "slot": 1.84,
+   "max_chars_pl": 25,
+   "pl": "i że mówiono mu, że jeśli tego nie zrobi,"
+  },
+  {
+   "start": 1254.82,
+   "end": 1256.44,
+   "es": "lo matarían a él.",
+   "id": 532,
+   "slot": 1.54,
+   "max_chars_pl": 21,
+   "pl": "zabiją jego samego."
+  },
+  {
+   "start": 1256.44,
+   "end": 1260.36,
+   "es": "Los degollé, dijo, así, sin dramatismo,",
+   "id": 533,
+   "slot": 3.84,
+   "max_chars_pl": 53,
+   "pl": "Poderżnąłem im gardła, powiedział, tak, bez dramatyzmu,"
+  },
+  {
+   "start": 1260.36,
+   "end": 1261.96,
+   "es": "como si hablara del clima.",
+   "id": 534,
+   "slot": 1.52,
+   "max_chars_pl": 21,
+   "pl": "jakby mówił o pogodzie."
+  },
+  {
+   "start": 1261.96,
+   "end": 1265.0,
+   "es": "Ese video es, probablemente, la imagen más cruda",
+   "id": 535,
+   "slot": 2.96,
+   "max_chars_pl": 41,
+   "pl": "To nagranie to prawdopodobnie najbardziej surowy obraz,"
+  },
+  {
+   "start": 1265.0,
+   "end": 1268.24,
+   "es": "que ha dado el crimen organizado en toda su historia.",
+   "id": 536,
+   "slot": 3.16,
+   "max_chars_pl": 44,
+   "pl": "jaki zorganizowana przestępczość dała w całej swojej historii."
+  },
+  {
+   "start": 1268.24,
+   "end": 1270.52,
+   "es": "No un capo con cadenas de oro.",
+   "id": 537,
+   "slot": 2.2,
+   "max_chars_pl": 30,
+   "pl": "Nie capo w złotych łańcuchach."
+  },
+  {
+   "start": 1270.52,
+   "end": 1272.48,
+   "es": "No una mansión con tigres.",
+   "id": 538,
+   "slot": 1.88,
+   "max_chars_pl": 26,
+   "pl": "Nie rezydencja z tygrysami."
+  },
+  {
+   "start": 1272.48,
+   "end": 1275.78,
+   "es": "Un niño de 14 años explicando, tranquilo,",
+   "id": 539,
+   "slot": 3.22,
+   "max_chars_pl": 45,
+   "pl": "Czternastolatek spokojnie wyjaśniający,"
+  },
+  {
+   "start": 1275.78,
+   "end": 1277.88,
+   "es": "cómo le cortó la cabeza a cuatro hombres",
+   "id": 540,
+   "slot": 2.02,
+   "max_chars_pl": 28,
+   "pl": "jak odciął głowę czterem mężczyznom,"
+  },
+  {
+   "start": 1277.88,
+   "end": 1279.78,
+   "es": "porque un adulto se lo ordenó.",
+   "id": 541,
+   "slot": 1.82,
+   "max_chars_pl": 25,
+   "pl": "bo kazał mu to dorosły."
+  },
+  {
+   "start": 1279.78,
+   "end": 1283.1,
+   "es": "Ahí, en esa calma, está todo el daño.",
+   "id": 542,
+   "slot": 3.24,
+   "max_chars_pl": 45,
+   "pl": "Tam, w tym spokoju, jest cała krzywda."
+  },
+  {
+   "start": 1283.1,
+   "end": 1285.5,
+   "es": "A Edgar no le arruinaron solo la vida.",
+   "id": 543,
+   "slot": 2.32,
+   "max_chars_pl": 32,
+   "pl": "Edgarowi nie zrujnowali tylko życia."
+  },
+  {
+   "start": 1285.5,
+   "end": 1287.24,
+   "es": "Le arruinaron la capacidad de sentir",
+   "id": 544,
+   "slot": 1.66,
+   "max_chars_pl": 23,
+   "pl": "Zrujnowali mu zdolność odczuwania,"
+  },
+  {
+   "start": 1287.24,
+   "end": 1289.3,
+   "es": "que lo que hacía estaba mal.",
+   "id": 545,
+   "slot": 1.98,
+   "max_chars_pl": 27,
+   "pl": "że to, co robił, było złe."
+  },
+  {
+   "start": 1289.3,
+   "end": 1291.18,
+   "es": "Eso se lo hicieron adultos.",
+   "id": 546,
+   "slot": 1.8,
+   "max_chars_pl": 25,
+   "pl": "Zrobili mu to dorośli."
+  },
+  {
+   "start": 1291.18,
+   "end": 1293.16,
+   "es": "A un niño de 11 años.",
+   "id": 547,
+   "slot": 1.9,
+   "max_chars_pl": 26,
+   "pl": "Jedenastoletniemu dziecku."
+  },
+  {
+   "start": 1293.16,
+   "end": 1294.24,
+   "es": "¿Qué pasó con él?",
+   "id": 548,
+   "slot": 1.0,
+   "max_chars_pl": 14,
+   "pl": "Co się z nim stało?"
+  },
+  {
+   "start": 1294.24,
+   "end": 1296.64,
+   "es": "Como era menor, enfrentó la pena máxima",
+   "id": 549,
+   "slot": 2.32,
+   "max_chars_pl": 32,
+   "pl": "Ponieważ był nieletni, groziła mu najwyższa kara,"
+  },
+  {
+   "start": 1296.64,
+   "end": 1299.12,
+   "es": "que la ley de Morelos permitía en ese entonces",
+   "id": 550,
+   "slot": 2.4,
+   "max_chars_pl": 33,
+   "pl": "jaką prawo Morelos wówczas dopuszczało"
+  },
+  {
+   "start": 1299.12,
+   "end": 1301.72,
+   "es": "para un adolescente, tres años.",
+   "id": 551,
+   "slot": 2.52,
+   "max_chars_pl": 35,
+   "pl": "dla nastolatka, trzy lata."
+  },
+  {
+   "start": 1301.72,
+   "end": 1304.8,
+   "es": "Solo tres años por homicidio, secuestro y posesión",
+   "id": 552,
+   "slot": 3.0,
+   "max_chars_pl": 42,
+   "pl": "Zaledwie trzy lata za zabójstwo, porwanie i posiadanie"
+  },
+  {
+   "start": 1304.8,
+   "end": 1306.22,
+   "es": "de droga y armas.",
+   "id": 553,
+   "slot": 1.34,
+   "max_chars_pl": 18,
+   "pl": "narkotyków i broni."
+  },
+  {
+   "start": 1306.22,
+   "end": 1309.32,
+   "es": "En 2013 quedó en libertad y, por ser ciudadano",
+   "id": 554,
+   "slot": 3.02,
+   "max_chars_pl": 42,
+   "pl": "W dwa tysiące trzynastym wyszedł na wolność, a jako obywatel"
+  },
+  {
+   "start": 1309.32,
+   "end": 1312.54,
+   "es": "estadounidense, fue trasladado a Estados Unidos,",
+   "id": 555,
+   "slot": 3.14,
+   "max_chars_pl": 43,
+   "pl": "amerykański został przewieziony do Stanów Zjednoczonych,"
+  },
+  {
+   "start": 1312.54,
+   "end": 1314.68,
+   "es": "donde parte de su familia vivía.",
+   "id": 556,
+   "slot": 2.06,
+   "max_chars_pl": 28,
+   "pl": "gdzie mieszkała część jego rodziny."
+  },
+  {
+   "start": 1314.68,
+   "end": 1317.7,
+   "es": "Algunas fuentes dan fechas distintas de su liberación,",
+   "id": 557,
+   "slot": 2.94,
+   "max_chars_pl": 41,
+   "pl": "Niektóre źródła podają inne daty jego zwolnienia,"
+  },
+  {
+   "start": 1317.7,
+   "end": 1319.66,
+   "es": "así que lo decimos con cautela.",
+   "id": 558,
+   "slot": 1.88,
+   "max_chars_pl": 26,
+   "pl": "więc mówimy to z ostrożnością."
+  },
+  {
+   "start": 1319.66,
+   "end": 1321.84,
+   "es": "Pero la línea general es esa.",
+   "id": 559,
+   "slot": 2.1,
+   "max_chars_pl": 29,
+   "pl": "Ale ogólna linia jest taka."
+  },
+  {
+   "start": 1321.84,
+   "end": 1325.9,
+   "es": "Cumplió una condena corta y desapareció del ojo público.",
+   "id": 560,
+   "slot": 3.98,
+   "max_chars_pl": 55,
+   "pl": "Odsiedział krótki wyrok i zniknął z oczu opinii publicznej."
+  },
+  {
+   "start": 1325.9,
+   "end": 1328.1,
+   "es": "Y aquí viene lo que casi nadie cuenta,",
+   "id": 561,
+   "slot": 2.12,
+   "max_chars_pl": 29,
+   "pl": "A oto, o czym prawie nikt nie mówi,"
+  },
+  {
+   "start": 1328.1,
+   "end": 1329.56,
+   "es": "porque arruina el morbo.",
+   "id": 562,
+   "slot": 1.38,
+   "max_chars_pl": 19,
+   "pl": "bo psuje sensację."
+  },
+  {
+   "start": 1329.56,
+   "end": 1332.12,
+   "es": "El verdadero villano de la historia de El Ponchis",
+   "id": 563,
+   "slot": 2.48,
+   "max_chars_pl": 34,
+   "pl": "Prawdziwym złoczyńcą w historii El Ponchis"
+  },
+  {
+   "start": 1332.12,
+   "end": 1334.16,
+   "es": "nunca fue El Ponchis.",
+   "id": 564,
+   "slot": 1.96,
+   "max_chars_pl": 27,
+   "pl": "nigdy nie był El Ponchis."
+  },
+  {
+   "start": 1334.16,
+   "end": 1336.04,
+   "es": "Fue el hombre que lo reclutó.",
+   "id": 565,
+   "slot": 1.8,
+   "max_chars_pl": 25,
+   "pl": "Był nim człowiek, który go zwerbował."
+  },
+  {
+   "start": 1336.04,
+   "end": 1337.98,
+   "es": "Fueron las hermanas mayores a las que,",
+   "id": 566,
+   "slot": 1.86,
+   "max_chars_pl": 26,
+   "pl": "Były nimi starsze siostry, które,"
+  },
+  {
+   "start": 1337.98,
+   "end": 1340.52,
+   "es": "según las investigaciones, también usaron",
+   "id": 567,
+   "slot": 2.46,
+   "max_chars_pl": 34,
+   "pl": "według śledztw, również wykorzystywano"
+  },
+  {
+   "start": 1340.52,
+   "end": 1342.42,
+   "es": "para deshacerse de los cuerpos.",
+   "id": 568,
+   "slot": 1.82,
+   "max_chars_pl": 25,
+   "pl": "do pozbywania się ciał."
+  },
+  {
+   "start": 1342.42,
+   "end": 1345.04,
+   "es": "Fue un sistema que encontró a un niño sin un padre",
+   "id": 569,
+   "slot": 2.54,
+   "max_chars_pl": 35,
+   "pl": "Był nim system, który znalazł dziecko bez ojca,"
+  },
+  {
+   "start": 1345.04,
+   "end": 1347.34,
+   "es": "que lo cuidara y lo convirtió en herramienta.",
+   "id": 570,
+   "slot": 2.22,
+   "max_chars_pl": 31,
+   "pl": "który by się nim zajął, i zrobił z niego narzędzie."
+  },
+  {
+   "start": 1347.34,
+   "end": 1349.9,
+   "es": "Edgar Jiménez no nació sabiendo de Goyard.",
+   "id": 571,
+   "slot": 2.48,
+   "max_chars_pl": 34,
+   "pl": "Edgar nie urodził się, umiejąc podrzynać gardła."
+  },
+  {
+   "start": 1349.9,
+   "end": 1351.04,
+   "es": "Alguien le enseñó.",
+   "id": 572,
+   "slot": 1.06,
+   "max_chars_pl": 14,
+   "pl": "Ktoś go tego nauczył."
+  },
+  {
+   "start": 1351.04,
+   "end": 1353.56,
+   "es": "Y ese alguien contaba exactamente con que,",
+   "id": 573,
+   "slot": 2.44,
+   "max_chars_pl": 34,
+   "pl": "I ten ktoś liczył dokładnie na to, że"
+  },
+  {
+   "start": 1353.56,
+   "end": 1356.64,
+   "es": "si el niño caía, caería el niño y no él.",
+   "id": 574,
+   "slot": 3.0,
+   "max_chars_pl": 42,
+   "pl": "jeśli dziecko wpadnie, wpadnie dziecko, a nie on."
+  },
+  {
+   "start": 1356.64,
+   "end": 1358.46,
+   "es": "Hoy, si las fuentes son correctas,",
+   "id": 575,
+   "slot": 1.74,
+   "max_chars_pl": 24,
+   "pl": "Dziś, jeśli źródła są trafne,"
+  },
+  {
+   "start": 1358.46,
+   "end": 1361.62,
+   "es": "Edgar rondaría los 26 o 27 años.",
+   "id": 576,
+   "slot": 3.08,
+   "max_chars_pl": 43,
+   "pl": "Edgar miałby około dwudziestu sześciu lub dwudziestu siedmiu lat."
+  },
+  {
+   "start": 1361.62,
+   "end": 1362.66,
+   "es": "¿Qué es de su vida?",
+   "id": 577,
+   "slot": 0.96,
+   "max_chars_pl": 13,
+   "pl": "Co się z nim stało?"
+  },
+  {
+   "start": 1362.66,
+   "end": 1363.52,
+   "es": "¿Dónde está?",
+   "id": 578,
+   "slot": 0.78,
+   "max_chars_pl": 10,
+   "pl": "Gdzie jest?"
+  },
+  {
+   "start": 1363.52,
+   "end": 1365.06,
+   "es": "¿Si logró reconstruirse?",
+   "id": 579,
+   "slot": 1.46,
+   "max_chars_pl": 20,
+   "pl": "Czy zdołał się odbudować?"
+  },
+  {
+   "start": 1365.06,
+   "end": 1366.82,
+   "es": "¿O si el daño fue irreversible?",
+   "id": 580,
+   "slot": 1.68,
+   "max_chars_pl": 23,
+   "pl": "A może krzywda była nieodwracalna?"
+  },
+  {
+   "start": 1366.82,
+   "end": 1369.92,
+   "es": "No hay una fuente reciente y confiable que lo diga.",
+   "id": 581,
+   "slot": 3.02,
+   "max_chars_pl": 42,
+   "pl": "Nie ma świeżego i wiarygodnego źródła, które by to mówiło."
+  },
+  {
+   "start": 1369.92,
+   "end": 1371.66,
+   "es": "Y quizá sea mejor así.",
+   "id": 582,
+   "slot": 1.66,
+   "max_chars_pl": 23,
+   "pl": "I może tak jest lepiej."
+  },
+  {
+   "start": 1371.66,
+   "end": 1373.52,
+   "es": "Quizá lo único decente que podemos",
+   "id": 583,
+   "slot": 1.78,
+   "max_chars_pl": 24,
+   "pl": "Może jedyne, co możemy"
+  },
+  {
+   "start": 1373.52,
+   "end": 1375.72,
+   "es": "desearle al niño que fue El Ponchis",
+   "id": 584,
+   "slot": 2.12,
+   "max_chars_pl": 29,
+   "pl": "życzyć dziecku, którym był El Ponchis,"
+  },
+  {
+   "start": 1375.72,
+   "end": 1378.62,
+   "es": "es precisamente el silencio, el anonimato,",
+   "id": 585,
+   "slot": 2.82,
+   "max_chars_pl": 39,
+   "pl": "jest właśnie cisza, anonimowość,"
+  },
+  {
+   "start": 1378.62,
+   "end": 1382.26,
+   "es": "la oportunidad de ser, por fin, alguien que nadie reconozca.",
+   "id": 586,
+   "slot": 3.56,
+   "max_chars_pl": 49,
+   "pl": "szansa, by wreszcie być kimś, kogo nikt nie rozpoznaje."
+  },
+  {
+   "start": 1382.26,
+   "end": 1385.48,
+   "es": "Es el número uno de esta lista no por ser el más sanguinario,",
+   "id": 587,
+   "slot": 3.14,
+   "max_chars_pl": 43,
+   "pl": "Jest numerem jeden nie dlatego, że był najkrwawszy,"
+  },
+  {
+   "start": 1385.48,
+   "end": 1388.0,
+   "es": "sino por ser el más joven que lo confesó todo",
+   "id": 588,
+   "slot": 2.44,
+   "max_chars_pl": 34,
+   "pl": "ale dlatego, że był najmłodszy i przyznał się do wszystkiego,"
+  },
+  {
+   "start": 1388.0,
+   "end": 1389.62,
+   "es": "y por haberle puesto al mundo,",
+   "id": 589,
+   "slot": 1.54,
+   "max_chars_pl": 21,
+   "pl": "i dlatego, że pokazał światu,"
+  },
+  {
+   "start": 1389.62,
+   "end": 1393.76,
+   "es": "con su carita de 14 años, un espejo que nadie quería ver.",
+   "id": 590,
+   "slot": 4.06,
+   "max_chars_pl": 56,
+   "pl": "ze swoją czternastoletnią twarzyczką, lustro, w które nikt nie chciał patrzeć."
+  },
+  {
+   "start": 1393.76,
+   "end": 1395.56,
+   "es": "Ya conociste a los cinco.",
+   "id": 591,
+   "slot": 1.72,
+   "max_chars_pl": 24,
+   "pl": "Poznałeś już wszystkich pięciu."
+  },
+  {
+   "start": 1395.56,
+   "end": 1397.58,
+   "es": "Ahora mira lo que tienen en común,",
+   "id": 592,
+   "slot": 1.94,
+   "max_chars_pl": 27,
+   "pl": "Teraz zobacz, co mają wspólnego,"
+  },
+  {
+   "start": 1397.58,
+   "end": 1400.44,
+   "es": "porque ahí está la verdadera lección de todo esto.",
+   "id": 593,
+   "slot": 2.78,
+   "max_chars_pl": 38,
+   "pl": "bo tam kryje się prawdziwa lekcja z tego wszystkiego."
+  },
+  {
+   "start": 1400.44,
+   "end": 1403.64,
+   "es": "De estos cinco niños, uno sigue con vida y preso,",
+   "id": 594,
+   "slot": 3.12,
+   "max_chars_pl": 43,
+   "pl": "Z tych pięciu chłopców jeden wciąż żyje i siedzi,"
+  },
+  {
+   "start": 1403.64,
+   "end": 1406.42,
+   "es": "esperando una justicia que lo trata como menor.",
+   "id": 595,
+   "slot": 2.7,
+   "max_chars_pl": 37,
+   "pl": "czekając na sprawiedliwość, która traktuje go jak nieletniego."
+  },
+  {
+   "start": 1406.42,
+   "end": 1409.84,
+   "es": "Dos murieron acribillados antes de cumplir los 17.",
+   "id": 596,
+   "slot": 3.34,
+   "max_chars_pl": 46,
+   "pl": "Dwóch zginęło od kul, zanim skończyli siedemnaście lat."
+  },
+  {
+   "start": 1409.84,
+   "end": 1412.88,
+   "es": "Uno carga con una docena de muertes a los 14.",
+   "id": 597,
+   "slot": 2.96,
+   "max_chars_pl": 41,
+   "pl": "Jeden dźwiga na sobie tuzin zabójstw w wieku czternastu lat."
+  },
+  {
+   "start": 1412.88,
+   "end": 1415.42,
+   "es": "Y el más famoso cumplió apenas tres años",
+   "id": 598,
+   "slot": 2.46,
+   "max_chars_pl": 34,
+   "pl": "A najsłynniejszy odsiedział zaledwie trzy lata"
+  },
+  {
+   "start": 1415.42,
+   "end": 1417.38,
+   "es": "y se perdió en el anonimato.",
+   "id": 599,
+   "slot": 1.88,
+   "max_chars_pl": 26,
+   "pl": "i zniknął w anonimowości."
+  },
+  {
+   "start": 1417.38,
+   "end": 1420.64,
+   "es": "Ni uno solo de ellos tuvo lo que se llamaría una vida.",
+   "id": 600,
+   "slot": 3.18,
+   "max_chars_pl": 44,
+   "pl": "Ani jeden z nich nie miał tego, co można by nazwać życiem."
+  },
+  {
+   "start": 1420.64,
+   "end": 1422.98,
+   "es": "Ni uno solo triunfó en el crimen.",
+   "id": 601,
+   "slot": 2.26,
+   "max_chars_pl": 31,
+   "pl": "Żaden z nich nie odniósł sukcesu w przestępczości."
+  },
+  {
+   "start": 1422.98,
+   "end": 1424.84,
+   "es": "El narco no les dio poder.",
+   "id": 602,
+   "slot": 1.78,
+   "max_chars_pl": 24,
+   "pl": "Narkobiznes nie dał im władzy."
+  },
+  {
+   "start": 1424.84,
+   "end": 1428.38,
+   "es": "Les dio una sentencia adelantada y acortada.",
+   "id": 603,
+   "slot": 3.46,
+   "max_chars_pl": 48,
+   "pl": "Dał im wyrok z góry, skrócony."
+  },
+  {
+   "start": 1428.38,
+   "end": 1430.6,
+   "es": "Ese es el dato que los corridos esconden.",
+   "id": 604,
+   "slot": 2.14,
+   "max_chars_pl": 29,
+   "pl": "To jest dana, którą korrido ukrywają."
+  },
+  {
+   "start": 1430.6,
+   "end": 1433.1,
+   "es": "Las canciones te cuentan el ascenso.",
+   "id": 605,
+   "slot": 2.42,
+   "max_chars_pl": 33,
+   "pl": "Piosenki opowiadają o wspinaczce w górę."
+  },
+  {
+   "start": 1433.1,
+   "end": 1435.06,
+   "es": "El chico que llegó a comandante.",
+   "id": 606,
+   "slot": 1.88,
+   "max_chars_pl": 26,
+   "pl": "Chłopak, który został komendantem."
+  },
+  {
+   "start": 1435.06,
+   "end": 1436.44,
+   "es": "El que tenía fama.",
+   "id": 607,
+   "slot": 1.3,
+   "max_chars_pl": 18,
+   "pl": "Ten, który miał sławę."
+  },
+  {
+   "start": 1436.44,
+   "end": 1437.9,
+   "es": "El que daba miedo.",
+   "id": 608,
+   "slot": 1.38,
+   "max_chars_pl": 19,
+   "pl": "Ten, który budził strach."
+  },
+  {
+   "start": 1437.9,
+   "end": 1440.0,
+   "es": "Nunca te cuentan la parte de atrás.",
+   "id": 609,
+   "slot": 2.02,
+   "max_chars_pl": 28,
+   "pl": "Nigdy nie opowiadają o drugiej stronie."
+  },
+  {
+   "start": 1440.0,
+   "end": 1440.92,
+   "es": "La fosa.",
+   "id": 610,
+   "slot": 0.84,
+   "max_chars_pl": 11,
+   "pl": "Dół z ciałami."
+  },
+  {
+   "start": 1440.92,
+   "end": 1441.88,
+   "es": "La celda.",
+   "id": 611,
+   "slot": 0.88,
+   "max_chars_pl": 12,
+   "pl": "Cela."
+  },
+  {
+   "start": 1441.88,
+   "end": 1443.6,
+   "es": "El centro de internamiento.",
+   "id": 612,
+   "slot": 1.64,
+   "max_chars_pl": 22,
+   "pl": "Zakład poprawczy."
+  },
+  {
+   "start": 1443.6,
+   "end": 1445.6,
+   "es": "El cuerpo en la carretera.",
+   "id": 613,
+   "slot": 1.92,
+   "max_chars_pl": 26,
+   "pl": "Ciało na drodze."
+  },
+  {
+   "start": 1445.6,
+   "end": 1447.82,
+   "es": "Porque la parte de atrás no vende.",
+   "id": 614,
+   "slot": 2.14,
+   "max_chars_pl": 29,
+   "pl": "Bo druga strona się nie sprzedaje."
+  },
+  {
+   "start": 1447.82,
+   "end": 1450.76,
+   "es": "Pero la parte de atrás es la única parte real.",
+   "id": 615,
+   "slot": 2.86,
+   "max_chars_pl": 40,
+   "pl": "Ale druga strona to jedyna prawdziwa część."
+  },
+  {
+   "start": 1450.76,
+   "end": 1453.28,
+   "es": "Pensemos en la frialdad del cálculo.",
+   "id": 616,
+   "slot": 2.44,
+   "max_chars_pl": 34,
+   "pl": "Zastanówmy się nad chłodem tej kalkulacji."
+  },
+  {
+   "start": 1453.28,
+   "end": 1456.62,
+   "es": "Para el cártel, estos niños nunca fueron personas.",
+   "id": 617,
+   "slot": 3.26,
+   "max_chars_pl": 45,
+   "pl": "Dla kartelu te dzieci nigdy nie były ludźmi."
+  },
+  {
+   "start": 1456.62,
+   "end": 1458.12,
+   "es": "Fueron inventario.",
+   "id": 618,
+   "slot": 1.42,
+   "max_chars_pl": 19,
+   "pl": "Były zapasem towaru."
+  },
+  {
+   "start": 1458.12,
+   "end": 1460.18,
+   "es": "Un niño cuesta menos que un adulto.",
+   "id": 619,
+   "slot": 1.98,
+   "max_chars_pl": 27,
+   "pl": "Dziecko kosztuje mniej niż dorosły."
+  },
+  {
+   "start": 1460.18,
+   "end": 1462.26,
+   "es": "No puede ser juzgado como adulto.",
+   "id": 620,
+   "slot": 2.0,
+   "max_chars_pl": 28,
+   "pl": "Nie można go sądzić jak dorosłego."
+  },
+  {
+   "start": 1462.26,
+   "end": 1464.88,
+   "es": "Y si muere, se reemplaza en una tarde.",
+   "id": 621,
+   "slot": 2.54,
+   "max_chars_pl": 35,
+   "pl": "A jeśli zginie, zastępuje się je w jedno popołudnie."
+  },
+  {
+   "start": 1464.88,
+   "end": 1468.24,
+   "es": "El reclutador no pierde el sueño por un chico caído.",
+   "id": 622,
+   "slot": 3.28,
+   "max_chars_pl": 45,
+   "pl": "Werbownik nie traci snu przez upadłego chłopca."
+  },
+  {
+   "start": 1468.24,
+   "end": 1471.76,
+   "es": "Igual que una fábrica no llora por una pieza rota.",
+   "id": 623,
+   "slot": 3.44,
+   "max_chars_pl": 48,
+   "pl": "Tak jak fabryka nie płacze po zepsutej części."
+  },
+  {
+   "start": 1471.76,
+   "end": 1475.22,
+   "es": "Esa es la relación real entre el cártel y el niño sicario.",
+   "id": 624,
+   "slot": 3.38,
+   "max_chars_pl": 47,
+   "pl": "Taka jest prawdziwa relacja między kartelem a dzieckiem-zabójcą."
+  },
+  {
+   "start": 1475.22,
+   "end": 1477.68,
+   "es": "No es una familia, como les prometen.",
+   "id": 625,
+   "slot": 2.38,
+   "max_chars_pl": 33,
+   "pl": "To nie rodzina, jak im obiecują."
+  },
+  {
+   "start": 1477.68,
+   "end": 1480.52,
+   "es": "Es una cadena de montaje que tritura menores y escupe",
+   "id": 626,
+   "slot": 2.76,
+   "max_chars_pl": 38,
+   "pl": "To linia montażowa, która miażdży nieletnich i wypluwa"
+  },
+  {
+   "start": 1480.52,
+   "end": 1483.84,
+   "es": "cadáveres a un ritmo de, según algunas estimaciones,",
+   "id": 627,
+   "slot": 3.24,
+   "max_chars_pl": 45,
+   "pl": "trupy w tempie, według niektórych szacunków,"
+  },
+  {
+   "start": 1483.84,
+   "end": 1485.84,
+   "es": "cuatro nuevos reclutas por hora.",
+   "id": 628,
+   "slot": 1.92,
+   "max_chars_pl": 26,
+   "pl": "czterech nowych rekrutów na godzinę."
+  },
+  {
+   "start": 1485.84,
+   "end": 1488.8,
+   "es": "Y está el mito del retiro, que es quizá la mentira más",
+   "id": 629,
+   "slot": 2.88,
+   "max_chars_pl": 40,
+   "pl": "Jest też mit emerytury, który jest chyba największym"
+  },
+  {
+   "start": 1488.8,
+   "end": 1490.3,
+   "es": "grande que se les vende.",
+   "id": 630,
+   "slot": 1.42,
+   "max_chars_pl": 19,
+   "pl": "kłamstwem, jakie im sprzedają."
+  },
+  {
+   "start": 1490.3,
+   "end": 1493.34,
+   "es": "A estos chicos se les hace creer que un día podrán salir,",
+   "id": 631,
+   "slot": 2.96,
+   "max_chars_pl": 41,
+   "pl": "Tym chłopcom wmawia się, że pewnego dnia będą mogli odejść,"
+  },
+  {
+   "start": 1493.34,
+   "end": 1496.96,
+   "es": "juntar dinero, poner un negocio, volver a casa.",
+   "id": 632,
+   "slot": 3.54,
+   "max_chars_pl": 49,
+   "pl": "uzbierać pieniądze, otworzyć interes, wrócić do domu."
+  },
+  {
+   "start": 1496.96,
+   "end": 1498.56,
+   "es": "Casi nunca ocurre.",
+   "id": 633,
+   "slot": 1.52,
+   "max_chars_pl": 21,
+   "pl": "Prawie nigdy tak nie jest."
+  },
+  {
+   "start": 1498.56,
+   "end": 1502.34,
+   "es": "Del crimen organizado no se renuncia como de un empleo.",
+   "id": 634,
+   "slot": 3.7,
+   "max_chars_pl": 51,
+   "pl": "Ze zorganizowanej przestępczości nie rezygnuje się jak z pracy."
+  },
+  {
+   "start": 1502.34,
+   "end": 1505.56,
+   "es": "El que sabe demasiado, el que vio las caras y las casas de",
+   "id": 635,
+   "slot": 3.14,
+   "max_chars_pl": 43,
+   "pl": "Ten, kto wie za dużo, kto widział twarze i kryjówki,"
+  },
+  {
+   "start": 1505.56,
+   "end": 1508.08,
+   "es": "seguridad, es un riesgo andante.",
+   "id": 636,
+   "slot": 2.44,
+   "max_chars_pl": 34,
+   "pl": "jest chodzącym zagrożeniem."
+  },
+  {
+   "start": 1508.08,
+   "end": 1510.76,
+   "es": "Por eso, muchos de los que intentan dejarlo aparecen",
+   "id": 637,
+   "slot": 2.6,
+   "max_chars_pl": 36,
+   "pl": "Dlatego wielu z tych, którzy próbują odejść, znajdują"
+  },
+  {
+   "start": 1510.76,
+   "end": 1514.08,
+   "es": "muertos poco después, no a manos de un cártel rival,",
+   "id": 638,
+   "slot": 3.24,
+   "max_chars_pl": 45,
+   "pl": "martwych niedługo potem, nie z rąk rywalizującego kartelu,"
+  },
+  {
+   "start": 1514.08,
+   "end": 1516.56,
+   "es": "sino del propio grupo que los reclutó.",
+   "id": 639,
+   "slot": 2.4,
+   "max_chars_pl": 33,
+   "pl": "lecz z rąk własnej grupy, która ich zwerbowała."
+  },
+  {
+   "start": 1516.56,
+   "end": 1519.16,
+   "es": "El niño que entró buscando una familia descubre,",
+   "id": 640,
+   "slot": 2.52,
+   "max_chars_pl": 35,
+   "pl": "Dziecko, które wstąpiło po rodzinę, odkrywa"
+  },
+  {
+   "start": 1519.16,
+   "end": 1523.48,
+   "es": "demasiado tarde, que esa familia lo mata si trata de irse.",
+   "id": 641,
+   "slot": 4.24,
+   "max_chars_pl": 59,
+   "pl": "zbyt późno, że ta rodzina je zabije, jeśli spróbuje odejść."
+  },
+  {
+   "start": 1523.48,
+   "end": 1525.12,
+   "es": "No hay puerta de salida.",
+   "id": 642,
+   "slot": 1.56,
+   "max_chars_pl": 21,
+   "pl": "Nie ma drzwi wyjściowych."
+  },
+  {
+   "start": 1525.12,
+   "end": 1528.74,
+   "es": "Solo la cárcel o la fosa y a los que logran salir con vida,",
+   "id": 643,
+   "slot": 3.54,
+   "max_chars_pl": 49,
+   "pl": "Tylko więzienie albo dół z ciałami, a tych, którzy wyjdą żywi,"
+  },
+  {
+   "start": 1528.74,
+   "end": 1530.44,
+   "es": "como el primero de nuestra lista,",
+   "id": 644,
+   "slot": 1.62,
+   "max_chars_pl": 22,
+   "pl": "jak pierwszy z naszej listy,"
+  },
+  {
+   "start": 1530.44,
+   "end": 1532.64,
+   "es": "los persigue para siempre en la sombra de lo que los",
+   "id": 645,
+   "slot": 2.12,
+   "max_chars_pl": 29,
+   "pl": "na zawsze prześladuje cień tego, do czego"
+  },
+  {
+   "start": 1532.64,
+   "end": 1534.72,
+   "es": "obligaron a hacer siendo niños.",
+   "id": 646,
+   "slot": 2.0,
+   "max_chars_pl": 28,
+   "pl": "zmuszono ich jako dzieci."
+  },
+  {
+   "start": 1534.72,
+   "end": 1538.08,
+   "es": "Y hay una trampa más, la más perversa de todas.",
+   "id": 647,
+   "slot": 3.28,
+   "max_chars_pl": 45,
+   "pl": "I jest jeszcze jedna pułapka, najbardziej perfidna ze wszystkich."
+  },
+  {
+   "start": 1538.08,
+   "end": 1540.9,
+   "es": "Al niño se le hace creer que esto fue su elección,",
+   "id": 648,
+   "slot": 2.74,
+   "max_chars_pl": 38,
+   "pl": "Dziecku wmawia się, że to był jego wybór,"
+  },
+  {
+   "start": 1540.9,
+   "end": 1544.74,
+   "es": "que él quiso, que él es malo, que se lo buscó.",
+   "id": 649,
+   "slot": 3.76,
+   "max_chars_pl": 52,
+   "pl": "że sam chciał, że jest złe, że sam sobie winien."
+  },
+  {
+   "start": 1544.74,
+   "end": 1547.52,
+   "es": "Pero ningún niño de nueve, once o trece años,",
+   "id": 650,
+   "slot": 2.7,
+   "max_chars_pl": 37,
+   "pl": "Ale żadne dziecko w wieku dziewięciu, jedenastu czy trzynastu lat"
+  },
+  {
+   "start": 1547.52,
+   "end": 1550.58,
+   "es": "se elige de verdad entre una vida digna y un rifle.",
+   "id": 651,
+   "slot": 2.98,
+   "max_chars_pl": 41,
+   "pl": "naprawdę nie wybiera między godnym życiem a karabinem."
+  },
+  {
+   "start": 1550.58,
+   "end": 1553.9,
+   "es": "Porque a la mayoría nunca le ofrecieron la primera opción.",
+   "id": 652,
+   "slot": 3.24,
+   "max_chars_pl": 45,
+   "pl": "Bo większości z nich nigdy nie zaoferowano pierwszej opcji."
+  },
+  {
+   "start": 1553.9,
+   "end": 1556.0,
+   "es": "Creció sin escuela que lo retuviera,",
+   "id": 653,
+   "slot": 2.02,
+   "max_chars_pl": 28,
+   "pl": "Dorastało bez szkoły, która by je zatrzymała,"
+  },
+  {
+   "start": 1556.0,
+   "end": 1559.32,
+   "es": "sin trabajo para sus padres, sin un estado presente,",
+   "id": 654,
+   "slot": 3.24,
+   "max_chars_pl": 45,
+   "pl": "bez pracy dla rodziców, bez obecnego państwa,"
+  },
+  {
+   "start": 1559.32,
+   "end": 1560.84,
+   "es": "a veces sin comida.",
+   "id": 655,
+   "slot": 1.44,
+   "max_chars_pl": 20,
+   "pl": "czasem bez jedzenia."
+  },
+  {
+   "start": 1560.84,
+   "end": 1563.9,
+   "es": "Y entonces apareció el único que le ofreció algo,",
+   "id": 656,
+   "slot": 2.98,
+   "max_chars_pl": 41,
+   "pl": "I wtedy pojawił się jedyny, który coś zaoferował,"
+  },
+  {
+   "start": 1563.9,
+   "end": 1565.24,
+   "es": "el cártel.",
+   "id": 657,
+   "slot": 1.26,
+   "max_chars_pl": 17,
+   "pl": "kartel."
+  },
+  {
+   "start": 1565.24,
+   "end": 1569.0,
+   "es": "Eso no es una elección, es una emboscada disfrazada de",
+   "id": 658,
+   "slot": 3.68,
+   "max_chars_pl": 51,
+   "pl": "To nie jest wybór, to zasadzka przebrana za"
+  },
+  {
+   "start": 1569.0,
+   "end": 1569.9,
+   "es": "oportunidad.",
+   "id": 659,
+   "slot": 0.82,
+   "max_chars_pl": 11,
+   "pl": "okazję."
+  },
+  {
+   "start": 1569.9,
+   "end": 1572.72,
+   "es": "Por eso, cuando ves a uno de estos chicos esposado o",
+   "id": 660,
+   "slot": 2.74,
+   "max_chars_pl": 38,
+   "pl": "Dlatego gdy widzisz jednego z tych chłopców w kajdankach albo"
+  },
+  {
+   "start": 1572.72,
+   "end": 1576.44,
+   "es": "muerto en una nota, la pregunta correcta no es cómo",
+   "id": 661,
+   "slot": 3.64,
+   "max_chars_pl": 50,
+   "pl": "martwego w wiadomościach, właściwe pytanie nie brzmi, jak"
+  },
+  {
+   "start": 1576.44,
+   "end": 1578.12,
+   "es": "pudo hacer eso un niño.",
+   "id": 662,
+   "slot": 1.6,
+   "max_chars_pl": 22,
+   "pl": "dziecko mogło to zrobić."
+  },
+  {
+   "start": 1578.12,
+   "end": 1580.88,
+   "es": "La pregunta correcta es, ¿quiénes dejaron solo a ese",
+   "id": 663,
+   "slot": 2.68,
+   "max_chars_pl": 37,
+   "pl": "Właściwe pytanie brzmi: kto zostawił to"
+  },
+  {
+   "start": 1580.88,
+   "end": 1583.76,
+   "es": "niño el tiempo suficiente para que el cártel llegara antes",
+   "id": 664,
+   "slot": 2.8,
+   "max_chars_pl": 39,
+   "pl": "dziecko samo na tyle długo, że kartel zjawił się przed"
+  },
+  {
+   "start": 1583.76,
+   "end": 1584.96,
+   "es": "que nadie?",
+   "id": 665,
+   "slot": 1.12,
+   "max_chars_pl": 15,
+   "pl": "kimkolwiek innym?"
+  },
+  {
+   "start": 1584.96,
+   "end": 1587.62,
+   "es": "Hasta acá hablamos del drama de estos niños.",
+   "id": 666,
+   "slot": 2.58,
+   "max_chars_pl": 36,
+   "pl": "Do tej pory mówiliśmy o dramacie tych dzieci."
+  },
+  {
+   "start": 1587.62,
+   "end": 1591.08,
+   "es": "Pero sería deshonesto terminar sin nombrar el otro lado.",
+   "id": 667,
+   "slot": 3.38,
+   "max_chars_pl": 47,
+   "pl": "Ale byłoby nieuczciwie skończyć, nie wspominając o drugiej stronie."
+  },
+  {
+   "start": 1591.08,
+   "end": 1592.98,
+   "es": "Porque cada uno de estos menores,",
+   "id": 668,
+   "slot": 1.82,
+   "max_chars_pl": 25,
+   "pl": "Bo każde z tych dzieci,"
+  },
+  {
+   "start": 1592.98,
+   "end": 1595.78,
+   "es": "por más víctima que haya sido del reclutamiento,",
+   "id": 669,
+   "slot": 2.72,
+   "max_chars_pl": 38,
+   "pl": "choćby było ofiarą werbunku,"
+  },
+  {
+   "start": 1595.78,
+   "end": 1597.56,
+   "es": "dejó víctimas propias.",
+   "id": 670,
+   "slot": 1.7,
+   "max_chars_pl": 23,
+   "pl": "zostawiło własne ofiary."
+  },
+  {
+   "start": 1597.56,
+   "end": 1599.96,
+   "es": "Las cuatro personas que el Ponchis confesó haber",
+   "id": 671,
+   "slot": 2.32,
+   "max_chars_pl": 32,
+   "pl": "Czworo ludzi, którym El Ponchis poderżnął"
+  },
+  {
+   "start": 1599.96,
+   "end": 1603.04,
+   "es": "degollado tenían nombre, familia y una vida que no",
+   "id": 672,
+   "slot": 3.0,
+   "max_chars_pl": 42,
+   "pl": "gardła, miało imię, rodzinę i życie, którego nie"
+  },
+  {
+   "start": 1603.04,
+   "end": 1604.22,
+   "es": "eligieron perder.",
+   "id": 673,
+   "slot": 1.1,
+   "max_chars_pl": 15,
+   "pl": "chcieli stracić."
+  },
+  {
+   "start": 1604.22,
+   "end": 1607.14,
+   "es": "Las dos personas que mató el adolescente de Medellín y las",
+   "id": 674,
+   "slot": 2.84,
+   "max_chars_pl": 39,
+   "pl": "Dwie osoby, które zabił nastolatek z Medellín, i te,"
+  },
+  {
+   "start": 1607.14,
+   "end": 1610.0,
+   "es": "otras que se le atribuyen eran hijos,",
+   "id": 675,
+   "slot": 2.78,
+   "max_chars_pl": 38,
+   "pl": "które mu się przypisuje, były czyimiś dziećmi,"
+  },
+  {
+   "start": 1610.0,
+   "end": 1612.24,
+   "es": "padres, vecinos de alguien.",
+   "id": 676,
+   "slot": 2.16,
+   "max_chars_pl": 30,
+   "pl": "ojcami, sąsiadami."
+  },
+  {
+   "start": 1612.24,
+   "end": 1614.9,
+   "es": "Las familias que se quedaron sin casa en Tabasco,",
+   "id": 677,
+   "slot": 2.58,
+   "max_chars_pl": 36,
+   "pl": "Rodziny, które w Tabasco zostały bez domu,"
+  },
+  {
+   "start": 1614.9,
+   "end": 1617.52,
+   "es": "porque no pudieron pagarle la cuota a un niño con una",
+   "id": 678,
+   "slot": 2.54,
+   "max_chars_pl": 35,
+   "pl": "bo nie mogły zapłacić opłaty dziecku z"
+  },
+  {
+   "start": 1617.52,
+   "end": 1620.6,
+   "es": "subametrayadora, siguen durmiendo donde pueden.",
+   "id": 679,
+   "slot": 3.0,
+   "max_chars_pl": 42,
+   "pl": "pistoletem maszynowym, wciąż śpią, gdzie się da."
+  },
+  {
+   "start": 1620.6,
+   "end": 1623.04,
+   "es": "Y el funcionario, el comerciante,",
+   "id": 680,
+   "slot": 2.36,
+   "max_chars_pl": 33,
+   "pl": "A urzędnik, kupiec,"
+  },
+  {
+   "start": 1623.04,
+   "end": 1625.44,
+   "es": "el transeúnte que cayó en cualquiera de estos",
+   "id": 681,
+   "slot": 2.32,
+   "max_chars_pl": 32,
+   "pl": "przechodzień, który padł w którymkolwiek z tych"
+  },
+  {
+   "start": 1625.44,
+   "end": 1628.44,
+   "es": "enfrentamientos, entró en una estadística que casi",
+   "id": 682,
+   "slot": 2.92,
+   "max_chars_pl": 40,
+   "pl": "starć, wszedł do statystyki, o której prawie"
+  },
+  {
+   "start": 1628.44,
+   "end": 1629.82,
+   "es": "nadie recuerda.",
+   "id": 683,
+   "slot": 1.3,
+   "max_chars_pl": 18,
+   "pl": "nikt nie pamięta."
+  },
+  {
+   "start": 1629.82,
+   "end": 1632.48,
+   "es": "Nombrar a las víctimas no es un detalle.",
+   "id": 684,
+   "slot": 2.58,
+   "max_chars_pl": 36,
+   "pl": "Wymienianie ofiar z imienia to nie szczegół."
+  },
+  {
+   "start": 1632.48,
+   "end": 1636.26,
+   "es": "Es la diferencia entre un documental y un corrido.",
+   "id": 685,
+   "slot": 3.7,
+   "max_chars_pl": 51,
+   "pl": "To różnica między dokumentem a korrido."
+  },
+  {
+   "start": 1636.26,
+   "end": 1638.38,
+   "es": "El corrido canta al que disparó.",
+   "id": 686,
+   "slot": 2.04,
+   "max_chars_pl": 28,
+   "pl": "Korrido opiewa tego, kto strzelał."
+  },
+  {
+   "start": 1638.38,
+   "end": 1641.12,
+   "es": "El documental se acuerda del que cayó.",
+   "id": 687,
+   "slot": 2.66,
+   "max_chars_pl": 37,
+   "pl": "Dokument pamięta tego, kto upadł."
+  },
+  {
+   "start": 1641.12,
+   "end": 1644.36,
+   "es": "Pero si hay que señalar a un culpable que quede claro quién",
+   "id": 688,
+   "slot": 3.16,
+   "max_chars_pl": 44,
+   "pl": "Ale jeśli trzeba wskazać winnego, niech będzie jasne, kto"
+  },
+  {
+   "start": 1644.36,
+   "end": 1648.44,
+   "es": "es, no es, en el fondo, el niño de 14 años.",
+   "id": 689,
+   "slot": 4.0,
+   "max_chars_pl": 56,
+   "pl": "nim jest, w gruncie rzeczy nie jest to czternastoletnie dziecko."
+  },
+  {
+   "start": 1648.44,
+   "end": 1651.3,
+   "es": "Es el adulto de 37 que lo manda.",
+   "id": 690,
+   "slot": 2.78,
+   "max_chars_pl": 38,
+   "pl": "To trzydziestosiedmioletni dorosły, który mu rozkazuje."
+  },
+  {
+   "start": 1651.3,
+   "end": 1654.4,
+   "es": "Es el reclutador que entra a la secundaria a ofrecer tenis",
+   "id": 691,
+   "slot": 3.02,
+   "max_chars_pl": 42,
+   "pl": "To werbownik, który wchodzi do gimnazjum, żeby zaoferować buty"
+  },
+  {
+   "start": 1654.4,
+   "end": 1655.32,
+   "es": "y poder.",
+   "id": 692,
+   "slot": 0.84,
+   "max_chars_pl": 11,
+   "pl": "i władzę."
+  },
+  {
+   "start": 1655.32,
+   "end": 1658.48,
+   "es": "Es el jefe que usa a un chico de 15 como escudo humano",
+   "id": 693,
+   "slot": 3.08,
+   "max_chars_pl": 43,
+   "pl": "To szef, który używa piętnastolatka jako żywej tarczy"
+  },
+  {
+   "start": 1658.48,
+   "end": 1660.32,
+   "es": "y ni se entera de su nombre.",
+   "id": 694,
+   "slot": 1.76,
+   "max_chars_pl": 24,
+   "pl": "i nawet nie zna jego imienia."
+  },
+  {
+   "start": 1660.32,
+   "end": 1663.44,
+   "es": "Es el que compone el corrido que convierte a un menor muerto",
+   "id": 695,
+   "slot": 3.04,
+   "max_chars_pl": 42,
+   "pl": "To ten, który układa korrido zamieniające martwego nieletniego"
+  },
+  {
+   "start": 1663.44,
+   "end": 1666.58,
+   "es": "en ídolo para que el siguiente quiera seguir sus pasos.",
+   "id": 696,
+   "slot": 3.06,
+   "max_chars_pl": 42,
+   "pl": "w idola, żeby następny chciał pójść jego śladami."
+  },
+  {
+   "start": 1666.58,
+   "end": 1668.78,
+   "es": "Y es también la ausencia.",
+   "id": 697,
+   "slot": 2.12,
+   "max_chars_pl": 29,
+   "pl": "I jest to też brak."
+  },
+  {
+   "start": 1668.78,
+   "end": 1672.26,
+   "es": "La escuela que no estuvo, el trabajo que no existió,",
+   "id": 698,
+   "slot": 3.4,
+   "max_chars_pl": 47,
+   "pl": "Szkoły, której nie było, pracy, która nie istniała,"
+  },
+  {
+   "start": 1672.26,
+   "end": 1675.8,
+   "es": "el programa que se canceló, el estado que llegó cuando ya",
+   "id": 699,
+   "slot": 3.46,
+   "max_chars_pl": 48,
+   "pl": "programu, który skasowano, państwa, które przybyło, gdy już"
+  },
+  {
+   "start": 1675.8,
+   "end": 1677.78,
+   "es": "había un cuerpo en la carretera.",
+   "id": 700,
+   "slot": 1.9,
+   "max_chars_pl": 26,
+   "pl": "leżało ciało na drodze."
+  },
+  {
+   "start": 1677.78,
+   "end": 1680.72,
+   "es": "Mientras exista un barrio donde un cártel sea la única",
+   "id": 701,
+   "slot": 2.86,
+   "max_chars_pl": 40,
+   "pl": "Dopóki istnieje dzielnica, w której kartel jest jedyną"
+  },
+  {
+   "start": 1680.72,
+   "end": 1684.32,
+   "es": "institución que ofrece comida, respeto y pertenencia,",
+   "id": 702,
+   "slot": 3.52,
+   "max_chars_pl": 49,
+   "pl": "instytucją oferującą jedzenie, szacunek i przynależność,"
+  },
+  {
+   "start": 1684.32,
+   "end": 1686.4,
+   "es": "va a haber niños sicarios.",
+   "id": 703,
+   "slot": 2.0,
+   "max_chars_pl": 28,
+   "pl": "będą dzieci-zabójcy."
+  },
+  {
+   "start": 1686.4,
+   "end": 1688.3,
+   "es": "No porque los niños sean malos,",
+   "id": 704,
+   "slot": 1.82,
+   "max_chars_pl": 25,
+   "pl": "Nie dlatego, że dzieci są złe,"
+  },
+  {
+   "start": 1688.3,
+   "end": 1691.34,
+   "es": "porque los niños todos, en cualquier lugar del mundo,",
+   "id": 705,
+   "slot": 2.96,
+   "max_chars_pl": 41,
+   "pl": "lecz dlatego, że wszystkie dzieci, w każdym miejscu na świecie,"
+  },
+  {
+   "start": 1691.34,
+   "end": 1693.36,
+   "es": "van hacia el único que los mira.",
+   "id": 706,
+   "slot": 1.94,
+   "max_chars_pl": 27,
+   "pl": "idą ku jedynemu, który na nie patrzy."
+  },
+  {
+   "start": 1693.36,
+   "end": 1695.96,
+   "es": "Y en demasiados lugares de América Latina,",
+   "id": 707,
+   "slot": 2.52,
+   "max_chars_pl": 35,
+   "pl": "A w zbyt wielu miejscach Ameryki Łacińskiej"
+  },
+  {
+   "start": 1695.96,
+   "end": 1700.38,
+   "es": "el único que los mira, a tiempo, es el peor de todos.",
+   "id": 708,
+   "slot": 4.34,
+   "max_chars_pl": 60,
+   "pl": "jedynym, który na nie patrzy na czas, jest najgorszy ze wszystkich."
+  },
+  {
+   "start": 1700.38,
+   "end": 1703.04,
+   "es": "Hay que hablar también de lo que pasa cada vez que un caso",
+   "id": 709,
+   "slot": 2.58,
+   "max_chars_pl": 36,
+   "pl": "Trzeba też powiedzieć, co dzieje się za każdym razem, gdy taka sprawa"
+  },
+  {
+   "start": 1703.04,
+   "end": 1706.68,
+   "es": "así estalla en las noticias, porque siempre aparece la misma",
+   "id": 710,
+   "slot": 3.56,
+   "max_chars_pl": 49,
+   "pl": "wybucha w wiadomościach, zawsze pojawia się ta sama"
+  },
+  {
+   "start": 1706.68,
+   "end": 1707.64,
+   "es": "propuesta.",
+   "id": 711,
+   "slot": 0.88,
+   "max_chars_pl": 12,
+   "pl": "propozycja."
+  },
+  {
+   "start": 1707.64,
+   "end": 1710.8,
+   "es": "En México y en Colombia, cuando cae un niño sicario,",
+   "id": 712,
+   "slot": 3.08,
+   "max_chars_pl": 43,
+   "pl": "W Meksyku i w Kolumbii, gdy ginie dziecko-zabójca,"
+  },
+  {
+   "start": 1710.8,
+   "end": 1713.22,
+   "es": "hay quienes exigen endurecer la ley,",
+   "id": 713,
+   "slot": 2.34,
+   "max_chars_pl": 32,
+   "pl": "są tacy, którzy żądają zaostrzenia prawa,"
+  },
+  {
+   "start": 1713.22,
+   "end": 1715.36,
+   "es": "juzgar a estos menores como adultos,",
+   "id": 714,
+   "slot": 2.06,
+   "max_chars_pl": 28,
+   "pl": "sądzenia tych nieletnich jak dorosłych,"
+  },
+  {
+   "start": 1715.36,
+   "end": 1718.96,
+   "es": "bajar la edad penal, encerrarlos más tiempo.",
+   "id": 715,
+   "slot": 3.52,
+   "max_chars_pl": 49,
+   "pl": "obniżenia wieku odpowiedzialności karnej, zamykania ich na dłużej."
+  },
+  {
+   "start": 1718.96,
+   "end": 1723.08,
+   "es": "En caliente, suena a justicia, suena a sentido común.",
+   "id": 716,
+   "slot": 4.04,
+   "max_chars_pl": 56,
+   "pl": "Na gorąco brzmi to jak sprawiedliwość, jak zdrowy rozsądek."
+  },
+  {
+   "start": 1723.08,
+   "end": 1725.72,
+   "es": "Pero los especialistas que trabajan de cerca con estos",
+   "id": 717,
+   "slot": 2.56,
+   "max_chars_pl": 35,
+   "pl": "Ale specjaliści, którzy blisko pracują z tymi"
+  },
+  {
+   "start": 1725.72,
+   "end": 1729.12,
+   "es": "chicos advierten que es casi siempre un error.",
+   "id": 718,
+   "slot": 3.32,
+   "max_chars_pl": 46,
+   "pl": "chłopcami, ostrzegają, że to prawie zawsze błąd."
+  },
+  {
+   "start": 1729.12,
+   "end": 1731.72,
+   "es": "Y la razón es sencilla cuando se piensa con la cabeza",
+   "id": 719,
+   "slot": 2.52,
+   "max_chars_pl": 35,
+   "pl": "A powód jest prosty, gdy pomyśleć o tym na"
+  },
+  {
+   "start": 1731.72,
+   "end": 1732.5,
+   "es": "fría.",
+   "id": 720,
+   "slot": 0.7,
+   "max_chars_pl": 9,
+   "pl": "chłodno."
+  },
+  {
+   "start": 1732.5,
+   "end": 1735.08,
+   "es": "Castigar más duro al niño no toca ni un pelo del",
+   "id": 721,
+   "slot": 2.5,
+   "max_chars_pl": 35,
+   "pl": "Karanie dziecka surowiej nie dotyka nawet włosa"
+  },
+  {
+   "start": 1735.08,
+   "end": 1736.74,
+   "es": "adulto que lo reclutó.",
+   "id": 722,
+   "slot": 1.58,
+   "max_chars_pl": 22,
+   "pl": "dorosłego, który je zwerbował."
+  },
+  {
+   "start": 1736.74,
+   "end": 1739.58,
+   "es": "Al contrario, al cártel le conviene,",
+   "id": 723,
+   "slot": 2.76,
+   "max_chars_pl": 38,
+   "pl": "Wręcz przeciwnie, kartelowi to na rękę,"
+  },
+  {
+   "start": 1739.58,
+   "end": 1742.34,
+   "es": "porque confirma que el niño es quien paga.",
+   "id": 724,
+   "slot": 2.68,
+   "max_chars_pl": 37,
+   "pl": "bo potwierdza, że to dziecko płaci."
+  },
+  {
+   "start": 1742.34,
+   "end": 1746.0,
+   "es": "Bajar la edad penal no seca el río de menores disponibles,",
+   "id": 725,
+   "slot": 3.58,
+   "max_chars_pl": 50,
+   "pl": "Obniżenie wieku karnego nie osusza rzeki dostępnych nieletnich,"
+  },
+  {
+   "start": 1746.0,
+   "end": 1748.3,
+   "es": "solo cambia la celda donde terminan.",
+   "id": 726,
+   "slot": 2.22,
+   "max_chars_pl": 31,
+   "pl": "zmienia tylko celę, w której kończą."
+  },
+  {
+   "start": 1748.3,
+   "end": 1751.52,
+   "es": "Y, sobre todo, se castigaría con la máxima dureza la única",
+   "id": 727,
+   "slot": 3.14,
+   "max_chars_pl": 43,
+   "pl": "I przede wszystkim z największą surowością ukarano by jedyne"
+  },
+  {
+   "start": 1751.52,
+   "end": 1753.68,
+   "es": "pieza de toda la cadena que llegó ahí,",
+   "id": 728,
+   "slot": 2.08,
+   "max_chars_pl": 29,
+   "pl": "ogniwo całego łańcucha, które się tam znalazło,"
+  },
+  {
+   "start": 1753.68,
+   "end": 1756.24,
+   "es": "sin haber tenido nunca una verdadera opción.",
+   "id": 729,
+   "slot": 2.48,
+   "max_chars_pl": 34,
+   "pl": "nie mając nigdy prawdziwego wyboru."
+  },
+  {
+   "start": 1756.24,
+   "end": 1758.72,
+   "es": "La discusión honesta no es cuántos años darle a un",
+   "id": 730,
+   "slot": 2.4,
+   "max_chars_pl": 33,
+   "pl": "Uczciwa dyskusja nie dotyczy tego, ile lat dać"
+  },
+  {
+   "start": 1758.72,
+   "end": 1762.64,
+   "es": "chico de 14, es como evitar que a los 9 no haya tenido a",
+   "id": 731,
+   "slot": 3.84,
+   "max_chars_pl": 53,
+   "pl": "czternastolatkowi, lecz jak zapobiec temu, by w wieku dziewięciu lat nie miał"
+  },
+  {
+   "start": 1762.64,
+   "end": 1764.62,
+   "es": "nadie más que al reclutador.",
+   "id": 732,
+   "slot": 1.9,
+   "max_chars_pl": 26,
+   "pl": "nikogo oprócz werbownika."
+  },
+  {
+   "start": 1764.62,
+   "end": 1766.8,
+   "es": "Porque la verdadera prevención no está en la",
+   "id": 733,
+   "slot": 2.1,
+   "max_chars_pl": 29,
+   "pl": "Bo prawdziwa profilaktyka nie leży w"
+  },
+  {
+   "start": 1766.8,
+   "end": 1769.1,
+   "es": "cárcel, está mucho antes.",
+   "id": 734,
+   "slot": 2.22,
+   "max_chars_pl": 31,
+   "pl": "więzieniu, jest dużo wcześniej."
+  },
+  {
+   "start": 1769.1,
+   "end": 1770.86,
+   "es": "En una escuela que lo retenga,",
+   "id": 735,
+   "slot": 1.68,
+   "max_chars_pl": 23,
+   "pl": "W szkole, która go zatrzyma,"
+  },
+  {
+   "start": 1770.86,
+   "end": 1773.06,
+   "es": "en un trabajo digno para sus padres,",
+   "id": 736,
+   "slot": 2.12,
+   "max_chars_pl": 29,
+   "pl": "w godnej pracy dla jego rodziców,"
+  },
+  {
+   "start": 1773.06,
+   "end": 1777.0,
+   "es": "en una cancha, en un programa, en un adulto confiable.",
+   "id": 737,
+   "slot": 3.86,
+   "max_chars_pl": 54,
+   "pl": "na boisku, w programie, w zaufanym dorosłym."
+  },
+  {
+   "start": 1777.0,
+   "end": 1779.2,
+   "es": "Suena menos contundente que mano dura,",
+   "id": 738,
+   "slot": 2.12,
+   "max_chars_pl": 29,
+   "pl": "Brzmi to mniej mocno niż twarda ręka,"
+  },
+  {
+   "start": 1779.2,
+   "end": 1781.84,
+   "es": "pero es lo único que, según quienes estudian el tema,",
+   "id": 739,
+   "slot": 2.56,
+   "max_chars_pl": 35,
+   "pl": "ale to jedyna rzecz, która według badaczy"
+  },
+  {
+   "start": 1781.84,
+   "end": 1783.32,
+   "es": "ha demostrado funcionar.",
+   "id": 740,
+   "slot": 1.4,
+   "max_chars_pl": 19,
+   "pl": "okazała się skuteczna."
+  },
+  {
+   "start": 1783.32,
+   "end": 1786.1,
+   "es": "A un niño no se lo rescata con una condena,",
+   "id": 741,
+   "slot": 2.7,
+   "max_chars_pl": 37,
+   "pl": "Dziecka nie ratuje się wyrokiem,"
+  },
+  {
+   "start": 1786.1,
+   "end": 1788.74,
+   "es": "se lo rescata llegando antes que el cártel.",
+   "id": 742,
+   "slot": 2.56,
+   "max_chars_pl": 35,
+   "pl": "ratuje się je, docierając do niego przed kartelem."
+  },
+  {
+   "start": 1788.74,
+   "end": 1790.26,
+   "es": "Volvamos al principio.",
+   "id": 743,
+   "slot": 1.44,
+   "max_chars_pl": 20,
+   "pl": "Wróćmy do początku."
+  },
+  {
+   "start": 1790.26,
+   "end": 1792.82,
+   "es": "A ese niño de 11 años frente a la cámara,",
+   "id": 744,
+   "slot": 2.48,
+   "max_chars_pl": 34,
+   "pl": "Do tego jedenastolatka przed kamerą,"
+  },
+  {
+   "start": 1792.82,
+   "end": 1795.92,
+   "es": "diciendo los de Goyé con la misma voz con la que pediría",
+   "id": 745,
+   "slot": 3.02,
+   "max_chars_pl": 42,
+   "pl": "mówiącego, że poderżnął im gardła, głosem, jakim prosi"
+  },
+  {
+   "start": 1795.92,
+   "end": 1797.08,
+   "es": "un helado.",
+   "id": 746,
+   "slot": 1.08,
+   "max_chars_pl": 15,
+   "pl": "o lody."
+  },
+  {
+   "start": 1797.08,
+   "end": 1800.14,
+   "es": "Es fácil ver ese video y sentir repulsión.",
+   "id": 747,
+   "slot": 2.98,
+   "max_chars_pl": 41,
+   "pl": "Łatwo obejrzeć to nagranie i poczuć wstręt."
+  },
+  {
+   "start": 1800.14,
+   "end": 1804.0,
+   "es": "Es más difícil y más necesario ver lo que hay detrás.",
+   "id": 748,
+   "slot": 3.78,
+   "max_chars_pl": 52,
+   "pl": "Trudniej i bardziej potrzebne jest zobaczyć, co za tym stoi."
+  },
+  {
+   "start": 1804.0,
+   "end": 1807.5,
+   "es": "Un niño al que, mucho antes de que empuñara un cuchillo,",
+   "id": 749,
+   "slot": 3.42,
+   "max_chars_pl": 47,
+   "pl": "Dziecko, któremu na długo, zanim chwyciło za nóż,"
+  },
+  {
+   "start": 1807.5,
+   "end": 1809.7,
+   "es": "ya le habían robado la infancia.",
+   "id": 750,
+   "slot": 2.12,
+   "max_chars_pl": 29,
+   "pl": "ukradziono już dzieciństwo."
+  },
+  {
+   "start": 1809.7,
+   "end": 1812.84,
+   "es": "Ninguno de los cinco de esta lista nació sicario.",
+   "id": 751,
+   "slot": 3.06,
+   "max_chars_pl": 42,
+   "pl": "Żaden z pięciu z tej listy nie urodził się płatnym zabójcą."
+  },
+  {
+   "start": 1812.84,
+   "end": 1815.92,
+   "es": "A todos los fabricaron y la fábrica sigue abierta",
+   "id": 752,
+   "slot": 3.0,
+   "max_chars_pl": 42,
+   "pl": "Wszystkich ich wyprodukowano, a fabryka wciąż działa"
+  },
+  {
+   "start": 1815.92,
+   "end": 1819.16,
+   "es": "trabajando a destajo mientras tú ves este video.",
+   "id": 753,
+   "slot": 3.16,
+   "max_chars_pl": 44,
+   "pl": "na akord, podczas gdy ty oglądasz ten film."
+  },
+  {
+   "start": 1819.16,
+   "end": 1821.56,
+   "es": "Los cinco nombres que escuchaste hoy no son un",
+   "id": 754,
+   "slot": 2.32,
+   "max_chars_pl": 32,
+   "pl": "Pięć imion, które dziś usłyszałeś, to nie"
+  },
+  {
+   "start": 1821.56,
+   "end": 1823.02,
+   "es": "salón de la fama.",
+   "id": 755,
+   "slot": 1.38,
+   "max_chars_pl": 19,
+   "pl": "galeria sław."
+  },
+  {
+   "start": 1823.02,
+   "end": 1825.84,
+   "es": "Son cinco tumbas, celdas o vidas rotas,",
+   "id": 756,
+   "slot": 2.74,
+   "max_chars_pl": 38,
+   "pl": "To pięć grobów, cel albo złamanych żyć,"
+  },
+  {
+   "start": 1825.84,
+   "end": 1828.52,
+   "es": "cinco advertencias de lo que pasa cuando una sociedad",
+   "id": 757,
+   "slot": 2.6,
+   "max_chars_pl": 36,
+   "pl": "pięć ostrzeżeń przed tym, co się dzieje, gdy całe społeczeństwo"
+  },
+  {
+   "start": 1828.52,
+   "end": 1830.8,
+   "es": "entera mira para otro lado.",
+   "id": 758,
+   "slot": 2.2,
+   "max_chars_pl": 30,
+   "pl": "patrzy w drugą stronę."
+  },
+  {
+   "start": 1830.8,
+   "end": 1834.14,
+   "es": "El niño sicario de Tabasco, preso a los 14.",
+   "id": 759,
+   "slot": 3.26,
+   "max_chars_pl": 45,
+   "pl": "Dziecko-zabójca z Tabasco, w więzieniu w wieku czternastu lat."
+  },
+  {
+   "start": 1834.14,
+   "end": 1836.44,
+   "es": "Chuchito Nini, muerto a los 15.",
+   "id": 760,
+   "slot": 2.22,
+   "max_chars_pl": 31,
+   "pl": "Chuchito Nini, martwy w wieku piętnastu lat."
+  },
+  {
+   "start": 1836.44,
+   "end": 1839.56,
+   "es": "El niño de Medellín, con 12 muertes antes de la mayoría",
+   "id": 761,
+   "slot": 3.04,
+   "max_chars_pl": 42,
+   "pl": "Dziecko z Medellín, z dwunastoma zabójstwami przed"
+  },
+  {
+   "start": 1839.56,
+   "end": 1840.68,
+   "es": "de edad.",
+   "id": 762,
+   "slot": 1.04,
+   "max_chars_pl": 14,
+   "pl": "pełnoletnością."
+  },
+  {
+   "start": 1840.68,
+   "end": 1844.56,
+   "es": "Juanito Pistolas, comandante y cadáver a los 16.",
+   "id": 763,
+   "slot": 3.8,
+   "max_chars_pl": 53,
+   "pl": "Juanito Pistolas, komendant i trup w wieku szesnastu lat."
+  },
+  {
+   "start": 1844.56,
+   "end": 1846.88,
+   "es": "Y el Ponchis, el niño que confesó,",
+   "id": 764,
+   "slot": 2.24,
+   "max_chars_pl": 31,
+   "pl": "I El Ponchis, dziecko, które przyznało się"
+  },
+  {
+   "start": 1846.88,
+   "end": 1850.34,
+   "es": "ante el mundo entero, haber aprendido a matar a los 11.",
+   "id": 765,
+   "slot": 3.38,
+   "max_chars_pl": 47,
+   "pl": "przed całym światem, że nauczyło się zabijać w wieku jedenastu lat."
+  },
+  {
+   "start": 1850.34,
+   "end": 1854.42,
+   "es": "Si de este video te llevas una sola idea, que sea esta.",
+   "id": 766,
+   "slot": 4.0,
+   "max_chars_pl": 56,
+   "pl": "Jeśli z tego filmu wyniesiesz tylko jedną myśl, niech będzie ta."
+  },
+  {
+   "start": 1854.42,
+   "end": 1857.34,
+   "es": "El niño sicario no es el principio del problema.",
+   "id": 767,
+   "slot": 2.84,
+   "max_chars_pl": 39,
+   "pl": "Dziecko-zabójca nie jest początkiem problemu."
+  },
+  {
+   "start": 1857.34,
+   "end": 1858.78,
+   "es": "Es el final.",
+   "id": 768,
+   "slot": 1.36,
+   "max_chars_pl": 19,
+   "pl": "Jest jego końcem."
+  },
+  {
+   "start": 1858.78,
+   "end": 1862.0,
+   "es": "Es lo que queda cuando ya fallaron la casa, la escuela,",
+   "id": 769,
+   "slot": 3.14,
+   "max_chars_pl": 43,
+   "pl": "Jest tym, co zostaje, gdy zawiodły już dom, szkoła,"
+  },
+  {
+   "start": 1862.0,
+   "end": 1863.84,
+   "es": "el barrio y el país.",
+   "id": 770,
+   "slot": 1.76,
+   "max_chars_pl": 24,
+   "pl": "dzielnica i kraj."
+  },
+  {
+   "start": 1863.84,
+   "end": 1866.64,
+   "es": "Para cuando el cartel llega, nosotros ya habíamos llegado",
+   "id": 771,
+   "slot": 2.72,
+   "max_chars_pl": 38,
+   "pl": "Zanim kartel przychodzi, my już spóźniliśmy się"
+  },
+  {
+   "start": 1866.64,
+   "end": 1867.34,
+   "es": "tarde.",
+   "id": 772,
+   "slot": 0.62,
+   "max_chars_pl": 8,
+   "pl": "na miejsce."
+  },
+  {
+   "start": 1867.34,
+   "end": 1870.0,
+   "es": "En Reino Criminal contamos estas historias no para",
+   "id": 773,
+   "slot": 2.58,
+   "max_chars_pl": 36,
+   "pl": "W Królestwie Przestępczym opowiadamy te historie nie po to,"
+  },
+  {
+   "start": 1870.0,
+   "end": 1872.72,
+   "es": "asustarte, ni mucho menos para celebrar a nadie,",
+   "id": 774,
+   "slot": 2.64,
+   "max_chars_pl": 36,
+   "pl": "żeby cię przestraszyć ani żeby kogokolwiek wychwalać,"
+  },
+  {
+   "start": 1872.72,
+   "end": 1874.88,
+   "es": "sino para que ningún niño vuelva a ser,",
+   "id": 775,
+   "slot": 2.08,
+   "max_chars_pl": 29,
+   "pl": "tylko po to, żeby żadne dziecko nie było"
+  },
+  {
+   "start": 1874.88,
+   "end": 1878.08,
+   "es": "jamás, el arma más barata y más desechable de un",
+   "id": 776,
+   "slot": 3.12,
+   "max_chars_pl": 43,
+   "pl": "nigdy najtańszą i najbardziej jednorazową bronią"
+  },
+  {
+   "start": 1878.08,
+   "end": 1878.84,
+   "es": "cartel.",
+   "id": 777,
+   "slot": 0.68,
+   "max_chars_pl": 9,
+   "pl": "kartelu."
+  },
+  {
+   "start": 1878.84,
+   "end": 1881.46,
+   "es": "Porque detrás de cada apodo que suena a corrido,",
+   "id": 778,
+   "slot": 2.54,
+   "max_chars_pl": 35,
+   "pl": "Bo za każdym przydomkiem, który brzmi jak korrido,"
+  },
+  {
+   "start": 1881.46,
+   "end": 1884.92,
+   "es": "siempre, siempre hubo un chico que solo necesitaba",
+   "id": 779,
+   "slot": 3.38,
+   "max_chars_pl": 47,
+   "pl": "zawsze, zawsze był chłopak, który potrzebował tylko,"
+  },
+  {
+   "start": 1884.92,
+   "end": 1887.14,
+   "es": "que alguien decente llegara primero.",
+   "id": 780,
+   "slot": 2.14,
+   "max_chars_pl": 29,
+   "pl": "żeby ktoś porządny przyszedł pierwszy."
+  },
+  {
+   "start": 1887.14,
+   "end": 1891.12,
+   "es": "Si esta historia te movió algo, suscríbete a Reino Criminal.",
+   "id": 781,
+   "slot": 3.9,
+   "max_chars_pl": 54,
+   "pl": "Jeśli ta historia cię poruszyła, zasubskrybuj kanał Królestwo Przestępcze."
+  },
+  {
+   "start": 1891.12,
+   "end": 1893.72,
+   "es": "Porque entender de dónde viene esta violencia,",
+   "id": 782,
+   "slot": 2.52,
+   "max_chars_pl": 35,
+   "pl": "Bo zrozumienie, skąd bierze się ta przemoc,"
+  },
+  {
+   "start": 1893.72,
+   "end": 1896.0,
+   "es": "de verdad y sin corridos de por medio,",
+   "id": 783,
+   "slot": 2.2,
+   "max_chars_pl": 30,
+   "pl": "naprawdę i bez korrido pośrodku,"
+  },
+  {
+   "start": 1896.0,
+   "end": 1899.0,
+   "es": "es el primer paso para que algún día deje de haber una",
+   "id": 784,
+   "slot": 2.92,
+   "max_chars_pl": 40,
+   "pl": "to pierwszy krok do tego, by któregoś dnia przestała istnieć"
+  },
+  {
+   "start": 1899.0,
+   "end": 1902.379,
+   "es": "fila de niños pobres esperando su turno para morir.",
+   "id": 785,
+   "slot": 3.299,
+   "max_chars_pl": 46,
+   "pl": "kolejka biednych dzieci czekających na swoją kolej, by umrzeć."
+  }
+ ]
+}
