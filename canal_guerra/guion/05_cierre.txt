@@ -1,0 +1,62 @@
+# CAP V | EL CIERRE
+
+#X01 retrato zoom=in look=bn
+V: Puller se retiró en mil novecientos cincuenta y cinco, como teniente general. Murió en mil novecientos setenta y uno. Había entrado en el Cuerpo de Marines como un joven al que rechazaron como oficial, y salió como el marine más condecorado de su historia.
+P: Elderly {PULLER_M} in retirement, white-haired, wearing a dark jacket, gazing out of a window with a faint smile, soft window light, black-and-white portrait
+O: tarjeta=LEWIS B. PULLER|1898 · 1971
+
+#X02 ia zoom=in
+V: Hoy, en los cuarteles de los marines, al apagar las luces, muchos hombres dicen en voz alta una frase. Buenas noches, Chesty Puller, dondequiera que estés.
+P: Marines in a dim barracks lying in bunks, one silhouette sitting up and speaking to the dark, low warm light through a window, quiet tradition
+O: tarjeta=EN CADA CUARTEL|«Buenas noches, Chesty Puller, dondequiera que estés»
+
+#X03 frase
+V: Pero cuatro movimientos no son un milagro. Son un método.
+O: frase=Cuatro movimientos. Un método.
+
+#X04 tarjeta
+V: Nicaragua. Giró hacia el fuego, en lugar de tirarse al suelo a esperarlo.
+P: =N18
+O: tarjeta=I. NICARAGUA|Giró hacia el fuego
+
+#X05 tarjeta
+V: Guadalcanal. Preparó el lado más débil de la línea y lo volvió el más duro. Y sostuvo la línea sin reserva ni retirada.
+P: =C11
+O: tarjeta=II. GUADALCANAL|Preparó el lado débil y sostuvo la línea
+
+#X06 tarjeta
+V: Cabo Gloucester. Cuando el mando se vació, fue a ocuparlo antes de que alguien lo pidiera.
+P: =K06
+O: tarjeta=III. CABO GLOUCESTER|El mando no espera
+
+#X07 tarjeta
+V: Y Chosin. Rodeado, no buscó el hueco por donde huir. Tomó las alturas, abrió la puerta y sacó a todos.
+P: =H16
+O: tarjeta=IV. CHOSIN|Rodeado, abrió la puerta
+
+#X08 frase
+V: Tres cosas se repiten en cada uno. Estar con tus hombres. Atacar lo que el enemigo cree seguro. Y entender que estar rodeado no es el final de un plan. Es el principio de uno más sencillo.
+O: frase=Con tus hombres. Donde el enemigo se siente seguro. Rodeado = una sola dirección.
+
+#X09 ia zoom=out
+V: Y recuerda cómo empezó todo. Con un cabo al que el Cuerpo no quería como oficial. Con una barra dorada perdida diez días después de ganarla.
+P: =G05
+O: etiqueta=UNA BARRA DORADA, PERDIDA
+
+#X09b ia zoom=in
+V: Y quizá esa sea la lección más difícil de aceptar. Aquí no hubo un secreto, ni un truco, ni un golpe de genio. Hubo un hombre que se presentaba, preparaba el terreno y avanzaba. Una vez. Y otra. Y otra más.
+P: {PULLER_M} walking forward alone along a long line of soldiers at dawn, helmet under his arm, mist in the valley, golden light
+O: etiqueta=PRESENTARSE · PREPARAR · AVANZAR
+
+#X10 frase
+V: Tardó casi cinco años en recuperarla. Y después, cinco cruces para que nadie volviera a discutirlo.
+O: frase=Casi cinco años para recuperar una barra. Cinco cruces para cerrar la discusión.
+
+#X11 barras
+V: Ahora te toca a ti. De los cuatro movimientos, ¿cuál crees que exigió más temple? ¿La emboscada de Nicaragua, la noche de Guadalcanal, las semanas de Cabo Gloucester, o el puente de Chosin?
+O: tarjeta=¿CUÁL EXIGIÓ MÁS TEMPLE?|I · Nicaragua   II · Guadalcanal   III · Cabo Gloucester   IV · Chosin
+
+#X12 sub
+V: Cuéntamelo en los comentarios. Y si quieres más historias como esta, suscríbete y activa la campanita, para no perderte la próxima.
+P: =N05
+O: sub=SUSCRÍBETE

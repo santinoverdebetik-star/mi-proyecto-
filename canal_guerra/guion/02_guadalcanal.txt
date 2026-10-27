@@ -1,0 +1,146 @@
+# CAP II | GUADALCANAL, 1942 — «MANTÉN LA LÍNEA»
+
+#C01 mapa
+V: Segundo movimiento. Diez años después de Nicaragua, Puller recibiría un batallón de marines y más de dos kilómetros de selva que defender, sin reserva. Y pasaría por una noche en la que el enemigo informó a sus jefes que la batalla ya estaba ganada.
+P: Stylized relief map of the Solomon Islands in perspective, Guadalcanal island in the foreground, deep blue ocean, green-olive terrain, antique map feel
+M: bandera azul en Henderson Field (costa norte de Guadalcanal)
+O: tarjeta=II|El segundo movimiento
+
+#C02 anio
+V: Octubre de mil novecientos cuarenta y dos. Guadalcanal, en las islas Salomón.
+P: Dark tropical island coastline at dusk, palm trees silhouetted, ships far offshore, heavy clouds
+O: anio=1942|OCTUBRE
+
+#C03 bn zoom=in
+V: Once semanas antes, la Primera División de Marines había desembarcado en la isla y había tomado un aeródromo japonés a medio terminar.
+P: Black-and-white archival photograph of Marines wading ashore from landing craft onto a beach with palm trees, August 1942
+O: fecha=7 de agosto de 1942
+
+#C04 ia zoom=out
+V: Los estadounidenses lo terminaron y lo bautizaron Henderson Field. Era el único aeródromo de verdad en la región, y quien lo tuviera controlaba el aire sobre el sur de las Salomón.
+P: Marine fighter planes parked on a rough jungle airstrip, mechanics working, tents and palm trees, hazy tropical light, 1942
+O: etiqueta=HENDERSON FIELD
+
+#C05 ia zoom=in look=noche
+V: Mientras aviones estadounidenses despegaran de Henderson, los barcos japoneses no podían moverse libres de día. Por eso el ejército japonés estaba decidido a recuperarlo. Costara lo que costara.
+P: Japanese destroyers sailing at night under searchlight glare in a dark sea, aircraft silhouettes overhead, 1942 naval tension
+O: etiqueta=QUIEN LO TENÍA, MANDABA EN EL AIRE
+
+#C05b ia look=noche
+V: Y ya lo estaban intentando. Pocos días antes, en la noche del trece al catorce de octubre, dos acorazados japoneses se acercaron a la costa y dispararon durante horas contra Henderson Field. Cientos de proyectiles gigantes cayeron sobre la pista.
+P: Night bombardment: massive naval shells exploding on an airfield, fireballs lighting palm trees and parked aircraft, distant battleship muzzle flashes on the horizon, 1942
+O: fecha=13–14 de octubre de 1942; etiqueta=BOMBARDEO DE ACORAZADOS
+
+#C05c ia zoom=in look=bn
+V: Cuando amaneció, buena parte de los aviones estaba destruida y casi no quedaba combustible. Pero la pista seguía en pie. Y seguía siendo la clave de todo.
+P: A cratered airstrip at dawn with wrecked aircraft and smoking fuel drums, Marines and mechanics clearing debris, smoke columns against a pale sky, 1942
+O: etiqueta=LA PISTA SEGUÍA EN PIE
+
+#C05d frase
+V: Si Henderson caía, Guadalcanal caía. Y si Guadalcanal caía, toda la campaña del Pacífico Sur se complicaba enormemente.
+O: frase=Si Henderson caía, caía Guadalcanal.
+
+#C06 retrato
+V: A finales de octubre había reunido lo que creía fuerza suficiente. El golpe principal vendría de la Segunda División, la división Sendai, al mando del teniente general Masao Maruyama.
+P: Portrait of an Imperial Japanese Army lieutenant general in field uniform, severe expression, studio lighting, 1942 photograph style
+O: tarjeta=TTE. GRAL. MASAO MARUYAMA|División Sendai
+
+#C07 mapa
+V: En lugar de golpear por la costa, donde los estadounidenses los esperaban, abrirían un camino a través de la selva. Y atacarían el aeródromo desde el sur, desde un lado que los marines apenas habían fortificado.
+P: Stylized relief map of Guadalcanal showing coastline in the north and dense jungle highlands in the south, a dotted route cutting through the jungle toward the airfield
+M: flecha roja larga desde el sur por la selva hacia Henderson Field
+O: etiqueta=EL ATAQUE VENDRÍA DEL SUR
+
+#C08 ia zoom=in
+V: Había un detalle que los japoneses no sabían. La línea sur era larga, delgada y estaba cubierta de selva. Para cualquiera que mirara el mapa, parecía el punto débil de la defensa. Y lo era.
+P: A thin line of foxholes and barbed wire stretched along the edge of dense jungle, a lone sentry silhouette in the foreground, overcast sky, 1942
+O: etiqueta=EL PUNTO DÉBIL
+
+#C09 ia zoom=in
+V: Esa línea la defendía el Primer Batallón del Séptimo de Marines. Unos setecientos hombres, para más de dos kilómetros de frente. Al batallón vecino lo habían mandado a otro sector, así que no tenía reservas.
+P: {PULLER_M} in a foxhole line at dusk, telephone receiver in hand, young Marines in helmets around him, jungle edge behind, tropical rain starting
+O: tarjeta=1.er BATALLÓN, 7.º DE MARINES|Unos 700 hombres · más de 2 km de frente · sin reserva
+
+#C10 barras
+V: Los cálculos eran duros. Una estimación habla de nueve atacantes por cada defensor a lo largo de esa línea.
+O: barras=SEGÚN UNA ESTIMACIÓN|Defensores=1|Atacantes=9
+
+#C11 ia zoom=in
+V: Puller lo sabía. Y no esperó a que llegara la noche para prepararse. Hizo tender alambre de púas, colocó las ametralladoras para que sus campos de fuego se cruzaran, y recorrió su línea, puesto por puesto.
+P: Marines stringing barbed wire in front of foxholes in the jungle clearing at golden hour, machine gun crews adjusting positions, 1942
+O: etiqueta=PREPARÓ EL TERRENO ANTES DEL ATAQUE
+
+#C11b ia zoom=in
+V: Y no eran hombres frescos. Llevaban semanas en la isla, con calor, malaria, raciones escasas y bombardeos casi todas las noches. Eran hombres cansados y flacos, muchos enfermos, que iban a enfrentar a un ejército decidido a no volver a casa sin la pista.
+P: Gaunt exhausted Marines sitting in a muddy foxhole, unshaven, sunken eyes, dented helmets, cleaning rifles with rags, hazy tropical light, 1942
+O: etiqueta=CANSADOS, FLACOS, ENFERMOS
+
+#C12 ia look=noche
+V: Cayó la noche del veinticuatro de octubre. Y con la noche llegó la lluvia. Una lluvia espesa, ruidosa, que borró casi todo lo que se podía ver y casi todo lo que se podía oír.
+P: Heavy tropical rain at night over a jungle perimeter, foxholes filling with water, faint lightning showing silhouettes of Marines behind sandbags
+O: fecha=24 de octubre de 1942
+
+#C13 ia look=noche
+V: Los japoneses atacaron por oleadas. Salían de la selva, corrían hacia el alambre y se lanzaban contra los puestos de ametralladoras. Una y otra vez.
+P: Night battle: muzzle flashes and tracer fire across a jungle clearing, shadowy attackers emerging from trees, rain streaks, chaotic but non-graphic
+O: etiqueta=OLA TRAS OLA
+
+#C14 ia look=noche
+V: Entre los marines de Puller estaba el sargento John Basilone. Su sección de ametralladoras siguió disparando durante horas, y esa noche le valdría la Medalla de Honor.
+P: A Marine machine gun crew firing a heavy machine gun from a sandbagged position at night, hot barrel glowing, tracer fire, faces lit by muzzle flash
+O: tarjeta=SARGENTO JOHN BASILONE|Medalla de Honor por esa noche
+
+#C15 ia look=noche
+V: A medianoche, la línea estaba al límite. Las ametralladoras se atascaban, las municiones escaseaban, y los japoneses seguían llegando. Puller pidió ayuda.
+P: Marine runner sprinting through rain and mud between foxholes carrying a message, flares overhead lighting the jungle edge
+O: etiqueta=MEDIANOCHE
+
+#C16 ia look=noche
+V: Llegaron refuerzos del Ejército: el tercer batallón del ciento sesenta y cuatro de infantería. Y Puller hizo algo que no estaba en ningún manual. No los puso como reserva. Los mezcló en su línea, soldados entre marines, tapando los huecos.
+P: U.S. Army soldiers with distinct helmets arriving in the rain and jumping into foxholes alongside Marines, night, lantern-like flare light
+O: tarjeta=3.er BATALLÓN, 164.º DE INFANTERÍA|Los mezcló en su línea
+
+#C17 ia look=noche
+V: Mientras tanto, lejos de allí, el mando japonés recibía noticias. Un mensaje al cuartel de Rabaul, poco después de la medianoche: el ala derecha había capturado el aeródromo.
+P: Japanese radio operator in a jungle command post under lamp light, headphones on, maps on the table, reporting, night, 1942
+O: tarjeta=UN MENSAJE A RABAUL|«El aeródromo ha sido capturado»
+
+#C18 frase
+V: No era verdad. El aeródromo seguía en manos de los marines. Y la línea de Puller seguía en pie.
+O: frase=No era verdad. La línea seguía en pie.
+
+#C19 ia look=noche
+V: Las oleadas siguieron hasta bien entrada la madrugada. Y cada vez había menos japoneses para llegar al alambre.
+P: Pre-dawn jungle perimeter, thin morning mist, exhausted Marines slumped behind sandbags, barbed wire tangled in front, smoke drifting
+O: etiqueta=BIEN ENTRADA LA MADRUGADA
+
+#C20 ia zoom=out look=bn
+V: Cuando amaneció, frente a las líneas de Puller había más de mil cuatrocientos cuerpos japoneses, según algunos conteos. Los marines habían perdido a decenas de hombres. El golpe principal japonés había fracasado en una sola noche.
+P: Dawn over a jungle clearing, barbed wire and wreckage in the mist, weary Marines standing and counting, grim but non-graphic aftermath
+O: cifra=+1.400 bajas japonesas en su sector (según algunos conteos)
+
+#C21 barras
+V: Y fíjate en la desproporción. Frente a decenas de bajas propias, más de mil cuatrocientos del enemigo.
+O: barras=SU SECTOR, NOCHE DEL 24 AL 25|Marines caídos=decenas|Japoneses caídos=+1.400
+
+#C21b barras
+V: Al día siguiente, los ataques continuaron contra otros sectores. El veintiséis de octubre, los japoneses se retiraron. En conjunto, entre dos mil doscientos y tres mil japoneses murieron en esos tres días. Las bajas estadounidenses fueron de unas sesenta.
+O: barras=BATALLA POR HENDERSON FIELD, 23–26 DE OCTUBRE|Estadounidenses caídos=~60|Japoneses caídos=2.200–3.000
+
+#C22 medallas
+V: Por aquella noche, Puller recibió su tercera Cruz de la Armada.
+P: Three Navy Cross medals on dark velvet, gold crosses with navy and white ribbons, soft glow
+O: anio=3|CRUCES DE LA ARMADA; etiqueta=TERCERA CRUZ DE LA ARMADA
+
+#C23 frase
+V: ¿Qué había hecho distinto? Mira otra vez el patrón.
+O: frase=¿Qué hizo distinto? Mira el patrón.
+
+#C24 ia zoom=in
+V: Primero, estaba en el sitio donde más hacía falta. No dirigía por mapa. Recorría la línea entre los puestos, de noche, bajo la lluvia. Segundo, preparó el lugar que el enemigo creía más débil, y lo volvió el más duro. Y tercero: sin reserva, no había adónde retirarse. Solo quedaba una dirección. Hacia donde venía el enemigo.
+P: {PULLER_M} walking along a line of foxholes in the rain at night, helmet low, a flashlight beam glinting off wet barbed wire, soldiers nodding to him
+O: tarjeta=EL PATRÓN, OTRA VEZ|Presencia · Terreno preparado · Sin retirada
+
+#C25 frase
+V: Sin reserva. Sin retirada. Sin otra opción que sostener la línea. Y funcionó.
+O: frase=Sin reserva. Sin retirada. Y funcionó.

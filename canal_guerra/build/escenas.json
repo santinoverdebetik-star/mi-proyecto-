@@ -1,0 +1,3206 @@
+[
+ {
+  "id": "G01",
+  "cap": "CAP 0 | EL GANCHO",
+  "tipo": "ia",
+  "opts": {
+   "zoom": "in",
+   "look": "nieve"
+  },
+  "voz": "Diciembre de mil novecientos cincuenta. Corea del Norte. Treinta grados bajo cero.",
+  "prompt": "Marines in parkas trudging along a frozen mountain road at dusk, breath fogging, heavy snow, trucks in a long column, bleak winter war scene",
+  "mapa": "",
+  "ov": "fecha=Diciembre de 1950",
+  "palabras": 12,
+  "dur": 4.77,
+  "inicio": 0.0,
+  "reusa": "",
+  "imagen": "G01",
+  "overlays": [
+   {
+    "k": "fecha",
+    "v": "Diciembre de 1950"
+   }
+  ]
+ },
+ {
+  "id": "G02",
+  "cap": "CAP 0 | EL GANCHO",
+  "tipo": "mapa",
+  "opts": {
+   "look": "nieve"
+  },
+  "voz": "Catorce mil hombres están atrapados en un pueblo de montaña, rodeados por un ejército chino que los supera por mucho. Y el único camino de salida cruza un desfiladero donde el enemigo ya voló un puente.",
+  "prompt": "Stylized relief map of a snowy mountain valley in northern Korea seen in perspective, a single winding road through steep gorge, white-blue snow palette",
+  "mapa": "bandera azul en el pueblo; fichas rojas alrededor; marca de puente roto en el desfiladero",
+  "ov": "cifra=14.000 hombres",
+  "palabras": 36,
+  "dur": 13.6,
+  "inicio": 4.77,
+  "reusa": "",
+  "imagen": "G02",
+  "overlays": [
+   {
+    "k": "cifra",
+    "v": "14.000 hombres"
+   }
+  ]
+ },
+ {
+  "id": "G03",
+  "cap": "CAP 0 | EL GANCHO",
+  "tipo": "ia",
+  "opts": {
+   "zoom": "out",
+   "look": "nieve"
+  },
+  "voz": "Y el coronel que manda a los hombres de la retaguardia no parece asustado. Se cuenta que lo resumió en una sola frase: nos han rodeado, así que ahora podemos atacar en cualquier dirección.",
+  "prompt": "{PULLER_M} standing alone on a snowy ridge at night, looking down at a valley full of campfires, stern calm expression, frost on his collar",
+  "mapa": "",
+  "ov": "tarjeta=SE LE ATRIBUYE|«Estamos rodeados. Ahora podemos atacar en cualquier dirección.»",
+  "palabras": 34,
+  "dur": 12.87,
+  "inicio": 18.37,
+  "reusa": "",
+  "imagen": "G03",
+  "overlays": [
+   {
+    "k": "tarjeta",
+    "v": "SE LE ATRIBUYE|«Estamos rodeados. Ahora podemos atacar en cualquier dirección.»"
+   }
+  ]
+ },
+ {
+  "id": "G04",
+  "cap": "CAP 0 | EL GANCHO",
+  "tipo": "frase",
+  "opts": {},
+  "voz": "Ese hombre había empezado su carrera perdiendo una barra de oficial.",
+  "prompt": "",
+  "mapa": "",
+  "ov": "frase=Ese hombre había empezado su carrera perdiendo una barra de oficial.",
+  "palabras": 11,
+  "dur": 4.4,
+  "inicio": 31.24,
+  "reusa": "",
+  "imagen": "",
+  "overlays": [
+   {
+    "k": "frase",
+    "v": "Ese hombre había empezado su carrera perdiendo una barra de oficial."
+   }
+  ]
+ },
+ {
+  "id": "G05",
+  "cap": "CAP 0 | EL GANCHO",
+  "tipo": "bn",
+  "opts": {
+   "zoom": "in",
+   "look": "bn"
+  },
+  "voz": "El dieciséis de junio de mil novecientos diecinueve, un marine de veinte años terminó el curso de oficiales en Quantico, Virginia, y se prendió la barra dorada de subteniente. Diez días después, la perdió.",
+  "prompt": "Close-up of a young Marine's hands pinning a gold second lieutenant bar onto a khaki uniform collar, 1919, other officers blurred behind",
+  "mapa": "",
+  "ov": "fecha=16 de junio de 1919; etiqueta=SUBTENIENTE DE LOS MARINES",
+  "palabras": 34,
+  "dur": 12.87,
+  "inicio": 35.64,
+  "reusa": "",
+  "imagen": "G05",
+  "overlays": [
+   {
+    "k": "fecha",
+    "v": "16 de junio de 1919"
+   },
+   {
+    "k": "etiqueta",
+    "v": "SUBTENIENTE DE LOS MARINES"
+   }
+  ]
+ },
+ {
+  "id": "G06",
+  "cap": "CAP 0 | EL GANCHO",
+  "tipo": "ia",
+  "opts": {
+   "zoom": "in"
+  },
+  "voz": "La guerra en Europa había terminado y el Cuerpo de Marines se reducía a toda prisa. Ya no necesitaba jóvenes tenientes de reserva. Lo pasaron a la lista de inactivos y le dieron a elegir.",
+  "prompt": "A young Marine officer standing alone at the edge of a parade ground at dusk, trucks and soldiers in the distance, 1919, melancholic mood",
+  "mapa": "",
+  "ov": "tarjeta=LA ELECCIÓN|Volver a casa, o quedarse como soldado raso",
+  "palabras": 35,
+  "dur": 13.23,
+  "inicio": 48.51,
+  "reusa": "",
+  "imagen": "G06",
+  "overlays": [
+   {
+    "k": "tarjeta",
+    "v": "LA ELECCIÓN|Volver a casa, o quedarse como soldado raso"
+   }
+  ]
+ },
+ {
+  "id": "G07",
+  "cap": "CAP 0 | EL GANCHO",
+  "tipo": "bn",
+  "opts": {
+   "zoom": "out"
+  },
+  "voz": "Podía volver a casa, o quedarse en el Cuerpo como soldado raso. Se quedó. Volvió a ser cabo.",
+  "prompt": "Black-and-white archival photograph of rows of Marines marching down a city street past crowds, 1919 victory parade",
+  "mapa": "",
+  "ov": "etiqueta=SE QUEDÓ",
+  "palabras": 18,
+  "dur": 6.98,
+  "inicio": 61.74,
+  "reusa": "",
+  "imagen": "G07",
+  "overlays": [
+   {
+    "k": "etiqueta",
+    "v": "SE QUEDÓ"
+   }
+  ]
+ },
+ {
+  "id": "G08",
+  "cap": "CAP 0 | EL GANCHO",
+  "tipo": "retrato",
+  "opts": {
+   "look": "bn"
+  },
+  "voz": "Treinta y un años después, ese cabo sería general. Y tendría una condecoración que ningún otro marine ha igualado.",
+  "prompt": "Black-and-white formal portrait of a Marine corporal, 1919, stiff pose, hat, high collar",
+  "mapa": "",
+  "ov": "tarjeta=1919|Cabo   ·   1950|General",
+  "palabras": 19,
+  "dur": 7.34,
+  "inicio": 68.72,
+  "reusa": "",
+  "imagen": "G08",
+  "overlays": [
+   {
+    "k": "tarjeta",
+    "v": "1919|Cabo   ·   1950|General"
+   }
+  ]
+ },
+ {
+  "id": "G09",
+  "cap": "CAP 0 | EL GANCHO",
+  "tipo": "medallas",
+  "opts": {},
+  "voz": "Cinco Cruces de la Armada, la segunda condecoración al valor más alta que la Marina puede otorgar. Muchos marines pasan una carrera entera sin ganar una sola. Él ganó cinco.",
+  "prompt": "Five Navy Cross medals in a row on dark velvet, gold crosses with navy and white ribbons, dramatic lighting",
+  "mapa": "",
+  "ov": "anio=5|CRUCES DE LA ARMADA",
+  "palabras": 30,
+  "dur": 11.39,
+  "inicio": 76.06,
+  "reusa": "",
+  "imagen": "G09",
+  "overlays": [
+   {
+    "k": "anio",
+    "v": "5|CRUCES DE LA ARMADA"
+   }
+  ]
+ },
+ {
+  "id": "G10",
+  "cap": "CAP 0 | EL GANCHO",
+  "tipo": "retrato",
+  "opts": {
+   "zoom": "in"
+  },
+  "voz": "Se llamaba Lewis Burwell Puller. Todo el Cuerpo lo conocía como Chesty.",
+  "prompt": "Portrait of {PULLER_M}, three-quarter view, stern gaze, decorated uniform, dramatic side light, film grain",
+  "mapa": "",
+  "ov": "tarjeta=LEWIS BURWELL PULLER|«Chesty»",
+  "palabras": 12,
+  "dur": 4.77,
+  "inicio": 87.45,
+  "reusa": "",
+  "imagen": "G10",
+  "overlays": [
+   {
+    "k": "tarjeta",
+    "v": "LEWIS BURWELL PULLER|«Chesty»"
+   }
+  ]
+ },
+ {
+  "id": "G11",
+  "cap": "CAP 0 | EL GANCHO",
+  "tipo": "linea",
+  "opts": {},
+  "voz": "Recuperar aquella barra dorada le llevó casi cinco años. Se fue a Haití, donde marines estadounidenses dirigían una policía local llamada Gendarmería, y allí sirvió como teniente.",
+  "prompt": "",
+  "mapa": "",
+  "ov": "linea=1919|1924|junio 1919: pierde la barra|marzo 1924: oficial de nuevo",
+  "palabras": 27,
+  "dur": 10.29,
+  "inicio": 92.22,
+  "reusa": "",
+  "imagen": "",
+  "overlays": [
+   {
+    "k": "linea",
+    "v": "1919|1924|junio 1919: pierde la barra|marzo 1924: oficial de nuevo"
+   }
+  ]
+ },
+ {
+  "id": "G12",
+  "cap": "CAP 0 | EL GANCHO",
+  "tipo": "mapa",
+  "opts": {},
+  "voz": "Lideró patrullas por las montañas contra bandas rebeldes y, según la mayoría de los relatos, combatió en más de cuarenta enfrentamientos.",
+  "prompt": "Stylized relief map of the island of Hispaniola, Haiti mountains in perspective, green-olive and parchment palette, Caribbean sea in deep blue",
+  "mapa": "bandera azul en Haití",
+  "ov": "etiqueta=HAITÍ; cifra=+40 combates",
+  "palabras": 21,
+  "dur": 8.08,
+  "inicio": 102.51,
+  "reusa": "",
+  "imagen": "G12",
+  "overlays": [
+   {
+    "k": "etiqueta",
+    "v": "HAITÍ"
+   },
+   {
+    "k": "cifra",
+    "v": "+40 combates"
+   }
+  ]
+ },
+ {
+  "id": "G13",
+  "cap": "CAP 0 | EL GANCHO",
+  "tipo": "ia",
+  "opts": {
+   "zoom": "in"
+  },
+  "voz": "Pero dentro de su propio Cuerpo seguía siendo cabo. Pidió su comisión una y otra vez, y lo rechazaron cada vez. Solo en marzo de mil novecientos veinticuatro lo hicieron oficial de forma definitiva.",
+  "prompt": "{PULLER_J} in a tropical Haitian mountain trail, corporal-quality worn khaki, rifle on shoulder, sweat-stained, jungle behind",
+  "mapa": "",
+  "ov": "fecha=Marzo de 1924",
+  "palabras": 34,
+  "dur": 12.87,
+  "inicio": 110.59,
+  "reusa": "",
+  "imagen": "G13",
+  "overlays": [
+   {
+    "k": "fecha",
+    "v": "Marzo de 1924"
+   }
+  ]
+ },
+ {
+  "id": "G14",
+  "cap": "CAP 0 | EL GANCHO",
+  "tipo": "frase",
+  "opts": {},
+  "voz": "¿Cómo un hombre al que el Cuerpo no quería como oficial llegó a ser el marine más condecorado de su historia?",
+  "prompt": "",
+  "mapa": "",
+  "ov": "frase=¿Cómo llegó a ser el marine más condecorado de la historia?",
+  "palabras": 21,
+  "dur": 8.08,
+  "inicio": 123.46,
+  "reusa": "",
+  "imagen": "",
+  "overlays": [
+   {
+    "k": "frase",
+    "v": "¿Cómo llegó a ser el marine más condecorado de la historia?"
+   }
+  ]
+ },
+ {
+  "id": "G15",
+  "cap": "CAP 0 | EL GANCHO",
+  "tipo": "ia",
+  "opts": {
+   "zoom": "in"
+  },
+  "voz": "No fue suerte. Y no fue solo valentía: hay muchos hombres valientes que mueren en su primer combate. Cuatro veces le tocó una batalla donde todo parecía decidido en su contra. Y cuatro veces hizo lo único que el enemigo no había previsto.",
+  "prompt": "{PULLER_M} in combat gear on a smoky battlefield, rifle slung, looking straight ahead while soldiers rush behind him, orange glow of fires, dust",
+  "mapa": "",
+  "ov": "etiqueta=EL ENEMIGO NO LO HABÍA PREVISTO",
+  "palabras": 43,
+  "dur": 16.18,
+  "inicio": 131.54,
+  "reusa": "",
+  "imagen": "G15",
+  "overlays": [
+   {
+    "k": "etiqueta",
+    "v": "EL ENEMIGO NO LO HABÍA PREVISTO"
+   }
+  ]
+ },
+ {
+  "id": "G16",
+  "cap": "CAP 0 | EL GANCHO",
+  "tipo": "frase",
+  "opts": {},
+  "voz": "Estos son sus cuatro movimientos más legendarios.",
+  "prompt": "",
+  "mapa": "",
+  "ov": "frase=Cuatro movimientos legendarios.",
+  "palabras": 7,
+  "dur": 2.93,
+  "inicio": 147.72,
+  "reusa": "",
+  "imagen": "",
+  "overlays": [
+   {
+    "k": "frase",
+    "v": "Cuatro movimientos legendarios."
+   }
+  ]
+ },
+ {
+  "id": "M01",
+  "cap": "CAP 0B | EL HOMBRE",
+  "tipo": "ia",
+  "opts": {
+   "zoom": "in"
+  },
+  "voz": "Antes de seguir, conviene saber quién era este hombre. Lewis Puller nació en mil ochocientos noventa y ocho en West Point, un pueblito de Virginia, y creció escuchando a veteranos de la Guerra Civil contar sus batallas. Historias de generales, de cargas y de batallas perdidas por un solo error.",
+  "prompt": "Old wooden porch in a small Virginia town, elderly bearded Confederate veterans in chairs telling stories while a young boy listens wide-eyed, golden afternoon light, sepia tone",
+  "mapa": "",
+  "ov": "fecha=Virginia, 1898",
+  "palabras": 50,
+  "dur": 18.75,
+  "inicio": 150.65,
+  "reusa": "",
+  "imagen": "M01",
+  "overlays": [
+   {
+    "k": "fecha",
+    "v": "Virginia, 1898"
+   }
+  ]
+ },
+ {
+  "id": "M02",
+  "cap": "CAP 0B | EL HOMBRE",
+  "tipo": "bn",
+  "opts": {
+   "zoom": "in"
+  },
+  "voz": "Su padre murió cuando él era un niño. Y el niño solo soñaba con ser soldado. Entró en el Instituto Militar de Virginia, pero en mil novecientos dieciocho lo dejó para alistarse en los marines. Tenía un miedo. Que la Gran Guerra terminara antes de que él pudiera llegar.",
+  "prompt": "Black-and-white archival photograph of a young cadet in military institute uniform standing at attention beside a stone barracks gate, 1917",
+  "mapa": "",
+  "ov": "etiqueta=TEMÍA LLEGAR TARDE A LA GUERRA",
+  "palabras": 49,
+  "dur": 18.39,
+  "inicio": 169.4,
+  "reusa": "",
+  "imagen": "M02",
+  "overlays": [
+   {
+    "k": "etiqueta",
+    "v": "TEMÍA LLEGAR TARDE A LA GUERRA"
+   }
+  ]
+ },
+ {
+  "id": "M03",
+  "cap": "CAP 0B | EL HOMBRE",
+  "tipo": "frase",
+  "opts": {},
+  "voz": "Y su miedo se cumplió. La guerra terminó antes de que le tocara. Nunca llegó a combatir en Europa.",
+  "prompt": "",
+  "mapa": "",
+  "ov": "frase=La guerra terminó antes de que le tocara.",
+  "palabras": 19,
+  "dur": 7.34,
+  "inicio": 187.79,
+  "reusa": "",
+  "imagen": "",
+  "overlays": [
+   {
+    "k": "frase",
+    "v": "La guerra terminó antes de que le tocara."
+   }
+  ]
+ },
+ {
+  "id": "M04",
+  "cap": "CAP 0B | EL HOMBRE",
+  "tipo": "retrato",
+  "opts": {
+   "zoom": "in",
+   "look": "bn"
+  },
+  "voz": "Del apodo se cuenta que venía de su pecho, ancho y abombado como un barril, y de la forma en que lo sacaba al caminar. Chesty. Lo llevaría el resto de su vida.",
+  "prompt": "Black-and-white portrait of a young Marine with an unusually broad barrel chest standing very straight, chin up, formal pose, 1920s",
+  "mapa": "",
+  "ov": "tarjeta=«CHESTY»|Según se cuenta, por su pecho ancho",
+  "palabras": 33,
+  "dur": 12.5,
+  "inicio": 195.13,
+  "reusa": "",
+  "imagen": "M04",
+  "overlays": [
+   {
+    "k": "tarjeta",
+    "v": "«CHESTY»|Según se cuenta, por su pecho ancho"
+   }
+  ]
+ },
+ {
+  "id": "M05",
+  "cap": "CAP 0B | EL HOMBRE",
+  "tipo": "ia",
+  "opts": {
+   "zoom": "in"
+  },
+  "voz": "Había en él algo que el Cuerpo no sabía cómo usar en tiempos de paz. Era terco, directo, incómodo para los de arriba. No era un hombre de oficina. Era un hombre de campo de batalla. Y en una época sin guerras, eso lo dejaba sin lugar.",
+  "prompt": "{PULLER_J} sitting alone at a plain wooden desk in a bare office, paperwork stacked, looking out of a window at a training field with restless eyes, 1920s",
+  "mapa": "",
+  "ov": "etiqueta=UN HOMBRE DE CAMPO DE BATALLA",
+  "palabras": 47,
+  "dur": 17.65,
+  "inicio": 207.63,
+  "reusa": "",
+  "imagen": "M05",
+  "overlays": [
+   {
+    "k": "etiqueta",
+    "v": "UN HOMBRE DE CAMPO DE BATALLA"
+   }
+  ]
+ },
+ {
+  "id": "M06",
+  "cap": "CAP 0B | EL HOMBRE",
+  "tipo": "frase",
+  "opts": {},
+  "voz": "Pero la paz no iba a durar. Y las guerras, tarde o temprano, siempre vuelven a buscar a los hombres que nadie sabe dónde poner.",
+  "prompt": "",
+  "mapa": "",
+  "ov": "frase=Las guerras vuelven a buscar a los hombres que nadie sabe dónde poner.",
+  "palabras": 25,
+  "dur": 9.55,
+  "inicio": 225.28,
+  "reusa": "",
+  "imagen": "",
+  "overlays": [
+   {
+    "k": "frase",
+    "v": "Las guerras vuelven a buscar a los hombres que nadie sabe dónde poner."
+   }
+  ]
+ },
+ {
+  "id": "N01",
+  "cap": "CAP I | NICARAGUA, 1932 — «GIRA HACIA EL FUEGO»",
+  "tipo": "mapa",
+  "opts": {},
+  "voz": "Primer movimiento. Nicaragua, mil novecientos treinta. Es una guerra que casi nadie recuerda. Desde hacía tres años, marines de Estados Unidos peleaban en las montañas del norte contra el ejército guerrillero de Augusto César Sandino.",
+  "prompt": "Stylized relief map of Nicaragua and Central America in perspective, green-olive terrain, Pacific and Caribbean blue, northern mountains emphasized",
+  "mapa": "bandera azul en Managua; zona de sierra norte marcada",
+  "ov": "tarjeta=I|El primer movimiento; etiqueta=NICARAGUA, 1930",
+  "palabras": 35,
+  "dur": 13.23,
+  "inicio": 234.83,
+  "reusa": "",
+  "imagen": "N01",
+  "overlays": [
+   {
+    "k": "tarjeta",
+    "v": "I|El primer movimiento"
+   },
+   {
+    "k": "etiqueta",
+    "v": "NICARAGUA, 1930"
+   }
+  ]
+ },
+ {
+  "id": "N01b",
+  "cap": "CAP I | NICARAGUA, 1932 — «GIRA HACIA EL FUEGO»",
+  "tipo": "bn",
+  "opts": {
+   "zoom": "in"
+  },
+  "voz": "Para entender esa guerra hay que retroceder un poco. En mil novecientos veintisiete, Estados Unidos envió marines a Nicaragua, en medio de una guerra civil. Casi todos los jefes aceptaron un pacto de paz. Uno no: Augusto César Sandino.",
+  "prompt": "Black-and-white archival photograph of U.S. Marines landing at a Nicaraguan port with rifles and packs, townspeople watching from the quay, 1927",
+  "mapa": "",
+  "ov": "fecha=1927",
+  "palabras": 39,
+  "dur": 14.71,
+  "inicio": 248.06,
+  "reusa": "",
+  "imagen": "N01b",
+  "overlays": [
+   {
+    "k": "fecha",
+    "v": "1927"
+   }
+  ]
+ },
+ {
+  "id": "N01c",
+  "cap": "CAP I | NICARAGUA, 1932 — «GIRA HACIA EL FUEGO»",
+  "tipo": "ia",
+  "opts": {
+   "zoom": "in"
+  },
+  "voz": "Para unos era un bandolero. Para muchos nicaragüenses, un héroe que defendía su país de una ocupación extranjera. Con unos cientos de hombres y un conocimiento perfecto del terreno, Sandino mantuvo en jaque durante años a una potencia militar. No ganaba por fuerza. Ganaba eligiendo dónde, cuándo y cómo.",
+  "prompt": "A lean guerrilla leader in a wide-brimmed hat and simple clothes standing on a mountain ridge with his men, misty morning, determined expression, 1930s Nicaragua",
+  "mapa": "",
+  "ov": "tarjeta=AUGUSTO C. SANDINO|Elegía dónde, cuándo y cómo",
+  "palabras": 49,
+  "dur": 18.39,
+  "inicio": 262.77,
+  "reusa": "",
+  "imagen": "N01c",
+  "overlays": [
+   {
+    "k": "tarjeta",
+    "v": "AUGUSTO C. SANDINO|Elegía dónde, cuándo y cómo"
+   }
+  ]
+ },
+ {
+  "id": "N02",
+  "cap": "CAP I | NICARAGUA, 1932 — «GIRA HACIA EL FUEGO»",
+  "tipo": "bn",
+  "opts": {},
+  "voz": "Los marines habían formado una fuerza local, la Guardia Nacional, y oficiales estadounidenses dirigían sus patrullas. Y las patrullas caían, una y otra vez, en emboscadas.",
+  "prompt": "Black-and-white archival photograph of Nicaraguan National Guard soldiers in campaign hats standing in a line with rifles, American officers beside them, 1930",
+  "mapa": "",
+  "ov": "tarjeta=GUARDIA NACIONAL|Soldados nicaragüenses, oficiales estadounidenses",
+  "palabras": 26,
+  "dur": 9.92,
+  "inicio": 281.16,
+  "reusa": "",
+  "imagen": "N02",
+  "overlays": [
+   {
+    "k": "tarjeta",
+    "v": "GUARDIA NACIONAL|Soldados nicaragüenses, oficiales estadounidenses"
+   }
+  ]
+ },
+ {
+  "id": "N03",
+  "cap": "CAP I | NICARAGUA, 1932 — «GIRA HACIA EL FUEGO»",
+  "tipo": "ia",
+  "opts": {
+   "zoom": "in"
+  },
+  "voz": "Los guerrilleros conocían cada sendero y cada cresta. Sabían que una columna con mulas y provisiones se oía y se veía mucho antes de llegar. Elegían un tramo estrecho del camino, con terreno alto a ambos lados, esperaban y abrían fuego.",
+  "prompt": "View from a ridge looking down on a narrow jungle trail where a column of soldiers with pack mules walks unaware, hidden riflemen in foliage in the foreground, 1930s Nicaragua, misty",
+  "mapa": "",
+  "ov": "etiqueta=EL TRAMPOLÍN DE LA EMBOSCADA",
+  "palabras": 41,
+  "dur": 15.44,
+  "inicio": 291.08,
+  "reusa": "",
+  "imagen": "N03",
+  "overlays": [
+   {
+    "k": "etiqueta",
+    "v": "EL TRAMPOLÍN DE LA EMBOSCADA"
+   }
+  ]
+ },
+ {
+  "id": "N04",
+  "cap": "CAP I | NICARAGUA, 1932 — «GIRA HACIA EL FUEGO»",
+  "tipo": "ia",
+  "opts": {
+   "zoom": "out"
+  },
+  "voz": "La patrulla se tiraba al suelo. Los guerrilleros seguían disparando desde arriba y después se esfumaban en el bosque, antes de que pudiera llegar ayuda. En aquellas montañas, quien elegía el lugar del combate casi siempre lo ganaba.",
+  "prompt": "Soldiers pinned down on a jungle trail taking cover behind rocks and mules, gun smoke rising from the hillside above, 1930s, tense",
+  "mapa": "",
+  "ov": "etiqueta=QUIEN ELEGÍA EL LUGAR, GANABA",
+  "palabras": 38,
+  "dur": 14.34,
+  "inicio": 306.52,
+  "reusa": "",
+  "imagen": "N04",
+  "overlays": [
+   {
+    "k": "etiqueta",
+    "v": "QUIEN ELEGÍA EL LUGAR, GANABA"
+   }
+  ]
+ },
+ {
+  "id": "N05",
+  "cap": "CAP I | NICARAGUA, 1932 — «GIRA HACIA EL FUEGO»",
+  "tipo": "ia",
+  "opts": {
+   "zoom": "in"
+  },
+  "voz": "Los guerrilleros estaban seguros de una cosa. Las montañas eran suyas. Cualquier patrulla que entrara a buscarlos pelearía en su terreno y bajo sus reglas.",
+  "prompt": "Dark mountain ridge line over dense jungle at dawn, silhouettes of rebel fighters with rifles looking down into the valley, heavy mist",
+  "mapa": "",
+  "ov": "tarjeta=LA MONTAÑA ERA SUYA|Su terreno. Sus reglas.",
+  "palabras": 25,
+  "dur": 9.55,
+  "inicio": 320.86,
+  "reusa": "",
+  "imagen": "N05",
+  "overlays": [
+   {
+    "k": "tarjeta",
+    "v": "LA MONTAÑA ERA SUYA|Su terreno. Sus reglas."
+   }
+  ]
+ },
+ {
+  "id": "N06",
+  "cap": "CAP I | NICARAGUA, 1932 — «GIRA HACIA EL FUEGO»",
+  "tipo": "retrato",
+  "opts": {
+   "zoom": "in"
+  },
+  "voz": "Puller llegó a Nicaragua a finales de mil novecientos veintiocho, como teniente de la Guardia. Miró las mismas montañas y sacó una conclusión distinta.",
+  "prompt": "Portrait of {PULLER_J} looking at distant mountains, hands on hips, campaign hat, early morning light, 1928",
+  "mapa": "",
+  "ov": "fecha=Finales de 1928",
+  "palabras": 24,
+  "dur": 9.18,
+  "inicio": 330.41,
+  "reusa": "",
+  "imagen": "N06",
+  "overlays": [
+   {
+    "k": "fecha",
+    "v": "Finales de 1928"
+   }
+  ]
+ },
+ {
+  "id": "N07",
+  "cap": "CAP I | NICARAGUA, 1932 — «GIRA HACIA EL FUEGO»",
+  "tipo": "ia",
+  "opts": {
+   "zoom": "in"
+  },
+  "voz": "Si la emboscada funcionaba porque la patrulla era lenta, pesada y previsible, entonces la respuesta era una patrulla que no fuera nada de eso.",
+  "prompt": "{PULLER_J} drawing a rough sketch in the dirt with a stick while a few guardsmen crouch around him, jungle clearing, determined faces",
+  "mapa": "",
+  "ov": "etiqueta=LENTA · PESADA · PREVISIBLE",
+  "palabras": 24,
+  "dur": 9.18,
+  "inicio": 339.59,
+  "reusa": "",
+  "imagen": "N07",
+  "overlays": [
+   {
+    "k": "etiqueta",
+    "v": "LENTA · PESADA · PREVISIBLE"
+   }
+  ]
+ },
+ {
+  "id": "N08",
+  "cap": "CAP I | NICARAGUA, 1932 — «GIRA HACIA EL FUEGO»",
+  "tipo": "ia",
+  "opts": {
+   "zoom": "in"
+  },
+  "voz": "Sus patrullas eran pequeñas, de unas pocas decenas de guardias nicaragüenses. Cargaban lo mínimo. Según el propio Puller, su compañía pasaba unos veinte días al mes en el camino y podía recorrer unos cuarenta y ocho kilómetros en una jornada, el doble que una patrulla corriente. Los guerrilleros nunca sabían dónde estaba.",
+  "prompt": "A small lightly equipped patrol of Nicaraguan guardsmen moving fast in single file along a jungle ridge, minimal packs, {PULLER_J} leading at the front",
+  "mapa": "",
+  "ov": "cifra=48 km al día; etiqueta=EL DOBLE QUE UNA PATRULLA NORMAL",
+  "palabras": 52,
+  "dur": 19.49,
+  "inicio": 348.77,
+  "reusa": "",
+  "imagen": "N08",
+  "overlays": [
+   {
+    "k": "cifra",
+    "v": "48 km al día"
+   },
+   {
+    "k": "etiqueta",
+    "v": "EL DOBLE QUE UNA PATRULLA NORMAL"
+   }
+  ]
+ },
+ {
+  "id": "N09",
+  "cap": "CAP I | NICARAGUA, 1932 — «GIRA HACIA EL FUEGO»",
+  "tipo": "frase",
+  "opts": {},
+  "voz": "Y les grababa a sus hombres una regla que iba contra todo instinto de soldado. Cuando te emboscan, no te quedas tirado esperando. Te giras hacia el fuego y lo atacas de inmediato, antes de que el enemigo termine lo que planeó.",
+  "prompt": "",
+  "mapa": "",
+  "ov": "frase=Si te emboscan, no te tires al suelo. Gira hacia el fuego.",
+  "palabras": 42,
+  "dur": 15.81,
+  "inicio": 368.26,
+  "reusa": "",
+  "imagen": "",
+  "overlays": [
+   {
+    "k": "frase",
+    "v": "Si te emboscan, no te tires al suelo. Gira hacia el fuego."
+   }
+  ]
+ },
+ {
+  "id": "N10",
+  "cap": "CAP I | NICARAGUA, 1932 — «GIRA HACIA EL FUEGO»",
+  "tipo": "linea",
+  "opts": {},
+  "voz": "Entre febrero y agosto de mil novecientos treinta, Puller llevó a sus guardias a cinco combates contra fuerzas guerrilleras más numerosas. La Virgen. Los Cedros. Moncotal. Guapinol. Malacate. Cada vez, los guerrilleros fueron expulsados. Por esa serie de combates recibió su primera Cruz de la Armada.",
+  "prompt": "",
+  "mapa": "",
+  "ov": "linea=1930|feb–ago|La Virgen · Los Cedros · Moncotal · Guapinol · Malacate; etiqueta=PRIMERA CRUZ DE LA ARMADA",
+  "palabras": 46,
+  "dur": 17.28,
+  "inicio": 384.07,
+  "reusa": "",
+  "imagen": "",
+  "overlays": [
+   {
+    "k": "linea",
+    "v": "1930|feb–ago|La Virgen · Los Cedros · Moncotal · Guapinol · Malacate"
+   },
+   {
+    "k": "etiqueta",
+    "v": "PRIMERA CRUZ DE LA ARMADA"
+   }
+  ]
+ },
+ {
+  "id": "N11",
+  "cap": "CAP I | NICARAGUA, 1932 — «GIRA HACIA EL FUEGO»",
+  "tipo": "ia",
+  "opts": {
+   "zoom": "in",
+   "look": "noche"
+  },
+  "voz": "Cuenta la historia que los guerrilleros le pusieron su propio apodo. Lo llamaban El Tigre.",
+  "prompt": "Close-up of a tiger's eyes glowing in dark jungle undergrowth, a blurred lone patrol silhouette passing in the background, night mist",
+  "mapa": "",
+  "ov": "tarjeta=«EL TIGRE»|Según se cuenta, así lo llamaban los guerrilleros",
+  "palabras": 15,
+  "dur": 5.87,
+  "inicio": 401.35,
+  "reusa": "",
+  "imagen": "N11",
+  "overlays": [
+   {
+    "k": "tarjeta",
+    "v": "«EL TIGRE»|Según se cuenta, así lo llamaban los guerrilleros"
+   }
+  ]
+ },
+ {
+  "id": "N12",
+  "cap": "CAP I | NICARAGUA, 1932 — «GIRA HACIA EL FUEGO»",
+  "tipo": "anio",
+  "opts": {},
+  "voz": "Pero el combate que mejor muestra su método llegó dos años más tarde. Septiembre de mil novecientos treinta y dos.",
+  "prompt": "Faded sepia jungle valley landscape, heavy haze, mountains in the distance",
+  "mapa": "",
+  "ov": "anio=1932|SEPTIEMBRE",
+  "palabras": 20,
+  "dur": 7.71,
+  "inicio": 407.22,
+  "reusa": "",
+  "imagen": "",
+  "overlays": [
+   {
+    "k": "anio",
+    "v": "1932|SEPTIEMBRE"
+   }
+  ]
+ },
+ {
+  "id": "N13",
+  "cap": "CAP I | NICARAGUA, 1932 — «GIRA HACIA EL FUEGO»",
+  "tipo": "mapa",
+  "opts": {},
+  "voz": "Puller condujo una patrulla de unos cuarenta guardias hacia lo profundo del territorio guerrillero, a unos ciento sesenta kilómetros al norte de la ciudad de Jinotega. Llevaban seis días de marcha.",
+  "prompt": "Stylized relief map of northern Nicaragua mountains in perspective, a winding river and a dotted route leading deep into highlands, green-olive palette",
+  "mapa": "bandera azul (patrulla) al norte; ruta punteada desde Jinotega; fecha",
+  "ov": "cifra=100 millas al norte de Jinotega; etiqueta=6 DÍAS DE MARCHA",
+  "palabras": 31,
+  "dur": 11.76,
+  "inicio": 414.93,
+  "reusa": "",
+  "imagen": "N13",
+  "overlays": [
+   {
+    "k": "cifra",
+    "v": "100 millas al norte de Jinotega"
+   },
+   {
+    "k": "etiqueta",
+    "v": "6 DÍAS DE MARCHA"
+   }
+  ]
+ },
+ {
+  "id": "N14",
+  "cap": "CAP I | NICARAGUA, 1932 — «GIRA HACIA EL FUEGO»",
+  "tipo": "ia",
+  "opts": {
+   "zoom": "in"
+  },
+  "voz": "Su segundo al mando era William Lee, un duro sargento de marines que servía como oficial en la Guardia.",
+  "prompt": "Portrait of a tough weathered American Marine sergeant-officer, 1930s Nicaragua, sweat and dust on his face, campaign hat, jungle background",
+  "mapa": "",
+  "ov": "tarjeta=WILLIAM LEE|Segundo al mando",
+  "palabras": 19,
+  "dur": 7.34,
+  "inicio": 426.69,
+  "reusa": "",
+  "imagen": "N14",
+  "overlays": [
+   {
+    "k": "tarjeta",
+    "v": "WILLIAM LEE|Segundo al mando"
+   }
+  ]
+ },
+ {
+  "id": "N15",
+  "cap": "CAP I | NICARAGUA, 1932 — «GIRA HACIA EL FUEGO»",
+  "tipo": "ia",
+  "opts": {
+   "zoom": "in",
+   "look": "noche"
+  },
+  "voz": "El veintiséis de septiembre, en un sendero entre colinas, los guerrilleros cerraron la trampa. Según estimaciones estadounidenses, eran unos ciento cincuenta, con al menos siete armas automáticas.",
+  "prompt": "Ambush at the moment it begins: muzzle flashes from jungle hillsides on both sides of a narrow trail, soldiers frozen in the middle, dust and smoke, dusk light",
+  "mapa": "",
+  "ov": "tarjeta=LA EMBOSCADA, 26 DE SEPTIEMBRE DE 1932|Guerrilleros: unos 150 · armas automáticas: al menos 7 · patrulla: unos 40",
+  "palabras": 27,
+  "dur": 10.29,
+  "inicio": 434.03,
+  "reusa": "",
+  "imagen": "N15",
+  "overlays": [
+   {
+    "k": "tarjeta",
+    "v": "LA EMBOSCADA, 26 DE SEPTIEMBRE DE 1932|Guerrilleros: unos 150 · armas automáticas: al menos 7 · patrulla: unos 40"
+   }
+  ]
+ },
+ {
+  "id": "N16",
+  "cap": "CAP I | NICARAGUA, 1932 — «GIRA HACIA EL FUEGO»",
+  "tipo": "ia",
+  "opts": {
+   "zoom": "in"
+  },
+  "voz": "En los primeros segundos cayó un guardia cerca del frente de la columna. Lee recibió un disparo en la cabeza y otro en el brazo, y se desplomó en el sendero.",
+  "prompt": "A wounded officer falling to the ground on a jungle trail as guardsmen scatter behind him, dust kicked up by bullets, non-graphic",
+  "mapa": "",
+  "ov": "etiqueta=EL PRIMER SEGUNDO",
+  "palabras": 31,
+  "dur": 11.76,
+  "inicio": 444.32,
+  "reusa": "",
+  "imagen": "N16",
+  "overlays": [
+   {
+    "k": "etiqueta",
+    "v": "EL PRIMER SEGUNDO"
+   }
+  ]
+ },
+ {
+  "id": "N17",
+  "cap": "CAP I | NICARAGUA, 1932 — «GIRA HACIA EL FUEGO»",
+  "tipo": "ia",
+  "opts": {
+   "zoom": "out"
+  },
+  "voz": "Este era el momento en que la mayoría de las patrullas de Nicaragua se desmoronaba. Clavados en el camino, superados tres a uno, con fuego cayendo desde las alturas. El plan guerrillero dependía de lo que venía después: que la patrulla se paralizara.",
+  "prompt": "Overhead view of a small patrol pinned down on a narrow trail surrounded by high wooded slopes with muzzle flashes, tense composition",
+  "mapa": "",
+  "ov": "etiqueta=SUPERADOS TRES A UNO",
+  "palabras": 43,
+  "dur": 16.18,
+  "inicio": 456.08,
+  "reusa": "",
+  "imagen": "N17",
+  "overlays": [
+   {
+    "k": "etiqueta",
+    "v": "SUPERADOS TRES A UNO"
+   }
+  ]
+ },
+ {
+  "id": "N18",
+  "cap": "CAP I | NICARAGUA, 1932 — «GIRA HACIA EL FUEGO»",
+  "tipo": "ia",
+  "opts": {
+   "zoom": "in"
+  },
+  "voz": "Puller se echó al suelo cuando las primeras balas pasaron sobre su cabeza. Pero no se quedó ahí. Atacó la altura de la derecha y la tomó. Después se volvió y arrasó las posiciones guerrilleras de la izquierda.",
+  "prompt": "{PULLER_J} charging uphill through smoke and foliage with a pistol in hand, guardsmen following him up the slope, dramatic action, low angle",
+  "mapa": "",
+  "ov": "etiqueta=GIRÓ HACIA EL FUEGO",
+  "palabras": 38,
+  "dur": 14.34,
+  "inicio": 472.26,
+  "reusa": "",
+  "imagen": "N18",
+  "overlays": [
+   {
+    "k": "etiqueta",
+    "v": "GIRÓ HACIA EL FUEGO"
+   }
+  ]
+ },
+ {
+  "id": "N19",
+  "cap": "CAP I | NICARAGUA, 1932 — «GIRA HACIA EL FUEGO»",
+  "tipo": "ia",
+  "opts": {
+   "zoom": "out"
+  },
+  "voz": "La emboscada que debía destruir su patrulla quedó rota y dispersa. Perdió a dos hombres, y unos pocos más resultaron heridos. Y en la larga marcha de regreso, los guerrilleros lo emboscaron dos veces más. Las dos veces, la patrulla se volvió hacia el fuego y los hizo huir.",
+  "prompt": "Guardsmen advancing across a cleared hillside as rebels retreat into the forest, weary but victorious, late afternoon light, smoke drifting",
+  "mapa": "",
+  "ov": "etiqueta=DOS BAJAS · DOS EMBOSCADAS MÁS · MISMA RESPUESTA",
+  "palabras": 49,
+  "dur": 18.39,
+  "inicio": 486.6,
+  "reusa": "",
+  "imagen": "N19",
+  "overlays": [
+   {
+    "k": "etiqueta",
+    "v": "DOS BAJAS · DOS EMBOSCADAS MÁS · MISMA RESPUESTA"
+   }
+  ]
+ },
+ {
+  "id": "N20",
+  "cap": "CAP I | NICARAGUA, 1932 — «GIRA HACIA EL FUEGO»",
+  "tipo": "medallas",
+  "opts": {},
+  "voz": "Por esa patrulla recibió su segunda Cruz de la Armada. Seguía siendo un oficial subalterno, pero el mismo Cuerpo que lo había devuelto a las filas trece años antes tenía ahora a un teniente con dos de sus condecoraciones más altas al valor.",
+  "prompt": "Two Navy Cross medals on dark velvet, gold crosses with navy and white ribbons, soft side light, shallow depth of field",
+  "mapa": "",
+  "ov": "anio=2|CRUCES DE LA ARMADA; etiqueta=SEGUNDA CRUZ DE LA ARMADA",
+  "palabras": 43,
+  "dur": 16.18,
+  "inicio": 504.99,
+  "reusa": "",
+  "imagen": "N20",
+  "overlays": [
+   {
+    "k": "anio",
+    "v": "2|CRUCES DE LA ARMADA"
+   },
+   {
+    "k": "etiqueta",
+    "v": "SEGUNDA CRUZ DE LA ARMADA"
+   }
+  ]
+ },
+ {
+  "id": "N21",
+  "cap": "CAP I | NICARAGUA, 1932 — «GIRA HACIA EL FUEGO»",
+  "tipo": "frase",
+  "opts": {},
+  "voz": "Y aquí empieza el patrón. Primero: Puller iba donde estaban sus hombres. Nunca mandaba desde atrás. Estaba en el sendero con la patrulla.",
+  "prompt": "",
+  "mapa": "",
+  "ov": "tarjeta=EL PATRÓN|I. Iba donde estaban sus hombres",
+  "palabras": 23,
+  "dur": 8.82,
+  "inicio": 521.17,
+  "reusa": "",
+  "imagen": "",
+  "overlays": [
+   {
+    "k": "tarjeta",
+    "v": "EL PATRÓN|I. Iba donde estaban sus hombres"
+   }
+  ]
+ },
+ {
+  "id": "N22",
+  "cap": "CAP I | NICARAGUA, 1932 — «GIRA HACIA EL FUEGO»",
+  "tipo": "ia",
+  "opts": {
+   "zoom": "in"
+  },
+  "voz": "Segundo: atacaba el lugar que el enemigo creía más seguro, que en una emboscada es la posición del propio enemigo. Y tercero: estar rodeado no cambiaba su plan. Solo lo hacía más sencillo. Quedaba una sola dirección, y era hacia el enemigo.",
+  "prompt": "{PULLER_J} silhouetted against a ridge line charging forward with arm raised, soldiers behind him, sunrise glare, painterly war scene",
+  "mapa": "",
+  "ov": "tarjeta=EL PATRÓN|II. Atacaba el lugar más seguro del enemigo; III. Rodeado = una sola dirección",
+  "palabras": 42,
+  "dur": 15.81,
+  "inicio": 529.99,
+  "reusa": "",
+  "imagen": "N22",
+  "overlays": [
+   {
+    "k": "tarjeta",
+    "v": "EL PATRÓN|II. Atacaba el lugar más seguro del enemigo"
+   },
+   {
+    "k": "III. Rodeado ",
+    "v": " una sola dirección"
+   }
+  ]
+ },
+ {
+  "id": "N22b",
+  "cap": "CAP I | NICARAGUA, 1932 — «GIRA HACIA EL FUEGO»",
+  "tipo": "bn",
+  "opts": {
+   "zoom": "in"
+  },
+  "voz": "Aquella guerra terminó pronto. Los marines se retiraron de Nicaragua en enero de mil novecientos treinta y tres. Sandino fue asesinado en mil novecientos treinta y cuatro, por oficiales de esa misma Guardia Nacional que los marines habían ayudado a formar. Es uno de esos finales que la historia nunca termina de discutir.",
+  "prompt": "Black-and-white archival photograph of U.S. Marines boarding a transport ship in a tropical port, rifles on shoulders, crowd on the pier, January 1933",
+  "mapa": "",
+  "ov": "fecha=Enero de 1933; etiqueta=LOS MARINES SE RETIRAN",
+  "palabras": 53,
+  "dur": 19.86,
+  "inicio": 545.8,
+  "reusa": "",
+  "imagen": "N22b",
+  "overlays": [
+   {
+    "k": "fecha",
+    "v": "Enero de 1933"
+   },
+   {
+    "k": "etiqueta",
+    "v": "LOS MARINES SE RETIRAN"
+   }
+  ]
+ },
+ {
+  "id": "N23",
+  "cap": "CAP I | NICARAGUA, 1932 — «GIRA HACIA EL FUEGO»",
+  "tipo": "frase",
+  "opts": {},
+  "voz": "Recuerda esas tres cosas. Van a volver, cada vez a una escala mucho mayor.",
+  "prompt": "",
+  "mapa": "",
+  "ov": "frase=Recuerda esas tres cosas. Van a volver.",
+  "palabras": 14,
+  "dur": 5.5,
+  "inicio": 565.66,
+  "reusa": "",
+  "imagen": "",
+  "overlays": [
+   {
+    "k": "frase",
+    "v": "Recuerda esas tres cosas. Van a volver."
+   }
+  ]
+ },
+ {
+  "id": "N24",
+  "cap": "CAP I | NICARAGUA, 1932 — «GIRA HACIA EL FUEGO»",
+  "tipo": "sub",
+  "opts": {},
+  "voz": "Si te está gustando esta historia, tómate un segundo para suscribirte y activar la campanita. Ayuda al canal más de lo que imaginas.",
+  "prompt": "=N05",
+  "mapa": "",
+  "ov": "sub=SUSCRÍBETE",
+  "palabras": 23,
+  "dur": 8.82,
+  "inicio": 571.16,
+  "reusa": "N05",
+  "imagen": "",
+  "overlays": [
+   {
+    "k": "sub",
+    "v": "SUSCRÍBETE"
+   }
+  ]
+ },
+ {
+  "id": "C01",
+  "cap": "CAP II | GUADALCANAL, 1942 — «MANTÉN LA LÍNEA»",
+  "tipo": "mapa",
+  "opts": {},
+  "voz": "Segundo movimiento. Diez años después de Nicaragua, Puller recibiría un batallón de marines y más de dos kilómetros de selva que defender, sin reserva. Y pasaría por una noche en la que el enemigo informó a sus jefes que la batalla ya estaba ganada.",
+  "prompt": "Stylized relief map of the Solomon Islands in perspective, Guadalcanal island in the foreground, deep blue ocean, green-olive terrain, antique map feel",
+  "mapa": "bandera azul en Henderson Field (costa norte de Guadalcanal)",
+  "ov": "tarjeta=II|El segundo movimiento",
+  "palabras": 44,
+  "dur": 16.55,
+  "inicio": 579.98,
+  "reusa": "",
+  "imagen": "C01",
+  "overlays": [
+   {
+    "k": "tarjeta",
+    "v": "II|El segundo movimiento"
+   }
+  ]
+ },
+ {
+  "id": "C02",
+  "cap": "CAP II | GUADALCANAL, 1942 — «MANTÉN LA LÍNEA»",
+  "tipo": "anio",
+  "opts": {},
+  "voz": "Octubre de mil novecientos cuarenta y dos. Guadalcanal, en las islas Salomón.",
+  "prompt": "Dark tropical island coastline at dusk, palm trees silhouetted, ships far offshore, heavy clouds",
+  "mapa": "",
+  "ov": "anio=1942|OCTUBRE",
+  "palabras": 12,
+  "dur": 4.77,
+  "inicio": 596.53,
+  "reusa": "",
+  "imagen": "",
+  "overlays": [
+   {
+    "k": "anio",
+    "v": "1942|OCTUBRE"
+   }
+  ]
+ },
+ {
+  "id": "C03",
+  "cap": "CAP II | GUADALCANAL, 1942 — «MANTÉN LA LÍNEA»",
+  "tipo": "bn",
+  "opts": {
+   "zoom": "in"
+  },
+  "voz": "Once semanas antes, la Primera División de Marines había desembarcado en la isla y había tomado un aeródromo japonés a medio terminar.",
+  "prompt": "Black-and-white archival photograph of Marines wading ashore from landing craft onto a beach with palm trees, August 1942",
+  "mapa": "",
+  "ov": "fecha=7 de agosto de 1942",
+  "palabras": 22,
+  "dur": 8.45,
+  "inicio": 601.3,
+  "reusa": "",
+  "imagen": "C03",
+  "overlays": [
+   {
+    "k": "fecha",
+    "v": "7 de agosto de 1942"
+   }
+  ]
+ },
+ {
+  "id": "C04",
+  "cap": "CAP II | GUADALCANAL, 1942 — «MANTÉN LA LÍNEA»",
+  "tipo": "ia",
+  "opts": {
+   "zoom": "out"
+  },
+  "voz": "Los estadounidenses lo terminaron y lo bautizaron Henderson Field. Era el único aeródromo de verdad en la región, y quien lo tuviera controlaba el aire sobre el sur de las Salomón.",
+  "prompt": "Marine fighter planes parked on a rough jungle airstrip, mechanics working, tents and palm trees, hazy tropical light, 1942",
+  "mapa": "",
+  "ov": "etiqueta=HENDERSON FIELD",
+  "palabras": 31,
+  "dur": 11.76,
+  "inicio": 609.75,
+  "reusa": "",
+  "imagen": "C04",
+  "overlays": [
+   {
+    "k": "etiqueta",
+    "v": "HENDERSON FIELD"
+   }
+  ]
+ },
+ {
+  "id": "C05",
+  "cap": "CAP II | GUADALCANAL, 1942 — «MANTÉN LA LÍNEA»",
+  "tipo": "ia",
+  "opts": {
+   "zoom": "in",
+   "look": "noche"
+  },
+  "voz": "Mientras aviones estadounidenses despegaran de Henderson, los barcos japoneses no podían moverse libres de día. Por eso el ejército japonés estaba decidido a recuperarlo. Costara lo que costara.",
+  "prompt": "Japanese destroyers sailing at night under searchlight glare in a dark sea, aircraft silhouettes overhead, 1942 naval tension",
+  "mapa": "",
+  "ov": "etiqueta=QUIEN LO TENÍA, MANDABA EN EL AIRE",
+  "palabras": 28,
+  "dur": 10.66,
+  "inicio": 621.51,
+  "reusa": "",
+  "imagen": "C05",
+  "overlays": [
+   {
+    "k": "etiqueta",
+    "v": "QUIEN LO TENÍA, MANDABA EN EL AIRE"
+   }
+  ]
+ },
+ {
+  "id": "C05b",
+  "cap": "CAP II | GUADALCANAL, 1942 — «MANTÉN LA LÍNEA»",
+  "tipo": "ia",
+  "opts": {
+   "look": "noche"
+  },
+  "voz": "Y ya lo estaban intentando. Pocos días antes, en la noche del trece al catorce de octubre, dos acorazados japoneses se acercaron a la costa y dispararon durante horas contra Henderson Field. Cientos de proyectiles gigantes cayeron sobre la pista.",
+  "prompt": "Night bombardment: massive naval shells exploding on an airfield, fireballs lighting palm trees and parked aircraft, distant battleship muzzle flashes on the horizon, 1942",
+  "mapa": "",
+  "ov": "fecha=13–14 de octubre de 1942; etiqueta=BOMBARDEO DE ACORAZADOS",
+  "palabras": 40,
+  "dur": 15.07,
+  "inicio": 632.17,
+  "reusa": "",
+  "imagen": "C05b",
+  "overlays": [
+   {
+    "k": "fecha",
+    "v": "13–14 de octubre de 1942"
+   },
+   {
+    "k": "etiqueta",
+    "v": "BOMBARDEO DE ACORAZADOS"
+   }
+  ]
+ },
+ {
+  "id": "C05c",
+  "cap": "CAP II | GUADALCANAL, 1942 — «MANTÉN LA LÍNEA»",
+  "tipo": "ia",
+  "opts": {
+   "zoom": "in",
+   "look": "bn"
+  },
+  "voz": "Cuando amaneció, buena parte de los aviones estaba destruida y casi no quedaba combustible. Pero la pista seguía en pie. Y seguía siendo la clave de todo.",
+  "prompt": "A cratered airstrip at dawn with wrecked aircraft and smoking fuel drums, Marines and mechanics clearing debris, smoke columns against a pale sky, 1942",
+  "mapa": "",
+  "ov": "etiqueta=LA PISTA SEGUÍA EN PIE",
+  "palabras": 27,
+  "dur": 10.29,
+  "inicio": 647.24,
+  "reusa": "",
+  "imagen": "C05c",
+  "overlays": [
+   {
+    "k": "etiqueta",
+    "v": "LA PISTA SEGUÍA EN PIE"
+   }
+  ]
+ },
+ {
+  "id": "C05d",
+  "cap": "CAP II | GUADALCANAL, 1942 — «MANTÉN LA LÍNEA»",
+  "tipo": "frase",
+  "opts": {},
+  "voz": "Si Henderson caía, Guadalcanal caía. Y si Guadalcanal caía, toda la campaña del Pacífico Sur se complicaba enormemente.",
+  "prompt": "",
+  "mapa": "",
+  "ov": "frase=Si Henderson caía, caía Guadalcanal.",
+  "palabras": 18,
+  "dur": 6.98,
+  "inicio": 657.53,
+  "reusa": "",
+  "imagen": "",
+  "overlays": [
+   {
+    "k": "frase",
+    "v": "Si Henderson caía, caía Guadalcanal."
+   }
+  ]
+ },
+ {
+  "id": "C06",
+  "cap": "CAP II | GUADALCANAL, 1942 — «MANTÉN LA LÍNEA»",
+  "tipo": "retrato",
+  "opts": {},
+  "voz": "A finales de octubre había reunido lo que creía fuerza suficiente. El golpe principal vendría de la Segunda División, la división Sendai, al mando del teniente general Masao Maruyama.",
+  "prompt": "Portrait of an Imperial Japanese Army lieutenant general in field uniform, severe expression, studio lighting, 1942 photograph style",
+  "mapa": "",
+  "ov": "tarjeta=TTE. GRAL. MASAO MARUYAMA|División Sendai",
+  "palabras": 29,
+  "dur": 11.02,
+  "inicio": 664.51,
+  "reusa": "",
+  "imagen": "C06",
+  "overlays": [
+   {
+    "k": "tarjeta",
+    "v": "TTE. GRAL. MASAO MARUYAMA|División Sendai"
+   }
+  ]
+ },
+ {
+  "id": "C07",
+  "cap": "CAP II | GUADALCANAL, 1942 — «MANTÉN LA LÍNEA»",
+  "tipo": "mapa",
+  "opts": {},
+  "voz": "En lugar de golpear por la costa, donde los estadounidenses los esperaban, abrirían un camino a través de la selva. Y atacarían el aeródromo desde el sur, desde un lado que los marines apenas habían fortificado.",
+  "prompt": "Stylized relief map of Guadalcanal showing coastline in the north and dense jungle highlands in the south, a dotted route cutting through the jungle toward the airfield",
+  "mapa": "flecha roja larga desde el sur por la selva hacia Henderson Field",
+  "ov": "etiqueta=EL ATAQUE VENDRÍA DEL SUR",
+  "palabras": 36,
+  "dur": 13.6,
+  "inicio": 675.53,
+  "reusa": "",
+  "imagen": "C07",
+  "overlays": [
+   {
+    "k": "etiqueta",
+    "v": "EL ATAQUE VENDRÍA DEL SUR"
+   }
+  ]
+ },
+ {
+  "id": "C08",
+  "cap": "CAP II | GUADALCANAL, 1942 — «MANTÉN LA LÍNEA»",
+  "tipo": "ia",
+  "opts": {
+   "zoom": "in"
+  },
+  "voz": "Había un detalle que los japoneses no sabían. La línea sur era larga, delgada y estaba cubierta de selva. Para cualquiera que mirara el mapa, parecía el punto débil de la defensa. Y lo era.",
+  "prompt": "A thin line of foxholes and barbed wire stretched along the edge of dense jungle, a lone sentry silhouette in the foreground, overcast sky, 1942",
+  "mapa": "",
+  "ov": "etiqueta=EL PUNTO DÉBIL",
+  "palabras": 35,
+  "dur": 13.23,
+  "inicio": 689.13,
+  "reusa": "",
+  "imagen": "C08",
+  "overlays": [
+   {
+    "k": "etiqueta",
+    "v": "EL PUNTO DÉBIL"
+   }
+  ]
+ },
+ {
+  "id": "C09",
+  "cap": "CAP II | GUADALCANAL, 1942 — «MANTÉN LA LÍNEA»",
+  "tipo": "ia",
+  "opts": {
+   "zoom": "in"
+  },
+  "voz": "Esa línea la defendía el Primer Batallón del Séptimo de Marines. Unos setecientos hombres, para más de dos kilómetros de frente. Al batallón vecino lo habían mandado a otro sector, así que no tenía reservas.",
+  "prompt": "{PULLER_M} in a foxhole line at dusk, telephone receiver in hand, young Marines in helmets around him, jungle edge behind, tropical rain starting",
+  "mapa": "",
+  "ov": "tarjeta=1.er BATALLÓN, 7.º DE MARINES|Unos 700 hombres · más de 2 km de frente · sin reserva",
+  "palabras": 35,
+  "dur": 13.23,
+  "inicio": 702.36,
+  "reusa": "",
+  "imagen": "C09",
+  "overlays": [
+   {
+    "k": "tarjeta",
+    "v": "1.er BATALLÓN, 7.º DE MARINES|Unos 700 hombres · más de 2 km de frente · sin reserva"
+   }
+  ]
+ },
+ {
+  "id": "C10",
+  "cap": "CAP II | GUADALCANAL, 1942 — «MANTÉN LA LÍNEA»",
+  "tipo": "barras",
+  "opts": {},
+  "voz": "Los cálculos eran duros. Una estimación habla de nueve atacantes por cada defensor a lo largo de esa línea.",
+  "prompt": "",
+  "mapa": "",
+  "ov": "barras=SEGÚN UNA ESTIMACIÓN|Defensores=1|Atacantes=9",
+  "palabras": 19,
+  "dur": 7.34,
+  "inicio": 715.59,
+  "reusa": "",
+  "imagen": "",
+  "overlays": [
+   {
+    "k": "barras",
+    "v": "SEGÚN UNA ESTIMACIÓN|Defensores=1|Atacantes=9"
+   }
+  ]
+ },
+ {
+  "id": "C11",
+  "cap": "CAP II | GUADALCANAL, 1942 — «MANTÉN LA LÍNEA»",
+  "tipo": "ia",
+  "opts": {
+   "zoom": "in"
+  },
+  "voz": "Puller lo sabía. Y no esperó a que llegara la noche para prepararse. Hizo tender alambre de púas, colocó las ametralladoras para que sus campos de fuego se cruzaran, y recorrió su línea, puesto por puesto.",
+  "prompt": "Marines stringing barbed wire in front of foxholes in the jungle clearing at golden hour, machine gun crews adjusting positions, 1942",
+  "mapa": "",
+  "ov": "etiqueta=PREPARÓ EL TERRENO ANTES DEL ATAQUE",
+  "palabras": 36,
+  "dur": 13.6,
+  "inicio": 722.93,
+  "reusa": "",
+  "imagen": "C11",
+  "overlays": [
+   {
+    "k": "etiqueta",
+    "v": "PREPARÓ EL TERRENO ANTES DEL ATAQUE"
+   }
+  ]
+ },
+ {
+  "id": "C11b",
+  "cap": "CAP II | GUADALCANAL, 1942 — «MANTÉN LA LÍNEA»",
+  "tipo": "ia",
+  "opts": {
+   "zoom": "in"
+  },
+  "voz": "Y no eran hombres frescos. Llevaban semanas en la isla, con calor, malaria, raciones escasas y bombardeos casi todas las noches. Eran hombres cansados y flacos, muchos enfermos, que iban a enfrentar a un ejército decidido a no volver a casa sin la pista.",
+  "prompt": "Gaunt exhausted Marines sitting in a muddy foxhole, unshaven, sunken eyes, dented helmets, cleaning rifles with rags, hazy tropical light, 1942",
+  "mapa": "",
+  "ov": "etiqueta=CANSADOS, FLACOS, ENFERMOS",
+  "palabras": 44,
+  "dur": 16.55,
+  "inicio": 736.53,
+  "reusa": "",
+  "imagen": "C11b",
+  "overlays": [
+   {
+    "k": "etiqueta",
+    "v": "CANSADOS, FLACOS, ENFERMOS"
+   }
+  ]
+ },
+ {
+  "id": "C12",
+  "cap": "CAP II | GUADALCANAL, 1942 — «MANTÉN LA LÍNEA»",
+  "tipo": "ia",
+  "opts": {
+   "look": "noche"
+  },
+  "voz": "Cayó la noche del veinticuatro de octubre. Y con la noche llegó la lluvia. Una lluvia espesa, ruidosa, que borró casi todo lo que se podía ver y casi todo lo que se podía oír.",
+  "prompt": "Heavy tropical rain at night over a jungle perimeter, foxholes filling with water, faint lightning showing silhouettes of Marines behind sandbags",
+  "mapa": "",
+  "ov": "fecha=24 de octubre de 1942",
+  "palabras": 35,
+  "dur": 13.23,
+  "inicio": 753.08,
+  "reusa": "",
+  "imagen": "C12",
+  "overlays": [
+   {
+    "k": "fecha",
+    "v": "24 de octubre de 1942"
+   }
+  ]
+ },
+ {
+  "id": "C13",
+  "cap": "CAP II | GUADALCANAL, 1942 — «MANTÉN LA LÍNEA»",
+  "tipo": "ia",
+  "opts": {
+   "look": "noche"
+  },
+  "voz": "Los japoneses atacaron por oleadas. Salían de la selva, corrían hacia el alambre y se lanzaban contra los puestos de ametralladoras. Una y otra vez.",
+  "prompt": "Night battle: muzzle flashes and tracer fire across a jungle clearing, shadowy attackers emerging from trees, rain streaks, chaotic but non-graphic",
+  "mapa": "",
+  "ov": "etiqueta=OLA TRAS OLA",
+  "palabras": 25,
+  "dur": 9.55,
+  "inicio": 766.31,
+  "reusa": "",
+  "imagen": "C13",
+  "overlays": [
+   {
+    "k": "etiqueta",
+    "v": "OLA TRAS OLA"
+   }
+  ]
+ },
+ {
+  "id": "C14",
+  "cap": "CAP II | GUADALCANAL, 1942 — «MANTÉN LA LÍNEA»",
+  "tipo": "ia",
+  "opts": {
+   "look": "noche"
+  },
+  "voz": "Entre los marines de Puller estaba el sargento John Basilone. Su sección de ametralladoras siguió disparando durante horas, y esa noche le valdría la Medalla de Honor.",
+  "prompt": "A Marine machine gun crew firing a heavy machine gun from a sandbagged position at night, hot barrel glowing, tracer fire, faces lit by muzzle flash",
+  "mapa": "",
+  "ov": "tarjeta=SARGENTO JOHN BASILONE|Medalla de Honor por esa noche",
+  "palabras": 27,
+  "dur": 10.29,
+  "inicio": 775.86,
+  "reusa": "",
+  "imagen": "C14",
+  "overlays": [
+   {
+    "k": "tarjeta",
+    "v": "SARGENTO JOHN BASILONE|Medalla de Honor por esa noche"
+   }
+  ]
+ },
+ {
+  "id": "C15",
+  "cap": "CAP II | GUADALCANAL, 1942 — «MANTÉN LA LÍNEA»",
+  "tipo": "ia",
+  "opts": {
+   "look": "noche"
+  },
+  "voz": "A medianoche, la línea estaba al límite. Las ametralladoras se atascaban, las municiones escaseaban, y los japoneses seguían llegando. Puller pidió ayuda.",
+  "prompt": "Marine runner sprinting through rain and mud between foxholes carrying a message, flares overhead lighting the jungle edge",
+  "mapa": "",
+  "ov": "etiqueta=MEDIANOCHE",
+  "palabras": 22,
+  "dur": 8.45,
+  "inicio": 786.15,
+  "reusa": "",
+  "imagen": "C15",
+  "overlays": [
+   {
+    "k": "etiqueta",
+    "v": "MEDIANOCHE"
+   }
+  ]
+ },
+ {
+  "id": "C16",
+  "cap": "CAP II | GUADALCANAL, 1942 — «MANTÉN LA LÍNEA»",
+  "tipo": "ia",
+  "opts": {
+   "look": "noche"
+  },
+  "voz": "Llegaron refuerzos del Ejército: el tercer batallón del ciento sesenta y cuatro de infantería. Y Puller hizo algo que no estaba en ningún manual. No los puso como reserva. Los mezcló en su línea, soldados entre marines, tapando los huecos.",
+  "prompt": "U.S. Army soldiers with distinct helmets arriving in the rain and jumping into foxholes alongside Marines, night, lantern-like flare light",
+  "mapa": "",
+  "ov": "tarjeta=3.er BATALLÓN, 164.º DE INFANTERÍA|Los mezcló en su línea",
+  "palabras": 40,
+  "dur": 15.07,
+  "inicio": 794.6,
+  "reusa": "",
+  "imagen": "C16",
+  "overlays": [
+   {
+    "k": "tarjeta",
+    "v": "3.er BATALLÓN, 164.º DE INFANTERÍA|Los mezcló en su línea"
+   }
+  ]
+ },
+ {
+  "id": "C17",
+  "cap": "CAP II | GUADALCANAL, 1942 — «MANTÉN LA LÍNEA»",
+  "tipo": "ia",
+  "opts": {
+   "look": "noche"
+  },
+  "voz": "Mientras tanto, lejos de allí, el mando japonés recibía noticias. Un mensaje al cuartel de Rabaul, poco después de la medianoche: el ala derecha había capturado el aeródromo.",
+  "prompt": "Japanese radio operator in a jungle command post under lamp light, headphones on, maps on the table, reporting, night, 1942",
+  "mapa": "",
+  "ov": "tarjeta=UN MENSAJE A RABAUL|«El aeródromo ha sido capturado»",
+  "palabras": 28,
+  "dur": 10.66,
+  "inicio": 809.67,
+  "reusa": "",
+  "imagen": "C17",
+  "overlays": [
+   {
+    "k": "tarjeta",
+    "v": "UN MENSAJE A RABAUL|«El aeródromo ha sido capturado»"
+   }
+  ]
+ },
+ {
+  "id": "C18",
+  "cap": "CAP II | GUADALCANAL, 1942 — «MANTÉN LA LÍNEA»",
+  "tipo": "frase",
+  "opts": {},
+  "voz": "No era verdad. El aeródromo seguía en manos de los marines. Y la línea de Puller seguía en pie.",
+  "prompt": "",
+  "mapa": "",
+  "ov": "frase=No era verdad. La línea seguía en pie.",
+  "palabras": 19,
+  "dur": 7.34,
+  "inicio": 820.33,
+  "reusa": "",
+  "imagen": "",
+  "overlays": [
+   {
+    "k": "frase",
+    "v": "No era verdad. La línea seguía en pie."
+   }
+  ]
+ },
+ {
+  "id": "C19",
+  "cap": "CAP II | GUADALCANAL, 1942 — «MANTÉN LA LÍNEA»",
+  "tipo": "ia",
+  "opts": {
+   "look": "noche"
+  },
+  "voz": "Las oleadas siguieron hasta bien entrada la madrugada. Y cada vez había menos japoneses para llegar al alambre.",
+  "prompt": "Pre-dawn jungle perimeter, thin morning mist, exhausted Marines slumped behind sandbags, barbed wire tangled in front, smoke drifting",
+  "mapa": "",
+  "ov": "etiqueta=BIEN ENTRADA LA MADRUGADA",
+  "palabras": 18,
+  "dur": 6.98,
+  "inicio": 827.67,
+  "reusa": "",
+  "imagen": "C19",
+  "overlays": [
+   {
+    "k": "etiqueta",
+    "v": "BIEN ENTRADA LA MADRUGADA"
+   }
+  ]
+ },
+ {
+  "id": "C20",
+  "cap": "CAP II | GUADALCANAL, 1942 — «MANTÉN LA LÍNEA»",
+  "tipo": "ia",
+  "opts": {
+   "zoom": "out",
+   "look": "bn"
+  },
+  "voz": "Cuando amaneció, frente a las líneas de Puller había más de mil cuatrocientos cuerpos japoneses, según algunos conteos. Los marines habían perdido a decenas de hombres. El golpe principal japonés había fracasado en una sola noche.",
+  "prompt": "Dawn over a jungle clearing, barbed wire and wreckage in the mist, weary Marines standing and counting, grim but non-graphic aftermath",
+  "mapa": "",
+  "ov": "cifra=+1.400 bajas japonesas en su sector (según algunos conteos)",
+  "palabras": 36,
+  "dur": 13.6,
+  "inicio": 834.65,
+  "reusa": "",
+  "imagen": "C20",
+  "overlays": [
+   {
+    "k": "cifra",
+    "v": "+1.400 bajas japonesas en su sector (según algunos conteos)"
+   }
+  ]
+ },
+ {
+  "id": "C21",
+  "cap": "CAP II | GUADALCANAL, 1942 — «MANTÉN LA LÍNEA»",
+  "tipo": "barras",
+  "opts": {},
+  "voz": "Y fíjate en la desproporción. Frente a decenas de bajas propias, más de mil cuatrocientos del enemigo.",
+  "prompt": "",
+  "mapa": "",
+  "ov": "barras=SU SECTOR, NOCHE DEL 24 AL 25|Marines caídos=decenas|Japoneses caídos=+1.400",
+  "palabras": 17,
+  "dur": 6.61,
+  "inicio": 848.25,
+  "reusa": "",
+  "imagen": "",
+  "overlays": [
+   {
+    "k": "barras",
+    "v": "SU SECTOR, NOCHE DEL 24 AL 25|Marines caídos=decenas|Japoneses caídos=+1.400"
+   }
+  ]
+ },
+ {
+  "id": "C21b",
+  "cap": "CAP II | GUADALCANAL, 1942 — «MANTÉN LA LÍNEA»",
+  "tipo": "barras",
+  "opts": {},
+  "voz": "Al día siguiente, los ataques continuaron contra otros sectores. El veintiséis de octubre, los japoneses se retiraron. En conjunto, entre dos mil doscientos y tres mil japoneses murieron en esos tres días. Las bajas estadounidenses fueron de unas sesenta.",
+  "prompt": "",
+  "mapa": "",
+  "ov": "barras=BATALLA POR HENDERSON FIELD, 23–26 DE OCTUBRE|Estadounidenses caídos=~60|Japoneses caídos=2.200–3.000",
+  "palabras": 39,
+  "dur": 14.71,
+  "inicio": 854.86,
+  "reusa": "",
+  "imagen": "",
+  "overlays": [
+   {
+    "k": "barras",
+    "v": "BATALLA POR HENDERSON FIELD, 23–26 DE OCTUBRE|Estadounidenses caídos=~60|Japoneses caídos=2.200–3.000"
+   }
+  ]
+ },
+ {
+  "id": "C22",
+  "cap": "CAP II | GUADALCANAL, 1942 — «MANTÉN LA LÍNEA»",
+  "tipo": "medallas",
+  "opts": {},
+  "voz": "Por aquella noche, Puller recibió su tercera Cruz de la Armada.",
+  "prompt": "Three Navy Cross medals on dark velvet, gold crosses with navy and white ribbons, soft glow",
+  "mapa": "",
+  "ov": "anio=3|CRUCES DE LA ARMADA; etiqueta=TERCERA CRUZ DE LA ARMADA",
+  "palabras": 11,
+  "dur": 4.4,
+  "inicio": 869.57,
+  "reusa": "",
+  "imagen": "C22",
+  "overlays": [
+   {
+    "k": "anio",
+    "v": "3|CRUCES DE LA ARMADA"
+   },
+   {
+    "k": "etiqueta",
+    "v": "TERCERA CRUZ DE LA ARMADA"
+   }
+  ]
+ },
+ {
+  "id": "C23",
+  "cap": "CAP II | GUADALCANAL, 1942 — «MANTÉN LA LÍNEA»",
+  "tipo": "frase",
+  "opts": {},
+  "voz": "¿Qué había hecho distinto? Mira otra vez el patrón.",
+  "prompt": "",
+  "mapa": "",
+  "ov": "frase=¿Qué hizo distinto? Mira el patrón.",
+  "palabras": 9,
+  "dur": 3.66,
+  "inicio": 873.97,
+  "reusa": "",
+  "imagen": "",
+  "overlays": [
+   {
+    "k": "frase",
+    "v": "¿Qué hizo distinto? Mira el patrón."
+   }
+  ]
+ },
+ {
+  "id": "C24",
+  "cap": "CAP II | GUADALCANAL, 1942 — «MANTÉN LA LÍNEA»",
+  "tipo": "ia",
+  "opts": {
+   "zoom": "in"
+  },
+  "voz": "Primero, estaba en el sitio donde más hacía falta. No dirigía por mapa. Recorría la línea entre los puestos, de noche, bajo la lluvia. Segundo, preparó el lugar que el enemigo creía más débil, y lo volvió el más duro. Y tercero: sin reserva, no había adónde retirarse. Solo quedaba una dirección. Hacia donde venía el enemigo.",
+  "prompt": "{PULLER_M} walking along a line of foxholes in the rain at night, helmet low, a flashlight beam glinting off wet barbed wire, soldiers nodding to him",
+  "mapa": "",
+  "ov": "tarjeta=EL PATRÓN, OTRA VEZ|Presencia · Terreno preparado · Sin retirada",
+  "palabras": 57,
+  "dur": 21.33,
+  "inicio": 877.63,
+  "reusa": "",
+  "imagen": "C24",
+  "overlays": [
+   {
+    "k": "tarjeta",
+    "v": "EL PATRÓN, OTRA VEZ|Presencia · Terreno preparado · Sin retirada"
+   }
+  ]
+ },
+ {
+  "id": "C25",
+  "cap": "CAP II | GUADALCANAL, 1942 — «MANTÉN LA LÍNEA»",
+  "tipo": "frase",
+  "opts": {},
+  "voz": "Sin reserva. Sin retirada. Sin otra opción que sostener la línea. Y funcionó.",
+  "prompt": "",
+  "mapa": "",
+  "ov": "frase=Sin reserva. Sin retirada. Y funcionó.",
+  "palabras": 13,
+  "dur": 5.14,
+  "inicio": 898.96,
+  "reusa": "",
+  "imagen": "",
+  "overlays": [
+   {
+    "k": "frase",
+    "v": "Sin reserva. Sin retirada. Y funcionó."
+   }
+  ]
+ },
+ {
+  "id": "K01",
+  "cap": "CAP III | CABO GLOUCESTER, 1943-44 — «TOMA EL MANDO»",
+  "tipo": "mapa",
+  "opts": {},
+  "voz": "Tercer movimiento. Y este no tiene un solo momento heroico. Tiene tres semanas de fango, lluvia y trampas escondidas. Diciembre de mil novecientos cuarenta y tres. Nueva Bretaña, en el Pacífico Sur.",
+  "prompt": "Stylized relief map of New Britain island in the Southwest Pacific in perspective, jungle green-olive terrain, deep blue sea, antique map feel",
+  "mapa": "bandera azul en Cabo Gloucester (extremo oeste)",
+  "ov": "tarjeta=III|El tercer movimiento; fecha=26 de diciembre de 1943",
+  "palabras": 32,
+  "dur": 12.13,
+  "inicio": 904.1,
+  "reusa": "",
+  "imagen": "K01",
+  "overlays": [
+   {
+    "k": "tarjeta",
+    "v": "III|El tercer movimiento"
+   },
+   {
+    "k": "fecha",
+    "v": "26 de diciembre de 1943"
+   }
+  ]
+ },
+ {
+  "id": "K01b",
+  "cap": "CAP III | CABO GLOUCESTER, 1943-44 — «TOMA EL MANDO»",
+  "tipo": "mapa",
+  "opts": {},
+  "voz": "El objetivo eran dos aeródromos japoneses en el extremo del cabo. Quien los controlara dominaría el estrecho entre Nueva Bretaña y Nueva Guinea y ayudaría a aislar la gran base japonesa de Rabaul.",
+  "prompt": "Stylized relief map of the Bismarck Sea region showing New Britain and the northeastern coast of New Guinea separated by a narrow strait, green-olive terrain, antique map feel",
+  "mapa": "bandera azul en Cabo Gloucester; punto rojo en Rabaul (extremo este)",
+  "ov": "etiqueta=EL OBJETIVO: DOS AERÓDROMOS",
+  "palabras": 33,
+  "dur": 12.5,
+  "inicio": 916.23,
+  "reusa": "",
+  "imagen": "K01b",
+  "overlays": [
+   {
+    "k": "etiqueta",
+    "v": "EL OBJETIVO: DOS AERÓDROMOS"
+   }
+  ]
+ },
+ {
+  "id": "K02",
+  "cap": "CAP III | CABO GLOUCESTER, 1943-44 — «TOMA EL MANDO»",
+  "tipo": "ia",
+  "opts": {
+   "look": "noche"
+  },
+  "voz": "La Primera División de Marines desembarcó en Cabo Gloucester el veintiséis de diciembre. Puller ya no mandaba un batallón. Era el segundo jefe del Séptimo de Marines, un puesto de oficina, de planes y de papeles.",
+  "prompt": "Landing craft hitting a dark jungle beach at dawn under cloudy skies, Marines wading ashore, smoke from shell hits in the trees, 1943",
+  "mapa": "",
+  "ov": "etiqueta=SEGUNDO JEFE DEL 7.º DE MARINES",
+  "palabras": 36,
+  "dur": 13.6,
+  "inicio": 928.73,
+  "reusa": "",
+  "imagen": "K02",
+  "overlays": [
+   {
+    "k": "etiqueta",
+    "v": "SEGUNDO JEFE DEL 7.º DE MARINES"
+   }
+  ]
+ },
+ {
+  "id": "K03",
+  "cap": "CAP III | CABO GLOUCESTER, 1943-44 — «TOMA EL MANDO»",
+  "tipo": "ia",
+  "opts": {
+   "zoom": "in"
+  },
+  "voz": "Aquel lugar era un enemigo en sí mismo. Pantanos que se tragaban el equipo, lluvia casi continua, selva tan densa que se podía estar a diez metros de un búnker enemigo sin verlo.",
+  "prompt": "Marines struggling through knee-deep swamp mud under dense rainforest canopy, rain pouring, heavy equipment dragged on poles, hazy green light",
+  "mapa": "",
+  "ov": "etiqueta=PANTANO · LLUVIA · SELVA",
+  "palabras": 33,
+  "dur": 12.5,
+  "inicio": 942.33,
+  "reusa": "",
+  "imagen": "K03",
+  "overlays": [
+   {
+    "k": "etiqueta",
+    "v": "PANTANO · LLUVIA · SELVA"
+   }
+  ]
+ },
+ {
+  "id": "K03b",
+  "cap": "CAP III | CABO GLOUCESTER, 1943-44 — «TOMA EL MANDO»",
+  "tipo": "ia",
+  "opts": {
+   "zoom": "in"
+  },
+  "voz": "Había un arroyo en medio del camino que los marines bautizaron, con humor negro, como Arroyo del Suicidio. Los japoneses tenían sus búnkeres justo en la otra orilla. Cruzarlo era un problema que costaba días y vidas.",
+  "prompt": "A narrow muddy creek crossing a jungle with steep banks, Marines crouched behind fallen logs on one side, smoke from hidden bunkers on the other bank, rain, olive-green tint",
+  "mapa": "",
+  "ov": "tarjeta=«SUICIDE CREEK»|El Arroyo del Suicidio",
+  "palabras": 37,
+  "dur": 13.97,
+  "inicio": 954.83,
+  "reusa": "",
+  "imagen": "K03b",
+  "overlays": [
+   {
+    "k": "tarjeta",
+    "v": "«SUICIDE CREEK»|El Arroyo del Suicidio"
+   }
+  ]
+ },
+ {
+  "id": "K04",
+  "cap": "CAP III | CABO GLOUCESTER, 1943-44 — «TOMA EL MANDO»",
+  "tipo": "ia",
+  "opts": {
+   "zoom": "in",
+   "look": "bn"
+  },
+  "voz": "Los japoneses habían convertido cada loma en una fortaleza. Búnkeres de troncos y tierra, enlazados, con ametralladoras que cubrían unas a otras. Cuando uno caía, el siguiente ya tenía apuntado el hueco.",
+  "prompt": "Cutaway-style view of a Japanese log-and-earth bunker complex hidden in jungle with interlocking machine gun slits, camouflaged, 1943 photo style",
+  "mapa": "",
+  "ov": "etiqueta=CADA LOMA, UNA FORTALEZA",
+  "palabras": 32,
+  "dur": 12.13,
+  "inicio": 968.8,
+  "reusa": "",
+  "imagen": "K04",
+  "overlays": [
+   {
+    "k": "etiqueta",
+    "v": "CADA LOMA, UNA FORTALEZA"
+   }
+  ]
+ },
+ {
+  "id": "K05",
+  "cap": "CAP III | CABO GLOUCESTER, 1943-44 — «TOMA EL MANDO»",
+  "tipo": "ia",
+  "opts": {
+   "zoom": "out"
+  },
+  "voz": "Y entonces, en pleno avance, un comandante de batallón cayó herido. Cuando eso pasa en la selva, un batallón entero se queda quieto. Nadie sabe quién decide. Nadie quiere decidir. Y cada minuto parado sale carísimo.",
+  "prompt": "Marines huddled in a wet jungle clearing looking toward a medic carrying a wounded officer on a stretcher, officers looking at each other uncertain, rain",
+  "mapa": "",
+  "ov": "etiqueta=EL COMANDANTE CAYÓ",
+  "palabras": 36,
+  "dur": 13.6,
+  "inicio": 980.93,
+  "reusa": "",
+  "imagen": "K05",
+  "overlays": [
+   {
+    "k": "etiqueta",
+    "v": "EL COMANDANTE CAYÓ"
+   }
+  ]
+ },
+ {
+  "id": "K06",
+  "cap": "CAP III | CABO GLOUCESTER, 1943-44 — «TOMA EL MANDO»",
+  "tipo": "ia",
+  "opts": {
+   "zoom": "in"
+  },
+  "voz": "Puller no esperó órdenes. Dejó el puesto de mando, fue hasta el frente y se hizo cargo del batallón. Con una sola idea: el mando no se queda vacío ni un minuto.",
+  "prompt": "{PULLER_M} striding forward through jungle with a map case under his arm, ignoring bullets kicking up mud, officers hurrying behind him, determined",
+  "mapa": "",
+  "ov": "tarjeta=EL MANDO NO ESPERA|No se queda vacío ni un minuto",
+  "palabras": 32,
+  "dur": 12.13,
+  "inicio": 994.53,
+  "reusa": "",
+  "imagen": "K06",
+  "overlays": [
+   {
+    "k": "tarjeta",
+    "v": "EL MANDO NO ESPERA|No se queda vacío ni un minuto"
+   }
+  ]
+ },
+ {
+  "id": "K07",
+  "cap": "CAP III | CABO GLOUCESTER, 1943-44 — «TOMA EL MANDO»",
+  "tipo": "ia",
+  "opts": {
+   "look": "noche"
+  },
+  "voz": "Avanzó entre fuego de ametralladoras y de morteros. Reorganizó a los hombres bajo las balas y los lanzó contra una posición fuertemente fortificada. Y la tomó.",
+  "prompt": "Marines reorganizing under mortar fire in a muddy jungle, dirt eruptions, a colonel waving them forward, intense atmosphere, non-graphic",
+  "mapa": "",
+  "ov": "etiqueta=BAJO FUEGO, REORGANIZÓ",
+  "palabras": 26,
+  "dur": 9.92,
+  "inicio": 1006.66,
+  "reusa": "",
+  "imagen": "K07",
+  "overlays": [
+   {
+    "k": "etiqueta",
+    "v": "BAJO FUEGO, REORGANIZÓ"
+   }
+  ]
+ },
+ {
+  "id": "K08",
+  "cap": "CAP III | CABO GLOUCESTER, 1943-44 — «TOMA EL MANDO»",
+  "tipo": "medallas",
+  "opts": {},
+  "voz": "Por esas semanas, entre el veintiséis de diciembre y el diecinueve de enero, le dieron su cuarta Cruz de la Armada.",
+  "prompt": "Four Navy Cross medals on dark velvet, gold crosses with navy and white ribbons, soft side light",
+  "mapa": "",
+  "ov": "anio=4|CRUCES DE LA ARMADA; etiqueta=CUARTA CRUZ DE LA ARMADA",
+  "palabras": 21,
+  "dur": 8.08,
+  "inicio": 1016.58,
+  "reusa": "",
+  "imagen": "K08",
+  "overlays": [
+   {
+    "k": "anio",
+    "v": "4|CRUCES DE LA ARMADA"
+   },
+   {
+    "k": "etiqueta",
+    "v": "CUARTA CRUZ DE LA ARMADA"
+   }
+  ]
+ },
+ {
+  "id": "K09",
+  "cap": "CAP III | CABO GLOUCESTER, 1943-44 — «TOMA EL MANDO»",
+  "tipo": "ia",
+  "opts": {
+   "zoom": "in"
+  },
+  "voz": "¿Y el patrón? Estaba ahí. Fue donde estaban sus hombres. Atacó el lugar que el enemigo creía seguro. Y cuando todo parecía detenido, buscó el camino más corto: hacia adelante. En febrero de mil novecientos cuarenta y cuatro, lo premiaron con el mando del Primer Regimiento de Marines.",
+  "prompt": "Colonel's insignia on a uniform collar in close-up, mud-stained, a blurred jungle in the background, solemn mood",
+  "mapa": "",
+  "ov": "fecha=Febrero de 1944; tarjeta=1.er REGIMIENTO DE MARINES|Su primer regimiento",
+  "palabras": 48,
+  "dur": 18.02,
+  "inicio": 1024.66,
+  "reusa": "",
+  "imagen": "K09",
+  "overlays": [
+   {
+    "k": "fecha",
+    "v": "Febrero de 1944"
+   },
+   {
+    "k": "tarjeta",
+    "v": "1.er REGIMIENTO DE MARINES|Su primer regimiento"
+   }
+  ]
+ },
+ {
+  "id": "P01",
+  "cap": "CAP III-B | PELELIU, 1944 — «EL PRECIO»",
+  "tipo": "frase",
+  "opts": {},
+  "voz": "Pero esta historia tiene una página que no suele contarse en las leyendas.",
+  "prompt": "",
+  "mapa": "",
+  "ov": "frase=Pero hay una página que las leyendas no cuentan.",
+  "palabras": 13,
+  "dur": 5.14,
+  "inicio": 1042.68,
+  "reusa": "",
+  "imagen": "",
+  "overlays": [
+   {
+    "k": "frase",
+    "v": "Pero hay una página que las leyendas no cuentan."
+   }
+  ]
+ },
+ {
+  "id": "P02",
+  "cap": "CAP III-B | PELELIU, 1944 — «EL PRECIO»",
+  "tipo": "mapa",
+  "opts": {},
+  "voz": "Septiembre de mil novecientos cuarenta y cuatro. Peleliu, una pequeña isla de coral en el Pacífico. Puller, ahora coronel, manda el Primer Regimiento de Marines.",
+  "prompt": "Stylized relief map of Peleliu island, a small coral island with a central ridge system, surrounded by turquoise lagoon and deep blue sea, antique map feel",
+  "mapa": "bandera azul en la playa de desembarco, zona de crestas al centro",
+  "ov": "fecha=15 de septiembre de 1944; etiqueta=PELELIU",
+  "palabras": 25,
+  "dur": 9.55,
+  "inicio": 1047.82,
+  "reusa": "",
+  "imagen": "P02",
+  "overlays": [
+   {
+    "k": "fecha",
+    "v": "15 de septiembre de 1944"
+   },
+   {
+    "k": "etiqueta",
+    "v": "PELELIU"
+   }
+  ]
+ },
+ {
+  "id": "P02b",
+  "cap": "CAP III-B | PELELIU, 1944 — «EL PRECIO»",
+  "tipo": "ia",
+  "opts": {
+   "zoom": "in",
+   "look": "bn"
+  },
+  "voz": "Se había planeado como una operación de unos pocos días. Duró más de dos meses.",
+  "prompt": "Marines resting beside a damaged landing vehicle on a bright white coral beach, exhausted faces, smoke drifting from inland, harsh sun",
+  "mapa": "",
+  "ov": "etiqueta=PLAN: UNOS POCOS DÍAS · REALIDAD: MÁS DE DOS MESES",
+  "palabras": 15,
+  "dur": 5.87,
+  "inicio": 1057.37,
+  "reusa": "",
+  "imagen": "P02b",
+  "overlays": [
+   {
+    "k": "etiqueta",
+    "v": "PLAN: UNOS POCOS DÍAS · REALIDAD: MÁS DE DOS MESES"
+   }
+  ]
+ },
+ {
+  "id": "P03",
+  "cap": "CAP III-B | PELELIU, 1944 — «EL PRECIO»",
+  "tipo": "ia",
+  "opts": {
+   "zoom": "in",
+   "look": "bn"
+  },
+  "voz": "Esta vez, su método chocó con algo que no había visto antes. Una red de cuevas y túneles excavados en la roca. Posiciones enlazadas, casi invisibles, que no se tomaban con un giro audaz.",
+  "prompt": "Rocky coral ridge pitted with cave mouths and dark tunnel openings, smoke rising from the rocks, Marines crawling in the foreground, harsh midday light, non-graphic",
+  "mapa": "",
+  "ov": "etiqueta=CUEVAS Y TÚNELES EN LA ROCA",
+  "palabras": 34,
+  "dur": 12.87,
+  "inicio": 1063.24,
+  "reusa": "",
+  "imagen": "P03",
+  "overlays": [
+   {
+    "k": "etiqueta",
+    "v": "CUEVAS Y TÚNELES EN LA ROCA"
+   }
+  ]
+ },
+ {
+  "id": "P04",
+  "cap": "CAP III-B | PELELIU, 1944 — «EL PRECIO»",
+  "tipo": "barras",
+  "opts": {},
+  "voz": "En seis días de combate, su regimiento sufrió más de mil setecientas bajas, entre muertos y heridos. Más de la mitad de sus hombres.",
+  "prompt": "",
+  "mapa": "",
+  "ov": "barras=1.er REGIMIENTO EN PELELIU|Hombres=3.000|Bajas en 6 días=1.749",
+  "palabras": 24,
+  "dur": 9.18,
+  "inicio": 1076.11,
+  "reusa": "",
+  "imagen": "",
+  "overlays": [
+   {
+    "k": "barras",
+    "v": "1.er REGIMIENTO EN PELELIU|Hombres=3.000|Bajas en 6 días=1.749"
+   }
+  ]
+ },
+ {
+  "id": "P05",
+  "cap": "CAP III-B | PELELIU, 1944 — «EL PRECIO»",
+  "tipo": "ia",
+  "opts": {
+   "zoom": "in",
+   "look": "bn"
+  },
+  "voz": "Muchos lo criticaron. Dijeron que había lanzado ataques de frente contra posiciones que pedían paciencia. Otros respondieron que en aquella isla no había otra forma. La discusión sigue viva hoy.",
+  "prompt": "A weary Marine colonel sitting alone on a rock at the edge of a battlefield at dusk, helmet off, head down, smoke on the horizon",
+  "mapa": "",
+  "ov": "etiqueta=LA CRÍTICA FUE DURA",
+  "palabras": 30,
+  "dur": 11.39,
+  "inicio": 1085.29,
+  "reusa": "",
+  "imagen": "P05",
+  "overlays": [
+   {
+    "k": "etiqueta",
+    "v": "LA CRÍTICA FUE DURA"
+   }
+  ]
+ },
+ {
+  "id": "P06",
+  "cap": "CAP III-B | PELELIU, 1944 — «EL PRECIO»",
+  "tipo": "frase",
+  "opts": {},
+  "voz": "Y es importante decirlo, porque una leyenda sin sombras no es una historia. Es un afiche. Y Puller no pidió que lo convirtieran en afiche.",
+  "prompt": "",
+  "mapa": "",
+  "ov": "frase=Una leyenda sin sombras es un afiche.",
+  "palabras": 25,
+  "dur": 9.55,
+  "inicio": 1096.68,
+  "reusa": "",
+  "imagen": "",
+  "overlays": [
+   {
+    "k": "frase",
+    "v": "Una leyenda sin sombras es un afiche."
+   }
+  ]
+ },
+ {
+  "id": "P07",
+  "cap": "CAP III-B | PELELIU, 1944 — «EL PRECIO»",
+  "tipo": "ia",
+  "opts": {
+   "zoom": "in"
+  },
+  "voz": "Seis años después, en otra guerra y en otro país, le tocaría demostrar si había aprendido algo. Con hielo en lugar de coral. Y con un enemigo que, esta vez, venía acompañado de un segundo ejército: el frío.",
+  "prompt": "Cold blue-gray dawn over a frozen mountain range in Korea, a small road winding in the valley with a faint column of vehicles, Puller-like figure silhouette in the foreground, breath fog",
+  "mapa": "",
+  "ov": "fecha=Seis años después",
+  "palabras": 38,
+  "dur": 14.34,
+  "inicio": 1106.23,
+  "reusa": "",
+  "imagen": "P07",
+  "overlays": [
+   {
+    "k": "fecha",
+    "v": "Seis años después"
+   }
+  ]
+ },
+ {
+  "id": "Y01",
+  "cap": "CAP IV | CHOSIN, 1950 — «ABRE LA PUERTA»",
+  "tipo": "ia",
+  "opts": {
+   "zoom": "in"
+  },
+  "voz": "Terminó la guerra en mil novecientos cuarenta y cinco, y Puller siguió en el Cuerpo, en puestos de entrenamiento y de mando, a la espera de lo que todos sabían que, tarde o temprano, volvería a llegar. Llegó desde Corea, en el verano de mil novecientos cincuenta.",
+  "prompt": "{PULLER_M} reviewing recruits on a training field with a flag waving behind him, serious expression, peacetime late-1940s light",
+  "mapa": "",
+  "ov": "fecha=Verano de 1950",
+  "palabras": 47,
+  "dur": 17.65,
+  "inicio": 1120.57,
+  "reusa": "",
+  "imagen": "Y01",
+  "overlays": [
+   {
+    "k": "fecha",
+    "v": "Verano de 1950"
+   }
+  ]
+ },
+ {
+  "id": "Y02",
+  "cap": "CAP IV | CHOSIN, 1950 — «ABRE LA PUERTA»",
+  "tipo": "ia",
+  "opts": {
+   "zoom": "in",
+   "look": "bn"
+  },
+  "voz": "En Inchón, la marea sube y baja con tanta fuerza que los desembarcos tenían que hacerse en una ventana de pocas horas. El regimiento de Puller desembarcó y después peleó, calle por calle, para recuperar Seúl.",
+  "prompt": "Black-and-white archival-style photograph of Marines climbing ladders over a sea wall in a harbor landing, smoke rising behind, September 1950",
+  "mapa": "",
+  "ov": "etiqueta=INCHÓN · SEÚL",
+  "palabras": 36,
+  "dur": 13.6,
+  "inicio": 1138.22,
+  "reusa": "",
+  "imagen": "Y02",
+  "overlays": [
+   {
+    "k": "etiqueta",
+    "v": "INCHÓN · SEÚL"
+   }
+  ]
+ },
+ {
+  "id": "H01",
+  "cap": "CAP IV | CHOSIN, 1950 — «ABRE LA PUERTA»",
+  "tipo": "mapa",
+  "opts": {
+   "look": "nieve"
+  },
+  "voz": "Cuarto movimiento. Septiembre de mil novecientos cincuenta. Corea. El Primer Regimiento de Marines, mandado por Puller, desembarca en Inchón y recupera Seúl. Parece una guerra ganada. Dos meses después, el mismo regimiento estaría luchando por salir con vida de las montañas.",
+  "prompt": "Stylized relief map of the Korean Peninsula in perspective, Inchon on the western coast, Seoul inland, northern mountains in white-blue snow tones, antique map feel",
+  "mapa": "bandera azul en Inchón; flecha azul hasta Seúl; hacia el norte, el embalse de Chosin",
+  "ov": "tarjeta=IV|El cuarto movimiento; etiqueta=COREA, 1950",
+  "palabras": 41,
+  "dur": 15.44,
+  "inicio": 1151.82,
+  "reusa": "",
+  "imagen": "H01",
+  "overlays": [
+   {
+    "k": "tarjeta",
+    "v": "IV|El cuarto movimiento"
+   },
+   {
+    "k": "etiqueta",
+    "v": "COREA, 1950"
+   }
+  ]
+ },
+ {
+  "id": "H02",
+  "cap": "CAP IV | CHOSIN, 1950 — «ABRE LA PUERTA»",
+  "tipo": "mapa",
+  "opts": {
+   "look": "nieve"
+  },
+  "voz": "A finales de noviembre, la Primera División de Marines estaba desplegada a lo largo de una sola carretera de montaña, de unos ciento veinticinco kilómetros. Hungnam en la costa. Koto-ri en el centro. Hagaru-ri y Yudam-ni, más arriba, junto al embalse de Chosin.",
+  "prompt": "Top-down stylized relief map of a single winding mountain road across snowy peaks from a coastal port up to a frozen reservoir, with small settlement markers along it, white-blue snow palette",
+  "mapa": "banderas azules en Hungnam, Koto-ri, Hagaru-ri y Yudam-ni; línea de carretera resaltada",
+  "ov": "cifra=125 km de una sola carretera",
+  "palabras": 43,
+  "dur": 16.18,
+  "inicio": 1167.26,
+  "reusa": "",
+  "imagen": "H02",
+  "overlays": [
+   {
+    "k": "cifra",
+    "v": "125 km de una sola carretera"
+   }
+  ]
+ },
+ {
+  "id": "H03",
+  "cap": "CAP IV | CHOSIN, 1950 — «ABRE LA PUERTA»",
+  "tipo": "ia",
+  "opts": {
+   "zoom": "out",
+   "look": "nieve"
+  },
+  "voz": "Y el veintisiete de noviembre llegó lo que nadie quería ver. Un ejército chino, calculado en más de cien mil hombres, cayó sobre toda la columna a la vez.",
+  "prompt": "Endless lines of Chinese soldiers in padded winter uniforms advancing across a snowy ridge at night, bugle-like blue-lit sky, blizzard, cinematic wide shot",
+  "mapa": "",
+  "ov": "fecha=27 de noviembre de 1950; cifra=+100.000 soldados chinos (estimación)",
+  "palabras": 29,
+  "dur": 11.02,
+  "inicio": 1183.44,
+  "reusa": "",
+  "imagen": "H03",
+  "overlays": [
+   {
+    "k": "fecha",
+    "v": "27 de noviembre de 1950"
+   },
+   {
+    "k": "cifra",
+    "v": "+100.000 soldados chinos (estimación)"
+   }
+  ]
+ },
+ {
+  "id": "H03b",
+  "cap": "CAP IV | CHOSIN, 1950 — «ABRE LA PUERTA»",
+  "tipo": "ia",
+  "opts": {
+   "zoom": "in",
+   "look": "nieve"
+  },
+  "voz": "El veintinueve de noviembre, una fuerza improvisada de marines británicos, soldados estadounidenses y marines, la fuerza Drysdale, tuvo que abrirse paso a tiros por esa carretera para llegar hasta Koto-ri. Muchos no lo lograron.",
+  "prompt": "A long column of trucks and men under fire on a narrow snowy road between steep hillsides, burning vehicles and tracer fire, blue dusk light",
+  "mapa": "",
+  "ov": "tarjeta=FUERZA DRYSDALE|29 de noviembre de 1950",
+  "palabras": 34,
+  "dur": 12.87,
+  "inicio": 1194.46,
+  "reusa": "",
+  "imagen": "H03b",
+  "overlays": [
+   {
+    "k": "tarjeta",
+    "v": "FUERZA DRYSDALE|29 de noviembre de 1950"
+   }
+  ]
+ },
+ {
+  "id": "H04",
+  "cap": "CAP IV | CHOSIN, 1950 — «ABRE LA PUERTA»",
+  "tipo": "ia",
+  "opts": {
+   "zoom": "in",
+   "look": "nieve"
+  },
+  "voz": "La temperatura bajó a unos treinta grados bajo cero. Los fusiles se encasquillaban. La comida se congelaba en las latas. Hasta el plasma para los heridos se volvía hielo.",
+  "prompt": "Marines huddled in a snowy foxhole at night, frost on their faces and eyebrows, frozen canteens and rations in their hands, blue moonlight, breath fog",
+  "mapa": "",
+  "ov": "etiqueta=−30 °C",
+  "palabras": 29,
+  "dur": 11.02,
+  "inicio": 1207.33,
+  "reusa": "",
+  "imagen": "H04",
+  "overlays": [
+   {
+    "k": "etiqueta",
+    "v": "−30 °C"
+   }
+  ]
+ },
+ {
+  "id": "H05",
+  "cap": "CAP IV | CHOSIN, 1950 — «ABRE LA PUERTA»",
+  "tipo": "ia",
+  "opts": {
+   "zoom": "in",
+   "look": "nieve"
+  },
+  "voz": "Y a Puller le tocó la pieza más difícil. Mantener abierta la carretera. Si se cortaba, todos los de arriba quedaban atrapados. Si se mantenía, había una posibilidad.",
+  "prompt": "{PULLER_M} in a snow-covered tent studying a map under a hanging lantern, radio operators behind him, cold blue-gray light",
+  "mapa": "",
+  "ov": "tarjeta=1.er REGIMIENTO DE MARINES|La misión: mantener la carretera abierta",
+  "palabras": 28,
+  "dur": 10.66,
+  "inicio": 1218.35,
+  "reusa": "",
+  "imagen": "H05",
+  "overlays": [
+   {
+    "k": "tarjeta",
+    "v": "1.er REGIMIENTO DE MARINES|La misión: mantener la carretera abierta"
+   }
+  ]
+ },
+ {
+  "id": "H06",
+  "cap": "CAP IV | CHOSIN, 1950 — «ABRE LA PUERTA»",
+  "tipo": "ia",
+  "opts": {
+   "zoom": "in",
+   "look": "bn"
+  },
+  "voz": "Koto-ri era el nudo. Sus hombres sostenían el perímetro mientras los demás bajaban de las montañas. Cada tren de camiones, cada columna de heridos, tenía que pasar por ahí. Y los chinos lo sabían.",
+  "prompt": "Snowy village perimeter at night with trucks, tents and Marine foxholes in a ring, headlights of a long column arriving through falling snow, black-and-white archival photo style",
+  "mapa": "",
+  "ov": "etiqueta=KOTO-RI",
+  "palabras": 34,
+  "dur": 12.87,
+  "inicio": 1229.01,
+  "reusa": "",
+  "imagen": "H06",
+  "overlays": [
+   {
+    "k": "etiqueta",
+    "v": "KOTO-RI"
+   }
+  ]
+ },
+ {
+  "id": "H06b",
+  "cap": "CAP IV | CHOSIN, 1950 — «ABRE LA PUERTA»",
+  "tipo": "ia",
+  "opts": {
+   "zoom": "out",
+   "look": "nieve"
+  },
+  "voz": "Mientras tanto, desde Yudam-ni y Hagaru-ri, los demás regimientos peleaban para abrirse camino hacia el sur. Entre el seis y el siete de diciembre llegaron a Koto-ri, con miles de heridos. Y con ellos llegaba la tarea más grande: sacarlos a todos.",
+  "prompt": "A long line of weary frost-covered Marines and stretchers moving into a snowy village at dusk, trucks with wounded, breath clouds, blue light",
+  "mapa": "",
+  "ov": "fecha=6–7 de diciembre de 1950",
+  "palabras": 42,
+  "dur": 15.81,
+  "inicio": 1241.88,
+  "reusa": "",
+  "imagen": "H06b",
+  "overlays": [
+   {
+    "k": "fecha",
+    "v": "6–7 de diciembre de 1950"
+   }
+  ]
+ },
+ {
+  "id": "H07",
+  "cap": "CAP IV | CHOSIN, 1950 — «ABRE LA PUERTA»",
+  "tipo": "barras",
+  "opts": {},
+  "voz": "Hacia el ocho de diciembre, en Koto-ri se apiñaban unos catorce mil hombres, entre marines y soldados.",
+  "prompt": "",
+  "mapa": "",
+  "ov": "barras=KOTO-RI, 8 DE DICIEMBRE|Hombres reunidos=14.000",
+  "palabras": 17,
+  "dur": 6.61,
+  "inicio": 1257.69,
+  "reusa": "",
+  "imagen": "",
+  "overlays": [
+   {
+    "k": "barras",
+    "v": "KOTO-RI, 8 DE DICIEMBRE|Hombres reunidos=14.000"
+   }
+  ]
+ },
+ {
+  "id": "H08",
+  "cap": "CAP IV | CHOSIN, 1950 — «ABRE LA PUERTA»",
+  "tipo": "mapa",
+  "opts": {
+   "look": "nieve"
+  },
+  "voz": "Pero faltaba el último obstáculo. Un desfiladero llamado paso de Funchilin, al sur de Koto-ri. Allí, la carretera cruzaba un precipicio por un puente sobre las tuberías de una central eléctrica.",
+  "prompt": "Stylized relief map close-up of a narrow mountain gorge with a road clinging to a cliff and a small bridge over a ravine, white-blue snow palette",
+  "mapa": "marca de puente en el desfiladero; bandera azul norte (Koto-ri); bandera azul sur (Hungnam)",
+  "ov": "etiqueta=PASO DE FUNCHILIN",
+  "palabras": 31,
+  "dur": 11.76,
+  "inicio": 1264.3,
+  "reusa": "",
+  "imagen": "H08",
+  "overlays": [
+   {
+    "k": "etiqueta",
+    "v": "PASO DE FUNCHILIN"
+   }
+  ]
+ },
+ {
+  "id": "H09",
+  "cap": "CAP IV | CHOSIN, 1950 — «ABRE LA PUERTA»",
+  "tipo": "ia",
+  "opts": {
+   "zoom": "in",
+   "look": "nieve"
+  },
+  "voz": "Los chinos ya habían volado ese puente. Los ingenieros lo repararon. Los chinos lo volaron otra vez. Quedó un hueco de unos nueve metros, sobre un precipicio, y no había forma de cruzarlo con camiones.",
+  "prompt": "Blown mountain-road bridge in a deep snowy gorge, twisted steel girders hanging over a drop, snow-covered cliffs, steam from pipes below, cold gray light",
+  "mapa": "",
+  "ov": "cifra=Hueco de 9 m",
+  "palabras": 35,
+  "dur": 13.23,
+  "inicio": 1276.06,
+  "reusa": "",
+  "imagen": "H09",
+  "overlays": [
+   {
+    "k": "cifra",
+    "v": "Hueco de 9 m"
+   }
+  ]
+ },
+ {
+  "id": "H10",
+  "cap": "CAP IV | CHOSIN, 1950 — «ABRE LA PUERTA»",
+  "tipo": "frase",
+  "opts": {},
+  "voz": "Catorce mil hombres, un ejército enemigo alrededor, y un abismo en el único camino de salida.",
+  "prompt": "",
+  "mapa": "",
+  "ov": "frase=14.000 hombres. Un ejército alrededor. Un abismo en la única salida.",
+  "palabras": 16,
+  "dur": 6.24,
+  "inicio": 1289.29,
+  "reusa": "",
+  "imagen": "",
+  "overlays": [
+   {
+    "k": "frase",
+    "v": "14.000 hombres. Un ejército alrededor. Un abismo en la única salida."
+   }
+  ]
+ },
+ {
+  "id": "H11",
+  "cap": "CAP IV | CHOSIN, 1950 — «ABRE LA PUERTA»",
+  "tipo": "ia",
+  "opts": {
+   "zoom": "in",
+   "look": "nieve"
+  },
+  "voz": "Fue entonces cuando se cuenta que Puller dijo la frase que lo haría célebre. Lo hemos estado buscando, y por fin lo encontramos. Estamos rodeados. Eso simplifica el problema de llegar hasta él y atacarlo en todas direcciones.",
+  "prompt": "{PULLER_M} speaking calmly to a group of officers outside a snow-covered tent at dusk, fur-trimmed parka, steam from breath, determined faces",
+  "mapa": "",
+  "ov": "tarjeta=SE LE ATRIBUYE|«Estamos rodeados. Eso simplifica el problema.»",
+  "palabras": 38,
+  "dur": 14.34,
+  "inicio": 1295.53,
+  "reusa": "",
+  "imagen": "H11",
+  "overlays": [
+   {
+    "k": "tarjeta",
+    "v": "SE LE ATRIBUYE|«Estamos rodeados. Eso simplifica el problema.»"
+   }
+  ]
+ },
+ {
+  "id": "H12",
+  "cap": "CAP IV | CHOSIN, 1950 — «ABRE LA PUERTA»",
+  "tipo": "ia",
+  "opts": {
+   "zoom": "in"
+  },
+  "voz": "Y entonces el ingeniero Partridge propuso algo que parecía un disparate. Lanzar un puente completo desde el aire, en secciones, con paracaídas. Un puente de acero, que cabía en el vientre de un avión.",
+  "prompt": "Marine engineer officer unrolling a blueprint of a Treadway bridge on a crate in a snowy tent, lantern light, tense faces",
+  "mapa": "",
+  "ov": "tarjeta=EL PUENTE DEL CIELO|Secciones de acero lanzadas en paracaídas",
+  "palabras": 34,
+  "dur": 12.87,
+  "inicio": 1309.87,
+  "reusa": "",
+  "imagen": "H12",
+  "overlays": [
+   {
+    "k": "tarjeta",
+    "v": "EL PUENTE DEL CIELO|Secciones de acero lanzadas en paracaídas"
+   }
+  ]
+ },
+ {
+  "id": "H13",
+  "cap": "CAP IV | CHOSIN, 1950 — «ABRE LA PUERTA»",
+  "tipo": "ia",
+  "opts": {
+   "zoom": "out",
+   "look": "nieve"
+  },
+  "voz": "Probaron una sección. Se estrelló y quedó destrozada. Aun así, Partridge pidió ocho. Cuatro serían suficientes. Los otros cuatro, el seguro por lo que pudiera salir mal.",
+  "prompt": "A heavy bridge section dropped on parachutes from a cargo plane over a snowy valley, parachutes blooming white against gray sky, trucks waiting below",
+  "mapa": "",
+  "ov": "cifra=8 secciones pedidas · 4 necesarias",
+  "palabras": 27,
+  "dur": 10.29,
+  "inicio": 1322.74,
+  "reusa": "",
+  "imagen": "H13",
+  "overlays": [
+   {
+    "k": "cifra",
+    "v": "8 secciones pedidas · 4 necesarias"
+   }
+  ]
+ },
+ {
+  "id": "H14",
+  "cap": "CAP IV | CHOSIN, 1950 — «ABRE LA PUERTA»",
+  "tipo": "ia",
+  "opts": {
+   "zoom": "out",
+   "look": "nieve"
+  },
+  "voz": "El siete de diciembre, los aviones sobrevolaron Koto-ri. Una sección cayó en manos chinas. Otra llegó demasiado dañada. Seis cayeron intactas.",
+  "prompt": "Marines running across snow to retrieve heavy parachuted bridge sections lying on the ground, chutes dragging, cargo planes overhead",
+  "mapa": "",
+  "ov": "fecha=7 de diciembre de 1950; etiqueta=6 INTACTAS",
+  "palabras": 21,
+  "dur": 8.08,
+  "inicio": 1333.03,
+  "reusa": "",
+  "imagen": "H14",
+  "overlays": [
+   {
+    "k": "fecha",
+    "v": "7 de diciembre de 1950"
+   },
+   {
+    "k": "etiqueta",
+    "v": "6 INTACTAS"
+   }
+  ]
+ },
+ {
+  "id": "H15",
+  "cap": "CAP IV | CHOSIN, 1950 — «ABRE LA PUERTA»",
+  "tipo": "ia",
+  "opts": {
+   "zoom": "in"
+  },
+  "voz": "Pero un puente no sirve de nada si el enemigo está en las alturas disparando sobre los ingenieros. Aquí es donde el patrón de Puller vuelve a aparecer.",
+  "prompt": "Chinese soldiers dug into the high rocky slopes above a mountain pass, rifles pointing down, looking toward a tiny road far below, cold blue light",
+  "mapa": "",
+  "ov": "etiqueta=EL ENEMIGO EN LAS ALTURAS",
+  "palabras": 28,
+  "dur": 10.66,
+  "inicio": 1341.11,
+  "reusa": "",
+  "imagen": "H15",
+  "overlays": [
+   {
+    "k": "etiqueta",
+    "v": "EL ENEMIGO EN LAS ALTURAS"
+   }
+  ]
+ },
+ {
+  "id": "H16",
+  "cap": "CAP IV | CHOSIN, 1950 — «ABRE LA PUERTA»",
+  "tipo": "ia",
+  "opts": {
+   "zoom": "in",
+   "look": "nieve"
+  },
+  "voz": "Primero, estaba con sus hombres, en la nieve, en el perímetro, en el camino. Segundo, ordenó que su primer batallón saliera hacia el norte y tomara las cumbres que dominaban el paso. El lugar que el enemigo creía más seguro. Las alturas.",
+  "prompt": "Marines in white snow parkas climbing a steep icy ridge in a line, breath steaming, rifles slung, mountain panorama behind, dawn light",
+  "mapa": "",
+  "ov": "tarjeta=EL PATRÓN, POR TERCERA VEZ|Ir con sus hombres · Atacar las alturas",
+  "palabras": 42,
+  "dur": 15.81,
+  "inicio": 1351.77,
+  "reusa": "",
+  "imagen": "H16",
+  "overlays": [
+   {
+    "k": "tarjeta",
+    "v": "EL PATRÓN, POR TERCERA VEZ|Ir con sus hombres · Atacar las alturas"
+   }
+  ]
+ },
+ {
+  "id": "H17",
+  "cap": "CAP IV | CHOSIN, 1950 — «ABRE LA PUERTA»",
+  "tipo": "ia",
+  "opts": {
+   "zoom": "in",
+   "look": "nieve"
+  },
+  "voz": "Y tercero: rodeados por todas partes, no había un frente. Solo había una dirección, la salida. Y para llegar a ella había que abrirla a golpes.",
+  "prompt": "Marines advancing through a snowstorm toward the dark outline of a mountain pass, tracer fire streaking across the dusk, determined silhouettes",
+  "mapa": "",
+  "ov": "etiqueta=NO HABÍA FRENTE. HABÍA SALIDA.",
+  "palabras": 26,
+  "dur": 9.92,
+  "inicio": 1367.58,
+  "reusa": "",
+  "imagen": "H17",
+  "overlays": [
+   {
+    "k": "etiqueta",
+    "v": "NO HABÍA FRENTE. HABÍA SALIDA."
+   }
+  ]
+ },
+ {
+  "id": "H17b",
+  "cap": "CAP IV | CHOSIN, 1950 — «ABRE LA PUERTA»",
+  "tipo": "ia",
+  "opts": {
+   "zoom": "in",
+   "look": "nieve"
+  },
+  "voz": "Mientras los ingenieros trabajaban sobre el hueco, las cumbres de arriba ya estaban en manos de los marines. Los disparos sobre el desfiladero se fueron apagando. Por primera vez en días, el camino ya no tenía ojos encima.",
+  "prompt": "Marines in white parkas standing triumphantly on a snowy ridge above a gorge, looking down at engineers working on the road far below, dawn light",
+  "mapa": "",
+  "ov": "etiqueta=EL CAMINO YA NO TENÍA OJOS ENCIMA",
+  "palabras": 38,
+  "dur": 14.34,
+  "inicio": 1377.5,
+  "reusa": "",
+  "imagen": "H17b",
+  "overlays": [
+   {
+    "k": "etiqueta",
+    "v": "EL CAMINO YA NO TENÍA OJOS ENCIMA"
+   }
+  ]
+ },
+ {
+  "id": "H18",
+  "cap": "CAP IV | CHOSIN, 1950 — «ABRE LA PUERTA»",
+  "tipo": "ia",
+  "opts": {
+   "zoom": "out",
+   "look": "nieve"
+  },
+  "voz": "El nueve de diciembre, los ingenieros armaron el puente sobre el hueco. Una columna de camiones, de soldados y de heridos empezó a cruzar, vehículo por vehículo, con el abismo debajo.",
+  "prompt": "A long convoy of trucks and weary soldiers crossing a freshly assembled steel bridge over a deep snowy gorge, dawn light, steam, tense mood",
+  "mapa": "",
+  "ov": "fecha=9 de diciembre de 1950",
+  "palabras": 31,
+  "dur": 11.76,
+  "inicio": 1391.84,
+  "reusa": "",
+  "imagen": "H18",
+  "overlays": [
+   {
+    "k": "fecha",
+    "v": "9 de diciembre de 1950"
+   }
+  ]
+ },
+ {
+  "id": "H19",
+  "cap": "CAP IV | CHOSIN, 1950 — «ABRE LA PUERTA»",
+  "tipo": "frase",
+  "opts": {},
+  "voz": "El puente aguantó.",
+  "prompt": "",
+  "mapa": "",
+  "ov": "frase=El puente aguantó.",
+  "palabras": 3,
+  "dur": 1.45,
+  "inicio": 1403.6,
+  "reusa": "",
+  "imagen": "",
+  "overlays": [
+   {
+    "k": "frase",
+    "v": "El puente aguantó."
+   }
+  ]
+ },
+ {
+  "id": "H20",
+  "cap": "CAP IV | CHOSIN, 1950 — «ABRE LA PUERTA»",
+  "tipo": "ia",
+  "opts": {
+   "zoom": "in",
+   "look": "nieve"
+  },
+  "voz": "Detrás de la columna, los marines de Puller desmantelaron lo que quedaba y bajaron los últimos. No dejaron nada que pudiera servir al enemigo. Y no dejaron a nadie atrás.",
+  "prompt": "Marines in the rear guard walking last down a snowy mountain road at dawn, trucks ahead, burning supply dumps smoking behind them, silent and exhausted",
+  "mapa": "",
+  "ov": "etiqueta=LA RETAGUARDIA, LOS ÚLTIMOS",
+  "palabras": 30,
+  "dur": 11.39,
+  "inicio": 1405.05,
+  "reusa": "",
+  "imagen": "H20",
+  "overlays": [
+   {
+    "k": "etiqueta",
+    "v": "LA RETAGUARDIA, LOS ÚLTIMOS"
+   }
+  ]
+ },
+ {
+  "id": "H20b",
+  "cap": "CAP IV | CHOSIN, 1950 — «ABRE LA PUERTA»",
+  "tipo": "ia",
+  "opts": {
+   "zoom": "in",
+   "look": "bn"
+  },
+  "voz": "Costó caro. Entre combates y frío, la división tuvo cerca de doce mil bajas. Pero salió con sus heridos, con sus muertos y con su equipo. No dejó nada atrás.",
+  "prompt": "Marines in the snow carrying stretchers and a flag-draped coffin onto a transport truck, solemn faces, black-and-white archival photograph style, December 1950",
+  "mapa": "",
+  "ov": "cifra=≈12.000 bajas (combate y frío)",
+  "palabras": 30,
+  "dur": 11.39,
+  "inicio": 1416.44,
+  "reusa": "",
+  "imagen": "H20b",
+  "overlays": [
+   {
+    "k": "cifra",
+    "v": "≈12.000 bajas (combate y frío)"
+   }
+  ]
+ },
+ {
+  "id": "H21",
+  "cap": "CAP IV | CHOSIN, 1950 — «ABRE LA PUERTA»",
+  "tipo": "ia",
+  "opts": {
+   "look": "nieve"
+  },
+  "voz": "Desde la costa, la flota los llevó al sur. En la evacuación de Hungnam salieron decenas de miles de soldados y casi tantos civiles coreanos que huían con ellos.",
+  "prompt": "Evacuation at a snowy harbor: long lines of soldiers and civilians boarding large ships, cranes and trucks, December 1950, gray sky",
+  "mapa": "",
+  "ov": "etiqueta=HUNGNAM: LA EVACUACIÓN",
+  "palabras": 29,
+  "dur": 11.02,
+  "inicio": 1427.83,
+  "reusa": "",
+  "imagen": "H21",
+  "overlays": [
+   {
+    "k": "etiqueta",
+    "v": "HUNGNAM: LA EVACUACIÓN"
+   }
+  ]
+ },
+ {
+  "id": "H22",
+  "cap": "CAP IV | CHOSIN, 1950 — «ABRE LA PUERTA»",
+  "tipo": "medallas",
+  "opts": {},
+  "voz": "Por esos días de hielo y de fuego, Puller recibió su quinta Cruz de la Armada. Nadie, antes ni después, ha tenido cinco.",
+  "prompt": "Five Navy Cross medals arranged in a perfect row on dark velvet, golden light, slow reveal, dramatic",
+  "mapa": "",
+  "ov": "anio=5|CRUCES DE LA ARMADA; etiqueta=QUINTA CRUZ DE LA ARMADA",
+  "palabras": 23,
+  "dur": 8.82,
+  "inicio": 1438.85,
+  "reusa": "",
+  "imagen": "H22",
+  "overlays": [
+   {
+    "k": "anio",
+    "v": "5|CRUCES DE LA ARMADA"
+   },
+   {
+    "k": "etiqueta",
+    "v": "QUINTA CRUZ DE LA ARMADA"
+   }
+  ]
+ },
+ {
+  "id": "X01",
+  "cap": "CAP V | EL CIERRE",
+  "tipo": "retrato",
+  "opts": {
+   "zoom": "in",
+   "look": "bn"
+  },
+  "voz": "Puller se retiró en mil novecientos cincuenta y cinco, como teniente general. Murió en mil novecientos setenta y uno. Había entrado en el Cuerpo de Marines como un joven al que rechazaron como oficial, y salió como el marine más condecorado de su historia.",
+  "prompt": "Elderly {PULLER_M} in retirement, white-haired, wearing a dark jacket, gazing out of a window with a faint smile, soft window light, black-and-white portrait",
+  "mapa": "",
+  "ov": "tarjeta=LEWIS B. PULLER|1898 · 1971",
+  "palabras": 44,
+  "dur": 16.55,
+  "inicio": 1447.67,
+  "reusa": "",
+  "imagen": "X01",
+  "overlays": [
+   {
+    "k": "tarjeta",
+    "v": "LEWIS B. PULLER|1898 · 1971"
+   }
+  ]
+ },
+ {
+  "id": "X02",
+  "cap": "CAP V | EL CIERRE",
+  "tipo": "ia",
+  "opts": {
+   "zoom": "in"
+  },
+  "voz": "Hoy, en los cuarteles de los marines, al apagar las luces, muchos hombres dicen en voz alta una frase. Buenas noches, Chesty Puller, dondequiera que estés.",
+  "prompt": "Marines in a dim barracks lying in bunks, one silhouette sitting up and speaking to the dark, low warm light through a window, quiet tradition",
+  "mapa": "",
+  "ov": "tarjeta=EN CADA CUARTEL|«Buenas noches, Chesty Puller, dondequiera que estés»",
+  "palabras": 26,
+  "dur": 9.92,
+  "inicio": 1464.22,
+  "reusa": "",
+  "imagen": "X02",
+  "overlays": [
+   {
+    "k": "tarjeta",
+    "v": "EN CADA CUARTEL|«Buenas noches, Chesty Puller, dondequiera que estés»"
+   }
+  ]
+ },
+ {
+  "id": "X03",
+  "cap": "CAP V | EL CIERRE",
+  "tipo": "frase",
+  "opts": {},
+  "voz": "Pero cuatro movimientos no son un milagro. Son un método.",
+  "prompt": "",
+  "mapa": "",
+  "ov": "frase=Cuatro movimientos. Un método.",
+  "palabras": 10,
+  "dur": 4.03,
+  "inicio": 1474.14,
+  "reusa": "",
+  "imagen": "",
+  "overlays": [
+   {
+    "k": "frase",
+    "v": "Cuatro movimientos. Un método."
+   }
+  ]
+ },
+ {
+  "id": "X04",
+  "cap": "CAP V | EL CIERRE",
+  "tipo": "tarjeta",
+  "opts": {},
+  "voz": "Nicaragua. Giró hacia el fuego, en lugar de tirarse al suelo a esperarlo.",
+  "prompt": "=N18",
+  "mapa": "",
+  "ov": "tarjeta=I. NICARAGUA|Giró hacia el fuego",
+  "palabras": 13,
+  "dur": 5.14,
+  "inicio": 1478.17,
+  "reusa": "N18",
+  "imagen": "",
+  "overlays": [
+   {
+    "k": "tarjeta",
+    "v": "I. NICARAGUA|Giró hacia el fuego"
+   }
+  ]
+ },
+ {
+  "id": "X05",
+  "cap": "CAP V | EL CIERRE",
+  "tipo": "tarjeta",
+  "opts": {},
+  "voz": "Guadalcanal. Preparó el lado más débil de la línea y lo volvió el más duro. Y sostuvo la línea sin reserva ni retirada.",
+  "prompt": "=C11",
+  "mapa": "",
+  "ov": "tarjeta=II. GUADALCANAL|Preparó el lado débil y sostuvo la línea",
+  "palabras": 23,
+  "dur": 8.82,
+  "inicio": 1483.31,
+  "reusa": "C11",
+  "imagen": "",
+  "overlays": [
+   {
+    "k": "tarjeta",
+    "v": "II. GUADALCANAL|Preparó el lado débil y sostuvo la línea"
+   }
+  ]
+ },
+ {
+  "id": "X06",
+  "cap": "CAP V | EL CIERRE",
+  "tipo": "tarjeta",
+  "opts": {},
+  "voz": "Cabo Gloucester. Cuando el mando se vació, fue a ocuparlo antes de que alguien lo pidiera.",
+  "prompt": "=K06",
+  "mapa": "",
+  "ov": "tarjeta=III. CABO GLOUCESTER|El mando no espera",
+  "palabras": 16,
+  "dur": 6.24,
+  "inicio": 1492.13,
+  "reusa": "K06",
+  "imagen": "",
+  "overlays": [
+   {
+    "k": "tarjeta",
+    "v": "III. CABO GLOUCESTER|El mando no espera"
+   }
+  ]
+ },
+ {
+  "id": "X07",
+  "cap": "CAP V | EL CIERRE",
+  "tipo": "tarjeta",
+  "opts": {},
+  "voz": "Y Chosin. Rodeado, no buscó el hueco por donde huir. Tomó las alturas, abrió la puerta y sacó a todos.",
+  "prompt": "=H16",
+  "mapa": "",
+  "ov": "tarjeta=IV. CHOSIN|Rodeado, abrió la puerta",
+  "palabras": 20,
+  "dur": 7.71,
+  "inicio": 1498.37,
+  "reusa": "H16",
+  "imagen": "",
+  "overlays": [
+   {
+    "k": "tarjeta",
+    "v": "IV. CHOSIN|Rodeado, abrió la puerta"
+   }
+  ]
+ },
+ {
+  "id": "X08",
+  "cap": "CAP V | EL CIERRE",
+  "tipo": "frase",
+  "opts": {},
+  "voz": "Tres cosas se repiten en cada uno. Estar con tus hombres. Atacar lo que el enemigo cree seguro. Y entender que estar rodeado no es el final de un plan. Es el principio de uno más sencillo.",
+  "prompt": "",
+  "mapa": "",
+  "ov": "frase=Con tus hombres. Donde el enemigo se siente seguro. Rodeado = una sola dirección.",
+  "palabras": 37,
+  "dur": 13.97,
+  "inicio": 1506.08,
+  "reusa": "",
+  "imagen": "",
+  "overlays": [
+   {
+    "k": "frase",
+    "v": "Con tus hombres. Donde el enemigo se siente seguro. Rodeado = una sola dirección."
+   }
+  ]
+ },
+ {
+  "id": "X09",
+  "cap": "CAP V | EL CIERRE",
+  "tipo": "ia",
+  "opts": {
+   "zoom": "out"
+  },
+  "voz": "Y recuerda cómo empezó todo. Con un cabo al que el Cuerpo no quería como oficial. Con una barra dorada perdida diez días después de ganarla.",
+  "prompt": "=G05",
+  "mapa": "",
+  "ov": "etiqueta=UNA BARRA DORADA, PERDIDA",
+  "palabras": 26,
+  "dur": 9.92,
+  "inicio": 1520.05,
+  "reusa": "G05",
+  "imagen": "G05",
+  "overlays": [
+   {
+    "k": "etiqueta",
+    "v": "UNA BARRA DORADA, PERDIDA"
+   }
+  ]
+ },
+ {
+  "id": "X09b",
+  "cap": "CAP V | EL CIERRE",
+  "tipo": "ia",
+  "opts": {
+   "zoom": "in"
+  },
+  "voz": "Y quizá esa sea la lección más difícil de aceptar. Aquí no hubo un secreto, ni un truco, ni un golpe de genio. Hubo un hombre que se presentaba, preparaba el terreno y avanzaba. Una vez. Y otra. Y otra más.",
+  "prompt": "{PULLER_M} walking forward alone along a long line of soldiers at dawn, helmet under his arm, mist in the valley, golden light",
+  "mapa": "",
+  "ov": "etiqueta=PRESENTARSE · PREPARAR · AVANZAR",
+  "palabras": 41,
+  "dur": 15.44,
+  "inicio": 1529.97,
+  "reusa": "",
+  "imagen": "X09b",
+  "overlays": [
+   {
+    "k": "etiqueta",
+    "v": "PRESENTARSE · PREPARAR · AVANZAR"
+   }
+  ]
+ },
+ {
+  "id": "X10",
+  "cap": "CAP V | EL CIERRE",
+  "tipo": "frase",
+  "opts": {},
+  "voz": "Tardó casi cinco años en recuperarla. Y después, cinco cruces para que nadie volviera a discutirlo.",
+  "prompt": "",
+  "mapa": "",
+  "ov": "frase=Casi cinco años para recuperar una barra. Cinco cruces para cerrar la discusión.",
+  "palabras": 16,
+  "dur": 6.24,
+  "inicio": 1545.41,
+  "reusa": "",
+  "imagen": "",
+  "overlays": [
+   {
+    "k": "frase",
+    "v": "Casi cinco años para recuperar una barra. Cinco cruces para cerrar la discusión."
+   }
+  ]
+ },
+ {
+  "id": "X11",
+  "cap": "CAP V | EL CIERRE",
+  "tipo": "barras",
+  "opts": {},
+  "voz": "Ahora te toca a ti. De los cuatro movimientos, ¿cuál crees que exigió más temple? ¿La emboscada de Nicaragua, la noche de Guadalcanal, las semanas de Cabo Gloucester, o el puente de Chosin?",
+  "prompt": "",
+  "mapa": "",
+  "ov": "tarjeta=¿CUÁL EXIGIÓ MÁS TEMPLE?|I · Nicaragua   II · Guadalcanal   III · Cabo Gloucester   IV · Chosin",
+  "palabras": 33,
+  "dur": 12.5,
+  "inicio": 1551.65,
+  "reusa": "",
+  "imagen": "",
+  "overlays": [
+   {
+    "k": "tarjeta",
+    "v": "¿CUÁL EXIGIÓ MÁS TEMPLE?|I · Nicaragua   II · Guadalcanal   III · Cabo Gloucester   IV · Chosin"
+   }
+  ]
+ },
+ {
+  "id": "X12",
+  "cap": "CAP V | EL CIERRE",
+  "tipo": "sub",
+  "opts": {},
+  "voz": "Cuéntamelo en los comentarios. Y si quieres más historias como esta, suscríbete y activa la campanita, para no perderte la próxima.",
+  "prompt": "=N05",
+  "mapa": "",
+  "ov": "sub=SUSCRÍBETE",
+  "palabras": 21,
+  "dur": 8.08,
+  "inicio": 1564.15,
+  "reusa": "N05",
+  "imagen": "",
+  "overlays": [
+   {
+    "k": "sub",
+    "v": "SUSCRÍBETE"
+   }
+  ]
+ }
+]

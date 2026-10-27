@@ -1,0 +1,81 @@
+# CAP 0 | EL GANCHO
+# Formato: #id tipo [opciones] / V: texto hablado (números con letras) / P: prompt de imagen (inglés) / O: rótulos en pantalla / =id reutiliza imagen
+# tipos: ia | bn (archivo blanco y negro) | mapa | frase | barras | linea | medallas | anio | sub | retrato
+
+#G01 ia zoom=in look=nieve
+V: Diciembre de mil novecientos cincuenta. Corea del Norte. Treinta grados bajo cero.
+P: Marines in parkas trudging along a frozen mountain road at dusk, breath fogging, heavy snow, trucks in a long column, bleak winter war scene
+O: fecha=Diciembre de 1950
+
+#G02 mapa look=nieve
+V: Catorce mil hombres están atrapados en un pueblo de montaña, rodeados por un ejército chino que los supera por mucho. Y el único camino de salida cruza un desfiladero donde el enemigo ya voló un puente.
+P: Stylized relief map of a snowy mountain valley in northern Korea seen in perspective, a single winding road through steep gorge, white-blue snow palette
+M: bandera azul en el pueblo; fichas rojas alrededor; marca de puente roto en el desfiladero
+O: cifra=14.000 hombres
+
+#G03 ia zoom=out look=nieve
+V: Y el coronel que manda a los hombres de la retaguardia no parece asustado. Se cuenta que lo resumió en una sola frase: nos han rodeado, así que ahora podemos atacar en cualquier dirección.
+P: {PULLER_M} standing alone on a snowy ridge at night, looking down at a valley full of campfires, stern calm expression, frost on his collar
+O: tarjeta=SE LE ATRIBUYE|«Estamos rodeados. Ahora podemos atacar en cualquier dirección.»
+
+#G04 frase
+V: Ese hombre había empezado su carrera perdiendo una barra de oficial.
+O: frase=Ese hombre había empezado su carrera perdiendo una barra de oficial.
+
+#G05 bn zoom=in look=bn
+V: El dieciséis de junio de mil novecientos diecinueve, un marine de veinte años terminó el curso de oficiales en Quantico, Virginia, y se prendió la barra dorada de subteniente. Diez días después, la perdió.
+P: Close-up of a young Marine's hands pinning a gold second lieutenant bar onto a khaki uniform collar, 1919, other officers blurred behind
+O: fecha=16 de junio de 1919; etiqueta=SUBTENIENTE DE LOS MARINES
+
+#G06 ia zoom=in
+V: La guerra en Europa había terminado y el Cuerpo de Marines se reducía a toda prisa. Ya no necesitaba jóvenes tenientes de reserva. Lo pasaron a la lista de inactivos y le dieron a elegir.
+P: A young Marine officer standing alone at the edge of a parade ground at dusk, trucks and soldiers in the distance, 1919, melancholic mood
+O: tarjeta=LA ELECCIÓN|Volver a casa, o quedarse como soldado raso
+
+#G07 bn zoom=out
+V: Podía volver a casa, o quedarse en el Cuerpo como soldado raso. Se quedó. Volvió a ser cabo.
+P: Black-and-white archival photograph of rows of Marines marching down a city street past crowds, 1919 victory parade
+O: etiqueta=SE QUEDÓ
+
+#G08 retrato look=bn
+V: Treinta y un años después, ese cabo sería general. Y tendría una condecoración que ningún otro marine ha igualado.
+P: Black-and-white formal portrait of a Marine corporal, 1919, stiff pose, hat, high collar
+O: tarjeta=1919|Cabo   ·   1950|General
+
+#G09 medallas
+V: Cinco Cruces de la Armada, la segunda condecoración al valor más alta que la Marina puede otorgar. Muchos marines pasan una carrera entera sin ganar una sola. Él ganó cinco.
+P: Five Navy Cross medals in a row on dark velvet, gold crosses with navy and white ribbons, dramatic lighting
+O: anio=5|CRUCES DE LA ARMADA
+
+#G10 retrato zoom=in
+V: Se llamaba Lewis Burwell Puller. Todo el Cuerpo lo conocía como Chesty.
+P: Portrait of {PULLER_M}, three-quarter view, stern gaze, decorated uniform, dramatic side light, film grain
+O: tarjeta=LEWIS BURWELL PULLER|«Chesty»
+
+#G11 linea
+V: Recuperar aquella barra dorada le llevó casi cinco años. Se fue a Haití, donde marines estadounidenses dirigían una policía local llamada Gendarmería, y allí sirvió como teniente.
+O: linea=1919|1924|junio 1919: pierde la barra|marzo 1924: oficial de nuevo
+
+#G12 mapa
+V: Lideró patrullas por las montañas contra bandas rebeldes y, según la mayoría de los relatos, combatió en más de cuarenta enfrentamientos.
+P: Stylized relief map of the island of Hispaniola, Haiti mountains in perspective, green-olive and parchment palette, Caribbean sea in deep blue
+M: bandera azul en Haití
+O: etiqueta=HAITÍ; cifra=+40 combates
+
+#G13 ia zoom=in
+V: Pero dentro de su propio Cuerpo seguía siendo cabo. Pidió su comisión una y otra vez, y lo rechazaron cada vez. Solo en marzo de mil novecientos veinticuatro lo hicieron oficial de forma definitiva.
+P: {PULLER_J} in a tropical Haitian mountain trail, corporal-quality worn khaki, rifle on shoulder, sweat-stained, jungle behind
+O: fecha=Marzo de 1924
+
+#G14 frase
+V: ¿Cómo un hombre al que el Cuerpo no quería como oficial llegó a ser el marine más condecorado de su historia?
+O: frase=¿Cómo llegó a ser el marine más condecorado de la historia?
+
+#G15 ia zoom=in
+V: No fue suerte. Y no fue solo valentía: hay muchos hombres valientes que mueren en su primer combate. Cuatro veces le tocó una batalla donde todo parecía decidido en su contra. Y cuatro veces hizo lo único que el enemigo no había previsto.
+P: {PULLER_M} in combat gear on a smoky battlefield, rifle slung, looking straight ahead while soldiers rush behind him, orange glow of fires, dust
+O: etiqueta=EL ENEMIGO NO LO HABÍA PREVISTO
+
+#G16 frase
+V: Estos son sus cuatro movimientos más legendarios.
+O: frase=Cuatro movimientos legendarios.

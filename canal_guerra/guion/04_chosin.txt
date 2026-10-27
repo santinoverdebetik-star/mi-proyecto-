@@ -1,0 +1,141 @@
+# CAP IV | CHOSIN, 1950 — «ABRE LA PUERTA»
+
+#Y01 ia zoom=in
+V: Terminó la guerra en mil novecientos cuarenta y cinco, y Puller siguió en el Cuerpo, en puestos de entrenamiento y de mando, a la espera de lo que todos sabían que, tarde o temprano, volvería a llegar. Llegó desde Corea, en el verano de mil novecientos cincuenta.
+P: {PULLER_M} reviewing recruits on a training field with a flag waving behind him, serious expression, peacetime late-1940s light
+O: fecha=Verano de 1950
+
+#Y02 ia zoom=in look=bn
+V: En Inchón, la marea sube y baja con tanta fuerza que los desembarcos tenían que hacerse en una ventana de pocas horas. El regimiento de Puller desembarcó y después peleó, calle por calle, para recuperar Seúl.
+P: Black-and-white archival-style photograph of Marines climbing ladders over a sea wall in a harbor landing, smoke rising behind, September 1950
+O: etiqueta=INCHÓN · SEÚL
+
+#H01 mapa look=nieve
+V: Cuarto movimiento. Septiembre de mil novecientos cincuenta. Corea. El Primer Regimiento de Marines, mandado por Puller, desembarca en Inchón y recupera Seúl. Parece una guerra ganada. Dos meses después, el mismo regimiento estaría luchando por salir con vida de las montañas.
+P: Stylized relief map of the Korean Peninsula in perspective, Inchon on the western coast, Seoul inland, northern mountains in white-blue snow tones, antique map feel
+M: bandera azul en Inchón; flecha azul hasta Seúl; hacia el norte, el embalse de Chosin
+O: tarjeta=IV|El cuarto movimiento; etiqueta=COREA, 1950
+
+#H02 mapa look=nieve
+V: A finales de noviembre, la Primera División de Marines estaba desplegada a lo largo de una sola carretera de montaña, de unos ciento veinticinco kilómetros. Hungnam en la costa. Koto-ri en el centro. Hagaru-ri y Yudam-ni, más arriba, junto al embalse de Chosin.
+P: Top-down stylized relief map of a single winding mountain road across snowy peaks from a coastal port up to a frozen reservoir, with small settlement markers along it, white-blue snow palette
+M: banderas azules en Hungnam, Koto-ri, Hagaru-ri y Yudam-ni; línea de carretera resaltada
+O: cifra=125 km de una sola carretera
+
+#H03 ia zoom=out look=nieve
+V: Y el veintisiete de noviembre llegó lo que nadie quería ver. Un ejército chino, calculado en más de cien mil hombres, cayó sobre toda la columna a la vez.
+P: Endless lines of Chinese soldiers in padded winter uniforms advancing across a snowy ridge at night, bugle-like blue-lit sky, blizzard, cinematic wide shot
+O: fecha=27 de noviembre de 1950; cifra=+100.000 soldados chinos (estimación)
+
+#H03b ia zoom=in look=nieve
+V: El veintinueve de noviembre, una fuerza improvisada de marines británicos, soldados estadounidenses y marines, la fuerza Drysdale, tuvo que abrirse paso a tiros por esa carretera para llegar hasta Koto-ri. Muchos no lo lograron.
+P: A long column of trucks and men under fire on a narrow snowy road between steep hillsides, burning vehicles and tracer fire, blue dusk light
+O: tarjeta=FUERZA DRYSDALE|29 de noviembre de 1950
+
+#H04 ia zoom=in look=nieve
+V: La temperatura bajó a unos treinta grados bajo cero. Los fusiles se encasquillaban. La comida se congelaba en las latas. Hasta el plasma para los heridos se volvía hielo.
+P: Marines huddled in a snowy foxhole at night, frost on their faces and eyebrows, frozen canteens and rations in their hands, blue moonlight, breath fog
+O: etiqueta=−30 °C
+
+#H05 ia zoom=in look=nieve
+V: Y a Puller le tocó la pieza más difícil. Mantener abierta la carretera. Si se cortaba, todos los de arriba quedaban atrapados. Si se mantenía, había una posibilidad.
+P: {PULLER_M} in a snow-covered tent studying a map under a hanging lantern, radio operators behind him, cold blue-gray light
+O: tarjeta=1.er REGIMIENTO DE MARINES|La misión: mantener la carretera abierta
+
+#H06 ia zoom=in look=bn
+V: Koto-ri era el nudo. Sus hombres sostenían el perímetro mientras los demás bajaban de las montañas. Cada tren de camiones, cada columna de heridos, tenía que pasar por ahí. Y los chinos lo sabían.
+P: Snowy village perimeter at night with trucks, tents and Marine foxholes in a ring, headlights of a long column arriving through falling snow, black-and-white archival photo style
+O: etiqueta=KOTO-RI
+
+#H06b ia zoom=out look=nieve
+V: Mientras tanto, desde Yudam-ni y Hagaru-ri, los demás regimientos peleaban para abrirse camino hacia el sur. Entre el seis y el siete de diciembre llegaron a Koto-ri, con miles de heridos. Y con ellos llegaba la tarea más grande: sacarlos a todos.
+P: A long line of weary frost-covered Marines and stretchers moving into a snowy village at dusk, trucks with wounded, breath clouds, blue light
+O: fecha=6–7 de diciembre de 1950
+
+#H07 barras
+V: Hacia el ocho de diciembre, en Koto-ri se apiñaban unos catorce mil hombres, entre marines y soldados.
+O: barras=KOTO-RI, 8 DE DICIEMBRE|Hombres reunidos=14.000
+
+#H08 mapa look=nieve
+V: Pero faltaba el último obstáculo. Un desfiladero llamado paso de Funchilin, al sur de Koto-ri. Allí, la carretera cruzaba un precipicio por un puente sobre las tuberías de una central eléctrica.
+P: Stylized relief map close-up of a narrow mountain gorge with a road clinging to a cliff and a small bridge over a ravine, white-blue snow palette
+M: marca de puente en el desfiladero; bandera azul norte (Koto-ri); bandera azul sur (Hungnam)
+O: etiqueta=PASO DE FUNCHILIN
+
+#H09 ia zoom=in look=nieve
+V: Los chinos ya habían volado ese puente. Los ingenieros lo repararon. Los chinos lo volaron otra vez. Quedó un hueco de unos nueve metros, sobre un precipicio, y no había forma de cruzarlo con camiones.
+P: Blown mountain-road bridge in a deep snowy gorge, twisted steel girders hanging over a drop, snow-covered cliffs, steam from pipes below, cold gray light
+O: cifra=Hueco de 9 m
+
+#H10 frase
+V: Catorce mil hombres, un ejército enemigo alrededor, y un abismo en el único camino de salida.
+O: frase=14.000 hombres. Un ejército alrededor. Un abismo en la única salida.
+
+#H11 ia zoom=in look=nieve
+V: Fue entonces cuando se cuenta que Puller dijo la frase que lo haría célebre. Lo hemos estado buscando, y por fin lo encontramos. Estamos rodeados. Eso simplifica el problema de llegar hasta él y atacarlo en todas direcciones.
+P: {PULLER_M} speaking calmly to a group of officers outside a snow-covered tent at dusk, fur-trimmed parka, steam from breath, determined faces
+O: tarjeta=SE LE ATRIBUYE|«Estamos rodeados. Eso simplifica el problema.»
+
+#H12 ia zoom=in
+V: Y entonces el ingeniero Partridge propuso algo que parecía un disparate. Lanzar un puente completo desde el aire, en secciones, con paracaídas. Un puente de acero, que cabía en el vientre de un avión.
+P: Marine engineer officer unrolling a blueprint of a Treadway bridge on a crate in a snowy tent, lantern light, tense faces
+O: tarjeta=EL PUENTE DEL CIELO|Secciones de acero lanzadas en paracaídas
+
+#H13 ia zoom=out look=nieve
+V: Probaron una sección. Se estrelló y quedó destrozada. Aun así, Partridge pidió ocho. Cuatro serían suficientes. Los otros cuatro, el seguro por lo que pudiera salir mal.
+P: A heavy bridge section dropped on parachutes from a cargo plane over a snowy valley, parachutes blooming white against gray sky, trucks waiting below
+O: cifra=8 secciones pedidas · 4 necesarias
+
+#H14 ia zoom=out look=nieve
+V: El siete de diciembre, los aviones sobrevolaron Koto-ri. Una sección cayó en manos chinas. Otra llegó demasiado dañada. Seis cayeron intactas.
+P: Marines running across snow to retrieve heavy parachuted bridge sections lying on the ground, chutes dragging, cargo planes overhead
+O: fecha=7 de diciembre de 1950; etiqueta=6 INTACTAS
+
+#H15 ia zoom=in
+V: Pero un puente no sirve de nada si el enemigo está en las alturas disparando sobre los ingenieros. Aquí es donde el patrón de Puller vuelve a aparecer.
+P: Chinese soldiers dug into the high rocky slopes above a mountain pass, rifles pointing down, looking toward a tiny road far below, cold blue light
+O: etiqueta=EL ENEMIGO EN LAS ALTURAS
+
+#H16 ia zoom=in look=nieve
+V: Primero, estaba con sus hombres, en la nieve, en el perímetro, en el camino. Segundo, ordenó que su primer batallón saliera hacia el norte y tomara las cumbres que dominaban el paso. El lugar que el enemigo creía más seguro. Las alturas.
+P: Marines in white snow parkas climbing a steep icy ridge in a line, breath steaming, rifles slung, mountain panorama behind, dawn light
+O: tarjeta=EL PATRÓN, POR TERCERA VEZ|Ir con sus hombres · Atacar las alturas
+
+#H17 ia zoom=in look=nieve
+V: Y tercero: rodeados por todas partes, no había un frente. Solo había una dirección, la salida. Y para llegar a ella había que abrirla a golpes.
+P: Marines advancing through a snowstorm toward the dark outline of a mountain pass, tracer fire streaking across the dusk, determined silhouettes
+O: etiqueta=NO HABÍA FRENTE. HABÍA SALIDA.
+
+#H17b ia zoom=in look=nieve
+V: Mientras los ingenieros trabajaban sobre el hueco, las cumbres de arriba ya estaban en manos de los marines. Los disparos sobre el desfiladero se fueron apagando. Por primera vez en días, el camino ya no tenía ojos encima.
+P: Marines in white parkas standing triumphantly on a snowy ridge above a gorge, looking down at engineers working on the road far below, dawn light
+O: etiqueta=EL CAMINO YA NO TENÍA OJOS ENCIMA
+
+#H18 ia zoom=out look=nieve
+V: El nueve de diciembre, los ingenieros armaron el puente sobre el hueco. Una columna de camiones, de soldados y de heridos empezó a cruzar, vehículo por vehículo, con el abismo debajo.
+P: A long convoy of trucks and weary soldiers crossing a freshly assembled steel bridge over a deep snowy gorge, dawn light, steam, tense mood
+O: fecha=9 de diciembre de 1950
+
+#H19 frase
+V: El puente aguantó.
+O: frase=El puente aguantó.
+
+#H20 ia zoom=in look=nieve
+V: Detrás de la columna, los marines de Puller desmantelaron lo que quedaba y bajaron los últimos. No dejaron nada que pudiera servir al enemigo. Y no dejaron a nadie atrás.
+P: Marines in the rear guard walking last down a snowy mountain road at dawn, trucks ahead, burning supply dumps smoking behind them, silent and exhausted
+O: etiqueta=LA RETAGUARDIA, LOS ÚLTIMOS
+
+#H20b ia zoom=in look=bn
+V: Costó caro. Entre combates y frío, la división tuvo cerca de doce mil bajas. Pero salió con sus heridos, con sus muertos y con su equipo. No dejó nada atrás.
+P: Marines in the snow carrying stretchers and a flag-draped coffin onto a transport truck, solemn faces, black-and-white archival photograph style, December 1950
+O: cifra=≈12.000 bajas (combate y frío)
+
+#H21 ia look=nieve
+V: Desde la costa, la flota los llevó al sur. En la evacuación de Hungnam salieron decenas de miles de soldados y casi tantos civiles coreanos que huían con ellos.
+P: Evacuation at a snowy harbor: long lines of soldiers and civilians boarding large ships, cranes and trucks, December 1950, gray sky
+O: etiqueta=HUNGNAM: LA EVACUACIÓN
+
+#H22 medallas
+V: Por esos días de hielo y de fuego, Puller recibió su quinta Cruz de la Armada. Nadie, antes ni después, ha tenido cinco.
+P: Five Navy Cross medals arranged in a perfect row on dark velvet, golden light, slow reveal, dramatic
+O: anio=5|CRUCES DE LA ARMADA; etiqueta=QUINTA CRUZ DE LA ARMADA

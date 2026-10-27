@@ -1,0 +1,98 @@
+# CAP III | CABO GLOUCESTER, 1943-44 — «TOMA EL MANDO»
+
+#K01 mapa
+V: Tercer movimiento. Y este no tiene un solo momento heroico. Tiene tres semanas de fango, lluvia y trampas escondidas. Diciembre de mil novecientos cuarenta y tres. Nueva Bretaña, en el Pacífico Sur.
+P: Stylized relief map of New Britain island in the Southwest Pacific in perspective, jungle green-olive terrain, deep blue sea, antique map feel
+M: bandera azul en Cabo Gloucester (extremo oeste)
+O: tarjeta=III|El tercer movimiento; fecha=26 de diciembre de 1943
+
+#K01b mapa
+V: El objetivo eran dos aeródromos japoneses en el extremo del cabo. Quien los controlara dominaría el estrecho entre Nueva Bretaña y Nueva Guinea y ayudaría a aislar la gran base japonesa de Rabaul.
+P: Stylized relief map of the Bismarck Sea region showing New Britain and the northeastern coast of New Guinea separated by a narrow strait, green-olive terrain, antique map feel
+M: bandera azul en Cabo Gloucester; punto rojo en Rabaul (extremo este)
+O: etiqueta=EL OBJETIVO: DOS AERÓDROMOS
+
+#K02 ia look=noche
+V: La Primera División de Marines desembarcó en Cabo Gloucester el veintiséis de diciembre. Puller ya no mandaba un batallón. Era el segundo jefe del Séptimo de Marines, un puesto de oficina, de planes y de papeles.
+P: Landing craft hitting a dark jungle beach at dawn under cloudy skies, Marines wading ashore, smoke from shell hits in the trees, 1943
+O: etiqueta=SEGUNDO JEFE DEL 7.º DE MARINES
+
+#K03 ia zoom=in
+V: Aquel lugar era un enemigo en sí mismo. Pantanos que se tragaban el equipo, lluvia casi continua, selva tan densa que se podía estar a diez metros de un búnker enemigo sin verlo.
+P: Marines struggling through knee-deep swamp mud under dense rainforest canopy, rain pouring, heavy equipment dragged on poles, hazy green light
+O: etiqueta=PANTANO · LLUVIA · SELVA
+
+#K03b ia zoom=in
+V: Había un arroyo en medio del camino que los marines bautizaron, con humor negro, como Arroyo del Suicidio. Los japoneses tenían sus búnkeres justo en la otra orilla. Cruzarlo era un problema que costaba días y vidas.
+P: A narrow muddy creek crossing a jungle with steep banks, Marines crouched behind fallen logs on one side, smoke from hidden bunkers on the other bank, rain, olive-green tint
+O: tarjeta=«SUICIDE CREEK»|El Arroyo del Suicidio
+
+#K04 ia zoom=in look=bn
+V: Los japoneses habían convertido cada loma en una fortaleza. Búnkeres de troncos y tierra, enlazados, con ametralladoras que cubrían unas a otras. Cuando uno caía, el siguiente ya tenía apuntado el hueco.
+P: Cutaway-style view of a Japanese log-and-earth bunker complex hidden in jungle with interlocking machine gun slits, camouflaged, 1943 photo style
+O: etiqueta=CADA LOMA, UNA FORTALEZA
+
+#K05 ia zoom=out
+V: Y entonces, en pleno avance, un comandante de batallón cayó herido. Cuando eso pasa en la selva, un batallón entero se queda quieto. Nadie sabe quién decide. Nadie quiere decidir. Y cada minuto parado sale carísimo.
+P: Marines huddled in a wet jungle clearing looking toward a medic carrying a wounded officer on a stretcher, officers looking at each other uncertain, rain
+O: etiqueta=EL COMANDANTE CAYÓ
+
+#K06 ia zoom=in
+V: Puller no esperó órdenes. Dejó el puesto de mando, fue hasta el frente y se hizo cargo del batallón. Con una sola idea: el mando no se queda vacío ni un minuto.
+P: {PULLER_M} striding forward through jungle with a map case under his arm, ignoring bullets kicking up mud, officers hurrying behind him, determined
+O: tarjeta=EL MANDO NO ESPERA|No se queda vacío ni un minuto
+
+#K07 ia look=noche
+V: Avanzó entre fuego de ametralladoras y de morteros. Reorganizó a los hombres bajo las balas y los lanzó contra una posición fuertemente fortificada. Y la tomó.
+P: Marines reorganizing under mortar fire in a muddy jungle, dirt eruptions, a colonel waving them forward, intense atmosphere, non-graphic
+O: etiqueta=BAJO FUEGO, REORGANIZÓ
+
+#K08 medallas
+V: Por esas semanas, entre el veintiséis de diciembre y el diecinueve de enero, le dieron su cuarta Cruz de la Armada.
+P: Four Navy Cross medals on dark velvet, gold crosses with navy and white ribbons, soft side light
+O: anio=4|CRUCES DE LA ARMADA; etiqueta=CUARTA CRUZ DE LA ARMADA
+
+#K09 ia zoom=in
+V: ¿Y el patrón? Estaba ahí. Fue donde estaban sus hombres. Atacó el lugar que el enemigo creía seguro. Y cuando todo parecía detenido, buscó el camino más corto: hacia adelante. En febrero de mil novecientos cuarenta y cuatro, lo premiaron con el mando del Primer Regimiento de Marines.
+P: Colonel's insignia on a uniform collar in close-up, mud-stained, a blurred jungle in the background, solemn mood
+O: fecha=Febrero de 1944; tarjeta=1.er REGIMIENTO DE MARINES|Su primer regimiento
+
+# CAP III-B | PELELIU, 1944 — «EL PRECIO»
+
+#P01 frase
+V: Pero esta historia tiene una página que no suele contarse en las leyendas.
+O: frase=Pero hay una página que las leyendas no cuentan.
+
+#P02 mapa
+V: Septiembre de mil novecientos cuarenta y cuatro. Peleliu, una pequeña isla de coral en el Pacífico. Puller, ahora coronel, manda el Primer Regimiento de Marines.
+P: Stylized relief map of Peleliu island, a small coral island with a central ridge system, surrounded by turquoise lagoon and deep blue sea, antique map feel
+M: bandera azul en la playa de desembarco, zona de crestas al centro
+O: fecha=15 de septiembre de 1944; etiqueta=PELELIU
+
+#P02b ia zoom=in look=bn
+V: Se había planeado como una operación de unos pocos días. Duró más de dos meses.
+P: Marines resting beside a damaged landing vehicle on a bright white coral beach, exhausted faces, smoke drifting from inland, harsh sun
+O: etiqueta=PLAN: UNOS POCOS DÍAS · REALIDAD: MÁS DE DOS MESES
+
+#P03 ia zoom=in look=bn
+V: Esta vez, su método chocó con algo que no había visto antes. Una red de cuevas y túneles excavados en la roca. Posiciones enlazadas, casi invisibles, que no se tomaban con un giro audaz.
+P: Rocky coral ridge pitted with cave mouths and dark tunnel openings, smoke rising from the rocks, Marines crawling in the foreground, harsh midday light, non-graphic
+O: etiqueta=CUEVAS Y TÚNELES EN LA ROCA
+
+#P04 barras
+V: En seis días de combate, su regimiento sufrió más de mil setecientas bajas, entre muertos y heridos. Más de la mitad de sus hombres.
+O: barras=1.er REGIMIENTO EN PELELIU|Hombres=3.000|Bajas en 6 días=1.749
+
+#P05 ia zoom=in look=bn
+V: Muchos lo criticaron. Dijeron que había lanzado ataques de frente contra posiciones que pedían paciencia. Otros respondieron que en aquella isla no había otra forma. La discusión sigue viva hoy.
+P: A weary Marine colonel sitting alone on a rock at the edge of a battlefield at dusk, helmet off, head down, smoke on the horizon
+O: etiqueta=LA CRÍTICA FUE DURA
+
+#P06 frase
+V: Y es importante decirlo, porque una leyenda sin sombras no es una historia. Es un afiche. Y Puller no pidió que lo convirtieran en afiche.
+O: frase=Una leyenda sin sombras es un afiche.
+
+#P07 ia zoom=in
+V: Seis años después, en otra guerra y en otro país, le tocaría demostrar si había aprendido algo. Con hielo en lugar de coral. Y con un enemigo que, esta vez, venía acompañado de un segundo ejército: el frío.
+P: Cold blue-gray dawn over a frozen mountain range in Korea, a small road winding in the valley with a faint column of vehicles, Puller-like figure silhouette in the foreground, breath fog
+O: fecha=Seis años después

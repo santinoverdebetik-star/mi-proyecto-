@@ -1,0 +1,29 @@
+# CAP 0B | EL HOMBRE
+
+#M01 ia zoom=in
+V: Antes de seguir, conviene saber quién era este hombre. Lewis Puller nació en mil ochocientos noventa y ocho en West Point, un pueblito de Virginia, y creció escuchando a veteranos de la Guerra Civil contar sus batallas. Historias de generales, de cargas y de batallas perdidas por un solo error.
+P: Old wooden porch in a small Virginia town, elderly bearded Confederate veterans in chairs telling stories while a young boy listens wide-eyed, golden afternoon light, sepia tone
+O: fecha=Virginia, 1898
+
+#M02 bn zoom=in
+V: Su padre murió cuando él era un niño. Y el niño solo soñaba con ser soldado. Entró en el Instituto Militar de Virginia, pero en mil novecientos dieciocho lo dejó para alistarse en los marines. Tenía un miedo. Que la Gran Guerra terminara antes de que él pudiera llegar.
+P: Black-and-white archival photograph of a young cadet in military institute uniform standing at attention beside a stone barracks gate, 1917
+O: etiqueta=TEMÍA LLEGAR TARDE A LA GUERRA
+
+#M03 frase
+V: Y su miedo se cumplió. La guerra terminó antes de que le tocara. Nunca llegó a combatir en Europa.
+O: frase=La guerra terminó antes de que le tocara.
+
+#M04 retrato zoom=in look=bn
+V: Del apodo se cuenta que venía de su pecho, ancho y abombado como un barril, y de la forma en que lo sacaba al caminar. Chesty. Lo llevaría el resto de su vida.
+P: Black-and-white portrait of a young Marine with an unusually broad barrel chest standing very straight, chin up, formal pose, 1920s
+O: tarjeta=«CHESTY»|Según se cuenta, por su pecho ancho
+
+#M05 ia zoom=in
+V: Había en él algo que el Cuerpo no sabía cómo usar en tiempos de paz. Era terco, directo, incómodo para los de arriba. No era un hombre de oficina. Era un hombre de campo de batalla. Y en una época sin guerras, eso lo dejaba sin lugar.
+P: {PULLER_J} sitting alone at a plain wooden desk in a bare office, paperwork stacked, looking out of a window at a training field with restless eyes, 1920s
+O: etiqueta=UN HOMBRE DE CAMPO DE BATALLA
+
+#M06 frase
+V: Pero la paz no iba a durar. Y las guerras, tarde o temprano, siempre vuelven a buscar a los hombres que nadie sabe dónde poner.
+O: frase=Las guerras vuelven a buscar a los hombres que nadie sabe dónde poner.

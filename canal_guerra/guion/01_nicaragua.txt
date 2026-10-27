@@ -1,0 +1,134 @@
+# CAP I | NICARAGUA, 1932 — «GIRA HACIA EL FUEGO»
+
+#N01 mapa
+V: Primer movimiento. Nicaragua, mil novecientos treinta. Es una guerra que casi nadie recuerda. Desde hacía tres años, marines de Estados Unidos peleaban en las montañas del norte contra el ejército guerrillero de Augusto César Sandino.
+P: Stylized relief map of Nicaragua and Central America in perspective, green-olive terrain, Pacific and Caribbean blue, northern mountains emphasized
+M: bandera azul en Managua; zona de sierra norte marcada
+O: tarjeta=I|El primer movimiento; etiqueta=NICARAGUA, 1930
+
+#N01b bn zoom=in
+V: Para entender esa guerra hay que retroceder un poco. En mil novecientos veintisiete, Estados Unidos envió marines a Nicaragua, en medio de una guerra civil. Casi todos los jefes aceptaron un pacto de paz. Uno no: Augusto César Sandino.
+P: Black-and-white archival photograph of U.S. Marines landing at a Nicaraguan port with rifles and packs, townspeople watching from the quay, 1927
+O: fecha=1927
+
+#N01c ia zoom=in
+V: Para unos era un bandolero. Para muchos nicaragüenses, un héroe que defendía su país de una ocupación extranjera. Con unos cientos de hombres y un conocimiento perfecto del terreno, Sandino mantuvo en jaque durante años a una potencia militar. No ganaba por fuerza. Ganaba eligiendo dónde, cuándo y cómo.
+P: A lean guerrilla leader in a wide-brimmed hat and simple clothes standing on a mountain ridge with his men, misty morning, determined expression, 1930s Nicaragua
+O: tarjeta=AUGUSTO C. SANDINO|Elegía dónde, cuándo y cómo
+
+#N02 bn
+V: Los marines habían formado una fuerza local, la Guardia Nacional, y oficiales estadounidenses dirigían sus patrullas. Y las patrullas caían, una y otra vez, en emboscadas.
+P: Black-and-white archival photograph of Nicaraguan National Guard soldiers in campaign hats standing in a line with rifles, American officers beside them, 1930
+O: tarjeta=GUARDIA NACIONAL|Soldados nicaragüenses, oficiales estadounidenses
+
+#N03 ia zoom=in
+V: Los guerrilleros conocían cada sendero y cada cresta. Sabían que una columna con mulas y provisiones se oía y se veía mucho antes de llegar. Elegían un tramo estrecho del camino, con terreno alto a ambos lados, esperaban y abrían fuego.
+P: View from a ridge looking down on a narrow jungle trail where a column of soldiers with pack mules walks unaware, hidden riflemen in foliage in the foreground, 1930s Nicaragua, misty
+O: etiqueta=EL TRAMPOLÍN DE LA EMBOSCADA
+
+#N04 ia zoom=out
+V: La patrulla se tiraba al suelo. Los guerrilleros seguían disparando desde arriba y después se esfumaban en el bosque, antes de que pudiera llegar ayuda. En aquellas montañas, quien elegía el lugar del combate casi siempre lo ganaba.
+P: Soldiers pinned down on a jungle trail taking cover behind rocks and mules, gun smoke rising from the hillside above, 1930s, tense
+O: etiqueta=QUIEN ELEGÍA EL LUGAR, GANABA
+
+#N05 ia zoom=in
+V: Los guerrilleros estaban seguros de una cosa. Las montañas eran suyas. Cualquier patrulla que entrara a buscarlos pelearía en su terreno y bajo sus reglas.
+P: Dark mountain ridge line over dense jungle at dawn, silhouettes of rebel fighters with rifles looking down into the valley, heavy mist
+O: tarjeta=LA MONTAÑA ERA SUYA|Su terreno. Sus reglas.
+
+#N06 retrato zoom=in
+V: Puller llegó a Nicaragua a finales de mil novecientos veintiocho, como teniente de la Guardia. Miró las mismas montañas y sacó una conclusión distinta.
+P: Portrait of {PULLER_J} looking at distant mountains, hands on hips, campaign hat, early morning light, 1928
+O: fecha=Finales de 1928
+
+#N07 ia zoom=in
+V: Si la emboscada funcionaba porque la patrulla era lenta, pesada y previsible, entonces la respuesta era una patrulla que no fuera nada de eso.
+P: {PULLER_J} drawing a rough sketch in the dirt with a stick while a few guardsmen crouch around him, jungle clearing, determined faces
+O: etiqueta=LENTA · PESADA · PREVISIBLE
+
+#N08 ia zoom=in
+V: Sus patrullas eran pequeñas, de unas pocas decenas de guardias nicaragüenses. Cargaban lo mínimo. Según el propio Puller, su compañía pasaba unos veinte días al mes en el camino y podía recorrer unos cuarenta y ocho kilómetros en una jornada, el doble que una patrulla corriente. Los guerrilleros nunca sabían dónde estaba.
+P: A small lightly equipped patrol of Nicaraguan guardsmen moving fast in single file along a jungle ridge, minimal packs, {PULLER_J} leading at the front
+O: cifra=48 km al día; etiqueta=EL DOBLE QUE UNA PATRULLA NORMAL
+
+#N09 frase
+V: Y les grababa a sus hombres una regla que iba contra todo instinto de soldado. Cuando te emboscan, no te quedas tirado esperando. Te giras hacia el fuego y lo atacas de inmediato, antes de que el enemigo termine lo que planeó.
+O: frase=Si te emboscan, no te tires al suelo. Gira hacia el fuego.
+
+#N10 linea
+V: Entre febrero y agosto de mil novecientos treinta, Puller llevó a sus guardias a cinco combates contra fuerzas guerrilleras más numerosas. La Virgen. Los Cedros. Moncotal. Guapinol. Malacate. Cada vez, los guerrilleros fueron expulsados. Por esa serie de combates recibió su primera Cruz de la Armada.
+O: linea=1930|feb–ago|La Virgen · Los Cedros · Moncotal · Guapinol · Malacate; etiqueta=PRIMERA CRUZ DE LA ARMADA
+
+#N11 ia zoom=in look=noche
+V: Cuenta la historia que los guerrilleros le pusieron su propio apodo. Lo llamaban El Tigre.
+P: Close-up of a tiger's eyes glowing in dark jungle undergrowth, a blurred lone patrol silhouette passing in the background, night mist
+O: tarjeta=«EL TIGRE»|Según se cuenta, así lo llamaban los guerrilleros
+
+#N12 anio
+V: Pero el combate que mejor muestra su método llegó dos años más tarde. Septiembre de mil novecientos treinta y dos.
+P: Faded sepia jungle valley landscape, heavy haze, mountains in the distance
+O: anio=1932|SEPTIEMBRE
+
+#N13 mapa
+V: Puller condujo una patrulla de unos cuarenta guardias hacia lo profundo del territorio guerrillero, a unos ciento sesenta kilómetros al norte de la ciudad de Jinotega. Llevaban seis días de marcha.
+P: Stylized relief map of northern Nicaragua mountains in perspective, a winding river and a dotted route leading deep into highlands, green-olive palette
+M: bandera azul (patrulla) al norte; ruta punteada desde Jinotega; fecha
+O: cifra=100 millas al norte de Jinotega; etiqueta=6 DÍAS DE MARCHA
+
+#N14 ia zoom=in
+V: Su segundo al mando era William Lee, un duro sargento de marines que servía como oficial en la Guardia.
+P: Portrait of a tough weathered American Marine sergeant-officer, 1930s Nicaragua, sweat and dust on his face, campaign hat, jungle background
+O: tarjeta=WILLIAM LEE|Segundo al mando
+
+#N15 ia zoom=in look=noche
+V: El veintiséis de septiembre, en un sendero entre colinas, los guerrilleros cerraron la trampa. Según estimaciones estadounidenses, eran unos ciento cincuenta, con al menos siete armas automáticas.
+P: Ambush at the moment it begins: muzzle flashes from jungle hillsides on both sides of a narrow trail, soldiers frozen in the middle, dust and smoke, dusk light
+O: tarjeta=LA EMBOSCADA, 26 DE SEPTIEMBRE DE 1932|Guerrilleros: unos 150 · armas automáticas: al menos 7 · patrulla: unos 40
+
+#N16 ia zoom=in
+V: En los primeros segundos cayó un guardia cerca del frente de la columna. Lee recibió un disparo en la cabeza y otro en el brazo, y se desplomó en el sendero.
+P: A wounded officer falling to the ground on a jungle trail as guardsmen scatter behind him, dust kicked up by bullets, non-graphic
+O: etiqueta=EL PRIMER SEGUNDO
+
+#N17 ia zoom=out
+V: Este era el momento en que la mayoría de las patrullas de Nicaragua se desmoronaba. Clavados en el camino, superados tres a uno, con fuego cayendo desde las alturas. El plan guerrillero dependía de lo que venía después: que la patrulla se paralizara.
+P: Overhead view of a small patrol pinned down on a narrow trail surrounded by high wooded slopes with muzzle flashes, tense composition
+O: etiqueta=SUPERADOS TRES A UNO
+
+#N18 ia zoom=in
+V: Puller se echó al suelo cuando las primeras balas pasaron sobre su cabeza. Pero no se quedó ahí. Atacó la altura de la derecha y la tomó. Después se volvió y arrasó las posiciones guerrilleras de la izquierda.
+P: {PULLER_J} charging uphill through smoke and foliage with a pistol in hand, guardsmen following him up the slope, dramatic action, low angle
+O: etiqueta=GIRÓ HACIA EL FUEGO
+
+#N19 ia zoom=out
+V: La emboscada que debía destruir su patrulla quedó rota y dispersa. Perdió a dos hombres, y unos pocos más resultaron heridos. Y en la larga marcha de regreso, los guerrilleros lo emboscaron dos veces más. Las dos veces, la patrulla se volvió hacia el fuego y los hizo huir.
+P: Guardsmen advancing across a cleared hillside as rebels retreat into the forest, weary but victorious, late afternoon light, smoke drifting
+O: etiqueta=DOS BAJAS · DOS EMBOSCADAS MÁS · MISMA RESPUESTA
+
+#N20 medallas
+V: Por esa patrulla recibió su segunda Cruz de la Armada. Seguía siendo un oficial subalterno, pero el mismo Cuerpo que lo había devuelto a las filas trece años antes tenía ahora a un teniente con dos de sus condecoraciones más altas al valor.
+P: Two Navy Cross medals on dark velvet, gold crosses with navy and white ribbons, soft side light, shallow depth of field
+O: anio=2|CRUCES DE LA ARMADA; etiqueta=SEGUNDA CRUZ DE LA ARMADA
+
+#N21 frase
+V: Y aquí empieza el patrón. Primero: Puller iba donde estaban sus hombres. Nunca mandaba desde atrás. Estaba en el sendero con la patrulla.
+O: tarjeta=EL PATRÓN|I. Iba donde estaban sus hombres
+
+#N22 ia zoom=in
+V: Segundo: atacaba el lugar que el enemigo creía más seguro, que en una emboscada es la posición del propio enemigo. Y tercero: estar rodeado no cambiaba su plan. Solo lo hacía más sencillo. Quedaba una sola dirección, y era hacia el enemigo.
+P: {PULLER_J} silhouetted against a ridge line charging forward with arm raised, soldiers behind him, sunrise glare, painterly war scene
+O: tarjeta=EL PATRÓN|II. Atacaba el lugar más seguro del enemigo; III. Rodeado = una sola dirección
+
+#N22b bn zoom=in
+V: Aquella guerra terminó pronto. Los marines se retiraron de Nicaragua en enero de mil novecientos treinta y tres. Sandino fue asesinado en mil novecientos treinta y cuatro, por oficiales de esa misma Guardia Nacional que los marines habían ayudado a formar. Es uno de esos finales que la historia nunca termina de discutir.
+P: Black-and-white archival photograph of U.S. Marines boarding a transport ship in a tropical port, rifles on shoulders, crowd on the pier, January 1933
+O: fecha=Enero de 1933; etiqueta=LOS MARINES SE RETIRAN
+
+#N23 frase
+V: Recuerda esas tres cosas. Van a volver, cada vez a una escala mucho mayor.
+O: frase=Recuerda esas tres cosas. Van a volver.
+
+#N24 sub
+V: Si te está gustando esta historia, tómate un segundo para suscribirte y activar la campanita. Ayuda al canal más de lo que imaginas.
+P: =N05
+O: sub=SUSCRÍBETE
