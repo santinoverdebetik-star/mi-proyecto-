@@ -1,0 +1,24 @@
+{
+  "name": "historias-ia-video",
+  "private": true,
+  "version": "0.1.0",
+  "scripts": {
+    "studio": "remotion studio",
+    "render": "remotion render Historia out/historia.mp4",
+    "still": "remotion still Historia out/frame.png"
+  },
+  "dependencies": {
+    "@fontsource/anton": "^5.3.0",
+    "@fontsource/inter": "^5.3.0",
+    "@react-three/fiber": "^8.17.10",
+    "@remotion/cli": "^4.0.250",
+    "@remotion/three": "^4.0.250",
+    "@types/react": "^18.3.31",
+    "@types/three": "^0.169.0",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "remotion": "^4.0.250",
+    "three": "^0.169.0",
+    "typescript": "^5.6.3"
+  }
+}
