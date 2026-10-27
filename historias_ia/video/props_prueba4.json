@@ -1,0 +1,322 @@
+{
+ "escenas": [
+  {
+   "tipo": "3d",
+   "objeto": "caja_tv",
+   "luz": "noche",
+   "dur": 8.08
+  },
+  {
+   "tipo": "3d",
+   "objeto": "caja_led",
+   "luz": "noche",
+   "dur": 7.74
+  },
+  {
+   "tipo": "diagrama",
+   "titulo": "Una casa. Cinco dispositivos.",
+   "nodos": [
+    {
+     "id": "casa",
+     "x": 960,
+     "y": 520,
+     "icono": "casa",
+     "etiqueta": "tu casa"
+    },
+    {
+     "id": "tv",
+     "x": 960,
+     "y": 880,
+     "icono": "tv",
+     "etiqueta": "caja tv"
+    },
+    {
+     "id": "pc",
+     "x": 1400,
+     "y": 780,
+     "icono": "pc",
+     "etiqueta": "laptop"
+    },
+    {
+     "id": "movil",
+     "x": 1460,
+     "y": 330,
+     "icono": "movil",
+     "etiqueta": "móvil"
+    },
+    {
+     "id": "cam",
+     "x": 460,
+     "y": 330,
+     "icono": "camara",
+     "etiqueta": "cámara"
+    },
+    {
+     "id": "router",
+     "x": 500,
+     "y": 780,
+     "icono": "router",
+     "etiqueta": "router"
+    }
+   ],
+   "enlaces": [
+    [
+     "casa",
+     "tv"
+    ],
+    [
+     "casa",
+     "pc"
+    ],
+    [
+     "casa",
+     "movil"
+    ],
+    [
+     "casa",
+     "cam"
+    ],
+    [
+     "casa",
+     "router"
+    ]
+   ],
+   "infecta": [
+    "tv",
+    "pc",
+    "router"
+   ],
+   "dur": 5.88
+  },
+  {
+   "tipo": "3d",
+   "objeto": "intrusion",
+   "luz": "noche",
+   "dur": 7.22
+  },
+  {
+   "tipo": "3d",
+   "objeto": "contagio",
+   "luz": "noche",
+   "dur": 7.54
+  },
+  {
+   "tipo": "3d",
+   "objeto": "manometro",
+   "luz": "media",
+   "dur": 6.63
+  },
+  {
+   "tipo": "3d",
+   "objeto": "manometro",
+   "luz": "media",
+   "dur": 6.63,
+   "inv": true
+  },
+  {
+   "tipo": "titular",
+   "lineas": [
+    "EL",
+    "EXPERIMENTO"
+   ],
+   "resalta": 1,
+   "lado": "izq",
+   "dur": 5.5
+  },
+  {
+   "tipo": "3d",
+   "objeto": "red",
+   "luz": "noche",
+   "dur": 3.74
+  },
+  {
+   "tipo": "titular",
+   "lineas": [
+    "ENERO",
+    "2026"
+   ],
+   "resalta": 1,
+   "lado": "izq",
+   "dur": 5.5
+  },
+  {
+   "tipo": "3d",
+   "objeto": "casas_red",
+   "luz": "noche",
+   "dur": 3.34
+  },
+  {
+   "tipo": "3d",
+   "objeto": "casas_red",
+   "luz": "media",
+   "dur": 7.17,
+   "inv": true
+  },
+  {
+   "tipo": "3d",
+   "objeto": "casas_red",
+   "luz": "media",
+   "dur": 7.17
+  },
+  {
+   "tipo": "3d",
+   "objeto": "caja_led",
+   "luz": "media",
+   "dur": 6.18
+  },
+  {
+   "tipo": "3d",
+   "objeto": "caja_led",
+   "luz": "media",
+   "dur": 6.18,
+   "inv": true
+  },
+  {
+   "tipo": "3d",
+   "objeto": "caja_led",
+   "luz": "media",
+   "dur": 6.18
+  },
+  {
+   "tipo": "3d",
+   "objeto": "fabrica",
+   "luz": "media",
+   "dur": 7.76
+  },
+  {
+   "tipo": "3d",
+   "objeto": "fabrica",
+   "luz": "media",
+   "dur": 7.76,
+   "inv": true
+  },
+  {
+   "tipo": "3d",
+   "objeto": "fabrica",
+   "luz": "media",
+   "dur": 7.76
+  },
+  {
+   "tipo": "3d",
+   "objeto": "candado",
+   "luz": "media",
+   "dur": 6.64
+  },
+  {
+   "tipo": "3d",
+   "objeto": "candado",
+   "luz": "media",
+   "dur": 6.64,
+   "inv": true
+  },
+  {
+   "tipo": "3d",
+   "objeto": "apagon",
+   "luz": "noche",
+   "dur": 6.513
+  },
+  {
+   "tipo": "3d",
+   "objeto": "apagon",
+   "luz": "noche",
+   "dur": 6.513,
+   "inv": true
+  },
+  {
+   "tipo": "3d",
+   "objeto": "apagon",
+   "luz": "noche",
+   "dur": 6.513
+  },
+  {
+   "tipo": "diagrama",
+   "titulo": "Tu conexión, alquilada",
+   "nodos": [
+    {
+     "id": "casa",
+     "x": 480,
+     "y": 540,
+     "icono": "casa",
+     "etiqueta": "tu casa"
+    },
+    {
+     "id": "nube",
+     "x": 960,
+     "y": 540,
+     "icono": "nube",
+     "etiqueta": "proxy"
+    },
+    {
+     "id": "pc",
+     "x": 1440,
+     "y": 540,
+     "icono": "pc",
+     "etiqueta": "desconocido"
+    }
+   ],
+   "enlaces": [
+    [
+     "casa",
+     "nube"
+    ],
+    [
+     "nube",
+     "pc"
+    ]
+   ],
+   "infecta": [
+    "nube",
+    "pc"
+   ],
+   "dur": 9.0
+  },
+  {
+   "tipo": "3d",
+   "objeto": "caja_led",
+   "luz": "noche",
+   "dur": 10.1
+  },
+  {
+   "tipo": "3d",
+   "objeto": "candado_agujero",
+   "luz": "noche",
+   "dur": 7.753
+  },
+  {
+   "tipo": "3d",
+   "objeto": "candado_agujero",
+   "luz": "noche",
+   "dur": 7.753,
+   "inv": true
+  },
+  {
+   "tipo": "3d",
+   "objeto": "candado_agujero",
+   "luz": "noche",
+   "dur": 7.753
+  },
+  {
+   "tipo": "titular",
+   "lineas": [
+    "CERO",
+    "INTELIGENCIA"
+   ],
+   "resalta": 1,
+   "lado": "izq",
+   "dur": 5.5
+  },
+  {
+   "tipo": "3d",
+   "objeto": "manometro",
+   "luz": "noche",
+   "dur": 9.18
+  },
+  {
+   "tipo": "3d",
+   "objeto": "red",
+   "luz": "noche",
+   "dur": 5.21
+  }
+ ],
+ "voz": "prueba4/mezcla.mp3"
+}
