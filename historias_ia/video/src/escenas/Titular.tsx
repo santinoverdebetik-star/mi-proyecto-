@@ -7,7 +7,7 @@ export const Titular: React.FC<{ lineas: string[]; resalta?: number; lado?: "izq
   const f = useCurrentFrame(); const { fps } = useVideoConfig();
   return (
     <AbsoluteFill style={{ background: C.negro, justifyContent: "center", alignItems: lado === "centro" ? "center" : "flex-start", paddingLeft: lado === "izq" ? 140 : 0 }}>
-      <svg width="0" height="0"><filter id="desgaste"><feTurbulence type="fractalNoise" baseFrequency="0.7" numOctaves="3" seed="4" result="n" /><feColorMatrix in="n" type="matrix" values="0 0 0 0 0  0 0 0 0 0  0 0 0 0 0  0 0 0 -5 3.5" result="m" /><feComposite in="SourceGraphic" in2="m" operator="in" /></filter></svg>
+      <svg width="0" height="0"><filter id="desgaste"><feTurbulence type="fractalNoise" baseFrequency="0.22" numOctaves="4" seed="4" result="n" /><feColorMatrix in="n" type="matrix" values="0 0 0 0 0  0 0 0 0 0  0 0 0 0 0  0 0 0 -4 3.2" result="m" /><feComposite in="SourceGraphic" in2="m" operator="in" /></filter></svg>
       <div style={{ textAlign: lado === "centro" ? "center" : "left", transform: `scale(${interpolate(f, [0, 90], [1, 1.06])})` }}>
         {lineas.map((l, i) => {
           const e = spring({ frame: f - i * 6, fps, config: { damping: 14, stiffness: 140 } });

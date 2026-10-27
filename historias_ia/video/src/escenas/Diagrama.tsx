@@ -17,11 +17,11 @@ const Icono: React.FC<{ t: Nodo["icono"]; c: string }> = ({ t, c }) => {
 };
 
 /** Diagrama de linea neon (cian) sobre negro; con “infeccion” que se propaga y cambia a rojo/naranja. */
-export const Diagrama: React.FC<{ nodos: Nodo[]; enlaces: [string, string][]; infecta?: string[]; titulo?: string }> = ({ nodos, enlaces, infecta = [], titulo }) => {
+export const Diagrama: React.FC<{ nodos: Nodo[]; enlaces: [string, string][]; infecta?: string[]; titulo?: string; escala?: number; ritmo?: number }> = ({ nodos, enlaces, infecta = [], titulo, escala = 1.5, ritmo = 5 }) => {
   const f = useCurrentFrame(); const W = 1920, H = 1080;
   const pos = (id: string) => nodos.find((n) => n.id === id)!;
-  const aparece = (i: number) => interpolate(f, [i * 5, i * 5 + 18], [0, 1], { extrapolateLeft: "clamp", extrapolateRight: "clamp" });
-  const infectadoEn = (id: string) => { const k = infecta.indexOf(id); return k < 0 ? Infinity : 60 + k * 26; };
+  const aparece = (i: number) => interpolate(f, [i * ritmo, i * ritmo + 18], [0, 1], { extrapolateLeft: "clamp", extrapolateRight: "clamp" });
+  const infectadoEn = (id: string) => { const k = infecta.indexOf(id); return k < 0 ? Infinity : 50 + k * (infecta.length > 6 ? 9 : 26); };
   return (
     <AbsoluteFill style={{ background: C.negro }}>
       <AbsoluteFill style={{ background: "radial-gradient(circle at 50% 55%, #0b1822 0%, #040405 70%)" }} />
@@ -30,7 +30,7 @@ export const Diagrama: React.FC<{ nodos: Nodo[]; enlaces: [string, string][]; in
         <g filter="url(#neon)">
           {enlaces.map(([a, b], i) => {
             const A0 = pos(a), B0 = pos(b); const t = Math.min(1, aparece(i + 2));
-            const L = Math.hypot(B0.x - A0.x, B0.y - A0.y), r0 = 105 * 1.5; const ux = (B0.x - A0.x) / L, uy = (B0.y - A0.y) / L;
+            const L = Math.hypot(B0.x - A0.x, B0.y - A0.y), r0 = 105 * escala; const ux = (B0.x - A0.x) / L, uy = (B0.y - A0.y) / L;
             const A = { x: A0.x + ux * r0, y: A0.y + uy * r0 }, B = { x: B0.x - ux * r0, y: B0.y - uy * r0 };
             const inf = f > Math.min(infectadoEn(a), infectadoEn(b)) && (infecta.includes(a) || infecta.includes(b));
             const col = inf ? C.naranja : C.cian;
@@ -42,7 +42,7 @@ export const Diagrama: React.FC<{ nodos: Nodo[]; enlaces: [string, string][]; in
           {nodos.map((n, i) => {
             const inf = f > infectadoEn(n.id); const col = inf ? C.naranja : C.cian; const t = aparece(i);
             return (
-              <g key={n.id} transform={`translate(${n.x} ${n.y}) scale(${1.5 * (0.85 + 0.15 * t)})`} opacity={t}>
+              <g key={n.id} transform={`translate(${n.x} ${n.y}) scale(${escala * (0.85 + 0.15 * t)})`} opacity={t}>
                 <Icono t={n.icono} c={col} />
                 {n.etiqueta && <text y={92} fontSize={20} textAnchor="middle" fill={col} fontFamily={FUENTE_TEXTO} fontWeight={500} style={{ letterSpacing: 3, textTransform: "uppercase" }}>{n.etiqueta}</text>}
               </g>

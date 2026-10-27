@@ -1,0 +1,316 @@
+{
+ "escenas": [
+  {
+   "tipo": "3d",
+   "dur": 5.0,
+   "objeto": "caja_tv"
+  },
+  {
+   "tipo": "3d",
+   "dur": 5.3,
+   "objeto": "caja_led"
+  },
+  {
+   "tipo": "diagrama",
+   "dur": 8.1,
+   "titulo": "Una casa. Cinco dispositivos.",
+   "nodos": [
+    {
+     "id": "casa",
+     "x": 960,
+     "y": 520,
+     "icono": "casa",
+     "etiqueta": "tu casa"
+    },
+    {
+     "id": "tv",
+     "x": 960,
+     "y": 880,
+     "icono": "tv",
+     "etiqueta": "caja tv"
+    },
+    {
+     "id": "pc",
+     "x": 1400,
+     "y": 780,
+     "icono": "pc",
+     "etiqueta": "laptop"
+    },
+    {
+     "id": "movil",
+     "x": 1460,
+     "y": 330,
+     "icono": "movil",
+     "etiqueta": "móvil"
+    },
+    {
+     "id": "cam",
+     "x": 460,
+     "y": 330,
+     "icono": "camara",
+     "etiqueta": "cámara"
+    },
+    {
+     "id": "router",
+     "x": 500,
+     "y": 780,
+     "icono": "router",
+     "etiqueta": "router"
+    }
+   ],
+   "enlaces": [
+    [
+     "casa",
+     "tv"
+    ],
+    [
+     "casa",
+     "pc"
+    ],
+    [
+     "casa",
+     "movil"
+    ],
+    [
+     "casa",
+     "cam"
+    ],
+    [
+     "casa",
+     "router"
+    ]
+   ],
+   "infecta": [
+    "tv",
+    "pc",
+    "router"
+   ]
+  },
+  {
+   "tipo": "3d",
+   "dur": 6.7,
+   "objeto": "red",
+   "infeccion": 150
+  },
+  {
+   "tipo": "3d",
+   "dur": 5.7,
+   "objeto": "nucleo"
+  },
+  {
+   "tipo": "titular",
+   "dur": 6.2,
+   "lineas": [
+    "EL",
+    "EXPERIMENTO"
+   ],
+   "resalta": 1,
+   "lado": "izq"
+  },
+  {
+   "tipo": "diagrama",
+   "dur": 5.0,
+   "titulo": "15 cajas · 26 mil millones de parámetros",
+   "nodos": [
+    {
+     "id": "n0",
+     "x": 130,
+     "y": 470,
+     "icono": "tv"
+    },
+    {
+     "id": "n1",
+     "x": 248,
+     "y": 610,
+     "icono": "tv"
+    },
+    {
+     "id": "n2",
+     "x": 366,
+     "y": 470,
+     "icono": "tv"
+    },
+    {
+     "id": "n3",
+     "x": 484,
+     "y": 610,
+     "icono": "tv"
+    },
+    {
+     "id": "n4",
+     "x": 602,
+     "y": 470,
+     "icono": "tv"
+    },
+    {
+     "id": "n5",
+     "x": 720,
+     "y": 610,
+     "icono": "tv"
+    },
+    {
+     "id": "n6",
+     "x": 838,
+     "y": 470,
+     "icono": "tv"
+    },
+    {
+     "id": "n7",
+     "x": 956,
+     "y": 610,
+     "icono": "tv"
+    },
+    {
+     "id": "n8",
+     "x": 1074,
+     "y": 470,
+     "icono": "tv"
+    },
+    {
+     "id": "n9",
+     "x": 1192,
+     "y": 610,
+     "icono": "tv"
+    },
+    {
+     "id": "n10",
+     "x": 1310,
+     "y": 470,
+     "icono": "tv"
+    },
+    {
+     "id": "n11",
+     "x": 1428,
+     "y": 610,
+     "icono": "tv"
+    },
+    {
+     "id": "n12",
+     "x": 1546,
+     "y": 470,
+     "icono": "tv"
+    },
+    {
+     "id": "n13",
+     "x": 1664,
+     "y": 610,
+     "icono": "tv"
+    },
+    {
+     "id": "n14",
+     "x": 1782,
+     "y": 470,
+     "icono": "tv"
+    }
+   ],
+   "enlaces": [
+    [
+     "n0",
+     "n1"
+    ],
+    [
+     "n1",
+     "n2"
+    ],
+    [
+     "n2",
+     "n3"
+    ],
+    [
+     "n3",
+     "n4"
+    ],
+    [
+     "n4",
+     "n5"
+    ],
+    [
+     "n5",
+     "n6"
+    ],
+    [
+     "n6",
+     "n7"
+    ],
+    [
+     "n7",
+     "n8"
+    ],
+    [
+     "n8",
+     "n9"
+    ],
+    [
+     "n9",
+     "n10"
+    ],
+    [
+     "n10",
+     "n11"
+    ],
+    [
+     "n11",
+     "n12"
+    ],
+    [
+     "n12",
+     "n13"
+    ],
+    [
+     "n13",
+     "n14"
+    ]
+   ],
+   "infecta": [
+    "n0",
+    "n1",
+    "n2",
+    "n3",
+    "n4",
+    "n5",
+    "n6",
+    "n7",
+    "n8",
+    "n9",
+    "n10",
+    "n11",
+    "n12",
+    "n13",
+    "n14"
+   ],
+   "escala": 0.55,
+   "ritmo": 4
+  },
+  {
+   "tipo": "titular",
+   "dur": 3.4,
+   "lineas": [
+    "$55",
+    "CADA UNA"
+   ],
+   "resalta": 0,
+   "lado": "izq"
+  },
+  {
+   "tipo": "3d",
+   "dur": 3.6,
+   "objeto": "nucleo"
+  },
+  {
+   "tipo": "3d",
+   "dur": 3.6,
+   "objeto": "puerta"
+  },
+  {
+   "tipo": "titular",
+   "dur": 2.6,
+   "lineas": [
+    "NUEVO",
+    "INQUILINO"
+   ],
+   "resalta": 1,
+   "lado": "izq"
+  }
+ ],
+ "voz": "muestra/mezcla.mp3"
+}

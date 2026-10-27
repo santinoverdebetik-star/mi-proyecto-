@@ -5,7 +5,7 @@ import { useThree } from "@react-three/fiber";
 import * as THREE from "three";
 import { C } from "../estilo";
 
-export type Objeto3D = "caja_tv" | "nucleo" | "red" | "puerta" | "pantalla_rota";
+export type Objeto3D = "caja_led" | "caja_tv" | "nucleo" | "red" | "puerta" | "pantalla_rota";
 
 /** Camara que se acerca con un leve arco (dolly + deriva), como los planos lentos del video de referencia. */
 const Camara: React.FC<{ desde: [number, number, number]; hasta: [number, number, number]; mira: [number, number, number]; total: number }> = ({ desde, hasta, mira, total }) => {
@@ -34,12 +34,13 @@ const CajaTV: React.FC = () => {
   return (
     <group>
       {/* televisor apagado */}
-      <mesh position={[0, 0.9, -1.2]}><boxGeometry args={[4.2, 2.4, 0.08]} /><meshStandardMaterial color="#050506" roughness={0.12} metalness={0.9} /></mesh>
-      <mesh position={[0, 0.9, -1.15]}><planeGeometry args={[4.0, 2.2]} /><meshStandardMaterial color="#05070b" roughness={0.05} metalness={1} emissive="#0a1420" emissiveIntensity={0.6} /></mesh>
+      <mesh position={[0, 0.9, -1.2]}><boxGeometry args={[4.2, 2.4, 0.08]} /><meshStandardMaterial color="#0c0d10" roughness={0.3} metalness={0.6} /></mesh>
+      <mesh position={[0, 0.9, -1.15]}><planeGeometry args={[4.0, 2.2]} /><meshStandardMaterial color="#05070b" roughness={0.05} metalness={1} emissive="#10243a" emissiveIntensity={1.1} /></mesh>
       <mesh position={[0, -0.35, -1.2]}><boxGeometry args={[0.5, 0.35, 0.3]} /><meshStandardMaterial color="#0a0a0c" roughness={0.4} metalness={0.8} /></mesh>
       {/* caja de streaming */}
-      <mesh position={[0, -0.78, 0.2]}><boxGeometry args={[1.5, 0.22, 1.1]} /><meshStandardMaterial color="#1a1c21" roughness={0.3} metalness={0.5} /></mesh>
+      <mesh position={[0, -0.78, 0.2]}><boxGeometry args={[1.5, 0.22, 1.1]} /><meshStandardMaterial color="#2a2d34" roughness={0.45} metalness={0.35} /></mesh>
       <mesh position={[0.52, -0.67, 0.76]}><sphereGeometry args={[0.035, 16, 16]} /><meshStandardMaterial color={C.naranja} emissive={C.naranja} emissiveIntensity={6 * led} /></mesh>
+      <pointLight position={[-1.5, 0.6, 1.5]} color="#4f8fd8" intensity={2.2} distance={8} decay={2} />
       <pointLight position={[0.52, -0.55, 0.9]} color={C.naranja} intensity={9 * led} distance={7} decay={2} />
     </group>
   );
@@ -116,6 +117,7 @@ const PantallaRota: React.FC = () => {
 };
 
 const CONFIG: Record<Objeto3D, { desde: [number, number, number]; hasta: [number, number, number]; mira: [number, number, number] }> = {
+  caja_led: { desde: [1.5, -0.25, 3.2], hasta: [0.75, -0.55, 1.9], mira: [0.5, -0.62, 0.7] },
   caja_tv: { desde: [2.2, 0.5, 6.6], hasta: [1.0, -0.1, 4.0], mira: [0.2, -0.1, -0.2] },
   nucleo: { desde: [0, 1.0, 7.5], hasta: [0, 0.9, 4.6], mira: [0, 0.8, 0] },
   red: { desde: [-4.5, 1.6, 7.5], hasta: [3.2, 1.3, 6.2], mira: [0, 0.8, 0] },
@@ -131,12 +133,12 @@ export const Escena3D: React.FC<{ objeto: Objeto3D; infeccion?: number }> = ({ o
       <ThreeCanvas width={width} height={height} camera={{ fov: 38, near: 0.1, far: 80, position: c.desde }} gl={{ antialias: true }}>
         <color attach="background" args={[C.negro]} />
         <fog attach="fog" args={[C.negro, 7, 22]} />
-        <ambientLight intensity={0.18} />
+        <ambientLight intensity={0.55} />
         <directionalLight position={[-4, 5, 4]} intensity={0.9} color="#6aa8ff" />
         <directionalLight position={[5, 2, 3]} intensity={0.35} color="#ffb48a" />
         <Camara desde={c.desde} hasta={c.hasta} mira={c.mira} total={durationInFrames} />
         <Suelo />
-        {objeto === "caja_tv" && <CajaTV />}
+        {(objeto === "caja_tv" || objeto === "caja_led") && <CajaTV />}
         {objeto === "nucleo" && <Nucleo />}
         {objeto === "red" && <Red infeccion={infeccion} />}
         {objeto === "puerta" && <Puerta />}
