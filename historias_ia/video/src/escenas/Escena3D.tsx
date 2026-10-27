@@ -4,11 +4,12 @@ import { ThreeCanvas } from "@remotion/three";
 import { useThree } from "@react-three/fiber";
 import * as THREE from "three";
 import { C } from "../estilo";
+import { CajaStreaming, Laptop, Manometro, Pulsos } from "./Objetos3D";
 
-export type Objeto3D = "caja_led" | "caja_tv" | "nucleo" | "red" | "puerta" | "pantalla_rota";
+export type Objeto3D = "intrusion" | "contagio" | "manometro" | "cajas15" | "caja_led" | "caja_tv" | "nucleo" | "red" | "puerta" | "pantalla_rota";
 
 /** Camara que se acerca con un leve arco (dolly + deriva), como los planos lentos del video de referencia. */
-const Camara: React.FC<{ desde: [number, number, number]; hasta: [number, number, number]; mira: [number, number, number]; total: number }> = ({ desde, hasta, mira, total }) => {
+const Camara: React.FC<{ desde: [number, number, number]; hasta: [number, number, number]; mira: [number, number, number]; miraHasta?: [number, number, number]; total: number }> = ({ desde, hasta, mira, miraHasta, total }) => {
   const f = useCurrentFrame();
   const { camera } = useThree();
   const t = interpolate(f, [0, total], [0, 1], { extrapolateRight: "clamp" });
@@ -16,7 +17,8 @@ const Camara: React.FC<{ desde: [number, number, number]; hasta: [number, number
   const p = desde.map((d, i) => d + (hasta[i] - d) * e);
   const deriva = Math.sin(f / 70) * 0.04;
   camera.position.set(p[0] + deriva, p[1] + deriva * 0.6, p[2]);
-  camera.lookAt(...mira);
+  const m = miraHasta ? mira.map((v, i) => v + (miraHasta[i] - v) * e) : mira;
+  camera.lookAt(m[0], m[1], m[2]);
   camera.updateProjectionMatrix();
   return null;
 };
@@ -116,7 +118,62 @@ const PantallaRota: React.FC = () => {
   );
 };
 
-const CONFIG: Record<Objeto3D, { desde: [number, number, number]; hasta: [number, number, number]; mira: [number, number, number] }> = {
+const Intrusion: React.FC = () => {
+  const f = useCurrentFrame();
+  const inf = interpolate(f, [55, 100], [0, 1], { extrapolateLeft: "clamp", extrapolateRight: "clamp" });
+  return (
+    <group>
+      <CajaStreaming pos={[-2.6, -0.88, 0.3]} />
+      <pointLight position={[-2.1, -0.4, 0.9]} color={C.naranja} intensity={5} distance={5} />
+      <Laptop pos={[1.4, -0.95, 0]} rotY={-0.5} infeccion={inf} />
+      <Pulsos a={[-2.1, -0.75, 0.6]} b={[0.9, 0.2, 0.3]} arco={1.0} desde={8} n={8} />
+    </group>
+  );
+};
+
+const Contagio: React.FC = () => {
+  const f = useCurrentFrame();
+  const a = interpolate(f, [5, 40], [0, 1], { extrapolateLeft: "clamp", extrapolateRight: "clamp" });
+  const b = interpolate(f, [88, 128], [0, 1], { extrapolateLeft: "clamp", extrapolateRight: "clamp" });
+  const c = interpolate(f, [150, 190], [0, 1], { extrapolateLeft: "clamp", extrapolateRight: "clamp" });
+  return (
+    <group>
+      <Laptop pos={[-2.8, -0.95, 0.4]} rotY={0.35} infeccion={a} />
+      <Laptop pos={[1.2, -0.95, -2.2]} rotY={-0.05} infeccion={b} escala={0.9} />
+      <Laptop pos={[5.0, -0.95, -5.2]} rotY={-0.4} infeccion={c} escala={0.8} />
+      <Pulsos a={[-2.4, 0.3, 0.2]} b={[0.9, 0.2, -2.1]} arco={1.3} desde={50} hasta={135} n={6} />
+      <Pulsos a={[1.3, 0.2, -2.3]} b={[4.7, 0.2, -5.1]} arco={1.4} desde={118} hasta={200} n={6} />
+    </group>
+  );
+};
+
+const Cajas15: React.FC = () => {
+  const f = useCurrentFrame();
+  const orden = Array.from({ length: 15 }, (_, i) => { const r = Math.floor(i / 5), c = i % 5; return { i, x: ((r % 2 === 0 ? c : 4 - c) - 2) * 2.1, z: -r * 1.9 + 1.0 }; });
+  return (
+    <group>
+      {orden.map((o) => {
+        const on = f > 10 + o.i * 5 ? 1 : 0;
+        return <CajaStreaming key={o.i} pos={[o.x, -0.88, o.z]} led={on ? C.naranja : C.cian} fase={o.i * 3} activa={on ? 1 : 0.5} />;
+      })}
+      {orden.slice(1).map((o, k) => {
+        const p = orden[k]; const A = new THREE.Vector3(p.x, -0.75, p.z), B = new THREE.Vector3(o.x, -0.75, o.z); const mid = A.clone().add(B).multiplyScalar(0.5);
+        const q = new THREE.Quaternion().setFromUnitVectors(new THREE.Vector3(0, 1, 0), B.clone().sub(A).normalize());
+        const on = f > 10 + (k + 1) * 5;
+        return <mesh key={k} position={mid} quaternion={q}><cylinderGeometry args={[0.014, 0.014, A.distanceTo(B), 6]} /><meshStandardMaterial color="#000" emissive={on ? C.naranja : C.cian} emissiveIntensity={on ? 2 : 0.5} /></mesh>;
+      })}
+      <pointLight position={[0, 3, -1]} color={C.naranja} intensity={14} distance={14} />
+      <pointLight position={[-3, 2.5, 3]} color="#7fb0ff" intensity={6} distance={12} />
+    </group>
+  );
+};
+
+type Cam = { desde: [number, number, number]; hasta: [number, number, number]; mira: [number, number, number]; miraHasta?: [number, number, number] };
+const CONFIG: Record<Objeto3D, Cam> = {
+  intrusion: { desde: [0.6, 1.3, 7.8], hasta: [-0.3, 0.7, 5.4], mira: [-0.5, -0.2, 0] },
+  contagio: { desde: [-4.2, 1.6, 6.8], hasta: [1.6, 1.4, 5.2], mira: [-1.5, -0.2, -0.8], miraHasta: [2.2, -0.3, -3.2] },
+  manometro: { desde: [0.5, 0.35, 6.4], hasta: [0.1, 0.1, 4.3], mira: [0, 0, 0] },
+  cajas15: { desde: [-4.6, 2.5, 6.4], hasta: [3.6, 2.1, 4.8], mira: [0, -0.7, -1.0] },
   caja_led: { desde: [1.5, -0.25, 3.2], hasta: [0.75, -0.55, 1.9], mira: [0.5, -0.62, 0.7] },
   caja_tv: { desde: [2.2, 0.5, 6.6], hasta: [1.0, -0.1, 4.0], mira: [0.2, -0.1, -0.2] },
   nucleo: { desde: [0, 1.0, 7.5], hasta: [0, 0.9, 4.6], mira: [0, 0.8, 0] },
@@ -136,10 +193,14 @@ export const Escena3D: React.FC<{ objeto: Objeto3D; infeccion?: number }> = ({ o
         <ambientLight intensity={0.55} />
         <directionalLight position={[-4, 5, 4]} intensity={0.9} color="#6aa8ff" />
         <directionalLight position={[5, 2, 3]} intensity={0.35} color="#ffb48a" />
-        <Camara desde={c.desde} hasta={c.hasta} mira={c.mira} total={durationInFrames} />
-        <Suelo />
+        <Camara desde={c.desde} hasta={c.hasta} mira={c.mira} miraHasta={c.miraHasta} total={durationInFrames} />
+        {objeto !== "manometro" && <Suelo />}
         {(objeto === "caja_tv" || objeto === "caja_led") && <CajaTV />}
         {objeto === "nucleo" && <Nucleo />}
+        {objeto === "intrusion" && <Intrusion />}
+        {objeto === "contagio" && <Contagio />}
+        {objeto === "manometro" && <Manometro total={durationInFrames} />}
+        {objeto === "cajas15" && <Cajas15 />}
         {objeto === "red" && <Red infeccion={infeccion} />}
         {objeto === "puerta" && <Puerta />}
         {objeto === "pantalla_rota" && <PantallaRota />}
