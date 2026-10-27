@@ -74,7 +74,7 @@ def drone(dur):
     return y / np.abs(y).max() + 0.8 * pulso
 
 
-def main(vozdir, out, trans="whoosh", nombre="mezcla"):
+def main(vozdir, out, trans="glitch", nombre="mezcla"):
     os.makedirs(out, exist_ok=True)
     fr = json.load(open(os.path.join(vozdir, "frases.json"), encoding="utf-8"))
     voz = []; t0 = []; t = 0.0
