@@ -23,10 +23,10 @@ const Camara: React.FC<{ desde: [number, number, number]; hasta: [number, number
   return null;
 };
 
-const Suelo: React.FC<{ y?: number }> = ({ y = -1 }) => (
+const Suelo: React.FC<{ y?: number; color?: string }> = ({ y = -1, color = "#07080a" }) => (
   <mesh rotation={[-Math.PI / 2, 0, 0]} position={[0, y, 0]}>
     <planeGeometry args={[60, 60]} />
-    <meshStandardMaterial color="#07080a" roughness={0.35} metalness={0.7} />
+    <meshStandardMaterial color={color} roughness={0.35} metalness={0.7} />
   </mesh>
 );
 
@@ -182,19 +182,29 @@ const CONFIG: Record<Objeto3D, Cam> = {
   pantalla_rota: { desde: [0, 0.9, 6.2], hasta: [0, 0.9, 3.4], mira: [0, 0.9, 0] },
 };
 
-export const Escena3D: React.FC<{ objeto: Objeto3D; infeccion?: number }> = ({ objeto, infeccion = 120 }) => {
+/** Nivel de luz segun lo que cuenta la narracion: "noche" = amenaza/misterio, "media" = explicacion, "clara" = datos/ciencia/respiro. */
+export type Luz = "noche" | "media" | "clara";
+const LUZ: Record<Luz, { fondo: string; ambiente: number; relleno: number; suelo: string; hemi: number }> = {
+  noche: { fondo: C.negro, ambiente: 0.55, relleno: 0.9, suelo: "#07080a", hemi: 0 },
+  media: { fondo: "#141c29", ambiente: 1.7, relleno: 2.4, suelo: "#222a37", hemi: 1.0 },
+  clara: { fondo: "#2c3a52", ambiente: 3.0, relleno: 3.6, suelo: "#3a4658", hemi: 2.0 },
+};
+
+export const Escena3D: React.FC<{ objeto: Objeto3D; infeccion?: number; luz?: Luz }> = ({ objeto, infeccion = 120, luz = "noche" }) => {
+  const L = LUZ[luz];
   const { width, height, durationInFrames } = useVideoConfig();
   const c = CONFIG[objeto];
   return (
-    <AbsoluteFill style={{ background: C.negro }}>
+    <AbsoluteFill style={{ background: L.fondo }}>
       <ThreeCanvas width={width} height={height} camera={{ fov: 38, near: 0.1, far: 80, position: c.desde }} gl={{ antialias: true }}>
-        <color attach="background" args={[C.negro]} />
-        <fog attach="fog" args={[C.negro, 7, 22]} />
-        <ambientLight intensity={0.55} />
-        <directionalLight position={[-4, 5, 4]} intensity={0.9} color="#6aa8ff" />
+        <color attach="background" args={[L.fondo]} />
+        <fog attach="fog" args={[L.fondo, 7, 22]} />
+        <ambientLight intensity={L.ambiente} />
+        <hemisphereLight args={["#bcd4ff", "#201a18", L.hemi]} />
+        <directionalLight position={[-4, 5, 4]} intensity={L.relleno} color="#6aa8ff" />
         <directionalLight position={[5, 2, 3]} intensity={0.35} color="#ffb48a" />
         <Camara desde={c.desde} hasta={c.hasta} mira={c.mira} miraHasta={c.miraHasta} total={durationInFrames} />
-        {objeto !== "manometro" && <Suelo />}
+        {objeto !== "manometro" && <Suelo color={L.suelo} />}
         {(objeto === "caja_tv" || objeto === "caja_led") && <CajaTV />}
         {objeto === "nucleo" && <Nucleo />}
         {objeto === "intrusion" && <Intrusion />}

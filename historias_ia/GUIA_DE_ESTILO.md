@@ -60,6 +60,18 @@ Las escenas procedurales de Remotion son un sustituto; el look del video **es re
 
 Se guardan en `video/public/img/escena_NN.png` y se usan con `{ tipo: "imagen", archivo: "img/escena_NN.png", dur: 5 }`. Remotion les da empuje lento, brillo de acento, grano, viñeta y polvo.
 
+## 4b. Regla de luz según lo que dice la narración (pedido del usuario)
+
+El video de muestra gustó, pero el usuario pidió **menos oscuridad según el tema**. Cada escena 3D tiene un parámetro `luz`:
+
+| `luz` | Cuándo usarla | Ejemplos |
+|---|---|---|
+| `noche` (por defecto) | amenaza, intrusión, algo oculto que avanza, suspenso, cierre inquietante | la caja parpadeando de noche, la infección, la puerta que se abre |
+| `media` | explicación, contexto, historia ("en 2016…"), cómo funciona algo | diagramas, el precedente histórico, el mecanismo |
+| `clara` | datos, ciencia, laboratorio, respiro después de la tensión | el experimento, cifras, "los investigadores midieron…" |
+
+Se escribe en `src/guion.ts`: `{ tipo: "3d", dur: 5, objeto: "contagio", luz: "media" }`. Los titulares y los diagramas siguen sobre negro (son los que dan el contraste). Las imágenes de ImageFX deben pedirse con el mismo criterio (ver "prompt base": cambiar *pitch-black background* por *dim blue-grey studio* en las escenas `media`/`clara`).
+
 ## 5. Proyecto Remotion (`video/`)
 
 ```
