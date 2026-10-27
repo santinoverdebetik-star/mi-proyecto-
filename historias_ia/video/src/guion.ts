@@ -3,7 +3,7 @@
 import type { Luz, Objeto3D } from "./escenas/Escena3D";
 
 export type Escena =
-  | { tipo: "3d"; dur: number; objeto: Objeto3D; infeccion?: number; flash?: number; luz?: Luz }
+  | { tipo: "3d"; dur: number; objeto: Objeto3D; infeccion?: number; flash?: number; luz?: Luz; inv?: boolean }
   | { tipo: "diagrama"; dur: number; titulo?: string; escala?: number; ritmo?: number; nodos: any[]; enlaces: [string, string][]; infecta?: string[] }
   | { tipo: "titular"; dur: number; lineas: string[]; resalta?: number; lado?: "izq" | "centro" }
   | { tipo: "imagen"; dur: number; archivo: string; brillo?: string };

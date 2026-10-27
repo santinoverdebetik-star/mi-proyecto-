@@ -16,7 +16,7 @@ export const Historia: React.FC<{ escenas: Escena[]; voz?: string; musica?: stri
     <Series>
       {escenas.map((e, i) => (
         <Series.Sequence key={i} durationInFrames={Math.round(e.dur * FPS)}>
-          {e.tipo === "3d" && <Escena3D objeto={e.objeto} infeccion={e.infeccion} luz={e.luz} />}
+          {e.tipo === "3d" && <Escena3D objeto={e.objeto} infeccion={e.infeccion} luz={e.luz} inv={e.inv} />}
           {e.tipo === "diagrama" && <Diagrama nodos={e.nodos} enlaces={e.enlaces} infecta={e.infecta} titulo={e.titulo} escala={e.escala} ritmo={e.ritmo} />}
           {e.tipo === "titular" && <><Titular lineas={e.lineas} resalta={e.resalta} lado={e.lado} /><Flash en={2} color="#ff5a1f" /></>}
           {e.tipo === "imagen" && <Imagen archivo={e.archivo} brillo={e.brillo} />}

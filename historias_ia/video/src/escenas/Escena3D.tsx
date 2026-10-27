@@ -4,9 +4,9 @@ import { ThreeCanvas } from "@remotion/three";
 import { useThree } from "@react-three/fiber";
 import * as THREE from "three";
 import { C } from "../estilo";
-import { CajaStreaming, Laptop, Manometro, Pulsos } from "./Objetos3D";
+import { Apagon, Candado, CajaStreaming, CasasRed, Duplicacion, Fabrica, Laptop, Manometro, Pulsos, Rack, Radar } from "./Objetos3D";
 
-export type Objeto3D = "intrusion" | "contagio" | "manometro" | "cajas15" | "caja_led" | "caja_tv" | "nucleo" | "red" | "puerta" | "pantalla_rota";
+export type Objeto3D = "casas_red" | "fabrica" | "candado" | "candado_agujero" | "apagon" | "duplicacion" | "rack" | "radar" | "intrusion" | "contagio" | "manometro" | "cajas15" | "caja_led" | "caja_tv" | "nucleo" | "red" | "puerta" | "pantalla_rota";
 
 /** Camara que se acerca con un leve arco (dolly + deriva), como los planos lentos del video de referencia. */
 const Camara: React.FC<{ desde: [number, number, number]; hasta: [number, number, number]; mira: [number, number, number]; miraHasta?: [number, number, number]; total: number }> = ({ desde, hasta, mira, miraHasta, total }) => {
@@ -169,7 +169,18 @@ const Cajas15: React.FC = () => {
 };
 
 type Cam = { desde: [number, number, number]; hasta: [number, number, number]; mira: [number, number, number]; miraHasta?: [number, number, number] };
-const CONFIG: Record<Objeto3D, Cam> = {
+const CAMS_NUEVAS: Record<string, Cam> = {
+  casas_red: { desde: [-5, 5.6, 6.8], hasta: [4, 4.4, 5.2], mira: [0, -0.6, -2], miraHasta: [1, -0.8, -2.5] },
+  fabrica: { desde: [-3.5, 0.9, 5.2], hasta: [2.6, 0.2, 3.9], mira: [0, -0.6, 0], miraHasta: [1.2, -0.7, 0] },
+  candado: { desde: [1.2, 0.8, 8.2], hasta: [0.4, 0.5, 6.0], mira: [0, 0.4, 0] },
+  candado_agujero: { desde: [1.2, 0.8, 8.2], hasta: [0.2, 0.3, 5.2], mira: [0, 0.4, 0] },
+  apagon: { desde: [0, 0.8, 13.0], hasta: [0, 0.6, 10.2], mira: [0, 0.6, -1] },
+  duplicacion: { desde: [0, 1.6, 4.2], hasta: [0, 2.8, 7.2], mira: [0, 0.8, -1] },
+  rack: { desde: [-3.5, 0.9, 7.4], hasta: [1.8, 0.8, 5.8], mira: [0, 0.6, -1] },
+  radar: { desde: [0, 2.6, 5.2], hasta: [0, 2.0, 3.8], mira: [0, 0.2, 0] },
+};
+
+const CONFIG: Partial<Record<Objeto3D, Cam>> = {
   intrusion: { desde: [0.6, 1.3, 7.8], hasta: [-0.3, 0.7, 5.4], mira: [-0.5, -0.2, 0] },
   contagio: { desde: [-4.2, 1.6, 6.8], hasta: [1.6, 1.4, 5.2], mira: [-1.5, -0.2, -0.8], miraHasta: [2.2, -0.3, -3.2] },
   manometro: { desde: [0.5, 0.35, 6.4], hasta: [0.1, 0.1, 4.3], mira: [0, 0, 0] },
@@ -182,6 +193,9 @@ const CONFIG: Record<Objeto3D, Cam> = {
   pantalla_rota: { desde: [0, 0.9, 6.2], hasta: [0, 0.9, 3.4], mira: [0, 0.9, 0] },
 };
 
+/** Factor de resolucion interna del 3D (0.6 = 36 % de los pixeles). Render por software: bajarlo acelera mucho; el grano y la vineta disimulan la perdida de nitidez. */
+const GL_K = 0.6;
+
 /** Nivel de luz segun lo que cuenta la narracion: "noche" = amenaza/misterio, "media" = explicacion, "clara" = datos/ciencia/respiro. */
 export type Luz = "noche" | "media" | "clara";
 const LUZ: Record<Luz, { fondo: string; ambiente: number; relleno: number; suelo: string; hemi: number }> = {
@@ -190,13 +204,15 @@ const LUZ: Record<Luz, { fondo: string; ambiente: number; relleno: number; suelo
   clara: { fondo: "#2c3a52", ambiente: 3.0, relleno: 3.6, suelo: "#3a4658", hemi: 2.0 },
 };
 
-export const Escena3D: React.FC<{ objeto: Objeto3D; infeccion?: number; luz?: Luz }> = ({ objeto, infeccion = 120, luz = "noche" }) => {
+export const Escena3D: React.FC<{ objeto: Objeto3D; infeccion?: number; luz?: Luz; inv?: boolean }> = ({ objeto, infeccion = 120, luz = "noche", inv = false }) => {
   const L = LUZ[luz];
   const { width, height, durationInFrames } = useVideoConfig();
-  const c = CONFIG[objeto];
+  const c0 = (CAMS_NUEVAS[objeto] ?? CONFIG[objeto])!;
+  const c: Cam = inv ? { ...c0, desde: c0.hasta, hasta: c0.desde, mira: c0.miraHasta ?? c0.mira, miraHasta: c0.miraHasta ? c0.mira : undefined } : c0;
   return (
     <AbsoluteFill style={{ background: L.fondo }}>
-      <ThreeCanvas width={width} height={height} camera={{ fov: 38, near: 0.1, far: 80, position: c.desde }} gl={{ antialias: true }}>
+      <div style={{ width: width * GL_K, height: height * GL_K, transform: `scale(${1 / GL_K})`, transformOrigin: "0 0" }}>
+      <ThreeCanvas width={width * GL_K} height={height * GL_K} camera={{ fov: 38, near: 0.1, far: 80, position: c.desde }} gl={{ antialias: false }}>
         <color attach="background" args={[L.fondo]} />
         <fog attach="fog" args={[L.fondo, 7, 22]} />
         <ambientLight intensity={L.ambiente} />
@@ -211,10 +227,19 @@ export const Escena3D: React.FC<{ objeto: Objeto3D; infeccion?: number; luz?: Lu
         {objeto === "contagio" && <Contagio />}
         {objeto === "manometro" && <Manometro total={durationInFrames} />}
         {objeto === "cajas15" && <Cajas15 />}
+        {objeto === "casas_red" && <CasasRed />}
+        {objeto === "fabrica" && <Fabrica />}
+        {objeto === "candado" && <Candado />}
+        {objeto === "candado_agujero" && <Candado agujero />}
+        {objeto === "apagon" && <Apagon />}
+        {objeto === "duplicacion" && <Duplicacion />}
+        {objeto === "rack" && <Rack />}
+        {objeto === "radar" && <Radar />}
         {objeto === "red" && <Red infeccion={infeccion} />}
         {objeto === "puerta" && <Puerta />}
         {objeto === "pantalla_rota" && <PantallaRota />}
       </ThreeCanvas>
+      </div>
     </AbsoluteFill>
   );
 };

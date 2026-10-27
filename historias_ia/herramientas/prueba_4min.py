@@ -1,0 +1,222 @@
+#!/usr/bin/env python3
+"""Arma la PRUEBA DE ~4 MINUTOS de 'Los virus de IA ya casi estan aqui' de punta a punta:
+  1) toma las primeras escenas del guion (../GUION_VIRUS_IA.md) hasta ~4 min,
+  2) genera la voz con Voizum (UN solo trabajo; no se cobran minimos por frase),
+  3) alinea la voz con el texto (faster-whisper) para saber cuando empieza cada linea,
+  4) escribe los props de Remotion con la duracion exacta de cada escena,
+  5) mezcla voz + musica oscura + transiciones glitch + golpes.
+Uso:
+  export VOIZUM_API_KEY=...        # NUNCA en archivos
+  python3 prueba_4min.py --listar-voces                  # muestra las voces cuyo nombre contiene 'martin'
+  python3 prueba_4min.py --voz-id ID_DE_MARTIN [--lineas 52]
+  python3 prueba_4min.py --audio voz_existente.mp3       # salta Voizum (p. ej. para probar el flujo con otra voz)
+Despues:  cd ../video && CHROMIUM_PATH=... npx remotion render src/index.ts Historia out/prueba4.mp4 --props=props_prueba4.json --scale=0.5 --concurrency=4"""
+import argparse, difflib, json, os, re, subprocess, sys, time, unicodedata, urllib.error, urllib.request
+import numpy as np
+
+AQUI = os.path.dirname(os.path.abspath(__file__))
+sys.path.insert(0, AQUI)
+import armar_muestra as am  # noqa: E402
+
+RAIZ = os.path.dirname(AQUI)
+API = "https://voizum.com/api/v1"
+FPS = 30
+
+
+# ---------------------------------------------------------------- guion -> bloques
+def leer_bloques(n_lineas):
+    s = open(os.path.join(RAIZ, "GUION_VIRUS_IA.md"), encoding="utf-8").read().split("# VERIFICACIÓN DE HECHOS")[0]
+    bloques, tag, lineas, total = [], None, [], 0
+    for l in s.split("\n"):
+        t = l.strip()
+        m = re.match(r"<!--\s*(.*?)\s*-->", t)
+        if m:
+            if lineas: bloques.append((tag, lineas)); lineas = []
+            tag = m.group(1); continue
+        if not t or t.startswith("#") or t == "---" or t.startswith(("Voz:", "Las líneas", "Guion **")): continue
+        if total >= n_lineas: break
+        lineas.append(t); total += 1
+    if lineas: bloques.append((tag, lineas))
+    return [b for b in bloques if b[1]]
+
+
+ALIAS = {"laptop": "contagio", "pantalla": "pantalla_rota", "cajas15": "cajas15"}
+DIAG_CASA = {"tipo": "diagrama", "titulo": "Una casa. Cinco dispositivos.", "nodos": [
+    {"id": "casa", "x": 960, "y": 520, "icono": "casa", "etiqueta": "tu casa"}, {"id": "tv", "x": 960, "y": 880, "icono": "tv", "etiqueta": "caja tv"},
+    {"id": "pc", "x": 1400, "y": 780, "icono": "pc", "etiqueta": "laptop"}, {"id": "movil", "x": 1460, "y": 330, "icono": "movil", "etiqueta": "móvil"},
+    {"id": "cam", "x": 460, "y": 330, "icono": "camara", "etiqueta": "cámara"}, {"id": "router", "x": 500, "y": 780, "icono": "router", "etiqueta": "router"}],
+    "enlaces": [["casa", "tv"], ["casa", "pc"], ["casa", "movil"], ["casa", "cam"], ["casa", "router"]], "infecta": ["tv", "pc", "router"]}
+DIAG_PROXY = {"tipo": "diagrama", "titulo": "Tu conexión, alquilada", "nodos": [
+    {"id": "casa", "x": 480, "y": 540, "icono": "casa", "etiqueta": "tu casa"}, {"id": "nube", "x": 960, "y": 540, "icono": "nube", "etiqueta": "proxy"},
+    {"id": "pc", "x": 1440, "y": 540, "icono": "pc", "etiqueta": "desconocido"}],
+    "enlaces": [["casa", "nube"], ["nube", "pc"]], "infecta": ["nube", "pc"]}
+
+
+def escena_de(tag):
+    luz = "noche"
+    m = re.search(r"·\s*(noche|media|clara)", tag or "")
+    if m: luz = m.group(1)
+    t = (tag or "")
+    if t.startswith("titular"):
+        txt = re.sub(r"^titular:\s*", "", t.split("·")[0]).strip()
+        lineas = [x.strip() for x in txt.split("/")]
+        return {"tipo": "titular", "lineas": lineas, "resalta": len(lineas) - 1, "lado": "izq", "_golpe": True}
+    if t.startswith("diagrama"):
+        d = dict(DIAG_PROXY if ("proxy" in t or "alquila" in t) else DIAG_CASA); d["_golpe"] = False
+        return d
+    m = re.match(r"3D\s+([a-z0-9_]+)", t, re.I)
+    obj = (m.group(1).lower() if m else "caja_tv")
+    obj = ALIAS.get(obj, obj)
+    if obj == "candado" and "agujero" in t: obj = "candado_agujero"
+    return {"tipo": "3d", "objeto": obj, "luz": luz, "_golpe": False}
+
+
+# ---------------------------------------------------------------- voizum
+def llamar(metodo, ruta, key, cuerpo=None):
+    req = urllib.request.Request(API + ruta, method=metodo, headers={"Authorization": f"Bearer {key}", "Content-Type": "application/json"},
+                                 data=json.dumps(cuerpo).encode() if cuerpo is not None else None)
+    try:
+        with urllib.request.urlopen(req, timeout=120) as r: return json.loads(r.read())
+    except urllib.error.HTTPError as e:
+        sys.exit(f"Voizum HTTP {e.code}: {e.read().decode()[:300]}")
+
+
+def listar_voces(key, filtro="martin"):
+    d = llamar("GET", "/voices", key)
+    lista = d if isinstance(d, list) else (d.get("voices") or d.get("data") or d.get("items") or [])
+    norm = lambda x: unicodedata.normalize("NFD", str(x).lower()).encode("ascii", "ignore").decode()
+    res = [v for v in lista if filtro in norm(json.dumps(v, ensure_ascii=False))]
+    for v in res: print(json.dumps(v, ensure_ascii=False)[:300])
+    print(f"{len(res)} voces con '{filtro}' de {len(lista)}"); return res
+
+
+def voz_voizum(texto, voice_id, salida, key, velocidad=None):
+    cuerpo = {"text": texto, "voice_id": voice_id, "language": "es", "pause_ms": 350}
+    if velocidad: cuerpo["speed"] = velocidad
+    job = llamar("POST", "/tts", key, cuerpo)
+    print("creado", job["job_id"], "creditos", job.get("credits_charged"), flush=True)
+    while True:
+        st = llamar("GET", f"/tts/{job['job_id']}", key)
+        if st["status"] in ("done", "error", "canceled"): break
+        time.sleep(3)
+    if st["status"] != "done": sys.exit(f"Voizum termino con estado {st['status']}")
+    class NoRedir(urllib.request.HTTPRedirectHandler):
+        def redirect_request(self, *a, **k): return None
+    req = urllib.request.Request(f"{API}/tts/{job['job_id']}/audio?download=1", headers={"Authorization": f"Bearer {key}"})
+    try:
+        urllib.request.build_opener(NoRedir).open(req, timeout=60); sys.exit("se esperaba redireccion")
+    except urllib.error.HTTPError as e:
+        destino = e.headers.get("Location")
+        if e.code not in (301, 302, 303, 307, 308) or not destino: sys.exit(f"HTTP {e.code} al pedir el audio")
+    with urllib.request.urlopen(destino, timeout=180) as r, open(salida, "wb") as f: f.write(r.read())   # sin cabecera de clave
+
+
+# ---------------------------------------------------------------- alineacion
+def norm(w):
+    w = unicodedata.normalize("NFD", w.lower())
+    return re.sub(r"[^a-z0-9]", "", "".join(c for c in w if unicodedata.category(c) != "Mn"))
+
+
+def alinear(audio, lineas):
+    from faster_whisper import WhisperModel
+    m = WhisperModel("small", device="cpu", compute_type="int8", cpu_threads=3)
+    raw = subprocess.run(["ffmpeg", "-v", "error", "-i", audio, "-ac", "1", "-ar", "16000", "-f", "f32le", "-"], capture_output=True, check=True).stdout
+    seg, info = m.transcribe(np.frombuffer(raw, np.float32), language="es", word_timestamps=True, beam_size=3, vad_filter=False)
+    W = [(w.word.strip(), w.start, w.end) for s in seg for w in (s.words or []) if norm(w.word)]
+    S = [(tok, li) for li, l in enumerate(lineas) for tok in l.split() if norm(tok)]
+    sn, wn = [norm(t) for t, _ in S], [norm(w) for w, _, _ in W]
+    t0 = [None] * len(S)
+    for a, b, n in difflib.SequenceMatcher(None, sn, wn, autojunk=False).get_matching_blocks():
+        for k in range(n): t0[a + k] = W[b + k][1]
+    prev = 0.0                                                   # interpola las palabras sin pareja
+    for i in range(len(S)):
+        if t0[i] is None:
+            j = i
+            while j < len(S) and t0[j] is None: j += 1
+            nxt = t0[j] if j < len(S) else info.duration
+            for k in range(i, j): t0[k] = prev + (nxt - prev) * (k - i + 1) / (j - i + 1)
+        prev = t0[i]
+    inicio = {}
+    for (tok, li), t in zip(S, t0): inicio.setdefault(li, t)
+    print(f"palabras guion {len(S)} / whisper {len(W)}", flush=True)
+    return [inicio[i] for i in range(len(lineas))], info.duration
+
+
+# ---------------------------------------------------------------- mezcla + props
+def mezclar(audio, inicios_escena, golpes, salida_mp3):
+    SR = am.SR
+    voz = am.leer(audio); D = len(voz) / SR; v_rms = float(np.sqrt(np.mean(voz ** 2)) + 1e-9)
+    mus = am.drone(D); mus *= v_rms * 0.55 / np.sqrt(np.mean(mus ** 2))
+    fx = np.zeros(len(voz))
+    def poner(x, t, g):
+        i = max(0, int(t * SR))
+        if i < len(fx): fx[i:i + len(x)] += g * x[: len(fx) - i]
+    for k, t in enumerate(inicios_escena):
+        if k: g = am.glitch(); poner(g, t, 0.5 * v_rms / np.sqrt(np.mean(g ** 2)))
+    for t in golpes:
+        r = am.riser(); h = am.hit()
+        poner(r, t - 2.0, 0.5 * v_rms / 0.2); poner(h, t + 0.05, 0.7 * v_rms / np.sqrt(np.mean(h ** 2)))
+    mez = voz + mus + fx
+    fade = np.minimum(1, np.minimum(np.arange(len(mez)) / (1.5 * SR), (len(mez) - np.arange(len(mez))) / (2.0 * SR)))
+    mez *= fade; mez *= 0.9 / max(0.9, np.abs(mez).max())
+    subprocess.run(["ffmpeg", "-v", "error", "-y", "-f", "s16le", "-ar", str(SR), "-ac", "1", "-i", "-", "-af", "loudnorm=I=-16:TP=-1.5:LRA=7",
+                    "-c:a", "libmp3lame", "-q:a", "2", salida_mp3], input=(mez * 32767).astype("<i2").tobytes(), check=True)
+    return D
+
+
+def main():
+    ap = argparse.ArgumentParser()
+    ap.add_argument("--listar-voces", action="store_true"); ap.add_argument("--voz-id"); ap.add_argument("--audio")
+    ap.add_argument("--lineas", type=int, default=52); ap.add_argument("--velocidad", type=float)
+    ap.add_argument("--salida", default=os.path.join(RAIZ, "video"))
+    a = ap.parse_args()
+    key = os.environ.get("VOIZUM_API_KEY")
+    if a.listar_voces:
+        if not key: sys.exit("Falta VOIZUM_API_KEY en el entorno")
+        listar_voces(key); return
+    bloques = leer_bloques(a.lineas)
+    lineas = [l for _, ls in bloques for l in ls]
+    texto = "\n".join(lineas)
+    print(f"{len(bloques)} bloques, {len(lineas)} lineas, {len(texto)} caracteres (~{len(texto) * 60 / 1000:.0f} creditos Voizum)")
+    pub = os.path.join(a.salida, "public", "prueba4"); os.makedirs(pub, exist_ok=True)
+    audio = a.audio or os.path.join(pub, "voz.mp3")
+    if not a.audio:
+        if not key or not a.voz_id: sys.exit("Faltan VOIZUM_API_KEY y --voz-id (usa --listar-voces para encontrar a Martin)")
+        voz_voizum(texto, a.voz_id, audio, key, a.velocidad)
+    ini_lin, dur = alinear(audio, lineas)
+    # bloque -> escena (inicio = primera linea del bloque); bloques largos se parten en tramos de <= 9,5 s con la camara invertida
+    escenas, inicios, golpes, k = [], [], [], 0
+    RELLENO = ["red", "casas_red", "caja_led", "manometro", "nucleo", "cajas15"]
+    prev_obj = None; r_i = 0
+    def trozos(ta, tb, obj, luz, inv0=False, maxd=7.0):
+        n = max(1, round((tb - ta) / maxd))
+        for j in range(n):
+            e = {"tipo": "3d", "objeto": obj, "luz": luz, "dur": round((tb - ta) / n, 3)}
+            if (j % 2 == 1) != inv0: e["inv"] = True
+            escenas.append(e); inicios.append(ta + (tb - ta) * j / n)
+    for bi, (tag, ls) in enumerate(bloques):
+        t_ini = ini_lin[k]; t_fin = ini_lin[k + len(ls)] if k + len(ls) < len(lineas) else dur; k += len(ls)
+        base = escena_de(tag); tipo = base["tipo"]
+        if tipo == "3d":
+            obj = base["objeto"]
+            trozos(t_ini, t_fin, obj, base["luz"], inv0=(obj == prev_obj)); prev_obj = obj
+        else:
+            tope = 5.5 if tipo == "titular" else 9.0
+            t_med = min(t_fin, t_ini + tope) if (t_fin - t_ini) > tope + 1.5 else t_fin
+            e = {x: v for x, v in base.items() if not x.startswith("_")}; e["dur"] = round(t_med - t_ini, 3)
+            escenas.append(e); inicios.append(t_ini)
+            if base.get("_golpe"): golpes.append(t_ini + 0.1)
+            if t_fin - t_med > 0.05:                               # el titular/diagrama no se queda quieto toda la frase: sigue una escena 3D de relleno
+                obj = RELLENO[r_i % len(RELLENO)]; r_i += 1
+                if obj == prev_obj: obj = RELLENO[r_i % len(RELLENO)]; r_i += 1
+                trozos(t_med, t_fin, obj, "noche"); prev_obj = obj
+    escenas[0]["dur"] = round(escenas[0]["dur"] + inicios[0], 3); inicios[0] = 0.0       # cubre el silencio inicial
+    mp3 = os.path.join(pub, "mezcla.mp3"); D = mezclar(audio, inicios, golpes, mp3)
+    props = {"escenas": escenas, "voz": "prueba4/mezcla.mp3"}
+    ruta = os.path.join(a.salida, "props_prueba4.json"); json.dump(props, open(ruta, "w"), ensure_ascii=False, indent=1)
+    print(f"LISTO: {len(escenas)} escenas, audio {D / 60:.1f} min -> {ruta}")
+    print("Siguiente: cd ../video && npx remotion render src/index.ts Historia out/prueba4.mp4 --props=props_prueba4.json --scale=0.5 --concurrency=4")
+
+
+if __name__ == "__main__":
+    main()
