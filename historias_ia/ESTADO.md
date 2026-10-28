@@ -18,3 +18,7 @@ Ningún clip 3D se repite · clips ≤ 5 s · mucha luz · música de aventura a
 4. Verificar con el informe original lo de Anthropic (15 cajas / 26B) y Palisade (81 %).
 5. **Rotar la clave de Voizum** (se compartió dos veces en el chat). Nunca guardarla en archivos.
 6. Subir la carpeta a `D:\youtube stuff\IA DESCONTROLADA\` (el zip de entrega se genera con el script de entrega descrito en LEEME de la carpeta).
+
+## V5 (estudio oscuro + fotos reales intercaladas)
+- Hecho: fondo estudio oscuro, objetos apoyados en piso (MIN_Y en Escena3D.tsx), clips Foto.tsx alternados con 3D (3 s / 2,2 s), pool de ~100 fotos reales (public/fotos + fondos_raw). Video: muestra/prueba_4min_V5_estudio_y_fotos_540p.mp4.
+- Pendiente: feedback del usuario sobre V5; más fotos/ImageFX para el video de 25 min; rotar clave Voizum.
