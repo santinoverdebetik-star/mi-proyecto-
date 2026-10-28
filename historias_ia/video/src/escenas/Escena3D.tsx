@@ -232,9 +232,9 @@ const GL_K = 0.6;
 /** Nivel de luz segun lo que cuenta la narracion: "noche" = amenaza/misterio, "media" = explicacion, "clara" = datos/ciencia/respiro. */
 export type Luz = "noche" | "media" | "clara";
 const LUZ: Record<Luz, { fondo: string; ambiente: number; relleno: number; suelo: string; hemi: number; c1: string; c3: string }> = {
-  noche: { fondo: "#0e1118", ambiente: 1.5, relleno: 2.0, suelo: "#14171d", hemi: 0.8, c1: "#1d2330", c3: "#05060a" },
-  media: { fondo: "#151a24", ambiente: 2.2, relleno: 2.8, suelo: "#1c212b", hemi: 1.4, c1: "#2b3344", c3: "#07090d" },
-  clara: { fondo: "#1e2532", ambiente: 3.0, relleno: 3.6, suelo: "#262d3a", hemi: 2.0, c1: "#3b4659", c3: "#0a0d13" },
+  noche: { fondo: "#0e1118", ambiente: 1.5, relleno: 2.0, suelo: "#222834", hemi: 0.8, c1: "#2a3244", c3: "#05060a" },
+  media: { fondo: "#151a24", ambiente: 2.2, relleno: 2.8, suelo: "#2a3140", hemi: 1.4, c1: "#3a4559", c3: "#07090d" },
+  clara: { fondo: "#1e2532", ambiente: 3.0, relleno: 3.6, suelo: "#343d4e", hemi: 2.0, c1: "#4a576e", c3: "#0a0d13" },
 };
 
 /** minY medido de cada objeto (Medir.tsx): sirve para apoyarlo en el suelo (y = -1) y que no flote */
@@ -289,7 +289,7 @@ export const Escena3D: React.FC<{ objeto: Objeto3D; infeccion?: number; luz?: Lu
       <ThreeCanvas width={width * GL_K} height={height * GL_K} camera={{ fov: 38, near: 0.1, far: 80, position: c.desde }} shadows gl={{ antialias: false, alpha: true }}>
         <fog attach="fog" args={[L.fondo, 8, 24]} />
         {/* Entorno HDRI desactivado: en render por software triplica el tiempo (180 s vs 78 s cada 100 fotogramas). */}
-        <ambientLight intensity={L.ambiente * 0.9} />
+        <ambientLight intensity={L.ambiente * 1.25} />
         <hemisphereLight args={["#bcd4ff", "#201a18", L.hemi]} />
         <directionalLight position={[-4, 5, 4]} intensity={L.relleno * 0.85} color="#7fb0ff" />
         <directionalLight position={[3, 6, 5]} intensity={2.3} color="#fff1dc" castShadow shadow-mapSize={[512, 512]} shadow-camera-left={-7} shadow-camera-right={7} shadow-camera-top={7} shadow-camera-bottom={-7} shadow-camera-near={1} shadow-camera-far={22} shadow-bias={-0.0004} />
@@ -297,7 +297,7 @@ export const Escena3D: React.FC<{ objeto: Objeto3D; infeccion?: number; luz?: Lu
         <Camara desde={c.desde} hasta={c.hasta} mira={c.mira} miraHasta={c.miraHasta} total={durationInFrames} />
         {objeto !== "manometro" && !fondo && <Suelo color={L.suelo} />}
         {fondo && objeto !== "manometro" && <mesh rotation={[-Math.PI / 2, 0, 0]} position={[0, -0.985, 0]} receiveShadow><planeGeometry args={[40, 40]} /><shadowMaterial opacity={0.5} /></mesh>}
-        <spotLight position={[0, 7, 3.5]} angle={0.55} penumbra={1} intensity={90} distance={26} color="#cfe0ff" target-position={[0, -1, 0]} />
+        <spotLight position={[0, 7, 3.5]} angle={0.55} penumbra={1} intensity={260} distance={30} color="#cfe0ff" target-position={[0, -1, 0]} />
         {ped > 0 && (
           <group position={[0, -1 + ped / 2, 0]}>
             <mesh receiveShadow castShadow><cylinderGeometry args={[1.5, 1.65, ped, 48]} /><meshStandardMaterial color="#0d0f14" roughness={0.25} metalness={0.8} /></mesh>
