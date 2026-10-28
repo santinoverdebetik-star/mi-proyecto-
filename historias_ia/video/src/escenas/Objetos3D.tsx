@@ -1,7 +1,7 @@
 import React from "react";
 import { interpolate, useCurrentFrame } from "remotion";
 import * as THREE from "three";
-import { RB } from "./Realismo";
+import { PL, RB } from "./Realismo";
 import { C } from "../estilo";
 
 const mezcla = (a: string, b: string, t: number) => new THREE.Color(a).lerp(new THREE.Color(b), Math.min(1, Math.max(0, t)));
@@ -21,7 +21,7 @@ export const Laptop: React.FC<{ pos: [number, number, number]; rotY?: number; in
         <mesh position={[0, 0.76, 0]}><RB args={[2.4, 1.52, 0.06]} /><meshStandardMaterial color="#202329" roughness={0.3} metalness={0.8} /></mesh>
         <mesh position={[0, 0.76, 0.034]}><planeGeometry args={[2.22, 1.34]} /><meshStandardMaterial color="#02060a" emissive={col} emissiveIntensity={intens} /></mesh>
       </group>
-      <pointLight position={[0, 1.0, 1.2]} color={col} intensity={(1.2 + 7 * infeccion) * parpadeo} distance={7} decay={2} />
+      <PL position={[0, 1.0, 1.2]} color={col} intensity={(1.2 + 7 * infeccion) * parpadeo} distance={7} decay={2} />
     </group>
   );
 };
@@ -41,7 +41,7 @@ export const Pulsos: React.FC<{ a: [number, number, number]; b: [number, number,
         const s = 0.05 + 0.05 * Math.sin(Math.PI * t);
         return <mesh key={i} position={p}><sphereGeometry args={[s, 12, 12]} /><meshStandardMaterial color="#000" emissive={color} emissiveIntensity={2.4} /></mesh>;
       })}
-      <pointLight position={A.clone().lerp(B, ((f - desde) / 70) % 1).add(new THREE.Vector3(0, arco * 0.8, 0))} color={color} intensity={2.5} distance={4} />
+      <PL position={A.clone().lerp(B, ((f - desde) / 70) % 1).add(new THREE.Vector3(0, arco * 0.8, 0))} color={color} intensity={2.5} distance={4} />
     </group>
   );
 };
@@ -84,8 +84,8 @@ export const Manometro: React.FC<{ total: number }> = ({ total }) => {
         <mesh position={[0, -0.2, 0]}><RB args={[0.07, 0.4, 0.02]} /><meshStandardMaterial color="#0a0a0a" /></mesh>
       </group>
       <mesh position={[0, 0, 0.14]}><sphereGeometry args={[0.1, 24, 24]} /><meshStandardMaterial color="#111" metalness={0.8} roughness={0.3} /></mesh>
-      <pointLight position={[2.2, 1.8, 3]} color="#ffd9b0" intensity={6} distance={9} />
-      <pointLight position={[-2.2, -0.4, 2]} color={C.rojo} intensity={5} distance={8} />
+      <PL position={[2.2, 1.8, 3]} color="#ffd9b0" intensity={6} distance={9} />
+      <PL position={[-2.2, -0.4, 2]} color={C.rojo} intensity={5} distance={8} />
     </group>
   );
 };
@@ -116,7 +116,7 @@ export const CasasRed: React.FC = () => {
           </group>
         );
       })}
-      <pointLight position={[0, 4, 0]} color={C.naranja} intensity={interpolate(f, [10, 120], [2, 14], { extrapolateRight: "clamp" })} distance={14} />
+      <PL position={[0, 4, 0]} color={C.naranja} intensity={interpolate(f, [10, 120], [2, 14], { extrapolateRight: "clamp" })} distance={14} />
     </group>
   );
 };
@@ -135,7 +135,7 @@ export const Fabrica: React.FC = () => {
         return (
           <group key={c.i}>
             <CajaStreaming pos={[c.x, -0.78, 0]} led={mala ? C.naranja : C.cian} activa={mala ? 1 : 0.5} />
-            {mala && <pointLight position={[c.x, -0.3, 0.7]} color={C.naranja} intensity={6} distance={5} />}
+            {mala && <PL position={[c.x, -0.3, 0.7]} color={C.naranja} intensity={6} distance={5} />}
           </group>
         );
       })}
@@ -155,7 +155,7 @@ export const Candado: React.FC<{ agujero?: boolean }> = ({ agujero = false }) =>
       </group>
       <mesh position={[0, 0.05, 0.31]}><circleGeometry args={[0.16, 24]} /><meshStandardMaterial color="#000" emissive={agujero ? C.naranja : "#111"} emissiveIntensity={agujero ? 3.2 : 0} /></mesh>
       <mesh position={[0, -0.22, 0.31]}><planeGeometry args={[0.1, 0.34]} /><meshStandardMaterial color="#000" emissive={agujero ? C.naranja : "#111"} emissiveIntensity={agujero ? 3.2 : 0} /></mesh>
-      {agujero && <pointLight position={[0, 0, 1.4]} color={C.naranja} intensity={9} distance={7} />}
+      {agujero && <PL position={[0, 0, 1.4]} color={C.naranja} intensity={9} distance={7} />}
     </group>
   );
 };
@@ -178,8 +178,8 @@ export const Apagon: React.FC = () => {
           </group>
         );
       })}
-      <pointLight position={[0, 1, 5]} color="#4f8fd8" intensity={interpolate(f, [30, 150], [9, 0.5], { extrapolateRight: "clamp" })} distance={14} />
-      <pointLight position={[0, -1.5, 3]} color={C.rojo} intensity={interpolate(f, [60, 150], [0, 6], { extrapolateRight: "clamp" })} distance={9} />
+      <PL position={[0, 1, 5]} color="#4f8fd8" intensity={interpolate(f, [30, 150], [9, 0.5], { extrapolateRight: "clamp" })} distance={14} />
+      <PL position={[0, -1.5, 3]} color={C.rojo} intensity={interpolate(f, [60, 150], [0, 6], { extrapolateRight: "clamp" })} distance={9} />
     </group>
   );
 };
@@ -206,7 +206,7 @@ export const Duplicacion: React.FC = () => {
       }
     }
   }
-  return <group>{out}<pointLight position={[0, 1.5, 0]} color={C.naranja} intensity={8} distance={9} /></group>;
+  return <group>{out}<PL position={[0, 1.5, 0]} color={C.naranja} intensity={8} distance={9} /></group>;
 };
 
 /** Racks de servidores con luces: se apagan cuando "llamas al dueño". */
@@ -225,7 +225,7 @@ export const Rack: React.FC = () => {
           })}
         </group>
       ))}
-      <pointLight position={[0, 1, 3]} color={C.cian} intensity={5} distance={10} />
+      <PL position={[0, 1, 3]} color={C.cian} intensity={5} distance={10} />
     </group>
   );
 };
@@ -245,7 +245,7 @@ export const Radar: React.FC = () => {
         const luz = Math.max(0, 1 - d / 2.6);
         return <mesh key={i} position={[Math.cos(p.a) * p.r, Math.sin(p.a) * p.r, 0.03]}><sphereGeometry args={[0.07, 12, 12]} /><meshStandardMaterial color="#000" emissive={C.naranja} emissiveIntensity={0.3 + 3 * luz} /></mesh>;
       })}
-      <pointLight position={[0, 0, 2.5]} color="#39e6d0" intensity={4} distance={8} />
+      <PL position={[0, 0, 2.5]} color="#39e6d0" intensity={4} distance={8} />
     </group>
   );
 };
@@ -267,7 +267,7 @@ export const Globo: React.FC = () => {
         const inf = interpolate(f, [q.t, q.t + 20], [0, 1], { extrapolateLeft: "clamp", extrapolateRight: "clamp" });
         return <mesh key={i} position={q.p}><sphereGeometry args={[0.035 + 0.03 * inf, 10, 10]} /><meshStandardMaterial color="#000" emissive={mezcla("#2fd3ff", C.naranja, inf)} emissiveIntensity={1.4 + 2 * inf} /></mesh>;
       })}
-      <pointLight position={[3, 2, 3]} color="#ffd9b0" intensity={8} distance={10} />
+      <PL position={[3, 2, 3]} color="#ffd9b0" intensity={8} distance={10} />
     </group>
   );
 };
@@ -289,9 +289,9 @@ export const Sala: React.FC<{ pared?: boolean }> = ({ pared = true }) => {
       <mesh position={[1.95, -0.3, 1.5]}><RB args={[0.35, 0.8, 1.3]} /><meshStandardMaterial color="#44363c" roughness={0.9} /></mesh>
       <mesh position={[-3.6, 0.7, -1.2]}><cylinderGeometry args={[0.03, 0.03, 3.4, 8]} /><meshStandardMaterial color="#222" /></mesh>
       <mesh position={[-3.6, 2.35, -1.2]}><coneGeometry args={[0.5, 0.5, 20, 1, true]} /><meshStandardMaterial color="#ffd9a8" emissive="#ffb866" emissiveIntensity={1.6} side={THREE.DoubleSide} /></mesh>
-      <pointLight position={[-3.6, 2.1, -1.0]} color="#ffb866" intensity={7} distance={9} />
-      <pointLight position={[0, 0.6, -1.2]} color="#4f8fd8" intensity={5} distance={8} />
-      <pointLight position={[0.8, -0.1, -1.7]} color={C.naranja} intensity={2.5 * led} distance={3} />
+      <PL position={[-3.6, 2.1, -1.0]} color="#ffb866" intensity={7} distance={9} />
+      <PL position={[0, 0.6, -1.2]} color="#4f8fd8" intensity={5} distance={8} />
+      <PL position={[0.8, -0.1, -1.7]} color={C.naranja} intensity={2.5 * led} distance={3} />
     </group>
   );
 };
@@ -310,11 +310,11 @@ export const Estanteria: React.FC = () => {
           <group key={`${r}-${c}`} position={[-4.6 + c * 1.3, [-0.9, 0.5, 1.9][r] - 0.1, 0]}>
             <mesh><RB args={[1.0, 0.8, 0.9]} /><meshStandardMaterial color="#8a6a49" roughness={0.9} emissive={m ? C.naranja : "#2a1d10"} emissiveIntensity={m ? 0.9 + 0.4 * Math.sin(f / 7) : 0.5} /></mesh>
             <mesh position={[0, 0.05, 0.46]}><planeGeometry args={[0.7, 0.3]} /><meshStandardMaterial color="#e9e3d3" emissive="#8f8a7c" emissiveIntensity={0.6} /></mesh>
-            {m && <pointLight position={[0, 0.2, 0.9]} color={C.naranja} intensity={4} distance={3.5} />}
+            {m && <PL position={[0, 0.2, 0.9]} color={C.naranja} intensity={4} distance={3.5} />}
           </group>
         );
       }))}
-      <pointLight position={[0, 3, 4]} color="#cfd9ff" intensity={9} distance={14} />
+      <PL position={[0, 3, 4]} color="#cfd9ff" intensity={9} distance={14} />
     </group>
   );
 };
@@ -329,7 +329,7 @@ export const Avalancha: React.FC = () => {
       <group position={[3.2, 0.3, 0]}>
         <mesh><RB args={[1.5, 3.0, 1.1]} /><meshStandardMaterial color="#1b1e25" roughness={0.4} metalness={0.7} /></mesh>
         {Array.from({ length: 10 }, (_, r) => <mesh key={r} position={[0, 1.2 - r * 0.24, 0.56]}><planeGeometry args={[1.25, 0.12]} /><meshStandardMaterial color="#05070a" emissive={mezcla(C.cian, C.rojo, sat)} emissiveIntensity={1.0 + 2 * sat * ((f + r * 3) % 6 < 3 ? 1 : 0.3)} /></mesh>)}
-        <pointLight position={[-1, 0.5, 1.5]} color={mezcla(C.cian, C.rojo, sat)} intensity={6} distance={8} />
+        <PL position={[-1, 0.5, 1.5]} color={mezcla(C.cian, C.rojo, sat)} intensity={6} distance={8} />
       </group>
       {Array.from({ length: 6 }, (_, k) => <mesh key={k} position={[-5.6 + (k % 3) * 0.8, -0.8, -2 + Math.floor(k / 3) * 2.4]}><RB args={[0.6, 0.45, 0.6]} /><meshStandardMaterial color="#39424f" emissive="#202733" emissiveIntensity={0.8} /></mesh>)}
       {Array.from({ length: n }, (_, i) => {
@@ -361,7 +361,7 @@ export const Cable: React.FC = () => {
       </group>
       <mesh position={[3.1, 0.35, 0]}><RB args={[2.6, 0.5, 1.3]} /><meshStandardMaterial color="#2c3139" roughness={0.4} metalness={0.5} emissive="#161a21" emissiveIntensity={0.8} /></mesh>
       {[-0.8, -0.35, 0.1, 0.55, 1.0].map((z, i) => <mesh key={i} position={[1.78, 0.38, z * 0.6]}><RB args={[0.04, 0.16, 0.2]} /><meshStandardMaterial color="#000" emissive={i === 2 ? C.naranja : C.cian} emissiveIntensity={(Math.floor((f + i * 5) / 10) % 2) ? 2.5 : 0.5} /></mesh>)}
-      <pointLight position={[0, 1.6, 2.4]} color="#9fc4ff" intensity={5} distance={10} />
+      <PL position={[0, 1.6, 2.4]} color="#9fc4ff" intensity={5} distance={10} />
     </group>
   );
 };
@@ -379,5 +379,5 @@ export const Codigo: React.FC = () => {
       })}
     </group>
   );
-  return <group>{panel(-1.8, 0, 0.35, "a", 4)}{panel(2.1, -1.6, -0.3, "b", 30)}<pointLight position={[0, 2, 3]} color="#7fd3ff" intensity={6} distance={10} /></group>;
+  return <group>{panel(-1.8, 0, 0.35, "a", 4)}{panel(2.1, -1.6, -0.3, "b", 30)}<PL position={[0, 2, 3]} color="#7fd3ff" intensity={6} distance={10} /></group>;
 };

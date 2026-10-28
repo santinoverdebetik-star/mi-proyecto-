@@ -4,7 +4,7 @@ import { ThreeCanvas } from "@remotion/three";
 import { Img, staticFile } from "remotion";
 import { useThree } from "@react-three/fiber";
 import * as THREE from "three";
-import { Entorno, RB, SombrasAuto } from "./Realismo";
+import { PL, RB, SombrasAuto, reiniciarLuces } from "./Realismo";
 import { C } from "../estilo";
 import { Antena, Calendario, CamaraSeguridad, Dinero, Dominos, Engranajes, Escudo, Hdmi, Latido, Llave, Lupa, Mando, Movil, Nube, Ojo, Paquetes, PcAntiguo, Placa, Password, Reloj, Router, TvPlay } from "./Objetos3D_b";
 import { Apagon, Avalancha, Cable, Candado, Codigo, Estanteria, Globo, Sala, CajaStreaming, CasasRed, Duplicacion, Fabrica, Laptop, Manometro, Pulsos, Rack, Radar } from "./Objetos3D";
@@ -46,8 +46,8 @@ const CajaTV: React.FC = () => {
       {/* caja de streaming */}
       <mesh position={[0, -0.78, 0.2]}><RB args={[1.5, 0.22, 1.1]} /><meshStandardMaterial color="#2a2d34" roughness={0.45} metalness={0.35} /></mesh>
       <mesh position={[0.52, -0.67, 0.76]}><sphereGeometry args={[0.035, 16, 16]} /><meshStandardMaterial color={C.naranja} emissive={C.naranja} emissiveIntensity={6 * led} /></mesh>
-      <pointLight position={[-1.5, 0.6, 1.5]} color="#4f8fd8" intensity={2.2} distance={8} decay={2} />
-      <pointLight position={[0.52, -0.55, 0.9]} color={C.naranja} intensity={9 * led} distance={7} decay={2} />
+      <PL position={[-1.5, 0.6, 1.5]} color="#4f8fd8" intensity={2.2} distance={8} decay={2} />
+      <PL position={[0.52, -0.55, 0.9]} color={C.naranja} intensity={9 * led} distance={7} decay={2} />
     </group>
   );
 };
@@ -62,7 +62,7 @@ const Nucleo: React.FC = () => {
       {[1.7, 2.1, 2.55].map((rad, i) => (
         <mesh key={i} rotation={[Math.PI / 2 + i * 0.5, r * (0.5 + i * 0.25), i]}><torusGeometry args={[rad, 0.012, 8, 160]} /><meshStandardMaterial color="#000" emissive={i === 1 ? C.cian : C.naranja} emissiveIntensity={1.3} /></mesh>
       ))}
-      <pointLight color={C.naranja} intensity={14} distance={9} decay={2} />
+      <PL color={C.naranja} intensity={14} distance={9} decay={2} />
     </group>
   );
 };
@@ -88,7 +88,7 @@ const Red: React.FC<{ infeccion: number }> = ({ infeccion }) => {
         const rojo = inf(a) && inf(b);
         return <mesh key={k} position={mid} quaternion={q}><cylinderGeometry args={[0.008, 0.008, len, 4]} /><meshStandardMaterial color="#000" emissive={rojo ? C.naranja : C.cian} emissiveIntensity={rojo ? 1.5 : 0.6} /></mesh>;
       })}
-      <pointLight position={[nodos[0].x, nodos[0].y, nodos[0].z]} color={C.naranja} intensity={8} distance={8} />
+      <PL position={[nodos[0].x, nodos[0].y, nodos[0].z]} color={C.naranja} intensity={8} distance={8} />
     </group>
   );
 };
@@ -101,7 +101,7 @@ const Puerta: React.FC = () => {
       <mesh position={[0, 1, -2]}><RB args={[5, 3.6, 0.2]} /><meshStandardMaterial color="#090a0c" roughness={0.8} /></mesh>
       <group position={[-1, 0, -1.85]} rotation={[0, abre, 0]}><mesh position={[1, 0.95, 0]}><RB args={[2, 3.1, 0.08]} /><meshStandardMaterial color="#14110e" roughness={0.6} metalness={0.2} /></mesh></group>
       <mesh position={[0, 0.95, -2.05]}><planeGeometry args={[2, 3.1]} /><meshStandardMaterial color="#000" emissive={C.naranja} emissiveIntensity={abre * 2.2} /></mesh>
-      <pointLight position={[0, 1, -1.5]} color={C.naranja} intensity={abre * 30} distance={10} />
+      <PL position={[0, 1, -1.5]} color={C.naranja} intensity={abre * 30} distance={10} />
     </group>
   );
 };
@@ -128,7 +128,7 @@ const Intrusion: React.FC = () => {
   return (
     <group>
       <CajaStreaming pos={[-2.6, -0.88, 0.3]} />
-      <pointLight position={[-2.1, -0.4, 0.9]} color={C.naranja} intensity={5} distance={5} />
+      <PL position={[-2.1, -0.4, 0.9]} color={C.naranja} intensity={5} distance={5} />
       <Laptop pos={[1.4, -0.95, 0]} rotY={-0.5} infeccion={inf} />
       <Pulsos a={[-2.1, -0.75, 0.6]} b={[0.9, 0.2, 0.3]} arco={1.0} desde={8} n={8} />
     </group>
@@ -166,8 +166,8 @@ const Cajas15: React.FC = () => {
         const on = f > 10 + (k + 1) * 5;
         return <mesh key={k} position={mid} quaternion={q}><cylinderGeometry args={[0.014, 0.014, A.distanceTo(B), 6]} /><meshStandardMaterial color="#000" emissive={on ? C.naranja : C.cian} emissiveIntensity={on ? 2 : 0.5} /></mesh>;
       })}
-      <pointLight position={[0, 3, -1]} color={C.naranja} intensity={14} distance={14} />
-      <pointLight position={[-3, 2.5, 3]} color="#7fb0ff" intensity={6} distance={12} />
+      <PL position={[0, 3, -1]} color={C.naranja} intensity={14} distance={14} />
+      <PL position={[-3, 2.5, 3]} color="#7fb0ff" intensity={6} distance={12} />
     </group>
   );
 };
@@ -245,7 +245,8 @@ const FondoFoto: React.FC<{ archivo: string; luz: Luz; pos?: string }> = ({ arch
   return (
     <AbsoluteFill style={{ overflow: "hidden", background: "#0b0e14" }}>
       <Img src={staticFile(archivo)} style={{ width: "100%", height: "100%", objectFit: "cover", objectPosition: pos, transform: `scale(${1.04 + 0.07 * t})`,
-        filter: `blur(4px) brightness(${br}) contrast(1.06) saturate(0.95)` }} />
+      }} />
+      <AbsoluteFill style={{ background: `rgba(6,9,14,${1 - br})` }} />
     </AbsoluteFill>
   );
 };
@@ -258,6 +259,7 @@ const SombraSuelo: React.FC = () => (
 );
 
 export const Escena3D: React.FC<{ objeto: Objeto3D; infeccion?: number; luz?: Luz; inv?: boolean; fondo?: string; fondoPos?: string }> = ({ objeto, infeccion = 120, luz = "noche", inv = false, fondo, fondoPos }) => {
+  reiniciarLuces();
   const L = LUZ[luz];
   const { width, height, durationInFrames } = useVideoConfig();
   const c0 = (CAMS_NUEVAS[objeto] ?? CONFIG[objeto])!;
@@ -269,10 +271,10 @@ export const Escena3D: React.FC<{ objeto: Objeto3D; infeccion?: number; luz?: Lu
       <ThreeCanvas width={width * GL_K} height={height * GL_K} camera={{ fov: 38, near: 0.1, far: 80, position: c.desde }} shadows gl={{ antialias: false, alpha: !!fondo }}>
         {!fondo && <color attach="background" args={[L.fondo]} />}
         {!fondo && <fog attach="fog" args={[L.fondo, 7, 22]} />}
-        <Entorno intensidad={0.55 + 0.12 * (L.ambiente - 1.5)} />
-        <ambientLight intensity={L.ambiente * 0.45} />
-        <hemisphereLight args={["#bcd4ff", "#201a18", L.hemi * 0.5]} />
-        <directionalLight position={[-4, 5, 4]} intensity={L.relleno * 0.6} color="#7fb0ff" />
+        {/* Entorno HDRI desactivado: en render por software triplica el tiempo (180 s vs 78 s cada 100 fotogramas). */}
+        <ambientLight intensity={L.ambiente * 0.9} />
+        <hemisphereLight args={["#bcd4ff", "#201a18", L.hemi]} />
+        <directionalLight position={[-4, 5, 4]} intensity={L.relleno * 0.85} color="#7fb0ff" />
         <directionalLight position={[3, 6, 5]} intensity={2.3} color="#fff1dc" castShadow shadow-mapSize={[512, 512]} shadow-camera-left={-7} shadow-camera-right={7} shadow-camera-top={7} shadow-camera-bottom={-7} shadow-camera-near={1} shadow-camera-far={22} shadow-bias={-0.0004} />
         <directionalLight position={[5, 2, 3]} intensity={0.35} color="#ffb48a" />
         <Camara desde={c.desde} hasta={c.hasta} mira={c.mira} miraHasta={c.miraHasta} total={durationInFrames} />
