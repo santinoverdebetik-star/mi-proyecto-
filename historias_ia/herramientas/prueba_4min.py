@@ -42,9 +42,11 @@ def leer_bloques(n_lineas):
 
 ALIAS = {"laptop": "contagio", "pantalla": "pantalla_rota"}
 TODOS_3D = ["globo", "cable", "codigo", "sala", "estanteria", "avalancha", "casas_red", "fabrica", "candado", "apagon", "intrusion", "contagio", "nucleo", "caja_led",
-            "caja_tv", "red", "manometro", "radar", "duplicacion", "rack", "cajas15", "puerta", "pantalla_rota"]
+            "caja_tv", "red", "manometro", "radar", "duplicacion", "rack", "cajas15", "puerta", "pantalla_rota", "router", "camara", "movil", "pc_antiguo", "reloj",
+            "calendario", "placa", "llave", "dominos", "escudo", "dinero", "hdmi", "password", "engranajes", "latido", "paquetes", "antena", "lupa", "mando", "nube",
+            "ojo", "tv_play"]
 FAMILIA = {"candado_agujero": "candado"}          # candado y candado_agujero cuentan como el mismo clip
-MAX_USOS = 2                                      # pedido del usuario: cada clip 3D se repite como maximo 2 veces
+MAX_USOS = 1                                      # REGLA DEL USUARIO (para todos los videos): ningun clip 3D se repite
 MAX_CLIP = 5.0                                    # pedido del usuario: clips 3D ~2 s mas cortos (antes 7 s)
 DIAG_CASA = {"tipo": "diagrama", "titulo": "Una casa. Cinco dispositivos.", "nodos": [
     {"id": "casa", "x": 960, "y": 520, "icono": "casa", "etiqueta": "tu casa"}, {"id": "tv", "x": 960, "y": 880, "icono": "tv", "etiqueta": "caja tv"},
@@ -64,8 +66,10 @@ def escena_de(tag):
     t = (tag or "")
     if t.startswith("titular"):
         txt = re.sub(r"^titular:\s*", "", t.split("·")[0]).strip()
+        txt, _, extra = txt.partition("|")
         lineas = [x.strip() for x in txt.split("/")]
-        return {"tipo": "titular", "lineas": lineas, "resalta": len(lineas) - 1, "lado": "izq", "_golpe": True}
+        return {"tipo": "titular", "lineas": lineas, "resalta": len(lineas) - 1, "lado": "izq", "_golpe": True,
+                "_relleno": [o.strip() for o in extra.split("+") if o.strip()]}
     if t.startswith("diagrama"):
         d = dict(DIAG_PROXY if ("proxy" in t or "alquila" in t) else DIAG_CASA); d["_golpe"] = False
         return d
@@ -151,13 +155,15 @@ def alinear(audio, lineas):
 
 
 # ---------------------------------------------------------------- mezcla + props
-def mezclar(audio, inicios_escena, golpes, salida_mp3, segmentos=None, nivel_musica=0.38):
+def mezclar(audio, inicios_escena, golpes, salida_mp3, segmentos=None, nivel_musica=0.38, bajar_desde=((166.0, 0.70),)):
     """voz + MUSICA DE AVENTURA audible (se baja un poco mientras habla la voz, 'ducking') + glitch en cada corte + riser/golpe en titulares"""
     import musica_aventura as mus
     SR = am.SR
     voz = am.leer(audio); D = len(voz) / SR; v_rms = float(np.sqrt(np.mean(voz ** 2)) + 1e-9)
     m = mus.pista(D + 2, segmentos)[: len(voz)]; m *= v_rms * nivel_musica
     env = am.lp(np.abs(voz), int(0.12 * SR)); env = np.clip(env / (0.6 * env.max() + 1e-9), 0, 1)
+    for t_b, g_b in bajar_desde:                                   # pedido del usuario: bajar un poco la musica desde 2:46 (rampa de 2 s)
+        rampa = np.clip((np.arange(len(m)) / SR - t_b) / 2.0, 0, 1); m *= 1 - (1 - g_b) * rampa
     m *= 1 - 0.40 * env                                           # ducking: -40 % mientras suena la voz, la musica "respira" en las pausas
     fx = np.zeros(len(voz))
     def poner(x, t, g):
@@ -213,6 +219,7 @@ def main():
             o = elegir(pref[j % len(pref):] + pref[:j % len(pref)] if pref else [])
             e = {"tipo": "3d", "objeto": o, "luz": luz, "dur": round((tb - ta) / n, 3)}
             if usos.get(fam(o), 0) >= 1: e["inv"] = True            # segunda vez que aparece: camara en sentido contrario
+            if usos.get(fam(o), 0) >= MAX_USOS: print("AVISO: se repite el clip", o, "(la biblioteca 3D no alcanza: crear mas objetos)")
             usos[fam(o)] = usos.get(fam(o), 0) + 1; prev[0] = o
             escenas.append(e); inicios.append(ta + (tb - ta) * j / n)
     for bi, (tag, ls) in enumerate(bloques):
@@ -227,7 +234,7 @@ def main():
             escenas.append(e); inicios.append(t_ini); prev[0] = None
             if base.get("_golpe"): golpes.append(t_ini + 0.1)
             if t_fin - t_med > 0.05:                               # el titular/diagrama no se queda quieto toda la frase: sigue un clip 3D variado
-                trozos(t_med, t_fin, [], "media")
+                trozos(t_med, t_fin, base.get("_relleno", []), "media")
     escenas[0]["dur"] = round(escenas[0]["dur"] + inicios[0], 3); inicios[0] = 0.0       # cubre el silencio inicial
     mp3 = os.path.join(pub, "mezcla.mp3")
     segs = [(inicios[i], (inicios[i + 1] if i + 1 < len(inicios) else dur), escenas[i].get("luz", "media")) for i in range(len(escenas))]

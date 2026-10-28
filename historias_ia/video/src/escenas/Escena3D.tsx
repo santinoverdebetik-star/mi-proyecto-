@@ -4,9 +4,10 @@ import { ThreeCanvas } from "@remotion/three";
 import { useThree } from "@react-three/fiber";
 import * as THREE from "three";
 import { C } from "../estilo";
+import { Antena, Calendario, CamaraSeguridad, Dinero, Dominos, Engranajes, Escudo, Hdmi, Latido, Llave, Lupa, Mando, Movil, Nube, Ojo, Paquetes, PcAntiguo, Placa, Password, Reloj, Router, TvPlay } from "./Objetos3D_b";
 import { Apagon, Avalancha, Cable, Candado, Codigo, Estanteria, Globo, Sala, CajaStreaming, CasasRed, Duplicacion, Fabrica, Laptop, Manometro, Pulsos, Rack, Radar } from "./Objetos3D";
 
-export type Objeto3D = "globo" | "sala" | "estanteria" | "avalancha" | "cable" | "codigo" | "casas_red" | "fabrica" | "candado" | "candado_agujero" | "apagon" | "duplicacion" | "rack" | "radar" | "intrusion" | "contagio" | "manometro" | "cajas15" | "caja_led" | "caja_tv" | "nucleo" | "red" | "puerta" | "pantalla_rota";
+export type Objeto3D = "router" | "camara" | "movil" | "pc_antiguo" | "reloj" | "calendario" | "placa" | "llave" | "dominos" | "escudo" | "dinero" | "hdmi" | "password" | "engranajes" | "latido" | "paquetes" | "antena" | "lupa" | "mando" | "nube" | "ojo" | "tv_play" | "globo" | "sala" | "estanteria" | "avalancha" | "cable" | "codigo" | "casas_red" | "fabrica" | "candado" | "candado_agujero" | "apagon" | "duplicacion" | "rack" | "radar" | "intrusion" | "contagio" | "manometro" | "cajas15" | "caja_led" | "caja_tv" | "nucleo" | "red" | "puerta" | "pantalla_rota";
 
 /** Camara que se acerca con un leve arco (dolly + deriva), como los planos lentos del video de referencia. */
 const Camara: React.FC<{ desde: [number, number, number]; hasta: [number, number, number]; mira: [number, number, number]; miraHasta?: [number, number, number]; total: number }> = ({ desde, hasta, mira, miraHasta, total }) => {
@@ -170,6 +171,29 @@ const Cajas15: React.FC = () => {
 
 type Cam = { desde: [number, number, number]; hasta: [number, number, number]; mira: [number, number, number]; miraHasta?: [number, number, number] };
 const CAMS_NUEVAS: Record<string, Cam> = {
+  router: { desde: [0, 1.2, 7.0], hasta: [0.4, 1.0, 5.0], mira: [0, 0.6, 0] },
+  camara: { desde: [-2.5, 1.0, 6.8], hasta: [1.6, 0.9, 5.2], mira: [0, 0.6, 0.2] },
+  movil: { desde: [0, 0.9, 6.2], hasta: [0.2, 0.8, 4.4], mira: [0, 0.7, 0] },
+  pc_antiguo: { desde: [-3.2, 1.2, 7.2], hasta: [0.6, 1.0, 5.4], mira: [0.4, 0.6, 0] },
+  reloj: { desde: [0, 0.9, 6.4], hasta: [0, 0.9, 4.4], mira: [0, 0.8, 0] },
+  calendario: { desde: [-1, 1.0, 7.4], hasta: [0.3, 0.9, 5.4], mira: [0, 0.8, 0] },
+  placa: { desde: [0, 5.2, 9.0], hasta: [0.6, 4.2, 7.4], mira: [0, 0.2, 0] },
+  llave: { desde: [1.2, 0.8, 6.4], hasta: [0.1, 0.6, 4.4], mira: [0, 0.5, 0.3] },
+  dominos: { desde: [-5.5, 0.4, 5.0], hasta: [2.6, 0.5, 4.8], mira: [-2, -0.5, 0], miraHasta: [3, -0.5, 0] },
+  escudo: { desde: [0, 0.9, 6.8], hasta: [0.3, 0.8, 4.8], mira: [0, 0.7, 0] },
+  dinero: { desde: [0, 2.2, 6.4], hasta: [0, 1.4, 4.6], mira: [0, -0.4, 0] },
+  hdmi: { desde: [-1, 1.0, 6.6], hasta: [0.6, 0.6, 4.6], mira: [0.3, 0.3, 0] },
+  password: { desde: [0, 0.9, 7.4], hasta: [0.2, 0.8, 5.6], mira: [0, 0.7, 0] },
+  engranajes: { desde: [0, 0.8, 7.4], hasta: [0.3, 0.8, 5.6], mira: [0, 0.7, 0] },
+  latido: { desde: [0, 0.6, 8.2], hasta: [0, 0.6, 6.0], mira: [0, 0.5, 0] },
+  paquetes: { desde: [-2, 1.2, 8.4], hasta: [2, 1.0, 7.0], mira: [0, 0.4, 0] },
+  antena: { desde: [-3, 0.6, 8.0], hasta: [2, 2.0, 7.0], mira: [0, 1.6, 0] },
+  lupa: { desde: [0, 0.6, 7.2], hasta: [0.3, 0.5, 5.6], mira: [0, 0.4, 0] },
+  mando: { desde: [-2.2, 0.8, 6.4], hasta: [0.8, 0.9, 5.0], mira: [0, 1.0, 0] },
+  nube: { desde: [0, 0.6, 7.6], hasta: [0.2, 0.9, 5.6], mira: [0, 0.5, 0] },
+  ojo: { desde: [0, 0.9, 6.4], hasta: [0.2, 0.9, 4.6], mira: [0, 0.8, 0] },
+  tv_play: { desde: [-1.5, 0.8, 8.0], hasta: [0.5, 0.6, 6.4], mira: [0, 0.4, 0] },
+
   globo: { desde: [0, 0.9, 6.2], hasta: [0.6, 0.9, 4.4], mira: [0, 0.7, 0] },
   sala: { desde: [-2.5, 1.5, 9.0], hasta: [1.6, 1.0, 7.0], mira: [0, 0.2, -1.5], miraHasta: [0.2, 0.1, -2] },
   estanteria: { desde: [-4.2, 1.2, 6.2], hasta: [3.2, 0.9, 5.4], mira: [-1, 0.5, 0], miraHasta: [1.5, 0.5, 0] },
@@ -235,6 +259,29 @@ export const Escena3D: React.FC<{ objeto: Objeto3D; infeccion?: number; luz?: Lu
         {objeto === "cajas15" && <Cajas15 />}
         {objeto === "casas_red" && <CasasRed />}
         {objeto === "globo" && <Globo />}
+        {objeto === "router" && <Router />}
+        {objeto === "camara" && <CamaraSeguridad />}
+        {objeto === "movil" && <Movil />}
+        {objeto === "pc_antiguo" && <PcAntiguo />}
+        {objeto === "reloj" && <Reloj />}
+        {objeto === "calendario" && <Calendario />}
+        {objeto === "placa" && <Placa />}
+        {objeto === "llave" && <Llave />}
+        {objeto === "dominos" && <Dominos />}
+        {objeto === "escudo" && <Escudo />}
+        {objeto === "dinero" && <Dinero />}
+        {objeto === "hdmi" && <Hdmi />}
+        {objeto === "password" && <Password />}
+        {objeto === "engranajes" && <Engranajes />}
+        {objeto === "latido" && <Latido />}
+        {objeto === "paquetes" && <Paquetes />}
+        {objeto === "antena" && <Antena />}
+        {objeto === "lupa" && <Lupa />}
+        {objeto === "mando" && <Mando />}
+        {objeto === "nube" && <Nube />}
+        {objeto === "ojo" && <Ojo />}
+        {objeto === "tv_play" && <TvPlay />}
+
         {objeto === "sala" && <Sala />}
         {objeto === "estanteria" && <Estanteria />}
         {objeto === "avalancha" && <Avalancha />}

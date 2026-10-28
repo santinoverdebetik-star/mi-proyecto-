@@ -20,7 +20,7 @@
   },
   {
    "tipo": "3d",
-   "objeto": "globo",
+   "objeto": "ojo",
    "luz": "media",
    "dur": 3.87
   },
@@ -120,7 +120,7 @@
   },
   {
    "tipo": "3d",
-   "objeto": "cable",
+   "objeto": "engranajes",
    "luz": "media",
    "dur": 3.77
   },
@@ -132,16 +132,15 @@
   },
   {
    "tipo": "3d",
-   "objeto": "codigo",
+   "objeto": "lupa",
    "luz": "clara",
    "dur": 4.42
   },
   {
    "tipo": "3d",
-   "objeto": "manometro",
+   "objeto": "escudo",
    "luz": "clara",
-   "dur": 4.42,
-   "inv": true
+   "dur": 4.42
   },
   {
    "tipo": "titular",
@@ -155,7 +154,7 @@
   },
   {
    "tipo": "3d",
-   "objeto": "estanteria",
+   "objeto": "globo",
    "luz": "media",
    "dur": 4.74
   },
@@ -171,16 +170,9 @@
   },
   {
    "tipo": "3d",
-   "objeto": "avalancha",
+   "objeto": "calendario",
    "luz": "media",
    "dur": 4.34
-  },
-  {
-   "tipo": "3d",
-   "objeto": "globo",
-   "luz": "media",
-   "dur": 4.78,
-   "inv": true
   },
   {
    "tipo": "3d",
@@ -190,7 +182,13 @@
   },
   {
    "tipo": "3d",
-   "objeto": "fabrica",
+   "objeto": "antena",
+   "luz": "media",
+   "dur": 4.78
+  },
+  {
+   "tipo": "3d",
+   "objeto": "cable",
    "luz": "media",
    "dur": 4.78
   },
@@ -198,25 +196,23 @@
    "tipo": "3d",
    "objeto": "estanteria",
    "luz": "media",
-   "dur": 4.635,
-   "inv": true
+   "dur": 4.635
   },
   {
    "tipo": "3d",
-   "objeto": "sala",
-   "luz": "media",
-   "dur": 4.635,
-   "inv": true
-  },
-  {
-   "tipo": "3d",
-   "objeto": "candado",
+   "objeto": "hdmi",
    "luz": "media",
    "dur": 4.635
   },
   {
    "tipo": "3d",
-   "objeto": "apagon",
+   "objeto": "tv_play",
+   "luz": "media",
+   "dur": 4.635
+  },
+  {
+   "tipo": "3d",
+   "objeto": "nube",
    "luz": "media",
    "dur": 4.635
   },
@@ -224,43 +220,41 @@
    "tipo": "3d",
    "objeto": "fabrica",
    "luz": "media",
-   "dur": 4.656,
-   "inv": true
+   "dur": 4.656
   },
   {
    "tipo": "3d",
-   "objeto": "red",
+   "objeto": "paquetes",
    "luz": "media",
    "dur": 4.656
   },
   {
    "tipo": "3d",
-   "objeto": "radar",
+   "objeto": "dinero",
    "luz": "media",
    "dur": 4.656
   },
   {
    "tipo": "3d",
-   "objeto": "duplicacion",
+   "objeto": "codigo",
    "luz": "media",
    "dur": 4.656
   },
   {
    "tipo": "3d",
-   "objeto": "rack",
+   "objeto": "avalancha",
    "luz": "media",
    "dur": 4.656
+  },
+  {
+   "tipo": "3d",
+   "objeto": "password",
+   "luz": "media",
+   "dur": 4.427
   },
   {
    "tipo": "3d",
    "objeto": "candado",
-   "luz": "media",
-   "dur": 4.427,
-   "inv": true
-  },
-  {
-   "tipo": "3d",
-   "objeto": "cajas15",
    "luz": "media",
    "dur": 4.427
   },
@@ -272,30 +266,27 @@
   },
   {
    "tipo": "3d",
-   "objeto": "avalancha",
-   "luz": "media",
-   "dur": 4.885,
-   "inv": true
-  },
-  {
-   "tipo": "3d",
    "objeto": "apagon",
-   "luz": "media",
-   "dur": 4.885,
-   "inv": true
-  },
-  {
-   "tipo": "3d",
-   "objeto": "pantalla_rota",
    "luz": "media",
    "dur": 4.885
   },
   {
    "tipo": "3d",
-   "objeto": "cable",
+   "objeto": "latido",
    "luz": "media",
-   "dur": 4.885,
-   "inv": true
+   "dur": 4.885
+  },
+  {
+   "tipo": "3d",
+   "objeto": "red",
+   "luz": "media",
+   "dur": 4.885
+  },
+  {
+   "tipo": "3d",
+   "objeto": "radar",
+   "luz": "media",
+   "dur": 4.885
   },
   {
    "tipo": "diagrama",
@@ -341,59 +332,51 @@
   },
   {
    "tipo": "3d",
-   "objeto": "codigo",
+   "objeto": "duplicacion",
    "luz": "media",
-   "dur": 3.7,
-   "inv": true
+   "dur": 3.7
   },
   {
    "tipo": "3d",
-   "objeto": "casas_red",
+   "objeto": "rack",
    "luz": "media",
-   "dur": 3.7,
-   "inv": true
+   "dur": 3.7
   },
   {
    "tipo": "3d",
-   "objeto": "intrusion",
+   "objeto": "cajas15",
    "luz": "media",
-   "dur": 3.7,
-   "inv": true
+   "dur": 3.7
   },
   {
    "tipo": "3d",
-   "objeto": "contagio",
+   "objeto": "llave",
    "luz": "media",
-   "dur": 4.652,
-   "inv": true
+   "dur": 4.652
   },
   {
    "tipo": "3d",
-   "objeto": "nucleo",
+   "objeto": "router",
    "luz": "media",
-   "dur": 4.652,
-   "inv": true
+   "dur": 4.652
   },
   {
    "tipo": "3d",
-   "objeto": "caja_led",
+   "objeto": "pantalla_rota",
    "luz": "media",
-   "dur": 4.652,
-   "inv": true
+   "dur": 4.652
   },
   {
    "tipo": "3d",
-   "objeto": "caja_tv",
+   "objeto": "camara",
    "luz": "media",
-   "dur": 4.652,
-   "inv": true
+   "dur": 4.652
   },
   {
    "tipo": "3d",
-   "objeto": "red",
+   "objeto": "movil",
    "luz": "media",
-   "dur": 4.652,
-   "inv": true
+   "dur": 4.652
   },
   {
    "tipo": "titular",
@@ -407,24 +390,21 @@
   },
   {
    "tipo": "3d",
-   "objeto": "radar",
+   "objeto": "pc_antiguo",
    "luz": "media",
-   "dur": 5.09,
-   "inv": true
+   "dur": 5.09
   },
   {
    "tipo": "3d",
-   "objeto": "duplicacion",
+   "objeto": "reloj",
    "luz": "media",
-   "dur": 5.09,
-   "inv": true
+   "dur": 5.09
   },
   {
    "tipo": "3d",
-   "objeto": "rack",
+   "objeto": "placa",
    "luz": "media",
-   "dur": 5.21,
-   "inv": true
+   "dur": 5.21
   }
  ],
  "voz": "prueba4/mezcla.mp3"
