@@ -99,3 +99,5 @@ En esta nube hace falta `CHROMIUM_PATH=/opt/pw-browsers/chromium_headless_shell-
 - **Nada flota**: cada objeto se apoya en el piso (alturas medidas con `src/Medir.tsx`, tabla `MIN_Y` en `Escena3D.tsx`); los que flotan por naturaleza (nube, ojo, globo, núcleo…) se posan sobre un pedestal con aro cian.
 - **Ritmo rápido**: se alternan clip 3D (~3 s) y FOTO REAL (~2,2 s) del mismo tema (`escenas/Foto.tsx`); las fotos tampoco se repiten (pool: `public/fotos` de objetos + `public/fondos_raw` de lugares; créditos en CSV).
 - Las fotos deben ser MUY realistas (fotografías reales, nunca ilustraciones). Para el video completo de 25 min hacen falta ~250 clips únicos: generar más con ImageFX o ampliar el pool.
+- **PROHIBIDOS para siempre (pedido del usuario V6):** los clips 3D `ojo` y `nucleo` (se sustituyen por `camara` y `placa`). Música de fondo MUY baja (nivel 0.10).
+- Calidad 3D: entorno de reflejos + antialias activados (render ~0,45 fps por software; ~35 min por cada 20 s de 3D).
