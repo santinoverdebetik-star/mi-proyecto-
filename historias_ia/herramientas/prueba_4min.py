@@ -40,11 +40,12 @@ def leer_bloques(n_lineas):
     return [b for b in bloques if b[1]]
 
 
-ALIAS = {"laptop": "contagio", "pantalla": "pantalla_rota"}
-TODOS_3D = ["globo", "cable", "codigo", "sala", "estanteria", "avalancha", "casas_red", "fabrica", "candado", "apagon", "intrusion", "contagio", "nucleo", "caja_led",
+PROHIBIDOS = {"ojo", "nucleo"}                    # el usuario no los quiere NUNCA (pedido V5): se sustituyen
+ALIAS = {"laptop": "contagio", "pantalla": "pantalla_rota", "ojo": "camara", "nucleo": "placa"}
+TODOS_3D = ["globo", "cable", "codigo", "sala", "estanteria", "avalancha", "casas_red", "fabrica", "candado", "apagon", "intrusion", "contagio", "caja_led",
             "caja_tv", "red", "manometro", "radar", "duplicacion", "rack", "cajas15", "puerta", "pantalla_rota", "router", "camara", "movil", "pc_antiguo", "reloj",
             "calendario", "placa", "llave", "dominos", "escudo", "dinero", "hdmi", "password", "engranajes", "latido", "paquetes", "antena", "lupa", "mando", "nube",
-            "ojo", "tv_play"]
+            "tv_play"]
 FAMILIA = {"candado_agujero": "candado"}          # candado y candado_agujero cuentan como el mismo clip
 MAX_USOS = 1                                      # REGLA DEL USUARIO (para todos los videos): ningun clip 3D se repite
 MAX_CLIP = 5.0                                    # pedido del usuario: clips 3D ~2 s mas cortos (antes 7 s)
@@ -72,7 +73,7 @@ FOTO_PREF = {
     "escudo": ["candado"], "duplicacion": ["disco", "usb"], "latido": ["semaforo"], "nube": ["datacenter"], "apagon": ["enchufe"], "ojo": ["camara"],
     "sala": ["tv_sala"], "dominos": ["engranajes"], "manometro": ["engranajes"], "puerta": ["candado"],
 }
-DUR_3D, DUR_FOTO = 3.0, 2.2                       # ritmo rapido: 3D corto, foto real entre medio
+DUR_3D, DUR_FOTO = 2.6, 2.4                       # ritmo rapido: 3D corto, foto real entre medio
 
 
 def cargar_pool(raiz_video):
@@ -128,7 +129,7 @@ def escena_de(tag):
         txt, _, extra = txt.partition("|")
         lineas = [x.strip() for x in txt.split("/")]
         return {"tipo": "titular", "lineas": lineas, "resalta": len(lineas) - 1, "lado": "izq", "_golpe": True,
-                "_relleno": [o.strip() for o in extra.split("+") if o.strip()]}
+                "_relleno": [ALIAS.get(o.strip(), o.strip()) for o in extra.split("+") if o.strip()]}
     if t.startswith("diagrama"):
         d = dict(DIAG_PROXY if ("proxy" in t or "alquila" in t) else DIAG_CASA); d["_golpe"] = False
         return d
@@ -214,7 +215,7 @@ def alinear(audio, lineas):
 
 
 # ---------------------------------------------------------------- mezcla + props
-def mezclar(audio, inicios_escena, golpes, salida_mp3, segmentos=None, nivel_musica=0.24, bajar_desde=((166.0, 0.75),)):
+def mezclar(audio, inicios_escena, golpes, salida_mp3, segmentos=None, nivel_musica=0.10, bajar_desde=((166.0, 0.8),)):
     """voz + MUSICA DE AVENTURA audible (se baja un poco mientras habla la voz, 'ducking') + glitch en cada corte + riser/golpe en titulares"""
     import musica_aventura as mus
     SR = am.SR
@@ -267,6 +268,7 @@ def main():
     fam = lambda o: FAMILIA.get(o, o)
     def elegir(pref):
         """objeto 3D del siguiente clip: el preferido si no llego al tope; si no, el menos usado distinto del anterior"""
+        pref = [o for o in dict.fromkeys(pref) if o not in PROHIBIDOS]
         for o in pref:
             if usos.get(fam(o), 0) < MAX_USOS and fam(o) != fam(prev[0] or ""): return o
         cand = [o for o in TODOS_3D if fam(o) != fam(prev[0] or "")]

@@ -4,7 +4,7 @@
    "tipo": "3d",
    "objeto": "sala",
    "luz": "media",
-   "dur": 3.0
+   "dur": 2.6
   },
   {
    "tipo": "foto",
@@ -12,19 +12,19 @@
    "luz": "media",
    "v": 1,
    "pos": "35% 55%",
-   "dur": 2.2
+   "dur": 2.4
   },
   {
    "tipo": "3d",
    "objeto": "caja_tv",
    "luz": "media",
-   "dur": 2.88
+   "dur": 3.08
   },
   {
    "tipo": "3d",
    "objeto": "caja_led",
    "luz": "media",
-   "dur": 3.0
+   "dur": 2.6
   },
   {
    "tipo": "foto",
@@ -32,13 +32,13 @@
    "luz": "media",
    "v": 2,
    "pos": "65% 50%",
-   "dur": 2.2
+   "dur": 2.4
   },
   {
    "tipo": "3d",
-   "objeto": "ojo",
+   "objeto": "camara",
    "luz": "media",
-   "dur": 2.54
+   "dur": 2.74
   },
   {
    "tipo": "diagrama",
@@ -120,7 +120,7 @@
    "tipo": "3d",
    "objeto": "intrusion",
    "luz": "media",
-   "dur": 3.0
+   "dur": 2.6
   },
   {
    "tipo": "foto",
@@ -128,39 +128,39 @@
    "luz": "media",
    "v": 3,
    "pos": "50% 40%",
-   "dur": 2.2
+   "dur": 2.4
   },
   {
    "tipo": "3d",
    "objeto": "contagio",
    "luz": "media",
-   "dur": 2.02
+   "dur": 2.22
   },
   {
    "tipo": "3d",
-   "objeto": "nucleo",
+   "objeto": "placa",
    "luz": "media",
-   "dur": 3.0
+   "dur": 2.6
   },
   {
    "tipo": "foto",
-   "archivo": "fotos/placa_02.jpg",
+   "archivo": "fotos/placa_03.jpg",
    "luz": "media",
    "v": 4,
    "pos": "40% 60%",
-   "dur": 2.2
+   "dur": 2.4
   },
   {
    "tipo": "3d",
    "objeto": "engranajes",
    "luz": "media",
-   "dur": 2.34
+   "dur": 2.54
   },
   {
    "tipo": "3d",
    "objeto": "manometro",
    "luz": "clara",
-   "dur": 3.0
+   "dur": 2.6
   },
   {
    "tipo": "foto",
@@ -168,13 +168,13 @@
    "luz": "clara",
    "v": 5,
    "pos": "60% 45%",
-   "dur": 2.2
+   "dur": 2.4
   },
   {
    "tipo": "3d",
    "objeto": "lupa",
    "luz": "clara",
-   "dur": 3.0
+   "dur": 2.6
   },
   {
    "tipo": "foto",
@@ -182,13 +182,13 @@
    "luz": "clara",
    "v": 6,
    "pos": "50% 50%",
-   "dur": 2.2
+   "dur": 2.4
   },
   {
    "tipo": "3d",
    "objeto": "escudo",
    "luz": "clara",
-   "dur": 2.86
+   "dur": 3.26
   },
   {
    "tipo": "titular",
@@ -204,7 +204,7 @@
    "tipo": "3d",
    "objeto": "globo",
    "luz": "media",
-   "dur": 3.0
+   "dur": 2.6
   },
   {
    "tipo": "foto",
@@ -212,7 +212,7 @@
    "luz": "media",
    "v": 7,
    "pos": "35% 55%",
-   "dur": 1.74
+   "dur": 2.14
   },
   {
    "tipo": "titular",
@@ -228,7 +228,7 @@
    "tipo": "3d",
    "objeto": "calendario",
    "luz": "media",
-   "dur": 3.0
+   "dur": 2.6
   },
   {
    "tipo": "foto",
@@ -236,13 +236,13 @@
    "luz": "media",
    "v": 8,
    "pos": "65% 50%",
-   "dur": 1.34
+   "dur": 1.74
   },
   {
    "tipo": "3d",
    "objeto": "casas_red",
    "luz": "media",
-   "dur": 3.0
+   "dur": 2.6
   },
   {
    "tipo": "foto",
@@ -250,13 +250,13 @@
    "luz": "media",
    "v": 9,
    "pos": "50% 40%",
-   "dur": 2.2
+   "dur": 2.4
   },
   {
    "tipo": "3d",
    "objeto": "antena",
    "luz": "media",
-   "dur": 3.0
+   "dur": 2.6
   },
   {
    "tipo": "foto",
@@ -264,205 +264,221 @@
    "luz": "media",
    "v": 10,
    "pos": "40% 60%",
-   "dur": 2.2
+   "dur": 2.4
   },
   {
    "tipo": "3d",
    "objeto": "cable",
    "luz": "media",
-   "dur": 3.94
-  },
-  {
-   "tipo": "3d",
-   "objeto": "estanteria",
-   "luz": "media",
-   "dur": 3.0
-  },
-  {
-   "tipo": "foto",
-   "archivo": "fondos_raw/tienda_02.jpg",
-   "luz": "media",
-   "v": 11,
-   "pos": "60% 45%",
-   "dur": 2.2
-  },
-  {
-   "tipo": "3d",
-   "objeto": "hdmi",
-   "luz": "media",
-   "dur": 3.0
-  },
-  {
-   "tipo": "foto",
-   "archivo": "fotos/hdmi_03.jpg",
-   "luz": "media",
-   "v": 12,
-   "pos": "50% 50%",
-   "dur": 2.2
-  },
-  {
-   "tipo": "3d",
-   "objeto": "tv_play",
-   "luz": "media",
-   "dur": 3.0
-  },
-  {
-   "tipo": "foto",
-   "archivo": "fotos/tv_sala_02.jpg",
-   "luz": "media",
-   "v": 13,
-   "pos": "35% 55%",
-   "dur": 2.2
-  },
-  {
-   "tipo": "3d",
-   "objeto": "nube",
-   "luz": "media",
-   "dur": 2.94
-  },
-  {
-   "tipo": "3d",
-   "objeto": "fabrica",
-   "luz": "media",
-   "dur": 3.0
-  },
-  {
-   "tipo": "foto",
-   "archivo": "fondos_raw/fabrica_03.jpg",
-   "luz": "media",
-   "v": 14,
-   "pos": "65% 50%",
-   "dur": 2.2
-  },
-  {
-   "tipo": "3d",
-   "objeto": "paquetes",
-   "luz": "media",
-   "dur": 3.0
+   "dur": 2.6
   },
   {
    "tipo": "foto",
    "archivo": "fotos/fibra_02.jpg",
    "luz": "media",
+   "v": 11,
+   "pos": "60% 45%",
+   "dur": 1.74
+  },
+  {
+   "tipo": "3d",
+   "objeto": "estanteria",
+   "luz": "media",
+   "dur": 2.6
+  },
+  {
+   "tipo": "foto",
+   "archivo": "fondos_raw/tienda_03.jpg",
+   "luz": "media",
+   "v": 12,
+   "pos": "50% 50%",
+   "dur": 2.4
+  },
+  {
+   "tipo": "3d",
+   "objeto": "hdmi",
+   "luz": "media",
+   "dur": 2.6
+  },
+  {
+   "tipo": "foto",
+   "archivo": "fotos/hdmi_01.jpg",
+   "luz": "media",
+   "v": 13,
+   "pos": "35% 55%",
+   "dur": 2.4
+  },
+  {
+   "tipo": "3d",
+   "objeto": "tv_play",
+   "luz": "media",
+   "dur": 2.6
+  },
+  {
+   "tipo": "foto",
+   "archivo": "fotos/tv_sala_03.jpg",
+   "luz": "media",
+   "v": 14,
+   "pos": "65% 50%",
+   "dur": 2.4
+  },
+  {
+   "tipo": "3d",
+   "objeto": "nube",
+   "luz": "media",
+   "dur": 3.54
+  },
+  {
+   "tipo": "3d",
+   "objeto": "fabrica",
+   "luz": "media",
+   "dur": 2.6
+  },
+  {
+   "tipo": "foto",
+   "archivo": "fondos_raw/fabrica_02.jpg",
+   "luz": "media",
    "v": 15,
    "pos": "50% 40%",
-   "dur": 2.2
+   "dur": 2.4
+  },
+  {
+   "tipo": "3d",
+   "objeto": "paquetes",
+   "luz": "media",
+   "dur": 2.6
+  },
+  {
+   "tipo": "foto",
+   "archivo": "fotos/datacenter_01.jpg",
+   "luz": "media",
+   "v": 16,
+   "pos": "40% 60%",
+   "dur": 2.4
   },
   {
    "tipo": "3d",
    "objeto": "dinero",
    "luz": "media",
-   "dur": 3.0
+   "dur": 2.6
   },
   {
    "tipo": "foto",
    "archivo": "fotos/dinero_01.jpg",
    "luz": "media",
-   "v": 16,
-   "pos": "40% 60%",
-   "dur": 2.2
+   "v": 17,
+   "pos": "60% 45%",
+   "dur": 2.4
   },
   {
    "tipo": "3d",
    "objeto": "codigo",
    "luz": "media",
-   "dur": 3.0
+   "dur": 2.6
   },
   {
    "tipo": "foto",
-   "archivo": "fotos/teclado_03.jpg",
+   "archivo": "fotos/laptop_02.jpg",
    "luz": "media",
-   "v": 17,
-   "pos": "60% 45%",
-   "dur": 2.2
+   "v": 18,
+   "pos": "50% 50%",
+   "dur": 2.4
   },
   {
    "tipo": "3d",
    "objeto": "avalancha",
    "luz": "media",
-   "dur": 2.48
+   "dur": 3.28
   },
   {
    "tipo": "3d",
    "objeto": "password",
    "luz": "media",
-   "dur": 3.0
+   "dur": 2.6
   },
   {
    "tipo": "foto",
-   "archivo": "fotos/teclado_02.jpg",
+   "archivo": "fotos/teclado_01.jpg",
    "luz": "media",
-   "v": 18,
-   "pos": "50% 50%",
-   "dur": 2.2
+   "v": 19,
+   "pos": "35% 55%",
+   "dur": 2.4
   },
   {
    "tipo": "3d",
    "objeto": "candado",
    "luz": "media",
-   "dur": 3.0
+   "dur": 2.6
   },
   {
    "tipo": "foto",
-   "archivo": "fondos_raw/calle_noche_02.jpg",
+   "archivo": "fondos_raw/pueblo_02.jpg",
    "luz": "media",
-   "v": 19,
-   "pos": "35% 55%",
-   "dur": 2.2
+   "v": 20,
+   "pos": "65% 50%",
+   "dur": 2.4
   },
   {
    "tipo": "3d",
    "objeto": "puerta",
    "luz": "media",
-   "dur": 2.88
+   "dur": 3.28
   },
   {
    "tipo": "3d",
    "objeto": "apagon",
    "luz": "media",
-   "dur": 3.0
+   "dur": 2.6
   },
   {
    "tipo": "foto",
    "archivo": "fotos/enchufe_03.jpg",
    "luz": "media",
-   "v": 20,
-   "pos": "65% 50%",
-   "dur": 2.2
+   "v": 21,
+   "pos": "50% 40%",
+   "dur": 2.4
   },
   {
    "tipo": "3d",
    "objeto": "latido",
    "luz": "media",
-   "dur": 3.0
+   "dur": 2.6
   },
   {
    "tipo": "foto",
-   "archivo": "fondos_raw/habitacion_01.jpg",
+   "archivo": "fondos_raw/sala_04.jpg",
    "luz": "media",
-   "v": 21,
-   "pos": "50% 40%",
-   "dur": 2.2
+   "v": 22,
+   "pos": "40% 60%",
+   "dur": 2.4
   },
   {
    "tipo": "3d",
    "objeto": "red",
    "luz": "media",
-   "dur": 3.0
+   "dur": 2.6
   },
   {
    "tipo": "foto",
-   "archivo": "fotos/fibra_03.jpg",
+   "archivo": "fotos/fibra_01.jpg",
    "luz": "media",
-   "v": 22,
-   "pos": "40% 60%",
-   "dur": 2.2
+   "v": 23,
+   "pos": "60% 45%",
+   "dur": 2.4
   },
   {
    "tipo": "3d",
    "objeto": "radar",
    "luz": "media",
-   "dur": 3.94
+   "dur": 2.6
+  },
+  {
+   "tipo": "foto",
+   "archivo": "fotos/antena_01.jpg",
+   "luz": "media",
+   "v": 24,
+   "pos": "50% 50%",
+   "dur": 1.94
   },
   {
    "tipo": "diagrama",
@@ -510,91 +526,91 @@
    "tipo": "3d",
    "objeto": "duplicacion",
    "luz": "media",
-   "dur": 3.0
+   "dur": 2.6
   },
   {
    "tipo": "foto",
-   "archivo": "fotos/usb_02.jpg",
+   "archivo": "fotos/disco_01.jpg",
    "luz": "media",
-   "v": 23,
-   "pos": "60% 45%",
-   "dur": 2.2
+   "v": 25,
+   "pos": "35% 55%",
+   "dur": 2.4
   },
   {
    "tipo": "3d",
    "objeto": "rack",
    "luz": "media",
-   "dur": 3.0
+   "dur": 2.6
   },
   {
    "tipo": "foto",
-   "archivo": "fotos/datacenter_01.jpg",
+   "archivo": "fotos/disco_02.jpg",
    "luz": "media",
-   "v": 24,
-   "pos": "50% 50%",
-   "dur": 2.9
+   "v": 26,
+   "pos": "65% 50%",
+   "dur": 3.5
   },
   {
    "tipo": "3d",
    "objeto": "llave",
    "luz": "media",
-   "dur": 3.0
+   "dur": 2.6
   },
   {
    "tipo": "foto",
    "archivo": "fotos/llave_01.jpg",
    "luz": "media",
-   "v": 25,
-   "pos": "35% 55%",
-   "dur": 2.2
+   "v": 27,
+   "pos": "50% 40%",
+   "dur": 2.4
   },
   {
    "tipo": "3d",
    "objeto": "router",
    "luz": "media",
-   "dur": 3.0
+   "dur": 2.6
   },
   {
    "tipo": "foto",
    "archivo": "fotos/router_03.jpg",
    "luz": "media",
-   "v": 26,
-   "pos": "65% 50%",
-   "dur": 2.2
+   "v": 28,
+   "pos": "40% 60%",
+   "dur": 2.4
   },
   {
    "tipo": "3d",
    "objeto": "cajas15",
    "luz": "media",
-   "dur": 3.0
+   "dur": 2.6
   },
   {
    "tipo": "foto",
-   "archivo": "fondos_raw/almacen_03.jpg",
+   "archivo": "fondos_raw/tienda_02.jpg",
    "luz": "media",
-   "v": 27,
-   "pos": "50% 40%",
-   "dur": 2.2
+   "v": 29,
+   "pos": "60% 45%",
+   "dur": 2.4
   },
   {
    "tipo": "3d",
    "objeto": "pantalla_rota",
    "luz": "media",
-   "dur": 3.0
+   "dur": 2.6
   },
   {
    "tipo": "foto",
-   "archivo": "fondos_raw/estacion_02.jpg",
+   "archivo": "fondos_raw/estacion_01.jpg",
    "luz": "media",
-   "v": 28,
-   "pos": "40% 60%",
-   "dur": 2.2
+   "v": 30,
+   "pos": "50% 50%",
+   "dur": 2.4
   },
   {
    "tipo": "3d",
-   "objeto": "camara",
+   "objeto": "movil",
    "luz": "media",
-   "dur": 2.46
+   "dur": 3.26
   },
   {
    "tipo": "titular",
@@ -610,43 +626,43 @@
    "tipo": "3d",
    "objeto": "pc_antiguo",
    "luz": "media",
-   "dur": 3.0
+   "dur": 2.6
   },
   {
    "tipo": "foto",
-   "archivo": "fotos/laptop_02.jpg",
+   "archivo": "fotos/laptop_01.jpg",
    "luz": "media",
-   "v": 29,
-   "pos": "60% 45%",
-   "dur": 2.2
-  },
-  {
-   "tipo": "3d",
-   "objeto": "movil",
-   "luz": "media",
-   "dur": 3.0
-  },
-  {
-   "tipo": "foto",
-   "archivo": "fotos/movil_03.jpg",
-   "luz": "media",
-   "v": 30,
-   "pos": "50% 50%",
-   "dur": 1.98
+   "v": 31,
+   "pos": "35% 55%",
+   "dur": 2.4
   },
   {
    "tipo": "3d",
    "objeto": "reloj",
    "luz": "media",
-   "dur": 3.0
+   "dur": 2.6
   },
   {
    "tipo": "foto",
-   "archivo": "fondos_raw/oficina_casa_04.jpg",
+   "archivo": "fondos_raw/habitacion_02.jpg",
    "luz": "media",
-   "v": 31,
-   "pos": "35% 55%",
-   "dur": 2.21
+   "v": 32,
+   "pos": "65% 50%",
+   "dur": 2.58
+  },
+  {
+   "tipo": "3d",
+   "objeto": "dominos",
+   "luz": "media",
+   "dur": 2.6
+  },
+  {
+   "tipo": "foto",
+   "archivo": "fondos_raw/biblioteca_03.jpg",
+   "luz": "media",
+   "v": 33,
+   "pos": "50% 40%",
+   "dur": 2.61
   }
  ],
  "voz": "prueba4/mezcla.mp3"

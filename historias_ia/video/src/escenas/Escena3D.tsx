@@ -4,7 +4,7 @@ import { ThreeCanvas } from "@remotion/three";
 import { Img, staticFile } from "remotion";
 import { useThree } from "@react-three/fiber";
 import * as THREE from "three";
-import { MedidorBBox, PL, RB, SombrasAuto, reiniciarLuces } from "./Realismo";
+import { Entorno, MedidorBBox, PL, RB, SombrasAuto, reiniciarLuces } from "./Realismo";
 import { C } from "../estilo";
 import { Antena, Calendario, CamaraSeguridad, Dinero, Dominos, Engranajes, Escudo, Hdmi, Latido, Llave, Lupa, Mando, Movil, Nube, Ojo, Paquetes, PcAntiguo, Placa, Password, Reloj, Router, TvPlay } from "./Objetos3D_b";
 import { Apagon, Avalancha, Cable, Candado, Codigo, Estanteria, Globo, Sala, CajaStreaming, CasasRed, Duplicacion, Fabrica, Laptop, Manometro, Pulsos, Rack, Radar } from "./Objetos3D";
@@ -286,7 +286,8 @@ export const Escena3D: React.FC<{ objeto: Objeto3D; infeccion?: number; luz?: Lu
     <AbsoluteFill style={{ background: `radial-gradient(ellipse 75% 65% at 50% 40%, ${L.c1} 0%, ${L.fondo} 55%, ${L.c3} 100%)` }}>
       {fondo && <FondoFoto archivo={fondo} luz={luz} pos={fondoPos} />}
       <div style={{ width: width * GL_K, height: height * GL_K, transform: `scale(${1 / GL_K})`, transformOrigin: "0 0" }}>
-      <ThreeCanvas width={width * GL_K} height={height * GL_K} camera={{ fov: 38, near: 0.1, far: 80, position: c.desde }} shadows gl={{ antialias: false, alpha: true }}>
+      <ThreeCanvas width={width * GL_K} height={height * GL_K} camera={{ fov: 38, near: 0.1, far: 80, position: c.desde }} shadows gl={{ antialias: true, alpha: true }}>
+        <Entorno intensidad={0.9} />
         <fog attach="fog" args={[L.fondo, 8, 24]} />
         {/* Entorno HDRI desactivado: en render por software triplica el tiempo (180 s vs 78 s cada 100 fotogramas). */}
         <ambientLight intensity={L.ambiente * 1.25} />
