@@ -180,7 +180,7 @@ const CAMS_NUEVAS: Record<string, Cam> = {
   pc_antiguo: { desde: [-3.2, 1.2, 7.2], hasta: [0.6, 1.0, 5.4], mira: [0.4, 0.6, 0] },
   reloj: { desde: [0, 0.9, 6.4], hasta: [0, 0.9, 4.4], mira: [0, 0.8, 0] },
   calendario: { desde: [-1, 1.0, 7.4], hasta: [0.3, 0.9, 5.4], mira: [0, 0.8, 0] },
-  placa: { desde: [0, 5.2, 9.0], hasta: [0.6, 4.2, 7.4], mira: [0, 0.2, 0] },
+  placa: { desde: [-1, 2.6, 8.5], hasta: [0.8, 1.9, 6.0], mira: [0, 0.2, 0] },
   llave: { desde: [1.2, 0.8, 6.4], hasta: [0.1, 0.6, 4.4], mira: [0, 0.5, 0.3] },
   dominos: { desde: [-5.5, 0.4, 5.0], hasta: [2.6, 0.5, 4.8], mira: [-2, -0.5, 0], miraHasta: [3, -0.5, 0] },
   escudo: { desde: [0, 0.9, 6.8], hasta: [0.3, 0.8, 4.8], mira: [0, 0.7, 0] },
@@ -238,7 +238,7 @@ const LUZ: Record<Luz, { fondo: string; ambiente: number; relleno: number; suelo
 };
 
 /** minY medido de cada objeto (Medir.tsx): sirve para apoyarlo en el suelo (y = -1) y que no flote */
-const MIN_Y: Partial<Record<Objeto3D, number>> = {"router": -0.44, "camara": -0.7, "movil": -0.36, "pc_antiguo": -0.65, "reloj": -0.81, "calendario": -0.7, "placa": -1.38, "llave": -0.8, "dominos": -0.8, "escudo": -0.86, "dinero": -0.96, "hdmi": -0.45, "password": -0.5, "engranajes": -1.28, "latido": -0.6, "paquetes": -0.35, "antena": -1.0, "lupa": -0.63, "mando": -0.43, "nube": -0.2, "ojo": -0.5, "tv_play": -0.9, "globo": -1.27, "sala": -1.3, "estanteria": -1.19, "avalancha": -1.2, "cable": -0.77, "codigo": -0.6, "casas_red": -0.9, "fabrica": -1.04, "candado": -0.55, "candado_agujero": -0.55, "apagon": -1.52, "duplicacion": 0.47, "rack": -1.1, "radar": -0.85, "intrusion": -0.98, "contagio": -0.95};
+const MIN_Y: Partial<Record<Objeto3D, number>> = {"router": -0.44, "camara": -0.7, "movil": -0.36, "pc_antiguo": -0.65, "reloj": -0.81, "calendario": -0.7, "placa": -0.25, "llave": -0.8, "dominos": -0.8, "escudo": -0.86, "dinero": -0.96, "hdmi": -0.45, "password": -0.5, "engranajes": -1.28, "latido": -0.6, "paquetes": -0.35, "antena": -1.0, "lupa": -0.63, "mando": -0.43, "nube": -0.2, "ojo": -0.5, "tv_play": -0.9, "globo": -1.27, "sala": -1.3, "estanteria": -1.19, "avalancha": -1.2, "cable": -0.77, "codigo": -0.6, "casas_red": -0.9, "fabrica": -1.04, "candado": -0.55, "candado_agujero": -0.55, "apagon": -1.52, "duplicacion": 0.47, "rack": -1.1, "radar": -0.85, "intrusion": -0.98, "contagio": -0.95};
 const SIN_AJUSTE: Objeto3D[] = ["sala", "casas_red", "fabrica", "apagon", "estanteria", "avalancha", "cable", "red", "contagio", "intrusion", "dominos", "dinero", "rack", "manometro", "caja_tv", "caja_led", "cajas15", "puerta", "pantalla_rota"];
 /** objetos que por naturaleza "flotan": se posan sobre un pedestal */
 const PEDESTAL: Objeto3D[] = ["nube", "ojo", "duplicacion", "globo", "latido", "nucleo", "codigo", "escudo", "password"];

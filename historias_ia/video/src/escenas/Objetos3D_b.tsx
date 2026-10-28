@@ -111,10 +111,10 @@ export const Placa: React.FC = () => {
   const f = useCurrentFrame();
   const trazos = Array.from({ length: 40 }, (_, i) => ({ x: (rnd("x" + i) - 0.5) * 5, z: (rnd("z" + i) - 0.5) * 3.2, l: 0.5 + rnd("l" + i) * 1.4, h: rnd("h" + i) > 0.5 }));
   return (
-    <group rotation={[-0.9, 0.2, 0]} position={[0, 0.5, 0]}>
-      <mesh><RB args={[5.4, 0.08, 3.6]} /><Mat c="#0c3d2a" r={0.5} m={0.2} /></mesh>
-      {trazos.map((t, i) => <mesh key={i} position={[t.x, 0.06, t.z]}><RB args={t.h ? [t.l, 0.01, 0.04] : [0.04, 0.01, t.l]} /><Mat c="#000" e="#c8a24a" ei={0.9} /></mesh>)}
-      {[[-1.2, -0.6], [1.0, 0.5], [-0.3, 0.9]].map(([x, z], i) => <mesh key={i} position={[x, 0.15, z]}><RB args={[0.9 - i * 0.15, 0.16, 0.9 - i * 0.15]} /><Mat c="#14171d" r={0.3} m={0.6} /></mesh>)}
+    <group rotation={[0.45, 0.3 + Math.sin(f / 90) * 0.08, 0.04]} position={[0, 0.9, 0]}>
+      <mesh><RB args={[5.4, 0.1, 3.6]} /><Mat c="#14683f" r={0.35} m={0.3} /></mesh>
+      {trazos.map((t, i) => <mesh key={i} position={[t.x, 0.07, t.z]}><RB args={t.h ? [t.l, 0.02, 0.05] : [0.05, 0.02, t.l]} /><Mat c="#000" e="#c8a24a" ei={0.9} /></mesh>)}
+      {[[-1.2, -0.6], [1.0, 0.5], [-0.3, 0.9]].map(([x, z], i) => <mesh key={i} position={[x, 0.2, z]}><RB args={[1.0 - i * 0.15, 0.28, 1.0 - i * 0.15]} /><Mat c="#14171d" r={0.25} m={0.7} /></mesh>)}
       {Array.from({ length: 6 }, (_, i) => { const t = ((f / 80 + i / 6) % 1); return <mesh key={i} position={[-2.4 + t * 4.8, 0.12, -1.2 + (i % 3) * 1.0]}><sphereGeometry args={[0.07, 10, 10]} /><Mat c="#000" e={C.naranja} ei={3} /></mesh>; })}
       <PL position={[0, 2, 1]} color="#ffd9a8" intensity={6} distance={9} />
     </group>
