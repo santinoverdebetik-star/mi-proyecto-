@@ -84,3 +84,11 @@ En esta nube hace falta `CHROMIUM_PATH=/opt/pw-browsers/chromium_headless_shell-
 - `src/guion.ts`: **una escena por idea del guion** (tipos `3d`, `diagrama`, `titular`, `imagen`). `DEMO` es el ejemplo.
 - `Historia.tsx` acepta `voz` y `musica` (ficheros en `public/`) y aplica `Acabado` (viñeta+grano+polvo) a todo.
 - Estado actual: ejemplo de 19 s con las 4 familias de escena. Las escenas 3D procedurales (caja/TV, núcleo de IA, red que se infecta, puerta, pantalla rota) son rudimentarias, sobre todo `caja_tv` que queda muy oscura.
+
+
+## REGLAS FIJAS DEL USUARIO (aplicar SIEMPRE, en todos los videos del canal IA DESCONTROLADA)
+1. **Ningún clip 3D se repite** dentro de un video. Cada clip debe ilustrar lo que dice la narración en ese momento. `herramientas/prueba_4min.py` lo hace cumplir (`MAX_USOS = 1`) y avisa con "AVISO: se repite el clip…" si la biblioteca no alcanza. Biblioteca actual: 45 objetos 3D procedurales (en `video/src/escenas/Objetos3D*.tsx`). Un video largo (~25 min) necesita ~250 clips únicos: para eso hay que generar imágenes en ImageFX (una por escena) o ampliar la biblioteca.
+2. **Clips 3D cortos:** máximo ~5 s cada uno (promedio ~4,5 s).
+3. **Mucha más luz:** los clips no deben verse oscuros. Niveles `noche` / `media` / `clara` ya son más claros; usar `media` o `clara` salvo en momentos de amenaza.
+4. **Música de aventura/misterio audible de fondo en todo el video** (no un drone grave): `herramientas/musica_aventura.py`. Se baja un poco cuando habla la voz (ducking) y **desde el minuto 2:46 baja un poco más** (parámetro `bajar_desde`).
+5. **Transición:** glitch digital. Voz: Martín (Voizum).
