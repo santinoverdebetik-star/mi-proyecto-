@@ -1,6 +1,7 @@
 import React from "react";
 import { interpolate, useCurrentFrame } from "remotion";
 import * as THREE from "three";
+import { RB } from "./Realismo";
 import { C } from "../estilo";
 
 const mezcla = (a: string, b: string, t: number) => new THREE.Color(a).lerp(new THREE.Color(b), Math.min(1, Math.max(0, t)));
@@ -13,11 +14,11 @@ export const Laptop: React.FC<{ pos: [number, number, number]; rotY?: number; in
   const intens = (0.5 + 0.85 * infeccion) * parpadeo;
   return (
     <group position={pos} rotation={[0, rotY, 0]} scale={escala}>
-      <mesh position={[0, 0.045, 0]}><boxGeometry args={[2.4, 0.09, 1.6]} /><meshStandardMaterial color="#2a2d34" roughness={0.35} metalness={0.7} /></mesh>
+      <mesh position={[0, 0.045, 0]}><RB args={[2.4, 0.09, 1.6]} /><meshStandardMaterial color="#2a2d34" roughness={0.35} metalness={0.7} /></mesh>
       <mesh position={[0, 0.095, 0.1]} rotation={[-Math.PI / 2, 0, 0]}><planeGeometry args={[2.1, 1.0]} /><meshStandardMaterial color="#0f1115" roughness={0.6} emissive={col} emissiveIntensity={0.08 + 0.25 * infeccion} /></mesh>
       <mesh position={[0, 0.098, 0.62]} rotation={[-Math.PI / 2, 0, 0]}><planeGeometry args={[0.7, 0.32]} /><meshStandardMaterial color="#1a1c21" roughness={0.5} /></mesh>
       <group position={[0, 0.09, -0.78]} rotation={[-0.32, 0, 0]}>
-        <mesh position={[0, 0.76, 0]}><boxGeometry args={[2.4, 1.52, 0.06]} /><meshStandardMaterial color="#202329" roughness={0.3} metalness={0.8} /></mesh>
+        <mesh position={[0, 0.76, 0]}><RB args={[2.4, 1.52, 0.06]} /><meshStandardMaterial color="#202329" roughness={0.3} metalness={0.8} /></mesh>
         <mesh position={[0, 0.76, 0.034]}><planeGeometry args={[2.22, 1.34]} /><meshStandardMaterial color="#02060a" emissive={col} emissiveIntensity={intens} /></mesh>
       </group>
       <pointLight position={[0, 1.0, 1.2]} color={col} intensity={(1.2 + 7 * infeccion) * parpadeo} distance={7} decay={2} />
@@ -51,7 +52,7 @@ export const CajaStreaming: React.FC<{ pos: [number, number, number]; led?: stri
   const on = Math.floor((f + fase) / 12) % 2 === 0 ? 1 : 0.2;
   return (
     <group position={pos} scale={escala}>
-      <mesh><boxGeometry args={[1.3, 0.2, 0.95]} /><meshStandardMaterial color="#3b3f49" roughness={0.45} metalness={0.4} emissive="#2b3345" emissiveIntensity={1.0} /></mesh>
+      <mesh><RB args={[1.3, 0.2, 0.95]} /><meshStandardMaterial color="#3b3f49" roughness={0.45} metalness={0.4} emissive="#2b3345" emissiveIntensity={1.0} /></mesh>
       <mesh position={[0.45, 0.02, 0.485]}><sphereGeometry args={[0.055, 12, 12]} /><meshStandardMaterial color="#000" emissive={led} emissiveIntensity={3.5 * on * activa + 0.3} /></mesh>
     </group>
   );
@@ -73,14 +74,14 @@ export const Manometro: React.FC<{ total: number }> = ({ total }) => {
       <mesh position={[0, 0, 0.1]}><torusGeometry args={[1.64, 0.09, 16, 96]} /><meshStandardMaterial color="#a9aeb6" roughness={0.25} metalness={0.9} /></mesh>
       {marcas.map((m, i) => (
         <mesh key={i} position={[Math.sin(m.th) * 1.33, Math.cos(m.th) * 1.33, 0.075]} rotation={[0, 0, -m.th]}>
-          <boxGeometry args={[m.mayor ? 0.05 : 0.025, m.mayor ? 0.3 : 0.17, 0.01]} />
+          <RB args={[m.mayor ? 0.05 : 0.025, m.mayor ? 0.3 : 0.17, 0.01]} />
           <meshStandardMaterial color={m.rojo ? "#d01a14" : "#171717"} emissive={m.rojo ? "#d01a14" : "#000"} emissiveIntensity={m.rojo ? 0.9 : 0} />
         </mesh>
       ))}
       <mesh position={[0, 0, 0.08]}><ringGeometry args={[1.0, 1.07, 48, 1, -Math.PI / 4, (75.6 * Math.PI) / 180]} /><meshBasicMaterial color="#d01a14" /></mesh>
       <group position={[0, 0, 0.13]} rotation={[0, 0, -ang]}>
-        <mesh position={[0, 0.5, 0]}><boxGeometry args={[0.045, 1.35, 0.02]} /><meshStandardMaterial color="#0a0a0a" emissive="#300" emissiveIntensity={0.3} /></mesh>
-        <mesh position={[0, -0.2, 0]}><boxGeometry args={[0.07, 0.4, 0.02]} /><meshStandardMaterial color="#0a0a0a" /></mesh>
+        <mesh position={[0, 0.5, 0]}><RB args={[0.045, 1.35, 0.02]} /><meshStandardMaterial color="#0a0a0a" emissive="#300" emissiveIntensity={0.3} /></mesh>
+        <mesh position={[0, -0.2, 0]}><RB args={[0.07, 0.4, 0.02]} /><meshStandardMaterial color="#0a0a0a" /></mesh>
       </group>
       <mesh position={[0, 0, 0.14]}><sphereGeometry args={[0.1, 24, 24]} /><meshStandardMaterial color="#111" metalness={0.8} roughness={0.3} /></mesh>
       <pointLight position={[2.2, 1.8, 3]} color="#ffd9b0" intensity={6} distance={9} />
@@ -109,7 +110,7 @@ export const CasasRed: React.FC = () => {
         const col = mezcla("#2fd3ff", C.naranja, inf);
         return (
           <group key={k.i} position={[k.x, 0, k.z]}>
-            <mesh position={[0, k.h / 2, 0]}><boxGeometry args={[k.w, k.h, k.w]} /><meshStandardMaterial color="#4a505d" roughness={0.7} emissive="#1a1f2a" emissiveIntensity={0.6} /></mesh>
+            <mesh position={[0, k.h / 2, 0]}><RB args={[k.w, k.h, k.w]} /><meshStandardMaterial color="#4a505d" roughness={0.7} emissive="#1a1f2a" emissiveIntensity={0.6} /></mesh>
             <mesh position={[0, k.h + 0.22, 0]} rotation={[0, Math.PI / 4, 0]}><coneGeometry args={[k.w * 0.78, 0.45, 4]} /><meshStandardMaterial color="#2c313b" roughness={0.8} emissive="#10131a" emissiveIntensity={0.6} /></mesh>
             <mesh position={[0, k.h * 0.5, k.w / 2 + 0.01]}><planeGeometry args={[k.w * 0.45, k.h * 0.42]} /><meshStandardMaterial color="#000" emissive={col} emissiveIntensity={1.0 + 2.2 * inf} /></mesh>
           </group>
@@ -127,8 +128,8 @@ export const Fabrica: React.FC = () => {
   const marcada = 3;
   return (
     <group>
-      <mesh position={[0, -0.97, 0]}><boxGeometry args={[18, 0.14, 2.2]} /><meshStandardMaterial color="#181a1f" roughness={0.5} metalness={0.6} /></mesh>
-      {Array.from({ length: 26 }, (_, k) => <mesh key={k} position={[-8.6 + ((k * 0.7 + f * 0.03) % 17.8), -0.895, 0]}><boxGeometry args={[0.06, 0.02, 2.1]} /><meshStandardMaterial color="#2c3038" /></mesh>)}
+      <mesh position={[0, -0.97, 0]}><RB args={[18, 0.14, 2.2]} /><meshStandardMaterial color="#181a1f" roughness={0.5} metalness={0.6} /></mesh>
+      {Array.from({ length: 26 }, (_, k) => <mesh key={k} position={[-8.6 + ((k * 0.7 + f * 0.03) % 17.8), -0.895, 0]}><RB args={[0.06, 0.02, 2.1]} /><meshStandardMaterial color="#2c3038" /></mesh>)}
       {cajas.map((c) => {
         const mala = (c.i + Math.floor(f * 0.03 / 2.4)) % 6 === marcada;
         return (
@@ -148,7 +149,7 @@ export const Candado: React.FC<{ agujero?: boolean }> = ({ agujero = false }) =>
   const abre = interpolate(f, [28, 64], [0, 1], { extrapolateLeft: "clamp", extrapolateRight: "clamp" });
   return (
     <group position={[0, 0.1, 0]} rotation={[0, Math.sin(f / 60) * 0.18, 0]}>
-      <mesh><boxGeometry args={[1.7, 1.3, 0.6]} /><meshStandardMaterial color="#6b7079" roughness={0.4} metalness={0.8} emissive="#15171b" emissiveIntensity={0.6} /></mesh>
+      <mesh><RB args={[1.7, 1.3, 0.6]} /><meshStandardMaterial color="#6b7079" roughness={0.4} metalness={0.8} emissive="#15171b" emissiveIntensity={0.6} /></mesh>
       <group position={[0.55 - 0.55 * 0, 0.65, 0]} rotation={[0, 0, -abre * 0.45]}>
         <mesh position={[-0.55 * (1 - 0), abre * 0.28, 0]} rotation={[0, 0, 0]}><torusGeometry args={[0.55, 0.12, 16, 40, Math.PI]} /><meshStandardMaterial color="#c3c7ce" roughness={0.25} metalness={0.95} /></mesh>
       </group>
@@ -171,7 +172,7 @@ export const Apagon: React.FC = () => {
         const viva = f < t ? 1 : Math.max(0, 1 - (f - t) / 6);
         return (
           <group key={i} position={[(c - 2) * 2.3, (1 - r) * 1.5, 0]}>
-            <mesh position={[0, 0, -0.03]}><boxGeometry args={[2.1, 1.25, 0.05]} /><meshStandardMaterial color="#0b0c0f" roughness={0.3} metalness={0.7} /></mesh>
+            <mesh position={[0, 0, -0.03]}><RB args={[2.1, 1.25, 0.05]} /><meshStandardMaterial color="#0b0c0f" roughness={0.3} metalness={0.7} /></mesh>
             <mesh><planeGeometry args={[1.95, 1.1]} /><meshStandardMaterial color="#02050a" emissive="#12345f" emissiveIntensity={1.2 * viva} /></mesh>
             {viva > 0.05 && <mesh position={[0, 0, 0.01]} rotation={[0, 0, -f * 0.18 - i]}><ringGeometry args={[0.2, 0.26, 24, 1, 0, Math.PI * 1.5]} /><meshBasicMaterial color="#9fd1ff" transparent opacity={viva} /></mesh>}
           </group>
@@ -216,7 +217,7 @@ export const Rack: React.FC = () => {
     <group position={[0, 0.5, -1]}>
       {[-2.2, 0, 2.2].map((x, k) => (
         <group key={k} position={[x, 0, 0]}>
-          <mesh><boxGeometry args={[1.5, 3.2, 1.1]} /><meshStandardMaterial color="#14161b" roughness={0.4} metalness={0.7} /></mesh>
+          <mesh><RB args={[1.5, 3.2, 1.1]} /><meshStandardMaterial color="#14161b" roughness={0.4} metalness={0.7} /></mesh>
           {Array.from({ length: 14 }, (_, r) => {
             const on = (Math.floor((f + r * 5 + k * 9) / 7) % 3) !== 0;
             const v = (k === 1 ? apaga : 1);
@@ -272,20 +273,20 @@ export const Globo: React.FC = () => {
 };
 
 /** Sala de estar: sofá, lámpara, televisor encendido en azul y la cajita con su luz. */
-export const Sala: React.FC = () => {
+export const Sala: React.FC<{ pared?: boolean }> = ({ pared = true }) => {
   const f = useCurrentFrame();
   const led = (Math.floor(f / 14) % 2) === 0 ? 1 : 0.2;
   return (
     <group>
-      <mesh position={[0, 1.2, -2.6]}><planeGeometry args={[14, 5]} /><meshStandardMaterial color="#1a1f29" roughness={0.9} /></mesh>
-      <mesh position={[0, 0.6, -2.5]}><boxGeometry args={[3.6, 2.0, 0.08]} /><meshStandardMaterial color="#0b0c0f" roughness={0.3} metalness={0.7} /></mesh>
+      {pared && <mesh position={[0, 1.2, -2.6]}><planeGeometry args={[14, 5]} /><meshStandardMaterial color="#1a1f29" roughness={0.9} /></mesh>}
+      <mesh position={[0, 0.6, -2.5]}><RB args={[3.6, 2.0, 0.08]} /><meshStandardMaterial color="#0b0c0f" roughness={0.3} metalness={0.7} /></mesh>
       <mesh position={[0, 0.6, -2.45]}><planeGeometry args={[3.4, 1.85]} /><meshStandardMaterial color="#04070b" emissive="#1c4a80" emissiveIntensity={1.1 + 0.25 * Math.sin(f / 9)} /></mesh>
-      <mesh position={[0, -0.45, -2.3]}><boxGeometry args={[3.0, 0.5, 0.5]} /><meshStandardMaterial color="#2b2f38" roughness={0.6} /></mesh>
+      <mesh position={[0, -0.45, -2.3]}><RB args={[3.0, 0.5, 0.5]} /><meshStandardMaterial color="#2b2f38" roughness={0.6} /></mesh>
       <CajaStreaming pos={[0.3, -0.12, -2.2]} escala={0.8} />
-      <mesh position={[0, -0.55, 1.4]}><boxGeometry args={[3.6, 0.55, 1.3]} /><meshStandardMaterial color="#3a2f35" roughness={0.9} /></mesh>
-      <mesh position={[0, -0.05, 1.95]}><boxGeometry args={[3.6, 0.9, 0.35]} /><meshStandardMaterial color="#44363c" roughness={0.9} /></mesh>
-      <mesh position={[-1.95, -0.3, 1.5]}><boxGeometry args={[0.35, 0.8, 1.3]} /><meshStandardMaterial color="#44363c" roughness={0.9} /></mesh>
-      <mesh position={[1.95, -0.3, 1.5]}><boxGeometry args={[0.35, 0.8, 1.3]} /><meshStandardMaterial color="#44363c" roughness={0.9} /></mesh>
+      <mesh position={[0, -0.55, 1.4]}><RB args={[3.6, 0.55, 1.3]} /><meshStandardMaterial color="#3a2f35" roughness={0.9} /></mesh>
+      <mesh position={[0, -0.05, 1.95]}><RB args={[3.6, 0.9, 0.35]} /><meshStandardMaterial color="#44363c" roughness={0.9} /></mesh>
+      <mesh position={[-1.95, -0.3, 1.5]}><RB args={[0.35, 0.8, 1.3]} /><meshStandardMaterial color="#44363c" roughness={0.9} /></mesh>
+      <mesh position={[1.95, -0.3, 1.5]}><RB args={[0.35, 0.8, 1.3]} /><meshStandardMaterial color="#44363c" roughness={0.9} /></mesh>
       <mesh position={[-3.6, 0.7, -1.2]}><cylinderGeometry args={[0.03, 0.03, 3.4, 8]} /><meshStandardMaterial color="#222" /></mesh>
       <mesh position={[-3.6, 2.35, -1.2]}><coneGeometry args={[0.5, 0.5, 20, 1, true]} /><meshStandardMaterial color="#ffd9a8" emissive="#ffb866" emissiveIntensity={1.6} side={THREE.DoubleSide} /></mesh>
       <pointLight position={[-3.6, 2.1, -1.0]} color="#ffb866" intensity={7} distance={9} />
@@ -301,13 +302,13 @@ export const Estanteria: React.FC = () => {
   const mala = [[1, 2], [0, 5]];
   return (
     <group position={[0, 0.3, 0]}>
-      {[-0.9, 0.5, 1.9].map((y, r) => <mesh key={r} position={[0, y - 0.55, 0]}><boxGeometry args={[11, 0.08, 1.2]} /><meshStandardMaterial color="#59606c" metalness={0.7} roughness={0.4} /></mesh>)}
-      {[-5.4, 5.4].map((x) => <mesh key={x} position={[x, 0.5, 0]}><boxGeometry args={[0.1, 3.4, 1.2]} /><meshStandardMaterial color="#59606c" metalness={0.7} roughness={0.4} /></mesh>)}
+      {[-0.9, 0.5, 1.9].map((y, r) => <mesh key={r} position={[0, y - 0.55, 0]}><RB args={[11, 0.08, 1.2]} /><meshStandardMaterial color="#59606c" metalness={0.7} roughness={0.4} /></mesh>)}
+      {[-5.4, 5.4].map((x) => <mesh key={x} position={[x, 0.5, 0]}><RB args={[0.1, 3.4, 1.2]} /><meshStandardMaterial color="#59606c" metalness={0.7} roughness={0.4} /></mesh>)}
       {[0, 1, 2].map((r) => Array.from({ length: 8 }, (_, c) => {
         const m = mala.some(([rr, cc]) => rr === r && cc === c);
         return (
           <group key={`${r}-${c}`} position={[-4.6 + c * 1.3, [-0.9, 0.5, 1.9][r] - 0.1, 0]}>
-            <mesh><boxGeometry args={[1.0, 0.8, 0.9]} /><meshStandardMaterial color="#8a6a49" roughness={0.9} emissive={m ? C.naranja : "#2a1d10"} emissiveIntensity={m ? 0.9 + 0.4 * Math.sin(f / 7) : 0.5} /></mesh>
+            <mesh><RB args={[1.0, 0.8, 0.9]} /><meshStandardMaterial color="#8a6a49" roughness={0.9} emissive={m ? C.naranja : "#2a1d10"} emissiveIntensity={m ? 0.9 + 0.4 * Math.sin(f / 7) : 0.5} /></mesh>
             <mesh position={[0, 0.05, 0.46]}><planeGeometry args={[0.7, 0.3]} /><meshStandardMaterial color="#e9e3d3" emissive="#8f8a7c" emissiveIntensity={0.6} /></mesh>
             {m && <pointLight position={[0, 0.2, 0.9]} color={C.naranja} intensity={4} distance={3.5} />}
           </group>
@@ -326,11 +327,11 @@ export const Avalancha: React.FC = () => {
   return (
     <group position={[0, 0, -1]}>
       <group position={[3.2, 0.3, 0]}>
-        <mesh><boxGeometry args={[1.5, 3.0, 1.1]} /><meshStandardMaterial color="#1b1e25" roughness={0.4} metalness={0.7} /></mesh>
+        <mesh><RB args={[1.5, 3.0, 1.1]} /><meshStandardMaterial color="#1b1e25" roughness={0.4} metalness={0.7} /></mesh>
         {Array.from({ length: 10 }, (_, r) => <mesh key={r} position={[0, 1.2 - r * 0.24, 0.56]}><planeGeometry args={[1.25, 0.12]} /><meshStandardMaterial color="#05070a" emissive={mezcla(C.cian, C.rojo, sat)} emissiveIntensity={1.0 + 2 * sat * ((f + r * 3) % 6 < 3 ? 1 : 0.3)} /></mesh>)}
         <pointLight position={[-1, 0.5, 1.5]} color={mezcla(C.cian, C.rojo, sat)} intensity={6} distance={8} />
       </group>
-      {Array.from({ length: 6 }, (_, k) => <mesh key={k} position={[-5.6 + (k % 3) * 0.8, -0.8, -2 + Math.floor(k / 3) * 2.4]}><boxGeometry args={[0.6, 0.45, 0.6]} /><meshStandardMaterial color="#39424f" emissive="#202733" emissiveIntensity={0.8} /></mesh>)}
+      {Array.from({ length: 6 }, (_, k) => <mesh key={k} position={[-5.6 + (k % 3) * 0.8, -0.8, -2 + Math.floor(k / 3) * 2.4]}><RB args={[0.6, 0.45, 0.6]} /><meshStandardMaterial color="#39424f" emissive="#202733" emissiveIntensity={0.8} /></mesh>)}
       {Array.from({ length: n }, (_, i) => {
         const o = rnd("o" + i), vis = (i / n) < sat;
         if (!vis) return null;
@@ -355,11 +356,11 @@ export const Cable: React.FC = () => {
         return <mesh key={i} position={p}><sphereGeometry args={[0.1, 12, 12]} /><meshStandardMaterial color="#000" emissive={C.naranja} emissiveIntensity={3} /></mesh>;
       })}
       <group position={fin} quaternion={new THREE.Quaternion().setFromUnitVectors(new THREE.Vector3(1, 0, 0), tan)}>
-        <mesh position={[0.28, 0, 0]}><boxGeometry args={[0.6, 0.3, 0.26]} /><meshStandardMaterial color="#cfe6f2" transparent opacity={0.55} roughness={0.1} emissive="#4f7f9a" emissiveIntensity={0.7} /></mesh>
-        {Array.from({ length: 8 }, (_, i) => <mesh key={i} position={[0.42, -0.1 + i * 0.026 - 0.01, 0]}><boxGeometry args={[0.18, 0.012, 0.2]} /><meshStandardMaterial color="#d9a441" metalness={0.9} roughness={0.25} emissive="#ff8a1f" emissiveIntensity={1.1} /></mesh>)}
+        <mesh position={[0.28, 0, 0]}><RB args={[0.6, 0.3, 0.26]} /><meshStandardMaterial color="#cfe6f2" transparent opacity={0.55} roughness={0.1} emissive="#4f7f9a" emissiveIntensity={0.7} /></mesh>
+        {Array.from({ length: 8 }, (_, i) => <mesh key={i} position={[0.42, -0.1 + i * 0.026 - 0.01, 0]}><RB args={[0.18, 0.012, 0.2]} /><meshStandardMaterial color="#d9a441" metalness={0.9} roughness={0.25} emissive="#ff8a1f" emissiveIntensity={1.1} /></mesh>)}
       </group>
-      <mesh position={[3.1, 0.35, 0]}><boxGeometry args={[2.6, 0.5, 1.3]} /><meshStandardMaterial color="#2c3139" roughness={0.4} metalness={0.5} emissive="#161a21" emissiveIntensity={0.8} /></mesh>
-      {[-0.8, -0.35, 0.1, 0.55, 1.0].map((z, i) => <mesh key={i} position={[1.78, 0.38, z * 0.6]}><boxGeometry args={[0.04, 0.16, 0.2]} /><meshStandardMaterial color="#000" emissive={i === 2 ? C.naranja : C.cian} emissiveIntensity={(Math.floor((f + i * 5) / 10) % 2) ? 2.5 : 0.5} /></mesh>)}
+      <mesh position={[3.1, 0.35, 0]}><RB args={[2.6, 0.5, 1.3]} /><meshStandardMaterial color="#2c3139" roughness={0.4} metalness={0.5} emissive="#161a21" emissiveIntensity={0.8} /></mesh>
+      {[-0.8, -0.35, 0.1, 0.55, 1.0].map((z, i) => <mesh key={i} position={[1.78, 0.38, z * 0.6]}><RB args={[0.04, 0.16, 0.2]} /><meshStandardMaterial color="#000" emissive={i === 2 ? C.naranja : C.cian} emissiveIntensity={(Math.floor((f + i * 5) / 10) % 2) ? 2.5 : 0.5} /></mesh>)}
       <pointLight position={[0, 1.6, 2.4]} color="#9fc4ff" intensity={5} distance={10} />
     </group>
   );
@@ -370,11 +371,11 @@ export const Codigo: React.FC = () => {
   const f = useCurrentFrame();
   const panel = (x: number, z: number, ry: number, semilla: string, inicio: number) => (
     <group position={[x, 0.6, z]} rotation={[0, ry, 0]}>
-      <mesh><boxGeometry args={[3.6, 2.4, 0.06]} /><meshStandardMaterial color="#0b0f16" roughness={0.4} metalness={0.6} emissive="#0c1624" emissiveIntensity={0.9} /></mesh>
+      <mesh><RB args={[3.6, 2.4, 0.06]} /><meshStandardMaterial color="#0b0f16" roughness={0.4} metalness={0.6} emissive="#0c1624" emissiveIntensity={0.9} /></mesh>
       {Array.from({ length: 14 }, (_, i) => {
         const w = 0.4 + rnd(semilla + i) * 2.2, sangria = (rnd(semilla + "s" + i) > 0.55 ? 0.35 : 0), hot = rnd(semilla + "h" + i) > 0.86;
         const k = interpolate(f, [inicio + i * 4, inicio + i * 4 + 6], [0, 1], { extrapolateLeft: "clamp", extrapolateRight: "clamp" });
-        return <mesh key={i} position={[-1.6 + sangria + (w * k) / 2, 1.0 - i * 0.15, 0.04]}><boxGeometry args={[Math.max(0.001, w * k), 0.055, 0.01]} /><meshStandardMaterial color="#000" emissive={hot ? C.naranja : C.cian} emissiveIntensity={hot ? 2.2 : 1.5} /></mesh>;
+        return <mesh key={i} position={[-1.6 + sangria + (w * k) / 2, 1.0 - i * 0.15, 0.04]}><RB args={[Math.max(0.001, w * k), 0.055, 0.01]} /><meshStandardMaterial color="#000" emissive={hot ? C.naranja : C.cian} emissiveIntensity={hot ? 2.2 : 1.5} /></mesh>;
       })}
     </group>
   );

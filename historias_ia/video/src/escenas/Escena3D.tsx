@@ -1,8 +1,10 @@
 import React, { useMemo } from "react";
 import { AbsoluteFill, interpolate, random, useCurrentFrame, useVideoConfig } from "remotion";
 import { ThreeCanvas } from "@remotion/three";
+import { Img, staticFile } from "remotion";
 import { useThree } from "@react-three/fiber";
 import * as THREE from "three";
+import { Entorno, RB, SombrasAuto } from "./Realismo";
 import { C } from "../estilo";
 import { Antena, Calendario, CamaraSeguridad, Dinero, Dominos, Engranajes, Escudo, Hdmi, Latido, Llave, Lupa, Mando, Movil, Nube, Ojo, Paquetes, PcAntiguo, Placa, Password, Reloj, Router, TvPlay } from "./Objetos3D_b";
 import { Apagon, Avalancha, Cable, Candado, Codigo, Estanteria, Globo, Sala, CajaStreaming, CasasRed, Duplicacion, Fabrica, Laptop, Manometro, Pulsos, Rack, Radar } from "./Objetos3D";
@@ -17,8 +19,9 @@ const Camara: React.FC<{ desde: [number, number, number]; hasta: [number, number
   const e = t * t * (3 - 2 * t) * 0.6 + t * 0.4;
   const p = desde.map((d, i) => d + (hasta[i] - d) * e);
   const deriva = Math.sin(f / 70) * 0.04;
-  camera.position.set(p[0] + deriva, p[1] + deriva * 0.6, p[2]);
   const m = miraHasta ? mira.map((v, i) => v + (miraHasta[i] - v) * e) : mira;
+  const Z = 0.78;                                                   // plano mas cerrado, como el objeto 'protagonista' del video de referencia
+  camera.position.set(m[0] + (p[0] - m[0]) * Z + deriva, m[1] + (p[1] - m[1]) * Z + deriva * 0.6, m[2] + (p[2] - m[2]) * Z);
   camera.lookAt(m[0], m[1], m[2]);
   camera.updateProjectionMatrix();
   return null;
@@ -37,11 +40,11 @@ const CajaTV: React.FC = () => {
   return (
     <group>
       {/* televisor apagado */}
-      <mesh position={[0, 0.9, -1.2]}><boxGeometry args={[4.2, 2.4, 0.08]} /><meshStandardMaterial color="#0c0d10" roughness={0.3} metalness={0.6} /></mesh>
+      <mesh position={[0, 0.9, -1.2]}><RB args={[4.2, 2.4, 0.08]} /><meshStandardMaterial color="#0c0d10" roughness={0.3} metalness={0.6} /></mesh>
       <mesh position={[0, 0.9, -1.15]}><planeGeometry args={[4.0, 2.2]} /><meshStandardMaterial color="#05070b" roughness={0.05} metalness={1} emissive="#10243a" emissiveIntensity={1.1} /></mesh>
-      <mesh position={[0, -0.35, -1.2]}><boxGeometry args={[0.5, 0.35, 0.3]} /><meshStandardMaterial color="#0a0a0c" roughness={0.4} metalness={0.8} /></mesh>
+      <mesh position={[0, -0.35, -1.2]}><RB args={[0.5, 0.35, 0.3]} /><meshStandardMaterial color="#0a0a0c" roughness={0.4} metalness={0.8} /></mesh>
       {/* caja de streaming */}
-      <mesh position={[0, -0.78, 0.2]}><boxGeometry args={[1.5, 0.22, 1.1]} /><meshStandardMaterial color="#2a2d34" roughness={0.45} metalness={0.35} /></mesh>
+      <mesh position={[0, -0.78, 0.2]}><RB args={[1.5, 0.22, 1.1]} /><meshStandardMaterial color="#2a2d34" roughness={0.45} metalness={0.35} /></mesh>
       <mesh position={[0.52, -0.67, 0.76]}><sphereGeometry args={[0.035, 16, 16]} /><meshStandardMaterial color={C.naranja} emissive={C.naranja} emissiveIntensity={6 * led} /></mesh>
       <pointLight position={[-1.5, 0.6, 1.5]} color="#4f8fd8" intensity={2.2} distance={8} decay={2} />
       <pointLight position={[0.52, -0.55, 0.9]} color={C.naranja} intensity={9 * led} distance={7} decay={2} />
@@ -95,8 +98,8 @@ const Puerta: React.FC = () => {
   const abre = interpolate(f, [30, 110], [0, 1.2], { extrapolateLeft: "clamp", extrapolateRight: "clamp" });
   return (
     <group>
-      <mesh position={[0, 1, -2]}><boxGeometry args={[5, 3.6, 0.2]} /><meshStandardMaterial color="#090a0c" roughness={0.8} /></mesh>
-      <group position={[-1, 0, -1.85]} rotation={[0, abre, 0]}><mesh position={[1, 0.95, 0]}><boxGeometry args={[2, 3.1, 0.08]} /><meshStandardMaterial color="#14110e" roughness={0.6} metalness={0.2} /></mesh></group>
+      <mesh position={[0, 1, -2]}><RB args={[5, 3.6, 0.2]} /><meshStandardMaterial color="#090a0c" roughness={0.8} /></mesh>
+      <group position={[-1, 0, -1.85]} rotation={[0, abre, 0]}><mesh position={[1, 0.95, 0]}><RB args={[2, 3.1, 0.08]} /><meshStandardMaterial color="#14110e" roughness={0.6} metalness={0.2} /></mesh></group>
       <mesh position={[0, 0.95, -2.05]}><planeGeometry args={[2, 3.1]} /><meshStandardMaterial color="#000" emissive={C.naranja} emissiveIntensity={abre * 2.2} /></mesh>
       <pointLight position={[0, 1, -1.5]} color={C.naranja} intensity={abre * 30} distance={10} />
     </group>
@@ -112,7 +115,7 @@ const PantallaRota: React.FC = () => {
       <mesh position={[0, 0.9, -0.3]}><planeGeometry args={[4, 2.2]} /><meshStandardMaterial color="#000" emissive={C.naranja} emissiveIntensity={1.4} /></mesh>
       {trozos.map((t, i) => (
         <mesh key={i} position={[t.p[0] * (1 + rompe * 0.5), t.p[1] + rompe * (random(`d${i}`) - 0.7) * 1.2, rompe * (0.2 + random(`q${i}`) * 2.2)]} rotation={[t.r[0] * rompe, t.r[1] * rompe, t.r[2] * rompe]}>
-          <boxGeometry args={[t.s, t.s * 0.8, 0.01]} /><meshPhysicalMaterial color="#9fb8c8" transmission={0.9} roughness={0.05} metalness={0} transparent opacity={0.55} />
+          <RB args={[t.s, t.s * 0.8, 0.01]} /><meshPhysicalMaterial color="#9fb8c8" transmission={0.9} roughness={0.05} metalness={0} transparent opacity={0.55} />
         </mesh>
       ))}
     </group>
@@ -234,23 +237,48 @@ const LUZ: Record<Luz, { fondo: string; ambiente: number; relleno: number; suelo
   clara: { fondo: "#2c3a52", ambiente: 3.0, relleno: 3.6, suelo: "#3a4658", hemi: 2.0 },
 };
 
-export const Escena3D: React.FC<{ objeto: Objeto3D; infeccion?: number; luz?: Luz; inv?: boolean }> = ({ objeto, infeccion = 120, luz = "noche", inv = false }) => {
+/** Fondo de FOTO REAL (habitacion / lugar) detras del 3D: desenfoque leve, gradacion segun la luz y un lento empuje de camara. */
+const FondoFoto: React.FC<{ archivo: string; luz: Luz; pos?: string }> = ({ archivo, luz, pos = "50% 50%" }) => {
+  const f = useCurrentFrame(); const { durationInFrames } = useVideoConfig();
+  const t = interpolate(f, [0, durationInFrames], [0, 1]);
+  const br = { noche: 0.66, media: 0.8, clara: 0.95 }[luz];
+  return (
+    <AbsoluteFill style={{ overflow: "hidden", background: "#0b0e14" }}>
+      <Img src={staticFile(archivo)} style={{ width: "100%", height: "100%", objectFit: "cover", objectPosition: pos, transform: `scale(${1.04 + 0.07 * t})`,
+        filter: `blur(4px) brightness(${br}) contrast(1.06) saturate(0.95)` }} />
+    </AbsoluteFill>
+  );
+};
+
+/** sombra suave en el suelo bajo el objeto (para que no flote sobre la foto) */
+const SombraSuelo: React.FC = () => (
+  <group position={[0, -0.985, 0]} rotation={[-Math.PI / 2, 0, 0]}>
+    {[[3.4, 0.10], [2.4, 0.12], [1.5, 0.14]].map(([r, o], i) => <mesh key={i}><circleGeometry args={[r, 48]} /><meshBasicMaterial color="#000" transparent opacity={o} depthWrite={false} /></mesh>)}
+  </group>
+);
+
+export const Escena3D: React.FC<{ objeto: Objeto3D; infeccion?: number; luz?: Luz; inv?: boolean; fondo?: string; fondoPos?: string }> = ({ objeto, infeccion = 120, luz = "noche", inv = false, fondo, fondoPos }) => {
   const L = LUZ[luz];
   const { width, height, durationInFrames } = useVideoConfig();
   const c0 = (CAMS_NUEVAS[objeto] ?? CONFIG[objeto])!;
   const c: Cam = inv ? { ...c0, desde: c0.hasta, hasta: c0.desde, mira: c0.miraHasta ?? c0.mira, miraHasta: c0.miraHasta ? c0.mira : undefined } : c0;
   return (
     <AbsoluteFill style={{ background: L.fondo }}>
+      {fondo && <FondoFoto archivo={fondo} luz={luz} pos={fondoPos} />}
       <div style={{ width: width * GL_K, height: height * GL_K, transform: `scale(${1 / GL_K})`, transformOrigin: "0 0" }}>
-      <ThreeCanvas width={width * GL_K} height={height * GL_K} camera={{ fov: 38, near: 0.1, far: 80, position: c.desde }} gl={{ antialias: false }}>
-        <color attach="background" args={[L.fondo]} />
-        <fog attach="fog" args={[L.fondo, 7, 22]} />
-        <ambientLight intensity={L.ambiente} />
-        <hemisphereLight args={["#bcd4ff", "#201a18", L.hemi]} />
-        <directionalLight position={[-4, 5, 4]} intensity={L.relleno} color="#6aa8ff" />
+      <ThreeCanvas width={width * GL_K} height={height * GL_K} camera={{ fov: 38, near: 0.1, far: 80, position: c.desde }} shadows gl={{ antialias: false, alpha: !!fondo }}>
+        {!fondo && <color attach="background" args={[L.fondo]} />}
+        {!fondo && <fog attach="fog" args={[L.fondo, 7, 22]} />}
+        <Entorno intensidad={0.55 + 0.12 * (L.ambiente - 1.5)} />
+        <ambientLight intensity={L.ambiente * 0.45} />
+        <hemisphereLight args={["#bcd4ff", "#201a18", L.hemi * 0.5]} />
+        <directionalLight position={[-4, 5, 4]} intensity={L.relleno * 0.6} color="#7fb0ff" />
+        <directionalLight position={[3, 6, 5]} intensity={2.3} color="#fff1dc" castShadow shadow-mapSize={[512, 512]} shadow-camera-left={-7} shadow-camera-right={7} shadow-camera-top={7} shadow-camera-bottom={-7} shadow-camera-near={1} shadow-camera-far={22} shadow-bias={-0.0004} />
         <directionalLight position={[5, 2, 3]} intensity={0.35} color="#ffb48a" />
         <Camara desde={c.desde} hasta={c.hasta} mira={c.mira} miraHasta={c.miraHasta} total={durationInFrames} />
-        {objeto !== "manometro" && <Suelo color={L.suelo} />}
+        {objeto !== "manometro" && !fondo && <Suelo color={L.suelo} />}
+        {fondo && objeto !== "manometro" && <mesh rotation={[-Math.PI / 2, 0, 0]} position={[0, -0.985, 0]} receiveShadow><planeGeometry args={[40, 40]} /><shadowMaterial opacity={0.5} /></mesh>}
+        <SombrasAuto>
         {(objeto === "caja_tv" || objeto === "caja_led") && <CajaTV />}
         {objeto === "nucleo" && <Nucleo />}
         {objeto === "intrusion" && <Intrusion />}
@@ -282,7 +310,7 @@ export const Escena3D: React.FC<{ objeto: Objeto3D; infeccion?: number; luz?: Lu
         {objeto === "ojo" && <Ojo />}
         {objeto === "tv_play" && <TvPlay />}
 
-        {objeto === "sala" && <Sala />}
+        {objeto === "sala" && <Sala pared={!fondo} />}
         {objeto === "estanteria" && <Estanteria />}
         {objeto === "avalancha" && <Avalancha />}
         {objeto === "cable" && <Cable />}
@@ -297,6 +325,7 @@ export const Escena3D: React.FC<{ objeto: Objeto3D; infeccion?: number; luz?: Lu
         {objeto === "red" && <Red infeccion={infeccion} />}
         {objeto === "puerta" && <Puerta />}
         {objeto === "pantalla_rota" && <PantallaRota />}
+        </SombrasAuto>
       </ThreeCanvas>
       </div>
     </AbsoluteFill>

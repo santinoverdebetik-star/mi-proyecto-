@@ -48,6 +48,39 @@ TODOS_3D = ["globo", "cable", "codigo", "sala", "estanteria", "avalancha", "casa
 FAMILIA = {"candado_agujero": "candado"}          # candado y candado_agujero cuentan como el mismo clip
 MAX_USOS = 1                                      # REGLA DEL USUARIO (para todos los videos): ningun clip 3D se repite
 MAX_CLIP = 5.0                                    # pedido del usuario: clips 3D ~2 s mas cortos (antes 7 s)
+OBJ_CATS = {  # objeto 3D -> tipos de lugar real donde tiene sentido verlo (el primero es el preferido)
+    "sala": ["sala"], "caja_tv": ["sala"], "caja_led": ["sala", "oficina_casa"], "reloj": ["sala", "oficina_casa"], "ojo": ["pasillo", "lobby"],
+    "intrusion": ["oficina_casa", "sala"], "contagio": ["oficina_casa", "biblioteca"], "dominos": ["aula", "biblioteca"], "nucleo": ["datacenter", "pasillo"],
+    "engranajes": ["fabrica"], "placa": ["fabrica", "datacenter"], "manometro": ["fabrica", "pasillo"], "lupa": ["biblioteca", "aula"], "escudo": ["lobby", "estacion"],
+    "globo": ["aula", "biblioteca"], "calendario": ["oficina_casa", "aula"], "casas_red": ["ventana_noche", "calle_noche"], "antena": ["ventana_noche", "calle_noche"],
+    "cable": ["oficina_casa", "datacenter"], "estanteria": ["tienda"], "hdmi": ["sala"], "tv_play": ["sala", "cafe"], "nube": ["ventana_noche", "aeropuerto"],
+    "fabrica": ["fabrica"], "paquetes": ["datacenter", "centro_comercial"], "dinero": ["tienda", "cafe"], "codigo": ["oficina_casa", "datacenter"],
+    "avalancha": ["datacenter", "centro_comercial"], "password": ["oficina_casa", "sala"], "candado": ["pasillo", "calle_noche"], "candado_agujero": ["pasillo"],
+    "puerta": ["pasillo", "lobby"], "apagon": ["centro_comercial", "estacion"], "latido": ["pasillo", "sala"], "red": ["ventana_noche", "calle_noche"],
+    "radar": ["ventana_noche", "aeropuerto"], "duplicacion": ["aula", "biblioteca"], "rack": ["datacenter"], "cajas15": ["tienda", "fabrica"],
+    "pantalla_rota": ["pasillo", "estacion"], "router": ["sala", "pasillo"], "camara": ["calle_noche", "lobby", "estacion"], "movil": ["cafe", "sala"],
+    "pc_antiguo": ["biblioteca", "aula"], "llave": ["pasillo", "lobby"], "mando": ["sala"],
+}
+POS = ["50% 50%", "35% 55%", "65% 50%", "50% 40%", "40% 60%", "60% 45%"]
+
+
+def asignar_fondos(escenas, raiz_video):
+    """foto REAL de fondo para cada clip 3D (habitacion o lugar acorde al objeto) y para los titulares; no se repite foto mientras queden sin usar"""
+    ruta = os.path.join(raiz_video, "public", "fondos", "fondos.json")
+    if not os.path.exists(ruta): print("AVISO: no hay fondos reales (public/fondos/fondos.json)"); return
+    mapa = json.load(open(ruta)); usos = {f: 0 for f in mapa}; ult = None
+    def elegir(cats):
+        cand = [f for f, c in mapa.items() if c in cats] or list(mapa)
+        cand.sort(key=lambda f: (usos[f], f == ult))
+        return cand[0]
+    for i, e in enumerate(escenas):
+        if e["tipo"] == "3d": cats = OBJ_CATS.get(e["objeto"], ["sala"])
+        elif e["tipo"] == "titular": cats = ["calle_noche", "ventana_noche", "estacion", "centro_comercial"]
+        else: continue
+        f = elegir(cats); usos[f] += 1; ult = f; e["fondo"] = f
+        if e["tipo"] == "3d": e["fondoPos"] = POS[i % len(POS)]
+
+
 DIAG_CASA = {"tipo": "diagrama", "titulo": "Una casa. Cinco dispositivos.", "nodos": [
     {"id": "casa", "x": 960, "y": 520, "icono": "casa", "etiqueta": "tu casa"}, {"id": "tv", "x": 960, "y": 880, "icono": "tv", "etiqueta": "caja tv"},
     {"id": "pc", "x": 1400, "y": 780, "icono": "pc", "etiqueta": "laptop"}, {"id": "movil", "x": 1460, "y": 330, "icono": "movil", "etiqueta": "móvil"},
@@ -155,7 +188,7 @@ def alinear(audio, lineas):
 
 
 # ---------------------------------------------------------------- mezcla + props
-def mezclar(audio, inicios_escena, golpes, salida_mp3, segmentos=None, nivel_musica=0.38, bajar_desde=((166.0, 0.70),)):
+def mezclar(audio, inicios_escena, golpes, salida_mp3, segmentos=None, nivel_musica=0.24, bajar_desde=((166.0, 0.75),)):
     """voz + MUSICA DE AVENTURA audible (se baja un poco mientras habla la voz, 'ducking') + glitch en cada corte + riser/golpe en titulares"""
     import musica_aventura as mus
     SR = am.SR
@@ -236,6 +269,7 @@ def main():
             if t_fin - t_med > 0.05:                               # el titular/diagrama no se queda quieto toda la frase: sigue un clip 3D variado
                 trozos(t_med, t_fin, base.get("_relleno", []), "media")
     escenas[0]["dur"] = round(escenas[0]["dur"] + inicios[0], 3); inicios[0] = 0.0       # cubre el silencio inicial
+    asignar_fondos(escenas, a.salida)
     mp3 = os.path.join(pub, "mezcla.mp3")
     segs = [(inicios[i], (inicios[i + 1] if i + 1 < len(inicios) else dur), escenas[i].get("luz", "media")) for i in range(len(escenas))]
     D = mezclar(audio, inicios, golpes, mp3, segs)
