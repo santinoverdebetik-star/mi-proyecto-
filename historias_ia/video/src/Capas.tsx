@@ -11,7 +11,7 @@ export const Fuentes: React.FC = () => (
 );
 
 /** viñeta + grano de pelicula + polvo flotante: va encima de TODAS las escenas para unificar el look */
-export const Acabado: React.FC<{ vineta?: number; grano?: number }> = ({ vineta = 0.75, grano = 0.07 }) => {
+export const Acabado: React.FC<{ vineta?: number; grano?: number }> = ({ vineta = 0.5, grano = 0.06 }) => {
   const f = useCurrentFrame();
   const semilla = Math.floor(f / 2);                                   // el grano cambia cada 2 fotogramas (look de 15 fps)
   const polvo = Array.from({ length: 26 }, (_, i) => {

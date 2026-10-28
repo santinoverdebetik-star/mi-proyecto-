@@ -8,12 +8,12 @@ Guion **original** (no es traducción del video de referencia). Los hechos está
 
 ## PARTE 1 — LA LUZ QUE PARPADEA (gancho, ~1 min)
 
-<!-- 3D caja_tv · noche -->
+<!-- 3D sala+caja_tv · media -->
 Imagina que es de noche.
 El televisor está apagado.
 Pero la lucecita de la cajita de streaming sigue parpadeando.
 
-<!-- 3D caja_led · noche -->
+<!-- 3D caja_led · media -->
 Parece una luz de espera. Una luz inocente.
 Nadie en esta casa sospecha que no está esperando nada.
 
@@ -21,15 +21,15 @@ Nadie en esta casa sospecha que no está esperando nada.
 Desde hace tres horas, esa caja intenta entrar en tu computadora.
 Y tú no tienes ni idea.
 
-<!-- 3D intrusion · noche -->
+<!-- 3D intrusion+contagio · media -->
 Si lo consigue, tu laptop será la siguiente máquina que intente infectar a otra.
 Y la siguiente, a otra más.
 
-<!-- 3D contagio · noche -->
+<!-- 3D nucleo · media -->
 Esto no es una escena de película.
 Es un escenario para el que ya existen, por separado, casi todas las piezas.
 
-<!-- 3D manometro · media -->
+<!-- 3D manometro · clara -->
 Los investigadores que estudian esto creen que estamos peligrosamente cerca.
 Y una prueba reciente de laboratorio, hecha por Anthropic, la empresa que creó a Claude, nos da una razón incómoda para tomarlos en serio.
 
@@ -44,12 +44,12 @@ Y más real.
 <!-- titular: ENERO / 2026 · media -->
 En enero de 2026, una empresa de seguridad llamada Synthient publicó una cifra que debería haber ocupado todas las portadas.
 
-<!-- 3D casas_red (ventanas que se encienden en naranja) · media -->
+<!-- 3D globo+casas_red (el planeta y las ventanas que se encienden en naranja) · media -->
 Más de dos millones de dispositivos infectados, repartidos por todo el planeta.
 Dos millones de salas de estar. Dos millones de televisores con una cajita parpadeando debajo.
 La red tenía nombre: Kimwolf.
 
-<!-- 3D caja_led · media -->
+<!-- 3D estanteria+sala (comprar una caja barata, enchufarla, elegir una película) · media -->
 Y lo más inquietante no era su tamaño.
 Era lo poco que tuvo que hacer cada dueño para entrar en ella.
 Comprar una caja barata de Android para el televisor.
@@ -57,7 +57,7 @@ Enchufarla.
 Elegir una película.
 Y, en algún lugar al otro lado del mundo, alguien ya podía usar ese aparato para sus propios fines.
 
-<!-- 3D fabrica (cajas en una cinta, una brilla en naranja) · media -->
+<!-- 3D fabrica+estanteria (cajas en una cinta, una brilla en naranja) · media -->
 ¿Cómo llega una caja de tu sala a manos de un desconocido?
 Según los investigadores, en muchos casos ni siquiera hacía falta hackearla.
 Algunas ya venían así desde la fábrica.
@@ -69,7 +69,7 @@ Otras estaban tan mal protegidas que ni siquiera pedían contraseña.
 Dos de cada tres equipos infectados eran este tipo de cajas genéricas, sin marca, sin seguridad.
 Cualquiera podía entrar. Y entraron.
 
-<!-- 3D apagon (pantallas que se apagan una a una) · noche -->
+<!-- 3D avalancha+apagon (peticiones hacia un servidor; pantallas que se apagan) · media -->
 ¿Y para qué las usaban?
 Lo más simple: para atacar.
 Cuando una web se cae bajo una avalancha de peticiones, esas peticiones tienen que salir de algún sitio.
@@ -82,7 +82,7 @@ El acceso a la conexión de internet de esas personas se estaba revendiendo.
 Alguien podía pagar para navegar como si estuviera sentado en tu casa. Con tu dirección. Con tu conexión.
 Y si ese invitado hace algo ilegal, el rastro termina en tu puerta.
 
-<!-- 3D candado (la cerradura con un agujero; luz naranja por el agujero) · noche -->
+<!-- 3D candado (la cerradura con un agujero; luz naranja por el agujero)+cable · media -->
 Después, la investigación encontró el detalle más extraño de todos.
 Muchas de esas cajas ya traían un programa que alquilaba su conexión a desconocidos.
 No era parte del virus. Ya estaba ahí antes de que el virus llegara.
@@ -95,7 +95,7 @@ En Kimwolf no había una sola gota de inteligencia artificial.
 Era malware común. Cada cosa que hizo, un humano la había escrito de antemano.
 Y aun así tomó dos millones de dispositivos.
 
-<!-- 3D red · noche -->
+<!-- 3D codigo+red (nada escrito de antemano) · media -->
 Ahora imagina un programa que no necesita nada escrito de antemano.
 Que mira a su alrededor, entiende dónde ha caído, y decide por sí mismo qué hacer después.
 

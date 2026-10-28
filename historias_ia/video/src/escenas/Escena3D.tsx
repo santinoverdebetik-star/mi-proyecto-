@@ -4,9 +4,9 @@ import { ThreeCanvas } from "@remotion/three";
 import { useThree } from "@react-three/fiber";
 import * as THREE from "three";
 import { C } from "../estilo";
-import { Apagon, Candado, CajaStreaming, CasasRed, Duplicacion, Fabrica, Laptop, Manometro, Pulsos, Rack, Radar } from "./Objetos3D";
+import { Apagon, Avalancha, Cable, Candado, Codigo, Estanteria, Globo, Sala, CajaStreaming, CasasRed, Duplicacion, Fabrica, Laptop, Manometro, Pulsos, Rack, Radar } from "./Objetos3D";
 
-export type Objeto3D = "casas_red" | "fabrica" | "candado" | "candado_agujero" | "apagon" | "duplicacion" | "rack" | "radar" | "intrusion" | "contagio" | "manometro" | "cajas15" | "caja_led" | "caja_tv" | "nucleo" | "red" | "puerta" | "pantalla_rota";
+export type Objeto3D = "globo" | "sala" | "estanteria" | "avalancha" | "cable" | "codigo" | "casas_red" | "fabrica" | "candado" | "candado_agujero" | "apagon" | "duplicacion" | "rack" | "radar" | "intrusion" | "contagio" | "manometro" | "cajas15" | "caja_led" | "caja_tv" | "nucleo" | "red" | "puerta" | "pantalla_rota";
 
 /** Camara que se acerca con un leve arco (dolly + deriva), como los planos lentos del video de referencia. */
 const Camara: React.FC<{ desde: [number, number, number]; hasta: [number, number, number]; mira: [number, number, number]; miraHasta?: [number, number, number]; total: number }> = ({ desde, hasta, mira, miraHasta, total }) => {
@@ -170,6 +170,12 @@ const Cajas15: React.FC = () => {
 
 type Cam = { desde: [number, number, number]; hasta: [number, number, number]; mira: [number, number, number]; miraHasta?: [number, number, number] };
 const CAMS_NUEVAS: Record<string, Cam> = {
+  globo: { desde: [0, 0.9, 6.2], hasta: [0.6, 0.9, 4.4], mira: [0, 0.7, 0] },
+  sala: { desde: [-2.5, 1.5, 9.0], hasta: [1.6, 1.0, 7.0], mira: [0, 0.2, -1.5], miraHasta: [0.2, 0.1, -2] },
+  estanteria: { desde: [-4.2, 1.2, 6.2], hasta: [3.2, 0.9, 5.4], mira: [-1, 0.5, 0], miraHasta: [1.5, 0.5, 0] },
+  avalancha: { desde: [-1.0, 1.6, 9.0], hasta: [1.2, 1.0, 7.0], mira: [0, 0.4, -1] },
+  cable: { desde: [-3.6, 1.0, 4.6], hasta: [1.2, 0.8, 4.2], mira: [-1.5, 0.0, 0.5], miraHasta: [1.8, 0.3, 0] },
+  codigo: { desde: [0, 0.7, 7.2], hasta: [0.2, 0.7, 5.2], mira: [0, 0.6, -0.5] },
   casas_red: { desde: [-5, 5.6, 6.8], hasta: [4, 4.4, 5.2], mira: [0, -0.6, -2], miraHasta: [1, -0.8, -2.5] },
   fabrica: { desde: [-3.5, 0.9, 5.2], hasta: [2.6, 0.2, 3.9], mira: [0, -0.6, 0], miraHasta: [1.2, -0.7, 0] },
   candado: { desde: [1.2, 0.8, 8.2], hasta: [0.4, 0.5, 6.0], mira: [0, 0.4, 0] },
@@ -199,8 +205,8 @@ const GL_K = 0.6;
 /** Nivel de luz segun lo que cuenta la narracion: "noche" = amenaza/misterio, "media" = explicacion, "clara" = datos/ciencia/respiro. */
 export type Luz = "noche" | "media" | "clara";
 const LUZ: Record<Luz, { fondo: string; ambiente: number; relleno: number; suelo: string; hemi: number }> = {
-  noche: { fondo: C.negro, ambiente: 0.55, relleno: 0.9, suelo: "#07080a", hemi: 0 },
-  media: { fondo: "#141c29", ambiente: 1.7, relleno: 2.4, suelo: "#222a37", hemi: 1.0 },
+  noche: { fondo: "#101826", ambiente: 1.5, relleno: 2.0, suelo: "#1b2230", hemi: 0.8 },
+  media: { fondo: "#1a2536", ambiente: 2.2, relleno: 2.8, suelo: "#2a3445", hemi: 1.4 },
   clara: { fondo: "#2c3a52", ambiente: 3.0, relleno: 3.6, suelo: "#3a4658", hemi: 2.0 },
 };
 
@@ -228,6 +234,12 @@ export const Escena3D: React.FC<{ objeto: Objeto3D; infeccion?: number; luz?: Lu
         {objeto === "manometro" && <Manometro total={durationInFrames} />}
         {objeto === "cajas15" && <Cajas15 />}
         {objeto === "casas_red" && <CasasRed />}
+        {objeto === "globo" && <Globo />}
+        {objeto === "sala" && <Sala />}
+        {objeto === "estanteria" && <Estanteria />}
+        {objeto === "avalancha" && <Avalancha />}
+        {objeto === "cable" && <Cable />}
+        {objeto === "codigo" && <Codigo />}
         {objeto === "fabrica" && <Fabrica />}
         {objeto === "candado" && <Candado />}
         {objeto === "candado_agujero" && <Candado agujero />}

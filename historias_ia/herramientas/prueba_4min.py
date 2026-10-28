@@ -40,7 +40,12 @@ def leer_bloques(n_lineas):
     return [b for b in bloques if b[1]]
 
 
-ALIAS = {"laptop": "contagio", "pantalla": "pantalla_rota", "cajas15": "cajas15"}
+ALIAS = {"laptop": "contagio", "pantalla": "pantalla_rota"}
+TODOS_3D = ["globo", "cable", "codigo", "sala", "estanteria", "avalancha", "casas_red", "fabrica", "candado", "apagon", "intrusion", "contagio", "nucleo", "caja_led",
+            "caja_tv", "red", "manometro", "radar", "duplicacion", "rack", "cajas15", "puerta", "pantalla_rota"]
+FAMILIA = {"candado_agujero": "candado"}          # candado y candado_agujero cuentan como el mismo clip
+MAX_USOS = 2                                      # pedido del usuario: cada clip 3D se repite como maximo 2 veces
+MAX_CLIP = 5.0                                    # pedido del usuario: clips 3D ~2 s mas cortos (antes 7 s)
 DIAG_CASA = {"tipo": "diagrama", "titulo": "Una casa. Cinco dispositivos.", "nodos": [
     {"id": "casa", "x": 960, "y": 520, "icono": "casa", "etiqueta": "tu casa"}, {"id": "tv", "x": 960, "y": 880, "icono": "tv", "etiqueta": "caja tv"},
     {"id": "pc", "x": 1400, "y": 780, "icono": "pc", "etiqueta": "laptop"}, {"id": "movil", "x": 1460, "y": 330, "icono": "movil", "etiqueta": "móvil"},
@@ -64,11 +69,14 @@ def escena_de(tag):
     if t.startswith("diagrama"):
         d = dict(DIAG_PROXY if ("proxy" in t or "alquila" in t) else DIAG_CASA); d["_golpe"] = False
         return d
-    m = re.match(r"3D\s+([a-z0-9_]+)", t, re.I)
-    obj = (m.group(1).lower() if m else "caja_tv")
-    obj = ALIAS.get(obj, obj)
-    if obj == "candado" and "agujero" in t: obj = "candado_agujero"
-    return {"tipo": "3d", "objeto": obj, "luz": luz, "_golpe": False}
+    # "3D a+b+c (comentario) . luz": varios objetos alternos para el mismo bloque
+    cuerpo = re.sub(r"\(.*?\)", "", t.split("·")[0]); cuerpo = re.sub(r"^3D\s+", "", cuerpo, flags=re.I).strip()
+    objs = []
+    for o in [x.strip().lower() for x in cuerpo.split("+") if x.strip()]:
+        o = ALIAS.get(o.split()[0], o.split()[0])
+        if o == "candado" and "agujero" in t.lower(): o = "candado_agujero"
+        objs.append(o)
+    return {"tipo": "3d", "objetos": objs or ["caja_tv"], "luz": luz, "_golpe": False}
 
 
 # ---------------------------------------------------------------- voizum
@@ -143,10 +151,14 @@ def alinear(audio, lineas):
 
 
 # ---------------------------------------------------------------- mezcla + props
-def mezclar(audio, inicios_escena, golpes, salida_mp3):
+def mezclar(audio, inicios_escena, golpes, salida_mp3, segmentos=None, nivel_musica=0.38):
+    """voz + MUSICA DE AVENTURA audible (se baja un poco mientras habla la voz, 'ducking') + glitch en cada corte + riser/golpe en titulares"""
+    import musica_aventura as mus
     SR = am.SR
     voz = am.leer(audio); D = len(voz) / SR; v_rms = float(np.sqrt(np.mean(voz ** 2)) + 1e-9)
-    mus = am.drone(D); mus *= v_rms * 0.55 / np.sqrt(np.mean(mus ** 2))
+    m = mus.pista(D + 2, segmentos)[: len(voz)]; m *= v_rms * nivel_musica
+    env = am.lp(np.abs(voz), int(0.12 * SR)); env = np.clip(env / (0.6 * env.max() + 1e-9), 0, 1)
+    m *= 1 - 0.40 * env                                           # ducking: -40 % mientras suena la voz, la musica "respira" en las pausas
     fx = np.zeros(len(voz))
     def poner(x, t, g):
         i = max(0, int(t * SR))
@@ -156,7 +168,7 @@ def mezclar(audio, inicios_escena, golpes, salida_mp3):
     for t in golpes:
         r = am.riser(); h = am.hit()
         poner(r, t - 2.0, 0.5 * v_rms / 0.2); poner(h, t + 0.05, 0.7 * v_rms / np.sqrt(np.mean(h ** 2)))
-    mez = voz + mus + fx
+    mez = voz + m + fx
     fade = np.minimum(1, np.minimum(np.arange(len(mez)) / (1.5 * SR), (len(mez) - np.arange(len(mez))) / (2.0 * SR)))
     mez *= fade; mez *= 0.9 / max(0.9, np.abs(mez).max())
     subprocess.run(["ffmpeg", "-v", "error", "-y", "-f", "s16le", "-ar", str(SR), "-ac", "1", "-i", "-", "-af", "loudnorm=I=-16:TP=-1.5:LRA=7",
@@ -186,32 +198,40 @@ def main():
     ini_lin, dur = alinear(audio, lineas)
     # bloque -> escena (inicio = primera linea del bloque); bloques largos se parten en tramos de <= 9,5 s con la camara invertida
     escenas, inicios, golpes, k = [], [], [], 0
-    RELLENO = ["red", "casas_red", "caja_led", "manometro", "nucleo", "cajas15"]
-    prev_obj = None; r_i = 0
-    def trozos(ta, tb, obj, luz, inv0=False, maxd=7.0):
-        n = max(1, round((tb - ta) / maxd))
+    usos = {}; prev = [None]
+    fam = lambda o: FAMILIA.get(o, o)
+    def elegir(pref):
+        """objeto 3D del siguiente clip: el preferido si no llego al tope; si no, el menos usado distinto del anterior"""
+        for o in pref:
+            if usos.get(fam(o), 0) < MAX_USOS and fam(o) != fam(prev[0] or ""): return o
+        cand = [o for o in TODOS_3D if fam(o) != fam(prev[0] or "")]
+        cand.sort(key=lambda o: (usos.get(fam(o), 0), TODOS_3D.index(o)))
+        return cand[0]
+    def trozos(ta, tb, pref, luz):
+        n = max(1, -(-int((tb - ta) * 100) // int(MAX_CLIP * 110)))
         for j in range(n):
-            e = {"tipo": "3d", "objeto": obj, "luz": luz, "dur": round((tb - ta) / n, 3)}
-            if (j % 2 == 1) != inv0: e["inv"] = True
+            o = elegir(pref[j % len(pref):] + pref[:j % len(pref)] if pref else [])
+            e = {"tipo": "3d", "objeto": o, "luz": luz, "dur": round((tb - ta) / n, 3)}
+            if usos.get(fam(o), 0) >= 1: e["inv"] = True            # segunda vez que aparece: camara en sentido contrario
+            usos[fam(o)] = usos.get(fam(o), 0) + 1; prev[0] = o
             escenas.append(e); inicios.append(ta + (tb - ta) * j / n)
     for bi, (tag, ls) in enumerate(bloques):
         t_ini = ini_lin[k]; t_fin = ini_lin[k + len(ls)] if k + len(ls) < len(lineas) else dur; k += len(ls)
         base = escena_de(tag); tipo = base["tipo"]
         if tipo == "3d":
-            obj = base["objeto"]
-            trozos(t_ini, t_fin, obj, base["luz"], inv0=(obj == prev_obj)); prev_obj = obj
+            trozos(t_ini, t_fin, base["objetos"], base["luz"])
         else:
-            tope = 5.5 if tipo == "titular" else 9.0
+            tope = 4.5 if tipo == "titular" else 8.0
             t_med = min(t_fin, t_ini + tope) if (t_fin - t_ini) > tope + 1.5 else t_fin
             e = {x: v for x, v in base.items() if not x.startswith("_")}; e["dur"] = round(t_med - t_ini, 3)
-            escenas.append(e); inicios.append(t_ini)
+            escenas.append(e); inicios.append(t_ini); prev[0] = None
             if base.get("_golpe"): golpes.append(t_ini + 0.1)
-            if t_fin - t_med > 0.05:                               # el titular/diagrama no se queda quieto toda la frase: sigue una escena 3D de relleno
-                obj = RELLENO[r_i % len(RELLENO)]; r_i += 1
-                if obj == prev_obj: obj = RELLENO[r_i % len(RELLENO)]; r_i += 1
-                trozos(t_med, t_fin, obj, "noche"); prev_obj = obj
+            if t_fin - t_med > 0.05:                               # el titular/diagrama no se queda quieto toda la frase: sigue un clip 3D variado
+                trozos(t_med, t_fin, [], "media")
     escenas[0]["dur"] = round(escenas[0]["dur"] + inicios[0], 3); inicios[0] = 0.0       # cubre el silencio inicial
-    mp3 = os.path.join(pub, "mezcla.mp3"); D = mezclar(audio, inicios, golpes, mp3)
+    mp3 = os.path.join(pub, "mezcla.mp3")
+    segs = [(inicios[i], (inicios[i + 1] if i + 1 < len(inicios) else dur), escenas[i].get("luz", "media")) for i in range(len(escenas))]
+    D = mezclar(audio, inicios, golpes, mp3, segs)
     props = {"escenas": escenas, "voz": "prueba4/mezcla.mp3"}
     ruta = os.path.join(a.salida, "props_prueba4.json"); json.dump(props, open(ruta, "w"), ensure_ascii=False, indent=1)
     print(f"LISTO: {len(escenas)} escenas, audio {D / 60:.1f} min -> {ruta}")
