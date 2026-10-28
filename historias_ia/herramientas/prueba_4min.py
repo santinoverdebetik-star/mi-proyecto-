@@ -74,7 +74,12 @@ FOTO_PREF = {
     "sala": ["tv_sala"], "dominos": ["engranajes"], "manometro": ["engranajes"], "puerta": ["candado"],
 }
 DUR_3D, DUR_FOTO = 4.6, 2.4                     # pedido V7: clips 3D 2 s mas largos; entre ellos se intercalan insertos variados (no solo fotos)
-SEC_INSERTO = ["frase", "flujo", "foto", "terminal", "frase", "foto", "flujo", "frase"]                       # ritmo rapido: 3D corto, foto real entre medio
+# inserto que sigue a cada clip 3D: grafico Remotion afin al objeto que se acaba de ver (pedido V8: poco texto; las fotos reales, solo de vez en cuando)
+INS_OBJ = {"radar": ["radar", "antena", "camara", "lupa"], "globo2d": ["globo", "casas_red", "nube", "red", "paquetes", "dinero", "calendario"],
+           "cuadricula": ["dominos", "contagio", "intrusion", "duplicacion", "cajas15", "estanteria", "pc_antiguo", "pantalla_rota"],
+           "barras": ["avalancha", "apagon", "latido", "manometro", "engranajes", "fabrica", "reloj"], "lluvia": ["codigo", "password", "candado", "llave", "placa", "hdmi", "cable", "escudo", "puerta"],
+           "flujo": ["router", "movil", "caja_tv", "caja_led", "sala", "tv_play", "mando"], "terminal": ["intrusion", "codigo", "pc_antiguo", "contagio", "rack"]}
+ROTA = ["flujo", "radar", "cuadricula", "globo2d", "barras", "lluvia", "terminal"]                       # ritmo rapido: 3D corto, foto real entre medio
 
 
 def cargar_pool(raiz_video):
@@ -216,7 +221,7 @@ def alinear(audio, lineas):
 
 
 # ---------------------------------------------------------------- mezcla + props
-def mezclar(audio, inicios_escena, golpes, salida_mp3, segmentos=None, nivel_musica=0.10, bajar_desde=((166.0, 0.8),)):
+def mezclar(audio, inicios_escena, golpes, salida_mp3, segmentos=None, nivel_musica=0.05, bajar_desde=((166.0, 0.8),)):
     """voz + MUSICA DE AVENTURA audible (se baja un poco mientras habla la voz, 'ducking') + glitch en cada corte + riser/golpe en titulares"""
     import musica_aventura as mus
     SR = am.SR
@@ -231,10 +236,10 @@ def mezclar(audio, inicios_escena, golpes, salida_mp3, segmentos=None, nivel_mus
         i = max(0, int(t * SR))
         if i < len(fx): fx[i:i + len(x)] += g * x[: len(fx) - i]
     for k, t in enumerate(inicios_escena):
-        if k: g = am.glitch(); poner(g, t, 0.5 * v_rms / np.sqrt(np.mean(g ** 2)))
+        if k: g = am.glitch(); poner(g, t, 0.2 * v_rms / np.sqrt(np.mean(g ** 2)))
     for t in golpes:
         r = am.riser(); h = am.hit()
-        poner(r, t - 2.0, 0.5 * v_rms / 0.2); poner(h, t + 0.05, 0.7 * v_rms / np.sqrt(np.mean(h ** 2)))
+        poner(r, t - 2.0, 0.2 * v_rms / 0.2); poner(h, t + 0.05, 0.3 * v_rms / np.sqrt(np.mean(h ** 2)))
     mez = voz + m + fx
     fade = np.minimum(1, np.minimum(np.arange(len(mez)) / (1.5 * SR), (len(mez) - np.arange(len(mez))) / (2.0 * SR)))
     mez *= fade; mez *= 0.9 / max(0.9, np.abs(mez).max())
@@ -321,21 +326,17 @@ def main():
             else:
                 tx = texto_en(x, x + d)
                 dato = re.search(r"(\$\s?\d[\d.,]*|\d[\d.,]*\s?%|\b(?:19|20)\d\d\b)", tx)
-                kind = SEC_INSERTO[nins[0] % len(SEC_INSERTO)]
-                if hist and kind == hist[-1]: kind = SEC_INSERTO[(nins[0] + 1) % len(SEC_INSERTO)]
+                cands = [k for k, l in INS_OBJ.items() if ult in l and k not in hist[-2:]] or [k for k in ROTA if k not in hist[-3:]]
+                kind = cands[nins[0] % len(cands)]
+                if nins[0] % 4 == 2: kind = "foto"
                 if fx.get(bloque[0]): kind = "foto"                           # las imagenes de ImageFX tienen prioridad
                 elif dato and "dato" not in hist[-2:]: kind = "dato"
-                if kind == "frase" and not tx.strip(): kind = "flujo"
                 nins[0] += 1; hist.append(kind); v = nins[0]
                 if kind == "dato":
                     fr = re.split(r"(?<=[.!?])\s+", tx.strip()); fr = next((s for s in fr if dato.group(1) in s), fr[0])
                     e = {"tipo": "dato", "valor": dato.group(1).replace(" ", ""), "etiqueta": re.sub(r"\s+", " ", fr)[:70].rstrip(" ,;:") .upper(), "dur": round(d, 3)}
-                elif kind == "frase":
-                    cl = [c.strip(" ,;:.!?¿¡\"«»") for c in re.split(r"[,;:.!?—]+", tx)]; cl = [c for c in cl if 3 <= len(c.split()) <= 8]
-                    w = (min(cl, key=lambda c: abs(len(c.split()) - 5)) if cl else " ".join(tx.split()[:6])).split()
-                    e = {"tipo": "frase", "texto": " ".join(w).strip(" ,;:"), "v": v, "dur": round(d, 3)}
                 elif kind == "terminal": e = {"tipo": "terminal", "v": v, "dur": round(d, 3)}
-                elif kind == "flujo": e = {"tipo": "flujo", "v": v, "dur": round(d, 3)}
+                elif kind in ("flujo", "radar", "cuadricula", "barras", "globo2d", "lluvia"): e = {"tipo": kind, "v": v, "dur": round(d, 3)}
                 else:
                     f = fx[bloque[0]].pop(0) if fx.get(bloque[0]) else elegir_foto(ult or "sala"); nfoto[0] += 1
                     e = {"tipo": "foto", "archivo": f, "luz": luz, "v": nfoto[0], "pos": POS[nfoto[0] % len(POS)], "dur": round(d, 3)}

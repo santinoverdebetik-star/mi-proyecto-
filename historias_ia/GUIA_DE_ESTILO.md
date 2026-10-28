@@ -101,3 +101,6 @@ En esta nube hace falta `CHROMIUM_PATH=/opt/pw-browsers/chromium_headless_shell-
 - Las fotos deben ser MUY realistas (fotografías reales, nunca ilustraciones). Para el video completo de 25 min hacen falta ~250 clips únicos: generar más con ImageFX o ampliar el pool.
 - **PROHIBIDOS para siempre (pedido del usuario V6):** los clips 3D `ojo` y `nucleo` (se sustituyen por `camara` y `placa`). Música de fondo MUY baja (nivel 0.10).
 - Calidad 3D: entorno de reflejos + antialias activados (render ~0,45 fps por software; ~35 min por cada 20 s de 3D).
+- **Insertos entre clips 3D (V8):** poco texto. Gráficos Remotion afines al objeto recién visto (radar, cuadrícula de contagio, barras de tráfico, globo de puntos, lluvia de código, red de contagio, terminal) + foto real solo 1 de cada 4 + cifra grande cuando el guion dice un número. NO usar frases largas en pantalla. Clips 3D ~4,6 s.
+- **Audio (V8):** música a 0.05 y efectos de transición (glitch/riser/hit) muy bajos.
+- **Render incremental:** `herramientas/render_incremental.py` renderiza por escena y cachea (`video/out/cache`): si solo cambia el audio o unas escenas no se re-renderiza lo demás.

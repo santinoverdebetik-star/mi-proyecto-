@@ -7,8 +7,7 @@
    "dur": 4.6
   },
   {
-   "tipo": "frase",
-   "texto": "Pero la lucecita de la cajita",
+   "tipo": "flujo",
    "v": 1,
    "dur": 3.48
   },
@@ -19,7 +18,7 @@
    "dur": 4.6
   },
   {
-   "tipo": "flujo",
+   "tipo": "cuadricula",
    "v": 2,
    "dur": 3.14
   },
@@ -120,7 +119,7 @@
    "dur": 4.6
   },
   {
-   "tipo": "terminal",
+   "tipo": "lluvia",
    "v": 4,
    "dur": 2.94
   },
@@ -131,8 +130,7 @@
    "dur": 4.6
   },
   {
-   "tipo": "frase",
-   "texto": "Y una prueba reciente de laboratorio",
+   "tipo": "barras",
    "v": 5,
    "dur": 2.4
   },
@@ -143,11 +141,8 @@
    "dur": 4.6
   },
   {
-   "tipo": "foto",
-   "archivo": "fotos/lupa_02.jpg",
-   "luz": "clara",
-   "v": 2,
-   "pos": "65% 50%",
+   "tipo": "radar",
+   "v": 6,
    "dur": 1.66
   },
   {
@@ -189,8 +184,11 @@
    "dur": 4.6
   },
   {
-   "tipo": "flujo",
-   "v": 7,
+   "tipo": "foto",
+   "archivo": "fotos/antena_02.jpg",
+   "luz": "media",
+   "v": 2,
+   "pos": "65% 50%",
    "dur": 2.4
   },
   {
@@ -200,8 +198,7 @@
    "dur": 4.6
   },
   {
-   "tipo": "frase",
-   "texto": "La red tenía nombre",
+   "tipo": "globo2d",
    "v": 8,
    "dur": 2.74
   },
@@ -212,7 +209,7 @@
    "dur": 4.6
   },
   {
-   "tipo": "flujo",
+   "tipo": "cuadricula",
    "v": 9,
    "dur": 2.4
   },
@@ -223,11 +220,8 @@
    "dur": 4.6
   },
   {
-   "tipo": "foto",
-   "archivo": "fotos/hdmi_03.jpg",
-   "luz": "media",
-   "v": 3,
-   "pos": "50% 40%",
+   "tipo": "lluvia",
+   "v": 10,
    "dur": 2.4
   },
   {
@@ -243,8 +237,11 @@
    "dur": 4.6
   },
   {
-   "tipo": "terminal",
-   "v": 11,
+   "tipo": "foto",
+   "archivo": "fondos_raw/fabrica_02.jpg",
+   "luz": "media",
+   "v": 3,
+   "pos": "50% 40%",
    "dur": 2.4
   },
   {
@@ -254,8 +251,7 @@
    "dur": 4.6
   },
   {
-   "tipo": "frase",
-   "texto": "conectas el cable HDMI",
+   "tipo": "globo2d",
    "v": 12,
    "dur": 2.4
   },
@@ -266,11 +262,8 @@
    "dur": 4.6
   },
   {
-   "tipo": "foto",
-   "archivo": "fotos/dinero_01.jpg",
-   "luz": "media",
-   "v": 4,
-   "pos": "40% 60%",
+   "tipo": "cuadricula",
+   "v": 13,
    "dur": 2.4
   },
   {
@@ -286,7 +279,7 @@
    "dur": 4.6
   },
   {
-   "tipo": "flujo",
+   "tipo": "lluvia",
    "v": 14,
    "dur": 2.4
   },
@@ -297,9 +290,11 @@
    "dur": 4.6
   },
   {
-   "tipo": "frase",
-   "texto": "Cualquiera podía entrar",
-   "v": 15,
+   "tipo": "foto",
+   "archivo": "fondos_raw/calle_noche_03.jpg",
+   "luz": "media",
+   "v": 4,
+   "pos": "40% 60%",
    "dur": 1.68
   },
   {
@@ -309,8 +304,7 @@
    "dur": 4.6
   },
   {
-   "tipo": "frase",
-   "texto": "esas peticiones tienen que salir de algún sitio",
+   "tipo": "barras",
    "v": 16,
    "dur": 2.4
   },
@@ -321,7 +315,7 @@
    "dur": 4.6
   },
   {
-   "tipo": "flujo",
+   "tipo": "radar",
    "v": 17,
    "dur": 2.4
   },
@@ -380,11 +374,8 @@
    "dur": 4.6
   },
   {
-   "tipo": "foto",
-   "archivo": "fotos/laptop_02.jpg",
-   "luz": "media",
-   "v": 5,
-   "pos": "60% 45%",
+   "tipo": "terminal",
+   "v": 18,
    "dur": 2.4
   },
   {
@@ -400,8 +391,11 @@
    "dur": 4.6
   },
   {
-   "tipo": "terminal",
-   "v": 19,
+   "tipo": "foto",
+   "archivo": "fotos/llave_01.jpg",
+   "luz": "media",
+   "v": 5,
+   "pos": "60% 45%",
    "dur": 2.4
   },
   {
@@ -411,8 +405,7 @@
    "dur": 4.6
   },
   {
-   "tipo": "frase",
-   "texto": "No era parte del virus",
+   "tipo": "flujo",
    "v": 20,
    "dur": 2.4
   },
@@ -423,11 +416,8 @@
    "dur": 4.6
   },
   {
-   "tipo": "foto",
-   "archivo": "fotos/caja_tv_01.jpg",
-   "luz": "media",
-   "v": 6,
-   "pos": "50% 50%",
+   "tipo": "radar",
+   "v": 21,
    "dur": 2.4
   },
   {
@@ -453,7 +443,7 @@
    "dur": 4.6
   },
   {
-   "tipo": "flujo",
+   "tipo": "terminal",
    "v": 22,
    "dur": 2.4
   },

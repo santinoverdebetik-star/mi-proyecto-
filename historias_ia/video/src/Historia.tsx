@@ -7,7 +7,7 @@ import { Diagrama } from "./escenas/Diagrama";
 import { Escena3D } from "./escenas/Escena3D";
 import { Imagen } from "./escenas/Imagen";
 import { Foto } from "./escenas/Foto";
-import { Dato, Flujo, Frase, Terminal } from "./escenas/Inserto";
+import { Barras, Cuadricula, Dato, Flujo, Frase, Globo2D, Lluvia, Radar, Terminal } from "./escenas/Inserto";
 import type { Escena } from "./guion";
 
 export const duracionTotal = (e: Escena[]) => Math.round(e.reduce((s, x) => s + x.dur, 0) * FPS);
@@ -24,6 +24,11 @@ export const Historia: React.FC<{ escenas: Escena[]; voz?: string; musica?: stri
           {e.tipo === "frase" && <Frase texto={e.texto} v={e.v} />}
           {e.tipo === "terminal" && <Terminal v={e.v} />}
           {e.tipo === "dato" && <Dato valor={e.valor} etiqueta={e.etiqueta} />}
+          {e.tipo === "radar" && <Radar v={e.v} />}
+          {e.tipo === "cuadricula" && <Cuadricula v={e.v} />}
+          {e.tipo === "barras" && <Barras v={e.v} />}
+          {e.tipo === "globo2d" && <Globo2D v={e.v} />}
+          {e.tipo === "lluvia" && <Lluvia v={e.v} />}
           {e.tipo === "flujo" && <Flujo v={e.v} />}
           {e.tipo === "foto" && <Foto archivo={e.archivo} luz={e.luz} v={e.v} pos={e.pos} />}
           {e.tipo === "imagen" && <Imagen archivo={e.archivo} brillo={e.brillo} />}
