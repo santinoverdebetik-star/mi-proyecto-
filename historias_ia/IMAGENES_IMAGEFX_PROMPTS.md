@@ -1,6 +1,6 @@
 # Prompts de ImageFX — IA DESCONTROLADA: 'Los virus informáticos de IA ya casi están aquí'
 
-**206 imágenes** (una por cada hueco de foto del video). Pega cada prompt en ImageFX, elige la imagen más realista, descárgala y guárdala con el nombre indicado en `video/public/fotos_fx/`.
+**214 imágenes** (una por cada hueco de foto del video). Pega cada prompt en ImageFX, elige la imagen más realista, descárgala y guárdala con el nombre indicado en `video/public/fotos_fx/`.
 Todas terminan con: *photorealistic photograph, natural bright lighting, sharp focus, high detail, shallow depth of field, 16:9, no people, no text, no logos*. Sin personas ni texto (así no hay caras raras ni letras deformadas). Formato 16:9.
 
 > Si una imagen sale mal, repite el prompt; el nombre del archivo es lo único que importa. Si no genera alguna, el planificador usa una foto real del banco de fotos.
@@ -23,7 +23,7 @@ Todas terminan con: *photorealistic photograph, natural bright lighting, sharp f
 ## Bloque 5 — 3D nucleo+engranajes+placa · media
 > Esto no es una escena de película.
 
-- `b05_1.jpg` — microchip processor close up on a motherboard, macro, photorealistic photograph, natural bright lighting, sharp focus, high detail, shallow depth of field, 16:9, no people, no text, no logos
+- `b05_1.jpg` — green circuit board with chips and capacitors, macro, photorealistic photograph, natural bright lighting, sharp focus, high detail, shallow depth of field, 16:9, no people, no text, no logos
 
 ## Bloque 6 — 3D manometro+lupa+escudo · clara
 > Los investigadores que estudian esto creen que estamos peligrosamente cerca.
@@ -123,6 +123,7 @@ Todas terminan con: *photorealistic photograph, natural bright lighting, sharp f
 
 - `b22_1.jpg` — row of laptops on a long table in a computer lab, photorealistic photograph, natural bright lighting, sharp focus, high detail, shallow depth of field, 16:9, no people, no text, no logos
 - `b22_2.jpg` — several smartphones and laptops connected by cables on a desk, photorealistic photograph, natural bright lighting, sharp focus, high detail, shallow depth of field, 16:9, no people, no text, no logos
+- `b22_3.jpg` — office with rows of desktop computers, all screens lit, photorealistic photograph, natural bright lighting, sharp focus, high detail, shallow depth of field, 16:9, no people, no text, no logos
 
 ## Bloque 23 — 3D duplicacion (nodos que se duplican sin control) · noche
 > Pero comete un error de lógica.
@@ -215,9 +216,9 @@ Todas terminan con: *photorealistic photograph, natural bright lighting, sharp f
 ## Bloque 38 — 3D nucleo · noche
 > Ahora piensa en cómo funcionan los asistentes de inteligencia artificial modernos.
 
-- `b38_1.jpg` — CPU socket with golden contacts, macro photography, photorealistic photograph, natural bright lighting, sharp focus, high detail, shallow depth of field, 16:9, no people, no text, no logos
-- `b38_2.jpg` — glowing circuit traces on a green circuit board, macro, photorealistic photograph, natural bright lighting, sharp focus, high detail, shallow depth of field, 16:9, no people, no text, no logos
-- `b38_3.jpg` — microchip processor close up on a motherboard, macro, different angle, photorealistic photograph, natural bright lighting, sharp focus, high detail, shallow depth of field, 16:9, no people, no text, no logos
+- `b38_1.jpg` — motherboard with heat sinks on a clean white table, photorealistic photograph, natural bright lighting, sharp focus, high detail, shallow depth of field, 16:9, no people, no text, no logos
+- `b38_2.jpg` — open computer case showing components, soft light, photorealistic photograph, natural bright lighting, sharp focus, high detail, shallow depth of field, 16:9, no people, no text, no logos
+- `b38_3.jpg` — green circuit board with chips and capacitors, macro, different angle, photorealistic photograph, natural bright lighting, sharp focus, high detail, shallow depth of field, 16:9, no people, no text, no logos
 
 ## Bloque 39 — 3D pantalla_rota · noche
 > Un gusano con una cabeza así no pasaría de largo ante un dispositivo desconocido.
@@ -233,16 +234,16 @@ Todas terminan con: *photorealistic photograph, natural bright lighting, sharp f
 ## Bloque 41 — 3D laptop con bandeja de correo · media
 > La demostración, hecha en un entorno de laboratorio, era inquietantemente sencilla.
 
-- `b41_1.jpg` — office with rows of desktop computers, all screens lit, photorealistic photograph, natural bright lighting, sharp focus, high detail, shallow depth of field, 16:9, no people, no text, no logos
-- `b41_2.jpg` — row of laptops on a long table in a computer lab, different angle, photorealistic photograph, natural bright lighting, sharp focus, high detail, shallow depth of field, 16:9, no people, no text, no logos
-- `b41_3.jpg` — several smartphones and laptops connected by cables on a desk, different angle, photorealistic photograph, natural bright lighting, sharp focus, high detail, shallow depth of field, 16:9, no people, no text, no logos
-- `b41_4.jpg` — office with rows of desktop computers, all screens lit, different angle, photorealistic photograph, natural bright lighting, sharp focus, high detail, shallow depth of field, 16:9, no people, no text, no logos
+- `b41_1.jpg` — row of laptops on a long table in a computer lab, different angle, photorealistic photograph, natural bright lighting, sharp focus, high detail, shallow depth of field, 16:9, no people, no text, no logos
+- `b41_2.jpg` — several smartphones and laptops connected by cables on a desk, different angle, photorealistic photograph, natural bright lighting, sharp focus, high detail, shallow depth of field, 16:9, no people, no text, no logos
+- `b41_3.jpg` — office with rows of desktop computers, all screens lit, different angle, photorealistic photograph, natural bright lighting, sharp focus, high detail, shallow depth of field, 16:9, no people, no text, no logos
+- `b41_4.jpg` — row of laptops on a long table in a computer lab, different angle, photorealistic photograph, natural bright lighting, sharp focus, high detail, shallow depth of field, 16:9, no people, no text, no logos
 
 ## Bloque 42 — 3D contagio · noche
 > Sin que nadie hiciera clic en nada.
 
-- `b42_1.jpg` — row of laptops on a long table in a computer lab, different angle, photorealistic photograph, natural bright lighting, sharp focus, high detail, shallow depth of field, 16:9, no people, no text, no logos
-- `b42_2.jpg` — several smartphones and laptops connected by cables on a desk, different angle, photorealistic photograph, natural bright lighting, sharp focus, high detail, shallow depth of field, 16:9, no people, no text, no logos
+- `b42_1.jpg` — several smartphones and laptops connected by cables on a desk, different angle, photorealistic photograph, natural bright lighting, sharp focus, high detail, shallow depth of field, 16:9, no people, no text, no logos
+- `b42_2.jpg` — office with rows of desktop computers, all screens lit, different angle, photorealistic photograph, natural bright lighting, sharp focus, high detail, shallow depth of field, 16:9, no people, no text, no logos
 
 ## Bloque 43 — titular: SOLO / LABORATORIO · media
 > Hay que ser claros: fue un experimento controlado.
@@ -258,9 +259,10 @@ Todas terminan con: *photorealistic photograph, natural bright lighting, sharp f
 ## Bloque 46 — 3D nucleo · noche
 > Según Anthropic, la inteligencia artificial hizo entre el ochenta y el noventa por ciento del trabajo táctico de la intrusión.
 
-- `b46_1.jpg` — CPU socket with golden contacts, macro photography, different angle, photorealistic photograph, natural bright lighting, sharp focus, high detail, shallow depth of field, 16:9, no people, no text, no logos
-- `b46_2.jpg` — glowing circuit traces on a green circuit board, macro, different angle, photorealistic photograph, natural bright lighting, sharp focus, high detail, shallow depth of field, 16:9, no people, no text, no logos
-- `b46_3.jpg` — microchip processor close up on a motherboard, macro, different angle, photorealistic photograph, natural bright lighting, sharp focus, high detail, shallow depth of field, 16:9, no people, no text, no logos
+- `b46_1.jpg` — motherboard with heat sinks on a clean white table, different angle, photorealistic photograph, natural bright lighting, sharp focus, high detail, shallow depth of field, 16:9, no people, no text, no logos
+- `b46_2.jpg` — open computer case showing components, soft light, different angle, photorealistic photograph, natural bright lighting, sharp focus, high detail, shallow depth of field, 16:9, no people, no text, no logos
+- `b46_3.jpg` — green circuit board with chips and capacitors, macro, different angle, photorealistic photograph, natural bright lighting, sharp focus, high detail, shallow depth of field, 16:9, no people, no text, no logos
+- `b46_4.jpg` — motherboard with heat sinks on a clean white table, different angle, photorealistic photograph, natural bright lighting, sharp focus, high detail, shallow depth of field, 16:9, no people, no text, no logos
 
 ## Bloque 47 — 3D manometro · media
 > Los humanos seguían ahí.
@@ -297,10 +299,10 @@ Todas terminan con: *photorealistic photograph, natural bright lighting, sharp f
 ## Bloque 52 — 3D nucleo · media
 > Cada vez que se repite la prueba, el número sube.
 
-- `b52_1.jpg` — CPU socket with golden contacts, macro photography, different angle, photorealistic photograph, natural bright lighting, sharp focus, high detail, shallow depth of field, 16:9, no people, no text, no logos
-- `b52_2.jpg` — glowing circuit traces on a green circuit board, macro, different angle, photorealistic photograph, natural bright lighting, sharp focus, high detail, shallow depth of field, 16:9, no people, no text, no logos
-- `b52_3.jpg` — microchip processor close up on a motherboard, macro, different angle, photorealistic photograph, natural bright lighting, sharp focus, high detail, shallow depth of field, 16:9, no people, no text, no logos
-- `b52_4.jpg` — CPU socket with golden contacts, macro photography, different angle, photorealistic photograph, natural bright lighting, sharp focus, high detail, shallow depth of field, 16:9, no people, no text, no logos
+- `b52_1.jpg` — open computer case showing components, soft light, different angle, photorealistic photograph, natural bright lighting, sharp focus, high detail, shallow depth of field, 16:9, no people, no text, no logos
+- `b52_2.jpg` — green circuit board with chips and capacitors, macro, different angle, photorealistic photograph, natural bright lighting, sharp focus, high detail, shallow depth of field, 16:9, no people, no text, no logos
+- `b52_3.jpg` — motherboard with heat sinks on a clean white table, different angle, photorealistic photograph, natural bright lighting, sharp focus, high detail, shallow depth of field, 16:9, no people, no text, no logos
+- `b52_4.jpg` — open computer case showing components, soft light, different angle, photorealistic photograph, natural bright lighting, sharp focus, high detail, shallow depth of field, 16:9, no people, no text, no logos
 
 ## Bloque 53 — 3D cajas15 · clara
 > Y entonces llega el experimento.
@@ -322,6 +324,7 @@ Todas terminan con: *photorealistic photograph, natural bright lighting, sharp f
 > Funcionó. Ridículamente lento.
 
 - `b56_1.jpg` — chain of cargo containers in a port, photorealistic photograph, natural bright lighting, sharp focus, high detail, shallow depth of field, 16:9, no people, no text, no logos
+- `b56_2.jpg` — wall of identical cardboard boxes in a warehouse, different angle, photorealistic photograph, natural bright lighting, sharp focus, high detail, shallow depth of field, 16:9, no people, no text, no logos
 
 ## Bloque 57 — 3D casas_red · media
 > Pero hagamos una cuenta.
@@ -329,12 +332,18 @@ Todas terminan con: *photorealistic photograph, natural bright lighting, sharp f
 - `b57_1.jpg` — city neighborhood at night from a hill, glowing windows, different angle, photorealistic photograph, natural bright lighting, sharp focus, high detail, shallow depth of field, 16:9, no people, no text, no logos
 - `b57_2.jpg` — suburban houses at night with lit windows, aerial view, different angle, photorealistic photograph, natural bright lighting, sharp focus, high detail, shallow depth of field, 16:9, no people, no text, no logos
 - `b57_3.jpg` — rows of apartment windows lit up at dusk, different angle, photorealistic photograph, natural bright lighting, sharp focus, high detail, shallow depth of field, 16:9, no people, no text, no logos
+- `b57_4.jpg` — city neighborhood at night from a hill, glowing windows, different angle, photorealistic photograph, natural bright lighting, sharp focus, high detail, shallow depth of field, 16:9, no people, no text, no logos
+
+## Bloque 58 — titular: ¿DÓNDE / VIVIRÍA? · media
+> Nadie ha construido una red así. Es un cálculo.
+
+- `b58_1.jpg` — city at night with lit windows, different angle, photorealistic photograph, natural bright lighting, sharp focus, high detail, shallow depth of field, 16:9, no people, no text, no logos
 
 ## Bloque 59 — 3D contagio · noche
 > ¿Podría una IA así hacer lo que Mirai hacía con un guion escrito por humanos?
 
-- `b59_1.jpg` — office with rows of desktop computers, all screens lit, different angle, photorealistic photograph, natural bright lighting, sharp focus, high detail, shallow depth of field, 16:9, no people, no text, no logos
-- `b59_2.jpg` — row of laptops on a long table in a computer lab, different angle, photorealistic photograph, natural bright lighting, sharp focus, high detail, shallow depth of field, 16:9, no people, no text, no logos
+- `b59_1.jpg` — row of laptops on a long table in a computer lab, different angle, photorealistic photograph, natural bright lighting, sharp focus, high detail, shallow depth of field, 16:9, no people, no text, no logos
+- `b59_2.jpg` — several smartphones and laptops connected by cables on a desk, different angle, photorealistic photograph, natural bright lighting, sharp focus, high detail, shallow depth of field, 16:9, no people, no text, no logos
 
 ## Bloque 60 — 3D intrusion · media
 > Eso se probó aparte.
@@ -359,15 +368,15 @@ Todas terminan con: *photorealistic photograph, natural bright lighting, sharp f
 ## Bloque 63 — 3D nucleo · noche
 > Después probaron con un modelo más fuerte, GLM 5.2.
 
-- `b63_1.jpg` — glowing circuit traces on a green circuit board, macro, different angle, photorealistic photograph, natural bright lighting, sharp focus, high detail, shallow depth of field, 16:9, no people, no text, no logos
-- `b63_2.jpg` — microchip processor close up on a motherboard, macro, different angle, photorealistic photograph, natural bright lighting, sharp focus, high detail, shallow depth of field, 16:9, no people, no text, no logos
+- `b63_1.jpg` — green circuit board with chips and capacitors, macro, different angle, photorealistic photograph, natural bright lighting, sharp focus, high detail, shallow depth of field, 16:9, no people, no text, no logos
+- `b63_2.jpg` — motherboard with heat sinks on a clean white table, different angle, photorealistic photograph, natural bright lighting, sharp focus, high detail, shallow depth of field, 16:9, no people, no text, no logos
 
 ## Bloque 64 — titular: DOS / MITADES · media
 > Hay una trampa.
 
-- `b64_1.jpg` — city at night with lit windows, different angle, photorealistic photograph, natural bright lighting, sharp focus, high detail, shallow depth of field, 16:9, no people, no text, no logos
-- `b64_2.jpg` — server room with blinking lights, wide angle, different angle, photorealistic photograph, natural bright lighting, sharp focus, high detail, shallow depth of field, 16:9, no people, no text, no logos
-- `b64_3.jpg` — laptop on a desk in a dark room, glowing screen, different angle, photorealistic photograph, natural bright lighting, sharp focus, high detail, shallow depth of field, 16:9, no people, no text, no logos
+- `b64_1.jpg` — server room with blinking lights, wide angle, different angle, photorealistic photograph, natural bright lighting, sharp focus, high detail, shallow depth of field, 16:9, no people, no text, no logos
+- `b64_2.jpg` — laptop on a desk in a dark room, glowing screen, different angle, photorealistic photograph, natural bright lighting, sharp focus, high detail, shallow depth of field, 16:9, no people, no text, no logos
+- `b64_3.jpg` — city at night with lit windows, different angle, photorealistic photograph, natural bright lighting, sharp focus, high detail, shallow depth of field, 16:9, no people, no text, no logos
 
 ## Bloque 65 — 3D manometro · noche
 > El gusano aparecerá cuando esas dos mitades se junten.
@@ -392,15 +401,15 @@ Todas terminan con: *photorealistic photograph, natural bright lighting, sharp f
 ## Bloque 68 — titular: NO NECESITA / SER PERFECTO · media
 > En la realidad, muchísimas cosas se interpondrían.
 
-- `b68_1.jpg` — city at night with lit windows, different angle, photorealistic photograph, natural bright lighting, sharp focus, high detail, shallow depth of field, 16:9, no people, no text, no logos
-- `b68_2.jpg` — server room with blinking lights, wide angle, different angle, photorealistic photograph, natural bright lighting, sharp focus, high detail, shallow depth of field, 16:9, no people, no text, no logos
-- `b68_3.jpg` — laptop on a desk in a dark room, glowing screen, different angle, photorealistic photograph, natural bright lighting, sharp focus, high detail, shallow depth of field, 16:9, no people, no text, no logos
+- `b68_1.jpg` — server room with blinking lights, wide angle, different angle, photorealistic photograph, natural bright lighting, sharp focus, high detail, shallow depth of field, 16:9, no people, no text, no logos
+- `b68_2.jpg` — laptop on a desk in a dark room, glowing screen, different angle, photorealistic photograph, natural bright lighting, sharp focus, high detail, shallow depth of field, 16:9, no people, no text, no logos
+- `b68_3.jpg` — city at night with lit windows, different angle, photorealistic photograph, natural bright lighting, sharp focus, high detail, shallow depth of field, 16:9, no people, no text, no logos
 
 ## Bloque 70 — 3D cajas15 · clara
 > Primero: la lentitud.
 
-- `b70_1.jpg` — wall of identical cardboard boxes in a warehouse, different angle, photorealistic photograph, natural bright lighting, sharp focus, high detail, shallow depth of field, 16:9, no people, no text, no logos
-- `b70_2.jpg` — fifteen small boxes lined up on a shelf, different angle, photorealistic photograph, natural bright lighting, sharp focus, high detail, shallow depth of field, 16:9, no people, no text, no logos
+- `b70_1.jpg` — fifteen small boxes lined up on a shelf, different angle, photorealistic photograph, natural bright lighting, sharp focus, high detail, shallow depth of field, 16:9, no people, no text, no logos
+- `b70_2.jpg` — chain of cargo containers in a port, different angle, photorealistic photograph, natural bright lighting, sharp focus, high detail, shallow depth of field, 16:9, no people, no text, no logos
 
 ## Bloque 71 — 3D manometro · media
 > Segundo: los errores.
@@ -417,8 +426,8 @@ Todas terminan con: *photorealistic photograph, natural bright lighting, sharp f
 ## Bloque 73 — titular: LOS TITULARES / VAN MÁS LEJOS · media
 > Y los propios informes lo dicen con claridad.
 
-- `b73_1.jpg` — city at night with lit windows, different angle, photorealistic photograph, natural bright lighting, sharp focus, high detail, shallow depth of field, 16:9, no people, no text, no logos
-- `b73_2.jpg` — server room with blinking lights, wide angle, different angle, photorealistic photograph, natural bright lighting, sharp focus, high detail, shallow depth of field, 16:9, no people, no text, no logos
+- `b73_1.jpg` — server room with blinking lights, wide angle, different angle, photorealistic photograph, natural bright lighting, sharp focus, high detail, shallow depth of field, 16:9, no people, no text, no logos
+- `b73_2.jpg` — laptop on a desk in a dark room, glowing screen, different angle, photorealistic photograph, natural bright lighting, sharp focus, high detail, shallow depth of field, 16:9, no people, no text, no logos
 
 ## Bloque 74 — 3D caja_led · media
 > Entonces, ¿por qué contarlo?
@@ -434,31 +443,32 @@ Todas terminan con: *photorealistic photograph, natural bright lighting, sharp f
 ## Bloque 76 — 3D casas_red · media
 > Aquí las copias estarían repartidas por miles de departamentos, oficinas y casas, en países distintos.
 
-- `b76_1.jpg` — city neighborhood at night from a hill, glowing windows, different angle, photorealistic photograph, natural bright lighting, sharp focus, high detail, shallow depth of field, 16:9, no people, no text, no logos
-- `b76_2.jpg` — suburban houses at night with lit windows, aerial view, different angle, photorealistic photograph, natural bright lighting, sharp focus, high detail, shallow depth of field, 16:9, no people, no text, no logos
-- `b76_3.jpg` — rows of apartment windows lit up at dusk, different angle, photorealistic photograph, natural bright lighting, sharp focus, high detail, shallow depth of field, 16:9, no people, no text, no logos
+- `b76_1.jpg` — suburban houses at night with lit windows, aerial view, different angle, photorealistic photograph, natural bright lighting, sharp focus, high detail, shallow depth of field, 16:9, no people, no text, no logos
+- `b76_2.jpg` — rows of apartment windows lit up at dusk, different angle, photorealistic photograph, natural bright lighting, sharp focus, high detail, shallow depth of field, 16:9, no people, no text, no logos
+- `b76_3.jpg` — city neighborhood at night from a hill, glowing windows, different angle, photorealistic photograph, natural bright lighting, sharp focus, high detail, shallow depth of field, 16:9, no people, no text, no logos
 
 ## Bloque 77 — titular: EL 1% / QUE QUEDA · noche
 > Supongamos que limpiamos el noventa y nueve por ciento de los dispositivos capturados.
 
-- `b77_1.jpg` — laptop on a desk in a dark room, glowing screen, different angle, photorealistic photograph, natural bright lighting, sharp focus, high detail, shallow depth of field, 16:9, no people, no text, no logos
-- `b77_2.jpg` — city at night with lit windows, different angle, photorealistic photograph, natural bright lighting, sharp focus, high detail, shallow depth of field, 16:9, no people, no text, no logos
+- `b77_1.jpg` — city at night with lit windows, different angle, photorealistic photograph, natural bright lighting, sharp focus, high detail, shallow depth of field, 16:9, no people, no text, no logos
+- `b77_2.jpg` — server room with blinking lights, wide angle, different angle, photorealistic photograph, natural bright lighting, sharp focus, high detail, shallow depth of field, 16:9, no people, no text, no logos
 
 ## Bloque 78 — 3D contagio · media
 > Por eso Anthropic cuenta de otra manera.
 
-- `b78_1.jpg` — several smartphones and laptops connected by cables on a desk, different angle, photorealistic photograph, natural bright lighting, sharp focus, high detail, shallow depth of field, 16:9, no people, no text, no logos
-- `b78_2.jpg` — office with rows of desktop computers, all screens lit, different angle, photorealistic photograph, natural bright lighting, sharp focus, high detail, shallow depth of field, 16:9, no people, no text, no logos
-- `b78_3.jpg` — row of laptops on a long table in a computer lab, different angle, photorealistic photograph, natural bright lighting, sharp focus, high detail, shallow depth of field, 16:9, no people, no text, no logos
-- `b78_4.jpg` — several smartphones and laptops connected by cables on a desk, different angle, photorealistic photograph, natural bright lighting, sharp focus, high detail, shallow depth of field, 16:9, no people, no text, no logos
+- `b78_1.jpg` — office with rows of desktop computers, all screens lit, different angle, photorealistic photograph, natural bright lighting, sharp focus, high detail, shallow depth of field, 16:9, no people, no text, no logos
+- `b78_2.jpg` — row of laptops on a long table in a computer lab, different angle, photorealistic photograph, natural bright lighting, sharp focus, high detail, shallow depth of field, 16:9, no people, no text, no logos
+- `b78_3.jpg` — several smartphones and laptops connected by cables on a desk, different angle, photorealistic photograph, natural bright lighting, sharp focus, high detail, shallow depth of field, 16:9, no people, no text, no logos
+- `b78_4.jpg` — office with rows of desktop computers, all screens lit, different angle, photorealistic photograph, natural bright lighting, sharp focus, high detail, shallow depth of field, 16:9, no people, no text, no logos
+- `b78_5.jpg` — row of laptops on a long table in a computer lab, different angle, photorealistic photograph, natural bright lighting, sharp focus, high detail, shallow depth of field, 16:9, no people, no text, no logos
 
 ## Bloque 79 — titular: UN DOMINIO / DE 10 DÓLARES · media
 > A veces la salvación llega de forma absurda.
 
-- `b79_1.jpg` — server room with blinking lights, wide angle, different angle, photorealistic photograph, natural bright lighting, sharp focus, high detail, shallow depth of field, 16:9, no people, no text, no logos
-- `b79_2.jpg` — laptop on a desk in a dark room, glowing screen, different angle, photorealistic photograph, natural bright lighting, sharp focus, high detail, shallow depth of field, 16:9, no people, no text, no logos
-- `b79_3.jpg` — city at night with lit windows, different angle, photorealistic photograph, natural bright lighting, sharp focus, high detail, shallow depth of field, 16:9, no people, no text, no logos
-- `b79_4.jpg` — server room with blinking lights, wide angle, different angle, photorealistic photograph, natural bright lighting, sharp focus, high detail, shallow depth of field, 16:9, no people, no text, no logos
+- `b79_1.jpg` — laptop on a desk in a dark room, glowing screen, different angle, photorealistic photograph, natural bright lighting, sharp focus, high detail, shallow depth of field, 16:9, no people, no text, no logos
+- `b79_2.jpg` — city at night with lit windows, different angle, photorealistic photograph, natural bright lighting, sharp focus, high detail, shallow depth of field, 16:9, no people, no text, no logos
+- `b79_3.jpg` — server room with blinking lights, wide angle, different angle, photorealistic photograph, natural bright lighting, sharp focus, high detail, shallow depth of field, 16:9, no people, no text, no logos
+- `b79_4.jpg` — laptop on a desk in a dark room, glowing screen, different angle, photorealistic photograph, natural bright lighting, sharp focus, high detail, shallow depth of field, 16:9, no people, no text, no logos
 
 ## Bloque 80 — 3D caja_led · media
 > Otra idea, casi de ciencia ficción, ya ocurrió una vez.
@@ -484,6 +494,7 @@ Todas terminan con: *photorealistic photograph, natural bright lighting, sharp f
 - `b82_3.jpg` — airport control tower at dusk, different angle, photorealistic photograph, natural bright lighting, sharp focus, high detail, shallow depth of field, 16:9, no people, no text, no logos
 - `b82_4.jpg` — green radar screen in a dark room, no readable text, different angle, photorealistic photograph, natural bright lighting, sharp focus, high detail, shallow depth of field, 16:9, no people, no text, no logos
 - `b82_5.jpg` — radar dish on a hill at sunset, different angle, photorealistic photograph, natural bright lighting, sharp focus, high detail, shallow depth of field, 16:9, no people, no text, no logos
+- `b82_6.jpg` — airport control tower at dusk, different angle, photorealistic photograph, natural bright lighting, sharp focus, high detail, shallow depth of field, 16:9, no people, no text, no logos
 
 ## Bloque 83 — 3D caja_tv · clara
 > Y ahora, la parte práctica.
@@ -505,20 +516,20 @@ Todas terminan con: *photorealistic photograph, natural bright lighting, sharp f
 ## Bloque 86 — diagrama: red de invitados separada para los aparatos del hogar · clara
 > Tercero: separa tu red.
 
-- `b86_1.jpg` — laptop on a desk in a dark room, glowing screen, different angle, photorealistic photograph, natural bright lighting, sharp focus, high detail, shallow depth of field, 16:9, no people, no text, no logos
-- `b86_2.jpg` — city at night with lit windows, different angle, photorealistic photograph, natural bright lighting, sharp focus, high detail, shallow depth of field, 16:9, no people, no text, no logos
+- `b86_1.jpg` — city at night with lit windows, different angle, photorealistic photograph, natural bright lighting, sharp focus, high detail, shallow depth of field, 16:9, no people, no text, no logos
+- `b86_2.jpg` — server room with blinking lights, wide angle, different angle, photorealistic photograph, natural bright lighting, sharp focus, high detail, shallow depth of field, 16:9, no people, no text, no logos
 
 ## Bloque 87 — 3D radar · clara
 > Cuarto: actualiza lo que se pueda actualizar.
 
-- `b87_1.jpg` — airport control tower at dusk, different angle, photorealistic photograph, natural bright lighting, sharp focus, high detail, shallow depth of field, 16:9, no people, no text, no logos
-- `b87_2.jpg` — green radar screen in a dark room, no readable text, different angle, photorealistic photograph, natural bright lighting, sharp focus, high detail, shallow depth of field, 16:9, no people, no text, no logos
+- `b87_1.jpg` — green radar screen in a dark room, no readable text, different angle, photorealistic photograph, natural bright lighting, sharp focus, high detail, shallow depth of field, 16:9, no people, no text, no logos
+- `b87_2.jpg` — radar dish on a hill at sunset, different angle, photorealistic photograph, natural bright lighting, sharp focus, high detail, shallow depth of field, 16:9, no people, no text, no logos
 
 ## Bloque 88 — titular: SI LA LUZ / NO PARA DE PARPADEAR · media
 > Y quinto: si una caja o una cámara hace cosas raras, está caliente cuando no deberías estar usándola, o su lucecita no para nunca, desenchúfala.
 
-- `b88_1.jpg` — server room with blinking lights, wide angle, different angle, photorealistic photograph, natural bright lighting, sharp focus, high detail, shallow depth of field, 16:9, no people, no text, no logos
-- `b88_2.jpg` — laptop on a desk in a dark room, glowing screen, different angle, photorealistic photograph, natural bright lighting, sharp focus, high detail, shallow depth of field, 16:9, no people, no text, no logos
+- `b88_1.jpg` — laptop on a desk in a dark room, glowing screen, different angle, photorealistic photograph, natural bright lighting, sharp focus, high detail, shallow depth of field, 16:9, no people, no text, no logos
+- `b88_2.jpg` — city at night with lit windows, different angle, photorealistic photograph, natural bright lighting, sharp focus, high detail, shallow depth of field, 16:9, no people, no text, no logos
 
 ## Bloque 89 — 3D caja_led · noche
 > Volvamos a la cajita negra bajo el televisor.
@@ -529,15 +540,15 @@ Todas terminan con: *photorealistic photograph, natural bright lighting, sharp f
 ## Bloque 90 — 3D casas_red · noche
 > Casi todo lo que hizo ya ha ocurrido de verdad.
 
-- `b90_1.jpg` — city neighborhood at night from a hill, glowing windows, different angle, photorealistic photograph, natural bright lighting, sharp focus, high detail, shallow depth of field, 16:9, no people, no text, no logos
-- `b90_2.jpg` — suburban houses at night with lit windows, aerial view, different angle, photorealistic photograph, natural bright lighting, sharp focus, high detail, shallow depth of field, 16:9, no people, no text, no logos
-- `b90_3.jpg` — rows of apartment windows lit up at dusk, different angle, photorealistic photograph, natural bright lighting, sharp focus, high detail, shallow depth of field, 16:9, no people, no text, no logos
+- `b90_1.jpg` — suburban houses at night with lit windows, aerial view, different angle, photorealistic photograph, natural bright lighting, sharp focus, high detail, shallow depth of field, 16:9, no people, no text, no logos
+- `b90_2.jpg` — rows of apartment windows lit up at dusk, different angle, photorealistic photograph, natural bright lighting, sharp focus, high detail, shallow depth of field, 16:9, no people, no text, no logos
+- `b90_3.jpg` — city neighborhood at night from a hill, glowing windows, different angle, photorealistic photograph, natural bright lighting, sharp focus, high detail, shallow depth of field, 16:9, no people, no text, no logos
 
 ## Bloque 91 — titular: AÚN NO / EXISTE · noche
 > Por ahora, todo eso existe por separado.
 
-- `b91_1.jpg` — city at night with lit windows, different angle, photorealistic photograph, natural bright lighting, sharp focus, high detail, shallow depth of field, 16:9, no people, no text, no logos
-- `b91_2.jpg` — server room with blinking lights, wide angle, different angle, photorealistic photograph, natural bright lighting, sharp focus, high detail, shallow depth of field, 16:9, no people, no text, no logos
+- `b91_1.jpg` — server room with blinking lights, wide angle, different angle, photorealistic photograph, natural bright lighting, sharp focus, high detail, shallow depth of field, 16:9, no people, no text, no logos
+- `b91_2.jpg` — laptop on a desk in a dark room, glowing screen, different angle, photorealistic photograph, natural bright lighting, sharp focus, high detail, shallow depth of field, 16:9, no people, no text, no logos
 
 ## Bloque 92 — 3D puerta · noche
 > Y lo que más inquieta es lo que viene después de ese paso.
@@ -547,6 +558,7 @@ Todas terminan con: *photorealistic photograph, natural bright lighting, sharp f
 - `b92_3.jpg` — front door slightly ajar at night, different angle, photorealistic photograph, natural bright lighting, sharp focus, high detail, shallow depth of field, 16:9, no people, no text, no logos
 - `b92_4.jpg` — long corridor with a door at the end, different angle, photorealistic photograph, natural bright lighting, sharp focus, high detail, shallow depth of field, 16:9, no people, no text, no logos
 - `b92_5.jpg` — open door in a dark hallway with light spilling in, different angle, photorealistic photograph, natural bright lighting, sharp focus, high detail, shallow depth of field, 16:9, no people, no text, no logos
+- `b92_6.jpg` — front door slightly ajar at night, different angle, photorealistic photograph, natural bright lighting, sharp focus, high detail, shallow depth of field, 16:9, no people, no text, no logos
 
 ## Bloque 93 — 3D caja_tv · noche
 > Los expertos encontrarán una copia y la borrarán.
@@ -557,4 +569,4 @@ Todas terminan con: *photorealistic photograph, natural bright lighting, sharp f
 ## Bloque 94 — titular: ¿FUE / LA ÚLTIMA? · noche
 > Pero nadie podrá decir con seguridad si la copia que borraron era la última.
 
-- `b94_1.jpg` — laptop on a desk in a dark room, glowing screen, different angle, photorealistic photograph, natural bright lighting, sharp focus, high detail, shallow depth of field, 16:9, no people, no text, no logos
+- `b94_1.jpg` — city at night with lit windows, different angle, photorealistic photograph, natural bright lighting, sharp focus, high detail, shallow depth of field, 16:9, no people, no text, no logos
