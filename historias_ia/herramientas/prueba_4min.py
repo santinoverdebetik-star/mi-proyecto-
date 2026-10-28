@@ -272,7 +272,14 @@ def main():
         cand = [o for o in TODOS_3D if fam(o) != fam(prev[0] or "")]
         cand.sort(key=lambda o: (usos.get(fam(o), 0), TODOS_3D.index(o)))
         return cand[0]
-    pool = cargar_pool(a.salida); usos_f = {}; nfoto = [0]
+    pool = cargar_pool(a.salida); usos_f = {}; nfoto = [0]; bloque = [0]
+    fxdir = os.path.join(a.salida, "public", "fotos_fx")             # imagenes de ImageFX (IMAGENES_IMAGEFX_PROMPTS.md): tienen prioridad
+    fx = {}
+    if os.path.isdir(fxdir):
+        for n in sorted(os.listdir(fxdir)):
+            m = re.match(r"b(\d+)_(\d+)\.(jpg|png)$", n)
+            if m: fx.setdefault(int(m.group(1)), []).append("fotos_fx/" + n)
+    print(f"imagenes ImageFX: {sum(len(v) for v in fx.values())}")
     print(f"pool de fotos reales: {len(pool)}")
     def elegir_foto(obj):
         cats = FOTO_PREF.get(obj, []); lug = OBJ_CATS.get(obj, [])
@@ -302,12 +309,12 @@ def main():
                 usos[fam(o)] = usos.get(fam(o), 0) + 1; prev[0] = o; ult = o; j += 1
             else:
                 sig = (pref[j % len(pref)] if pref else None) or ult
-                f = elegir_foto(ult or sig or "sala"); nfoto[0] += 1
+                f = fx[bloque[0]].pop(0) if fx.get(bloque[0]) else elegir_foto(ult or sig or "sala"); nfoto[0] += 1
                 e = {"tipo": "foto", "archivo": f, "luz": luz, "v": nfoto[0], "pos": POS[nfoto[0] % len(POS)], "dur": round(d, 3)}
             escenas.append(e); inicios.append(x); x += d
     for bi, (tag, ls) in enumerate(bloques):
         t_ini = ini_lin[k]; t_fin = ini_lin[k + len(ls)] if k + len(ls) < len(lineas) else dur; k += len(ls)
-        base = escena_de(tag); tipo = base["tipo"]
+        base = escena_de(tag); tipo = base["tipo"]; bloque[0] = bi + 1
         if tipo == "3d":
             trozos(t_ini, t_fin, base["objetos"], base["luz"])
         else:
