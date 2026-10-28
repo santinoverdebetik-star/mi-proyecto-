@@ -92,3 +92,10 @@ En esta nube hace falta `CHROMIUM_PATH=/opt/pw-browsers/chromium_headless_shell-
 3. **Mucha más luz:** los clips no deben verse oscuros. Niveles `noche` / `media` / `clara` ya son más claros; usar `media` o `clara` salvo en momentos de amenaza.
 4. **Música de aventura/misterio audible de fondo en todo el video** (no un drone grave): `herramientas/musica_aventura.py`. Se baja un poco cuando habla la voz (ducking) y **desde el minuto 2:46 baja un poco más** (parámetro `bajar_desde`).
 5. **Transición:** glitch digital. Voz: Martín (Voizum).
+
+
+## REGLAS FIJAS (V5 — pedido del usuario)
+- **Fondo de los clips 3D = estudio oscuro como la referencia** (degradado radial neutro + piso brillante). NADA de fotos de fondo detrás de los objetos 3D.
+- **Nada flota**: cada objeto se apoya en el piso (alturas medidas con `src/Medir.tsx`, tabla `MIN_Y` en `Escena3D.tsx`); los que flotan por naturaleza (nube, ojo, globo, núcleo…) se posan sobre un pedestal con aro cian.
+- **Ritmo rápido**: se alternan clip 3D (~3 s) y FOTO REAL (~2,2 s) del mismo tema (`escenas/Foto.tsx`); las fotos tampoco se repiten (pool: `public/fotos` de objetos + `public/fondos_raw` de lugares; créditos en CSV).
+- Las fotos deben ser MUY realistas (fotografías reales, nunca ilustraciones). Para el video completo de 25 min hacen falta ~250 clips únicos: generar más con ImageFX o ampliar el pool.

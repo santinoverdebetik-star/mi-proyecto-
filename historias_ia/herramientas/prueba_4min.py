@@ -61,6 +61,32 @@ OBJ_CATS = {  # objeto 3D -> tipos de lugar real donde tiene sentido verlo (el p
     "pantalla_rota": ["pasillo", "estacion"], "router": ["sala", "pasillo"], "camara": ["calle_noche", "lobby", "estacion"], "movil": ["cafe", "sala"],
     "pc_antiguo": ["biblioteca", "aula"], "llave": ["pasillo", "lobby"], "mando": ["sala"],
 }
+# objeto 3D -> categorias de FOTO real de ese objeto (public/fotos/fotos.json); si no hay, se usan lugares (OBJ_CATS) y por ultimo cualquiera
+FOTO_PREF = {
+    "router": ["router"], "camara": ["camara"], "movil": ["movil"], "pc_antiguo": ["laptop", "teclado"], "placa": ["placa"], "cable": ["cable", "fibra"],
+    "hdmi": ["hdmi"], "mando": ["mando"], "globo": ["globo"], "lupa": ["lupa"], "calendario": ["calendario"], "antena": ["antena"], "usb": ["usb"],
+    "rack": ["datacenter", "disco"], "nucleo": ["placa", "disco"], "paquetes": ["datacenter", "fibra"], "avalancha": ["datacenter"], "codigo": ["teclado", "laptop"],
+    "contagio": ["laptop", "teclado"], "intrusion": ["laptop", "teclado"], "caja_tv": ["caja_tv", "tv_sala"], "caja_led": ["caja_tv", "tv_sala"],
+    "tv_play": ["tv_sala", "tv_vieja"], "candado": ["candado"], "candado_agujero": ["candado"], "llave": ["llave", "candado"], "password": ["teclado", "candado"],
+    "dinero": ["dinero"], "reloj": ["reloj"], "engranajes": ["engranajes"], "casas_red": ["antena"], "red": ["fibra", "cable"], "radar": ["antena"],
+    "escudo": ["candado"], "duplicacion": ["disco", "usb"], "latido": ["semaforo"], "nube": ["datacenter"], "apagon": ["enchufe"], "ojo": ["camara"],
+    "sala": ["tv_sala"], "dominos": ["engranajes"], "manometro": ["engranajes"], "puerta": ["candado"],
+}
+DUR_3D, DUR_FOTO = 3.0, 2.2                       # ritmo rapido: 3D corto, foto real entre medio
+
+
+def cargar_pool(raiz_video):
+    """{archivo(relativo a public): categoria} de fotos reales: objetos (public/fotos) + lugares nitidos (public/fondos_raw)"""
+    pool = {}
+    rf = os.path.join(raiz_video, "public", "fotos", "fotos.json")
+    if os.path.exists(rf): pool.update(json.load(open(rf)))
+    rl = os.path.join(raiz_video, "public", "fondos", "fondos.json")
+    if os.path.exists(rl):
+        for k, c in json.load(open(rl)).items():
+            if os.path.exists(os.path.join(raiz_video, "public", "fondos_raw", os.path.basename(k))): pool["fondos_raw/" + os.path.basename(k)] = c
+    return pool
+
+
 POS = ["50% 50%", "35% 55%", "65% 50%", "50% 40%", "40% 60%", "60% 45%"]
 
 
@@ -246,15 +272,39 @@ def main():
         cand = [o for o in TODOS_3D if fam(o) != fam(prev[0] or "")]
         cand.sort(key=lambda o: (usos.get(fam(o), 0), TODOS_3D.index(o)))
         return cand[0]
+    pool = cargar_pool(a.salida); usos_f = {}; nfoto = [0]
+    print(f"pool de fotos reales: {len(pool)}")
+    def elegir_foto(obj):
+        cats = FOTO_PREF.get(obj, []); lug = OBJ_CATS.get(obj, [])
+        for grupo in (cats, lug, None):
+            cand = [f for f, c in pool.items() if (grupo is None or c in grupo) and usos_f.get(f, 0) == 0]
+            if cand:
+                cand.sort(key=lambda f: (0 if pool[f] == (cats or lug or [""])[0] else 1, f))
+                f = cand[(nfoto[0] * 7) % len(cand)] if len(cand) > 1 else cand[0]
+                usos_f[f] = 1; return f
+        if pool: print("AVISO: se repite una foto (faltan fotos en el pool)")
+        f = min(pool, key=lambda k: usos_f.get(k, 0)); usos_f[f] = usos_f.get(f, 0) + 1; return f
     def trozos(ta, tb, pref, luz):
-        n = max(1, -(-int((tb - ta) * 100) // int(MAX_CLIP * 110)))
-        for j in range(n):
-            o = elegir(pref[j % len(pref):] + pref[:j % len(pref)] if pref else [])
-            e = {"tipo": "3d", "objeto": o, "luz": luz, "dur": round((tb - ta) / n, 3)}
-            if usos.get(fam(o), 0) >= 1: e["inv"] = True            # segunda vez que aparece: camara en sentido contrario
-            if usos.get(fam(o), 0) >= MAX_USOS: print("AVISO: se repite el clip", o, "(la biblioteca 3D no alcanza: crear mas objetos)")
-            usos[fam(o)] = usos.get(fam(o), 0) + 1; prev[0] = o
-            escenas.append(e); inicios.append(ta + (tb - ta) * j / n)
+        """el tramo se parte en clips cortos que se alternan: 3D (~3 s) / FOTO real (~2,2 s) del mismo tema"""
+        total = tb - ta; piezas = []; x = 0.0; i = 0
+        while x < total - 0.01:
+            d = DUR_3D if i % 2 == 0 else DUR_FOTO
+            if total - x - d < 1.3: d = total - x                          # sin migajas al final
+            piezas.append(("3d" if i % 2 == 0 else "foto", d)); x += d; i += 1
+        if len(piezas) > 1 and piezas[-1][0] == "foto" and piezas[-1][1] < 1.0: piezas[-2] = (piezas[-2][0], piezas[-2][1] + piezas[-1][1]); piezas.pop()
+        esc = total / sum(d for _, d in piezas); x = ta; j = 0; ult = None
+        for tipo, d in piezas:
+            d *= esc
+            if tipo == "3d":
+                o = elegir(pref[j % len(pref):] + pref[:j % len(pref)] if pref else [])
+                e = {"tipo": "3d", "objeto": o, "luz": luz, "dur": round(d, 3)}
+                if usos.get(fam(o), 0) >= MAX_USOS: print("AVISO: se repite el clip", o, "(la biblioteca 3D no alcanza: crear mas objetos)")
+                usos[fam(o)] = usos.get(fam(o), 0) + 1; prev[0] = o; ult = o; j += 1
+            else:
+                sig = (pref[j % len(pref)] if pref else None) or ult
+                f = elegir_foto(ult or sig or "sala"); nfoto[0] += 1
+                e = {"tipo": "foto", "archivo": f, "luz": luz, "v": nfoto[0], "pos": POS[nfoto[0] % len(POS)], "dur": round(d, 3)}
+            escenas.append(e); inicios.append(x); x += d
     for bi, (tag, ls) in enumerate(bloques):
         t_ini = ini_lin[k]; t_fin = ini_lin[k + len(ls)] if k + len(ls) < len(lineas) else dur; k += len(ls)
         base = escena_de(tag); tipo = base["tipo"]
@@ -269,7 +319,6 @@ def main():
             if t_fin - t_med > 0.05:                               # el titular/diagrama no se queda quieto toda la frase: sigue un clip 3D variado
                 trozos(t_med, t_fin, base.get("_relleno", []), "media")
     escenas[0]["dur"] = round(escenas[0]["dur"] + inicios[0], 3); inicios[0] = 0.0       # cubre el silencio inicial
-    asignar_fondos(escenas, a.salida)
     mp3 = os.path.join(pub, "mezcla.mp3")
     segs = [(inicios[i], (inicios[i + 1] if i + 1 < len(inicios) else dur), escenas[i].get("luz", "media")) for i in range(len(escenas))]
     D = mezclar(audio, inicios, golpes, mp3, segs)

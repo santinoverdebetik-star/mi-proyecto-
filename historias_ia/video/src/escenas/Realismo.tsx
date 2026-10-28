@@ -45,3 +45,22 @@ export const PL: React.FC<any> = (props) => {
   if (esAcento) { if (_acento++ >= 2) return null; } else { if (_neutra++ >= 1) return null; }
   return <pointLight {...props} />;
 };
+
+/** Solo para calibrar: mide la caja envolvente (sin particulas, anillos ni luces) del objeto y la escribe en la consola del navegador. */
+export const MedidorBBox: React.FC<{ nombre: string; t: number; children: React.ReactNode }> = ({ nombre, t, children }) => {
+  const ref = useRef<THREE.Group>(null);
+  useLayoutEffect(() => {
+    const g = ref.current; if (!g) return;
+    g.updateMatrixWorld(true);
+    const box = new THREE.Box3(); let n = 0;
+    g.traverse((o: any) => {
+      if (!o.isMesh || !o.geometry) return;
+      const m = Array.isArray(o.material) ? o.material[0] : o.material;
+      if (m && (m.isMeshBasicMaterial || m.transparent)) return;                  // anillos, ondas, cristales
+      o.geometry.computeBoundingSphere(); if (o.geometry.boundingSphere.radius < 0.12) return;   // puntos y luces pequeñas
+      box.expandByObject(o); n++;
+    });
+    console.log("BBOX " + JSON.stringify({ nombre, t, n, minY: +box.min.y.toFixed(3), maxY: +box.max.y.toFixed(3), minX: +box.min.x.toFixed(3), maxX: +box.max.x.toFixed(3), minZ: +box.min.z.toFixed(3), maxZ: +box.max.z.toFixed(3) }));
+  });
+  return <group ref={ref}>{children}</group>;
+};

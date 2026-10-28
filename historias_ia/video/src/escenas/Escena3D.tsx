@@ -4,7 +4,7 @@ import { ThreeCanvas } from "@remotion/three";
 import { Img, staticFile } from "remotion";
 import { useThree } from "@react-three/fiber";
 import * as THREE from "three";
-import { PL, RB, SombrasAuto, reiniciarLuces } from "./Realismo";
+import { MedidorBBox, PL, RB, SombrasAuto, reiniciarLuces } from "./Realismo";
 import { C } from "../estilo";
 import { Antena, Calendario, CamaraSeguridad, Dinero, Dominos, Engranajes, Escudo, Hdmi, Latido, Llave, Lupa, Mando, Movil, Nube, Ojo, Paquetes, PcAntiguo, Placa, Password, Reloj, Router, TvPlay } from "./Objetos3D_b";
 import { Apagon, Avalancha, Cable, Candado, Codigo, Estanteria, Globo, Sala, CajaStreaming, CasasRed, Duplicacion, Fabrica, Laptop, Manometro, Pulsos, Rack, Radar } from "./Objetos3D";
@@ -231,11 +231,24 @@ const GL_K = 0.6;
 
 /** Nivel de luz segun lo que cuenta la narracion: "noche" = amenaza/misterio, "media" = explicacion, "clara" = datos/ciencia/respiro. */
 export type Luz = "noche" | "media" | "clara";
-const LUZ: Record<Luz, { fondo: string; ambiente: number; relleno: number; suelo: string; hemi: number }> = {
-  noche: { fondo: "#101826", ambiente: 1.5, relleno: 2.0, suelo: "#1b2230", hemi: 0.8 },
-  media: { fondo: "#1a2536", ambiente: 2.2, relleno: 2.8, suelo: "#2a3445", hemi: 1.4 },
-  clara: { fondo: "#2c3a52", ambiente: 3.0, relleno: 3.6, suelo: "#3a4658", hemi: 2.0 },
+const LUZ: Record<Luz, { fondo: string; ambiente: number; relleno: number; suelo: string; hemi: number; c1: string; c3: string }> = {
+  noche: { fondo: "#0e1118", ambiente: 1.5, relleno: 2.0, suelo: "#14171d", hemi: 0.8, c1: "#1d2330", c3: "#05060a" },
+  media: { fondo: "#151a24", ambiente: 2.2, relleno: 2.8, suelo: "#1c212b", hemi: 1.4, c1: "#2b3344", c3: "#07090d" },
+  clara: { fondo: "#1e2532", ambiente: 3.0, relleno: 3.6, suelo: "#262d3a", hemi: 2.0, c1: "#3b4659", c3: "#0a0d13" },
 };
+
+/** minY medido de cada objeto (Medir.tsx): sirve para apoyarlo en el suelo (y = -1) y que no flote */
+const MIN_Y: Partial<Record<Objeto3D, number>> = {"router": -0.44, "camara": -0.7, "movil": -0.36, "pc_antiguo": -0.65, "reloj": -0.81, "calendario": -0.7, "placa": -1.38, "llave": -0.8, "dominos": -0.8, "escudo": -0.86, "dinero": -0.96, "hdmi": -0.45, "password": -0.5, "engranajes": -1.28, "latido": -0.6, "paquetes": -0.35, "antena": -1.0, "lupa": -0.63, "mando": -0.43, "nube": -0.2, "ojo": -0.5, "tv_play": -0.9, "globo": -1.27, "sala": -1.3, "estanteria": -1.19, "avalancha": -1.2, "cable": -0.77, "codigo": -0.6, "casas_red": -0.9, "fabrica": -1.04, "candado": -0.55, "candado_agujero": -0.55, "apagon": -1.52, "duplicacion": 0.47, "rack": -1.1, "radar": -0.85, "intrusion": -0.98, "contagio": -0.95};
+const SIN_AJUSTE: Objeto3D[] = ["sala", "casas_red", "fabrica", "apagon", "estanteria", "avalancha", "cable", "red", "contagio", "intrusion", "dominos", "dinero", "rack", "manometro", "caja_tv", "caja_led", "cajas15", "puerta", "pantalla_rota"];
+/** objetos que por naturaleza "flotan": se posan sobre un pedestal */
+const PEDESTAL: Objeto3D[] = ["nube", "ojo", "duplicacion", "globo", "latido", "nucleo", "codigo", "escudo", "password"];
+const ajuste = (o: Objeto3D): { dy: number; ped: number } => {
+  const m = MIN_Y[o]; if (m === undefined || SIN_AJUSTE.includes(o)) return { dy: 0, ped: 0 };
+  const ped = PEDESTAL.includes(o) ? 0.4 : 0;
+  const dy = -1 + ped - m;
+  return Math.abs(dy) < 0.04 && !ped ? { dy: 0, ped: 0 } : { dy, ped };
+};
+
 
 /** Fondo de FOTO REAL (habitacion / lugar) detras del 3D: desenfoque leve, gradacion segun la luz y un lento empuje de camara. */
 const FondoFoto: React.FC<{ archivo: string; luz: Luz; pos?: string }> = ({ archivo, luz, pos = "50% 50%" }) => {
@@ -258,19 +271,23 @@ const SombraSuelo: React.FC = () => (
   </group>
 );
 
-export const Escena3D: React.FC<{ objeto: Objeto3D; infeccion?: number; luz?: Luz; inv?: boolean; fondo?: string; fondoPos?: string }> = ({ objeto, infeccion = 120, luz = "noche", inv = false, fondo, fondoPos }) => {
+export const Escena3D: React.FC<{ objeto: Objeto3D; infeccion?: number; luz?: Luz; inv?: boolean; fondo?: string; fondoPos?: string; medir?: number }> = ({ objeto, infeccion = 120, luz = "noche", inv = false, fondo: _f, fondoPos, medir }) => {
+  let fondo: string | undefined = _f;
+  fondo = undefined;                                     // sin fotos detras del 3D: estudio oscuro como la referencia
   reiniciarLuces();
+  const { dy, ped } = ajuste(objeto);
   const L = LUZ[luz];
   const { width, height, durationInFrames } = useVideoConfig();
   const c0 = (CAMS_NUEVAS[objeto] ?? CONFIG[objeto])!;
-  const c: Cam = inv ? { ...c0, desde: c0.hasta, hasta: c0.desde, mira: c0.miraHasta ?? c0.mira, miraHasta: c0.miraHasta ? c0.mira : undefined } : c0;
+  const c1: Cam = inv ? { ...c0, desde: c0.hasta, hasta: c0.desde, mira: c0.miraHasta ?? c0.mira, miraHasta: c0.miraHasta ? c0.mira : undefined } : c0;
+  const sh = (v: [number, number, number]): [number, number, number] => [v[0], v[1] + dy, v[2]];
+  const c: Cam = { desde: sh(c1.desde), hasta: sh(c1.hasta), mira: sh(c1.mira), miraHasta: c1.miraHasta ? sh(c1.miraHasta) : undefined };
   return (
-    <AbsoluteFill style={{ background: L.fondo }}>
+    <AbsoluteFill style={{ background: `radial-gradient(ellipse 75% 65% at 50% 40%, ${L.c1} 0%, ${L.fondo} 55%, ${L.c3} 100%)` }}>
       {fondo && <FondoFoto archivo={fondo} luz={luz} pos={fondoPos} />}
       <div style={{ width: width * GL_K, height: height * GL_K, transform: `scale(${1 / GL_K})`, transformOrigin: "0 0" }}>
-      <ThreeCanvas width={width * GL_K} height={height * GL_K} camera={{ fov: 38, near: 0.1, far: 80, position: c.desde }} shadows gl={{ antialias: false, alpha: !!fondo }}>
-        {!fondo && <color attach="background" args={[L.fondo]} />}
-        {!fondo && <fog attach="fog" args={[L.fondo, 7, 22]} />}
+      <ThreeCanvas width={width * GL_K} height={height * GL_K} camera={{ fov: 38, near: 0.1, far: 80, position: c.desde }} shadows gl={{ antialias: false, alpha: true }}>
+        <fog attach="fog" args={[L.fondo, 8, 24]} />
         {/* Entorno HDRI desactivado: en render por software triplica el tiempo (180 s vs 78 s cada 100 fotogramas). */}
         <ambientLight intensity={L.ambiente * 0.9} />
         <hemisphereLight args={["#bcd4ff", "#201a18", L.hemi]} />
@@ -280,7 +297,16 @@ export const Escena3D: React.FC<{ objeto: Objeto3D; infeccion?: number; luz?: Lu
         <Camara desde={c.desde} hasta={c.hasta} mira={c.mira} miraHasta={c.miraHasta} total={durationInFrames} />
         {objeto !== "manometro" && !fondo && <Suelo color={L.suelo} />}
         {fondo && objeto !== "manometro" && <mesh rotation={[-Math.PI / 2, 0, 0]} position={[0, -0.985, 0]} receiveShadow><planeGeometry args={[40, 40]} /><shadowMaterial opacity={0.5} /></mesh>}
+        <spotLight position={[0, 7, 3.5]} angle={0.55} penumbra={1} intensity={90} distance={26} color="#cfe0ff" target-position={[0, -1, 0]} />
+        {ped > 0 && (
+          <group position={[0, -1 + ped / 2, 0]}>
+            <mesh receiveShadow castShadow><cylinderGeometry args={[1.5, 1.65, ped, 48]} /><meshStandardMaterial color="#0d0f14" roughness={0.25} metalness={0.8} /></mesh>
+            <mesh position={[0, ped / 2 + 0.004, 0]} rotation={[-Math.PI / 2, 0, 0]}><ringGeometry args={[1.38, 1.46, 64]} /><meshBasicMaterial color="#35d9ff" toneMapped={false} /></mesh>
+          </group>
+        )}
         <SombrasAuto>
+        <group position={[0, dy, 0]}>
+        <MedidorBBox nombre={objeto} t={medir ?? -1}>
         {(objeto === "caja_tv" || objeto === "caja_led") && <CajaTV />}
         {objeto === "nucleo" && <Nucleo />}
         {objeto === "intrusion" && <Intrusion />}
@@ -327,6 +353,8 @@ export const Escena3D: React.FC<{ objeto: Objeto3D; infeccion?: number; luz?: Lu
         {objeto === "red" && <Red infeccion={infeccion} />}
         {objeto === "puerta" && <Puerta />}
         {objeto === "pantalla_rota" && <PantallaRota />}
+        </MedidorBBox>
+        </group>
         </SombrasAuto>
       </ThreeCanvas>
       </div>
