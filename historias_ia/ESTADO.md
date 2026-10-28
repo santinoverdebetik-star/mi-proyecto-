@@ -23,3 +23,4 @@ Ningún clip 3D se repite · clips ≤ 5 s · mucha luz · música de aventura a
 - Hecho: fondo estudio oscuro, objetos apoyados en piso (MIN_Y en Escena3D.tsx), clips Foto.tsx alternados con 3D (3 s / 2,2 s), pool de ~100 fotos reales (public/fotos + fondos_raw). Video: muestra/prueba_4min_V5_estudio_y_fotos_540p.mp4.
 - Pendiente: feedback del usuario sobre V5; más fotos/ImageFX para el video de 25 min; rotar clave Voizum.
 - ImageFX: `herramientas/prompts_imagefx.py` genera `IMAGENES_IMAGEFX_PROMPTS.md` (206 prompts, uno por hueco de foto). Las imágenes se guardan como `video/public/fotos_fx/bNN_k.jpg` y `prueba_4min.py` las usa primero.
+- V8 (muestra/prueba_4min_V8_insertos_y_audio_540p.mp4): insertos gráficos sin texto, música 0.05, efectos bajos, 3D 4,6 s, render incremental (herramientas/render_incremental.py). Pendiente: feedback del usuario; voz+render del video completo de 25 min (~1.400 créditos Voizum, muchas horas de render); ImageFX opcional.
