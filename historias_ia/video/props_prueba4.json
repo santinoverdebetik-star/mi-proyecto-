@@ -4,41 +4,24 @@
    "tipo": "3d",
    "objeto": "sala",
    "luz": "media",
-   "dur": 2.6
+   "dur": 4.6
   },
   {
-   "tipo": "foto",
-   "archivo": "fotos/tv_sala_01.jpg",
-   "luz": "media",
+   "tipo": "frase",
+   "texto": "Pero la lucecita de la cajita",
    "v": 1,
-   "pos": "35% 55%",
-   "dur": 2.4
-  },
-  {
-   "tipo": "3d",
-   "objeto": "caja_tv",
-   "luz": "media",
-   "dur": 3.08
+   "dur": 3.48
   },
   {
    "tipo": "3d",
    "objeto": "caja_led",
    "luz": "media",
-   "dur": 2.6
+   "dur": 4.6
   },
   {
-   "tipo": "foto",
-   "archivo": "fotos/caja_tv_02.jpg",
-   "luz": "media",
+   "tipo": "flujo",
    "v": 2,
-   "pos": "65% 50%",
-   "dur": 2.4
-  },
-  {
-   "tipo": "3d",
-   "objeto": "camara",
-   "luz": "media",
-   "dur": 2.74
+   "dur": 3.14
   },
   {
    "tipo": "diagrama",
@@ -120,75 +103,52 @@
    "tipo": "3d",
    "objeto": "intrusion",
    "luz": "media",
-   "dur": 2.6
+   "dur": 4.6
   },
   {
    "tipo": "foto",
-   "archivo": "fotos/laptop_03.jpg",
+   "archivo": "fotos/laptop_01.jpg",
    "luz": "media",
-   "v": 3,
-   "pos": "50% 40%",
-   "dur": 2.4
-  },
-  {
-   "tipo": "3d",
-   "objeto": "contagio",
-   "luz": "media",
-   "dur": 2.22
+   "v": 1,
+   "pos": "35% 55%",
+   "dur": 2.62
   },
   {
    "tipo": "3d",
    "objeto": "placa",
    "luz": "media",
-   "dur": 2.6
+   "dur": 4.6
   },
   {
-   "tipo": "foto",
-   "archivo": "fotos/placa_03.jpg",
-   "luz": "media",
+   "tipo": "terminal",
    "v": 4,
-   "pos": "40% 60%",
-   "dur": 2.4
-  },
-  {
-   "tipo": "3d",
-   "objeto": "engranajes",
-   "luz": "media",
-   "dur": 2.54
+   "dur": 2.94
   },
   {
    "tipo": "3d",
    "objeto": "manometro",
    "luz": "clara",
-   "dur": 2.6
+   "dur": 4.6
   },
   {
-   "tipo": "foto",
-   "archivo": "fondos_raw/pasillo_02.jpg",
-   "luz": "clara",
+   "tipo": "frase",
+   "texto": "Y una prueba reciente de laboratorio",
    "v": 5,
-   "pos": "60% 45%",
    "dur": 2.4
   },
   {
    "tipo": "3d",
    "objeto": "lupa",
    "luz": "clara",
-   "dur": 2.6
+   "dur": 4.6
   },
   {
    "tipo": "foto",
-   "archivo": "fotos/lupa_03.jpg",
+   "archivo": "fotos/lupa_02.jpg",
    "luz": "clara",
-   "v": 6,
-   "pos": "50% 50%",
-   "dur": 2.4
-  },
-  {
-   "tipo": "3d",
-   "objeto": "escudo",
-   "luz": "clara",
-   "dur": 3.26
+   "v": 2,
+   "pos": "65% 50%",
+   "dur": 1.66
   },
   {
    "tipo": "titular",
@@ -204,15 +164,7 @@
    "tipo": "3d",
    "objeto": "globo",
    "luz": "media",
-   "dur": 2.6
-  },
-  {
-   "tipo": "foto",
-   "archivo": "fondos_raw/aula_01.jpg",
-   "luz": "media",
-   "v": 7,
-   "pos": "35% 55%",
-   "dur": 2.14
+   "dur": 4.74
   },
   {
    "tipo": "titular",
@@ -228,41 +180,96 @@
    "tipo": "3d",
    "objeto": "calendario",
    "luz": "media",
-   "dur": 2.6
-  },
-  {
-   "tipo": "foto",
-   "archivo": "fotos/calendario_01.jpg",
-   "luz": "media",
-   "v": 8,
-   "pos": "65% 50%",
-   "dur": 1.74
+   "dur": 4.34
   },
   {
    "tipo": "3d",
    "objeto": "casas_red",
    "luz": "media",
-   "dur": 2.6
+   "dur": 4.6
   },
   {
-   "tipo": "foto",
-   "archivo": "fotos/antena_03.jpg",
-   "luz": "media",
-   "v": 9,
-   "pos": "50% 40%",
+   "tipo": "flujo",
+   "v": 7,
    "dur": 2.4
   },
   {
    "tipo": "3d",
    "objeto": "antena",
    "luz": "media",
-   "dur": 2.6
+   "dur": 4.6
+  },
+  {
+   "tipo": "frase",
+   "texto": "La red tenía nombre",
+   "v": 8,
+   "dur": 2.74
+  },
+  {
+   "tipo": "3d",
+   "objeto": "estanteria",
+   "luz": "media",
+   "dur": 4.6
+  },
+  {
+   "tipo": "flujo",
+   "v": 9,
+   "dur": 2.4
+  },
+  {
+   "tipo": "3d",
+   "objeto": "hdmi",
+   "luz": "media",
+   "dur": 4.6
   },
   {
    "tipo": "foto",
-   "archivo": "fotos/antena_02.jpg",
+   "archivo": "fotos/hdmi_03.jpg",
    "luz": "media",
-   "v": 10,
+   "v": 3,
+   "pos": "50% 40%",
+   "dur": 2.4
+  },
+  {
+   "tipo": "3d",
+   "objeto": "tv_play",
+   "luz": "media",
+   "dur": 4.54
+  },
+  {
+   "tipo": "3d",
+   "objeto": "fabrica",
+   "luz": "media",
+   "dur": 4.6
+  },
+  {
+   "tipo": "terminal",
+   "v": 11,
+   "dur": 2.4
+  },
+  {
+   "tipo": "3d",
+   "objeto": "paquetes",
+   "luz": "media",
+   "dur": 4.6
+  },
+  {
+   "tipo": "frase",
+   "texto": "conectas el cable HDMI",
+   "v": 12,
+   "dur": 2.4
+  },
+  {
+   "tipo": "3d",
+   "objeto": "dinero",
+   "luz": "media",
+   "dur": 4.6
+  },
+  {
+   "tipo": "foto",
+   "archivo": "fotos/dinero_01.jpg",
+   "luz": "media",
+   "v": 4,
    "pos": "40% 60%",
    "dur": 2.4
   },
@@ -270,215 +277,59 @@
    "tipo": "3d",
    "objeto": "cable",
    "luz": "media",
-   "dur": 2.6
-  },
-  {
-   "tipo": "foto",
-   "archivo": "fotos/fibra_02.jpg",
-   "luz": "media",
-   "v": 11,
-   "pos": "60% 45%",
-   "dur": 1.74
-  },
-  {
-   "tipo": "3d",
-   "objeto": "estanteria",
-   "luz": "media",
-   "dur": 2.6
-  },
-  {
-   "tipo": "foto",
-   "archivo": "fondos_raw/tienda_03.jpg",
-   "luz": "media",
-   "v": 12,
-   "pos": "50% 50%",
-   "dur": 2.4
-  },
-  {
-   "tipo": "3d",
-   "objeto": "hdmi",
-   "luz": "media",
-   "dur": 2.6
-  },
-  {
-   "tipo": "foto",
-   "archivo": "fotos/hdmi_01.jpg",
-   "luz": "media",
-   "v": 13,
-   "pos": "35% 55%",
-   "dur": 2.4
-  },
-  {
-   "tipo": "3d",
-   "objeto": "tv_play",
-   "luz": "media",
-   "dur": 2.6
-  },
-  {
-   "tipo": "foto",
-   "archivo": "fotos/tv_sala_03.jpg",
-   "luz": "media",
-   "v": 14,
-   "pos": "65% 50%",
-   "dur": 2.4
-  },
-  {
-   "tipo": "3d",
-   "objeto": "nube",
-   "luz": "media",
-   "dur": 3.54
-  },
-  {
-   "tipo": "3d",
-   "objeto": "fabrica",
-   "luz": "media",
-   "dur": 2.6
-  },
-  {
-   "tipo": "foto",
-   "archivo": "fondos_raw/fabrica_02.jpg",
-   "luz": "media",
-   "v": 15,
-   "pos": "50% 40%",
-   "dur": 2.4
-  },
-  {
-   "tipo": "3d",
-   "objeto": "paquetes",
-   "luz": "media",
-   "dur": 2.6
-  },
-  {
-   "tipo": "foto",
-   "archivo": "fotos/datacenter_01.jpg",
-   "luz": "media",
-   "v": 16,
-   "pos": "40% 60%",
-   "dur": 2.4
-  },
-  {
-   "tipo": "3d",
-   "objeto": "dinero",
-   "luz": "media",
-   "dur": 2.6
-  },
-  {
-   "tipo": "foto",
-   "archivo": "fotos/dinero_01.jpg",
-   "luz": "media",
-   "v": 17,
-   "pos": "60% 45%",
-   "dur": 2.4
-  },
-  {
-   "tipo": "3d",
-   "objeto": "codigo",
-   "luz": "media",
-   "dur": 2.6
-  },
-  {
-   "tipo": "foto",
-   "archivo": "fotos/laptop_02.jpg",
-   "luz": "media",
-   "v": 18,
-   "pos": "50% 50%",
-   "dur": 2.4
-  },
-  {
-   "tipo": "3d",
-   "objeto": "avalancha",
-   "luz": "media",
-   "dur": 3.28
+   "dur": 2.28
   },
   {
    "tipo": "3d",
    "objeto": "password",
    "luz": "media",
-   "dur": 2.6
+   "dur": 4.6
   },
   {
-   "tipo": "foto",
-   "archivo": "fotos/teclado_01.jpg",
-   "luz": "media",
-   "v": 19,
-   "pos": "35% 55%",
+   "tipo": "flujo",
+   "v": 14,
    "dur": 2.4
   },
   {
    "tipo": "3d",
    "objeto": "candado",
    "luz": "media",
-   "dur": 2.6
+   "dur": 4.6
   },
   {
-   "tipo": "foto",
-   "archivo": "fondos_raw/pueblo_02.jpg",
-   "luz": "media",
-   "v": 20,
-   "pos": "65% 50%",
-   "dur": 2.4
+   "tipo": "frase",
+   "texto": "Cualquiera podía entrar",
+   "v": 15,
+   "dur": 1.68
   },
   {
    "tipo": "3d",
-   "objeto": "puerta",
+   "objeto": "avalancha",
    "luz": "media",
-   "dur": 3.28
+   "dur": 4.6
+  },
+  {
+   "tipo": "frase",
+   "texto": "esas peticiones tienen que salir de algún sitio",
+   "v": 16,
+   "dur": 2.4
   },
   {
    "tipo": "3d",
    "objeto": "apagon",
    "luz": "media",
-   "dur": 2.6
+   "dur": 4.6
   },
   {
-   "tipo": "foto",
-   "archivo": "fotos/enchufe_03.jpg",
-   "luz": "media",
-   "v": 21,
-   "pos": "50% 40%",
+   "tipo": "flujo",
+   "v": 17,
    "dur": 2.4
   },
   {
    "tipo": "3d",
    "objeto": "latido",
    "luz": "media",
-   "dur": 2.6
-  },
-  {
-   "tipo": "foto",
-   "archivo": "fondos_raw/sala_04.jpg",
-   "luz": "media",
-   "v": 22,
-   "pos": "40% 60%",
-   "dur": 2.4
-  },
-  {
-   "tipo": "3d",
-   "objeto": "red",
-   "luz": "media",
-   "dur": 2.6
-  },
-  {
-   "tipo": "foto",
-   "archivo": "fotos/fibra_01.jpg",
-   "luz": "media",
-   "v": 23,
-   "pos": "60% 45%",
-   "dur": 2.4
-  },
-  {
-   "tipo": "3d",
-   "objeto": "radar",
-   "luz": "media",
-   "dur": 2.6
-  },
-  {
-   "tipo": "foto",
-   "archivo": "fotos/antena_01.jpg",
-   "luz": "media",
-   "v": 24,
-   "pos": "50% 50%",
-   "dur": 1.94
+   "dur": 5.54
   },
   {
    "tipo": "diagrama",
@@ -524,93 +375,66 @@
   },
   {
    "tipo": "3d",
-   "objeto": "duplicacion",
+   "objeto": "codigo",
    "luz": "media",
-   "dur": 2.6
+   "dur": 4.6
   },
   {
    "tipo": "foto",
-   "archivo": "fotos/disco_01.jpg",
+   "archivo": "fotos/laptop_02.jpg",
    "luz": "media",
-   "v": 25,
-   "pos": "35% 55%",
+   "v": 5,
+   "pos": "60% 45%",
    "dur": 2.4
   },
   {
    "tipo": "3d",
-   "objeto": "rack",
+   "objeto": "contagio",
    "luz": "media",
-   "dur": 2.6
-  },
-  {
-   "tipo": "foto",
-   "archivo": "fotos/disco_02.jpg",
-   "luz": "media",
-   "v": 26,
-   "pos": "65% 50%",
-   "dur": 3.5
+   "dur": 4.1
   },
   {
    "tipo": "3d",
    "objeto": "llave",
    "luz": "media",
-   "dur": 2.6
+   "dur": 4.6
   },
   {
-   "tipo": "foto",
-   "archivo": "fotos/llave_01.jpg",
-   "luz": "media",
-   "v": 27,
-   "pos": "50% 40%",
+   "tipo": "terminal",
+   "v": 19,
    "dur": 2.4
   },
   {
    "tipo": "3d",
    "objeto": "router",
    "luz": "media",
-   "dur": 2.6
+   "dur": 4.6
   },
   {
-   "tipo": "foto",
-   "archivo": "fotos/router_03.jpg",
-   "luz": "media",
-   "v": 28,
-   "pos": "40% 60%",
+   "tipo": "frase",
+   "texto": "No era parte del virus",
+   "v": 20,
    "dur": 2.4
   },
   {
    "tipo": "3d",
-   "objeto": "cajas15",
+   "objeto": "caja_tv",
    "luz": "media",
-   "dur": 2.6
+   "dur": 4.6
   },
   {
    "tipo": "foto",
-   "archivo": "fondos_raw/tienda_02.jpg",
+   "archivo": "fotos/caja_tv_01.jpg",
    "luz": "media",
-   "v": 29,
-   "pos": "60% 45%",
-   "dur": 2.4
-  },
-  {
-   "tipo": "3d",
-   "objeto": "pantalla_rota",
-   "luz": "media",
-   "dur": 2.6
-  },
-  {
-   "tipo": "foto",
-   "archivo": "fondos_raw/estacion_01.jpg",
-   "luz": "media",
-   "v": 30,
+   "v": 6,
    "pos": "50% 50%",
    "dur": 2.4
   },
   {
    "tipo": "3d",
-   "objeto": "movil",
+   "objeto": "red",
    "luz": "media",
-   "dur": 3.26
+   "dur": 2.26
   },
   {
    "tipo": "titular",
@@ -626,43 +450,24 @@
    "tipo": "3d",
    "objeto": "pc_antiguo",
    "luz": "media",
-   "dur": 2.6
+   "dur": 4.6
   },
   {
-   "tipo": "foto",
-   "archivo": "fotos/laptop_01.jpg",
-   "luz": "media",
-   "v": 31,
-   "pos": "35% 55%",
+   "tipo": "flujo",
+   "v": 22,
    "dur": 2.4
   },
   {
    "tipo": "3d",
-   "objeto": "reloj",
+   "objeto": "radar",
    "luz": "media",
-   "dur": 2.6
-  },
-  {
-   "tipo": "foto",
-   "archivo": "fondos_raw/habitacion_02.jpg",
-   "luz": "media",
-   "v": 32,
-   "pos": "65% 50%",
-   "dur": 2.58
+   "dur": 3.18
   },
   {
    "tipo": "3d",
-   "objeto": "dominos",
+   "objeto": "camara",
    "luz": "media",
-   "dur": 2.6
-  },
-  {
-   "tipo": "foto",
-   "archivo": "fondos_raw/biblioteca_03.jpg",
-   "luz": "media",
-   "v": 33,
-   "pos": "50% 40%",
-   "dur": 2.61
+   "dur": 5.21
   }
  ],
  "voz": "prueba4/mezcla.mp3"

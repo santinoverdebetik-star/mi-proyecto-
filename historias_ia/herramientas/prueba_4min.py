@@ -73,7 +73,8 @@ FOTO_PREF = {
     "escudo": ["candado"], "duplicacion": ["disco", "usb"], "latido": ["semaforo"], "nube": ["datacenter"], "apagon": ["enchufe"], "ojo": ["camara"],
     "sala": ["tv_sala"], "dominos": ["engranajes"], "manometro": ["engranajes"], "puerta": ["candado"],
 }
-DUR_3D, DUR_FOTO = 2.6, 2.4                       # ritmo rapido: 3D corto, foto real entre medio
+DUR_3D, DUR_FOTO = 4.6, 2.4                     # pedido V7: clips 3D 2 s mas largos; entre ellos se intercalan insertos variados (no solo fotos)
+SEC_INSERTO = ["frase", "flujo", "foto", "terminal", "frase", "foto", "flujo", "frase"]                       # ritmo rapido: 3D corto, foto real entre medio
 
 
 def cargar_pool(raiz_video):
@@ -274,6 +275,14 @@ def main():
         cand = [o for o in TODOS_3D if fam(o) != fam(prev[0] or "")]
         cand.sort(key=lambda o: (usos.get(fam(o), 0), TODOS_3D.index(o)))
         return cand[0]
+    nins = [0]; hist = []
+    def texto_en(t0, t1):
+        """texto de la narracion que suena entre t0 y t1 (para frases y cifras en pantalla)"""
+        out = []
+        for i, l in enumerate(lineas):
+            a_, b_ = ini_lin[i], (ini_lin[i + 1] if i + 1 < len(lineas) else dur)
+            if a_ < t1 and b_ > t0: out.append(l)
+        return " ".join(out[:2])
     pool = cargar_pool(a.salida); usos_f = {}; nfoto = [0]; bloque = [0]
     fxdir = os.path.join(a.salida, "public", "fotos_fx")             # imagenes de ImageFX (IMAGENES_IMAGEFX_PROMPTS.md): tienen prioridad
     fx = {}
@@ -310,9 +319,26 @@ def main():
                 if usos.get(fam(o), 0) >= MAX_USOS: print("AVISO: se repite el clip", o, "(la biblioteca 3D no alcanza: crear mas objetos)")
                 usos[fam(o)] = usos.get(fam(o), 0) + 1; prev[0] = o; ult = o; j += 1
             else:
-                sig = (pref[j % len(pref)] if pref else None) or ult
-                f = fx[bloque[0]].pop(0) if fx.get(bloque[0]) else elegir_foto(ult or sig or "sala"); nfoto[0] += 1
-                e = {"tipo": "foto", "archivo": f, "luz": luz, "v": nfoto[0], "pos": POS[nfoto[0] % len(POS)], "dur": round(d, 3)}
+                tx = texto_en(x, x + d)
+                dato = re.search(r"(\$\s?\d[\d.,]*|\d[\d.,]*\s?%|\b(?:19|20)\d\d\b)", tx)
+                kind = SEC_INSERTO[nins[0] % len(SEC_INSERTO)]
+                if hist and kind == hist[-1]: kind = SEC_INSERTO[(nins[0] + 1) % len(SEC_INSERTO)]
+                if fx.get(bloque[0]): kind = "foto"                           # las imagenes de ImageFX tienen prioridad
+                elif dato and "dato" not in hist[-2:]: kind = "dato"
+                if kind == "frase" and not tx.strip(): kind = "flujo"
+                nins[0] += 1; hist.append(kind); v = nins[0]
+                if kind == "dato":
+                    fr = re.split(r"(?<=[.!?])\s+", tx.strip()); fr = next((s for s in fr if dato.group(1) in s), fr[0])
+                    e = {"tipo": "dato", "valor": dato.group(1).replace(" ", ""), "etiqueta": re.sub(r"\s+", " ", fr)[:70].rstrip(" ,;:") .upper(), "dur": round(d, 3)}
+                elif kind == "frase":
+                    cl = [c.strip(" ,;:.!?¿¡\"«»") for c in re.split(r"[,;:.!?—]+", tx)]; cl = [c for c in cl if 3 <= len(c.split()) <= 8]
+                    w = (min(cl, key=lambda c: abs(len(c.split()) - 5)) if cl else " ".join(tx.split()[:6])).split()
+                    e = {"tipo": "frase", "texto": " ".join(w).strip(" ,;:"), "v": v, "dur": round(d, 3)}
+                elif kind == "terminal": e = {"tipo": "terminal", "v": v, "dur": round(d, 3)}
+                elif kind == "flujo": e = {"tipo": "flujo", "v": v, "dur": round(d, 3)}
+                else:
+                    f = fx[bloque[0]].pop(0) if fx.get(bloque[0]) else elegir_foto(ult or "sala"); nfoto[0] += 1
+                    e = {"tipo": "foto", "archivo": f, "luz": luz, "v": nfoto[0], "pos": POS[nfoto[0] % len(POS)], "dur": round(d, 3)}
             escenas.append(e); inicios.append(x); x += d
     for bi, (tag, ls) in enumerate(bloques):
         t_ini = ini_lin[k]; t_fin = ini_lin[k + len(ls)] if k + len(ls) < len(lineas) else dur; k += len(ls)
