@@ -16,3 +16,5 @@ export const ANCHO = 1920;
 export const ALTO = 1080;
 export const FUENTE_TITULO = "AntonLocal";
 export const FUENTE_TEXTO = "InterLocal";
+export const FUENTE_PIXEL = "PixelLocal";
+export const FUENTE_TERMINAL = "VtLocal";

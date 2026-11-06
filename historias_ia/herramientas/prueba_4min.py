@@ -136,6 +136,12 @@ def escena_de(tag):
         lineas = [x.strip() for x in txt.split("/")]
         return {"tipo": "titular", "lineas": lineas, "resalta": len(lineas) - 1, "lado": "izq", "_golpe": True,
                 "_relleno": [ALIAS.get(o.strip(), o.strip()) for o in extra.split("+") if o.strip()]}
+    if t.startswith("comparar"):
+        cuerpo, _, extra = re.sub(r"^comparar:\s*", "", t.split("·")[0]).partition(">>")
+        a, b = [[x.strip() for x in lado.split("|")] for lado in cuerpo.split("||")]
+        tema = (re.search(r"·\s*(rojo|azul|oscuro)", t) or [None, "rojo"])[1]
+        return {"tipo": "comparar", "izq": dict(zip(("icono", "titulo", "valor"), a)), "der": dict(zip(("icono", "titulo", "valor"), b)), "tema": tema, "_golpe": False,
+                "_relleno": [ALIAS.get(o.strip(), o.strip()) for o in extra.split("+") if o.strip()]}
     if t.startswith("diagrama"):
         d = dict(DIAG_PROXY if ("proxy" in t or "alquila" in t) else DIAG_CASA); d["_golpe"] = False
         return d
@@ -221,7 +227,7 @@ def alinear(audio, lineas):
 
 
 # ---------------------------------------------------------------- mezcla + props
-def mezclar(audio, inicios_escena, golpes, salida_mp3, segmentos=None, nivel_musica=0.05, bajar_desde=((166.0, 0.8),)):
+def mezclar(audio, inicios_escena, golpes, salida_mp3, segmentos=None, nivel_musica=0.05, bajar_desde=((166.0, 0.8),), escenas=None):
     """voz + MUSICA DE AVENTURA audible (se baja un poco mientras habla la voz, 'ducking') + glitch en cada corte + riser/golpe en titulares"""
     import musica_aventura as mus
     SR = am.SR
@@ -235,8 +241,27 @@ def mezclar(audio, inicios_escena, golpes, salida_mp3, segmentos=None, nivel_mus
     def poner(x, t, g):
         i = max(0, int(t * SR))
         if i < len(fx): fx[i:i + len(x)] += g * x[: len(fx) - i]
+    import sfx
+    nrm = lambda x: x / (np.abs(x).max() + 1e-9)
+    G = lambda x, g: g * v_rms * nrm(x)
     for k, t in enumerate(inicios_escena):
-        if k: g = am.glitch(); poner(g, t, 0.2 * v_rms / np.sqrt(np.mean(g ** 2)))
+        e = escenas[k] if escenas else {}; tr = e.get("trans", "pixel"); tp = e.get("tipo")
+        if k:                                                          # sonido de la transicion (0,12 s antes del corte, que es donde empieza el efecto)
+            t0 = max(0, t - 0.12)
+            if tr == "pixel": poner(G(sfx.blips((523, 659, 880, 1047), 0.04), 0.30), t0, 1); poner(G(sfx.whoosh(0.35, 700, 6000), 0.16), t0, 1)
+            elif tr == "barras": poner(G(sfx.whoosh(0.5, 300, 4500), 0.30), t0, 1)
+            else: poner(G(sfx.whoosh(0.45, 500, 7000), 0.26), t0, 1); poner(G(sfx.golpe_grave(), 0.34), t, 1)
+        if tp == "comparar":
+            poner(G(sfx.pop(480), 0.42), t + 0.12, 1); poner(G(sfx.pop(620), 0.42), t + 0.32, 1); poner(G(sfx.blips((784, 988, 1319), 0.05), 0.30), t + 0.62, 1)
+        elif tp == "dato": poner(G(sfx.ding(), 0.34), t + 0.25, 1)
+        elif tp == "terminal":
+            for j in range(34): poner(G(sfx.tick(), 0.20), t + 0.25 + j * 0.065, 1)
+        elif tp == "radar":
+            for j in range(2): poner(G(sfx.ping(880), 0.24), t + 0.2 + j * 1.2, 1)
+        elif tp == "cuadricula":
+            for j in range(7): poner(G(sfx.blips((392 * 1.12 ** j,), 0.04), 0.20), t + 0.25 + j * 0.2, 1)
+        elif tp == "barras":
+            for j in range(5): poner(G(sfx.pop(300 + j * 40), 0.22), t + 0.2 + j * 0.35, 1)
     for t in golpes:
         r = am.riser(); h = am.hit()
         poner(r, t - 2.0, 0.2 * v_rms / 0.2); poner(h, t + 0.05, 0.3 * v_rms / np.sqrt(np.mean(h ** 2)))
@@ -347,7 +372,7 @@ def main():
         if tipo == "3d":
             trozos(t_ini, t_fin, base["objetos"], base["luz"])
         else:
-            tope = 4.5 if tipo == "titular" else 8.0
+            tope = 4.5 if tipo == "titular" else (5.0 if tipo == "comparar" else 8.0)
             t_med = min(t_fin, t_ini + tope) if (t_fin - t_ini) > tope + 1.5 else t_fin
             e = {x: v for x, v in base.items() if not x.startswith("_")}; e["dur"] = round(t_med - t_ini, 3)
             escenas.append(e); inicios.append(t_ini); prev[0] = None
@@ -355,9 +380,13 @@ def main():
             if t_fin - t_med > 0.05:                               # el titular/diagrama no se queda quieto toda la frase: sigue un clip 3D variado
                 trozos(t_med, t_fin, base.get("_relleno", []), "media")
     escenas[0]["dur"] = round(escenas[0]["dur"] + inicios[0], 3); inicios[0] = 0.0       # cubre el silencio inicial
+    ciclo = ["pixel", "barras", "zoom", "pixel", "pixel", "zoom", "barras"]
+    for k_, e_ in enumerate(escenas):
+        e_["trans"] = ciclo[k_ % len(ciclo)]
+        if e_["tipo"] == "3d": e_["calidad"] = "alta" if inicios[k_] < 300 else "normal"   # pedido V9: 3D de mas calidad los primeros 5 min, despues mas liviano
     mp3 = os.path.join(pub, "mezcla.mp3")
     segs = [(inicios[i], (inicios[i + 1] if i + 1 < len(inicios) else dur), escenas[i].get("luz", "media")) for i in range(len(escenas))]
-    D = mezclar(audio, inicios, golpes, mp3, segs)
+    D = mezclar(audio, inicios, golpes, mp3, segs, escenas=escenas)
     props = {"escenas": escenas, "voz": "prueba4/mezcla.mp3"}
     ruta = os.path.join(a.salida, "props_prueba4.json"); json.dump(props, open(ruta, "w"), ensure_ascii=False, indent=1)
     print(f"LISTO: {len(escenas)} escenas, audio {D / 60:.1f} min -> {ruta}")

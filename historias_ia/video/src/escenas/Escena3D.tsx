@@ -271,7 +271,8 @@ const SombraSuelo: React.FC = () => (
   </group>
 );
 
-export const Escena3D: React.FC<{ objeto: Objeto3D; infeccion?: number; luz?: Luz; inv?: boolean; fondo?: string; fondoPos?: string; medir?: number }> = ({ objeto, infeccion = 120, luz = "noche", inv = false, fondo: _f, fondoPos, medir }) => {
+export const Escena3D: React.FC<{ objeto: Objeto3D; infeccion?: number; luz?: Luz; inv?: boolean; fondo?: string; fondoPos?: string; medir?: number; calidad?: string }> = ({ objeto, infeccion = 120, luz = "noche", inv = false, fondo: _f, fondoPos, medir, calidad }) => {
+  const K = calidad === "alta" ? 1.0 : GL_K;                       // primeros 5 min: resolucion nativa (y sombras suaves); despues, mas liviano
   let fondo: string | undefined = _f;
   fondo = undefined;                                     // sin fotos detras del 3D: estudio oscuro como la referencia
   reiniciarLuces();
@@ -285,15 +286,15 @@ export const Escena3D: React.FC<{ objeto: Objeto3D; infeccion?: number; luz?: Lu
   return (
     <AbsoluteFill style={{ background: `radial-gradient(ellipse 75% 65% at 50% 40%, ${L.c1} 0%, ${L.fondo} 55%, ${L.c3} 100%)` }}>
       {fondo && <FondoFoto archivo={fondo} luz={luz} pos={fondoPos} />}
-      <div style={{ width: width * GL_K, height: height * GL_K, transform: `scale(${1 / GL_K})`, transformOrigin: "0 0" }}>
-      <ThreeCanvas width={width * GL_K} height={height * GL_K} camera={{ fov: 38, near: 0.1, far: 80, position: c.desde }} shadows gl={{ antialias: true, alpha: true }}>
+      <div style={{ width: width * K, height: height * K, transform: `scale(${1 / K})`, transformOrigin: "0 0" }}>
+      <ThreeCanvas width={width * K} height={height * K} camera={{ fov: 38, near: 0.1, far: 80, position: c.desde }} shadows gl={{ antialias: true, alpha: true }}>
         <Entorno intensidad={0.9} />
         <fog attach="fog" args={[L.fondo, 8, 24]} />
         {/* Entorno HDRI desactivado: en render por software triplica el tiempo (180 s vs 78 s cada 100 fotogramas). */}
         <ambientLight intensity={L.ambiente * 1.25} />
         <hemisphereLight args={["#bcd4ff", "#201a18", L.hemi]} />
         <directionalLight position={[-4, 5, 4]} intensity={L.relleno * 0.85} color="#7fb0ff" />
-        <directionalLight position={[3, 6, 5]} intensity={2.3} color="#fff1dc" castShadow shadow-mapSize={[512, 512]} shadow-camera-left={-7} shadow-camera-right={7} shadow-camera-top={7} shadow-camera-bottom={-7} shadow-camera-near={1} shadow-camera-far={22} shadow-bias={-0.0004} />
+        <directionalLight position={[3, 6, 5]} intensity={2.3} color="#fff1dc" castShadow shadow-mapSize={calidad === "alta" ? [2048, 2048] : [512, 512]} shadow-radius={calidad === "alta" ? 4 : 1} shadow-camera-left={-7} shadow-camera-right={7} shadow-camera-top={7} shadow-camera-bottom={-7} shadow-camera-near={1} shadow-camera-far={22} shadow-bias={-0.0004} />
         <directionalLight position={[5, 2, 3]} intensity={0.35} color="#ffb48a" />
         <Camara desde={c.desde} hasta={c.hasta} mira={c.mira} miraHasta={c.miraHasta} total={durationInFrames} />
         {objeto !== "manometro" && !fondo && <Suelo color={L.suelo} />}

@@ -8,12 +8,12 @@ Guion **original** (no es traducción del video de referencia). Los hechos está
 
 ## PARTE 1 — LA LUZ QUE PARPADEA (gancho, ~1 min)
 
-<!-- 3D sala+caja_tv+reloj · media -->
+<!-- comparar: tv|TELEVISOR|APAGADO || caja|CAJITA DE STREAMING|PARPADEANDO · rojo >> sala+reloj -->
 Imagina que es de noche.
 El televisor está apagado.
 Pero la lucecita de la cajita de streaming sigue parpadeando.
 
-<!-- 3D caja_led+ojo · media -->
+<!-- comparar: caja|LO QUE PARECE|ESPERA || intruso|LO QUE HACE|OTRA COSA · azul >> caja_led+camara -->
 Parece una luz de espera. Una luz inocente.
 Nadie en esta casa sospecha que no está esperando nada.
 

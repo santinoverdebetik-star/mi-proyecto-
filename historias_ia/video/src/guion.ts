@@ -2,7 +2,8 @@
 // Para un video real: una escena por frase/idea del guion (plano de 3-7 s), alineadas con los tiempos de la voz.
 import type { Luz, Objeto3D } from "./escenas/Escena3D";
 
-export type Escena =
+export type Tarjeta = { icono: string; titulo: string; valor: string };
+export type Escena = (
   | { tipo: "3d"; dur: number; objeto: Objeto3D; infeccion?: number; flash?: number; luz?: Luz; inv?: boolean; fondo?: string; fondoPos?: string }
   | { tipo: "diagrama"; dur: number; titulo?: string; escala?: number; ritmo?: number; nodos: any[]; enlaces: [string, string][]; infecta?: string[] }
   | { tipo: "titular"; dur: number; lineas: string[]; resalta?: number; lado?: "izq" | "centro"; fondo?: string }
@@ -11,7 +12,9 @@ export type Escena =
   | { tipo: "dato"; dur: number; valor: string; etiqueta?: string }
   | { tipo: "flujo" | "radar" | "cuadricula" | "barras" | "globo2d" | "lluvia"; dur: number; v?: number }
   | { tipo: "foto"; dur: number; archivo: string; luz?: string; v?: number; pos?: string }
-  | { tipo: "imagen"; dur: number; archivo: string; brillo?: string };
+  | { tipo: "imagen"; dur: number; archivo: string; brillo?: string }
+  | { tipo: "comparar"; dur: number; izq: Tarjeta; der: Tarjeta; centro?: string; tema?: string }
+) & { trans?: string; calidad?: string };
 
 export const DEMO: Escena[] = [
   { tipo: "3d", dur: 4, objeto: "caja_tv" },
