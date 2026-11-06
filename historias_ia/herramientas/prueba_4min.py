@@ -45,7 +45,7 @@ ALIAS = {"laptop": "contagio", "pantalla": "pantalla_rota", "ojo": "camara", "nu
 TODOS_3D = ["globo", "cable", "codigo", "sala", "estanteria", "avalancha", "casas_red", "fabrica", "candado", "apagon", "intrusion", "contagio", "caja_led",
             "caja_tv", "red", "manometro", "radar", "duplicacion", "rack", "cajas15", "puerta", "pantalla_rota", "router", "camara", "movil", "pc_antiguo", "reloj",
             "calendario", "placa", "llave", "dominos", "escudo", "dinero", "hdmi", "password", "engranajes", "latido", "paquetes", "antena", "lupa", "mando", "nube",
-            "tv_play"]
+            "tv_play", "hogar1", "hogar2", "hogar3", "lab1", "lab2", "lab3", "srv1", "srv2", "map1", "map2"]
 FAMILIA = {"candado_agujero": "candado"}          # candado y candado_agujero cuentan como el mismo clip
 MAX_USOS = 1                                      # REGLA DEL USUARIO (para todos los videos): ningun clip 3D se repite
 MAX_CLIP = 5.0                                    # pedido del usuario: clips 3D ~2 s mas cortos (antes 7 s)
@@ -73,12 +73,12 @@ FOTO_PREF = {
     "escudo": ["candado"], "duplicacion": ["disco", "usb"], "latido": ["semaforo"], "nube": ["datacenter"], "apagon": ["enchufe"], "ojo": ["camara"],
     "sala": ["tv_sala"], "dominos": ["engranajes"], "manometro": ["engranajes"], "puerta": ["candado"],
 }
-DUR_3D, DUR_FOTO = 4.6, 2.4                     # pedido V7: clips 3D 2 s mas largos; entre ellos se intercalan insertos variados (no solo fotos)
+DUR_3D, DUR_FOTO = 5.0, 2.4                     # pedido V7: clips 3D 2 s mas largos; entre ellos se intercalan insertos variados (no solo fotos)
 # inserto que sigue a cada clip 3D: grafico Remotion afin al objeto que se acaba de ver (pedido V8: poco texto; las fotos reales, solo de vez en cuando)
 INS_OBJ = {"radar": ["radar", "antena", "camara", "lupa"], "globo2d": ["globo", "casas_red", "nube", "red", "paquetes", "dinero", "calendario"],
            "cuadricula": ["dominos", "contagio", "intrusion", "duplicacion", "cajas15", "estanteria", "pc_antiguo", "pantalla_rota"],
            "barras": ["avalancha", "apagon", "latido", "manometro", "engranajes", "fabrica", "reloj"], "lluvia": ["codigo", "password", "candado", "llave", "placa", "hdmi", "cable", "escudo", "puerta"],
-           "flujo": ["router", "movil", "caja_tv", "caja_led", "sala", "tv_play", "mando"], "terminal": ["intrusion", "codigo", "pc_antiguo", "contagio", "rack"]}
+           "flujo": ["router", "movil", "caja_tv", "caja_led", "sala", "tv_play", "mando"], "roja": ["router", "caja_tv", "hdmi", "cable", "hogar2", "hogar3", "tv_play", "estanteria", "srv2", "map1", "lab3"], "terminal": ["intrusion", "codigo", "pc_antiguo", "contagio", "rack"]}
 ROTA = ["flujo", "radar", "cuadricula", "globo2d", "barras", "lluvia", "terminal"]                       # ritmo rapido: 3D corto, foto real entre medio
 
 
@@ -354,12 +354,14 @@ def main():
                 cands = [k for k, l in INS_OBJ.items() if ult in l and k not in hist[-2:]] or [k for k in ROTA if k not in hist[-3:]]
                 kind = cands[nins[0] % len(cands)]
                 if nins[0] % 4 == 2: kind = "foto"
+                if ult == "lab3": kind = "roja"                              # la camara entra en el monitor rojo y la pantalla roja llena el cuadro (transicion 3D -> 2D)
                 if fx.get(bloque[0]): kind = "foto"                           # las imagenes de ImageFX tienen prioridad
                 elif dato and "dato" not in hist[-2:]: kind = "dato"
                 nins[0] += 1; hist.append(kind); v = nins[0]
                 if kind == "dato":
                     fr = re.split(r"(?<=[.!?])\s+", tx.strip()); fr = next((s for s in fr if dato.group(1) in s), fr[0])
                     e = {"tipo": "dato", "valor": dato.group(1).replace(" ", ""), "etiqueta": re.sub(r"\s+", " ", fr)[:70].rstrip(" ,;:") .upper(), "dur": round(d, 3)}
+                elif kind == "roja": e = {"tipo": "roja", "variante": "ventana" if ult == "lab3" else "cadena", "etiqueta": None if ult == "lab3" else "TU CASA → INTERNET", "v": v, "dur": round(d, 3)}
                 elif kind == "terminal": e = {"tipo": "terminal", "v": v, "dur": round(d, 3)}
                 elif kind in ("flujo", "radar", "cuadricula", "barras", "globo2d", "lluvia"): e = {"tipo": kind, "v": v, "dur": round(d, 3)}
                 else:

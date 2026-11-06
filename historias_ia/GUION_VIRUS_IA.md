@@ -8,12 +8,12 @@ Guion **original** (no es traducción del video de referencia). Los hechos está
 
 ## PARTE 1 — LA LUZ QUE PARPADEA (gancho, ~1 min)
 
-<!-- comparar: tv|TELEVISOR|APAGADO || caja|CAJITA DE STREAMING|PARPADEANDO · rojo >> sala+reloj -->
+<!-- comparar: tv|TELEVISOR|APAGADO || caja|CAJITA DE STREAMING|PARPADEANDO >> hogar1+hogar2 · rojo -->
 Imagina que es de noche.
 El televisor está apagado.
 Pero la lucecita de la cajita de streaming sigue parpadeando.
 
-<!-- comparar: caja|LO QUE PARECE|ESPERA || intruso|LO QUE HACE|OTRA COSA · azul >> caja_led+camara -->
+<!-- comparar: caja|LO QUE PARECE|ESPERA || intruso|LO QUE HACE|OTRA COSA >> hogar3+caja_led · azul -->
 Parece una luz de espera. Una luz inocente.
 Nadie en esta casa sospecha que no está esperando nada.
 
@@ -21,15 +21,15 @@ Nadie en esta casa sospecha que no está esperando nada.
 Desde hace tres horas, esa caja intenta entrar en tu computadora.
 Y tú no tienes ni idea.
 
-<!-- 3D intrusion+contagio+dominos · media -->
+<!-- 3D lab1+contagio+lab2+dominos · media -->
 Si lo consigue, tu laptop será la siguiente máquina que intente infectar a otra.
 Y la siguiente, a otra más.
 
-<!-- 3D nucleo+engranajes+placa · media -->
+<!-- 3D srv1+placa+engranajes+srv2 · media -->
 Esto no es una escena de película.
 Es un escenario para el que ya existen, por separado, casi todas las piezas.
 
-<!-- 3D manometro+lupa+escudo · clara -->
+<!-- 3D lab3+lupa+escudo · clara -->
 Los investigadores que estudian esto creen que estamos peligrosamente cerca.
 Y una prueba reciente de laboratorio, hecha por Anthropic, la empresa que creó a Claude, nos da una razón incómoda para tomarlos en serio.
 
@@ -44,7 +44,7 @@ Y más real.
 <!-- titular: ENERO / 2026 | calendario+movil · media -->
 En enero de 2026, una empresa de seguridad llamada Synthient publicó una cifra que debería haber ocupado todas las portadas.
 
-<!-- 3D globo+casas_red+antena (el planeta y las ventanas que se encienden en naranja) · media -->
+<!-- 3D map1+map2+globo+casas_red+antena (el planeta y las ventanas que se encienden en naranja) · media -->
 Más de dos millones de dispositivos infectados, repartidos por todo el planeta.
 Dos millones de salas de estar. Dos millones de televisores con una cajita parpadeando debajo.
 La red tenía nombre: Kimwolf.

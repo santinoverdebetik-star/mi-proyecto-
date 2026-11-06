@@ -7,7 +7,7 @@ import { Diagrama } from "./escenas/Diagrama";
 import { Escena3D } from "./escenas/Escena3D";
 import { Imagen } from "./escenas/Imagen";
 import { Foto } from "./escenas/Foto";
-import { Comparar, Transicion } from "./escenas/Pantallas";
+import { Comparar, Roja, Transicion } from "./escenas/Pantallas";
 import { Barras, Cuadricula, Dato, Flujo, Frase, Globo2D, Lluvia, Radar, Terminal } from "./escenas/Inserto";
 import type { Escena } from "./guion";
 
@@ -34,6 +34,7 @@ export const Historia: React.FC<{ escenas: Escena[]; voz?: string; musica?: stri
           {e.tipo === "flujo" && <Flujo v={e.v} />}
           {e.tipo === "foto" && <Foto archivo={e.archivo} luz={e.luz} v={e.v} pos={e.pos} />}
           {e.tipo === "imagen" && <Imagen archivo={e.archivo} brillo={e.brillo} />}
+          {e.tipo === "roja" && <Roja variante={e.variante} etiqueta={e.etiqueta} v={e.v} />}
           {e.tipo === "comparar" && <Comparar izq={e.izq} der={e.der} centro={e.centro} tema={e.tema} />}
           </Transicion>
         </Series.Sequence>

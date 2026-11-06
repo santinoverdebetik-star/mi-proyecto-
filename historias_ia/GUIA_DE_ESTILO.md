@@ -104,3 +104,9 @@ En esta nube hace falta `CHROMIUM_PATH=/opt/pw-browsers/chromium_headless_shell-
 - **Insertos entre clips 3D (V8):** poco texto. Gráficos Remotion afines al objeto recién visto (radar, cuadrícula de contagio, barras de tráfico, globo de puntos, lluvia de código, red de contagio, terminal) + foto real solo 1 de cada 4 + cifra grande cuando el guion dice un número. NO usar frases largas en pantalla. Clips 3D ~4,6 s.
 - **Audio (V8):** música a 0.05 y efectos de transición (glitch/riser/hit) muy bajos.
 - **Render incremental:** `herramientas/render_incremental.py` renderiza por escena y cachea (`video/out/cache`): si solo cambia el audio o unas escenas no se re-renderiza lo demás.
+
+## V10 — estilo copiado del video de referencia 2 (analizado cuadro por cuadro: "ChatGPT Was Caught Hiding Messages From You", Token Drift)
+- **Estructura:** salas 3D completas con travelling lento (laboratorio de CRT, jaula de servidores, sala con mapamundi, sala de casa) que se alternan con **pantallas 2D rojas** (ventana crema de navegador, cadena de aparatos en pixel art, tarjetas comparativas, mapas). Terminal verde sobre negro para frases sueltas.
+- **Transición 3D → 2D:** la cámara se acerca a un monitor de la sala (`lab3`) y su pantalla roja llena el cuadro (escena `roja` ventana).
+- **Iluminación:** sala en penumbra cálida con charcos de luz (lámparas, paneles del techo); no estudio negro.
+- Salas en `video/src/escenas/Salas.tsx`; tarjetas/transiciones/pantalla roja en `Pantallas.tsx`; efectos de sonido en `herramientas/sfx.py`.

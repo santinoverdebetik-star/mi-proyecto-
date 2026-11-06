@@ -13,6 +13,7 @@ export type Escena = (
   | { tipo: "flujo" | "radar" | "cuadricula" | "barras" | "globo2d" | "lluvia"; dur: number; v?: number }
   | { tipo: "foto"; dur: number; archivo: string; luz?: string; v?: number; pos?: string }
   | { tipo: "imagen"; dur: number; archivo: string; brillo?: string }
+  | { tipo: "roja"; dur: number; variante?: string; etiqueta?: string; v?: number }
   | { tipo: "comparar"; dur: number; izq: Tarjeta; der: Tarjeta; centro?: string; tema?: string }
 ) & { trans?: string; calidad?: string };
 

@@ -95,3 +95,44 @@ export const Transicion: React.FC<{ tipo?: string; children: React.ReactNode }> 
   }
   return <AbsoluteFill><AbsoluteFill style={estilo}>{children}</AbsoluteFill>{cap}</AbsoluteFill>;
 };
+
+/** Pantalla roja de 'ordenador': ventana crema (como la que se ve en el monitor de la sala) o cadena de aparatos en pixel art con paquetes que viajan. */
+export const Roja: React.FC<{ variante?: string; etiqueta?: string; v?: number }> = ({ variante = "ventana", etiqueta, v = 0 }) => {
+  const f = useCurrentFrame(); const { fps, durationInFrames: D } = useVideoConfig();
+  const t = f / D; const paso = Math.floor(f / 3);
+  const fondo = (
+    <>
+      <AbsoluteFill style={{ background: "radial-gradient(ellipse 80% 75% at 50% 45%, #c4162a 0%, #4a0610 100%)" }} />
+      <AbsoluteFill style={{ backgroundImage: "linear-gradient(#ffffff0d 2px, transparent 2px), linear-gradient(90deg, #ffffff0d 2px, transparent 2px)", backgroundSize: "60px 60px" }} />
+      <div style={{ position: "absolute", left: 0, right: 0, bottom: 150, height: 6, background: "#14080a55" }} />
+      <div style={{ position: "absolute", left: 0, right: 0, bottom: 0, height: 150, background: "#3a0510" }} />
+      {Array.from({ length: 14 }, (_, i) => <div key={i} style={{ position: "absolute", left: i * 140, bottom: 156, width: 90 + (i * 37) % 60, height: 20 + (i * 53) % 50, background: "#8d0f1e" }} />)}
+    </>);
+  if (variante === "ventana") {
+    const e = spring({ frame: f, fps, config: { damping: 16, stiffness: 110 } });
+    const lineas = [0.62, 0.48, 0.7, 0.35, 0.56];
+    return (
+      <AbsoluteFill>{fondo}
+        <div style={{ position: "absolute", left: 269, top: 216, width: 1382, height: 626, background: "#f3e7cf", border: "5px solid #14080a", boxShadow: "12px 12px 0 #14080a66", transform: `scale(${(0.9 + 0.1 * e) * (1 + t * 0.06)})`, opacity: e }}>
+          <div style={{ height: 46, background: "#2a5bd7", display: "flex", alignItems: "center", paddingLeft: 18, gap: 10 }}>{[0, 1, 2].map((i) => <div key={i} style={{ width: 16, height: 16, background: "#f3e7cf" }} />)}</div>
+          <div style={{ padding: "46px 60px" }}>
+            {lineas.map((w, i) => <div key={i} style={{ height: 20, width: `${Math.min(100, Math.max(0, (f - 8 - i * 5) * 5)) * w}%`, background: "#2a2018", opacity: 0.8, marginBottom: 34 }} />)}
+            {Math.floor(f / 9) % 2 === 0 && <div style={{ width: 20, height: 34, background: "#14080a", marginTop: -8 }} />}
+          </div>
+        </div>
+        {etiqueta && <div style={{ position: "absolute", top: 70, width: "100%", textAlign: "center", fontFamily: FUENTE_PIXEL, fontSize: 34, color: "#f7ecd4", textShadow: "4px 4px 0 #14080a" }}>{etiqueta}</div>}
+      </AbsoluteFill>);
+  }
+  const nodos = [{ ic: "caja", x: 260, c: "#2f56d6" }, { ic: "router", x: 760, c: "#f7ecd4" }, { ic: "nube", x: 1260, c: "#f08a12" }, { ic: "laptop", x: 1700, c: "#f7ecd4" }];
+  return (
+    <AbsoluteFill>{fondo}
+      <svg width="100%" height="100%" viewBox="0 0 1920 1080" style={{ position: "absolute" }}>
+        {nodos.slice(1).map((n, i) => { const a = nodos[i]; const prog = ((f * 0.02 + i * 0.3) % 1);
+          return <g key={i}><line x1={a.x + 80} y1={700} x2={n.x - 80} y2={700} stroke="#14080a" strokeWidth={14} /><line x1={a.x + 80} y1={700} x2={n.x - 80} y2={700} stroke="#f08a12" strokeWidth={6} strokeDasharray="14 14" />
+            {[0, 1, 2].map((k) => { const q = (prog + k * 0.18) % 1; return <rect key={k} x={a.x + 80 + (n.x - a.x - 160) * q - 9} y={700 - 9 - (paso % 2) * 3} width={18} height={18} fill="#fff7ec" stroke="#14080a" strokeWidth={3} />; })}</g>; })}
+      </svg>
+      {nodos.map((n, i) => { const e = spring({ frame: f - 4 - i * 5, fps, config: { damping: 12, stiffness: 140 } });
+        return <div key={i} style={{ position: "absolute", left: n.x - 100, top: 480 + (1 - e) * 120 + Math.round(Math.sin(paso * 0.8 + i) * 2) * 4, opacity: e }}>{PIX(n.ic, 14, n.c)}</div>; })}
+      {etiqueta && <div style={{ position: "absolute", top: 110, width: "100%", textAlign: "center", fontFamily: FUENTE_PIXEL, fontSize: 40, color: "#f7ecd4", textShadow: "4px 4px 0 #14080a" }}>{etiqueta}</div>}
+    </AbsoluteFill>);
+};

@@ -4,23 +4,23 @@ import { ThreeCanvas } from "@remotion/three";
 import { Img, staticFile } from "remotion";
 import { useThree } from "@react-three/fiber";
 import * as THREE from "three";
+import { CAMS_SALAS, EsSala, SalaDe } from "./Salas";
 import { Entorno, MedidorBBox, PL, RB, SombrasAuto, reiniciarLuces } from "./Realismo";
 import { C } from "../estilo";
 import { Antena, Calendario, CamaraSeguridad, Dinero, Dominos, Engranajes, Escudo, Hdmi, Latido, Llave, Lupa, Mando, Movil, Nube, Ojo, Paquetes, PcAntiguo, Placa, Password, Reloj, Router, TvPlay } from "./Objetos3D_b";
 import { Apagon, Avalancha, Cable, Candado, Codigo, Estanteria, Globo, Sala, CajaStreaming, CasasRed, Duplicacion, Fabrica, Laptop, Manometro, Pulsos, Rack, Radar } from "./Objetos3D";
 
-export type Objeto3D = "router" | "camara" | "movil" | "pc_antiguo" | "reloj" | "calendario" | "placa" | "llave" | "dominos" | "escudo" | "dinero" | "hdmi" | "password" | "engranajes" | "latido" | "paquetes" | "antena" | "lupa" | "mando" | "nube" | "ojo" | "tv_play" | "globo" | "sala" | "estanteria" | "avalancha" | "cable" | "codigo" | "casas_red" | "fabrica" | "candado" | "candado_agujero" | "apagon" | "duplicacion" | "rack" | "radar" | "intrusion" | "contagio" | "manometro" | "cajas15" | "caja_led" | "caja_tv" | "nucleo" | "red" | "puerta" | "pantalla_rota";
+export type Objeto3D = "router" | "camara" | "movil" | "pc_antiguo" | "reloj" | "calendario" | "placa" | "llave" | "dominos" | "escudo" | "dinero" | "hdmi" | "password" | "engranajes" | "latido" | "paquetes" | "antena" | "lupa" | "mando" | "nube" | "ojo" | "tv_play" | "globo" | "sala" | "estanteria" | "avalancha" | "cable" | "codigo" | "casas_red" | "fabrica" | "candado" | "candado_agujero" | "apagon" | "duplicacion" | "rack" | "radar" | "intrusion" | "contagio" | "manometro" | "cajas15" | "caja_led" | "caja_tv" | "nucleo" | "red" | "puerta" | "pantalla_rota" | "hogar1" | "hogar2" | "hogar3" | "lab1" | "lab2" | "lab3" | "srv1" | "srv2" | "map1" | "map2";
 
 /** Camara que se acerca con un leve arco (dolly + deriva), como los planos lentos del video de referencia. */
-const Camara: React.FC<{ desde: [number, number, number]; hasta: [number, number, number]; mira: [number, number, number]; miraHasta?: [number, number, number]; total: number }> = ({ desde, hasta, mira, miraHasta, total }) => {
+const Camara: React.FC<{ desde: [number, number, number]; hasta: [number, number, number]; mira: [number, number, number]; miraHasta?: [number, number, number]; total: number; Z?: number; lineal?: boolean }> = ({ desde, hasta, mira, miraHasta, total, Z = 0.78, lineal = false }) => {
   const f = useCurrentFrame();
   const { camera } = useThree();
   const t = interpolate(f, [0, total], [0, 1], { extrapolateRight: "clamp" });
-  const e = t * t * (3 - 2 * t) * 0.6 + t * 0.4;
+  const e = lineal ? t : t * t * (3 - 2 * t) * 0.6 + t * 0.4;
   const p = desde.map((d, i) => d + (hasta[i] - d) * e);
   const deriva = Math.sin(f / 70) * 0.04;
   const m = miraHasta ? mira.map((v, i) => v + (miraHasta[i] - v) * e) : mira;
-  const Z = 0.78;                                                   // plano mas cerrado, como el objeto 'protagonista' del video de referencia
   camera.position.set(m[0] + (p[0] - m[0]) * Z + deriva, m[1] + (p[1] - m[1]) * Z + deriva * 0.6, m[2] + (p[2] - m[2]) * Z);
   camera.lookAt(m[0], m[1], m[2]);
   camera.updateProjectionMatrix();
@@ -272,35 +272,38 @@ const SombraSuelo: React.FC = () => (
 );
 
 export const Escena3D: React.FC<{ objeto: Objeto3D; infeccion?: number; luz?: Luz; inv?: boolean; fondo?: string; fondoPos?: string; medir?: number; calidad?: string }> = ({ objeto, infeccion = 120, luz = "noche", inv = false, fondo: _f, fondoPos, medir, calidad }) => {
-  const K = calidad === "alta" ? 1.0 : GL_K;                       // primeros 5 min: resolucion nativa (y sombras suaves); despues, mas liviano
+  const K = calidad === "alta" ? 0.85 : GL_K;                       // primeros 5 min: resolucion nativa (y sombras suaves); despues, mas liviano
   let fondo: string | undefined = _f;
   fondo = undefined;                                     // sin fotos detras del 3D: estudio oscuro como la referencia
   reiniciarLuces();
   const { dy, ped } = ajuste(objeto);
   const L = LUZ[luz];
   const { width, height, durationInFrames } = useVideoConfig();
-  const c0 = (CAMS_NUEVAS[objeto] ?? CONFIG[objeto])!;
+  const sala = EsSala(objeto);
+  const c0 = sala ? CAMS_SALAS[objeto] : (CAMS_NUEVAS[objeto] ?? CONFIG[objeto])!;
   const c1: Cam = inv ? { ...c0, desde: c0.hasta, hasta: c0.desde, mira: c0.miraHasta ?? c0.mira, miraHasta: c0.miraHasta ? c0.mira : undefined } : c0;
   const sh = (v: [number, number, number]): [number, number, number] => [v[0], v[1] + dy, v[2]];
   const c: Cam = { desde: sh(c1.desde), hasta: sh(c1.hasta), mira: sh(c1.mira), miraHasta: c1.miraHasta ? sh(c1.miraHasta) : undefined };
   return (
-    <AbsoluteFill style={{ background: `radial-gradient(ellipse 75% 65% at 50% 40%, ${L.c1} 0%, ${L.fondo} 55%, ${L.c3} 100%)` }}>
+    <AbsoluteFill style={{ background: sala ? "#05060a" : `radial-gradient(ellipse 75% 65% at 50% 40%, ${L.c1} 0%, ${L.fondo} 55%, ${L.c3} 100%)` }}>
       {fondo && <FondoFoto archivo={fondo} luz={luz} pos={fondoPos} />}
       <div style={{ width: width * K, height: height * K, transform: `scale(${1 / K})`, transformOrigin: "0 0" }}>
-      <ThreeCanvas width={width * K} height={height * K} camera={{ fov: 38, near: 0.1, far: 80, position: c.desde }} shadows gl={{ antialias: true, alpha: true }}>
-        <Entorno intensidad={0.9} />
-        <fog attach="fog" args={[L.fondo, 8, 24]} />
+      <ThreeCanvas width={width * K} height={height * K} camera={{ fov: 38, near: 0.1, far: 80, position: c.desde }} shadows gl={{ antialias: true, alpha: !sala }}>
+        <Entorno intensidad={sala ? 0.1 : 0.9} />
+        {sala && <color attach="background" args={["#05060a"]} />}
+        <fog attach="fog" args={sala ? ["#05060a", 14, 46] : [L.fondo, 8, 24]} />
         {/* Entorno HDRI desactivado: en render por software triplica el tiempo (180 s vs 78 s cada 100 fotogramas). */}
-        <ambientLight intensity={L.ambiente * 1.25} />
-        <hemisphereLight args={["#bcd4ff", "#201a18", L.hemi]} />
-        <directionalLight position={[-4, 5, 4]} intensity={L.relleno * 0.85} color="#7fb0ff" />
-        <directionalLight position={[3, 6, 5]} intensity={2.3} color="#fff1dc" castShadow shadow-mapSize={calidad === "alta" ? [2048, 2048] : [512, 512]} shadow-radius={calidad === "alta" ? 4 : 1} shadow-camera-left={-7} shadow-camera-right={7} shadow-camera-top={7} shadow-camera-bottom={-7} shadow-camera-near={1} shadow-camera-far={22} shadow-bias={-0.0004} />
-        <directionalLight position={[5, 2, 3]} intensity={0.35} color="#ffb48a" />
-        <Camara desde={c.desde} hasta={c.hasta} mira={c.mira} miraHasta={c.miraHasta} total={durationInFrames} />
-        {objeto !== "manometro" && !fondo && <Suelo color={L.suelo} />}
+        {!sala && <ambientLight intensity={L.ambiente * 1.25} />}
+        {!sala && <hemisphereLight args={["#bcd4ff", "#201a18", L.hemi]} />}
+        {!sala && <directionalLight position={[-4, 5, 4]} intensity={L.relleno * 0.85} color="#7fb0ff" />}
+        {!sala && <directionalLight position={[3, 6, 5]} intensity={2.3} color="#fff1dc" castShadow shadow-mapSize={calidad === "alta" ? [2048, 2048] : [512, 512]} shadow-radius={calidad === "alta" ? 4 : 1} shadow-camera-left={-7} shadow-camera-right={7} shadow-camera-top={7} shadow-camera-bottom={-7} shadow-camera-near={1} shadow-camera-far={22} shadow-bias={-0.0004} />}
+        {!sala && <directionalLight position={[5, 2, 3]} intensity={0.35} color="#ffb48a" />}
+        <Camara desde={c.desde} hasta={c.hasta} mira={c.mira} miraHasta={c.miraHasta} total={durationInFrames} Z={sala ? 1 : 0.78} lineal={sala} />
+        {!sala && objeto !== "manometro" && !fondo && <Suelo color={L.suelo} />}
         {fondo && objeto !== "manometro" && <mesh rotation={[-Math.PI / 2, 0, 0]} position={[0, -0.985, 0]} receiveShadow><planeGeometry args={[40, 40]} /><shadowMaterial opacity={0.5} /></mesh>}
-        <spotLight position={[0, 7, 3.5]} angle={0.55} penumbra={1} intensity={260} distance={30} color="#cfe0ff" target-position={[0, -1, 0]} />
-        {ped > 0 && (
+        {!sala && <spotLight position={[0, 7, 3.5]} angle={0.55} penumbra={1} intensity={260} distance={30} color="#cfe0ff" target-position={[0, -1, 0]} />}
+        {sala && <SalaDe id={objeto} />}
+        {!sala && ped > 0 && (
           <group position={[0, -1 + ped / 2, 0]}>
             <mesh receiveShadow castShadow><cylinderGeometry args={[1.5, 1.65, ped, 48]} /><meshStandardMaterial color="#0d0f14" roughness={0.25} metalness={0.8} /></mesh>
             <mesh position={[0, ped / 2 + 0.004, 0]} rotation={[-Math.PI / 2, 0, 0]}><ringGeometry args={[1.38, 1.46, 64]} /><meshBasicMaterial color="#35d9ff" toneMapped={false} /></mesh>
