@@ -29,8 +29,15 @@ if faltan:
     for k, i in enumerate(faltan):
         a, n = ini[i]; destino = f"out/cache/{clave(escenas[i])}.mp4"
         rf = int(escenas[i].get("rf", 1))
-        r = subprocess.run(["npx", "remotion", "render", "out/bundle", "Historia", destino + ".tmp.mp4", f"--props={props}", f"--scale={esc}", "--concurrency=4", "--crf=22",
-                            f"--frames={a}-{a + n - 1}", "--muted", "--log=error"] + ([f"--every-nth-frame={rf}"] if rf > 1 else []), env=env)
+        cmd = ["npx", "remotion", "render", "out/bundle", "Historia", destino + ".tmp.mp4", f"--props={props}", f"--scale={esc}", "--concurrency=4", "--crf=22",
+               f"--frames={a}-{a + n - 1}", "--muted", "--log=error"] + ([f"--every-nth-frame={rf}"] if rf > 1 else [])
+        for intento in range(3):                                         # vigilante: si un render se cuelga (pasó tras reiniciar el contenedor) se corta y se reintenta
+            try:
+                r = subprocess.run(cmd, env=env, timeout=240 + n * 4 / rf); break
+            except subprocess.TimeoutExpired:
+                print(f"escena {i}: render colgado, reintento {intento + 1}", flush=True)
+                subprocess.run(["pkill", "-x", "headless_shell."]); subprocess.run(["pkill", "-f", "remotion render"])
+        else: sys.exit(f"fallo en la escena {i}")
         if r.returncode: sys.exit(f"fallo en la escena {i}")
         if rf > 1:                                                     # se renderizo a 30/rf fps: se mezcla (blend) hasta 30 fps con exactamente n fotogramas
             subprocess.run(["ffmpeg", "-v", "error", "-y", "-i", destino + ".tmp.mp4", "-vf", "framerate=fps=30:interp_start=0:interp_end=255:scene=100,tpad=stop_mode=clone:stop=8",
