@@ -120,3 +120,11 @@ En esta nube hace falta `CHROMIUM_PATH=/opt/pw-browsers/chromium_headless_shell-
 6. Apertura con la pantalla de tarjetas pixel-art en español, transiciones profesionales (píxeles/barras/zoom), efectos de sonido suaves, música muy baja.
 7. **El 3D se sigue haciendo como en el video de referencia** (salas completas con travelling lento, penumbra cálida, pantallas rojas pixel-art intercaladas, transición entrando en un monitor). Cada vez que se mejore algo, repasar TODAS las reglas fijas de arriba antes de entregar.
 8. Insertos distribuidos a lo largo de todo el video (uno cada ~3 clips 3D); la imagen cambia cuando cambia la frase del narrador (cortes en los límites de línea).
+
+## V13 — REFERENCIA 3 (la que mas importa: Token Drift, "The first AI clone is already here", 16 min; analizada cuadro por cuadro y su audio)
+- **Look 3D**: escenas casi fotorreales, MUY oscuras (low-key), luz calida de lampara/practicas, acentos TEAL/CIAN en LEDs (router, cajas), **profundidad de campo corta y primeros planos macro** (reloj digital rojo, router con LED, hileras de cajitas negras con cables azules/amarillos sobre una mesa de madera, llave en cerradura, papeles, tazas). Camaras lentas y bajas.
+- **Infografias 2D** sobre negro: casa en **linea cian** con sus aparatos, puerta abierta con bicho, **mapa de puntos** con contador ("2,000,000+ INFECTED DEVICES"), **numeros enormes blancos** sobre lluvia de datos, **cuadricula de cajitas** con contador, terminales de texto monoespaciado.
+- **Tipografia**: sans condensada tipo DIN (Barlow Condensed), blanco, mayusculas con tracking; un signo (?) en cian como acento. Texto pequeño y centrado, nunca invade la escena.
+- **Transiciones**: casi siempre CORTE directo o **fundido por negro**; algun parpadeo digital. Nada de efectos llamativos (el estilo pixel rojo de la referencia 2 se usa solo para las tarjetas comparativas).
+- **Musica**: ambiente oscuro continuo, graves/sub-bajo y textura, SIN melodia ni bateria; ~26 dB por debajo de la voz.
+- Si el narrador habla de una **IA** → mostrar un **robot** (y cosas afines al tema); cada objeto/escena debe corresponder a lo que se dice.
