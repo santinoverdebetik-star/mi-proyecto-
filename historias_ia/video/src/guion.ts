@@ -10,12 +10,12 @@ export type Escena = (
   | { tipo: "frase"; dur: number; texto: string; v?: number }
   | { tipo: "terminal"; dur: number; v?: number }
   | { tipo: "dato"; dur: number; valor: string; etiqueta?: string; fondo?: string }
-  | { tipo: "flujo" | "radar" | "cuadricula" | "barras" | "globo2d" | "lluvia"; dur: number; v?: number }
+  | { tipo: "flujo" | "radar" | "cuadricula" | "barras" | "globo2d" | "lluvia" | "ondas" | "anillos"; dur: number; v?: number }
   | { tipo: "foto"; dur: number; archivo: string; luz?: string; v?: number; pos?: string }
   | { tipo: "imagen"; dur: number; archivo: string; brillo?: string }
   | { tipo: "roja"; dur: number; variante?: string; etiqueta?: string; v?: number }
   | { tipo: "comparar"; dur: number; izq: Tarjeta; der: Tarjeta; centro?: string; tema?: string }
-) & { trans?: string; calidad?: string };
+) & { trans?: string; calidad?: string; rf?: number; est?: number; lay?: number; marco?: number };
 
 export const DEMO: Escena[] = [
   { tipo: "3d", dur: 4, objeto: "caja_tv" },

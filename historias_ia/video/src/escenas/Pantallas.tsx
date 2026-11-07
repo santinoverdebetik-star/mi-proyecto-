@@ -1,6 +1,7 @@
 import React from "react";
 import { AbsoluteFill, interpolate, random, spring, useCurrentFrame, useVideoConfig } from "remotion";
 import { C, FUENTE_PIXEL } from "../estilo";
+import { estilo } from "../estilos";
 
 /* ---------- iconos de pixel art (14 columnas; '#' = pixel) ---------- */
 const ICONOS: Record<string, string[]> = {
@@ -30,6 +31,9 @@ const TEMAS: Record<string, { c1: string; c2: string; izq: string; der: string }
   rojo: { c1: "#c4162a", c2: "#4a0610", izq: "#2f56d6", der: "#f08a12" },
   azul: { c1: "#1d4fb8", c2: "#06133a", izq: "#35d9ff", der: "#ff5a1f" },
   oscuro: { c1: "#2b3344", c2: "#05060a", izq: "#35d9ff", der: "#ff5a1f" },
+  verde: { c1: "#1a8a5a", c2: "#04281a", izq: "#2f56d6", der: "#f0c812" },
+  morado: { c1: "#7a1ab8", c2: "#1e0436", izq: "#35d9ff", der: "#ff8a1f" },
+  amarillo: { c1: "#c89a14", c2: "#3a2a04", izq: "#1f3fd6", der: "#d8221b" },
 };
 
 export type Tarjeta = { icono: string; titulo: string; valor: string };
@@ -65,10 +69,11 @@ export const Comparar: React.FC<{ izq: Tarjeta; der: Tarjeta; centro?: string; t
 /* ---------- transiciones profesionales (entrada y salida de cada escena) ---------- */
 const ENT = 9, SAL = 7;
 const COLS_PIX = [C.naranja, "#e0201b", "#f1e8d6", "#ff8a3d"];
-export const Transicion: React.FC<{ tipo?: string; children: React.ReactNode }> = ({ tipo = "pixel", children }) => {
+export const Transicion: React.FC<{ tipo?: string; est?: number; children: React.ReactNode }> = ({ tipo = "pixel", est = 0, children }) => {
+  const EE = estilo(est); const CP = [EE.a, EE.b, "#f1e8d6", EE.a];
   const f = useCurrentFrame(); const { durationInFrames: D } = useVideoConfig();
   const tin = Math.min(1, f / ENT), tout = Math.min(1, (D - 1 - f) / SAL);          // 0 = tapado ... 1 = visible
-  let cap: React.ReactNode = null; let estilo: React.CSSProperties = {};
+  let cap: React.ReactNode = null; let estilo_: React.CSSProperties = {};
   if (tipo === "pixel") {
     const cols = 24, filas = 14, sw = 80, sh = 78;
     const celdas = [];
@@ -77,7 +82,7 @@ export const Transicion: React.FC<{ tipo?: string; children: React.ReactNode }> 
       const orden = (r * 0.7 + (x / cols) * 0.3);                                        // barrido suave de izquierda a derecha + azar
       const visibleIn = tin < 1 && orden > tin * 1.0;
       const visibleOut = tout < 1 && orden < (1 - tout) * 1.0;
-      if (visibleIn || visibleOut) celdas.push(<div key={i} style={{ position: "absolute", left: x * sw, top: y * sh, width: sw + 1, height: sh + 1, background: COLS_PIX[i % 4] }} />);
+      if (visibleIn || visibleOut) celdas.push(<div key={i} style={{ position: "absolute", left: x * sw, top: y * sh, width: sw + 1, height: sh + 1, background: CP[i % 4] }} />);
     }
     cap = <AbsoluteFill>{celdas}</AbsoluteFill>;
   } else if (tipo === "barras") {
@@ -85,28 +90,43 @@ export const Transicion: React.FC<{ tipo?: string; children: React.ReactNode }> 
     for (let i = 0; i < n; i++) {
       const ein = tin < 1 ? 1 - Math.max(0, Math.min(1, (f - i * 0.6) / (ENT - 4))) : 0;
       const eout = tout < 1 ? 1 - Math.max(0, Math.min(1, (D - 1 - f - (n - i) * 0.5) / (SAL - 3))) : 0;
-      if (ein > 0) bs.push(<div key={"i" + i} style={{ position: "absolute", left: i * ancho, top: 0, width: ancho + 1, height: "100%", background: i % 2 ? C.naranja : "#e0201b", transform: `scaleY(${ein})`, transformOrigin: "top" }} />);
-      if (eout > 0) bs.push(<div key={"o" + i} style={{ position: "absolute", left: i * ancho, top: 0, width: ancho + 1, height: "100%", background: i % 2 ? C.naranja : "#e0201b", transform: `scaleY(${eout})`, transformOrigin: "bottom" }} />);
+      if (ein > 0) bs.push(<div key={"i" + i} style={{ position: "absolute", left: i * ancho, top: 0, width: ancho + 1, height: "100%", background: i % 2 ? EE.a : EE.b, transform: `scaleY(${ein})`, transformOrigin: "top" }} />);
+      if (eout > 0) bs.push(<div key={"o" + i} style={{ position: "absolute", left: i * ancho, top: 0, width: ancho + 1, height: "100%", background: i % 2 ? EE.a : EE.b, transform: `scaleY(${eout})`, transformOrigin: "bottom" }} />);
     }
     cap = <AbsoluteFill>{bs}</AbsoluteFill>;
+  } else if (tipo === "cortina") {                                                      // barrido diagonal de color
+    const ein = tin < 1 ? 1 - tin : 0, eout = tout < 1 ? 1 - tout : 0;
+    if (ein > 0) cap = <AbsoluteFill style={{ background: `linear-gradient(115deg, ${EE.a} 0%, ${EE.a} ${ein * 130 - 30}%, transparent ${ein * 130 - 29}%)` }} />;
+    if (eout > 0) cap = <AbsoluteFill style={{ background: `linear-gradient(115deg, transparent ${100 - eout * 130 + 30}%, ${EE.b} ${100 - eout * 130 + 31}%)` }} />;
+  } else if (tipo === "persianas") {                                                    // persianas horizontales
+    const n = 10, h = 108, bs = [];
+    for (let i = 0; i < n; i++) { const ein = tin < 1 ? 1 - Math.max(0, Math.min(1, (f - i * 0.5) / (ENT - 3))) : 0; const eout = tout < 1 ? 1 - Math.max(0, Math.min(1, (D - 1 - f - (n - i) * 0.4) / (SAL - 2))) : 0; const e = Math.max(ein, eout);
+      if (e > 0) bs.push(<div key={i} style={{ position: "absolute", top: i * h, left: 0, width: "100%", height: h + 1, background: i % 2 ? EE.a : "#14080a", transform: `scaleX(${e})`, transformOrigin: ein > 0 ? "left" : "right" }} />); }
+    cap = <AbsoluteFill>{bs}</AbsoluteFill>;
+  } else if (tipo === "rgb") {                                                          // separacion RGB + destello
+    const e = tin < 1 ? 1 - tin : 0, s = tout < 1 ? 1 - tout : 0; const sp = (e + s) * 40;
+    estilo_ = { filter: `drop-shadow(${sp}px 0 0 rgba(255,0,60,0.8)) drop-shadow(${-sp}px 0 0 rgba(0,200,255,0.8))`, transform: `translateX(${(e - s) * 30}px)` };
+    cap = <AbsoluteFill style={{ background: "#fff", opacity: (e + s) * 0.45, mixBlendMode: "screen" }} />;
   } else {                                                                              // zoom con desenfoque + destello
     const e = tin < 1 ? 1 - tin : 0, s = tout < 1 ? 1 - tout : 0;
-    estilo = { transform: `scale(${1 + e * 0.28 + s * 0.16})`, filter: `blur(${e * 14 + s * 10}px)` };
+    estilo_ = { transform: `scale(${1 + e * 0.28 + s * 0.16})`, filter: `blur(${e * 14 + s * 10}px)` };
     cap = <AbsoluteFill style={{ background: "#fff", opacity: e * 0.55 + s * 0.4, mixBlendMode: "screen" }} />;
   }
-  return <AbsoluteFill><AbsoluteFill style={estilo}>{children}</AbsoluteFill>{cap}</AbsoluteFill>;
+  return <AbsoluteFill><AbsoluteFill style={estilo_}>{children}</AbsoluteFill>{cap}</AbsoluteFill>;
 };
 
 /** Pantalla roja de 'ordenador': ventana crema (como la que se ve en el monitor de la sala) o cadena de aparatos en pixel art con paquetes que viajan. */
-export const Roja: React.FC<{ variante?: string; etiqueta?: string; v?: number }> = ({ variante = "ventana", etiqueta, v = 0 }) => {
+const FONDOS_ROJA: Record<string, [string, string, string]> = { rojo: ["#c4162a", "#4a0610", "#3a0510"], cian: ["#1d6fb8", "#06223a", "#05182a"], verde: ["#1a8a5a", "#06301e", "#04221a"], magenta: ["#9a1ab8", "#2e0640", "#220430"], amarillo: ["#c89a14", "#4a3606", "#382804"], naranja: ["#d9531a", "#4a1a06", "#381204"], bn: ["#6a6a6e", "#1a1a1c", "#101012"] };
+export const Roja: React.FC<{ variante?: string; etiqueta?: string; v?: number; est?: number }> = ({ variante = "ventana", etiqueta, v = 0, est = 1 }) => {
+  const FR = FONDOS_ROJA[estilo(est).n];
   const f = useCurrentFrame(); const { fps, durationInFrames: D } = useVideoConfig();
   const t = f / D; const paso = Math.floor(f / 3);
   const fondo = (
     <>
-      <AbsoluteFill style={{ background: "radial-gradient(ellipse 80% 75% at 50% 45%, #c4162a 0%, #4a0610 100%)" }} />
+      <AbsoluteFill style={{ background: `radial-gradient(ellipse 80% 75% at 50% 45%, ${FR[0]} 0%, ${FR[1]} 100%)` }} />
       <AbsoluteFill style={{ backgroundImage: "linear-gradient(#ffffff0d 2px, transparent 2px), linear-gradient(90deg, #ffffff0d 2px, transparent 2px)", backgroundSize: "60px 60px" }} />
       <div style={{ position: "absolute", left: 0, right: 0, bottom: 150, height: 6, background: "#14080a55" }} />
-      <div style={{ position: "absolute", left: 0, right: 0, bottom: 0, height: 150, background: "#3a0510" }} />
+      <div style={{ position: "absolute", left: 0, right: 0, bottom: 0, height: 150, background: FR[2] }} />
       {Array.from({ length: 14 }, (_, i) => <div key={i} style={{ position: "absolute", left: i * 140, bottom: 156, width: 90 + (i * 37) % 60, height: 20 + (i * 53) % 50, background: "#8d0f1e" }} />)}
     </>);
   if (variante === "ventana") {

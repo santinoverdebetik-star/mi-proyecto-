@@ -7,31 +7,31 @@ import mapa from "../../public/mapa.json";
 /* Salas 3D completas con travelling lento (como los planos de ambiente del video de referencia): sala de casa de noche, laboratorio de computadoras viejas,
    pasillo de servidores y sala con un mapamundi. Todo procedural. Unidades ~ metros, suelo en y = 0. */
 
-type V3 = [number, number, number];
-const M: React.FC<{ c: string; r?: number; m?: number; e?: string; ei?: number }> = ({ c, r = 0.75, m = 0.05, e, ei = 0 }) => <meshLambertMaterial color={c} emissive={e ?? "#000000"} emissiveIntensity={ei} />;
-const Caja: React.FC<{ p: V3; s: V3; c: string; r?: number; m?: number; e?: string; ei?: number; rot?: V3 }> = ({ p, s, c, r, m, e, ei, rot }) => (
+export type V3 = [number, number, number];
+export const M: React.FC<{ c: string; r?: number; m?: number; e?: string; ei?: number }> = ({ c, r = 0.75, m = 0.05, e, ei = 0 }) => <meshLambertMaterial color={c} emissive={e ?? "#000000"} emissiveIntensity={ei} />;
+export const Caja: React.FC<{ p: V3; s: V3; c: string; r?: number; m?: number; e?: string; ei?: number; rot?: V3 }> = ({ p, s, c, r, m, e, ei, rot }) => (
   <mesh position={p} rotation={rot}><RB args={s} /><M c={c} r={r} m={m} e={e} ei={ei} /></mesh>);
 
 /** textura de canvas que se redibuja en cada fotograma (pantallas, mapa, letreros) */
-function useLienzo(W: number, H: number, dibujar: (ctx: CanvasRenderingContext2D, W: number, H: number, f: number) => void) {
+export function useLienzo(W: number, H: number, dibujar: (ctx: CanvasRenderingContext2D, W: number, H: number, f: number) => void) {
   const f = useCurrentFrame();
   const cv = useMemo(() => { const c = document.createElement("canvas"); c.width = W; c.height = H; return c; }, [W, H]);
   const tex = useMemo(() => { const t = new THREE.CanvasTexture(cv); t.colorSpace = THREE.SRGBColorSpace; t.anisotropy = 4; return t; }, [cv]);
   useLayoutEffect(() => { dibujar(cv.getContext("2d")!, W, H, f); tex.needsUpdate = true; });
   return tex;
 }
-const Plano: React.FC<{ p: V3; w: number; h: number; tex: THREE.Texture; rot?: V3 }> = ({ p, w, h, tex, rot }) => (
+export const Plano: React.FC<{ p: V3; w: number; h: number; tex: THREE.Texture; rot?: V3 }> = ({ p, w, h, tex, rot }) => (
   <mesh position={p} rotation={rot}><planeGeometry args={[w, h]} /><meshBasicMaterial map={tex} toneMapped={false} /></mesh>);
 
 /* ---------- dibujos de pantallas ---------- */
 const hex = (s: string, n: number) => Array.from({ length: n }, (_, i) => Math.floor(random(s + i) * 65536).toString(16).padStart(4, "0")).join(" ");
-const dibVerde = (sem: string) => (ctx: CanvasRenderingContext2D, W: number, H: number, f: number) => {
+export const dibVerde = (sem: string) => (ctx: CanvasRenderingContext2D, W: number, H: number, f: number) => {
   ctx.fillStyle = "#031008"; ctx.fillRect(0, 0, W, H); ctx.font = "26px monospace";
   const off = Math.floor(f / 5);
   for (let i = 0; i < 11; i++) { const n = i + off; ctx.fillStyle = i === 10 ? "#7dffb0" : "#2fe07a"; ctx.globalAlpha = 0.55 + 0.45 * random(sem + "a" + n); ctx.fillText((i % 3 === 0 ? "> " : "  ") + hex(sem + n, 1 + Math.floor(random(sem + "l" + n) * 4)), 22, 40 + i * 31); }
   ctx.globalAlpha = 1; if (Math.floor(f / 8) % 2) { ctx.fillStyle = "#7dffb0"; ctx.fillRect(22, 40 + 10 * 31 - 22, 14, 26); }
 };
-const dibBlanca = (sem: string) => (ctx: CanvasRenderingContext2D, W: number, H: number) => {
+export const dibBlanca = (sem: string) => (ctx: CanvasRenderingContext2D, W: number, H: number) => {
   ctx.fillStyle = "#e9eef5"; ctx.fillRect(0, 0, W, H); ctx.fillStyle = "#2a5bd7"; ctx.fillRect(0, 0, W, 34);
   for (let i = 0; i < 9; i++) { ctx.fillStyle = "#566"; ctx.fillRect(24, 64 + i * 36, 120 + random(sem + i) * 330, 12); }
 };
@@ -41,68 +41,68 @@ export const dibRoja = (ctx: CanvasRenderingContext2D, W: number, H: number, f: 
   for (let i = 0; i < 5; i++) { ctx.fillStyle = "#3a3a3a"; ctx.fillRect(W * 0.18, H * 0.34 + i * 34, W * (0.25 + 0.4 * random("r" + i)), 10); }
   if (Math.floor(f / 8) % 2) { ctx.fillStyle = "#111"; ctx.fillRect(W * 0.18 + 90, H * 0.34 + 4 * 34 - 4, 12, 20); }
 };
-const dibLeds = (ctx: CanvasRenderingContext2D, W: number, H: number, f: number) => {
+export const dibLeds = (ctx: CanvasRenderingContext2D, W: number, H: number, f: number) => {
   ctx.fillStyle = "#06080b"; ctx.fillRect(0, 0, W, H);
   for (let r = 0; r < 14; r++) { ctx.fillStyle = "#12161c"; ctx.fillRect(10, 10 + r * 34, W - 20, 28);
     for (let k = 0; k < 8; k++) { const q = random(`l${r}_${k}_${Math.floor(f / (6 + r % 4))}`); ctx.fillStyle = q > 0.86 ? "#ffb347" : q > 0.35 ? "#35ff8a" : "#16331f"; ctx.fillRect(24 + k * 30, 18 + r * 34, 14, 10); } }
 };
 const proy = (lon: number, lat: number, W: number, H: number): [number, number] => [(lon + 180) / 360 * W, (90 - lat) / 180 * H];
 const PUNTOS = Array.from({ length: 70 }, (_, i) => ({ lon: -125 + random("mo" + i) * 290, lat: -35 + random("ma" + i) * 90, t: random("mt" + i) }));
-const dibMapa = (ctx: CanvasRenderingContext2D, W: number, H: number, f: number) => {
+export const dibMapa = (ctx: CanvasRenderingContext2D, W: number, H: number, f: number) => {
   ctx.fillStyle = "#34567d"; ctx.fillRect(0, 0, W, H); ctx.fillStyle = "#dccb9f"; ctx.strokeStyle = "#a99768"; ctx.lineWidth = 1.5;
   for (const poly of mapa as number[][][]) { ctx.beginPath(); poly.forEach(([lo, la], i) => { const [x, y] = proy(lo, la, W, H); i ? ctx.lineTo(x, y) : ctx.moveTo(x, y); }); ctx.closePath(); ctx.fill(); ctx.stroke(); }
   const n = Math.min(PUNTOS.length, Math.floor(f / 2.2));
   PUNTOS.slice(0, n).forEach((p, i) => { const [x, y] = proy(p.lon, p.lat, W, H); const pulso = 0.5 + 0.5 * Math.sin(f / 6 + i);
     ctx.fillStyle = "#ff5a1f"; ctx.globalAlpha = 0.28 + 0.2 * pulso; ctx.beginPath(); ctx.arc(x, y, 15 + 7 * pulso, 0, 7); ctx.fill(); ctx.globalAlpha = 1; ctx.beginPath(); ctx.arc(x, y, 6, 0, 7); ctx.fill(); });
 };
-const dibBarras = (ctx: CanvasRenderingContext2D, W: number, H: number, f: number) => {
+export const dibBarras = (ctx: CanvasRenderingContext2D, W: number, H: number, f: number) => {
   ctx.fillStyle = "#0a0f16"; ctx.fillRect(0, 0, W, H);
   for (let i = 0; i < 26; i++) { const h = (0.18 + 0.7 * Math.abs(Math.sin(i * 0.55 + 1))) * H * 0.75 * Math.min(1, f / 60 + 0.3); ctx.fillStyle = i === 17 ? "#ffb347" : "#3f8fe0"; ctx.fillRect(14 + i * 19, H - 20 - h, 14, h); }
 };
 
-const dibCorcho = (ctx: CanvasRenderingContext2D, W: number, H: number) => {
+export const dibCorcho = (ctx: CanvasRenderingContext2D, W: number, H: number) => {
   ctx.fillStyle = "#a9794a"; ctx.fillRect(0, 0, W, H); for (let i = 0; i < 900; i++) { ctx.fillStyle = `rgba(80,50,20,${0.06 + random("c" + i) * 0.1})`; ctx.fillRect(random("cx" + i) * W, random("cy" + i) * H, 3, 3); }
   const notas = Array.from({ length: 16 }, (_, i) => ({ x: 70 + (i % 8) * 118 + random("nx" + i) * 14, y: 70 + Math.floor(i / 8) * 190 + random("ny" + i) * 30, r: (random("nr" + i) - 0.5) * 0.2 }));
   ctx.strokeStyle = "#d3202a"; ctx.lineWidth = 3; ctx.beginPath(); notas.forEach((n, i) => { i ? ctx.lineTo(n.x + 40, n.y + 10) : ctx.moveTo(n.x + 40, n.y + 10); }); ctx.stroke();
   notas.forEach((n, i) => { ctx.save(); ctx.translate(n.x, n.y); ctx.rotate(n.r); ctx.fillStyle = i % 5 === 0 ? "#f6e27a" : "#f4efe2"; ctx.fillRect(0, 0, 84, 96); ctx.fillStyle = "#555"; for (let k = 0; k < 4; k++) ctx.fillRect(8, 20 + k * 16, 40 + random("t" + i + k) * 30, 5); ctx.fillStyle = "#d3202a"; ctx.beginPath(); ctx.arc(42, 8, 6, 0, 7); ctx.fill(); ctx.restore(); });
 };
-const dibCajones = (ctx: CanvasRenderingContext2D, W: number, H: number) => {
+export const dibCajones = (ctx: CanvasRenderingContext2D, W: number, H: number) => {
   ctx.fillStyle = "#7d8286"; ctx.fillRect(0, 0, W, H);
   for (let r = 0; r < 4; r++) { ctx.fillStyle = "#8d9296"; ctx.fillRect(14, 14 + r * 118, W - 28, 106); ctx.strokeStyle = "#555a5e"; ctx.lineWidth = 3; ctx.strokeRect(14, 14 + r * 118, W - 28, 106); ctx.fillStyle = "#3a3d40"; ctx.fillRect(W / 2 - 34, 56 + r * 118, 68, 12); ctx.fillStyle = "#e8e2d0"; ctx.fillRect(W / 2 - 30, 24 + r * 118, 60, 22); }
 };
-const dibLetrero = (txt: string, sub: string) => (ctx: CanvasRenderingContext2D, W: number, H: number) => {
+export const dibLetrero = (txt: string, sub: string) => (ctx: CanvasRenderingContext2D, W: number, H: number) => {
   ctx.fillStyle = "#2b2f36"; ctx.fillRect(0, 0, W, H); ctx.fillStyle = "#e8e2d0"; ctx.textAlign = "center"; ctx.font = "bold 38px sans-serif"; ctx.fillText(txt, W / 2, H * 0.52); ctx.font = "34px sans-serif"; ctx.fillText(sub, W / 2, H * 0.82);
 };
-const dibPizarra = (ctx: CanvasRenderingContext2D, W: number, H: number) => {
+export const dibPizarra = (ctx: CanvasRenderingContext2D, W: number, H: number) => {
   ctx.fillStyle = "#f2f1ea"; ctx.fillRect(0, 0, W, H); ctx.strokeStyle = "#556"; ctx.lineWidth = 4; ctx.font = "italic 50px cursive"; ctx.fillStyle = "#334";
   for (let i = 0; i < 6; i++) { ctx.beginPath(); ctx.moveTo(40, 90 + i * 62); for (let x = 40; x < 40 + 220 + random("pz" + i) * 520; x += 14) ctx.lineTo(x, 90 + i * 62 + Math.sin(x * 0.2 + i) * 6); ctx.stroke(); }
   ctx.strokeStyle = "#d33"; ctx.strokeRect(W * 0.62, 70, W * 0.32, 230); ctx.beginPath(); ctx.moveTo(W * 0.66, 120); ctx.lineTo(W * 0.7, 160); ctx.moveTo(W * 0.7, 120); ctx.lineTo(W * 0.66, 160); ctx.stroke();
 };
 
 /* ---------- muebles y piezas ---------- */
-const MonitorCRT: React.FC<{ p: V3; rotY?: number; tex: THREE.Texture; s?: number }> = ({ p, rotY = 0, tex, s = 1 }) => (
+export const MonitorCRT: React.FC<{ p: V3; rotY?: number; tex: THREE.Texture; s?: number }> = ({ p, rotY = 0, tex, s = 1 }) => (
   <group position={p} rotation={[0, rotY, 0]} scale={s}>
     <Caja p={[0, 0.27, 0]} s={[0.5, 0.42, 0.4]} c="#b9ae9a" r={0.6} />
     <Caja p={[0, 0.27, -0.3]} s={[0.36, 0.3, 0.28]} c="#aaa08c" r={0.6} />
     <Caja p={[0, 0.05, 0.02]} s={[0.26, 0.05, 0.26]} c="#a89e8a" r={0.6} />
     <Plano p={[0, 0.285, 0.206]} w={0.4} h={0.32} tex={tex} />
   </group>);
-const Escritorio: React.FC<{ p: V3; ancho?: number }> = ({ p, ancho = 1.5 }) => (
+export const Escritorio: React.FC<{ p: V3; ancho?: number }> = ({ p, ancho = 1.5 }) => (
   <group position={p}>
     <Caja p={[0, 0.72, 0]} s={[ancho, 0.045, 0.75]} c="#d6d0c2" r={0.55} />
     {[[-1, -1], [1, -1], [-1, 1], [1, 1]].map(([a, b], i) => <Caja key={i} p={[a * (ancho / 2 - 0.05), 0.36, b * 0.32]} s={[0.05, 0.72, 0.05]} c="#8d8f94" m={0.5} r={0.4} />)}
     <Caja p={[0, 0.755, 0.2]} s={[0.46, 0.025, 0.16]} c="#cfc7b4" r={0.6} />
   </group>);
-const Silla: React.FC<{ p: V3; rotY?: number }> = ({ p, rotY = 0 }) => (
+export const Silla: React.FC<{ p: V3; rotY?: number }> = ({ p, rotY = 0 }) => (
   <group position={p} rotation={[0, rotY, 0]}>
     <Caja p={[0, 0.48, 0]} s={[0.48, 0.07, 0.48]} c="#16181d" r={0.8} /><Caja p={[0, 0.78, -0.22]} s={[0.46, 0.5, 0.07]} c="#16181d" r={0.8} />
     <mesh position={[0, 0.24, 0]}><cylinderGeometry args={[0.04, 0.04, 0.46, 10]} /><M c="#2a2c31" m={0.6} r={0.4} /></mesh>
     <mesh position={[0, 0.03, 0]}><cylinderGeometry args={[0.28, 0.28, 0.04, 14]} /><M c="#2a2c31" m={0.6} r={0.4} /></mesh>
   </group>);
-const Planta: React.FC<{ p: V3 }> = ({ p }) => (
+export const Planta: React.FC<{ p: V3 }> = ({ p }) => (
   <group position={p}><mesh position={[0, 0.2, 0]}><cylinderGeometry args={[0.2, 0.15, 0.4, 14]} /><M c="#7a4b36" r={0.8} /></mesh>
     {[0, 1, 2, 3, 4].map((i) => <mesh key={i} position={[Math.sin(i * 1.3) * 0.12, 0.6 + i * 0.1, Math.cos(i * 1.3) * 0.12]} scale={[1, 1.5, 1]}><sphereGeometry args={[0.17, 10, 10]} /><M c="#2f5d34" r={0.8} /></mesh>)}</group>);
-const Cuarto: React.FC<{ w: number; d: number; h: number; piso: string; pared: string; techo?: string; z0?: number }> = ({ w, d, h, piso, pared, techo = "#2a2a2e", z0 = 0 }) => (
+export const Cuarto: React.FC<{ w: number; d: number; h: number; piso: string; pared: string; techo?: string; z0?: number }> = ({ w, d, h, piso, pared, techo = "#2a2a2e", z0 = 0 }) => (
   <group position={[0, 0, z0]}>
     <mesh rotation={[-Math.PI / 2, 0, 0]} receiveShadow><planeGeometry args={[w, d]} /><M c={piso} r={0.45} m={0.05} /></mesh>
     <mesh position={[0, h, 0]} rotation={[Math.PI / 2, 0, 0]}><planeGeometry args={[w, d]} /><M c={techo} r={0.9} /></mesh>
@@ -111,7 +111,7 @@ const Cuarto: React.FC<{ w: number; d: number; h: number; piso: string; pared: s
     <mesh position={[-w / 2, h / 2, 0]} rotation={[0, Math.PI / 2, 0]}><planeGeometry args={[d, h]} /><M c={pared} r={0.9} /></mesh>
     <mesh position={[w / 2, h / 2, 0]} rotation={[0, -Math.PI / 2, 0]}><planeGeometry args={[d, h]} /><M c={pared} r={0.9} /></mesh>
   </group>);
-const Panel: React.FC<{ p: V3; s?: V3; ei?: number; c?: string }> = ({ p, s = [1.3, 0.05, 0.4], ei = 3, c = "#fff4e0" }) => <mesh position={p}><boxGeometry args={s} /><meshLambertMaterial color="#ffffff" emissive={c} emissiveIntensity={ei} /></mesh>;
+export const Panel: React.FC<{ p: V3; s?: V3; ei?: number; c?: string }> = ({ p, s = [1.3, 0.05, 0.4], ei = 3, c = "#fff4e0" }) => <mesh position={p}><boxGeometry args={s} /><meshLambertMaterial color="#ffffff" emissive={c} emissiveIntensity={ei} /></mesh>;
 
 /* ================= 1. SALA DE CASA DE NOCHE ================= */
 export const SalaHogar: React.FC = () => {
@@ -254,7 +254,7 @@ export const SalaFabrica: React.FC = () => {
 };
 
 /* ---------- planos de camara (travelling lento) ---------- */
-type Cam = { desde: V3; hasta: V3; mira: V3; miraHasta?: V3 };
+export type Cam = { desde: V3; hasta: V3; mira: V3; miraHasta?: V3 };
 const C3 = (d: V3, h: V3, m: V3, mh?: V3): Cam => ({ desde: d, hasta: h, mira: m, miraHasta: mh });
 export const CAMS_SALAS: Record<string, Cam> = {
   hogar1: C3([0.0, 1.25, 3.6], [0.5, 1.15, 0.6], [0.8, 1.0, -4.0], [0.5, 0.85, -4.0]),

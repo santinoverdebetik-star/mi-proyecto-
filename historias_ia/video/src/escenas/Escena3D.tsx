@@ -4,13 +4,15 @@ import { ThreeCanvas } from "@remotion/three";
 import { Img, staticFile } from "remotion";
 import { useThree } from "@react-three/fiber";
 import * as THREE from "three";
-import { CAMS_SALAS, EsSala, SalaDe } from "./Salas";
+import { CAMS_SALAS, EsSala as EsSala0, SalaDe } from "./Salas";
+import { SalaGen, camGen } from "./Salas2";
+const EsSala = (o: string) => o.startsWith("gen:") || EsSala0(o);
 import { Entorno, MedidorBBox, PL, RB, SombrasAuto, reiniciarLuces } from "./Realismo";
 import { C } from "../estilo";
 import { Antena, Calendario, CamaraSeguridad, Dinero, Dominos, Engranajes, Escudo, Hdmi, Latido, Llave, Lupa, Mando, Movil, Nube, Ojo, Paquetes, PcAntiguo, Placa, Password, Reloj, Router, TvPlay } from "./Objetos3D_b";
 import { Apagon, Avalancha, Cable, Candado, Codigo, Estanteria, Globo, Sala, CajaStreaming, CasasRed, Duplicacion, Fabrica, Laptop, Manometro, Pulsos, Rack, Radar } from "./Objetos3D";
 
-export type Objeto3D = "router" | "camara" | "movil" | "pc_antiguo" | "reloj" | "calendario" | "placa" | "llave" | "dominos" | "escudo" | "dinero" | "hdmi" | "password" | "engranajes" | "latido" | "paquetes" | "antena" | "lupa" | "mando" | "nube" | "ojo" | "tv_play" | "globo" | "sala" | "estanteria" | "avalancha" | "cable" | "codigo" | "casas_red" | "fabrica" | "candado" | "candado_agujero" | "apagon" | "duplicacion" | "rack" | "radar" | "intrusion" | "contagio" | "manometro" | "cajas15" | "caja_led" | "caja_tv" | "nucleo" | "red" | "puerta" | "pantalla_rota" | "hogar1" | "hogar2" | "hogar3" | "hogar4" | "hogar5" | "hogar6" | "hogar7" | "hogar8" | "hogar9" | "hogar10" | "lab1" | "lab2" | "lab3" | "lab4" | "lab5" | "lab6" | "lab7" | "lab8" | "lab9" | "lab10" | "srv1" | "srv2" | "srv3" | "srv4" | "srv5" | "srv6" | "srv7" | "srv8" | "srv9" | "srv10" | "map1" | "map2" | "map3" | "map4" | "map5" | "map6" | "map7" | "map8" | "ofi1" | "ofi2" | "ofi3" | "ofi4" | "ofi5" | "ofi6" | "ofi7" | "ofi8" | "fab1" | "fab2" | "fab3" | "fab4" | "fab5" | "fab6" | "fab7" | "fab8" | `${"lab" | "srv" | "fab" | "ofi" | "map"}${number}m`;
+export type Objeto3D = "router" | "camara" | "movil" | "pc_antiguo" | "reloj" | "calendario" | "placa" | "llave" | "dominos" | "escudo" | "dinero" | "hdmi" | "password" | "engranajes" | "latido" | "paquetes" | "antena" | "lupa" | "mando" | "nube" | "ojo" | "tv_play" | "globo" | "sala" | "estanteria" | "avalancha" | "cable" | "codigo" | "casas_red" | "fabrica" | "candado" | "candado_agujero" | "apagon" | "duplicacion" | "rack" | "radar" | "intrusion" | "contagio" | "manometro" | "cajas15" | "caja_led" | "caja_tv" | "nucleo" | "red" | "puerta" | "pantalla_rota" | "hogar1" | "hogar2" | "hogar3" | "hogar4" | "hogar5" | "hogar6" | "hogar7" | "hogar8" | "hogar9" | "hogar10" | "lab1" | "lab2" | "lab3" | "lab4" | "lab5" | "lab6" | "lab7" | "lab8" | "lab9" | "lab10" | "srv1" | "srv2" | "srv3" | "srv4" | "srv5" | "srv6" | "srv7" | "srv8" | "srv9" | "srv10" | "map1" | "map2" | "map3" | "map4" | "map5" | "map6" | "map7" | "map8" | "ofi1" | "ofi2" | "ofi3" | "ofi4" | "ofi5" | "ofi6" | "ofi7" | "ofi8" | "fab1" | "fab2" | "fab3" | "fab4" | "fab5" | "fab6" | "fab7" | "fab8" | `${"lab" | "srv" | "fab" | "ofi" | "map"}${number}m` | `gen:${string}`;
 
 /** Camara que se acerca con un leve arco (dolly + deriva), como los planos lentos del video de referencia. */
 const Camara: React.FC<{ desde: [number, number, number]; hasta: [number, number, number]; mira: [number, number, number]; miraHasta?: [number, number, number]; total: number; Z?: number; lineal?: boolean }> = ({ desde, hasta, mira, miraHasta, total, Z = 0.78, lineal = false }) => {
@@ -280,7 +282,7 @@ export const Escena3D: React.FC<{ objeto: Objeto3D; infeccion?: number; luz?: Lu
   const L = LUZ[luz];
   const { width, height, durationInFrames } = useVideoConfig();
   const sala = EsSala(objeto);
-  const c0 = sala ? CAMS_SALAS[objeto] : (CAMS_NUEVAS[objeto] ?? CONFIG[objeto])!;
+  const c0 = sala ? (objeto.startsWith("gen:") ? camGen(objeto) : CAMS_SALAS[objeto]) : (CAMS_NUEVAS[objeto] ?? CONFIG[objeto])!;
   const c1: Cam = inv ? { ...c0, desde: c0.hasta, hasta: c0.desde, mira: c0.miraHasta ?? c0.mira, miraHasta: c0.miraHasta ? c0.mira : undefined } : c0;
   const sh = (v: [number, number, number]): [number, number, number] => [v[0], v[1] + dy, v[2]];
   const c: Cam = { desde: sh(c1.desde), hasta: sh(c1.hasta), mira: sh(c1.mira), miraHasta: c1.miraHasta ? sh(c1.miraHasta) : undefined };
@@ -302,7 +304,7 @@ export const Escena3D: React.FC<{ objeto: Objeto3D; infeccion?: number; luz?: Lu
         {!sala && objeto !== "manometro" && !fondo && <Suelo color={L.suelo} />}
         {fondo && objeto !== "manometro" && <mesh rotation={[-Math.PI / 2, 0, 0]} position={[0, -0.985, 0]} receiveShadow><planeGeometry args={[40, 40]} /><shadowMaterial opacity={0.5} /></mesh>}
         {!sala && <spotLight position={[0, 7, 3.5]} angle={0.55} penumbra={1} intensity={260} distance={30} color="#cfe0ff" target-position={[0, -1, 0]} />}
-        {sala && <SalaDe id={objeto} />}
+        {sala && (objeto.startsWith("gen:") ? <SalaGen id={objeto} /> : <SalaDe id={objeto} />)}
         {!sala && ped > 0 && (
           <group position={[0, -1 + ped / 2, 0]}>
             <mesh receiveShadow castShadow><cylinderGeometry args={[1.5, 1.65, ped, 48]} /><meshStandardMaterial color="#0d0f14" roughness={0.25} metalness={0.8} /></mesh>

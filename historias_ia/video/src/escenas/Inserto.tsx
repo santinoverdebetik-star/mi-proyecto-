@@ -1,6 +1,7 @@
 import React from "react";
 import { AbsoluteFill, Img, interpolate, random, spring, staticFile, useCurrentFrame, useVideoConfig } from "remotion";
 import { C, FUENTE_TEXTO, FUENTE_TITULO } from "../estilo";
+import { estilo } from "../estilos";
 
 const FONDO = "radial-gradient(ellipse 75% 65% at 50% 40%, #2a3244 0%, #151a24 55%, #05060a 100%)";
 
@@ -53,7 +54,8 @@ export const Terminal: React.FC<{ v?: number }> = ({ v = 0 }) => {
 };
 
 /** Cifra importante del guion sobre una FOTO REAL con gradacion; la cifra ocupa solo una esquina (nunca toda la escena). */
-export const Dato: React.FC<{ valor: string; etiqueta?: string; fondo?: string }> = ({ valor, etiqueta, fondo }) => {
+export const Dato: React.FC<{ valor: string; etiqueta?: string; fondo?: string; est?: number; lay?: number }> = ({ valor, etiqueta, fondo, est = 0, lay = 0 }) => {
+  const E = estilo(est);
   const f = useCurrentFrame(); const { fps, durationInFrames: D } = useVideoConfig();
   const m = valor.match(/^(\D*)(\d[\d.,]*)(.*)$/);
   const num = m ? parseFloat(m[2].replace(",", ".")) : NaN;
@@ -64,16 +66,17 @@ export const Dato: React.FC<{ valor: string; etiqueta?: string; fondo?: string }
   const arco = 2 * Math.PI * 130;
   return (
     <AbsoluteFill style={{ background: "#07090d", overflow: "hidden" }}>
-      {fondo ? <Img src={staticFile(fondo)} style={{ position: "absolute", width: "100%", height: "100%", objectFit: "cover", transform: `scale(${1.06 + 0.08 * t})`, filter: "contrast(1.2) saturate(1.1) brightness(0.8)" }} /> : <AbsoluteFill style={{ background: FONDO }} />}
-      <AbsoluteFill style={{ background: "linear-gradient(90deg, rgba(4,5,8,0.9) 0%, rgba(4,5,8,0.6) 34%, rgba(4,5,8,0) 62%)" }} />
-      <AbsoluteFill style={{ background: `radial-gradient(circle at 85% 85%, ${C.naranja}44, transparent 50%)`, mixBlendMode: "screen" }} />
-      <div style={{ position: "absolute", left: 130, top: 330, display: "flex", alignItems: "center", gap: 36 }}>
+      {fondo ? <Img src={staticFile(fondo)} style={{ position: "absolute", width: "100%", height: "100%", objectFit: "cover", transform: `scale(${1.06 + 0.08 * t})`, filter: E.filtro }} /> : <AbsoluteFill style={{ background: FONDO }} />}
+      <AbsoluteFill style={{ background: lay === 1 ? "linear-gradient(270deg, rgba(4,5,8,0.9) 0%, rgba(4,5,8,0.6) 34%, rgba(4,5,8,0) 62%)" : lay === 2 ? "linear-gradient(0deg, rgba(4,5,8,0.92) 0%, rgba(4,5,8,0.55) 30%, rgba(4,5,8,0) 58%)" : "linear-gradient(90deg, rgba(4,5,8,0.9) 0%, rgba(4,5,8,0.6) 34%, rgba(4,5,8,0) 62%)" }} />
+      <AbsoluteFill style={{ background: E.tinte, opacity: 0.16, mixBlendMode: "color" }} />
+      <AbsoluteFill style={{ background: `radial-gradient(circle at 85% 85%, ${E.a}44, transparent 50%)`, mixBlendMode: "screen" }} />
+      <div style={{ position: "absolute", ...(lay === 1 ? { right: 130, top: 330 } : lay === 2 ? { left: 130, bottom: 90 } : { left: 130, top: 330 }), display: "flex", alignItems: "center", gap: 36 }}>
         <svg width={300} height={300} style={{ transform: "rotate(-90deg)" }}>
           <circle cx={150} cy={150} r={130} stroke="#ffffff22" strokeWidth={10} fill="none" />
-          <circle cx={150} cy={150} r={130} stroke={C.naranja} strokeWidth={10} fill="none" strokeLinecap="round" strokeDasharray={arco} strokeDashoffset={arco * (1 - 0.8 * e)} style={{ filter: `drop-shadow(0 0 14px ${C.naranja})` }} />
+          <circle cx={150} cy={150} r={130} stroke={E.a} strokeWidth={10} fill="none" strokeLinecap="round" strokeDasharray={arco} strokeDashoffset={arco * (1 - 0.8 * e)} style={{ filter: `drop-shadow(0 0 14px ${E.a})` }} />
         </svg>
-        <div style={{ marginLeft: -330, width: 300, textAlign: "center", fontFamily: FUENTE_TITULO, fontSize: String(mostrado).length > 4 ? 100 : 130, color: C.crema, textShadow: `0 0 40px ${C.naranja}88` }}>{m ? m[1] : ""}{mostrado}<span style={{ color: C.naranja }}>{m ? m[3].trim() : ""}</span></div>
-        {etiqueta && <div style={{ marginLeft: 70, maxWidth: 480, fontFamily: FUENTE_TEXTO, fontWeight: 800, fontSize: 30, letterSpacing: 4, color: C.cian, textTransform: "uppercase", opacity: interpolate(f, [10, 24], [0, 1], { extrapolateRight: "clamp" }) }}>{etiqueta}</div>}
+        <div style={{ marginLeft: -330, width: 300, textAlign: "center", fontFamily: FUENTE_TITULO, fontSize: String(mostrado).length > 4 ? 100 : 130, color: C.crema, textShadow: `0 0 40px ${E.a}88` }}>{m ? m[1] : ""}{mostrado}<span style={{ color: E.a }}>{m ? m[3].trim() : ""}</span></div>
+        {etiqueta && <div style={{ marginLeft: 70, maxWidth: 480, fontFamily: FUENTE_TEXTO, fontWeight: 800, fontSize: 30, letterSpacing: 4, color: E.b, textTransform: "uppercase", opacity: interpolate(f, [10, 24], [0, 1], { extrapolateRight: "clamp" }) }}>{etiqueta}</div>}
       </div>
     </AbsoluteFill>
   );
@@ -203,4 +206,32 @@ export const Lluvia: React.FC<{ v?: number }> = ({ v = 0 }) => {
       })}
     </AbsoluteFill>
   );
+};
+
+/** Ondas de señal superpuestas (abstracto, colores del tema). */
+export const Ondas: React.FC<{ est?: number; v?: number }> = ({ est = 0, v = 0 }) => {
+  const f = useCurrentFrame(); const E = estilo(est);
+  return (
+    <AbsoluteFill style={{ background: `radial-gradient(ellipse 75% 65% at 50% 45%, ${E.fondo1} 0%, ${E.fondo2} 100%)` }}>
+      <svg width="100%" height="100%" viewBox="0 0 1920 1080">
+        {Array.from({ length: 7 }, (_, k) => { const amp = 60 + k * 26, fr = 0.004 + k * 0.0011, ph = f * (0.05 + k * 0.012) + v + k;
+          const d = Array.from({ length: 97 }, (_, i) => { const x = i * 20; const y = 540 + Math.sin(x * fr + ph) * amp * Math.sin(i / 96 * Math.PI) + Math.sin(x * fr * 2.3 + ph * 1.4) * amp * 0.25; return `${i ? "L" : "M"}${x} ${y}`; }).join(" ");
+          return <path key={k} d={d} fill="none" stroke={k % 2 ? E.a : E.b} strokeWidth={4 - k * 0.3} opacity={0.9 - k * 0.1} style={{ filter: `drop-shadow(0 0 12px ${k % 2 ? E.a : E.b})` }} />; })}
+      </svg>
+    </AbsoluteFill>);
+};
+
+/** Anillos HUD que giran y laten (abstracto, colores del tema). */
+export const Anillos: React.FC<{ est?: number; v?: number }> = ({ est = 0, v = 0 }) => {
+  const f = useCurrentFrame(); const E = estilo(est);
+  return (
+    <AbsoluteFill style={{ background: `radial-gradient(ellipse 75% 65% at 50% 45%, ${E.fondo1} 0%, ${E.fondo2} 100%)`, justifyContent: "center", alignItems: "center" }}>
+      <svg width={1100} height={1100} viewBox="-550 -550 1100 1100" style={{ transform: `scale(${0.95 + f * 0.0012})` }}>
+        {[1, 2, 3, 4, 5].map((k) => { const r = 90 + k * 78; const dir = k % 2 ? 1 : -1; const pulso = 1 + 0.03 * Math.sin(f / 5 + k + v);
+          return <g key={k} transform={`rotate(${dir * f * (0.8 + k * 0.4) + v * 37}) scale(${pulso})`}>
+            <circle r={r} fill="none" stroke={k % 2 ? E.a : E.b} strokeWidth={3 + (k === 3 ? 5 : 0)} strokeDasharray={`${40 + k * 22} ${24 + k * 10}`} opacity={0.9} style={{ filter: `drop-shadow(0 0 10px ${k % 2 ? E.a : E.b})` }} />
+            <circle cx={r} r={9} fill={E.a} /></g>; })}
+        <circle r={46} fill={E.a} opacity={0.85} style={{ filter: `drop-shadow(0 0 30px ${E.a})` }} />
+      </svg>
+    </AbsoluteFill>);
 };
