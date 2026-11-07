@@ -110,3 +110,11 @@ En esta nube hace falta `CHROMIUM_PATH=/opt/pw-browsers/chromium_headless_shell-
 - **Transición 3D → 2D:** la cámara se acerca a un monitor de la sala (`lab3`) y su pantalla roja llena el cuadro (escena `roja` ventana).
 - **Iluminación:** sala en penumbra cálida con charcos de luz (lámparas, paneles del techo); no estudio negro.
 - Salas en `video/src/escenas/Salas.tsx`; tarjetas/transiciones/pantalla roja en `Pantallas.tsx`; efectos de sonido en `herramientas/sfx.py`.
+
+## REGLAS FIJAS (pedido del usuario, V11) — valen para ESTE video y para TODOS los siguientes
+1. **Todo lo que dice el narrador debe estar representado en pantalla en ese mismo momento** (objeto, sala, gráfico o foto de lo que se nombra). El planificador elige el visual por las palabras de las líneas que suenan en cada tramo (palabras clave → objeto/sala/inserto), no solo por la etiqueta del bloque.
+2. **El texto nunca ocupa toda la escena.** Si hay texto sobre fondo, el fondo es una **imagen realista** con gradación tipo After Effects (contraste, viñeta, destello de color, grano) y el texto ocupa como mucho ~40 % del cuadro, en un lado. Prohibido el texto gigante sobre negro liso.
+3. **Los clips 3D deben durar más** (salas ~8 s, objetos ~6 s; no cortes cortos) y haber **más 3D que insertos**. Los insertos (pantalla roja, tarjetas, radar, globo, terminal, fotos) se **distribuyen a lo largo de TODO el video**, no se concentran al principio.
+4. Prohibidos los insertos de mosaico/cuadrícula naranja a pantalla completa (parecen transición).
+5. **Duración del video final: 25 a 30 minutos** (voz Martín con velocidad ~0,92 y pausa 650 ms para llegar a >25 min).
+6. Apertura con la pantalla de tarjetas pixel-art en español, transiciones profesionales (píxeles/barras/zoom), efectos de sonido suaves, música muy baja.

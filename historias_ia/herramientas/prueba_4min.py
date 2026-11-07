@@ -174,8 +174,8 @@ def listar_voces(key, filtro="martin"):
     print(f"{len(res)} voces con '{filtro}' de {len(lista)}"); return res
 
 
-def voz_voizum(texto, voice_id, salida, key, velocidad=None):
-    cuerpo = {"text": texto, "voice_id": voice_id, "language": "es", "pause_ms": 350}
+def voz_voizum(texto, voice_id, salida, key, velocidad=None, pausa=350):
+    cuerpo = {"text": texto, "voice_id": voice_id, "language": "es", "pause_ms": pausa}
     if velocidad: cuerpo["speed"] = velocidad
     job = llamar("POST", "/tts", key, cuerpo)
     print("creado", job["job_id"], "creditos", job.get("credits_charged"), flush=True)
@@ -277,6 +277,7 @@ def main():
     ap = argparse.ArgumentParser()
     ap.add_argument("--listar-voces", action="store_true"); ap.add_argument("--voz-id"); ap.add_argument("--audio")
     ap.add_argument("--lineas", type=int, default=52); ap.add_argument("--velocidad", type=float)
+    ap.add_argument("--pausa", type=int, default=350); ap.add_argument("--proyecto", default="prueba4"); ap.add_argument("--solo-voz", action="store_true")
     ap.add_argument("--salida", default=os.path.join(RAIZ, "video"))
     a = ap.parse_args()
     key = os.environ.get("VOIZUM_API_KEY")
@@ -287,11 +288,12 @@ def main():
     lineas = [l for _, ls in bloques for l in ls]
     texto = "\n".join(lineas)
     print(f"{len(bloques)} bloques, {len(lineas)} lineas, {len(texto)} caracteres (~{len(texto) * 60 / 1000:.0f} creditos Voizum)")
-    pub = os.path.join(a.salida, "public", "prueba4"); os.makedirs(pub, exist_ok=True)
+    pub = os.path.join(a.salida, "public", a.proyecto); os.makedirs(pub, exist_ok=True)
     audio = a.audio or os.path.join(pub, "voz.mp3")
     if not a.audio:
         if not key or not a.voz_id: sys.exit("Faltan VOIZUM_API_KEY y --voz-id (usa --listar-voces para encontrar a Martin)")
-        voz_voizum(texto, a.voz_id, audio, key, a.velocidad)
+        voz_voizum(texto, a.voz_id, audio, key, a.velocidad, a.pausa)
+        if a.solo_voz: print("voz lista:", audio); return
     ini_lin, dur = alinear(audio, lineas)
     # bloque -> escena (inicio = primera linea del bloque); bloques largos se parten en tramos de <= 9,5 s con la camara invertida
     escenas, inicios, golpes, k = [], [], [], 0
@@ -389,8 +391,8 @@ def main():
     mp3 = os.path.join(pub, "mezcla.mp3")
     segs = [(inicios[i], (inicios[i + 1] if i + 1 < len(inicios) else dur), escenas[i].get("luz", "media")) for i in range(len(escenas))]
     D = mezclar(audio, inicios, golpes, mp3, segs, escenas=escenas)
-    props = {"escenas": escenas, "voz": "prueba4/mezcla.mp3"}
-    ruta = os.path.join(a.salida, "props_prueba4.json"); json.dump(props, open(ruta, "w"), ensure_ascii=False, indent=1)
+    props = {"escenas": escenas, "voz": f"{a.proyecto}/mezcla.mp3"}
+    ruta = os.path.join(a.salida, f"props_{a.proyecto}.json"); json.dump(props, open(ruta, "w"), ensure_ascii=False, indent=1)
     print(f"LISTO: {len(escenas)} escenas, audio {D / 60:.1f} min -> {ruta}")
     print("Siguiente: cd ../video && npx remotion render src/index.ts Historia out/prueba4.mp4 --props=props_prueba4.json --scale=0.5 --concurrency=4")
 
