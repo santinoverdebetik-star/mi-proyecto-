@@ -7,11 +7,15 @@ spec = json.load(open(sys.argv[sys.argv.index("--") + 1])) if "--" in sys.argv e
 A = os.environ.get("ASSETS", os.path.join(os.path.dirname(os.path.abspath(__file__)), "assets"))
 R = random.Random(spec["seed"]); prop = spec["prop"]
 bpy.ops.wm.read_factory_settings(use_empty=True)
-sc = bpy.context.scene; sc.render.engine = "CYCLES"; sc.cycles.device = "CPU"; sc.cycles.samples = spec.get("samples", 24); sc.cycles.use_denoising = True; sc.cycles.max_bounces = 4
+sc = bpy.context.scene; sc.render.engine = "CYCLES"; sc.cycles.device = "CPU"; sc.cycles.samples = spec.get("samples", 24); sc.cycles.use_denoising = True; sc.cycles.max_bounces = spec.get("bounces", 4)
 sc.render.resolution_x, sc.render.resolution_y = spec.get("res", [960, 540]); sc.render.resolution_percentage = 100
 try: sc.view_settings.view_transform = "AgX"
 except Exception: pass
 sc.view_settings.look = "None"; sc.cycles.preview_samples = 8
+sc.cycles.adaptive_threshold = spec.get("adapt", 0.01); sc.cycles.sample_clamp_indirect = spec.get("clamp", 10); sc.cycles.use_adaptive_sampling = True
+sc.cycles.caustics_reflective = False; sc.cycles.caustics_refractive = False; sc.render.use_persistent_data = True
+try: sc.cycles.denoiser = "OPENIMAGEDENOISE"; sc.cycles.denoising_prefilter = "ACCURATE"
+except Exception: pass
 HDRIS = ["abandoned_workshop", "abandoned_garage", "boiler_room", "bank_vault", "carpentry_shop_01", "art_studio", "cabin", "abandoned_tiled_room", "autoshop_01", "burnt_warehouse", "abandoned_bakery", "blinds", "abandoned_games_room_02"]
 MAD = ["brown_planks_03", "brown_planks_04", "brown_planks_05", "black_painted_planks", "brown_planks_07"]
 

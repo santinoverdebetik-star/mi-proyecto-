@@ -42,11 +42,11 @@ if faltan:
         if escenas[i]["tipo"] == "blender":                                 # clip fotorrealista: Blender (Cycles) a 10 fps -> mezcla a 30 fps + bloom, viñeta, grano y fundido
             e = escenas[i]; W, H = int(1920 * float(esc)), int(1080 * float(esc)); fr = int(math.ceil(e["dur"] * 10)) + 2; carp = f"out/bl/{clave(e)}"
             shutil.rmtree(carp, ignore_errors=True); os.makedirs(carp, exist_ok=True)
-            json.dump({"prop": e["prop"], "seed": e["seed"], "frames": fr, "samples": int(os.environ.get("BL_SAMPLES", "24")), "res": [W, H], "salida": carp}, open(carp + "/spec.json", "w"))
+            json.dump({"prop": e["prop"], "seed": e["seed"], "frames": fr, "samples": int(os.environ.get("BL_SAMPLES", "14")), "bounces": 3, "adapt": 0.05, "clamp": 2, "res": [int(W * 2 / 3) // 2 * 2, int(H * 2 / 3) // 2 * 2], "salida": carp}, open(carp + "/spec.json", "w"))
             r = subprocess.run(["python3", "../blender/gen_clip.py", carp + "/spec.json"], env=dict(env, ASSETS=os.path.abspath("../blender/assets")), stdout=subprocess.DEVNULL, stderr=subprocess.DEVNULL)
             if r.returncode: sys.exit(f"fallo Blender en la escena {i}")
             fx = ["format=gbrp", "split[a][b]", "[b]curves=all='0/0 0.55/0 0.8/0.5 1/1',gblur=sigma=8[g]", "[a][g]blend=all_mode=screen:all_opacity=0.35", "format=yuv420p", "vignette=PI/5.5", "noise=alls=6:allf=t"]
-            vf = "framerate=fps=30:interp_start=0:interp_end=255:scene=100,tpad=stop_mode=clone:stop=10,scale=%d:%d,format=gbrp,split[a][b];[b]curves=all='0/0 0.55/0 0.8/0.5 1/1',gblur=sigma=8[g];[a][g]blend=all_mode=screen:all_opacity=0.35,format=yuv420p,vignette=PI/5.5,noise=alls=6:allf=t" % (W, H)
+            vf = "framerate=fps=30:interp_start=0:interp_end=255:scene=100,tpad=stop_mode=clone:stop=10,scale=%d:%d:flags=lanczos,format=gbrp,split[a][b];[b]curves=all='0/0 0.55/0 0.8/0.5 1/1',gblur=sigma=8[g];[a][g]blend=all_mode=screen:all_opacity=0.35,format=yuv420p,vignette=PI/5.5,noise=alls=6:allf=t" % (W, H)
             if e.get("trans") == "fundido": vf += f",fade=t=in:st=0:d=0.45,fade=t=out:st={max(0, n / 30 - 0.4):.2f}:d=0.4"
             subprocess.run(["ffmpeg", "-v", "error", "-y", "-framerate", "10", "-i", carp + "/f_%04d.png", "-vf", vf, "-frames:v", str(n), "-c:v", "libx264", "-crf", "20", "-pix_fmt", "yuv420p", "-r", "30", destino + ".tmp.mp4"], check=True)
             os.replace(destino + ".tmp.mp4", destino); print(f"escena {i} (blender:{e['prop']}) lista [{k + 1}/{len(faltan)}]", flush=True); continue
