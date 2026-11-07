@@ -379,6 +379,8 @@ def main():
         return min(fin, tb)
     def trozos(ta, tb, pref, luz):
         x = ta
+        if tb - x < 4.2 and escenas and escenas[-1]["tipo"] == "3d":     # resto corto: se alarga el ultimo 3D (los 3D no deben ser cortos)
+            escenas[-1]["dur"] = round(escenas[-1]["dur"] + (tb - x), 3); return
         while tb - x > 0.35:
             rest = tb - x
             if K3[0] >= 3 and rest > 9:                                       # cada dos clips 3D, un inserto corto (pantalla roja, radar, globo, terminal, foto...)
@@ -433,7 +435,7 @@ def main():
             trozos(t_ini, t_fin, base["objetos"], base["luz"])
         else:
             tope = 4.0 if tipo == "titular" else (4.4 if tipo == "comparar" else 8.0)
-            t_med = min(t_fin, t_ini + tope) if (t_fin - t_ini) > tope + 1.5 else t_fin
+            t_med = min(t_fin, t_ini + tope) if (t_fin - t_ini) > tope + 4.2 else t_fin     # un resto de menos de ~4 s se absorbe en el titular (nada de clips 3D cortos)
             e = {x: v for x, v in base.items() if not x.startswith("_")}; e["dur"] = round(t_med - t_ini, 3)
             if tipo == "titular": e["fondo"] = foto_tema(" ".join(ls) + " " + " ".join(base.get("_relleno", [])), None)
             escenas.append(e); inicios.append(t_ini); prev[0] = None
@@ -444,7 +446,9 @@ def main():
     ciclo = ["pixel", "barras", "zoom", "pixel", "pixel", "zoom", "barras"]
     for k_, e_ in enumerate(escenas):
         e_["trans"] = ciclo[k_ % len(ciclo)]
-        if e_["tipo"] == "3d": e_["calidad"] = "alta" if inicios[k_] < 300 else "normal"   # pedido V9: 3D de mas calidad los primeros 5 min, despues mas liviano
+        if e_["tipo"] == "3d":
+            e_["calidad"] = "alta" if inicios[k_] < 300 else "normal"
+            if inicios[k_] >= 300: e_["rf"] = 2                                   # despues de los 5 min: se renderiza a 15 fps y se interpola a 30 (render ~2x mas rapido)   # pedido V9: 3D de mas calidad los primeros 5 min, despues mas liviano
     mp3 = os.path.join(pub, "mezcla.mp3")
     segs = [(inicios[i], (inicios[i + 1] if i + 1 < len(inicios) else dur), escenas[i].get("luz", "media")) for i in range(len(escenas))]
     D = mezclar(audio, inicios, golpes, mp3, segs, escenas=escenas)

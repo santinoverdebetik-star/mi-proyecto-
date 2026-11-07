@@ -28,13 +28,18 @@ if faltan:
     subprocess.run(["npx", "remotion", "bundle", "src/index.ts", "--out-dir=out/bundle", "--log=error"], check=True, env=env)
     for k, i in enumerate(faltan):
         a, n = ini[i]; destino = f"out/cache/{clave(escenas[i])}.mp4"
+        rf = int(escenas[i].get("rf", 1))
         r = subprocess.run(["npx", "remotion", "render", "out/bundle", "Historia", destino + ".tmp.mp4", f"--props={props}", f"--scale={esc}", "--concurrency=4", "--crf=22",
-                            f"--frames={a}-{a + n - 1}", "--muted", "--log=error"], env=env)
+                            f"--frames={a}-{a + n - 1}", "--muted", "--log=error"] + ([f"--every-nth-frame={rf}"] if rf > 1 else []), env=env)
         if r.returncode: sys.exit(f"fallo en la escena {i}")
+        if rf > 1:                                                     # se renderizo a 30/rf fps: se mezcla (blend) hasta 30 fps con exactamente n fotogramas
+            subprocess.run(["ffmpeg", "-v", "error", "-y", "-i", destino + ".tmp.mp4", "-vf", "framerate=fps=30:interp_start=0:interp_end=255:scene=100,tpad=stop_mode=clone:stop=8",
+                            "-frames:v", str(n), "-c:v", "libx264", "-crf", "22", "-pix_fmt", "yuv420p", destino + ".tmp2.mp4"], check=True)
+            os.replace(destino + ".tmp2.mp4", destino + ".tmp.mp4")
         os.replace(destino + ".tmp.mp4", destino); print(f"escena {i} ({escenas[i]['tipo']}) lista [{k + 1}/{len(faltan)}]", flush=True)
 lista = "out/lista_" + nombre + ".txt"
 open(lista, "w").write("".join(f"file 'cache/{clave(e)}.mp4'\n" for e in escenas))
-subprocess.run(["ffmpeg", "-v", "error", "-y", "-f", "concat", "-safe", "0", "-i", lista, "-c", "copy", f"out/{nombre}_mudo.mp4"], check=True)
+subprocess.run(["ffmpeg", "-v", "error", "-y", "-f", "concat", "-safe", "0", "-i", lista, "-c:v", "libx264", "-crf", "22", "-pix_fmt", "yuv420p", "-preset", "veryfast", f"out/{nombre}_mudo.mp4"], check=True)
 audio = "public/" + d.get("voz", "")
 subprocess.run(["ffmpeg", "-v", "error", "-y", "-i", f"out/{nombre}_mudo.mp4", "-i", audio, "-map", "0:v", "-map", "1:a", "-c:v", "copy", "-c:a", "aac", "-b:a", "160k", "-shortest", f"out/{nombre}.mp4"], check=True)
 print(f"LISTO out/{nombre}.mp4", flush=True)
