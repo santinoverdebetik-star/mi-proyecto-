@@ -128,3 +128,8 @@ En esta nube hace falta `CHROMIUM_PATH=/opt/pw-browsers/chromium_headless_shell-
 - **Transiciones**: casi siempre CORTE directo o **fundido por negro**; algun parpadeo digital. Nada de efectos llamativos (el estilo pixel rojo de la referencia 2 se usa solo para las tarjetas comparativas).
 - **Musica**: ambiente oscuro continuo, graves/sub-bajo y textura, SIN melodia ni bateria; ~26 dB por debajo de la voz.
 - Si el narrador habla de una **IA** → mostrar un **robot** (y cosas afines al tema); cada objeto/escena debe corresponder a lo que se dice.
+
+## V14 — BLENDER para el realismo (pedido del usuario)
+- **Primeros 5 minutos = clips de Blender (Cycles, fotorrealistas)**: mesa de madera real (texturas Poly Haven CC0), HDRI de interior muy tenue (bokeh), luz cálida de lámpara + acento cian, cámara macro con profundidad de campo. Objetos: modelos reales (reloj, laptop, cámara de seguridad, TV, radio, libros, cables, teléfono público, casetera) + armados por mí en Blender (router, robot = IA, hilera de cajitas con LED, teléfono, cerradura con llave). Cada clip elige el objeto según lo que dice el narrador.
+- **Después del minuto 5**: 3D en código (Remotion/three.js) + todos los gráficos/AE (colores, textos, contrastes) como antes.
+- Herramientas: `blender/gen_clip.py` (clip), `blender/bajar_assets.py` (baja los assets), `render_incremental.py` (clave `blender`; `SOLO=blender|resto` para repartir). Coste medido: ~10 s por cuadro a 960x540 (24 muestras) -> ~13 min por clip de 8 s (se renderiza a 10 fps y se interpola a 30).

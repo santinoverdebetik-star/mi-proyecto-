@@ -76,6 +76,8 @@ FOTO_PREF = {
 }
 DUR_3D, DUR_FOTO = 7.5, 3.2                     # pedido V11: los 3D duran MAS (salas ~9,5 s, objetos ~7 s); insertos cortos
 DUR_SALA = 10.5
+BL_HASTA = 300.0                                   # pedido: los primeros 5 minutos van en BLENDER (fotorrealista); despues, 3D en codigo
+DUR_BL = 8.0
 GEN_FAM = ["hogar", "lab", "srv", "ofi", "fab", "mapa", "calle", "tienda"]
 SALAS_TIROS = {f: [] for f in GEN_FAM}                                   # pedido V12: ningun ambiente 3D se repite: cada sala se GENERA con una semilla nueva
 SALA_IDS = set()
@@ -381,6 +383,25 @@ def main():
                 usos_f[f] = 1; return f
         if pool: print("AVISO: se repite una foto (faltan fotos en el pool)")
         f = min(pool, key=lambda k: usos_f.get(k, 0)); usos_f[f] = usos_f.get(f, 0) + 1; return f
+    usos_bl = {}; ult_bl = [None]
+    BL_MAP = {"robot": "robot", "reloj": "reloj", "router": "router", "laptop": "laptop", "cajas": "cajas", "telefono": "telefono", "llave": "llave", "papeles": "libros"}
+    BL_EXTRA = [(r"camara|vigil|seguridad|grabador|observa|mira", "camara"), (r"televisor|\btele\b|serie\b|pelicula|pantalla|cajita de streaming", "tv"), (r"senal|radio|antena|onda|transmit|frecuencia|hablan", "radio"),
+                (r"cable|hdmi|enchuf|conecta|conexion|red\b", "cables"), (r"\bluz\b|lampara|noche|oscur|parpade", "lampara"), (r"mensaje|llamada|telefono|movil", "telepublico"), (r"escuch|voz|audio|grab", "cassette")]
+    PROPS_BL = ["robot", "reloj", "router", "laptop", "cajas", "telefono", "llave", "libros", "camara", "tv", "radio", "cables", "lampara", "telepublico", "cassette"]
+    def elegir_blender(texto):
+        sc = VIS.puntuar(texto); pun = {}
+        for c, v in sc.items():
+            if c.startswith("M:") and c[2:] in BL_MAP: pun[BL_MAP[c[2:]]] = pun.get(BL_MAP[c[2:]], 0) + v
+        tn = VIS.norm(texto)
+        for rx, pr in BL_EXTRA:
+            n = len(re.findall(rx, tn))
+            if n: pun[pr] = pun.get(pr, 0) + n * 1.2
+        for pr in sorted(pun, key=lambda k: -pun[k]):
+            if usos_bl.get(pr, 0) < 2 and pr != ult_bl[0]: break
+        else:
+            lib = [p_ for p_ in PROPS_BL if p_ != ult_bl[0]]; pr = min(lib, key=lambda k: (usos_bl.get(k, 0), PROPS_BL.index(k)))
+        usos_bl[pr] = usos_bl.get(pr, 0) + 1; ult_bl[0] = pr; GEN_N[0] += 1
+        return pr, GEN_N[0]
     def texto_ini(t0, t1):
         """lineas que EMPIEZAN entre t0 y t1 (lo que se dice mientras dura el clip)"""
         out = [l for i, l in enumerate(lineas) if t0 - 0.3 <= ini_lin[i] < t1]
@@ -431,6 +452,9 @@ def main():
                     e = {"tipo": "foto", "archivo": f, "luz": luz, "v": nfoto[0], "pos": POS[nfoto[0] % len(POS)], "dur": round(d, 3)}
                 escenas.append(e); inicios.append(x); x += d; K3[0] = 0; continue
             tx = texto_ini(x, x + 9)
+            if x < BL_HASTA:                                               # primeros 5 minutos: clip de Blender (fotorrealista)
+                pr, sem = elegir_blender(tx); fin = corte(x, DUR_BL, DUR_BL - 2.0, tb); d = fin - x
+                escenas.append({"tipo": "blender", "prop": pr, "seed": sem, "dur": round(d, 3), "luz": luz}); K3[0] += 1; prev[0] = "bl:" + pr; inicios.append(x); x += d; continue
             o = elegir_visual(tx, pref); sala = o.startswith("gen:") and not o.startswith("gen:mesa")
             obj = DUR_SALA if sala else DUR_3D
             fin = corte(x, obj, obj - 2.0, tb); d = fin - x
