@@ -29,8 +29,11 @@ if faltan:
     for k, i in enumerate(faltan):
         a, n = ini[i]; destino = f"out/cache/{clave(escenas[i])}.mp4"
         rf = int(escenas[i].get("rf", 1))
-        cmd = ["npx", "remotion", "render", "out/bundle", "Historia", destino + ".tmp.mp4", f"--props={props}", f"--scale={esc}", "--concurrency=4", "--crf=22",
-               f"--frames={a}-{a + n - 1}", "--muted", "--log=error"] + ([f"--every-nth-frame={rf}"] if rf > 1 else [])
+        pr, fr = props, f"{a}-{a + n - 1}"
+        if rf > 1:                                                       # --every-nth-frame se cuelga si el rango no empieza en 0: se renderiza la escena sola (fotogramas 0..n-1)
+            pr = f"out/una_{clave(escenas[i])}.json"; json.dump({"escenas": [escenas[i]]}, open(pr, "w")); fr = f"0-{n - 1}"
+        cmd = ["npx", "remotion", "render", "out/bundle", "Historia", destino + ".tmp.mp4", f"--props={pr}", f"--scale={esc}", "--concurrency=4", "--crf=22",
+               f"--frames={fr}", "--muted", "--log=error"] + ([f"--every-nth-frame={rf}"] if rf > 1 else [])
         for intento in range(3):                                         # vigilante: si un render se cuelga (pasó tras reiniciar el contenedor) se corta y se reintenta
             try:
                 r = subprocess.run(cmd, env=env, timeout=240 + n * 4 / rf); break
