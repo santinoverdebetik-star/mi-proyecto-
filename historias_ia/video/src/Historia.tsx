@@ -8,6 +8,7 @@ import { Escena3D } from "./escenas/Escena3D";
 import { Imagen } from "./escenas/Imagen";
 import { Foto } from "./escenas/Foto";
 import { Comparar, Roja, Transicion } from "./escenas/Pantallas";
+import { Casa, Grilla, MapaPuntos, Numero, Puerta } from "./escenas/Info2D";
 import { Anillos, Barras, Cuadricula, Dato, Flujo, Frase, Globo2D, Lluvia, Ondas, Radar, Terminal } from "./escenas/Inserto";
 import type { Escena } from "./guion";
 const HUE = [0, -18, 150, 95, -65, 40, 0];                           // variedad de color en los graficos 2D (hue-rotate segun el tema de la escena)
@@ -30,6 +31,11 @@ export const Historia: React.FC<{ escenas: Escena[]; voz?: string; musica?: stri
           {e.tipo === "dato" && <Dato valor={e.valor} etiqueta={e.etiqueta} fondo={e.fondo} est={e.est} lay={e.lay} />}
           {e.tipo === "ondas" && <Ondas est={e.est} v={e.v} />}
           {e.tipo === "anillos" && <Anillos est={e.est} v={e.v} />}
+          {e.tipo === "numero" && <Numero valor={e.valor} etiqueta={e.etiqueta} est={e.est} />}
+          {e.tipo === "mapapuntos" && <MapaPuntos valor={e.valor} etiqueta={e.etiqueta} est={e.est} />}
+          {e.tipo === "casa" && <Casa est={e.est} />}
+          {e.tipo === "puerta" && <Puerta est={e.est} />}
+          {e.tipo === "grilla" && <Grilla n={e.n} etiqueta={e.etiqueta} est={e.est} />}
           {e.tipo === "radar" && <Radar v={e.v} />}
           {e.tipo === "cuadricula" && <Cuadricula v={e.v} />}
           {e.tipo === "barras" && <Barras v={e.v} />}

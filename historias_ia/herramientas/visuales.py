@@ -6,6 +6,14 @@ def norm(s):
     return re.sub(r"[^a-z0-9%$ ]", " ", "".join(c for c in unicodedata.normalize("NFD", s.lower()) if unicodedata.category(c) != "Mn"))
 
 VISUAL = [
+    (r"inteligencia artificial|\bia\b|asistente|agente|modelo|robot|piensa|decide|entiende|aprend|parametros|que lee", ["M:robot", "placa", "engranajes"]),
+    (r"reloj|minuto|segundo|\bhoras?\b|dias|tiempo|diez minutos|velocidad|cada ocho|de noche", ["M:reloj", "reloj", "latido"]),
+    (r"router|wifi|modem|internet|conexion|conectad", ["M:router", "router", "cable"]),
+    (r"laptop|computador|ordenador|codigo|programa|virus|software|malware|gusano|comando", ["M:laptop", "codigo", "contagio"]),
+    (r"\bcaja|cajita|cajas|streaming|android|televisor|decodificador", ["M:cajas", "caja_tv", "caja_led"]),
+    (r"telefono|movil|celular|correo|mensaje|email", ["M:telefono", "movil"]),
+    (r"llave|cerradura|puerta|contrasena|agujero|entrar|acceso|candado", ["M:llave", "llave", "password"]),
+    (r"archivo|documento|informe|investig|laboratorio|publico|publicaron|estudio|ley\b|condena|juzg|experimento", ["M:papeles", "lupa"]),
     (r"televis|\btele\b|serie\b|pelicula|\bsala\b|salon|sofa|ver una|enciende|noche", ["R:hogar", "caja_tv", "tv_play"]),
     (r"\bcaja|cajita|cajas|streaming|android|decodificador", ["caja_tv", "caja_led", "R:hogar", "hdmi"]),
     (r"\bluz\b|lucecita|parpade|\bled\b|brill", ["caja_led", "R:hogar"]),
@@ -43,6 +51,10 @@ VISUAL = [
     (r"mando|control remoto|elegir", ["mando", "tv_play"]),
 ]
 INSERTO = [
+    ("mapapuntos", r"millones|planeta|mundo|paises|infectad|repartid|miles de"),
+    ("casa", r"\bcasa|hogar|salas?\b|televisor|aparatos|dispositivos|invitados|departamentos"),
+    ("puerta", r"puerta|entrar|entrada|cerradura|agujero|acceso|abrir|cruzo"),
+    ("grilla", r"quince|cajas|pedazos|trozos|fragment|cadena de montaje|decenas de miles|copias"),
     ("radar", r"buscar|busca|encontr|detect|vigil|explor|mira a su|entiende|averigu|descubr|investig|rastr"),
     ("globo2d", r"mundo|planeta|millones|paises|todo el|repartid|global|miles de"),
     ("roja", r"conexion|internet|casa|router|proxy|alquil|reven|red de invitados|puerta"),
@@ -60,6 +72,8 @@ def puntuar(texto):
         n = len(re.findall(rx, t))
         if n:
             for i, c in enumerate(cands): sc[c] = sc.get(c, 0.0) + n * (1 - 0.12 * i)
+    for c in list(sc):                                                               # preferir las escenas de mesa (macro) y las salas; los objetos sueltos en estudio, de relleno
+        sc[c] *= 1.7 if c.startswith("M:") else (1.0 if c.startswith("R:") else 0.5)
     return sc
 
 def inserto_para(texto):

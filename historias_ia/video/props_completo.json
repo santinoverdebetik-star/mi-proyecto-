@@ -14,7 +14,7 @@
    },
    "tema": "rojo",
    "dur": 8.44,
-   "trans": "pixel",
+   "trans": "corte",
    "est": 0
   },
   {
@@ -31,7 +31,7 @@
    },
    "tema": "azul",
    "dur": 8.28,
-   "trans": "cortina",
+   "trans": "fundido",
    "est": 0
   },
   {
@@ -109,42 +109,42 @@
     "router"
    ],
    "dur": 7.18,
-   "trans": "zoom",
-   "est": 2
+   "trans": "fundido",
+   "est": 0
   },
   {
    "tipo": "3d",
-   "objeto": "contagio",
+   "objeto": "gen:lab:k1",
    "luz": "media",
    "dur": 8.34,
-   "trans": "barras",
-   "est": 6,
-   "calidad": "alta"
-  },
-  {
-   "tipo": "3d",
-   "objeto": "manometro",
-   "luz": "media",
-   "dur": 8.36,
-   "trans": "rgb",
+   "trans": "corte",
    "est": 5,
    "calidad": "alta"
   },
   {
    "tipo": "3d",
-   "objeto": "lupa",
-   "luz": "clara",
-   "dur": 7.5,
-   "trans": "persianas",
-   "est": 3,
+   "objeto": "gen:mesa:k2:papeles",
+   "luz": "media",
+   "dur": 8.36,
+   "trans": "fundido",
+   "est": 1,
    "calidad": "alta"
   },
   {
    "tipo": "3d",
-   "objeto": "caja_tv",
+   "objeto": "gen:lab:k3",
    "luz": "clara",
-   "dur": 7.14,
+   "dur": 10.5,
    "trans": "pixel",
+   "est": 0,
+   "calidad": "alta"
+  },
+  {
+   "tipo": "3d",
+   "objeto": "gen:mesa:k4:cajas",
+   "luz": "clara",
+   "dur": 4.14,
+   "trans": "corte",
    "est": 3,
    "calidad": "alta"
   },
@@ -158,16 +158,16 @@
    "lado": "izq",
    "dur": 4.0,
    "fondo": "fotos/caja_tv_01.jpg",
-   "trans": "zoom",
-   "est": 1,
+   "trans": "fundido",
+   "est": 2,
    "lay": 3
   },
   {
    "tipo": "3d",
-   "objeto": "gen:ofi:k1",
+   "objeto": "gen:ofi:k5",
    "luz": "media",
    "dur": 6.3,
-   "trans": "cortina",
+   "trans": "rgb",
    "est": 2,
    "calidad": "alta"
   },
@@ -181,94 +181,76 @@
    "lado": "izq",
    "dur": 4.0,
    "fondo": "fondos_raw/oficina_casa_01.jpg",
-   "trans": "rgb",
-   "est": 0,
-   "lay": 0
+   "trans": "fundido",
+   "est": 2,
+   "lay": 4
   },
   {
    "tipo": "3d",
-   "objeto": "gen:mapa:k2",
+   "objeto": "gen:mapa:k6",
    "luz": "media",
    "dur": 5.62,
-   "trans": "barras",
-   "est": 5,
+   "trans": "corte",
+   "est": 2,
    "calidad": "alta"
   },
   {
-   "tipo": "globo2d",
-   "v": 1,
+   "tipo": "mapapuntos",
    "dur": 3.2,
-   "trans": "persianas",
-   "est": 1
+   "valor": "2,000,000+",
+   "etiqueta": "DISPOSITIVOS INFECTADOS",
+   "trans": "zoom",
+   "est": 2
   },
   {
    "tipo": "3d",
-   "objeto": "gen:hogar:k3",
+   "objeto": "gen:hogar:k7",
    "luz": "media",
    "dur": 13.2,
-   "trans": "pixel",
-   "est": 4,
-   "calidad": "alta"
-  },
-  {
-   "tipo": "3d",
-   "objeto": "gen:tienda:k4",
-   "luz": "media",
-   "dur": 10.52,
-   "trans": "cortina",
-   "est": 0,
-   "calidad": "alta"
-  },
-  {
-   "tipo": "3d",
-   "objeto": "tv_play",
-   "luz": "media",
-   "dur": 7.5,
-   "trans": "zoom",
+   "trans": "corte",
    "est": 2,
    "calidad": "alta"
   },
   {
    "tipo": "3d",
-   "objeto": "gen:hogar:k5",
+   "objeto": "gen:tienda:k8",
    "luz": "media",
-   "dur": 3.78,
-   "trans": "barras",
-   "est": 6,
+   "dur": 10.52,
+   "trans": "fundido",
+   "est": 0,
    "calidad": "alta"
   },
   {
-   "tipo": "radar",
-   "v": 2,
+   "tipo": "3d",
+   "objeto": "gen:hogar:k9",
+   "luz": "media",
+   "dur": 11.28,
+   "trans": "fundido",
+   "est": 0,
+   "calidad": "alta"
+  },
+  {
+   "tipo": "casa",
    "dur": 4.22,
-   "trans": "rgb",
+   "trans": "corte",
    "est": 5
   },
   {
    "tipo": "3d",
-   "objeto": "gen:fab:k6",
+   "objeto": "gen:mesa:k10:papeles",
    "luz": "media",
    "dur": 9.0,
-   "trans": "persianas",
-   "est": 3,
-   "calidad": "alta"
-  },
-  {
-   "tipo": "3d",
-   "objeto": "hdmi",
-   "luz": "media",
-   "dur": 7.16,
-   "trans": "pixel",
-   "est": 3,
-   "calidad": "alta"
-  },
-  {
-   "tipo": "3d",
-   "objeto": "gen:fab:k7",
-   "luz": "media",
-   "dur": 3.86,
-   "trans": "zoom",
+   "trans": "fundido",
    "est": 1,
+   "calidad": "alta"
+  },
+  {
+   "tipo": "3d",
+   "objeto": "gen:fab:k11",
+   "luz": "media",
+   "dur": 11.02,
+   "trans": "pixel",
+   "est": 0,
    "calidad": "alta"
   },
   {
@@ -285,45 +267,54 @@
    },
    "tema": "verde",
    "dur": 4.4,
-   "trans": "cortina",
-   "est": 2
+   "trans": "corte",
+   "est": 3
+  },
+  {
+   "tipo": "3d",
+   "objeto": "gen:mesa:k12:llave",
+   "luz": "media",
+   "dur": 8.24,
+   "trans": "fundido",
+   "est": 2,
+   "calidad": "alta"
+  },
+  {
+   "tipo": "3d",
+   "objeto": "gen:srv:k13",
+   "luz": "media",
+   "dur": 3.32,
+   "trans": "rgb",
+   "est": 2,
+   "calidad": "alta"
   },
   {
    "tipo": "foto",
-   "archivo": "fotos/caja_tv_03.jpg",
+   "archivo": "fondos_raw/pasillo_01.jpg",
    "luz": "media",
-   "v": 2,
-   "pos": "65% 50%",
-   "dur": 3.2,
-   "trans": "rgb",
-   "est": 0,
+   "v": 3,
+   "pos": "50% 40%",
+   "dur": 5.18,
+   "trans": "fundido",
+   "est": 2,
    "marco": 3
   },
   {
    "tipo": "3d",
-   "objeto": "llave",
+   "objeto": "gen:calle:k14",
    "luz": "media",
-   "dur": 8.36,
-   "trans": "barras",
-   "est": 5,
+   "dur": 10.5,
+   "trans": "corte",
+   "est": 2,
    "calidad": "alta"
   },
   {
    "tipo": "3d",
-   "objeto": "gen:srv:k8",
+   "objeto": "gen:mesa:k15:router",
    "luz": "media",
-   "dur": 12.36,
-   "trans": "persianas",
-   "est": 1,
-   "calidad": "alta"
-  },
-  {
-   "tipo": "3d",
-   "objeto": "gen:calle:k9",
-   "luz": "media",
-   "dur": 9.5,
-   "trans": "pixel",
-   "est": 4,
+   "dur": 6.18,
+   "trans": "zoom",
+   "est": 2,
    "calidad": "alta"
   },
   {
@@ -367,59 +358,59 @@
     "pc"
    ],
    "dur": 8.0,
-   "trans": "cortina",
-   "est": 0
-  },
-  {
-   "tipo": "roja",
-   "variante": "cadena",
-   "etiqueta": "TU CASA > INTERNET",
-   "v": 4,
-   "dur": 3.2,
-   "trans": "zoom",
-   "est": 3
+   "trans": "corte",
+   "est": 2
   },
   {
    "tipo": "3d",
-   "objeto": "puerta",
+   "objeto": "llave",
+   "luz": "media",
+   "dur": 8.26,
+   "trans": "fundido",
+   "est": 0,
+   "calidad": "alta"
+  },
+  {
+   "tipo": "3d",
+   "objeto": "gen:mesa:k16:llave",
+   "luz": "media",
+   "dur": 5.64,
+   "trans": "fundido",
+   "est": 0,
+   "calidad": "alta"
+  },
+  {
+   "tipo": "radar",
+   "v": 4,
+   "dur": 4.82,
+   "trans": "corte",
+   "est": 5
+  },
+  {
+   "tipo": "3d",
+   "objeto": "codigo",
    "luz": "media",
    "dur": 7.5,
-   "trans": "barras",
-   "est": 6,
+   "trans": "fundido",
+   "est": 1,
    "calidad": "alta"
-  },
-  {
-   "tipo": "3d",
-   "objeto": "radar",
-   "luz": "media",
-   "dur": 3.2,
-   "trans": "rgb",
-   "est": 5,
-   "calidad": "alta"
-  },
-  {
-   "tipo": "3d",
-   "objeto": "gen:hogar:k10",
-   "luz": "media",
-   "dur": 10.2,
-   "trans": "persianas",
-   "est": 3,
-   "calidad": "alta"
-  },
-  {
-   "tipo": "anillos",
-   "v": 5,
-   "dur": 5.36,
-   "trans": "pixel",
-   "est": 3
   },
   {
    "tipo": "3d",
    "objeto": "password",
    "luz": "media",
-   "dur": 9.92,
-   "trans": "zoom",
-   "est": 1,
+   "dur": 6.82,
+   "trans": "pixel",
+   "est": 0,
+   "calidad": "alta"
+  },
+  {
+   "tipo": "3d",
+   "objeto": "gen:mesa:k17:robot",
+   "luz": "media",
+   "dur": 6.34,
+   "trans": "corte",
+   "est": 3,
    "calidad": "alta"
   },
   {
@@ -431,27 +422,24 @@
    "resalta": 1,
    "lado": "izq",
    "dur": 4.0,
-   "fondo": "fotos/teclado_03.jpg",
-   "trans": "cortina",
+   "fondo": "fotos/laptop_01.jpg",
+   "trans": "fundido",
    "est": 2,
    "lay": 0
   },
   {
-   "tipo": "3d",
-   "objeto": "codigo",
-   "luz": "media",
-   "dur": 9.32,
+   "tipo": "puerta",
+   "dur": 2.88,
    "trans": "rgb",
-   "est": 0,
-   "calidad": "alta"
+   "est": 2
   },
   {
    "tipo": "3d",
-   "objeto": "placa",
+   "objeto": "gen:lab:k18",
    "luz": "media",
-   "dur": 3.46,
-   "trans": "barras",
-   "est": 5,
+   "dur": 9.9,
+   "trans": "fundido",
+   "est": 2,
    "calidad": "alta"
   },
   {
@@ -468,88 +456,77 @@
    },
    "tema": "morado",
    "dur": 4.4,
-   "trans": "persianas",
-   "est": 1
+   "trans": "corte",
+   "est": 2
   },
   {
    "tipo": "3d",
-   "objeto": "gen:tienda:k11",
+   "objeto": "placa",
    "luz": "media",
    "dur": 6.76,
-   "trans": "pixel",
-   "est": 4,
-   "calidad": "alta"
-  },
-  {
-   "tipo": "foto",
-   "archivo": "fondos_raw/almacen_03.jpg",
-   "luz": "media",
-   "v": 4,
-   "pos": "40% 60%",
-   "dur": 3.98,
-   "trans": "cortina",
-   "est": 0,
-   "marco": 0
-  },
-  {
-   "tipo": "3d",
-   "objeto": "gen:ofi:k12",
-   "luz": "media",
-   "dur": 9.48,
    "trans": "zoom",
    "est": 2,
    "calidad": "alta"
   },
   {
    "tipo": "3d",
-   "objeto": "paquetes",
+   "objeto": "gen:ofi:k19",
+   "luz": "media",
+   "dur": 8.62,
+   "trans": "corte",
+   "est": 2,
+   "calidad": "alta"
+  },
+  {
+   "tipo": "ondas",
+   "v": 6,
+   "dur": 4.84,
+   "trans": "fundido",
+   "est": 0
+  },
+  {
+   "tipo": "3d",
+   "objeto": "gen:mesa:k20:cajas",
    "luz": "media",
    "dur": 7.5,
-   "trans": "barras",
-   "est": 6,
+   "trans": "fundido",
+   "est": 0,
    "calidad": "alta"
   },
   {
    "tipo": "3d",
-   "objeto": "gen:fab:k13",
+   "objeto": "gen:fab:k21",
    "luz": "media",
    "dur": 4.94,
-   "trans": "rgb",
+   "trans": "corte",
    "est": 5,
    "calidad": "alta"
   },
   {
-   "tipo": "globo2d",
-   "v": 7,
-   "dur": 3.2,
-   "trans": "persianas",
-   "est": 3
-  },
-  {
    "tipo": "3d",
-   "objeto": "casas_red",
+   "objeto": "gen:fab:k22",
    "luz": "noche",
-   "dur": 7.58,
-   "trans": "pixel",
-   "est": 3,
-   "calidad": "alta"
-  },
-  {
-   "tipo": "3d",
-   "objeto": "gen:hogar:k14",
-   "luz": "noche",
-   "dur": 10.12,
-   "trans": "zoom",
+   "dur": 10.78,
+   "trans": "fundido",
    "est": 1,
    "calidad": "alta"
   },
   {
+   "tipo": "roja",
+   "variante": "cadena",
+   "etiqueta": "TU CASA > INTERNET",
+   "v": 7,
+   "dur": 3.88,
+   "trans": "pixel",
+   "est": 0
+  },
+  {
    "tipo": "3d",
-   "objeto": "gen:hogar:k15",
+   "objeto": "gen:hogar:k23",
    "luz": "noche",
-   "dur": 6.22,
-   "trans": "cortina",
-   "est": 2,
+   "dur": 12.46,
+   "trans": "corte",
+   "est": 3,
    "calidad": "alta"
   },
   {
@@ -561,25 +538,28 @@
    "resalta": 1,
    "lado": "izq",
    "dur": 4.0,
-   "fondo": "fondos_raw/laboratorio_02.jpg",
-   "trans": "rgb",
-   "est": 0,
-   "lay": 2
-  },
-  {
-   "tipo": "radar",
-   "v": 8,
-   "dur": 3.2,
-   "trans": "barras",
-   "est": 5
+   "fondo": "fondos_raw/pasillo_02.jpg",
+   "trans": "fundido",
+   "est": 2,
+   "lay": 1
   },
   {
    "tipo": "3d",
-   "objeto": "calendario",
+   "objeto": "gen:mesa:k24:robot",
    "luz": "media",
-   "dur": 8.0,
-   "trans": "persianas",
-   "est": 1,
+   "dur": 6.44,
+   "trans": "rgb",
+   "est": 2,
+   "calidad": "normal",
+   "rf": 2
+  },
+  {
+   "tipo": "3d",
+   "objeto": "gen:ofi:k25",
+   "luz": "media",
+   "dur": 4.76,
+   "trans": "fundido",
+   "est": 2,
    "calidad": "normal",
    "rf": 2
   },
@@ -591,28 +571,35 @@
    "resalta": 0,
    "lado": "izq",
    "dur": 7.02,
-   "fondo": "fotos/calendario_01.jpg",
-   "trans": "pixel",
-   "est": 4,
-   "lay": 0
+   "fondo": "fondos_raw/biblioteca_02.jpg",
+   "trans": "corte",
+   "est": 2,
+   "lay": 3
+  },
+  {
+   "tipo": "terminal",
+   "v": 8,
+   "dur": 3.2,
+   "trans": "zoom",
+   "est": 2
   },
   {
    "tipo": "3d",
-   "objeto": "gen:lab:k16",
+   "objeto": "gen:mesa:k26:router",
    "luz": "media",
-   "dur": 9.66,
-   "trans": "cortina",
-   "est": 0,
+   "dur": 6.46,
+   "trans": "corte",
+   "est": 2,
    "calidad": "normal",
    "rf": 2
   },
   {
    "tipo": "3d",
-   "objeto": "gen:lab:k17",
+   "objeto": "gen:lab:k27",
    "luz": "media",
    "dur": 6.32,
-   "trans": "zoom",
-   "est": 2,
+   "trans": "fundido",
+   "est": 0,
    "calidad": "normal",
    "rf": 2
   },
@@ -630,53 +617,42 @@
    },
    "tema": "amarillo",
    "dur": 4.4,
-   "trans": "barras",
-   "est": 6
-  },
-  {
-   "tipo": "terminal",
-   "v": 9,
-   "dur": 3.04,
-   "trans": "rgb",
-   "est": 5
+   "trans": "fundido",
+   "est": 0
   },
   {
    "tipo": "3d",
-   "objeto": "gen:lab:k18",
+   "objeto": "gen:lab:k28",
    "luz": "media",
-   "dur": 11.58,
-   "trans": "persianas",
-   "est": 3,
+   "dur": 14.62,
+   "trans": "corte",
+   "est": 5,
    "calidad": "normal",
    "rf": 2
   },
   {
+   "tipo": "mapapuntos",
+   "dur": 3.2,
+   "trans": "fundido",
+   "est": 1
+  },
+  {
    "tipo": "3d",
-   "objeto": "pantalla_rota",
+   "objeto": "router",
    "luz": "noche",
-   "dur": 6.18,
+   "dur": 7.26,
    "trans": "pixel",
+   "est": 0,
+   "calidad": "normal",
+   "rf": 2
+  },
+  {
+   "tipo": "3d",
+   "objeto": "gen:mesa:k29:papeles",
+   "luz": "noche",
+   "dur": 7.14,
+   "trans": "corte",
    "est": 3,
-   "calidad": "normal",
-   "rf": 2
-  },
-  {
-   "tipo": "3d",
-   "objeto": "cable",
-   "luz": "noche",
-   "dur": 7.5,
-   "trans": "zoom",
-   "est": 1,
-   "calidad": "normal",
-   "rf": 2
-  },
-  {
-   "tipo": "3d",
-   "objeto": "candado",
-   "luz": "noche",
-   "dur": 3.92,
-   "trans": "cortina",
-   "est": 2,
    "calidad": "normal",
    "rf": 2
   },
@@ -689,54 +665,58 @@
    "resalta": 1,
    "lado": "izq",
    "dur": 4.0,
-   "fondo": "fondos_raw/sala_06.jpg",
+   "fondo": "fotos/lupa_03.jpg",
+   "trans": "fundido",
+   "est": 2,
+   "lay": 2
+  },
+  {
+   "tipo": "3d",
+   "objeto": "gen:mesa:k30:reloj",
+   "luz": "media",
+   "dur": 7.5,
    "trans": "rgb",
-   "est": 0,
-   "lay": 0
+   "est": 2,
+   "calidad": "normal",
+   "rf": 2
   },
   {
-   "tipo": "anillos",
-   "v": 10,
-   "dur": 3.2,
-   "trans": "barras",
-   "est": 5
+   "tipo": "foto",
+   "archivo": "fondos_raw/sala_06.jpg",
+   "luz": "media",
+   "v": 6,
+   "pos": "50% 50%",
+   "dur": 3.24,
+   "trans": "fundido",
+   "est": 2,
+   "marco": 3
   },
   {
    "tipo": "3d",
-   "objeto": "gen:mapa:k19",
+   "objeto": "gen:mapa:k31",
    "luz": "media",
-   "dur": 10.5,
-   "trans": "persianas",
-   "est": 1,
+   "dur": 6.78,
+   "trans": "corte",
+   "est": 2,
    "calidad": "normal",
    "rf": 2
   },
   {
    "tipo": "3d",
-   "objeto": "reloj",
-   "luz": "media",
-   "dur": 3.82,
-   "trans": "pixel",
-   "est": 4,
-   "calidad": "normal",
-   "rf": 2
-  },
-  {
-   "tipo": "3d",
-   "objeto": "duplicacion",
+   "objeto": "gen:mesa:k32:laptop",
    "luz": "media",
    "dur": 6.54,
-   "trans": "cortina",
-   "est": 0,
+   "trans": "zoom",
+   "est": 2,
    "calidad": "normal",
    "rf": 2
   },
   {
    "tipo": "3d",
-   "objeto": "gen:ofi:k20",
+   "objeto": "gen:ofi:k33",
    "luz": "media",
    "dur": 8.76,
-   "trans": "zoom",
+   "trans": "corte",
    "est": 2,
    "calidad": "normal",
    "rf": 2
@@ -750,10 +730,10 @@
    "resalta": 1,
    "lado": "izq",
    "dur": 7.42,
-   "fondo": "fondos_raw/aula_01.jpg",
-   "trans": "barras",
-   "est": 6,
-   "lay": 3
+   "fondo": "fondos_raw/biblioteca_01.jpg",
+   "trans": "fundido",
+   "est": 0,
+   "lay": 0
   },
   {
    "tipo": "roja",
@@ -761,87 +741,82 @@
    "etiqueta": "TU CASA > INTERNET",
    "v": 11,
    "dur": 3.94,
-   "trans": "rgb",
-   "est": 5
+   "trans": "fundido",
+   "est": 3
   },
   {
    "tipo": "3d",
-   "objeto": "router",
+   "objeto": "gen:hogar:k34",
    "luz": "noche",
    "dur": 8.08,
-   "trans": "persianas",
-   "est": 3,
-   "calidad": "normal",
-   "rf": 2
-  },
-  {
-   "tipo": "3d",
-   "objeto": "gen:tienda:k21",
-   "luz": "noche",
-   "dur": 8.7,
-   "trans": "pixel",
-   "est": 3,
-   "calidad": "normal",
-   "rf": 2
-  },
-  {
-   "tipo": "3d",
-   "objeto": "camara",
-   "luz": "noche",
-   "dur": 9.76,
-   "trans": "zoom",
-   "est": 1,
-   "calidad": "normal",
-   "rf": 2
-  },
-  {
-   "tipo": "3d",
-   "objeto": "gen:hogar:k22",
-   "luz": "noche",
-   "dur": 5.14,
-   "trans": "cortina",
-   "est": 2,
-   "calidad": "normal",
-   "rf": 2
-  },
-  {
-   "tipo": "foto",
-   "archivo": "fotos/llave_01.jpg",
-   "luz": "media",
-   "v": 6,
-   "pos": "50% 50%",
-   "dur": 3.2,
-   "trans": "rgb",
-   "est": 0,
-   "marco": 3
-  },
-  {
-   "tipo": "3d",
-   "objeto": "engranajes",
-   "luz": "media",
-   "dur": 10.26,
-   "trans": "barras",
+   "trans": "corte",
    "est": 5,
    "calidad": "normal",
    "rf": 2
   },
   {
    "tipo": "3d",
-   "objeto": "gen:srv:k23",
+   "objeto": "gen:tienda:k35",
    "luz": "noche",
-   "dur": 10.96,
-   "trans": "persianas",
+   "dur": 8.7,
+   "trans": "fundido",
    "est": 1,
    "calidad": "normal",
    "rf": 2
   },
   {
    "tipo": "3d",
-   "objeto": "gen:srv:k24",
+   "objeto": "gen:ofi:k36",
+   "luz": "noche",
+   "dur": 9.76,
+   "trans": "pixel",
+   "est": 0,
+   "calidad": "normal",
+   "rf": 2
+  },
+  {
+   "tipo": "3d",
+   "objeto": "gen:mesa:k37:router",
+   "luz": "noche",
+   "dur": 5.14,
+   "trans": "corte",
+   "est": 3,
+   "calidad": "normal",
+   "rf": 2
+  },
+  {
+   "tipo": "puerta",
+   "dur": 3.2,
+   "trans": "fundido",
+   "est": 2
+  },
+  {
+   "tipo": "3d",
+   "objeto": "engranajes",
+   "luz": "media",
+   "dur": 10.26,
+   "trans": "rgb",
+   "est": 2,
+   "calidad": "normal",
+   "rf": 2
+  },
+  {
+   "tipo": "3d",
+   "objeto": "gen:srv:k38",
+   "luz": "noche",
+   "dur": 10.96,
+   "trans": "fundido",
+   "est": 2,
+   "calidad": "normal",
+   "rf": 2
+  },
+  {
+   "tipo": "3d",
+   "objeto": "gen:mesa:k39:reloj",
    "luz": "noche",
    "dur": 7.2,
-   "trans": "pixel",
-   "est": 4,
+   "trans": "corte",
+   "est": 2,
    "calidad": "normal",
    "rf": 2
   },
@@ -849,15 +824,15 @@
    "tipo": "terminal",
    "v": 13,
    "dur": 4.28,
-   "trans": "cortina",
-   "est": 0
+   "trans": "zoom",
+   "est": 2
   },
   {
    "tipo": "3d",
-   "objeto": "gen:mapa:k25",
+   "objeto": "gen:mapa:k40",
    "luz": "noche",
    "dur": 9.5,
-   "trans": "zoom",
+   "trans": "corte",
    "est": 2,
    "calidad": "normal",
    "rf": 2
@@ -871,28 +846,18 @@
    "resalta": 1,
    "lado": "izq",
    "dur": 4.0,
-   "fondo": "fotos/laptop_01.jpg",
-   "trans": "barras",
-   "est": 6,
+   "fondo": "fondos_raw/aula_03.jpg",
+   "trans": "fundido",
+   "est": 0,
    "lay": 1
   },
   {
    "tipo": "3d",
-   "objeto": "intrusion",
+   "objeto": "gen:lab:R41",
    "luz": "media",
-   "dur": 7.5,
-   "trans": "rgb",
-   "est": 5,
-   "calidad": "normal",
-   "rf": 2
-  },
-  {
-   "tipo": "3d",
-   "objeto": "gen:lab:k26",
-   "luz": "media",
-   "dur": 6.0,
-   "trans": "persianas",
-   "est": 3,
+   "dur": 13.5,
+   "trans": "fundido",
+   "est": 0,
    "calidad": "normal",
    "rf": 2
   },
@@ -971,23 +936,16 @@
     "router"
    ],
    "dur": 8.0,
-   "trans": "pixel",
-   "est": 3
-  },
-  {
-   "tipo": "barras",
-   "v": 14,
-   "dur": 4.9,
-   "trans": "zoom",
-   "est": 1
+   "trans": "corte",
+   "est": 5
   },
   {
    "tipo": "3d",
-   "objeto": "latido",
+   "objeto": "gen:mesa:k42:laptop",
    "luz": "media",
-   "dur": 5.22,
-   "trans": "cortina",
-   "est": 2,
+   "dur": 10.12,
+   "trans": "fundido",
+   "est": 1,
    "calidad": "normal",
    "rf": 2
   },
@@ -1000,45 +958,46 @@
    "resalta": 1,
    "lado": "izq",
    "dur": 4.0,
-   "fondo": "fondos_raw/aula_02.jpg",
-   "trans": "rgb",
-   "est": 0,
-   "lay": 0
-  },
-  {
-   "tipo": "3d",
-   "objeto": "gen:lab:k27",
-   "luz": "media",
-   "dur": 10.5,
-   "trans": "barras",
-   "est": 5,
-   "calidad": "normal",
-   "rf": 2
-  },
-  {
-   "tipo": "3d",
-   "objeto": "gen:mapa:k28",
-   "luz": "media",
-   "dur": 4.92,
-   "trans": "persianas",
-   "est": 1,
-   "calidad": "normal",
-   "rf": 2
-  },
-  {
-   "tipo": "globo2d",
-   "v": 15,
-   "dur": 3.2,
+   "fondo": "fondos_raw/oficina_casa_04.jpg",
    "trans": "pixel",
-   "est": 4
+   "est": 0,
+   "lay": 3
+  },
+  {
+   "tipo": "numero",
+   "valor": "2003",
+   "etiqueta": "EN ENERO DE 2003 APARECIÓ UN GUSANO LLAMADO",
+   "dur": 4.8,
+   "trans": "corte",
+   "est": 3
   },
   {
    "tipo": "3d",
-   "objeto": "gen:lab:k29",
+   "objeto": "gen:lab:k43",
+   "luz": "media",
+   "dur": 10.62,
+   "trans": "fundido",
+   "est": 2,
+   "calidad": "normal",
+   "rf": 2
+  },
+  {
+   "tipo": "3d",
+   "objeto": "gen:mesa:k44:reloj",
    "luz": "noche",
-   "dur": 11.36,
-   "trans": "cortina",
-   "est": 0,
+   "dur": 8.2,
+   "trans": "rgb",
+   "est": 2,
+   "calidad": "normal",
+   "rf": 2
+  },
+  {
+   "tipo": "3d",
+   "objeto": "gen:lab:k45",
+   "luz": "noche",
+   "dur": 6.36,
+   "trans": "fundido",
+   "est": 2,
    "calidad": "normal",
    "rf": 2
   },
@@ -1051,67 +1010,72 @@
    "resalta": 1,
    "lado": "izq",
    "dur": 4.0,
-   "fondo": "fondos_raw/habitacion_02.jpg",
-   "trans": "zoom",
+   "fondo": "fotos/teclado_02.jpg",
+   "trans": "corte",
    "est": 2,
-   "lay": 3
+   "lay": 1
+  },
+  {
+   "tipo": "ondas",
+   "v": 15,
+   "dur": 2.7,
+   "trans": "zoom",
+   "est": 2
   },
   {
    "tipo": "3d",
-   "objeto": "dominos",
+   "objeto": "contagio",
    "luz": "media",
-   "dur": 9.72,
-   "trans": "barras",
-   "est": 6,
+   "dur": 7.02,
+   "trans": "corte",
+   "est": 2,
    "calidad": "normal",
    "rf": 2
   },
   {
    "tipo": "3d",
-   "objeto": "gen:srv:k30",
+   "objeto": "gen:mesa:k46:robot",
    "luz": "media",
    "dur": 3.42,
-   "trans": "rgb",
-   "est": 5,
+   "trans": "fundido",
+   "est": 0,
    "calidad": "normal",
    "rf": 2
   },
   {
-   "tipo": "roja",
-   "variante": "cadena",
-   "etiqueta": "TU CASA > INTERNET",
+   "tipo": "3d",
+   "objeto": "gen:srv:k47",
+   "luz": "noche",
+   "dur": 9.22,
+   "trans": "fundido",
+   "est": 0,
+   "calidad": "normal",
+   "rf": 2
+  },
+  {
+   "tipo": "anillos",
    "v": 16,
-   "dur": 5.32,
-   "trans": "persianas",
-   "est": 0
+   "dur": 3.2,
+   "trans": "corte",
+   "est": 5
   },
   {
    "tipo": "3d",
-   "objeto": "pc_antiguo",
+   "objeto": "gen:mesa:k48:reloj",
    "luz": "noche",
-   "dur": 7.5,
-   "trans": "pixel",
-   "est": 3,
-   "calidad": "normal",
-   "rf": 2
-  },
-  {
-   "tipo": "3d",
-   "objeto": "caja_led",
-   "luz": "noche",
-   "dur": 8.58,
-   "trans": "zoom",
+   "dur": 8.98,
+   "trans": "fundido",
    "est": 1,
    "calidad": "normal",
    "rf": 2
   },
   {
    "tipo": "3d",
-   "objeto": "gen:ofi:k31",
+   "objeto": "gen:ofi:k49",
    "luz": "noche",
    "dur": 7.54,
-   "trans": "cortina",
-   "est": 2,
+   "trans": "pixel",
+   "est": 0,
    "calidad": "normal",
    "rf": 2
   },
@@ -1124,28 +1088,28 @@
    "resalta": 1,
    "lado": "izq",
    "dur": 4.0,
-   "fondo": "fotos/lupa_02.jpg",
-   "trans": "rgb",
-   "est": 0,
-   "lay": 2
-  },
-  {
-   "tipo": "dato",
-   "valor": "2024",
-   "etiqueta": "EN 2024, UN GRUPO DE INVESTIGADORES DE CORNELL",
-   "dur": 5.38,
-   "fondo": "fotos/lupa_03.jpg",
-   "trans": "barras",
-   "est": 5,
-   "lay": 2
+   "fondo": "fondos_raw/biblioteca_03.jpg",
+   "trans": "corte",
+   "est": 3,
+   "lay": 0
   },
   {
    "tipo": "3d",
-   "objeto": "escudo",
+   "objeto": "latido",
    "luz": "media",
-   "dur": 7.64,
-   "trans": "persianas",
-   "est": 1,
+   "dur": 9.06,
+   "trans": "fundido",
+   "est": 2,
+   "calidad": "normal",
+   "rf": 2
+  },
+  {
+   "tipo": "3d",
+   "objeto": "gen:lab:k50",
+   "luz": "media",
+   "dur": 3.96,
+   "trans": "rgb",
+   "est": 2,
    "calidad": "normal",
    "rf": 2
   },
@@ -1163,47 +1127,74 @@
    },
    "tema": "oscuro",
    "dur": 4.4,
-   "trans": "pixel",
-   "est": 4
+   "trans": "fundido",
+   "est": 2
+  },
+  {
+   "tipo": "terminal",
+   "v": 17,
+   "dur": 3.2,
+   "trans": "corte",
+   "est": 2
   },
   {
    "tipo": "3d",
-   "objeto": "movil",
+   "objeto": "gen:mesa:k51:robot",
    "luz": "media",
-   "dur": 9.58,
-   "trans": "cortina",
-   "est": 0,
-   "calidad": "normal",
-   "rf": 2
-  },
-  {
-   "tipo": "3d",
-   "objeto": "gen:ofi:k32",
-   "luz": "media",
-   "dur": 13.16,
+   "dur": 6.38,
    "trans": "zoom",
    "est": 2,
    "calidad": "normal",
    "rf": 2
   },
   {
-   "tipo": "foto",
-   "archivo": "fotos/camara_05.jpg",
-   "luz": "noche",
-   "v": 8,
-   "pos": "65% 50%",
-   "dur": 2.54,
-   "trans": "barras",
-   "est": 6,
-   "marco": 1
+   "tipo": "3d",
+   "objeto": "gen:mesa:k52:telefono",
+   "luz": "media",
+   "dur": 7.76,
+   "trans": "corte",
+   "est": 2,
+   "calidad": "normal",
+   "rf": 2
   },
   {
    "tipo": "3d",
-   "objeto": "gen:srv:k33",
+   "objeto": "gen:lab:k53",
+   "luz": "media",
+   "dur": 5.4,
+   "trans": "fundido",
+   "est": 0,
+   "calidad": "normal",
+   "rf": 2
+  },
+  {
+   "tipo": "foto",
+   "archivo": "fotos/movil_02.jpg",
    "luz": "noche",
-   "dur": 12.34,
-   "trans": "rgb",
+   "v": 11,
+   "pos": "60% 45%",
+   "dur": 2.54,
+   "trans": "fundido",
+   "est": 0,
+   "marco": 0
+  },
+  {
+   "tipo": "3d",
+   "objeto": "gen:mesa:k54:robot",
+   "luz": "noche",
+   "dur": 6.18,
+   "trans": "corte",
    "est": 5,
+   "calidad": "normal",
+   "rf": 2
+  },
+  {
+   "tipo": "3d",
+   "objeto": "lupa",
+   "luz": "noche",
+   "dur": 6.16,
+   "trans": "fundido",
+   "est": 1,
    "calidad": "normal",
    "rf": 2
   },
@@ -1216,17 +1207,17 @@
    "resalta": 1,
    "lado": "izq",
    "dur": 4.0,
-   "fondo": "fondos_raw/aula_03.jpg",
-   "trans": "persianas",
-   "est": 3,
-   "lay": 2
+   "fondo": "fondos_raw/aula_02.jpg",
+   "trans": "pixel",
+   "est": 0,
+   "lay": 0
   },
   {
    "tipo": "3d",
-   "objeto": "gen:ofi:k34",
+   "objeto": "gen:ofi:k55",
    "luz": "media",
    "dur": 8.62,
-   "trans": "pixel",
+   "trans": "corte",
    "est": 3,
    "calidad": "normal",
    "rf": 2
@@ -1240,70 +1231,42 @@
    "resalta": 1,
    "lado": "izq",
    "dur": 4.0,
-   "fondo": "fondos_raw/biblioteca_02.jpg",
-   "trans": "zoom",
-   "est": 1,
-   "lay": 3
+   "fondo": "fondos_raw/oficina_casa_06.jpg",
+   "trans": "fundido",
+   "est": 2,
+   "lay": 1
   },
   {
    "tipo": "3d",
-   "objeto": "globo",
+   "objeto": "gen:ofi:k56",
    "luz": "media",
    "dur": 4.74,
-   "trans": "cortina",
+   "trans": "rgb",
    "est": 2,
    "calidad": "normal",
    "rf": 2
   },
   {
-   "tipo": "radar",
-   "v": 19,
+   "tipo": "puerta",
    "dur": 3.2,
-   "trans": "rgb",
-   "est": 0
+   "trans": "fundido",
+   "est": 2
   },
   {
    "tipo": "3d",
-   "objeto": "antena",
+   "objeto": "gen:mesa:k57:papeles",
    "luz": "noche",
    "dur": 7.5,
-   "trans": "barras",
-   "est": 5,
+   "trans": "corte",
+   "est": 2,
    "calidad": "normal",
    "rf": 2
   },
   {
    "tipo": "3d",
-   "objeto": "gen:lab:R35",
+   "objeto": "gen:mesa:k58:robot",
    "luz": "noche",
    "dur": 6.24,
-   "trans": "persianas",
-   "est": 1,
-   "calidad": "normal",
-   "rf": 2
-  },
-  {
-   "tipo": "3d",
-   "objeto": "gen:lab:k36",
-   "luz": "noche",
-   "dur": 11.66,
-   "trans": "pixel",
-   "est": 4,
-   "calidad": "normal",
-   "rf": 2
-  },
-  {
-   "tipo": "globo2d",
-   "v": 20,
-   "dur": 4.48,
-   "trans": "cortina",
-   "est": 0
-  },
-  {
-   "tipo": "3d",
-   "objeto": "gen:srv:k37",
-   "luz": "noche",
-   "dur": 5.18,
    "trans": "zoom",
    "est": 2,
    "calidad": "normal",
@@ -1311,21 +1274,48 @@
   },
   {
    "tipo": "3d",
-   "objeto": "gen:lab:k38",
-   "luz": "media",
-   "dur": 10.5,
-   "trans": "barras",
-   "est": 6,
+   "objeto": "gen:lab:k59",
+   "luz": "noche",
+   "dur": 11.66,
+   "trans": "corte",
+   "est": 2,
+   "calidad": "normal",
+   "rf": 2
+  },
+  {
+   "tipo": "ondas",
+   "v": 20,
+   "dur": 4.48,
+   "trans": "fundido",
+   "est": 0
+  },
+  {
+   "tipo": "3d",
+   "objeto": "gen:srv:k60",
+   "luz": "noche",
+   "dur": 5.18,
+   "trans": "fundido",
+   "est": 0,
    "calidad": "normal",
    "rf": 2
   },
   {
    "tipo": "3d",
-   "objeto": "gen:ofi:k39",
+   "objeto": "gen:lab:k61",
+   "luz": "media",
+   "dur": 10.5,
+   "trans": "corte",
+   "est": 5,
+   "calidad": "normal",
+   "rf": 2
+  },
+  {
+   "tipo": "3d",
+   "objeto": "gen:mesa:k62:laptop",
    "luz": "media",
    "dur": 3.52,
-   "trans": "rgb",
-   "est": 5,
+   "trans": "fundido",
+   "est": 1,
    "calidad": "normal",
    "rf": 2
   },
@@ -1338,59 +1328,57 @@
    "resalta": 1,
    "lado": "izq",
    "dur": 4.0,
-   "fondo": "fotos/placa_04.jpg",
-   "trans": "persianas",
-   "est": 3,
-   "lay": 0
+   "fondo": "fotos/placa_06.jpg",
+   "trans": "pixel",
+   "est": 0,
+   "lay": 1
   },
   {
-   "tipo": "foto",
-   "archivo": "fondos_raw/biblioteca_01.jpg",
-   "luz": "media",
-   "v": 12,
-   "pos": "50% 50%",
+   "tipo": "roja",
+   "variante": "cadena",
+   "etiqueta": "TU CASA > INTERNET",
+   "v": 21,
    "dur": 3.2,
-   "trans": "pixel",
-   "est": 3,
-   "marco": 2
+   "trans": "corte",
+   "est": 1
   },
   {
    "tipo": "3d",
-   "objeto": "gen:srv:k40",
+   "objeto": "gen:srv:k63",
    "luz": "media",
    "dur": 10.5,
-   "trans": "zoom",
-   "est": 1,
-   "calidad": "normal",
-   "rf": 2
-  },
-  {
-   "tipo": "3d",
-   "objeto": "cajas15",
-   "luz": "media",
-   "dur": 5.82,
-   "trans": "cortina",
+   "trans": "fundido",
    "est": 2,
    "calidad": "normal",
    "rf": 2
   },
   {
    "tipo": "3d",
-   "objeto": "fabrica",
-   "luz": "noche",
-   "dur": 7.28,
+   "objeto": "pantalla_rota",
+   "luz": "media",
+   "dur": 5.82,
    "trans": "rgb",
-   "est": 0,
+   "est": 2,
    "calidad": "normal",
    "rf": 2
   },
   {
    "tipo": "3d",
-   "objeto": "gen:ofi:k41",
+   "objeto": "puerta",
+   "luz": "noche",
+   "dur": 7.28,
+   "trans": "fundido",
+   "est": 2,
+   "calidad": "normal",
+   "rf": 2
+  },
+  {
+   "tipo": "3d",
+   "objeto": "gen:mesa:k64:papeles",
    "luz": "noche",
    "dur": 3.6,
-   "trans": "barras",
-   "est": 5,
+   "trans": "corte",
+   "est": 2,
    "calidad": "normal",
    "rf": 2
   },
@@ -1403,71 +1391,70 @@
    "resalta": 1,
    "lado": "izq",
    "dur": 4.0,
-   "fondo": "fotos/lupa_01.jpg",
-   "trans": "persianas",
-   "est": 1,
-   "lay": 3
+   "fondo": "fotos/placa_02.jpg",
+   "trans": "zoom",
+   "est": 2,
+   "lay": 4
   },
   {
    "tipo": "3d",
-   "objeto": "gen:lab:k42",
+   "objeto": "gen:mesa:k65:robot",
    "luz": "media",
    "dur": 7.66,
-   "trans": "pixel",
-   "est": 4,
-   "calidad": "normal",
-   "rf": 2
-  },
-  {
-   "tipo": "ondas",
-   "v": 22,
-   "dur": 3.2,
-   "trans": "cortina",
-   "est": 0
-  },
-  {
-   "tipo": "3d",
-   "objeto": "gen:ofi:k43",
-   "luz": "noche",
-   "dur": 9.56,
-   "trans": "zoom",
+   "trans": "corte",
    "est": 2,
    "calidad": "normal",
    "rf": 2
   },
   {
+   "tipo": "casa",
+   "dur": 3.2,
+   "trans": "fundido",
+   "est": 0
+  },
+  {
    "tipo": "3d",
-   "objeto": "gen:srv:k44",
+   "objeto": "gen:lab:R66",
    "luz": "noche",
-   "dur": 9.52,
-   "trans": "barras",
-   "est": 6,
+   "dur": 9.56,
+   "trans": "fundido",
+   "est": 0,
    "calidad": "normal",
    "rf": 2
   },
   {
    "tipo": "3d",
-   "objeto": "gen:lab:k45",
-   "luz": "media",
-   "dur": 12.5,
-   "trans": "rgb",
+   "objeto": "gen:srv:k67",
+   "luz": "noche",
+   "dur": 9.52,
+   "trans": "corte",
    "est": 5,
    "calidad": "normal",
    "rf": 2
   },
   {
-   "tipo": "terminal",
+   "tipo": "3d",
+   "objeto": "gen:lab:k68",
+   "luz": "media",
+   "dur": 12.5,
+   "trans": "fundido",
+   "est": 1,
+   "calidad": "normal",
+   "rf": 2
+  },
+  {
+   "tipo": "radar",
    "v": 23,
    "dur": 3.74,
-   "trans": "persianas",
-   "est": 3
+   "trans": "pixel",
+   "est": 0
   },
   {
    "tipo": "3d",
-   "objeto": "dinero",
+   "objeto": "gen:mesa:k69:papeles",
    "luz": "media",
    "dur": 6.82,
-   "trans": "pixel",
+   "trans": "corte",
    "est": 3,
    "calidad": "normal",
    "rf": 2
@@ -1486,15 +1473,15 @@
    },
    "tema": "rojo",
    "dur": 4.4,
-   "trans": "zoom",
-   "est": 1
+   "trans": "fundido",
+   "est": 2
   },
   {
    "tipo": "3d",
-   "objeto": "gen:tienda:k46",
+   "objeto": "gen:tienda:k70",
    "luz": "media",
    "dur": 10.92,
-   "trans": "cortina",
+   "trans": "rgb",
    "est": 2,
    "calidad": "normal",
    "rf": 2
@@ -1508,18 +1495,18 @@
    "resalta": 1,
    "lado": "izq",
    "dur": 4.0,
-   "fondo": "fotos/placa_02.jpg",
-   "trans": "rgb",
-   "est": 0,
-   "lay": 0
+   "fondo": "fotos/placa_03.jpg",
+   "trans": "fundido",
+   "est": 2,
+   "lay": 4
   },
   {
    "tipo": "3d",
-   "objeto": "gen:srv:k47",
+   "objeto": "gen:srv:k71",
    "luz": "media",
    "dur": 8.44,
-   "trans": "barras",
-   "est": 5,
+   "trans": "corte",
+   "est": 2,
    "calidad": "normal",
    "rf": 2
   },
@@ -1598,57 +1585,57 @@
     "router"
    ],
    "dur": 8.0,
-   "trans": "persianas",
-   "est": 1
+   "trans": "zoom",
+   "est": 2
   },
   {
    "tipo": "3d",
-   "objeto": "estanteria",
+   "objeto": "reloj",
    "luz": "media",
    "dur": 7.4,
-   "trans": "pixel",
-   "est": 4,
-   "calidad": "normal",
-   "rf": 2
-  },
-  {
-   "tipo": "foto",
-   "archivo": "fondos_raw/habitacion_01.jpg",
-   "luz": "media",
-   "v": 13,
-   "pos": "35% 55%",
-   "dur": 3.66,
-   "trans": "cortina",
-   "est": 0,
-   "marco": 0
-  },
-  {
-   "tipo": "3d",
-   "objeto": "gen:fab:k48",
-   "luz": "media",
-   "dur": 9.68,
-   "trans": "zoom",
+   "trans": "corte",
    "est": 2,
    "calidad": "normal",
    "rf": 2
   },
   {
-   "tipo": "3d",
-   "objeto": "gen:mapa:k49",
+   "tipo": "foto",
+   "archivo": "fondos_raw/habitacion_03.jpg",
    "luz": "media",
-   "dur": 10.5,
-   "trans": "barras",
-   "est": 6,
+   "v": 15,
+   "pos": "50% 40%",
+   "dur": 3.66,
+   "trans": "fundido",
+   "est": 0,
+   "marco": 0
+  },
+  {
+   "tipo": "3d",
+   "objeto": "gen:mesa:k72:reloj",
+   "luz": "media",
+   "dur": 9.68,
+   "trans": "fundido",
+   "est": 0,
    "calidad": "normal",
    "rf": 2
   },
   {
    "tipo": "3d",
-   "objeto": "gen:srv:k50",
+   "objeto": "gen:mapa:k73",
+   "luz": "media",
+   "dur": 10.5,
+   "trans": "corte",
+   "est": 5,
+   "calidad": "normal",
+   "rf": 2
+  },
+  {
+   "tipo": "3d",
+   "objeto": "gen:srv:k74",
    "luz": "media",
    "dur": 11.34,
-   "trans": "rgb",
-   "est": 5,
+   "trans": "fundido",
+   "est": 1,
    "calidad": "normal",
    "rf": 2
   },
@@ -1661,115 +1648,108 @@
    "resalta": 1,
    "lado": "izq",
    "dur": 4.0,
-   "fondo": "fotos/teclado_02.jpg",
-   "trans": "persianas",
-   "est": 3,
-   "lay": 0
+   "fondo": "fondos_raw/sala_02.jpg",
+   "trans": "pixel",
+   "est": 0,
+   "lay": 3
   },
   {
    "tipo": "3d",
-   "objeto": "gen:lab:k51",
+   "objeto": "gen:lab:k75",
    "luz": "media",
    "dur": 6.2,
-   "trans": "pixel",
+   "trans": "corte",
    "est": 3,
    "calidad": "normal",
    "rf": 2
   },
   {
-   "tipo": "anillos",
+   "tipo": "terminal",
    "v": 25,
    "dur": 5.14,
-   "trans": "zoom",
-   "est": 1
+   "trans": "fundido",
+   "est": 2
   },
   {
    "tipo": "3d",
-   "objeto": "gen:lab:k52",
+   "objeto": "gen:mesa:k76:papeles",
    "luz": "noche",
    "dur": 6.18,
-   "trans": "cortina",
+   "trans": "rgb",
    "est": 2,
    "calidad": "normal",
    "rf": 2
   },
   {
    "tipo": "3d",
-   "objeto": "gen:hogar:k53",
+   "objeto": "gen:lab:k77",
    "luz": "media",
    "dur": 9.16,
-   "trans": "rgb",
-   "est": 0,
-   "calidad": "normal",
-   "rf": 2
-  },
-  {
-   "tipo": "3d",
-   "objeto": "gen:srv:k54",
-   "luz": "media",
-   "dur": 13.42,
-   "trans": "barras",
-   "est": 5,
-   "calidad": "normal",
-   "rf": 2
-  },
-  {
-   "tipo": "roja",
-   "variante": "cadena",
-   "etiqueta": "TU CASA > INTERNET",
-   "v": 26,
-   "dur": 3.32,
-   "trans": "persianas",
-   "est": 0
-  },
-  {
-   "tipo": "3d",
-   "objeto": "gen:lab:k55",
-   "luz": "media",
-   "dur": 7.58,
-   "trans": "pixel",
-   "est": 4,
-   "calidad": "normal",
-   "rf": 2
-  },
-  {
-   "tipo": "3d",
-   "objeto": "rack",
-   "luz": "media",
-   "dur": 7.86,
-   "trans": "cortina",
-   "est": 0,
-   "calidad": "normal",
-   "rf": 2
-  },
-  {
-   "tipo": "3d",
-   "objeto": "apagon",
-   "luz": "media",
-   "dur": 9.52,
-   "trans": "zoom",
+   "trans": "fundido",
    "est": 2,
    "calidad": "normal",
    "rf": 2
   },
   {
-   "tipo": "foto",
-   "archivo": "fotos/placa_06.jpg",
-   "luz": "noche",
-   "v": 14,
-   "pos": "65% 50%",
-   "dur": 3.2,
-   "trans": "barras",
-   "est": 6,
-   "marco": 1
+   "tipo": "3d",
+   "objeto": "gen:srv:k78",
+   "luz": "media",
+   "dur": 13.42,
+   "trans": "corte",
+   "est": 2,
+   "calidad": "normal",
+   "rf": 2
+  },
+  {
+   "tipo": "puerta",
+   "dur": 3.32,
+   "trans": "zoom",
+   "est": 2
   },
   {
    "tipo": "3d",
-   "objeto": "nube",
+   "objeto": "gen:mesa:k79:llave",
+   "luz": "media",
+   "dur": 7.58,
+   "trans": "corte",
+   "est": 2,
+   "calidad": "normal",
+   "rf": 2
+  },
+  {
+   "tipo": "3d",
+   "objeto": "gen:mesa:k80:laptop",
+   "luz": "media",
+   "dur": 7.86,
+   "trans": "fundido",
+   "est": 0,
+   "calidad": "normal",
+   "rf": 2
+  },
+  {
+   "tipo": "3d",
+   "objeto": "manometro",
+   "luz": "media",
+   "dur": 9.52,
+   "trans": "fundido",
+   "est": 0,
+   "calidad": "normal",
+   "rf": 2
+  },
+  {
+   "tipo": "ondas",
+   "v": 27,
+   "dur": 3.2,
+   "trans": "corte",
+   "est": 5
+  },
+  {
+   "tipo": "3d",
+   "objeto": "pc_antiguo",
    "luz": "noche",
    "dur": 9.88,
-   "trans": "rgb",
-   "est": 5,
+   "trans": "fundido",
+   "est": 1,
    "calidad": "normal",
    "rf": 2
   },
@@ -1787,90 +1767,94 @@
    },
    "tema": "azul",
    "dur": 4.4,
-   "trans": "persianas",
-   "est": 3
+   "trans": "pixel",
+   "est": 0
   },
   {
    "tipo": "3d",
-   "objeto": "gen:tienda:k56",
+   "objeto": "gen:mesa:k81:cajas",
    "luz": "media",
-   "dur": 12.86,
-   "trans": "pixel",
+   "dur": 7.42,
+   "trans": "corte",
    "est": 3,
    "calidad": "normal",
    "rf": 2
   },
   {
    "tipo": "3d",
-   "objeto": "gen:srv:k57",
+   "objeto": "gen:tienda:k82",
    "luz": "media",
-   "dur": 4.64,
-   "trans": "zoom",
-   "est": 1,
+   "dur": 10.08,
+   "trans": "fundido",
+   "est": 2,
    "calidad": "normal",
    "rf": 2
   },
   {
-   "tipo": "ondas",
-   "v": 28,
+   "tipo": "foto",
+   "archivo": "fotos/laptop_02.jpg",
+   "luz": "noche",
+   "v": 17,
+   "pos": "60% 45%",
    "dur": 3.98,
-   "trans": "cortina",
+   "trans": "rgb",
+   "est": 2,
+   "marco": 2
+  },
+  {
+   "tipo": "3d",
+   "objeto": "gen:lab:k83",
+   "luz": "noche",
+   "dur": 9.36,
+   "trans": "fundido",
+   "est": 2,
+   "calidad": "normal",
+   "rf": 2
+  },
+  {
+   "tipo": "3d",
+   "objeto": "gen:mesa:k84:laptop",
+   "luz": "noche",
+   "dur": 9.42,
+   "trans": "corte",
+   "est": 2,
+   "calidad": "normal",
+   "rf": 2
+  },
+  {
+   "tipo": "3d",
+   "objeto": "gen:mesa:k85:reloj",
+   "luz": "noche",
+   "dur": 8.04,
+   "trans": "zoom",
+   "est": 2,
+   "calidad": "normal",
+   "rf": 2
+  },
+  {
+   "tipo": "grilla",
+   "n": 12,
+   "dur": 4.38,
+   "trans": "corte",
    "est": 2
   },
   {
    "tipo": "3d",
-   "objeto": "gen:srv:k58",
-   "luz": "noche",
-   "dur": 9.36,
-   "trans": "rgb",
-   "est": 0,
-   "calidad": "normal",
-   "rf": 2
-  },
-  {
-   "tipo": "3d",
-   "objeto": "gen:lab:k59",
-   "luz": "noche",
-   "dur": 9.42,
-   "trans": "barras",
-   "est": 5,
-   "calidad": "normal",
-   "rf": 2
-  },
-  {
-   "tipo": "3d",
-   "objeto": "gen:tienda:k60",
-   "luz": "noche",
-   "dur": 8.04,
-   "trans": "persianas",
-   "est": 1,
-   "calidad": "normal",
-   "rf": 2
-  },
-  {
-   "tipo": "barras",
-   "v": 29,
-   "dur": 4.38,
-   "trans": "pixel",
-   "est": 4
-  },
-  {
-   "tipo": "3d",
-   "objeto": "sala",
+   "objeto": "duplicacion",
    "luz": "noche",
    "dur": 7.42,
-   "trans": "cortina",
+   "trans": "fundido",
    "est": 0,
    "calidad": "normal",
    "rf": 2
   },
   {
    "tipo": "3d",
-   "objeto": "avalancha",
+   "objeto": "estanteria",
    "luz": "noche",
    "dur": 7.44,
-   "trans": "zoom",
-   "est": 2,
+   "trans": "fundido",
+   "est": 0,
    "calidad": "normal",
    "rf": 2
   },
@@ -1883,28 +1867,28 @@
    "resalta": 1,
    "lado": "izq",
    "dur": 4.0,
-   "fondo": "fotos/disco_03.jpg",
-   "trans": "barras",
-   "est": 6,
-   "lay": 3
+   "fondo": "fondos_raw/aula_01.jpg",
+   "trans": "corte",
+   "est": 5,
+   "lay": 4
   },
   {
    "tipo": "3d",
-   "objeto": "gen:lab:k61",
+   "objeto": "gen:lab:k86",
    "luz": "media",
    "dur": 11.72,
-   "trans": "rgb",
-   "est": 5,
+   "trans": "fundido",
+   "est": 1,
    "calidad": "normal",
    "rf": 2
   },
   {
    "tipo": "3d",
-   "objeto": "gen:lab:k62",
+   "objeto": "gen:lab:k87",
    "luz": "media",
    "dur": 7.54,
-   "trans": "persianas",
-   "est": 3,
+   "trans": "pixel",
+   "est": 0,
    "calidad": "normal",
    "rf": 2
   },
@@ -1918,67 +1902,70 @@
    "lado": "izq",
    "dur": 5.8,
    "fondo": "fotos/tv_sala_03.jpg",
-   "trans": "pixel",
+   "trans": "corte",
    "est": 3,
    "lay": 1
   },
   {
-   "tipo": "foto",
-   "archivo": "fondos_raw/oficina_casa_06.jpg",
-   "luz": "clara",
-   "v": 15,
-   "pos": "50% 40%",
+   "tipo": "mapapuntos",
    "dur": 3.02,
-   "trans": "zoom",
-   "est": 1,
-   "marco": 2
+   "trans": "fundido",
+   "est": 2
   },
   {
    "tipo": "3d",
-   "objeto": "gen:mapa:k63",
+   "objeto": "gen:mesa:k88:cajas",
    "luz": "clara",
-   "dur": 11.2,
-   "trans": "cortina",
+   "dur": 7.5,
+   "trans": "rgb",
    "est": 2,
    "calidad": "normal",
    "rf": 2
   },
   {
    "tipo": "3d",
-   "objeto": "mando",
+   "objeto": "apagon",
+   "luz": "clara",
+   "dur": 3.7,
+   "trans": "fundido",
+   "est": 2,
+   "calidad": "normal",
+   "rf": 2
+  },
+  {
+   "tipo": "3d",
+   "objeto": "gen:mesa:k89:reloj",
    "luz": "media",
    "dur": 8.44,
-   "trans": "rgb",
-   "est": 0,
+   "trans": "corte",
+   "est": 2,
    "calidad": "normal",
    "rf": 2
   },
   {
    "tipo": "3d",
-   "objeto": "gen:lab:k64",
+   "objeto": "gen:mesa:k90:laptop",
    "luz": "media",
    "dur": 6.48,
-   "trans": "barras",
-   "est": 5,
+   "trans": "zoom",
+   "est": 2,
    "calidad": "normal",
    "rf": 2
   },
   {
-   "tipo": "roja",
-   "variante": "cadena",
-   "etiqueta": "TU CASA > INTERNET",
+   "tipo": "terminal",
    "v": 31,
    "dur": 5.1,
-   "trans": "persianas",
-   "est": 0
+   "trans": "corte",
+   "est": 2
   },
   {
    "tipo": "3d",
-   "objeto": "gen:mapa:k65",
+   "objeto": "gen:mapa:k91",
    "luz": "media",
    "dur": 10.34,
-   "trans": "pixel",
-   "est": 4,
+   "trans": "fundido",
+   "est": 0,
    "calidad": "normal",
    "rf": 2
   },
@@ -1991,74 +1978,95 @@
    "resalta": 1,
    "lado": "izq",
    "dur": 4.0,
-   "fondo": "fotos/disco_01.jpg",
-   "trans": "cortina",
+   "fondo": "fotos/lupa_01.jpg",
+   "trans": "fundido",
    "est": 0,
    "lay": 0
   },
   {
    "tipo": "3d",
-   "objeto": "gen:srv:k66",
+   "objeto": "gen:srv:k92",
    "luz": "media",
    "dur": 11.3,
-   "trans": "zoom",
+   "trans": "corte",
+   "est": 5,
+   "calidad": "normal",
+   "rf": 2
+  },
+  {
+   "tipo": "3d",
+   "objeto": "gen:ofi:k93",
+   "luz": "media",
+   "dur": 3.46,
+   "trans": "fundido",
+   "est": 1,
+   "calidad": "normal",
+   "rf": 2
+  },
+  {
+   "tipo": "foto",
+   "archivo": "fotos/disco_02.jpg",
+   "luz": "media",
+   "v": 19,
+   "pos": "35% 55%",
+   "dur": 2.4,
+   "trans": "pixel",
+   "est": 0,
+   "marco": 1
+  },
+  {
+   "tipo": "3d",
+   "objeto": "caja_led",
+   "luz": "media",
+   "dur": 6.9,
+   "trans": "corte",
+   "est": 3,
+   "calidad": "normal",
+   "rf": 2
+  },
+  {
+   "tipo": "3d",
+   "objeto": "gen:srv:k94",
+   "luz": "media",
+   "dur": 3.64,
+   "trans": "fundido",
    "est": 2,
    "calidad": "normal",
    "rf": 2
   },
   {
    "tipo": "3d",
-   "objeto": "gen:ofi:k67",
-   "luz": "media",
-   "dur": 3.46,
-   "trans": "barras",
-   "est": 6,
+   "objeto": "gen:calle:k95",
+   "luz": "clara",
+   "dur": 7.96,
+   "trans": "rgb",
+   "est": 2,
    "calidad": "normal",
    "rf": 2
   },
   {
    "tipo": "globo2d",
-   "v": 32,
-   "dur": 2.4,
-   "trans": "rgb",
-   "est": 5
+   "v": 33,
+   "dur": 3.2,
+   "trans": "fundido",
+   "est": 2
   },
   {
    "tipo": "3d",
-   "objeto": "gen:lab:k68",
+   "objeto": "casas_red",
    "luz": "media",
-   "dur": 10.54,
-   "trans": "persianas",
-   "est": 3,
+   "dur": 8.96,
+   "trans": "corte",
+   "est": 2,
    "calidad": "normal",
    "rf": 2
   },
   {
    "tipo": "3d",
-   "objeto": "gen:calle:k69",
-   "luz": "clara",
-   "dur": 7.96,
-   "trans": "pixel",
-   "est": 3,
-   "calidad": "normal",
-   "rf": 2
-  },
-  {
-   "tipo": "3d",
-   "objeto": "gen:calle:k70",
-   "luz": "media",
-   "dur": 12.16,
-   "trans": "zoom",
-   "est": 1,
-   "calidad": "normal",
-   "rf": 2
-  },
-  {
-   "tipo": "3d",
-   "objeto": "gen:lab:k71",
+   "objeto": "mando",
    "luz": "media",
    "dur": 3.74,
-   "trans": "cortina",
+   "trans": "zoom",
    "est": 2,
    "calidad": "normal",
    "rf": 2
@@ -2072,59 +2080,44 @@
    "resalta": 1,
    "lado": "izq",
    "dur": 4.0,
-   "fondo": "fondos_raw/fabrica_02.jpg",
-   "trans": "rgb",
-   "est": 0,
+   "fondo": "fondos_raw/fabrica_03.jpg",
+   "trans": "corte",
+   "est": 2,
    "lay": 0
   },
   {
-   "tipo": "foto",
-   "archivo": "fotos/tv_sala_01.jpg",
-   "luz": "media",
-   "v": 16,
-   "pos": "40% 60%",
-   "dur": 3.24,
-   "trans": "barras",
-   "est": 5,
-   "marco": 3
-  },
-  {
    "tipo": "3d",
-   "objeto": "gen:lab:R72",
+   "objeto": "gen:lab:k96",
    "luz": "media",
-   "dur": 8.28,
-   "trans": "persianas",
-   "est": 1,
-   "calidad": "normal",
-   "rf": 2
-  },
-  {
-   "tipo": "3d",
-   "objeto": "gen:lab:k73",
-   "luz": "media",
-   "dur": 9.22,
-   "trans": "pixel",
-   "est": 4,
-   "calidad": "normal",
-   "rf": 2
-  },
-  {
-   "tipo": "3d",
-   "objeto": "gen:calle:k74",
-   "luz": "media",
-   "dur": 8.72,
-   "trans": "cortina",
+   "dur": 11.52,
+   "trans": "fundido",
    "est": 0,
    "calidad": "normal",
    "rf": 2
   },
   {
+   "tipo": "mapapuntos",
+   "dur": 3.84,
+   "trans": "fundido",
+   "est": 0
+  },
+  {
    "tipo": "3d",
-   "objeto": "gen:lab:k75",
+   "objeto": "gen:lab:R97",
    "luz": "media",
-   "dur": 8.16,
-   "trans": "zoom",
-   "est": 2,
+   "dur": 10.94,
+   "trans": "corte",
+   "est": 5,
+   "calidad": "normal",
+   "rf": 2
+  },
+  {
+   "tipo": "3d",
+   "objeto": "gen:calle:k98",
+   "luz": "media",
+   "dur": 11.32,
+   "trans": "fundido",
+   "est": 1,
    "calidad": "normal",
    "rf": 2
   },
@@ -2137,148 +2130,152 @@
    "resalta": 1,
    "lado": "izq",
    "dur": 4.0,
-   "fondo": "fondos_raw/biblioteca_03.jpg",
-   "trans": "barras",
-   "est": 6,
-   "lay": 3
-  },
-  {
-   "tipo": "dato",
-   "valor": "2017",
-   "etiqueta": "EN 2017, EL RANSOMWARE WANNACRY PARALIZÓ",
-   "dur": 3.2,
-   "fondo": "fondos_raw/oficina_casa_04.jpg",
-   "trans": "rgb",
-   "est": 5,
+   "fondo": "fondos_raw/lobby_01.jpg",
+   "trans": "pixel",
+   "est": 0,
    "lay": 2
   },
   {
    "tipo": "3d",
-   "objeto": "gen:ofi:k76",
-   "luz": "media",
-   "dur": 12.86,
-   "trans": "persianas",
-   "est": 3,
-   "calidad": "normal",
-   "rf": 2
-  },
-  {
-   "tipo": "3d",
-   "objeto": "gen:srv:k77",
-   "luz": "media",
-   "dur": 12.4,
-   "trans": "pixel",
-   "est": 3,
-   "calidad": "normal",
-   "rf": 2
-  },
-  {
-   "tipo": "3d",
-   "objeto": "gen:ofi:k78",
+   "objeto": "gen:ofi:k99",
    "luz": "media",
    "dur": 10.5,
-   "trans": "zoom",
-   "est": 1,
+   "trans": "corte",
+   "est": 3,
    "calidad": "normal",
    "rf": 2
   },
   {
-   "tipo": "roja",
-   "variante": "cadena",
-   "etiqueta": "TU CASA > INTERNET",
+   "tipo": "terminal",
    "v": 35,
-   "dur": 3.2,
-   "trans": "cortina",
-   "est": 3
+   "dur": 5.56,
+   "trans": "fundido",
+   "est": 2
   },
   {
    "tipo": "3d",
-   "objeto": "gen:srv:k79",
+   "objeto": "gen:srv:k100",
    "luz": "media",
-   "dur": 9.9,
+   "dur": 12.4,
    "trans": "rgb",
-   "est": 0,
-   "calidad": "normal",
-   "rf": 2
-  },
-  {
-   "tipo": "3d",
-   "objeto": "gen:srv:k80",
-   "luz": "media",
-   "dur": 7.96,
-   "trans": "barras",
-   "est": 5,
-   "calidad": "normal",
-   "rf": 2
-  },
-  {
-   "tipo": "3d",
-   "objeto": "gen:lab:k81",
-   "luz": "media",
-   "dur": 8.6,
-   "trans": "persianas",
-   "est": 1,
-   "calidad": "normal",
-   "rf": 2
-  },
-  {
-   "tipo": "3d",
-   "objeto": "gen:calle:k82",
-   "luz": "media",
-   "dur": 7.34,
-   "trans": "pixel",
-   "est": 4,
-   "calidad": "normal",
-   "rf": 2
-  },
-  {
-   "tipo": "foto",
-   "archivo": "fotos/hdmi_02.jpg",
-   "luz": "clara",
-   "v": 18,
-   "pos": "50% 50%",
-   "dur": 2.88,
-   "trans": "cortina",
-   "est": 0,
-   "marco": 0
-  },
-  {
-   "tipo": "3d",
-   "objeto": "gen:hogar:k83",
-   "luz": "clara",
-   "dur": 10.94,
-   "trans": "zoom",
    "est": 2,
    "calidad": "normal",
    "rf": 2
   },
   {
    "tipo": "3d",
-   "objeto": "gen:hogar:k84",
-   "luz": "clara",
-   "dur": 10.18,
-   "trans": "barras",
-   "est": 6,
+   "objeto": "gen:mesa:k101:router",
+   "luz": "media",
+   "dur": 5.66,
+   "trans": "fundido",
+   "est": 2,
    "calidad": "normal",
    "rf": 2
   },
   {
    "tipo": "3d",
-   "objeto": "gen:tienda:k85",
-   "luz": "clara",
-   "dur": 6.4,
-   "trans": "rgb",
+   "objeto": "gen:mesa:k102:laptop",
+   "luz": "media",
+   "dur": 8.04,
+   "trans": "corte",
+   "est": 2,
+   "calidad": "normal",
+   "rf": 2
+  },
+  {
+   "tipo": "casa",
+   "dur": 4.72,
+   "trans": "zoom",
+   "est": 2
+  },
+  {
+   "tipo": "3d",
+   "objeto": "gen:mesa:k103:llave",
+   "luz": "media",
+   "dur": 7.5,
+   "trans": "corte",
+   "est": 2,
+   "calidad": "normal",
+   "rf": 2
+  },
+  {
+   "tipo": "3d",
+   "objeto": "gen:srv:k104",
+   "luz": "media",
+   "dur": 5.64,
+   "trans": "fundido",
+   "est": 0,
+   "calidad": "normal",
+   "rf": 2
+  },
+  {
+   "tipo": "3d",
+   "objeto": "gen:srv:k105",
+   "luz": "media",
+   "dur": 8.6,
+   "trans": "fundido",
+   "est": 0,
+   "calidad": "normal",
+   "rf": 2
+  },
+  {
+   "tipo": "3d",
+   "objeto": "gen:calle:k106",
+   "luz": "media",
+   "dur": 7.34,
+   "trans": "corte",
    "est": 5,
    "calidad": "normal",
    "rf": 2
   },
   {
+   "tipo": "foto",
+   "archivo": "fotos/router_02.jpg",
+   "luz": "clara",
+   "v": 21,
+   "pos": "50% 40%",
+   "dur": 2.88,
+   "trans": "fundido",
+   "est": 1,
+   "marco": 1
+  },
+  {
    "tipo": "3d",
-   "objeto": "gen:fab:k86",
+   "objeto": "gen:hogar:k107",
+   "luz": "clara",
+   "dur": 10.94,
+   "trans": "pixel",
+   "est": 0,
+   "calidad": "normal",
+   "rf": 2
+  },
+  {
+   "tipo": "3d",
+   "objeto": "gen:mesa:k108:cajas",
+   "luz": "clara",
+   "dur": 7.5,
+   "trans": "corte",
+   "est": 3,
+   "calidad": "normal",
+   "rf": 2
+  },
+  {
+   "tipo": "3d",
+   "objeto": "gen:tienda:k109",
+   "luz": "clara",
+   "dur": 9.08,
+   "trans": "fundido",
+   "est": 2,
+   "calidad": "normal",
+   "rf": 2
+  },
+  {
+   "tipo": "3d",
+   "objeto": "gen:mesa:k110:router",
    "luz": "clara",
    "dur": 8.06,
-   "trans": "persianas",
-   "est": 3,
+   "trans": "rgb",
+   "est": 2,
    "calidad": "normal",
    "rf": 2
   },
@@ -2296,33 +2293,33 @@
    },
    "tema": "verde",
    "dur": 4.4,
-   "trans": "pixel",
-   "est": 3
-  },
-  {
-   "tipo": "3d",
-   "objeto": "gen:tienda:k87",
-   "luz": "media",
-   "dur": 6.56,
-   "trans": "zoom",
-   "est": 1,
-   "calidad": "normal",
-   "rf": 2
-  },
-  {
-   "tipo": "radar",
-   "v": 37,
-   "dur": 3.2,
-   "trans": "cortina",
+   "trans": "fundido",
    "est": 2
   },
   {
    "tipo": "3d",
-   "objeto": "gen:hogar:k88",
+   "objeto": "gen:mesa:k111:cajas",
+   "luz": "media",
+   "dur": 6.56,
+   "trans": "corte",
+   "est": 2,
+   "calidad": "normal",
+   "rf": 2
+  },
+  {
+   "tipo": "grilla",
+   "n": 12,
+   "dur": 3.2,
+   "trans": "zoom",
+   "est": 2
+  },
+  {
+   "tipo": "3d",
+   "objeto": "gen:hogar:k112",
    "luz": "clara",
    "dur": 11.32,
-   "trans": "rgb",
-   "est": 0,
+   "trans": "corte",
+   "est": 2,
    "calidad": "normal",
    "rf": 2
   },
@@ -2401,26 +2398,26 @@
     "router"
    ],
    "dur": 8.0,
-   "trans": "barras",
-   "est": 5
+   "trans": "fundido",
+   "est": 0
   },
   {
    "tipo": "3d",
-   "objeto": "gen:lab:k89",
+   "objeto": "gen:lab:k113",
    "luz": "media",
    "dur": 9.3,
-   "trans": "persianas",
-   "est": 1,
+   "trans": "fundido",
+   "est": 0,
    "calidad": "normal",
    "rf": 2
   },
   {
    "tipo": "3d",
-   "objeto": "gen:ofi:k90",
+   "objeto": "gen:ofi:k114",
    "luz": "clara",
    "dur": 11.74,
-   "trans": "pixel",
-   "est": 4,
+   "trans": "corte",
+   "est": 5,
    "calidad": "normal",
    "rf": 2
   },
@@ -2433,55 +2430,55 @@
    "resalta": 1,
    "lado": "izq",
    "dur": 4.0,
-   "fondo": "fotos/hdmi_01.jpg",
-   "trans": "cortina",
-   "est": 0,
-   "lay": 2
+   "fondo": "fondos_raw/habitacion_02.jpg",
+   "trans": "fundido",
+   "est": 1,
+   "lay": 4
   },
   {
-   "tipo": "terminal",
-   "v": 38,
+   "tipo": "anillos",
+   "v": 39,
    "dur": 3.2,
-   "trans": "zoom",
-   "est": 2
+   "trans": "pixel",
+   "est": 0
   },
   {
    "tipo": "3d",
-   "objeto": "gen:ofi:k91",
+   "objeto": "gen:ofi:k115",
    "luz": "media",
    "dur": 10.4,
-   "trans": "barras",
-   "est": 6,
+   "trans": "corte",
+   "est": 3,
    "calidad": "normal",
    "rf": 2
   },
   {
    "tipo": "3d",
-   "objeto": "gen:lab:k92",
+   "objeto": "gen:hogar:k116",
    "luz": "noche",
    "dur": 9.38,
-   "trans": "rgb",
-   "est": 5,
+   "trans": "fundido",
+   "est": 2,
    "calidad": "normal",
    "rf": 2
   },
   {
    "tipo": "3d",
-   "objeto": "gen:mapa:k93",
+   "objeto": "gen:mapa:k117",
    "luz": "noche",
    "dur": 10.5,
-   "trans": "persianas",
-   "est": 3,
+   "trans": "rgb",
+   "est": 2,
    "calidad": "normal",
    "rf": 2
   },
   {
    "tipo": "3d",
-   "objeto": "gen:srv:k94",
+   "objeto": "gen:srv:k118",
    "luz": "noche",
    "dur": 7.76,
-   "trans": "pixel",
-   "est": 3,
+   "trans": "fundido",
+   "est": 2,
    "calidad": "normal",
    "rf": 2
   },
@@ -2494,78 +2491,86 @@
    "resalta": 1,
    "lado": "izq",
    "dur": 4.0,
-   "fondo": "fondos_raw/fabrica_03.jpg",
-   "trans": "zoom",
-   "est": 1,
-   "lay": 1
+   "fondo": "fondos_raw/laboratorio_02.jpg",
+   "trans": "corte",
+   "est": 2,
+   "lay": 2
   },
   {
    "tipo": "foto",
-   "archivo": "fondos_raw/pasillo_01.jpg",
+   "archivo": "fondos_raw/datacenter_03.jpg",
    "luz": "media",
-   "v": 20,
-   "pos": "65% 50%",
+   "v": 25,
+   "pos": "35% 55%",
    "dur": 3.2,
-   "trans": "cortina",
+   "trans": "zoom",
    "est": 2,
-   "marco": 2
+   "marco": 3
   },
   {
    "tipo": "3d",
-   "objeto": "gen:hogar:k95",
+   "objeto": "gen:mesa:k119:router",
    "luz": "media",
    "dur": 8.32,
-   "trans": "rgb",
+   "trans": "corte",
+   "est": 2,
+   "calidad": "normal",
+   "rf": 2
+  },
+  {
+   "tipo": "3d",
+   "objeto": "gen:lab:k120",
+   "luz": "noche",
+   "dur": 10.5,
+   "trans": "fundido",
    "est": 0,
    "calidad": "normal",
    "rf": 2
   },
   {
    "tipo": "3d",
-   "objeto": "gen:lab:k96",
+   "objeto": "gen:lab:k121",
    "luz": "noche",
    "dur": 10.5,
-   "trans": "barras",
-   "est": 5,
+   "trans": "fundido",
+   "est": 0,
    "calidad": "normal",
    "rf": 2
   },
   {
+   "tipo": "ondas",
+   "v": 41,
+   "dur": 3.68,
+   "trans": "corte",
+   "est": 5
+  },
+  {
    "tipo": "3d",
-   "objeto": "gen:lab:R97",
+   "objeto": "gen:mesa:k122:cajas",
    "luz": "noche",
-   "dur": 10.5,
-   "trans": "persianas",
+   "dur": 6.6,
+   "trans": "fundido",
    "est": 1,
    "calidad": "normal",
    "rf": 2
   },
   {
-   "tipo": "roja",
-   "variante": "ventana",
-   "etiqueta": null,
-   "v": 40,
-   "dur": 3.68,
-   "trans": "pixel",
-   "est": 1
-  },
-  {
    "tipo": "3d",
-   "objeto": "gen:hogar:k98",
+   "objeto": "dominos",
    "luz": "noche",
-   "dur": 6.6,
-   "trans": "cortina",
+   "dur": 6.46,
+   "trans": "pixel",
    "est": 0,
    "calidad": "normal",
    "rf": 2
   },
   {
    "tipo": "3d",
-   "objeto": "gen:ofi:k99",
+   "objeto": "gen:mapa:k123",
    "luz": "noche",
-   "dur": 11.14,
-   "trans": "zoom",
-   "est": 2,
+   "dur": 4.68,
+   "trans": "corte",
+   "est": 3,
    "calidad": "normal",
    "rf": 2
   },
@@ -2578,18 +2583,18 @@
    "resalta": 1,
    "lado": "izq",
    "dur": 4.0,
-   "fondo": "fondos_raw/sala_02.jpg",
-   "trans": "barras",
-   "est": 6,
+   "fondo": "fondos_raw/sala_05.jpg",
+   "trans": "fundido",
+   "est": 2,
    "lay": 1
   },
   {
    "tipo": "3d",
-   "objeto": "gen:hogar:k100",
+   "objeto": "gen:hogar:k124",
    "luz": "media",
    "dur": 8.968,
    "trans": "rgb",
-   "est": 5,
+   "est": 2,
    "calidad": "normal",
    "rf": 2
   }

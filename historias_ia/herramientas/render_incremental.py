@@ -10,13 +10,23 @@ env = dict(os.environ, CHROMIUM_PATH=os.environ.get("CHROMIUM_PATH", "/opt/pw-br
 BASE = ["src/Capas.tsx", "src/estilo.ts"]
 CODIGO = {"3d": ["src/escenas/Escena3D.tsx", "src/escenas/Objetos3D.tsx", "src/escenas/Objetos3D_b.tsx", "src/escenas/Realismo.tsx"], "foto": ["src/escenas/Foto.tsx"],
           "titular": ["src/escenas/Titular.tsx"], "diagrama": ["src/escenas/Diagrama.tsx"], "imagen": ["src/escenas/Imagen.tsx"]}
+GRADE = "grade-v1"
+GRADE_FILTRO = ("[0:v]format=gbrp,split=3[a][b][c];[b]curves=all='0/0 0.5/0 0.75/0.5 1/1',gblur=sigma=10[glow];[a][glow]blend=all_mode=screen:all_opacity=0.5[bl];[c]gblur=sigma=4[blur];"
+                "[1:v]format=gbrp[mask];[bl][blur][mask]maskedmerge,format=yuv420p,vignette=PI/5,eq=contrast=1.08:saturation=1.05:brightness=0.02:gamma=1.1[o]")
 def codigo(tipo):
-    h = hashlib.sha1()
+    h = hashlib.sha1(GRADE.encode())
     for f in BASE + CODIGO.get(tipo, ["src/escenas/Inserto.tsx"]) + glob.glob("public/fuentes/*"):
         if os.path.exists(f): h.update(open(f, "rb").read())
     return h.hexdigest()
 cod = {}
 d = json.load(open(props)); escenas = d["escenas"]; FPS = 30
+HASTA = float(sys.argv[4]) if len(sys.argv) > 4 else None                         # prueba parcial: solo las escenas que empiezan antes de HASTA segundos
+if HASTA:
+    acum, n_ok = 0.0, 0
+    for e in escenas:
+        if acum >= HASTA: break
+        acum += e["dur"]; n_ok += 1
+    escenas = escenas[:n_ok]; d = dict(d, escenas=escenas); props_dur = acum
 ini, f0 = [], 0
 for e in escenas: n = round(e["dur"] * FPS); ini.append((f0, n)); f0 += n
 def clave(e):
@@ -46,6 +56,10 @@ if faltan:
             subprocess.run(["ffmpeg", "-v", "error", "-y", "-i", destino + ".tmp.mp4", "-vf", "framerate=fps=30:interp_start=0:interp_end=255:scene=100,tpad=stop_mode=clone:stop=8",
                             "-frames:v", str(n), "-c:v", "libx264", "-crf", "22", "-pix_fmt", "yuv420p", destino + ".tmp2.mp4"], check=True)
             os.replace(destino + ".tmp2.mp4", destino + ".tmp.mp4")
+        if escenas[i]["tipo"] == "3d":                                    # etapa de postproduccion: resplandor (bloom), profundidad de campo tipo tilt-shift y vineta
+            subprocess.run(["ffmpeg", "-v", "error", "-y", "-i", destino + ".tmp.mp4", "-loop", "1", "-framerate", "30", "-i", "public/mascara_dof.png", "-filter_complex", GRADE_FILTRO,
+                            "-map", "[o]", "-frames:v", str(n), "-c:v", "libx264", "-crf", "22", "-pix_fmt", "yuv420p", destino + ".tmp3.mp4"], check=True)
+            os.replace(destino + ".tmp3.mp4", destino + ".tmp.mp4")
         os.replace(destino + ".tmp.mp4", destino); print(f"escena {i} ({escenas[i]['tipo']}) lista [{k + 1}/{len(faltan)}]", flush=True)
 lista = "out/lista_" + nombre + ".txt"
 open(lista, "w").write("".join(f"file 'cache/{clave(e)}.mp4'\n" for e in escenas))

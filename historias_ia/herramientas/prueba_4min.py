@@ -234,16 +234,16 @@ def alinear(audio, lineas):
 
 
 # ---------------------------------------------------------------- mezcla + props
-def mezclar(audio, inicios_escena, golpes, salida_mp3, segmentos=None, nivel_musica=0.05, bajar_desde=((166.0, 0.8),), escenas=None):
+def mezclar(audio, inicios_escena, golpes, salida_mp3, segmentos=None, nivel_musica=0.07, bajar_desde=(), escenas=None):
     """voz + MUSICA DE AVENTURA audible (se baja un poco mientras habla la voz, 'ducking') + glitch en cada corte + riser/golpe en titulares"""
-    import musica_aventura as mus
+    import musica_oscura as mus                                    # V13: ambiente oscuro continuo como la referencia 3 (sin melodia ni bateria)
     SR = am.SR
     voz = am.leer(audio); D = len(voz) / SR; v_rms = float(np.sqrt(np.mean(voz ** 2)) + 1e-9)
     m = mus.pista(D + 2, segmentos)[: len(voz)]; m *= v_rms * nivel_musica
     env = am.lp(np.abs(voz), int(0.12 * SR)); env = np.clip(env / (0.6 * env.max() + 1e-9), 0, 1)
     for t_b, g_b in bajar_desde:                                   # pedido del usuario: bajar un poco la musica desde 2:46 (rampa de 2 s)
         rampa = np.clip((np.arange(len(m)) / SR - t_b) / 2.0, 0, 1); m *= 1 - (1 - g_b) * rampa
-    m *= 1 - 0.40 * env                                           # ducking: -40 % mientras suena la voz, la musica "respira" en las pausas
+    m *= 1 - 0.55 * env                                           # ducking: -40 % mientras suena la voz, la musica "respira" en las pausas
     fx = np.zeros(len(voz))
     def poner(x, t, g):
         i = max(0, int(t * SR))
@@ -255,7 +255,9 @@ def mezclar(audio, inicios_escena, golpes, salida_mp3, segmentos=None, nivel_mus
         e = escenas[k] if escenas else {}; tr = e.get("trans", "pixel"); tp = e.get("tipo")
         if k:                                                          # sonido de la transicion (0,12 s antes del corte, que es donde empieza el efecto)
             t0 = max(0, t - 0.12)
-            if tr == "pixel": poner(G(sfx.blips((523, 659, 880, 1047), 0.04), 0.30), t0, 1); poner(G(sfx.whoosh(0.35, 700, 6000), 0.16), t0, 1)
+            if tr == "corte": pass
+            elif tr == "fundido": poner(G(sfx.whoosh(0.7, 120, 1200), 0.14), max(0, t - 0.45), 1)
+            elif tr == "pixel": poner(G(sfx.blips((523, 659, 880, 1047), 0.04), 0.30), t0, 1); poner(G(sfx.whoosh(0.35, 700, 6000), 0.16), t0, 1)
             elif tr in ("barras", "cortina"): poner(G(sfx.whoosh(0.5, 300, 4500), 0.30), t0, 1)
             elif tr == "persianas": poner(G(sfx.whoosh(0.4, 600, 5500), 0.22), t0, 1); poner(G(sfx.blips((330, 392, 330, 392), 0.035), 0.18), t0 + 0.05, 1)
             elif tr == "rgb": g_ = am.glitch(); poner(g_, t0, 0.22 * v_rms / np.sqrt(np.mean(g_ ** 2))); poner(G(sfx.whoosh(0.3, 800, 7000), 0.18), t0, 1)
@@ -319,11 +321,21 @@ def main():
         if fam_ not in GEN_FAM: return None
         GEN_N[0] += 1
         return f"gen:{fam_}:k{GEN_N[0]}"
+    usos_mesa = {}; ult_mesa = [None]
+    def mesa_siguiente(prop):
+        if usos_mesa.get(prop, 0) >= 11 or ult_mesa[0] == prop: return None                       # cada objeto protagonista, como mucho 7 veces (siempre con otra mesa, luz y camara)
+        usos_mesa[prop] = usos_mesa.get(prop, 0) + 1; GEN_N[0] += 1; ult_mesa[0] = prop
+        return f"gen:mesa:k{GEN_N[0]}:{prop}"
     def elegir_visual(texto, pref):
         """objeto 3D o plano de sala para el texto que suena: palabras clave -> candidatos; luego la etiqueta del bloque; luego lo menos usado"""
         sc = VIS.puntuar(texto)
         pref = [ALIAS.get(o, o) for o in pref if o not in PROHIBIDOS]
         for c, _ in sorted(sc.items(), key=lambda kv: -kv[1]):
+            if c.startswith("M:"):
+                if sum(1 for x in rec_fam[-6:] if x == "mesa") >= 3: continue
+                s = mesa_siguiente(c[2:])
+                if s: rec_fam.append("mesa"); return s
+                continue
             if c.startswith("R:"):
                 if c == "R:lab" and sum(usos.values()) - LAB3_USADO[0] * 0 > 6 and GEN_N[0] // 32 > LAB3_USADO[0]:
                     LAB3_USADO[0] += 1; GEN_N[0] += 1; return f"gen:lab:R{GEN_N[0]}"      # laboratorio donde la camara entra en el monitor rojo (transicion 3D -> 2D)
@@ -392,15 +404,24 @@ def main():
                 pref_k = VIS.inserto_para(tx)
                 if (ult or "").startswith("gen:lab:R"): kind = "roja"                               # la camara entra en el monitor rojo y la pantalla roja llena el cuadro (3D -> 2D)
                 elif fx.get(bloque[0]): kind = "foto"
-                elif dato and "dato" not in hist[-2:]: kind = "dato"
+                elif dato and "numero" not in hist[-2:] and "dato" not in hist[-2:]: kind = "numero" if nins[0] % 3 else "dato"
                 else:
                     ok = [k for k in pref_k if k not in hist[-3:]]
                     if ok: kind = ok[0]
                     else:
-                        rot = [k for k in ["roja", "radar", "globo2d", "ondas", "terminal", "foto", "barras", "anillos"] if k not in hist[-3:]]
-                        kind = "foto" if (nins[0] % 3 == 2 and "foto" not in hist[-2:]) else rot[nins[0] % len(rot)]
+                        rot = [k for k in ["casa", "mapapuntos", "radar", "terminal", "foto", "grilla", "anillos", "puerta", "ondas", "roja"] if k not in hist[-3:]]
+                        kind = "foto" if (nins[0] % 4 == 3 and "foto" not in hist[-2:]) else rot[nins[0] % len(rot)]
                 nins[0] += 1; hist.append(kind); v = nins[0]
-                if kind == "dato":
+                if kind == "numero":
+                    fr = re.split(r"(?<=[.!?])\s+", tx.strip()); fr = next((s for s in fr if dato.group(1) in s), fr[0])
+                    e = {"tipo": "numero", "valor": dato.group(1).replace(" ", ""), "etiqueta": (lambda s_: s_[:s_[:44].rfind(" ")] if len(s_) > 44 else s_)(re.sub(r"\s+", " ", fr)).rstrip(" ,;:").upper(), "dur": round(d, 3)}
+                elif kind == "mapapuntos":
+                    dm = "dos millones" in VIS.norm(tx) or "2 millones" in VIS.norm(tx)
+                    e = {"tipo": "mapapuntos", "dur": round(d, 3), **({"valor": "2,000,000+", "etiqueta": "DISPOSITIVOS INFECTADOS"} if dm else {})}
+                elif kind in ("casa", "puerta"): e = {"tipo": kind, "dur": round(d, 3)}
+                elif kind == "grilla":
+                    q = "quince" in VIS.norm(tx); e = {"tipo": "grilla", "n": 15 if q else 12, "dur": round(d, 3), **({"etiqueta": "QUINCE CAJAS"} if q else {})}
+                elif kind == "dato":
                     fr = re.split(r"(?<=[.!?])\s+", tx.strip()); fr = next((s for s in fr if dato.group(1) in s), fr[0])
                     e = {"tipo": "dato", "valor": dato.group(1).replace(" ", ""), "etiqueta": (lambda s_: s_[:s_[:52].rfind(" ")] if len(s_) > 52 else s_)(re.sub(r"\s+", " ", fr)).rstrip(" ,;:").upper(), "dur": round(d, 3), "fondo": foto_tema(tx, ult)}
                 elif kind == "roja": e = {"tipo": "roja", "variante": "ventana" if (ult or "").startswith("gen:lab:R") else "cadena", "etiqueta": None if (ult or "").startswith("gen:lab:R") else "TU CASA > INTERNET", "v": v, "dur": round(d, 3)}
@@ -410,7 +431,7 @@ def main():
                     e = {"tipo": "foto", "archivo": f, "luz": luz, "v": nfoto[0], "pos": POS[nfoto[0] % len(POS)], "dur": round(d, 3)}
                 escenas.append(e); inicios.append(x); x += d; K3[0] = 0; continue
             tx = texto_ini(x, x + 9)
-            o = elegir_visual(tx, pref); sala = o.startswith("gen:")
+            o = elegir_visual(tx, pref); sala = o.startswith("gen:") and not o.startswith("gen:mesa")
             obj = DUR_SALA if sala else DUR_3D
             fin = corte(x, obj, obj - 2.0, tb); d = fin - x
             e = {"tipo": "3d", "objeto": o, "luz": luz, "dur": round(d, 3)}
@@ -445,14 +466,14 @@ def main():
             if t_fin - t_med > 0.05:                               # el titular/diagrama no se queda quieto toda la frase: sigue un clip 3D variado
                 trozos(t_med, t_fin, base.get("_relleno", []), "media")
     escenas[0]["dur"] = round(escenas[0]["dur"] + inicios[0], 3); inicios[0] = 0.0       # cubre el silencio inicial
-    ciclo = ["pixel", "cortina", "zoom", "barras", "rgb", "persianas", "pixel", "zoom", "cortina", "rgb", "barras", "persianas"]
-    EST = [0, 2, 1, 4, 3, 5, 6, 2, 0, 3, 1, 5]                          # orden de temas (naranja, cian, rojo, magenta, verde, amarillo, b/n...): nunca dos seguidos iguales
+    ciclo = ["corte", "fundido", "fundido", "corte", "fundido", "pixel", "corte", "fundido", "rgb", "fundido", "corte", "zoom"]     # referencia 3: casi siempre corte o fundido por negro
+    EST = [2, 0, 2, 2, 0, 2, 5, 2, 0, 3, 2, 1]                          # teal/cian y ambar dominan; rojo/verde/magenta solo de vez en cuando
     TEMAS_C = ["rojo", "azul", "verde", "morado", "amarillo", "oscuro"]
     ncomp = 0
     for k_, e_ in enumerate(escenas):
         e_["trans"] = ciclo[k_ % len(ciclo)]
         e_["est"] = EST[(k_ * 5 + 3) % len(EST)] if k_ else 0
-        if e_["tipo"] == "titular": e_["lay"] = (k_ // 2) % 4
+        if e_["tipo"] == "titular": e_["lay"] = (k_ // 2) % 5
         if e_["tipo"] == "dato": e_["lay"] = (k_ // 2) % 3
         if e_["tipo"] == "foto": e_["marco"] = (k_ // 3) % 4
         if e_["tipo"] == "roja": e_["est"] = [1, 2, 3, 4, 5, 0][k_ % 6]

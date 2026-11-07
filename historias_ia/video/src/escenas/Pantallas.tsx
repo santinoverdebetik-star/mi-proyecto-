@@ -74,7 +74,11 @@ export const Transicion: React.FC<{ tipo?: string; est?: number; children: React
   const f = useCurrentFrame(); const { durationInFrames: D } = useVideoConfig();
   const tin = Math.min(1, f / ENT), tout = Math.min(1, (D - 1 - f) / SAL);          // 0 = tapado ... 1 = visible
   let cap: React.ReactNode = null; let estilo_: React.CSSProperties = {};
-  if (tipo === "pixel") {
+  if (tipo === "corte") { /* corte directo, como en la referencia */ }
+  else if (tipo === "fundido") {                                                        // fundido por negro (entrada 14 fotogramas, salida 12)
+    const o = Math.max(1 - f / 14, 1 - (D - 1 - f) / 12, 0);
+    cap = <AbsoluteFill style={{ background: "#000", opacity: Math.min(1, o) }} />;
+  } else if (tipo === "pixel") {
     const cols = 24, filas = 14, sw = 80, sh = 78;
     const celdas = [];
     for (let i = 0; i < cols * filas; i++) {

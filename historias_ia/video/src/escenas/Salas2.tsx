@@ -4,6 +4,7 @@ import * as THREE from "three";
 import { Caja, Cuarto, Escritorio, M, MonitorCRT, Panel, Plano, Planta, Silla, useLienzo, dibBarras, dibBlanca, dibCajones, dibCorcho, dibLetrero, dibPizarra, dibVerde, dibRoja } from "./Salas";
 import type { Cam, V3 } from "./Salas";
 import mapa from "../../public/mapa.json";
+import { MesaG, camMesa } from "./Mesa";
 
 /* SALAS GENERATIVAS: cada clip 3D es un ambiente NUEVO (paleta, distribucion, muebles, luces y camara distintos segun una semilla). Regla del usuario: nada de 3D repetido. */
 const rr = (s: string, k: string) => random(`${s}|${k}`);
@@ -220,12 +221,14 @@ const TiendaG: React.FC<{ s: string }> = ({ s }) => {
 const INFO: Record<string, (s: string) => Info> = { hogar: infoH, lab: infoL, srv: infoS, ofi: infoO, fab: infoF, mapa: infoM, calle: infoC, tienda: infoT };
 export const TIPOS_GEN = Object.keys(INFO);
 export const SalaGen: React.FC<{ id: string }> = ({ id }) => {
-  const [, tipo, s] = id.split(":");
+  const [, tipo, s, prop] = id.split(":");
+  if (tipo === "mesa") return <MesaG s={s} prop={prop} />;
   if (tipo === "hogar") return <HogarG s={s} />; if (tipo === "lab") return <LabG s={s} />; if (tipo === "srv") return <SrvG s={s} />; if (tipo === "ofi") return <OfiG s={s} />;
   if (tipo === "fab") return <FabG s={s} />; if (tipo === "mapa") return <MapaG s={s} />; if (tipo === "calle") return <CalleG s={s} />; return <TiendaG s={s} />;
 };
 export const camGen = (id: string): Cam => {
-  const [, tipo, s] = id.split(":");
+  const [, tipo, s, prop] = id.split(":");
+  if (tipo === "mesa") return camMesa(s, prop);
   if (tipo === "lab" && s.startsWith("R")) return { desde: [0.2, 1.4, -0.2], hasta: [2.4, 1.03, -3.7], mira: [2.4, 1.03, -4.0] };      // entra en el monitor rojo
   const info = INFO[tipo](s); const { x, y, z } = info.zona;
   const tg = info.targets[Math.floor(rr(s, "t") * info.targets.length) % info.targets.length]; const k = Math.floor(rr(s, "c") * 5);

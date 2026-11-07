@@ -18,3 +18,4 @@ export const FUENTE_TITULO = "AntonLocal";
 export const FUENTE_TEXTO = "InterLocal";
 export const FUENTE_PIXEL = "PixelLocal";
 export const FUENTE_TERMINAL = "VtLocal";
+export const FUENTE_DIN = "BarlowC";

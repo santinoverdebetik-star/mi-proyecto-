@@ -1,10 +1,12 @@
 import React from "react";
 import { AbsoluteFill, staticFile, useCurrentFrame, random } from "remotion";
-import { C, FUENTE_PIXEL, FUENTE_TERMINAL, FUENTE_TEXTO, FUENTE_TITULO } from "./estilo";
+import { C, FUENTE_DIN, FUENTE_PIXEL, FUENTE_TERMINAL, FUENTE_TEXTO, FUENTE_TITULO } from "./estilo";
 
 export const Fuentes: React.FC = () => (
   <style>{`
     @font-face { font-family: ${FUENTE_TITULO}; src: url(${staticFile("fuentes/anton-latin-400-normal.woff2")}) format("woff2"); }
+    @font-face { font-family: ${FUENTE_DIN}; font-weight: 500; src: url(${staticFile("fuentes/barlow-condensed-latin-500-normal.woff2")}) format("woff2"); }
+    @font-face { font-family: ${FUENTE_DIN}; font-weight: 600; src: url(${staticFile("fuentes/barlow-condensed-latin-600-normal.woff2")}) format("woff2"); }
     @font-face { font-family: ${FUENTE_PIXEL}; src: url(${staticFile("fuentes/press-start-2p-latin-400-normal.woff2")}) format("woff2"); }
     @font-face { font-family: ${FUENTE_TERMINAL}; src: url(${staticFile("fuentes/vt323-latin-400-normal.woff2")}) format("woff2"); }
     @font-face { font-family: ${FUENTE_TEXTO}; font-weight: 500; src: url(${staticFile("fuentes/inter-latin-500-normal.woff2")}) format("woff2"); }
