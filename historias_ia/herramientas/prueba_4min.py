@@ -17,6 +17,7 @@ import numpy as np
 AQUI = os.path.dirname(os.path.abspath(__file__))
 sys.path.insert(0, AQUI)
 import armar_muestra as am  # noqa: E402
+import visuales as VIS  # noqa: E402
 
 RAIZ = os.path.dirname(AQUI)
 API = "https://voizum.com/api/v1"
@@ -45,7 +46,7 @@ ALIAS = {"laptop": "contagio", "pantalla": "pantalla_rota", "ojo": "camara", "nu
 TODOS_3D = ["globo", "cable", "codigo", "sala", "estanteria", "avalancha", "casas_red", "fabrica", "candado", "apagon", "intrusion", "contagio", "caja_led",
             "caja_tv", "red", "manometro", "radar", "duplicacion", "rack", "cajas15", "puerta", "pantalla_rota", "router", "camara", "movil", "pc_antiguo", "reloj",
             "calendario", "placa", "llave", "dominos", "escudo", "dinero", "hdmi", "password", "engranajes", "latido", "paquetes", "antena", "lupa", "mando", "nube",
-            "tv_play", "hogar1", "hogar2", "hogar3", "lab1", "lab2", "lab3", "srv1", "srv2", "map1", "map2"]
+            "tv_play"]
 FAMILIA = {"candado_agujero": "candado"}          # candado y candado_agujero cuentan como el mismo clip
 MAX_USOS = 1                                      # REGLA DEL USUARIO (para todos los videos): ningun clip 3D se repite
 MAX_CLIP = 5.0                                    # pedido del usuario: clips 3D ~2 s mas cortos (antes 7 s)
@@ -73,7 +74,14 @@ FOTO_PREF = {
     "escudo": ["candado"], "duplicacion": ["disco", "usb"], "latido": ["semaforo"], "nube": ["datacenter"], "apagon": ["enchufe"], "ojo": ["camara"],
     "sala": ["tv_sala"], "dominos": ["engranajes"], "manometro": ["engranajes"], "puerta": ["candado"],
 }
-DUR_3D, DUR_FOTO = 5.0, 2.4                     # pedido V7: clips 3D 2 s mas largos; entre ellos se intercalan insertos variados (no solo fotos)
+DUR_3D, DUR_FOTO = 7.5, 3.2                     # pedido V11: los 3D duran MAS (salas ~9,5 s, objetos ~7 s); insertos cortos
+DUR_SALA = 10.5
+ORDEN = {"hogar": [1, 4, 2, 6, 3, 5, 7, 8, 9, 10], "lab": [1, 4, 2, 7, 5, 6, 8, 9, 10, 3], "srv": [1, 4, 2, 5, 3, 9, 6, 7, 8, 10], "map": [1, 3, 2, 4, 6, 5, 7, 8],
+         "ofi": [1, 2, 4, 3, 7, 5, 6, 8], "fab": [1, 3, 2, 4, 5, 6, 7, 8]}
+SALAS_TIROS = {f: [f"{f}{i}" for i in o] + ([f"{f}{i}m" for i in o] if f != "hogar" else []) for f, o in ORDEN.items()}
+SALA_IDS = {s for v in SALAS_TIROS.values() for s in v} | {"lab3"}
+SALAS_TIROS["lab"] = [x for x in SALAS_TIROS["lab"] if x != "lab3"]            # lab3 (entra en el monitor rojo) se reserva para la transicion 3D -> 2D
+LAB3_USADO = [False]                     # pedido V7: clips 3D 2 s mas largos; entre ellos se intercalan insertos variados (no solo fotos)
 # inserto que sigue a cada clip 3D: grafico Remotion afin al objeto que se acaba de ver (pedido V8: poco texto; las fotos reales, solo de vez en cuando)
 INS_OBJ = {"radar": ["radar", "antena", "camara", "lupa"], "globo2d": ["globo", "casas_red", "nube", "red", "paquetes", "dinero", "calendario"],
            "cuadricula": ["dominos", "contagio", "intrusion", "duplicacion", "cajas15", "estanteria", "pc_antiguo", "pantalla_rota"],
@@ -294,20 +302,45 @@ def main():
         if not key or not a.voz_id: sys.exit("Faltan VOIZUM_API_KEY y --voz-id (usa --listar-voces para encontrar a Martin)")
         voz_voizum(texto, a.voz_id, audio, key, a.velocidad, a.pausa)
         if a.solo_voz: print("voz lista:", audio); return
-    ini_lin, dur = alinear(audio, lineas)
+    cache_al = os.path.join(pub, "alineacion.json")
+    if os.path.exists(cache_al):
+        d_al = json.load(open(cache_al))
+        if len(d_al["ini"]) == len(lineas): ini_lin, dur = d_al["ini"], d_al["dur"]
+        else: ini_lin, dur = alinear(audio, lineas); json.dump({"ini": ini_lin, "dur": dur}, open(cache_al, "w"))
+    else:
+        ini_lin, dur = alinear(audio, lineas); json.dump({"ini": ini_lin, "dur": dur}, open(cache_al, "w"))
     # bloque -> escena (inicio = primera linea del bloque); bloques largos se parten en tramos de <= 9,5 s con la camara invertida
     escenas, inicios, golpes, k = [], [], [], 0
     usos = {}; prev = [None]
     fam = lambda o: FAMILIA.get(o, o)
-    def elegir(pref):
-        """objeto 3D del siguiente clip: el preferido si no llego al tope; si no, el menos usado distinto del anterior"""
-        pref = [o for o in dict.fromkeys(pref) if o not in PROHIBIDOS]
+    sala_usada = {}                                              # familia de sala -> n planos usados
+    def sala_siguiente(fam_):
+        for s in SALAS_TIROS.get(fam_, []):
+            if usos.get(s, 0) == 0: return s
+        return None
+    def elegir_visual(texto, pref):
+        """objeto 3D o plano de sala para el texto que suena: palabras clave -> candidatos; luego la etiqueta del bloque; luego lo menos usado"""
+        sc = VIS.puntuar(texto)
+        pref = [ALIAS.get(o, o) for o in pref if o not in PROHIBIDOS]
+        for c, _ in sorted(sc.items(), key=lambda kv: -kv[1]):
+            if c.startswith("R:"):
+                if c == "R:lab" and not LAB3_USADO[0] and sum(usos.values()) > 6:
+                    LAB3_USADO[0] = True; return "lab3"                     # primera vez en el laboratorio: la camara entra en el monitor rojo
+                s = sala_siguiente(c[2:])
+                if s: return s
+                continue
+            if c in PROHIBIDOS: continue
+            if usos.get(fam(c), 0) < MAX_USOS and fam(c) != fam(prev[0] or "") and c in TODOS_3D: return c
         for o in pref:
-            if usos.get(fam(o), 0) < MAX_USOS and fam(o) != fam(prev[0] or ""): return o
-        cand = [o for o in TODOS_3D if fam(o) != fam(prev[0] or "")]
-        cand.sort(key=lambda o: (usos.get(fam(o), 0), TODOS_3D.index(o)))
-        return cand[0]
-    nins = [0]; hist = []
+            if (o in TODOS_3D or o in SALA_IDS) and usos.get(fam(o), 0) < MAX_USOS and fam(o) != fam(prev[0] or ""): return o
+        libres = [o for o in TODOS_3D if usos.get(fam(o), 0) == 0 and fam(o) != fam(prev[0] or "")]
+        if libres: return libres[(sum(usos.values()) * 3) % len(libres)]
+        for f_ in ("lab", "srv", "fab", "ofi", "map", "hogar"):
+            s = sala_siguiente(f_)
+            if s: return s
+        print("AVISO: no quedan clips 3D sin usar; se repite uno")
+        return min(TODOS_3D, key=lambda o: usos.get(fam(o), 0))
+    nins = [0]; hist = []; K3 = [0]
     def texto_en(t0, t1):
         """texto de la narracion que suena entre t0 y t1 (para frases y cifras en pantalla)"""
         out = []
@@ -334,51 +367,75 @@ def main():
                 usos_f[f] = 1; return f
         if pool: print("AVISO: se repite una foto (faltan fotos en el pool)")
         f = min(pool, key=lambda k: usos_f.get(k, 0)); usos_f[f] = usos_f.get(f, 0) + 1; return f
+    def texto_ini(t0, t1):
+        """lineas que EMPIEZAN entre t0 y t1 (lo que se dice mientras dura el clip)"""
+        out = [l for i, l in enumerate(lineas) if t0 - 0.3 <= ini_lin[i] < t1]
+        return " ".join(out) or texto_en(t0, t0 + 1)
+    def corte(x, objetivo, minimo, tb):
+        """fin del clip: el limite de linea mas cercano a x+objetivo (la imagen cambia cuando cambia la frase), sin migajas al final"""
+        cand = [ini_lin[i] for i in range(len(lineas)) if x + minimo <= ini_lin[i] <= x + objetivo + 2.5]
+        fin = min(cand, key=lambda c: abs(c - (x + objetivo))) if cand else x + objetivo
+        if tb - fin < 3.2: fin = tb
+        return min(fin, tb)
     def trozos(ta, tb, pref, luz):
-        """el tramo se parte en clips cortos que se alternan: 3D (~3 s) / FOTO real (~2,2 s) del mismo tema"""
-        total = tb - ta; piezas = []; x = 0.0; i = 0
-        while x < total - 0.01:
-            d = DUR_3D if i % 2 == 0 else DUR_FOTO
-            if total - x - d < 1.3: d = total - x                          # sin migajas al final
-            piezas.append(("3d" if i % 2 == 0 else "foto", d)); x += d; i += 1
-        if len(piezas) > 1 and piezas[-1][0] == "foto" and piezas[-1][1] < 1.0: piezas[-2] = (piezas[-2][0], piezas[-2][1] + piezas[-1][1]); piezas.pop()
-        esc = total / sum(d for _, d in piezas); x = ta; j = 0; ult = None
-        for tipo, d in piezas:
-            d *= esc
-            if tipo == "3d":
-                o = elegir(pref[j % len(pref):] + pref[:j % len(pref)] if pref else [])
-                e = {"tipo": "3d", "objeto": o, "luz": luz, "dur": round(d, 3)}
-                if usos.get(fam(o), 0) >= MAX_USOS: print("AVISO: se repite el clip", o, "(la biblioteca 3D no alcanza: crear mas objetos)")
-                usos[fam(o)] = usos.get(fam(o), 0) + 1; prev[0] = o; ult = o; j += 1
-            else:
-                tx = texto_en(x, x + d)
+        x = ta
+        while tb - x > 0.35:
+            rest = tb - x
+            if K3[0] >= 3 and rest > 9:                                       # cada dos clips 3D, un inserto corto (pantalla roja, radar, globo, terminal, foto...)
+                fin = corte(x, DUR_FOTO, 2.2, tb); d = fin - x
+                tx = texto_ini(x, fin); ult = prev[0]
                 dato = re.search(r"(\$\s?\d[\d.,]*|\d[\d.,]*\s?%|\b(?:19|20)\d\d\b)", tx)
-                cands = [k for k, l in INS_OBJ.items() if ult in l and k not in hist[-2:]] or [k for k in ROTA if k not in hist[-3:]]
-                kind = cands[nins[0] % len(cands)]
-                if nins[0] % 4 == 2: kind = "foto"
-                if ult == "lab3": kind = "roja"                              # la camara entra en el monitor rojo y la pantalla roja llena el cuadro (transicion 3D -> 2D)
-                if fx.get(bloque[0]): kind = "foto"                           # las imagenes de ImageFX tienen prioridad
+                pref_k = VIS.inserto_para(tx)
+                if ult == "lab3": kind = "roja"                               # la camara entra en el monitor rojo y la pantalla roja llena el cuadro (3D -> 2D)
+                elif fx.get(bloque[0]): kind = "foto"
                 elif dato and "dato" not in hist[-2:]: kind = "dato"
+                else:
+                    ok = [k for k in pref_k if k not in hist[-3:]]
+                    if ok: kind = ok[0]
+                    else:
+                        rot = [k for k in ["roja", "radar", "globo2d", "flujo", "terminal", "foto", "barras"] if k not in hist[-3:]]
+                        kind = "foto" if (nins[0] % 3 == 2 and "foto" not in hist[-2:]) else rot[nins[0] % len(rot)]
                 nins[0] += 1; hist.append(kind); v = nins[0]
                 if kind == "dato":
                     fr = re.split(r"(?<=[.!?])\s+", tx.strip()); fr = next((s for s in fr if dato.group(1) in s), fr[0])
-                    e = {"tipo": "dato", "valor": dato.group(1).replace(" ", ""), "etiqueta": re.sub(r"\s+", " ", fr)[:70].rstrip(" ,;:") .upper(), "dur": round(d, 3)}
+                    e = {"tipo": "dato", "valor": dato.group(1).replace(" ", ""), "etiqueta": re.sub(r"\s+", " ", fr)[:60].rstrip(" ,;:").upper(), "dur": round(d, 3), "fondo": foto_tema(tx, ult)}
                 elif kind == "roja": e = {"tipo": "roja", "variante": "ventana" if ult == "lab3" else "cadena", "etiqueta": None if ult == "lab3" else "TU CASA → INTERNET", "v": v, "dur": round(d, 3)}
-                elif kind == "terminal": e = {"tipo": "terminal", "v": v, "dur": round(d, 3)}
-                elif kind in ("flujo", "radar", "cuadricula", "barras", "globo2d", "lluvia"): e = {"tipo": kind, "v": v, "dur": round(d, 3)}
+                elif kind in ("terminal", "flujo", "radar", "barras", "globo2d"): e = {"tipo": kind, "v": v, "dur": round(d, 3)}
                 else:
-                    f = fx[bloque[0]].pop(0) if fx.get(bloque[0]) else elegir_foto(ult or "sala"); nfoto[0] += 1
+                    f = fx[bloque[0]].pop(0) if fx.get(bloque[0]) else foto_tema(tx, ult); nfoto[0] += 1
                     e = {"tipo": "foto", "archivo": f, "luz": luz, "v": nfoto[0], "pos": POS[nfoto[0] % len(POS)], "dur": round(d, 3)}
+                escenas.append(e); inicios.append(x); x += d; K3[0] = 0; continue
+            tx = texto_ini(x, x + 9)
+            o = elegir_visual(tx, pref); sala = o in SALA_IDS
+            obj = DUR_SALA if sala else DUR_3D
+            fin = corte(x, obj, obj - 2.0, tb); d = fin - x
+            e = {"tipo": "3d", "objeto": o, "luz": luz, "dur": round(d, 3)}
+            if usos.get(fam(o), 0) >= MAX_USOS: print("AVISO: se repite el clip", o)
+            usos[fam(o)] = usos.get(fam(o), 0) + 1; prev[0] = o; K3[0] += 1
             escenas.append(e); inicios.append(x); x += d
+    def foto_tema(tx, ult):
+        """foto real para titulares/cifras/insertos segun lo que se dice: el objeto/sala mas puntuado del texto"""
+        sc = VIS.puntuar(tx)
+        for c, _ in sorted(sc.items(), key=lambda kv: -kv[1]):
+            if c.startswith("R:"): return elegir_foto_cats(VIS.FOTO_SALA.get(c[2:], ["sala"]))
+            if c in FOTO_PREF or c in OBJ_CATS: return elegir_foto(c)
+        return elegir_foto(ult or "sala")
+    def elegir_foto_cats(cats):
+        for grupo in (cats, None):
+            cand = [f for f, c in pool.items() if (grupo is None or c in grupo) and usos_f.get(f, 0) == 0]
+            if cand:
+                f = cand[(nfoto[0] * 7) % len(cand)]; usos_f[f] = 1; nfoto[0] += 1; return f
+        f = min(pool, key=lambda k: usos_f.get(k, 0)); usos_f[f] = usos_f.get(f, 0) + 1; return f
     for bi, (tag, ls) in enumerate(bloques):
         t_ini = ini_lin[k]; t_fin = ini_lin[k + len(ls)] if k + len(ls) < len(lineas) else dur; k += len(ls)
         base = escena_de(tag); tipo = base["tipo"]; bloque[0] = bi + 1
         if tipo == "3d":
             trozos(t_ini, t_fin, base["objetos"], base["luz"])
         else:
-            tope = 4.5 if tipo == "titular" else (5.0 if tipo == "comparar" else 8.0)
+            tope = 4.0 if tipo == "titular" else (4.4 if tipo == "comparar" else 8.0)
             t_med = min(t_fin, t_ini + tope) if (t_fin - t_ini) > tope + 1.5 else t_fin
             e = {x: v for x, v in base.items() if not x.startswith("_")}; e["dur"] = round(t_med - t_ini, 3)
+            if tipo == "titular": e["fondo"] = foto_tema(" ".join(ls) + " " + " ".join(base.get("_relleno", [])), None)
             escenas.append(e); inicios.append(t_ini); prev[0] = None
             if base.get("_golpe"): golpes.append(t_ini + 0.1)
             if t_fin - t_med > 0.05:                               # el titular/diagrama no se queda quieto toda la frase: sigue un clip 3D variado

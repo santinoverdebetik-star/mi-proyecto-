@@ -64,7 +64,7 @@ Algunas ya venían así desde la fábrica.
 Rompes el plástico, conectas el cable HDMI, y el software sospechoso ya está dentro.
 Se instaló antes de que la caja llegara a una estantería.
 
-<!-- 3D password+candado+puerta (sin contraseña, cualquiera podía entrar) · media -->
+<!-- comparar: candado|LA CERRADURA|EXISTÍA || intruso|LA CONTRASEÑA|NINGUNA · azul -->
 Otras estaban tan mal protegidas que ni siquiera pedían contraseña.
 Dos de cada tres equipos infectados eran este tipo de cajas genéricas, sin marca, sin seguridad.
 Cualquiera podía entrar. Y entraron.
@@ -95,7 +95,7 @@ En Kimwolf no había una sola gota de inteligencia artificial.
 Era malware común. Cada cosa que hizo, un humano la había escrito de antemano.
 Y aun así tomó dos millones de dispositivos.
 
-<!-- 3D red+camara+rack (mira a su alrededor, decide por sí mismo) · media -->
+<!-- comparar: codigo|HOY|TODO ESCRITO || intruso|MAÑANA|DECIDE SOLO · rojo -->
 Ahora imagina un programa que no necesita nada escrito de antemano.
 Que mira a su alrededor, entiende dónde ha caído, y decide por sí mismo qué hacer después.
 
@@ -132,7 +132,7 @@ Un estudiante de posgrado de la Universidad de Cornell, Robert Tappan Morris, la
 Dice que solo quiere medir el tamaño de internet.
 Es una curiosidad. Un experimento.
 
-<!-- 3D duplicacion (nodos que se duplican sin control) · noche -->
+<!-- comparar: laptop|SI YA ESTÁ INFECTADA|NO COPIAR || laptop|POR PRECAUCIÓN|COPIAR · rojo -->
 Pero comete un error de lógica.
 El programa debía copiarse solo en las máquinas que aún no estaban infectadas.
 Morris, por precaución, le ordena copiarse de todos modos, de vez en cuando, aunque la máquina ya estuviera infectada.
@@ -238,7 +238,7 @@ En 2024, un grupo de investigadores de Cornell Tech, el Technion y la empresa In
 Y la llamaron, con ironía, Morris II.
 Un homenaje al gusano de 1988.
 
-<!-- 3D laptop con bandeja de correo · media -->
+<!-- comparar: movil|EL CORREO|ESCONDIDA || laptop|EL ASISTENTE|OBEDECE · azul -->
 La demostración, hecha en un entorno de laboratorio, era inquietantemente sencilla.
 Un atacante envía un correo con una instrucción escondida, escrita para que la lea una IA, no una persona.
 El asistente de correo de la víctima lo recibe, lo procesa… y obedece.
@@ -312,7 +312,7 @@ Las cosas que "solo pasan en el laboratorio" tienen un hábito: dejan de ser sol
 
 ## PARTE 7 — QUINCE CAJAS Y UNA INTELIGENCIA (el experimento, ~4,5 min)
 
-<!-- 3D cajas15 · clara -->
+<!-- comparar: caja|QUINCE CAJAS|$55 C/U || nube|UN MODELO ENORME|NO CABE · azul -->
 Y entonces llega el experimento.
 El equipo de investigación de riesgos de Anthropic compró quince cajas de televisión Android.
 Baratas. Genéricas. Unos cincuenta y cinco dólares cada una.
@@ -371,7 +371,7 @@ Después probaron con un modelo más fuerte, GLM 5.2.
 Recorrió los ocho dispositivos en cuatro de cinco intentos.
 En el quinto, llegó a siete de ocho.
 
-<!-- titular: DOS / MITADES · media -->
+<!-- comparar: caja|MODELOS PEQUEÑOS|CABEN || nube|MODELOS GRANDES|NO CABEN · oscuro -->
 Hay una trampa.
 Ese modelo vivía en un servidor potente aparte y daba las órdenes desde allí.
 Nunca habría cabido en las cajas.
@@ -514,7 +514,7 @@ El problema es otro: detectarlo no es lo mismo que apagarlo.
 Y ahora, la parte práctica.
 Porque no hace falta esperar a ningún gusano para hacer tu casa menos fácil de invadir.
 
-<!-- 3D candado · clara -->
+<!-- comparar: router|CONTRASEÑA DE FÁBRICA|ABIERTA || candado|LA TUYA|CERRADA · azul -->
 Primero: cambia las contraseñas de fábrica de tu router y de cada aparato que las tenga.
 Es lo primero que probaba Mirai, y sigue funcionando.
 

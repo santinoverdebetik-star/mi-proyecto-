@@ -1,5 +1,5 @@
 import React from "react";
-import { AbsoluteFill, interpolate, random, spring, useCurrentFrame, useVideoConfig } from "remotion";
+import { AbsoluteFill, Img, interpolate, random, spring, staticFile, useCurrentFrame, useVideoConfig } from "remotion";
 import { C, FUENTE_TEXTO, FUENTE_TITULO } from "../estilo";
 
 const FONDO = "radial-gradient(ellipse 75% 65% at 50% 40%, #2a3244 0%, #151a24 55%, #05060a 100%)";
@@ -52,24 +52,28 @@ export const Terminal: React.FC<{ v?: number }> = ({ v = 0 }) => {
   );
 };
 
-/** Cifra importante del guion, con cuenta ascendente y un arco que se llena. */
-export const Dato: React.FC<{ valor: string; etiqueta?: string }> = ({ valor, etiqueta }) => {
-  const f = useCurrentFrame(); const { fps } = useVideoConfig();
+/** Cifra importante del guion sobre una FOTO REAL con gradacion; la cifra ocupa solo una esquina (nunca toda la escena). */
+export const Dato: React.FC<{ valor: string; etiqueta?: string; fondo?: string }> = ({ valor, etiqueta, fondo }) => {
+  const f = useCurrentFrame(); const { fps, durationInFrames: D } = useVideoConfig();
   const m = valor.match(/^(\D*)(\d[\d.,]*)(.*)$/);
   const num = m ? parseFloat(m[2].replace(",", ".")) : NaN;
   const e = spring({ frame: f, fps, config: { damping: 20, stiffness: 60 } });
   const esAnio = m && /^(19|20)\d\d$/.test(m[2]);
   const mostrado = m ? (esAnio ? m[2] : (Number.isInteger(num) ? String(Math.round(num * e)) : (num * e).toFixed(1))) : valor;
-  const arco = 2 * Math.PI * 340;
+  const t = interpolate(f, [0, D], [0, 1], { extrapolateRight: "clamp" });
+  const arco = 2 * Math.PI * 130;
   return (
-    <AbsoluteFill style={{ background: FONDO, justifyContent: "center", alignItems: "center" }}>
-      <svg width={900} height={900} style={{ position: "absolute", transform: "rotate(-90deg)" }}>
-        <circle cx={450} cy={450} r={340} stroke="#ffffff14" strokeWidth={10} fill="none" />
-        <circle cx={450} cy={450} r={340} stroke={C.naranja} strokeWidth={10} fill="none" strokeLinecap="round" strokeDasharray={arco} strokeDashoffset={arco * (1 - 0.8 * e)} style={{ filter: `drop-shadow(0 0 16px ${C.naranja})` }} />
-      </svg>
-      <div style={{ textAlign: "center" }}>
-        <div style={{ fontFamily: FUENTE_TITULO, fontSize: 330, lineHeight: 1, color: C.crema, textShadow: `0 0 70px ${C.naranja}88` }}>{m ? m[1] : ""}{mostrado}<span style={{ color: C.naranja }}>{m ? m[3].trim() : ""}</span></div>
-        {etiqueta && <div style={{ fontFamily: FUENTE_TEXTO, fontWeight: 800, fontSize: 40, letterSpacing: 6, color: C.cian, textTransform: "uppercase", marginTop: 70, maxWidth: 1100, opacity: interpolate(f, [10, 24], [0, 1], { extrapolateRight: "clamp" }) }}>{etiqueta}</div>}
+    <AbsoluteFill style={{ background: "#07090d", overflow: "hidden" }}>
+      {fondo ? <Img src={staticFile(fondo)} style={{ position: "absolute", width: "100%", height: "100%", objectFit: "cover", transform: `scale(${1.06 + 0.08 * t})`, filter: "contrast(1.2) saturate(1.1) brightness(0.8)" }} /> : <AbsoluteFill style={{ background: FONDO }} />}
+      <AbsoluteFill style={{ background: "linear-gradient(90deg, rgba(4,5,8,0.9) 0%, rgba(4,5,8,0.6) 34%, rgba(4,5,8,0) 62%)" }} />
+      <AbsoluteFill style={{ background: `radial-gradient(circle at 85% 85%, ${C.naranja}44, transparent 50%)`, mixBlendMode: "screen" }} />
+      <div style={{ position: "absolute", left: 130, top: 330, display: "flex", alignItems: "center", gap: 36 }}>
+        <svg width={300} height={300} style={{ transform: "rotate(-90deg)" }}>
+          <circle cx={150} cy={150} r={130} stroke="#ffffff22" strokeWidth={10} fill="none" />
+          <circle cx={150} cy={150} r={130} stroke={C.naranja} strokeWidth={10} fill="none" strokeLinecap="round" strokeDasharray={arco} strokeDashoffset={arco * (1 - 0.8 * e)} style={{ filter: `drop-shadow(0 0 14px ${C.naranja})` }} />
+        </svg>
+        <div style={{ marginLeft: -330, width: 300, textAlign: "center", fontFamily: FUENTE_TITULO, fontSize: String(mostrado).length > 4 ? 100 : 130, color: C.crema, textShadow: `0 0 40px ${C.naranja}88` }}>{m ? m[1] : ""}{mostrado}<span style={{ color: C.naranja }}>{m ? m[3].trim() : ""}</span></div>
+        {etiqueta && <div style={{ marginLeft: 70, maxWidth: 480, fontFamily: FUENTE_TEXTO, fontWeight: 800, fontSize: 30, letterSpacing: 4, color: C.cian, textTransform: "uppercase", opacity: interpolate(f, [10, 24], [0, 1], { extrapolateRight: "clamp" }) }}>{etiqueta}</div>}
       </div>
     </AbsoluteFill>
   );

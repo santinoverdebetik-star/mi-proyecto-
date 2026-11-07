@@ -118,3 +118,5 @@ En esta nube hace falta `CHROMIUM_PATH=/opt/pw-browsers/chromium_headless_shell-
 4. Prohibidos los insertos de mosaico/cuadrícula naranja a pantalla completa (parecen transición).
 5. **Duración del video final: 25 a 30 minutos** (voz Martín con velocidad ~0,92 y pausa 650 ms para llegar a >25 min).
 6. Apertura con la pantalla de tarjetas pixel-art en español, transiciones profesionales (píxeles/barras/zoom), efectos de sonido suaves, música muy baja.
+7. **El 3D se sigue haciendo como en el video de referencia** (salas completas con travelling lento, penumbra cálida, pantallas rojas pixel-art intercaladas, transición entrando en un monitor). Cada vez que se mejore algo, repasar TODAS las reglas fijas de arriba antes de entregar.
+8. Insertos distribuidos a lo largo de todo el video (uno cada ~3 clips 3D); la imagen cambia cuando cambia la frase del narrador (cortes en los límites de línea).

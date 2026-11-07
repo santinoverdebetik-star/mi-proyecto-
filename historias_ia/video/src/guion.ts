@@ -9,7 +9,7 @@ export type Escena = (
   | { tipo: "titular"; dur: number; lineas: string[]; resalta?: number; lado?: "izq" | "centro"; fondo?: string }
   | { tipo: "frase"; dur: number; texto: string; v?: number }
   | { tipo: "terminal"; dur: number; v?: number }
-  | { tipo: "dato"; dur: number; valor: string; etiqueta?: string }
+  | { tipo: "dato"; dur: number; valor: string; etiqueta?: string; fondo?: string }
   | { tipo: "flujo" | "radar" | "cuadricula" | "barras" | "globo2d" | "lluvia"; dur: number; v?: number }
   | { tipo: "foto"; dur: number; archivo: string; luz?: string; v?: number; pos?: string }
   | { tipo: "imagen"; dur: number; archivo: string; brillo?: string }

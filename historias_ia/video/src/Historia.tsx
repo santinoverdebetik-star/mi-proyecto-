@@ -25,7 +25,7 @@ export const Historia: React.FC<{ escenas: Escena[]; voz?: string; musica?: stri
           {e.tipo === "titular" && <><Titular lineas={e.lineas} resalta={e.resalta} lado={e.lado} fondo={e.fondo} /><Flash en={2} color="#ff5a1f" /></>}
           {e.tipo === "frase" && <Frase texto={e.texto} v={e.v} />}
           {e.tipo === "terminal" && <Terminal v={e.v} />}
-          {e.tipo === "dato" && <Dato valor={e.valor} etiqueta={e.etiqueta} />}
+          {e.tipo === "dato" && <Dato valor={e.valor} etiqueta={e.etiqueta} fondo={e.fondo} />}
           {e.tipo === "radar" && <Radar v={e.v} />}
           {e.tipo === "cuadricula" && <Cuadricula v={e.v} />}
           {e.tipo === "barras" && <Barras v={e.v} />}
