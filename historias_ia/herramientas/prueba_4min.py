@@ -43,12 +43,16 @@ def leer_bloques(n_lineas):
     return [b for b in bloques if b[1]]
 
 
-PROHIBIDOS = {"ojo", "nucleo", "red"}                    # el usuario no los quiere NUNCA (pedido V5): se sustituyen
-ALIAS = {"laptop": "contagio", "pantalla": "pantalla_rota", "ojo": "camara", "nucleo": "placa", "red": "cable"}
+GANCHO = ["Las cosas que «solo pasan en el laboratorio» tienen un hábito: dejan de ser solo de laboratorio.",
+           "Quince cajas baratas de televisión. Una inteligencia artificial repartida entre todas.",
+           "Ahora imagina que esa inteligencia aprendiera a copiarse sola."]
+CONTROL = r"fuera de control|se copia|copiarse|gusano|infect|sin un humano|por si mismo|sola\b|peligro|miedo|ochenta|dos millones|ataque|contagi|obedece|roba"
+PROHIBIDOS = set()                                # el usuario levanto la prohibicion de ojo/nucleo/red (V15)                    # el usuario no los quiere NUNCA (pedido V5): se sustituyen
+ALIAS = {"laptop": "contagio", "pantalla": "pantalla_rota"}
 TODOS_3D = ["globo", "cable", "codigo", "sala", "estanteria", "avalancha", "casas_red", "fabrica", "candado", "apagon", "intrusion", "contagio", "caja_led",
             "caja_tv", "manometro", "radar", "duplicacion", "rack", "cajas15", "puerta", "pantalla_rota", "router", "camara", "movil", "pc_antiguo", "reloj",
             "calendario", "placa", "llave", "dominos", "escudo", "dinero", "hdmi", "password", "engranajes", "latido", "paquetes", "antena", "lupa", "mando", "nube",
-            "tv_play"]
+            "tv_play", "ojo", "nucleo", "red"]
 FAMILIA = {"candado_agujero": "candado"}          # candado y candado_agujero cuentan como el mismo clip
 MAX_USOS = 1                                      # REGLA DEL USUARIO (para todos los videos): ningun clip 3D se repite
 MAX_CLIP = 5.0                                    # pedido del usuario: clips 3D ~2 s mas cortos (antes 7 s)
@@ -247,6 +251,10 @@ def mezclar(audio, inicios_escena, golpes, salida_mp3, segmentos=None, nivel_mus
     env = am.lp(np.abs(voz), int(0.12 * SR)); env = np.clip(env / (0.6 * env.max() + 1e-9), 0, 1)
     for t_b, g_b in bajar_desde:                                   # pedido del usuario: bajar un poco la musica desde 2:46 (rampa de 2 s)
         rampa = np.clip((np.arange(len(m)) / SR - t_b) / 2.0, 0, 1); m *= 1 - (1 - g_b) * rampa
+    dip = np.zeros(len(m))
+    for t_g in golpes:                                             # SILENCIO antes de cada revelacion: la musica se apaga ~1,4 s y vuelve con el golpe
+        i0, i1 = max(0, int((t_g - 1.4) * SR)), min(len(m), int(t_g * SR)); dip[i0:i1] = 1
+    dip = np.convolve(dip, np.ones(int(0.25 * SR)) / int(0.25 * SR), mode="same"); m *= 1 - 0.97 * np.clip(dip, 0, 1)
     m *= 1 - 0.35 * env                                           # ducking: -40 % mientras suena la voz, la musica "respira" en las pausas
     fx = np.zeros(len(voz))
     def poner(x, t, g):
@@ -279,7 +287,7 @@ def mezclar(audio, inicios_escena, golpes, salida_mp3, segmentos=None, nivel_mus
             for j in range(5): poner(G(sfx.pop(300 + j * 40), 0.22), t + 0.2 + j * 0.35, 1)
     for t in golpes:
         r = am.riser(); h = am.hit()
-        poner(r, t - 2.0, 0.2 * v_rms / 0.2); poner(h, t + 0.05, 0.3 * v_rms / np.sqrt(np.mean(h ** 2)))
+        g2 = am.glitch(); poner(g2, t - 0.03, 0.34 * v_rms / np.sqrt(np.mean(g2 ** 2))); poner(h, t + 0.05, 0.4 * v_rms / np.sqrt(np.mean(h ** 2)))
     mez = voz + m + fx
     fade = np.minimum(1, np.minimum(np.arange(len(mez)) / (1.5 * SR), (len(mez) - np.arange(len(mez))) / (2.0 * SR)))
     mez *= fade; mez *= 0.9 / max(0.9, np.abs(mez).max())
@@ -292,7 +300,7 @@ def main():
     ap = argparse.ArgumentParser()
     ap.add_argument("--listar-voces", action="store_true"); ap.add_argument("--voz-id"); ap.add_argument("--audio")
     ap.add_argument("--lineas", type=int, default=52); ap.add_argument("--velocidad", type=float)
-    ap.add_argument("--pausa", type=int, default=350); ap.add_argument("--proyecto", default="prueba4"); ap.add_argument("--solo-voz", action="store_true")
+    ap.add_argument("--pausa", type=int, default=350); ap.add_argument("--proyecto", default="prueba4"); ap.add_argument("--solo-voz", action="store_true"); ap.add_argument("--gancho", action="store_true")
     ap.add_argument("--salida", default=os.path.join(RAIZ, "video"))
     a = ap.parse_args()
     key = os.environ.get("VOIZUM_API_KEY")
@@ -300,17 +308,26 @@ def main():
         if not key: sys.exit("Falta VOIZUM_API_KEY en el entorno")
         listar_voces(key); return
     bloques = leer_bloques(a.lineas)
+    n_guion = sum(len(ls) for _, ls in bloques)
+    if a.gancho: bloques = [("gancho", GANCHO)] + bloques
     lineas = [l for _, ls in bloques for l in ls]
     texto = "\n".join(lineas)
     print(f"{len(bloques)} bloques, {len(lineas)} lineas, {len(texto)} caracteres (~{len(texto) * 60 / 1000:.0f} creditos Voizum)")
     pub = os.path.join(a.salida, "public", a.proyecto); os.makedirs(pub, exist_ok=True)
-    audio = a.audio or os.path.join(pub, "voz.mp3")
+    audio = a.audio or os.path.join(pub, "voz_total.mp3" if a.gancho else "voz.mp3")
     if not a.audio:
         if not key or not a.voz_id: sys.exit("Faltan VOIZUM_API_KEY y --voz-id (usa --listar-voces para encontrar a Martin)")
         voz_voizum(texto, a.voz_id, audio, key, a.velocidad, a.pausa)
         if a.solo_voz: print("voz lista:", audio); return
     cache_al = os.path.join(pub, "alineacion.json")
-    if os.path.exists(cache_al):
+    if a.gancho:                                                       # gancho (alineado aparte) + guion (alineacion en cache) desplazado
+        g_mp3 = os.path.join(pub, "gancho.mp3"); off = float(subprocess.run(["ffprobe", "-v", "error", "-show_entries", "format=duration", "-of", "csv=p=0", g_mp3], capture_output=True, text=True).stdout) + 0.9
+        cg = os.path.join(pub, "alineacion_gancho.json")
+        if os.path.exists(cg): ini_g = json.load(open(cg))
+        else: ini_g, _ = alinear(g_mp3, GANCHO); json.dump(ini_g, open(cg, "w"))
+        d_al = json.load(open(cache_al)); assert len(d_al["ini"]) == n_guion, "la alineacion en cache no coincide con el guion"
+        ini_lin = list(ini_g) + [x + off for x in d_al["ini"]]; dur = off + d_al["dur"]
+    elif os.path.exists(cache_al):
         d_al = json.load(open(cache_al))
         if len(d_al["ini"]) == len(lineas): ini_lin, dur = d_al["ini"], d_al["dur"]
         else: ini_lin, dur = alinear(audio, lineas); json.dump({"ini": ini_lin, "dur": dur}, open(cache_al, "w"))
@@ -324,13 +341,15 @@ def main():
     def sala_siguiente(fam_):
         if fam_ not in GEN_FAM: return None
         GEN_N[0] += 1
-        return f"gen:{fam_}:k{GEN_N[0]}"
+        return f"gen:{fam_}:{ctl_actual[0]}{GEN_N[0]}"
     usos_mesa = {}; ult_mesa = [None]
     def mesa_siguiente(prop):
         if usos_mesa.get(prop, 0) >= 11 or ult_mesa[0] == prop: return None                       # cada objeto protagonista, como mucho 7 veces (siempre con otra mesa, luz y camara)
         usos_mesa[prop] = usos_mesa.get(prop, 0) + 1; GEN_N[0] += 1; ult_mesa[0] = prop
-        return f"gen:mesa:k{GEN_N[0]}:{prop}"
+        return f"gen:mesa:{ctl_actual[0]}{GEN_N[0]}:{prop}"
+    ctl_actual = ["k"]
     def elegir_visual(texto, pref):
+        ctl_actual[0] = "A" if re.search(CONTROL, VIS.norm(texto)) else "k"                # "A" = palette de alerta (azul frio + rojo/ambar) cuando la IA se sale de control
         """objeto 3D o plano de sala para el texto que suena: palabras clave -> candidatos; luego la etiqueta del bloque; luego lo menos usado"""
         sc = VIS.puntuar(texto)
         pref = [ALIAS.get(o, o) for o in pref if o not in PROHIBIDOS]
@@ -411,8 +430,23 @@ def main():
         "korean_public_payphone_01": r"llamada|telefono|numero|llamar|marcar",
     }
     PROPS_BL = list(BL_TAGS)
+    ESP_TAGS = {"ojo_ia": r"inteligencia artificial|\bia\b|modelo|piensa|decide|entiende|agente|asistente|que lee|mira a su alrededor|robot|obedece",
+                "red_neuronal": r"neuron|parametros|modelo|cortaron|pedazos|aprend|miles de|millones|conectad|red\b|inteligencia",
+                "servidores": r"servidor|centro de datos|dns|avalancha|peticion|ataque|decenas de miles|nodos|rack|cluster|millones|todo internet",
+                "codigo": r"codigo|programa|virus|gusano|escrito|instruccion|software|comando|malware|copia|copiarse|replic"}
+    CONTROL = r"fuera de control|se copia|copiarse|gusano|infect|sin un humano|por si mismo|sola\b|peligro|miedo|ochenta|dos millones|ataque|contagi|obedece|roba"
+    usos_esp = {}
+    def paleta_de(texto, sem):
+        if re.search(CONTROL, VIS.norm(texto)): return "alerta"
+        return "frio" if sem % 3 == 0 else None
     def elegir_blender(texto, n=3):
-        tn = VIS.norm(texto); pun = {}
+        tn = VIS.norm(texto)
+        pe = {k: len(re.findall(rx, tn)) for k, rx in ESP_TAGS.items()}
+        mejor = max(pe, key=lambda k: pe[k] - usos_esp.get(k, 0) * 0.8)
+        if pe[mejor] >= 1 and usos_esp.get(mejor, 0) < 4 and (GEN_N[0] % 3 != 1) and ult_bl[0] not in ESP_TAGS:
+            usos_esp[mejor] = usos_esp.get(mejor, 0) + 1; ult_bl[0] = mejor; ult_set.clear(); GEN_N[0] += 1
+            return [mejor], GEN_N[0], ("alerta" if re.search(CONTROL, tn) else "frio")
+        pun = {}
         for pr, rx in BL_TAGS.items():
             k = len(re.findall(rx, tn)); pun[pr] = k * 2.0 + R_BL.random() * 0.6 - usos_bl.get(pr, 0) * 1.4
         elegidos = []
@@ -422,7 +456,7 @@ def main():
             if len(elegidos) == n: break
         for pr in elegidos: usos_bl[pr] = usos_bl.get(pr, 0) + 1
         ult_set.clear(); ult_set.update(elegidos); ult_bl[0] = elegidos[-1]; GEN_N[0] += 1
-        return elegidos, GEN_N[0]
+        return elegidos, GEN_N[0], paleta_de(texto, GEN_N[0])
     def texto_ini(t0, t1):
         """lineas que EMPIEZAN entre t0 y t1 (lo que se dice mientras dura el clip)"""
         out = [l for i, l in enumerate(lineas) if t0 - 0.3 <= ini_lin[i] < t1]
@@ -467,7 +501,10 @@ def main():
                     fr = re.split(r"(?<=[.!?])\s+", tx.strip()); fr = next((s for s in fr if dato.group(1) in s), fr[0])
                     e = {"tipo": "dato", "valor": dato.group(1).replace(" ", ""), "etiqueta": (lambda s_: s_[:s_[:52].rfind(" ")] if len(s_) > 52 else s_)(re.sub(r"\s+", " ", fr)).rstrip(" ,;:").upper(), "dur": round(d, 3), "fondo": foto_tema(tx, ult)}
                 elif kind == "roja": e = {"tipo": "roja", "variante": "ventana" if (ult or "").startswith("gen:lab:R") else "cadena", "etiqueta": None if (ult or "").startswith("gen:lab:R") else "TU CASA > INTERNET", "v": v, "dur": round(d, 3)}
-                elif kind in ("terminal", "radar", "barras", "globo2d", "ondas", "anillos"): e = {"tipo": kind, "v": v, "dur": round(d, 3)}
+                elif kind == "terminal":
+                    fr_ = re.split(r"(?<=[.!?])\s+", tx.strip())[0]; fr_ = fr_ if len(fr_) < 130 else fr_[:130].rsplit(" ", 1)[0] + "…"
+                    e = {"tipo": "escribe", "texto": fr_, "est": 2, "dur": round(d, 3)}
+                elif kind in ("radar", "barras", "globo2d", "ondas", "anillos"): e = {"tipo": kind, "v": v, "dur": round(d, 3)}
                 else:
                     f = fx[bloque[0]].pop(0) if fx.get(bloque[0]) else foto_tema(tx, ult); nfoto[0] += 1
                     e = {"tipo": "foto", "archivo": f, "luz": luz, "v": nfoto[0], "pos": POS[nfoto[0] % len(POS)], "dur": round(d, 3)}
@@ -477,8 +514,8 @@ def main():
                 cand_l = [ini_lin[i] for i in range(len(lineas)) if abs(ini_lin[i] - (x + DUR_BL)) <= 1.1]
                 fin = min(cand_l, key=lambda c: abs(c - (x + DUR_BL))) if cand_l else x + DUR_BL
                 if tb - fin < 3.0: fin = tb
-                fin = min(fin, tb); d = fin - x; prs, sem = elegir_blender(tx, 3 if d >= 4.0 else 2)
-                escenas.append({"tipo": "blender", "props": prs, "seed": sem, "dur": round(d, 3), "luz": luz}); K3[0] += 1; prev[0] = "bl:" + prs[0]; inicios.append(x); x += d; continue
+                fin = min(fin, tb); d = fin - x; prs, sem, pal_ = elegir_blender(tx, 3 if d >= 4.0 else 2)
+                escenas.append({"tipo": "blender", "props": prs, "seed": sem, "dur": round(d, 3), "luz": luz, **({"paleta": pal_} if pal_ else {})}); K3[0] += 1; prev[0] = "bl:" + prs[0]; inicios.append(x); x += d; continue
             o = elegir_visual(tx, pref); sala = o.startswith("gen:") and not o.startswith("gen:mesa")
             obj = DUR_SALA if sala else DUR_3D
             fin = corte(x, obj, obj - 2.0, tb); d = fin - x
@@ -501,6 +538,12 @@ def main():
         f = min(pool, key=lambda k: usos_f.get(k, 0)); usos_f[f] = usos_f.get(f, 0) + 1; return f
     for bi, (tag, ls) in enumerate(bloques):
         t_ini = ini_lin[k]; t_fin = ini_lin[k + len(ls)] if k + len(ls) < len(lineas) else dur; k += len(ls)
+        if tag == "gancho":                                            # gancho de ~20 s: frase mas perturbadora escrita letra a letra + servidores + ojo de la IA, en frio y rojo
+            i0 = k - len(ls); lim = [ini_lin[i0 + j] for j in range(len(ls))] + [t_fin]
+            escenas.append({"tipo": "escribe", "texto": "Las cosas que «solo pasan en el laboratorio» tienen un hábito: **dejan de ser solo de laboratorio.**", "est": 1, "dur": round(lim[1] - lim[0], 3), "luz": "noche"}); inicios.append(lim[0])
+            escenas.append({"tipo": "blender", "props": ["servidores"], "paleta": "frio", "seed": 9001, "dur": round(lim[2] - lim[1], 3), "luz": "noche"}); inicios.append(lim[1])
+            escenas.append({"tipo": "blender", "props": ["ojo_ia"], "paleta": "alerta", "seed": 9002, "dur": round(t_fin - lim[2], 3), "luz": "noche"}); inicios.append(lim[2]); prev[0] = None; golpes.append(lim[0] + 0.1)
+            continue
         base = escena_de(tag); tipo = base["tipo"]; bloque[0] = bi + 1
         if tipo == "3d":
             trozos(t_ini, t_fin, base["objetos"], base["luz"])
@@ -510,7 +553,7 @@ def main():
             e = {x: v for x, v in base.items() if not x.startswith("_")}; e["dur"] = round(t_med - t_ini, 3)
             if tipo == "titular": e["fondo"] = foto_tema(" ".join(ls) + " " + " ".join(base.get("_relleno", [])), None)
             escenas.append(e); inicios.append(t_ini); prev[0] = None
-            if base.get("_golpe"): golpes.append(t_ini + 0.1)
+            if base.get("_golpe") or tipo == "comparar": golpes.append(t_ini + 0.1)
             if t_fin - t_med > 0.05:                               # el titular/diagrama no se queda quieto toda la frase: sigue un clip 3D variado
                 trozos(t_med, t_fin, base.get("_relleno", []), "media")
     escenas[0]["dur"] = round(escenas[0]["dur"] + inicios[0], 3); inicios[0] = 0.0       # cubre el silencio inicial
@@ -519,7 +562,7 @@ def main():
     TEMAS_C = ["rojo", "azul", "verde", "morado", "amarillo", "oscuro"]
     ncomp = 0
     for k_, e_ in enumerate(escenas):
-        e_["trans"] = ciclo[k_ % len(ciclo)]
+        e_["trans"] = "rgb" if e_["tipo"] == "titular" else ciclo[k_ % len(ciclo)] if e_["tipo"] != "blender" else ciclo[e_.get("seed", 0) % len(ciclo)]
         e_["est"] = EST[(k_ * 5 + 3) % len(EST)] if k_ else 0
         if e_["tipo"] == "titular": e_["lay"] = (k_ // 2) % 5
         if e_["tipo"] == "dato": e_["lay"] = (k_ // 2) % 3

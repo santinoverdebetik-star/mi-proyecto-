@@ -32,19 +32,91 @@ def cil(nombre, r, h, loc, m, rot=(0, 0, 0), seg=32):
 def esfera(nombre, r, loc, m):
     bpy.ops.mesh.primitive_uv_sphere_add(radius=r, location=loc, segments=32, ring_count=16); o = bpy.context.object; o.name = nombre; o.data.materials.append(m); bpy.ops.object.shade_smooth(); return o
 
-# ---------- mundo ----------
-hd = R.choice(HDRIS); w = bpy.data.worlds.new("w"); sc.world = w; w.use_nodes = True; nt = w.node_tree; nt.nodes.clear()
-tc = nt.nodes.new("ShaderNodeTexCoord"); mp = nt.nodes.new("ShaderNodeMapping"); mp.inputs["Rotation"].default_value[2] = R.uniform(0, 6.28)
-env = nt.nodes.new("ShaderNodeTexEnvironment"); env.image = bpy.data.images.load(f"{A}/{hd}.hdr"); bg = nt.nodes.new("ShaderNodeBackground"); bg.inputs["Strength"].default_value = R.uniform(0.04, 0.10)
-out = nt.nodes.new("ShaderNodeOutputWorld"); nt.links.new(tc.outputs["Generated"], mp.inputs[0]); nt.links.new(mp.outputs[0], env.inputs[0]); nt.links.new(env.outputs[0], bg.inputs[0]); nt.links.new(bg.outputs[0], out.inputs[0])
-# ---------- mesa ----------
-bpy.ops.mesh.primitive_plane_add(size=6); mesa = bpy.context.object
-tx = R.choice(MAD); m = bpy.data.materials.new("madera"); m.use_nodes = True; n = m.node_tree.nodes; l = m.node_tree.links; b = n["Principled BSDF"]
-mpp = n.new("ShaderNodeMapping"); mpp.inputs["Scale"].default_value = (3, 3, 3); tcc = n.new("ShaderNodeTexCoord"); l.new(tcc.outputs["UV"], mpp.inputs[0])
-def tex(nombre, cs):
-    t = n.new("ShaderNodeTexImage"); t.image = bpy.data.images.load(f"{A}/{tx}/{nombre}.jpg"); t.image.colorspace_settings.name = cs; l.new(mpp.outputs[0], t.inputs[0]); return t
-d = tex("Diffuse", "sRGB"); r = tex("Rough", "Non-Color"); nm = tex("nor_gl", "Non-Color"); nmn = n.new("ShaderNodeNormalMap")
-l.new(d.outputs[0], b.inputs["Base Color"]); l.new(r.outputs[0], b.inputs["Roughness"]); l.new(nm.outputs[0], nmn.inputs["Color"]); l.new(nmn.outputs[0], b.inputs["Normal"]); mesa.data.materials.append(m)
+ESPECIALES = ("ojo_ia", "red_neuronal", "servidores", "codigo")
+ES_ESP = prop in ESPECIALES
+if ES_ESP:
+    sc.cycles.samples = min(sc.cycles.samples, 10); sc.cycles.volume_bounces = 1
+    try: sc.view_settings.view_transform = "Standard"                      # emisiones saturadas (AgX las lava hacia blanco)
+    except Exception: pass
+PAL = spec.get("paleta") or "frio"
+COL = {"frio": ((0.12, 0.42, 1.0), (0.2, 0.85, 1.0)), "alerta": ((1.0, 0.1, 0.06), (1.0, 0.55, 0.12))}[PAL]       # (color principal, acento): negro + azul frio / rojo-ambar cuando la IA se sale de control
+def emi(nombre, color, fuerza):
+    m = bpy.data.materials.new(nombre); m.use_nodes = True; nt_ = m.node_tree; nt_.nodes.clear(); e_ = nt_.nodes.new("ShaderNodeEmission"); e_.inputs["Color"].default_value = (*color, 1); e_.inputs["Strength"].default_value = fuerza
+    o_ = nt_.nodes.new("ShaderNodeOutputMaterial"); nt_.links.new(e_.outputs[0], o_.inputs[0]); return m
+def mundo_oscuro(densidad):
+    w_ = bpy.data.worlds.new("wo"); sc.world = w_; w_.use_nodes = True; n_ = w_.node_tree; n_.nodes.clear()
+    bg_ = n_.nodes.new("ShaderNodeBackground"); bg_.inputs["Color"].default_value = (0.002, 0.003, 0.008, 1); bg_.inputs["Strength"].default_value = 1.0
+    vs_ = n_.nodes.new("ShaderNodeVolumeScatter"); vs_.inputs["Density"].default_value = densidad; vs_.inputs["Anisotropy"].default_value = 0.4; vs_.inputs["Color"].default_value = (0.5, 0.7, 1.0, 1)
+    o_ = n_.nodes.new("ShaderNodeOutputWorld"); n_.links.new(bg_.outputs[0], o_.inputs["Surface"]); n_.links.new(vs_.outputs[0], o_.inputs["Volume"])
+def suelo_negro():
+    bpy.ops.mesh.primitive_plane_add(size=60); s_ = bpy.context.object; s_.data.materials.append(mat("suelo", (0.01, 0.012, 0.016), 0.12, 0.2))
+def foco_spot(loc, objetivo, energia, color, ang=60):
+    bpy.ops.object.light_add(type="SPOT", location=loc); l_ = bpy.context.object; l_.data.energy = energia; l_.data.color = color; l_.data.spot_size = math.radians(ang); l_.data.spot_blend = 0.6; l_.data.shadow_soft_size = 0.1
+    e_ = bpy.data.objects.new("lt", None); bpy.context.collection.objects.link(e_); e_.location = objetivo; c_ = l_.constraints.new("TRACK_TO"); c_.target = e_; c_.track_axis = "TRACK_NEGATIVE_Z"; c_.up_axis = "UP_Y"; return l_
+
+def esc_ojo():
+    mundo_oscuro(0.025); suelo_negro(); c0, c1 = COL
+    caja_ = bpy.data.objects.new("eje", None); bpy.context.collection.objects.link(caja_); caja_.location = (0, 0, 0.9)
+    esfera("iris", 0.34, (0, 0, 0.9), emi("iris", c0, 1.6)); esfera("pupila", 0.15, (0, -0.26, 0.9), mat("pup", (0, 0, 0), 0.2))
+    for i, r_ in enumerate((0.5, 0.64, 0.8)):
+        bpy.ops.mesh.primitive_torus_add(location=(0, 0, 0.9), major_radius=r_, minor_radius=0.008, rotation=(math.radians(90 + 8 * i), math.radians(12 * i), 0)); o_ = bpy.context.object; o_.data.materials.append(emi("anillo", c1, 2.0)); o_.parent = caja_; o_.matrix_parent_inverse = caja_.matrix_world.inverted()
+        o_.rotation_euler[2] = 0; o_.keyframe_insert("rotation_euler", frame=1); o_.rotation_euler[2] = math.radians(90 * (i + 1)); o_.keyframe_insert("rotation_euler", frame=spec["frames"])
+    bpy.ops.object.light_add(type="POINT", location=(0, -0.7, 0.9)); p_ = bpy.context.object; p_.data.energy = 120; p_.data.color = c0
+    foco_spot((2, -3, 3), (0, 0, 0.9), 400, c1, 45)
+    return Vector((0, 0, 0.9)), 0.9
+def esc_red():
+    mundo_oscuro(0.02); suelo_negro(); c0, c1 = COL; capas = [4, 6, 7, 5, 3]; nodos = []
+    for ix, n_ in enumerate(capas):
+        fila = []
+        for k in range(n_):
+            p_ = Vector((ix * 0.55 - 1.1, R.uniform(-0.12, 0.12), 0.35 + (k + 0.5) * 1.4 / n_ + R.uniform(-0.04, 0.04))); fila.append(p_)
+            rojo = PAL == "frio" and R.random() < 0.05; esfera("n", 0.035 + R.random() * 0.02, p_, emi("nodo", (1.0, 0.25, 0.1) if rojo else c0, 3.0))
+        nodos.append(fila)
+    cu = bpy.data.curves.new("e", "CURVE"); cu.dimensions = "3D"; cu.bevel_depth = 0.0025; cu.bevel_resolution = 1
+    for ix in range(len(capas) - 1):
+        for a_ in nodos[ix]:
+            for b_ in nodos[ix + 1]:
+                if R.random() < 0.55:
+                    sp_ = cu.splines.new("POLY"); sp_.points.add(1); sp_.points[0].co = (*a_, 1); sp_.points[1].co = (*b_, 1)
+    ob = bpy.data.objects.new("edges", cu); bpy.context.collection.objects.link(ob); ob.data.materials.append(emi("edge", c1, 0.9))
+    foco_spot((0, -3, 3), (0, 0, 0.9), 150, c0, 70)
+    return Vector((0, 0, 0.95)), 0.95
+def esc_servidores():
+    mundo_oscuro(0.032); suelo_negro(); c0, c1 = COL
+    led = bpy.data.materials.new("ledrack"); led.use_nodes = True; nt_ = led.node_tree; b_ = nt_.nodes["Principled BSDF"]; b_.inputs["Base Color"].default_value = (0.01, 0.012, 0.016, 1); b_.inputs["Roughness"].default_value = 0.3; b_.inputs["Metallic"].default_value = 0.6
+    ns = nt_.nodes.new("ShaderNodeTexNoise"); ns.inputs["Scale"].default_value = 60; mp_ = nt_.nodes.new("ShaderNodeMapping"); mp_.inputs["Scale"].default_value = (1, 1, 6); tc_ = nt_.nodes.new("ShaderNodeTexCoord")
+    cr = nt_.nodes.new("ShaderNodeValToRGB"); cr.color_ramp.interpolation = "CONSTANT"; cr.color_ramp.elements[0].position = 0.0; cr.color_ramp.elements[1].position = 0.78; cr.color_ramp.elements[0].color = (0, 0, 0, 1); cr.color_ramp.elements[1].color = (*c0, 1)
+    nt_.links.new(tc_.outputs["Object"], mp_.inputs[0]); nt_.links.new(mp_.outputs[0], ns.inputs["Vector"]); nt_.links.new(ns.outputs["Fac"], cr.inputs["Fac"]); nt_.links.new(cr.outputs["Color"], b_.inputs["Emission Color"]); b_.inputs["Emission Strength"].default_value = 22
+    for lado in (-1, 1):
+        r_ = caja("rack", (0.9, 1.0, 2.3), (lado * 2.0, 0, 1.15), led, 0.01); ar = r_.modifiers.new("a", "ARRAY"); ar.count = 60; ar.use_relative_offset = False; ar.use_constant_offset = True; ar.constant_offset_displace = (0, 1.15, 0)
+    for i in range(24): foco_spot((0, i * 4.0, 3.0), (0, i * 4.0, 0), 700, c1, 70) if i % 3 == 0 else None
+    bpy.ops.mesh.primitive_cube_add(size=1, location=(0, 25, 3.2)); t_ = bpy.context.object; t_.scale = (0.25, 60, 0.02); t_.data.materials.append(emi("techo", c1, 4.0))
+    return Vector((0, 8, 1.2)), 1.2
+def esc_codigo():
+    mundo_oscuro(0.02); suelo_negro(); c0, c1 = COL
+    frag = ["import socket, os, sys", "def propagate(host):", "  if not infected(host):", "      copy_self(host)", "      spawn(host)", "while True:", "  scan(subnet)", "  decide(next_target)", "0x4f2a 91bc ff03", "model.load(shards)", "agent.run(task)", "# no human in the loop", "ssh root@192.168.0.14", "retry(on_error)", "if success: replicate()", "tokens += 1"]
+    for i in range(26):
+        bpy.ops.object.text_add(location=(R.uniform(-2.2, 2.2), R.uniform(-1.2, 3.5), R.uniform(0.2, 2.4)), rotation=(math.radians(90), 0, math.radians(R.uniform(-12, 12)))); o_ = bpy.context.object
+        o_.data.body = R.choice(frag); o_.data.size = R.uniform(0.07, 0.13); o_.data.extrude = 0.004; rojo = PAL == "frio" and R.random() < 0.08
+        o_.data.materials.append(emi("txt", (1.0, 0.25, 0.1) if rojo else (c0 if R.random() < 0.5 else c1), R.uniform(1.6, 3.6)))
+    foco_spot((0, -3, 3), (0, 1, 1.2), 120, c1, 80)
+    return Vector((0, 1.2, 1.2)), 1.2
+ESP_FN = {"ojo_ia": esc_ojo, "red_neuronal": esc_red, "servidores": esc_servidores, "codigo": esc_codigo}
+if not ES_ESP:
+    # ---------- mundo ----------
+    hd = R.choice(HDRIS); w = bpy.data.worlds.new("w"); sc.world = w; w.use_nodes = True; nt = w.node_tree; nt.nodes.clear()
+    tc = nt.nodes.new("ShaderNodeTexCoord"); mp = nt.nodes.new("ShaderNodeMapping"); mp.inputs["Rotation"].default_value[2] = R.uniform(0, 6.28)
+    env = nt.nodes.new("ShaderNodeTexEnvironment"); env.image = bpy.data.images.load(f"{A}/{hd}.hdr"); bg = nt.nodes.new("ShaderNodeBackground"); bg.inputs["Strength"].default_value = R.uniform(0.04, 0.10)
+    out = nt.nodes.new("ShaderNodeOutputWorld"); nt.links.new(tc.outputs["Generated"], mp.inputs[0]); nt.links.new(mp.outputs[0], env.inputs[0]); nt.links.new(env.outputs[0], bg.inputs[0]); nt.links.new(bg.outputs[0], out.inputs[0])
+    # ---------- mesa ----------
+    bpy.ops.mesh.primitive_plane_add(size=6); mesa = bpy.context.object
+    tx = R.choice(MAD); m = bpy.data.materials.new("madera"); m.use_nodes = True; n = m.node_tree.nodes; l = m.node_tree.links; b = n["Principled BSDF"]
+    mpp = n.new("ShaderNodeMapping"); mpp.inputs["Scale"].default_value = (3, 3, 3); tcc = n.new("ShaderNodeTexCoord"); l.new(tcc.outputs["UV"], mpp.inputs[0])
+    def tex(nombre, cs):
+        t = n.new("ShaderNodeTexImage"); t.image = bpy.data.images.load(f"{A}/{tx}/{nombre}.jpg"); t.image.colorspace_settings.name = cs; l.new(mpp.outputs[0], t.inputs[0]); return t
+    d = tex("Diffuse", "sRGB"); r = tex("Rough", "Non-Color"); nm = tex("nor_gl", "Non-Color"); nmn = n.new("ShaderNodeNormalMap")
+    l.new(d.outputs[0], b.inputs["Base Color"]); l.new(r.outputs[0], b.inputs["Roughness"]); l.new(nm.outputs[0], nmn.inputs["Color"]); l.new(nmn.outputs[0], b.inputs["Normal"]); mesa.data.materials.append(m)
+
 
 def gltf(nombre, x, y, rot=0, esc=1.0):
     bpy.ops.import_scene.gltf(filepath=f"{A}/{nombre}/{nombre}_1k.gltf"); ob = list(bpy.context.selected_objects)
@@ -106,6 +178,25 @@ def modelos(nombre):
 PROC = {"router": router, "cajas": cajas, "robot": robot, "telefono": telefono, "llave": llave}
 # ---------- composicion: varios objetos en fila sobre la mesa; la camara VIAJA de uno a otro cambiando el foco ----------
 props = spec.get("props") or [spec.get("prop", "robot")]
+if ES_ESP:
+    centro, hz = ESP_FN[prop]()
+    bpy.ops.object.camera_add(); cam = bpy.context.object; sc.camera = cam; cam.data.lens = 35; cam.data.dof.use_dof = True; cam.data.dof.aperture_fstop = 2.0
+    lk = bpy.data.objects.new("lk", None); bpy.context.collection.objects.link(lk); lk.location = centro; cam.data.dof.focus_object = lk
+    tr = cam.constraints.new("TRACK_TO"); tr.target = lk; tr.track_axis = "TRACK_NEGATIVE_Z"; tr.up_axis = "UP_Y"
+    nf = spec["frames"]; sc.frame_start = 1; sc.frame_end = nf; modo = spec.get("camara") or R.choice(["empuje", "orbita", "dolly"]); ang0 = math.radians(R.uniform(-35, 35))
+    if prop == "red_neuronal": modo = R.choice(["empuje", "dolly"]); ang0 = math.radians(R.uniform(-18, 18))
+    if prop == "servidores":                                                            # dolly por el pasillo (la mirada se adelanta)
+        cam.location = (0.0, -1.0, 1.35); cam.keyframe_insert("location", frame=1); cam.location = (0.15, 7.0, 1.25); cam.keyframe_insert("location", frame=nf)
+        lk.location = (0, 10, 1.2); lk.keyframe_insert("location", frame=1); lk.location = (0, 20, 1.2); lk.keyframe_insert("location", frame=nf)
+    else:
+        d0 = {"ojo_ia": 4.2, "red_neuronal": 4.4, "codigo": 3.4}[prop]; d1 = d0 * (0.45 if modo == "empuje" else 0.8)
+        a1 = ang0 + math.radians(70 if modo == "orbita" else 12)
+        cam.location = centro + Vector((math.sin(ang0) * d0, -math.cos(ang0) * d0, 0.25)); cam.keyframe_insert("location", frame=1)
+        cam.location = centro + Vector((math.sin(a1) * d1, -math.cos(a1) * d1, 0.05)); cam.keyframe_insert("location", frame=nf)
+    os.makedirs(spec["salida"], exist_ok=True)
+    for fr in range(1, nf + 1):
+        sc.frame_set(fr); sc.render.filepath = f"{spec['salida']}/f_{fr:04d}.png"; bpy.ops.render.render(write_still=True)
+    print("LISTO", props, nf, "cuadros", flush=True); sys.exit(0)
 items = []; x_cur = 0.0
 for k, nm in enumerate(props):
     antes = set(bpy.data.objects)
@@ -124,9 +215,9 @@ for o in bpy.data.objects:
 W = max(0.3, items[-1]["foco"].x - items[0]["foco"].x + 0.4)
 # ---------- luces ----------
 lx = R.choice((-1, 1)); bpy.ops.object.light_add(type="SPOT", location=(lx * 0.3, 0.25, 0.55 + W * 0.25)); sp = bpy.context.object
-sp.data.energy = R.uniform(50, 90) * (1 + W * 0.8); sp.data.color = R.choice([AMB, (1.0, 0.74, 0.45), (1.0, 0.5, 0.25)]); sp.data.spot_size = math.radians(130); sp.data.spot_blend = 0.95; sp.data.shadow_soft_size = 0.08
+sp.data.energy = R.uniform(50, 90) * (1 + W * 0.8); sp.data.color = ((0.45, 0.65, 1.0) if spec.get("paleta") == "frio" else (1.0, 0.32, 0.14) if spec.get("paleta") == "alerta" else R.choice([AMB, (1.0, 0.74, 0.45), (1.0, 0.5, 0.25)])); sp.data.spot_size = math.radians(130); sp.data.spot_blend = 0.95; sp.data.shadow_soft_size = 0.08
 tg = bpy.data.objects.new("lt", None); bpy.context.collection.objects.link(tg); tg.location = (0, 0, 0.05); c = sp.constraints.new("TRACK_TO"); c.target = tg; c.track_axis = "TRACK_NEGATIVE_Z"; c.up_axis = "UP_Y"
-bpy.ops.object.light_add(type="AREA", location=(-lx * (W / 2 + 0.3), -0.5, 0.25)); ac = bpy.context.object; ac.data.energy = R.uniform(8, 18) * (1 + W * 0.5); ac.data.color = CIAN if R.random() > 0.3 else (0.6, 0.5, 1.0); ac.data.size = 0.5
+bpy.ops.object.light_add(type="AREA", location=(-lx * (W / 2 + 0.3), -0.5, 0.25)); ac = bpy.context.object; ac.data.energy = R.uniform(8, 18) * (1 + W * 0.5); ac.data.color = (COL[0] if spec.get("paleta") else (CIAN if R.random() > 0.3 else (0.6, 0.5, 1.0))); ac.data.size = 0.5
 c2 = ac.constraints.new("TRACK_TO"); c2.target = tg; c2.track_axis = "TRACK_NEGATIVE_Z"; c2.up_axis = "UP_Y"
 # ---------- camara: viaja de objeto en objeto (travelling + cambio de foco) ----------
 bpy.ops.object.camera_add(); cam = bpy.context.object; sc.camera = cam; cam.data.lens = R.choice((35, 40, 50)); cam.data.dof.use_dof = True; cam.data.dof.aperture_fstop = R.uniform(1.4, 2.2)

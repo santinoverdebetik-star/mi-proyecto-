@@ -101,7 +101,7 @@ const Papeles: React.FC<{ s: string }> = ({ s }) => (
 
 const MADERA = ["#5a3a22", "#4a3020", "#6a4a2e", "#3a281a", "#5a5046"];
 export const MesaG: React.FC<{ s: string; prop: string }> = ({ s, prop }) => {
-  const madera = pick(s, "ma", MADERA); const pared = pick(s, "pa", ["#14181e", "#1a1612", "#101820", "#181418"]); const lampara = pick(s, "la", ["#ffb066", "#ffc880", "#ff9a52"]);
+  const madera = pick(s, "ma", MADERA); const pared = s.startsWith("A") ? "#0c1220" : pick(s, "pa", ["#14181e", "#1a1612", "#101820", "#181418"]); const lampara = s.startsWith("A") ? "#ff3a2a" : pick(s, "la", ["#ffb066", "#ffc880", "#ff9a52"]);
   const fondo = useLienzo(512, 256, (ctx, W, H) => { const g = ctx.createRadialGradient(W * (0.2 + 0.6 * rr(s, "gx")), H * 0.4, 5, W / 2, H / 2, W * 0.7); g.addColorStop(0, "rgba(255,170,90,0.55)"); g.addColorStop(1, "rgba(0,0,0,0)"); ctx.fillStyle = "#0a0b0e"; ctx.fillRect(0, 0, W, H); ctx.fillStyle = g; ctx.fillRect(0, 0, W, H); });
   const P = { reloj: Reloj, router: Router, laptop: Laptop, robot: Robot, cajas: Cajas, telefono: Telefono, llave: Llave, papeles: Papeles }[prop as "reloj"] ?? Papeles;
   return (

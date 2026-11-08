@@ -16,7 +16,8 @@ const PAL = [
   { pared: "#8b8f94", piso: "#4a4c50", techo: "#2f3134", luz: "#f0f4ff", amb: "#b8bcc4" }, { pared: "#9a8454", piso: "#5e4a2a", techo: "#46391f", luz: "#ffd27a", amb: "#d8c08a" },
   { pared: "#7a6a96", piso: "#463d5a", techo: "#2f2a3e", luz: "#e6d0ff", amb: "#b8a8d8" }, { pared: "#5f8f96", piso: "#35525a", techo: "#243a40", luz: "#c8f6ff", amb: "#9cc8d0" },
 ];
-const pal = (s: string) => pick(s, "pal", PAL);
+const PAL_ALERTA = { pared: "#2a3446", piso: "#0f1218", techo: "#080a0e", luz: "#ff4a32", amb: "#4a5a8a" };           // negro + azul frio con luz roja: "la IA se sale de control"
+const pal = (s: string) => (s.startsWith("A") ? PAL_ALERTA : pick(s, "pal", PAL));
 type Info = { zona: { x: [number, number]; y: [number, number]; z: [number, number] }; targets: V3[] };
 
 /* ---------------- HOGAR ---------------- */

@@ -1,6 +1,6 @@
 import React from "react";
 import { AbsoluteFill, Img, interpolate, random, spring, staticFile, useCurrentFrame, useVideoConfig } from "remotion";
-import { C, FUENTE_TEXTO, FUENTE_TITULO } from "../estilo";
+import { C, FUENTE_TERMINAL, FUENTE_TEXTO, FUENTE_TITULO } from "../estilo";
 import { estilo } from "../estilos";
 
 const FONDO = "radial-gradient(ellipse 75% 65% at 50% 40%, #2a3244 0%, #151a24 55%, #05060a 100%)";
@@ -233,5 +233,20 @@ export const Anillos: React.FC<{ est?: number; v?: number }> = ({ est = 0, v = 0
             <circle cx={r} r={9} fill={E.a} /></g>; })}
         <circle r={46} fill={E.a} opacity={0.85} style={{ filter: `drop-shadow(0 0 30px ${E.a})` }} />
       </svg>
+    </AbsoluteFill>);
+};
+
+/** Texto escrito letra por letra en monoespaciada (fragmentos del caso), sobre negro con azul frio; **lo marcado** sale en rojo/ambar. Ocupa solo una parte del cuadro. */
+export const Escribe: React.FC<{ texto: string; est?: number }> = ({ texto, est = 2 }) => {
+  const f = useCurrentFrame(); const { durationInFrames: D } = useVideoConfig(); const E = estilo(est);
+  const limpio = texto.replace(/\*\*/g, ""); const ini = texto.indexOf("**"); const fin = texto.lastIndexOf("**") - 2;
+  const n = Math.min(limpio.length, Math.floor(Math.max(0, f - 6) * limpio.length / Math.max(20, D * 0.72)));
+  const vis = limpio.slice(0, n); const pre = ini >= 0 ? vis.slice(0, ini) : vis; const hi = ini >= 0 ? vis.slice(ini, Math.max(ini, fin)) : "";
+  return (
+    <AbsoluteFill style={{ background: `radial-gradient(ellipse 70% 60% at 30% 50%, ${E.fondo1} 0%, ${E.fondo2} 75%)` }}>
+      <AbsoluteFill style={{ backgroundImage: "repeating-linear-gradient(0deg, rgba(255,255,255,0.035) 0px, rgba(255,255,255,0.035) 2px, transparent 2px, transparent 5px)" }} />
+      <div style={{ position: "absolute", left: 150, top: 300, width: 1240, fontFamily: FUENTE_TERMINAL, fontSize: 70, lineHeight: 1.18, color: "#cfe6ff", textShadow: `0 0 18px ${E.b}88` }}>
+        <span style={{ color: E.b }}>{"> "}</span>{pre}<span style={{ color: E.a, textShadow: `0 0 22px ${E.a}` }}>{hi}</span>{Math.floor(f / 7) % 2 === 0 && <span style={{ background: E.a }}>{"\u00a0"}</span>}
+      </div>
     </AbsoluteFill>);
 };

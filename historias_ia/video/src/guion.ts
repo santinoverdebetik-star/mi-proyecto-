@@ -18,6 +18,7 @@ export type Escena = (
   | { tipo: "casa" | "puerta"; dur: number }
   | { tipo: "grilla"; dur: number; n?: number; etiqueta?: string }
   | { tipo: "blender"; dur: number; props: string[]; seed: number; luz?: string }
+  | { tipo: "escribe"; dur: number; texto: string }
   | { tipo: "roja"; dur: number; variante?: string; etiqueta?: string; v?: number }
   | { tipo: "comparar"; dur: number; izq: Tarjeta; der: Tarjeta; centro?: string; tema?: string; lay?: number }
 ) & { trans?: string; calidad?: string; rf?: number; est?: number; lay?: number; marco?: number };

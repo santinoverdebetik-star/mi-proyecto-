@@ -42,7 +42,7 @@ if faltan:
         if escenas[i]["tipo"] == "blender":                                 # clip fotorrealista: Blender (Cycles) a 10 fps -> mezcla a 30 fps + bloom, viñeta, grano y fundido
             e = escenas[i]; W, H = int(1920 * float(esc)), int(1080 * float(esc)); fr = int(math.ceil(e["dur"] * 10)) + 2; carp = f"out/bl/{clave(e)}"
             shutil.rmtree(carp, ignore_errors=True); os.makedirs(carp, exist_ok=True)
-            json.dump({"props": e["props"], "seed": e["seed"], "frames": fr, "samples": int(os.environ.get("BL_SAMPLES", "14")), "bounces": 3, "adapt": 0.05, "clamp": 2, "res": [int(W * 2 / 3) // 2 * 2, int(H * 2 / 3) // 2 * 2], "salida": carp}, open(carp + "/spec.json", "w"))
+            json.dump({"props": e["props"], "seed": e["seed"], "paleta": e.get("paleta"), "frames": fr, "samples": int(os.environ.get("BL_SAMPLES", "14")), "bounces": 3, "adapt": 0.05, "clamp": 2, "res": [int(W * 2 / 3) // 2 * 2, int(H * 2 / 3) // 2 * 2], "salida": carp}, open(carp + "/spec.json", "w"))
             r = subprocess.run(["python3", "../blender/gen_clip.py", carp + "/spec.json"], env=dict(env, ASSETS=os.path.abspath("../blender/assets")), stdout=subprocess.DEVNULL, stderr=subprocess.DEVNULL)
             if r.returncode: sys.exit(f"fallo Blender en la escena {i}")
             fx = ["format=gbrp", "split[a][b]", "[b]curves=all='0/0 0.55/0 0.8/0.5 1/1',gblur=sigma=8[g]", "[a][g]blend=all_mode=screen:all_opacity=0.35", "format=yuv420p", "vignette=PI/5.5", "noise=alls=6:allf=t"]

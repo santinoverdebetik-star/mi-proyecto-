@@ -1,0 +1,3 @@
+file '/home/user/mi-proyecto-/historias_ia/video/public/completo/gancho.mp3'
+file '/home/user/mi-proyecto-/historias_ia/video/public/completo/_sil.mp3'
+file '/home/user/mi-proyecto-/historias_ia/video/public/completo/voz.mp3'
