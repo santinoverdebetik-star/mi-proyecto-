@@ -17,9 +17,9 @@ export type Escena = (
   | { tipo: "mapapuntos"; dur: number; valor?: string; etiqueta?: string }
   | { tipo: "casa" | "puerta"; dur: number }
   | { tipo: "grilla"; dur: number; n?: number; etiqueta?: string }
-  | { tipo: "blender"; dur: number; prop: string; seed: number; luz?: string }
+  | { tipo: "blender"; dur: number; props: string[]; seed: number; luz?: string }
   | { tipo: "roja"; dur: number; variante?: string; etiqueta?: string; v?: number }
-  | { tipo: "comparar"; dur: number; izq: Tarjeta; der: Tarjeta; centro?: string; tema?: string }
+  | { tipo: "comparar"; dur: number; izq: Tarjeta; der: Tarjeta; centro?: string; tema?: string; lay?: number }
 ) & { trans?: string; calidad?: string; rf?: number; est?: number; lay?: number; marco?: number };
 
 export const DEMO: Escena[] = [

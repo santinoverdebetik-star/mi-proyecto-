@@ -5,7 +5,7 @@ import bpy, math, os, sys, json, random
 from mathutils import Vector
 spec = json.load(open(sys.argv[sys.argv.index("--") + 1])) if "--" in sys.argv else json.load(open(sys.argv[1]))
 A = os.environ.get("ASSETS", os.path.join(os.path.dirname(os.path.abspath(__file__)), "assets"))
-R = random.Random(spec["seed"]); prop = spec["prop"]
+R = random.Random(spec["seed"]); prop = (spec.get("props") or [spec.get("prop")])[0]
 bpy.ops.wm.read_factory_settings(use_empty=True)
 sc = bpy.context.scene; sc.render.engine = "CYCLES"; sc.cycles.device = "CPU"; sc.cycles.samples = spec.get("samples", 24); sc.cycles.use_denoising = True; sc.cycles.max_bounces = spec.get("bounces", 4)
 sc.render.resolution_x, sc.render.resolution_y = spec.get("res", [960, 540]); sc.render.resolution_percentage = 100
@@ -17,7 +17,7 @@ sc.cycles.caustics_reflective = False; sc.cycles.caustics_refractive = False; sc
 try: sc.cycles.denoiser = "OPENIMAGEDENOISE"; sc.cycles.denoising_prefilter = "ACCURATE"
 except Exception: pass
 HDRIS = ["abandoned_workshop", "abandoned_garage", "boiler_room", "bank_vault", "carpentry_shop_01", "art_studio", "cabin", "abandoned_tiled_room", "autoshop_01", "burnt_warehouse", "abandoned_bakery", "blinds", "abandoned_games_room_02"]
-MAD = ["brown_planks_03", "brown_planks_04", "brown_planks_05", "black_painted_planks", "brown_planks_07"]
+MAD = ["brown_planks_03", "brown_planks_04", "black_painted_planks", "brown_planks_07", "brown_planks_03"]
 
 def mat(nombre, color, rough=0.5, metal=0.0, emis=None, fuerza=0.0):
     m = bpy.data.materials.new(nombre); m.use_nodes = True; b = m.node_tree.nodes["Principled BSDF"]
@@ -35,7 +35,7 @@ def esfera(nombre, r, loc, m):
 # ---------- mundo ----------
 hd = R.choice(HDRIS); w = bpy.data.worlds.new("w"); sc.world = w; w.use_nodes = True; nt = w.node_tree; nt.nodes.clear()
 tc = nt.nodes.new("ShaderNodeTexCoord"); mp = nt.nodes.new("ShaderNodeMapping"); mp.inputs["Rotation"].default_value[2] = R.uniform(0, 6.28)
-env = nt.nodes.new("ShaderNodeTexEnvironment"); env.image = bpy.data.images.load(f"{A}/{hd}.hdr"); bg = nt.nodes.new("ShaderNodeBackground"); bg.inputs["Strength"].default_value = R.uniform(0.06, 0.16)
+env = nt.nodes.new("ShaderNodeTexEnvironment"); env.image = bpy.data.images.load(f"{A}/{hd}.hdr"); bg = nt.nodes.new("ShaderNodeBackground"); bg.inputs["Strength"].default_value = R.uniform(0.04, 0.10)
 out = nt.nodes.new("ShaderNodeOutputWorld"); nt.links.new(tc.outputs["Generated"], mp.inputs[0]); nt.links.new(mp.outputs[0], env.inputs[0]); nt.links.new(env.outputs[0], bg.inputs[0]); nt.links.new(bg.outputs[0], out.inputs[0])
 # ---------- mesa ----------
 bpy.ops.mesh.primitive_plane_add(size=6); mesa = bpy.context.object
@@ -100,37 +100,48 @@ def llave():
     cil("cerr", 0.045, 0.02, (0, -0.012, 0.1), oro, (math.radians(90), 0, 0)); cil("ojo", 0.008, 0.03, (0, -0.02, 0.1), mat("neg", (0, 0, 0), 0.5), (math.radians(90), 0, 0), 16)
     cil("llav", 0.005, 0.1, (0.012, -0.075, 0.095), oro, (math.radians(90), 0, math.radians(8))); bpy.ops.mesh.primitive_torus_add(location=(0.02, -0.14, 0.092), major_radius=0.022, minor_radius=0.006, rotation=(math.radians(90), 0, 0)); bpy.context.object.data.materials.append(oro)
     tam = 0.3; foco = Vector((0, -0.04, 0.1))
-def modelos(prin, extra=()):
+def modelos(nombre):
     global tam, foco
-    root, dim = gltf(prin[0], 0, 0, R.uniform(-35, 35), prin[1]); tam = max(dim.x, dim.y, dim.z); foco = Vector((0, 0, dim.z * 0.5))
-    for nom, x, y, rot, esc in extra: gltf(nom, x, y, rot, esc)
-PRIN = {"reloj": ("alarm_clock_01", 1.0), "laptop": ("classic_laptop", 1.0), "camara": ("security_camera_01", 1.0), "tv": ("Television_01", 1.0), "radio": ("vintage_radio_transceiver", 1.0), "libros": ("book_encyclopedia_set_01", 1.0), "cables": ("modular_electric_cables", 1.0), "lampara": ("desk_lamp_arm_01", 1.0), "telepublico": ("korean_public_payphone_01", 1.0), "cassette": ("portable_cassette_player", 1.0)}
-if prop in PRIN:
-    extras = []
-    if prop in ("reloj", "libros", "radio", "cassette"): extras = [("desk_lamp_arm_01", -0.45, 0.35, R.uniform(0, 60), 1.0)]
-    if prop == "laptop": extras = [("alarm_clock_01", 0.55, -0.1, R.uniform(-40, 10), 1.0)]
-    modelos(PRIN[prop], extras)
-else:
-    {"router": router, "cajas": cajas, "robot": robot, "telefono": telefono, "llave": llave}[prop]()
-    if R.random() > 0.4: gltf("alarm_clock_01", R.choice((-1, 1)) * (tam * 0.9 + 0.2), 0.12, R.uniform(-60, 60), 1.0)
-
+    root, dim = gltf(nombre, 0, 0, R.uniform(-35, 35), 1.0); tam = max(dim.x, dim.y, dim.z); foco = Vector((0, 0, dim.z * 0.5)); return root
+PROC = {"router": router, "cajas": cajas, "robot": robot, "telefono": telefono, "llave": llave}
+# ---------- composicion: varios objetos en fila sobre la mesa; la camara VIAJA de uno a otro cambiando el foco ----------
+props = spec.get("props") or [spec.get("prop", "robot")]
+items = []; x_cur = 0.0
+for k, nm in enumerate(props):
+    antes = set(bpy.data.objects)
+    if nm in PROC: PROC[nm]()
+    else: modelos(nm)
+    nuevos = [o for o in bpy.data.objects if o not in antes]
+    g = bpy.data.objects.new(f"g{k}", None); bpy.context.collection.objects.link(g)
+    for o in nuevos:
+        if o.parent is None: o.parent = g
+    ancho = max(tam, 0.12); x = x_cur + (ancho / 2 if k else 0); g.location = (x, R.uniform(-0.1, 0.18), 0); bpy.context.view_layer.update()
+    items.append({"foco": Vector((x + foco.x, g.location.y + foco.y, foco.z)), "tam": tam}); x_cur = x + ancho / 2 + R.uniform(0.1, 0.28)
+cx = sum(i["foco"].x for i in items) / len(items)
+for i in items: i["foco"].x -= cx
+for o in bpy.data.objects:
+    if o.name.startswith("g") and o.type == "EMPTY": o.location.x -= cx
+W = max(0.3, items[-1]["foco"].x - items[0]["foco"].x + 0.4)
 # ---------- luces ----------
-lx = R.choice((-1, 1)); bpy.ops.object.light_add(type="SPOT", location=(lx * (tam + 0.25), 0.05, 0.28 + tam * 0.4)); sp = bpy.context.object
-sp.data.energy = R.uniform(70, 130); sp.data.color = R.choice([AMB, (1.0, 0.74, 0.45), (1.0, 0.5, 0.25)]); sp.data.spot_size = math.radians(110); sp.data.spot_blend = 0.9; sp.data.shadow_soft_size = 0.06
-tg = bpy.data.objects.new("lt", None); bpy.context.collection.objects.link(tg); tg.location = foco; c = sp.constraints.new("TRACK_TO"); c.target = tg; c.track_axis = "TRACK_NEGATIVE_Z"; c.up_axis = "UP_Y"
-bpy.ops.object.light_add(type="AREA", location=(-lx * (tam + 0.35), -0.45, 0.22)); ac = bpy.context.object; ac.data.energy = R.uniform(6, 14); ac.data.color = CIAN if R.random() > 0.3 else (0.6, 0.5, 1.0); ac.data.size = 0.4
+lx = R.choice((-1, 1)); bpy.ops.object.light_add(type="SPOT", location=(lx * 0.3, 0.25, 0.55 + W * 0.25)); sp = bpy.context.object
+sp.data.energy = R.uniform(50, 90) * (1 + W * 0.8); sp.data.color = R.choice([AMB, (1.0, 0.74, 0.45), (1.0, 0.5, 0.25)]); sp.data.spot_size = math.radians(130); sp.data.spot_blend = 0.95; sp.data.shadow_soft_size = 0.08
+tg = bpy.data.objects.new("lt", None); bpy.context.collection.objects.link(tg); tg.location = (0, 0, 0.05); c = sp.constraints.new("TRACK_TO"); c.target = tg; c.track_axis = "TRACK_NEGATIVE_Z"; c.up_axis = "UP_Y"
+bpy.ops.object.light_add(type="AREA", location=(-lx * (W / 2 + 0.3), -0.5, 0.25)); ac = bpy.context.object; ac.data.energy = R.uniform(8, 18) * (1 + W * 0.5); ac.data.color = CIAN if R.random() > 0.3 else (0.6, 0.5, 1.0); ac.data.size = 0.5
 c2 = ac.constraints.new("TRACK_TO"); c2.target = tg; c2.track_axis = "TRACK_NEGATIVE_Z"; c2.up_axis = "UP_Y"
-# ---------- camara macro ----------
+# ---------- camara: viaja de objeto en objeto (travelling + cambio de foco) ----------
 bpy.ops.object.camera_add(); cam = bpy.context.object; sc.camera = cam; cam.data.lens = R.choice((35, 40, 50)); cam.data.dof.use_dof = True; cam.data.dof.aperture_fstop = R.uniform(1.4, 2.2)
-ft = bpy.data.objects.new("ft", None); bpy.context.collection.objects.link(ft); ft.location = foco; cam.data.dof.focus_object = ft
-tr = cam.constraints.new("TRACK_TO"); tr.target = ft; tr.track_axis = "TRACK_NEGATIVE_Z"; tr.up_axis = "UP_Y"
-nf = spec["frames"]; sc.frame_start = 1; sc.frame_end = nf; d0 = tam * R.uniform(2.2, 3.0); d1 = d0 * R.uniform(0.5, 0.75); k = R.randint(0, 4)
-ang0 = math.radians(R.uniform(-55, 55)); ang1 = ang0 + math.radians(R.uniform(-25, 25)) * (1 if k in (2, 3) else 0.3); h0 = tam * R.uniform(0.18, 0.5); h1 = h0 * R.uniform(0.6, 1.4)
-if k == 1: d0, d1 = d1, d0                                                         # retroceso
-if k == 4: h0, h1 = tam * 0.9, tam * 0.15                                           # bajada
-def pos(d, a, h): return Vector((foco.x + math.sin(a) * d, foco.y - math.cos(a) * d, max(0.03, h + foco.z * 0.3)))
-cam.location = pos(d0, ang0, h0); cam.keyframe_insert("location", frame=1); cam.location = pos(d1, ang1, h1); cam.keyframe_insert("location", frame=nf)
+lk = bpy.data.objects.new("lk", None); bpy.context.collection.objects.link(lk); cam.data.dof.focus_object = lk
+tr = cam.constraints.new("TRACK_TO"); tr.target = lk; tr.track_axis = "TRACK_NEGATIVE_Z"; tr.up_axis = "UP_Y"
+nf = spec["frames"]; sc.frame_start = 1; sc.frame_end = nf; n = len(items); lado = R.choice((-1, 1)); ang = math.radians(R.uniform(15, 45)) * lado
+for k, it in enumerate(items):
+    fr = 1 + round(k * (nf - 1) / max(1, n - 1)); d = max(0.4, it["tam"] * R.uniform(2.0, 2.8)); ang += math.radians(R.uniform(-22, 22)); h = max(0.04, it["tam"] * R.uniform(0.15, 0.55))
+    if n == 1:                                                          # un solo objeto: acercamiento / retroceso suave
+        d0, d1 = d, d * R.choice((0.55, 1.5)); lk.location = it["foco"]; lk.keyframe_insert("location", frame=1)
+        cam.location = it["foco"] + Vector((math.sin(ang) * d0, -math.cos(ang) * d0, h)); cam.keyframe_insert("location", frame=1)
+        cam.location = it["foco"] + Vector((math.sin(ang + 0.5) * d1, -math.cos(ang + 0.5) * d1, h)); cam.keyframe_insert("location", frame=nf); break
+    lk.location = it["foco"]; lk.keyframe_insert("location", frame=fr)
+    cam.location = it["foco"] + Vector((math.sin(ang) * d, -math.cos(ang) * d, h)); cam.location.z = max(0.04, cam.location.z); cam.keyframe_insert("location", frame=fr)
 os.makedirs(spec["salida"], exist_ok=True)
 for fr in range(1, nf + 1):
     sc.frame_set(fr); sc.render.filepath = f"{spec['salida']}/f_{fr:04d}.png"; bpy.ops.render.render(write_still=True)
-print("LISTO", prop, nf, "cuadros", flush=True)
+print("LISTO", props, nf, "cuadros", flush=True)

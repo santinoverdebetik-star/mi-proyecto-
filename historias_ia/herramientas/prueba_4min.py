@@ -18,6 +18,8 @@ AQUI = os.path.dirname(os.path.abspath(__file__))
 sys.path.insert(0, AQUI)
 import armar_muestra as am  # noqa: E402
 import visuales as VIS  # noqa: E402
+import random as _random  # noqa: E402
+R_BL = _random.Random(3)
 
 RAIZ = os.path.dirname(AQUI)
 API = "https://voizum.com/api/v1"
@@ -77,7 +79,7 @@ FOTO_PREF = {
 DUR_3D, DUR_FOTO = 7.5, 3.2                     # pedido V11: los 3D duran MAS (salas ~9,5 s, objetos ~7 s); insertos cortos
 DUR_SALA = 10.5
 BL_HASTA = 300.0                                   # pedido: los primeros 5 minutos van en BLENDER (fotorrealista); despues, 3D en codigo
-DUR_BL = 8.0
+DUR_BL = 4.5                                       # pedido: escenas de ~4 s en pantalla
 GEN_FAM = ["hogar", "lab", "srv", "ofi", "fab", "mapa", "calle", "tienda"]
 SALAS_TIROS = {f: [] for f in GEN_FAM}                                   # pedido V12: ningun ambiente 3D se repite: cada sala se GENERA con una semilla nueva
 SALA_IDS = set()
@@ -236,7 +238,7 @@ def alinear(audio, lineas):
 
 
 # ---------------------------------------------------------------- mezcla + props
-def mezclar(audio, inicios_escena, golpes, salida_mp3, segmentos=None, nivel_musica=0.07, bajar_desde=(), escenas=None):
+def mezclar(audio, inicios_escena, golpes, salida_mp3, segmentos=None, nivel_musica=0.16, bajar_desde=(), escenas=None):
     """voz + MUSICA DE AVENTURA audible (se baja un poco mientras habla la voz, 'ducking') + glitch en cada corte + riser/golpe en titulares"""
     import musica_oscura as mus                                    # V13: ambiente oscuro continuo como la referencia 3 (sin melodia ni bateria)
     SR = am.SR
@@ -245,7 +247,7 @@ def mezclar(audio, inicios_escena, golpes, salida_mp3, segmentos=None, nivel_mus
     env = am.lp(np.abs(voz), int(0.12 * SR)); env = np.clip(env / (0.6 * env.max() + 1e-9), 0, 1)
     for t_b, g_b in bajar_desde:                                   # pedido del usuario: bajar un poco la musica desde 2:46 (rampa de 2 s)
         rampa = np.clip((np.arange(len(m)) / SR - t_b) / 2.0, 0, 1); m *= 1 - (1 - g_b) * rampa
-    m *= 1 - 0.55 * env                                           # ducking: -40 % mientras suena la voz, la musica "respira" en las pausas
+    m *= 1 - 0.35 * env                                           # ducking: -40 % mientras suena la voz, la musica "respira" en las pausas
     fx = np.zeros(len(voz))
     def poner(x, t, g):
         i = max(0, int(t * SR))
@@ -383,25 +385,44 @@ def main():
                 usos_f[f] = 1; return f
         if pool: print("AVISO: se repite una foto (faltan fotos en el pool)")
         f = min(pool, key=lambda k: usos_f.get(k, 0)); usos_f[f] = usos_f.get(f, 0) + 1; return f
-    usos_bl = {}; ult_bl = [None]
-    BL_MAP = {"robot": "robot", "reloj": "reloj", "router": "router", "laptop": "laptop", "cajas": "cajas", "telefono": "telefono", "llave": "llave", "papeles": "libros"}
-    BL_EXTRA = [(r"camara|vigil|seguridad|grabador|observa|mira", "camara"), (r"televisor|\btele\b|serie\b|pelicula|pantalla|cajita de streaming", "tv"), (r"senal|radio|antena|onda|transmit|frecuencia|hablan", "radio"),
-                (r"cable|hdmi|enchuf|conecta|conexion|red\b", "cables"), (r"\bluz\b|lampara|noche|oscur|parpade", "lampara"), (r"mensaje|llamada|telefono|movil", "telepublico"), (r"escuch|voz|audio|grab", "cassette")]
-    PROPS_BL = ["robot", "reloj", "router", "laptop", "cajas", "telefono", "llave", "libros", "camara", "tv", "radio", "cables", "lampara", "telepublico", "cassette"]
-    def elegir_blender(texto):
-        sc = VIS.puntuar(texto); pun = {}
-        for c, v in sc.items():
-            if c.startswith("M:") and c[2:] in BL_MAP: pun[BL_MAP[c[2:]]] = pun.get(BL_MAP[c[2:]], 0) + v
-        tn = VIS.norm(texto)
-        for rx, pr in BL_EXTRA:
-            n = len(re.findall(rx, tn))
-            if n: pun[pr] = pun.get(pr, 0) + n * 1.2
+    usos_bl = {}; ult_bl = [None]; ult_set = set()
+    # etiquetas de cada objeto de Blender (modelos reales de Poly Haven + los armados a mano): palabras del narrador -> objetos
+    BL_TAGS = {
+        "robot": r"inteligencia artificial|\bia\b|asistente|agente|modelo|robot|piensa|decide|entiende|aprend|parametros|maquina",
+        "router": r"router|wifi|modem|internet|conexion|conectad|red\b",
+        "cajas": r"\bcaja|cajita|cajas|streaming|android|decodificador|televisor",
+        "telefono": r"telefono|movil|celular|mensaje|correo|email",
+        "llave": r"llave|cerradura|puerta|contrasena|agujero|entrar|acceso|abrir",
+        "alarm_clock_01": r"hora|tiempo|reloj|minuto|segundo|dias|noche|despert|madrugada", "mantel_clock_01": r"tiempo|reloj|ano|historia|1988|2003|2016|antiguo|vieja|decada",
+        "wall_clock": r"hora|tiempo|reloj|diez minutos|velocidad|rapid|lent", "vintage_telephone_wall_clock": r"llamada|telefono|tiempo|hora",
+        "classic_laptop": r"laptop|computador|ordenador|portatil|maquina|codigo|programa|virus|software|dato|gusano", "retro_multimeter": r"medir|midieron|numero|cifra|porcentaje|prueba|calculo|sube",
+        "binder_notebook": r"informe|documento|registro|estudio|apunte|publico|publicaron|empresa|ley", "vintage_stapler": r"oficina|papeles|documento|empresa|trabajo",
+        "security_camera_01": r"camara|vigil|seguridad|grabador|observa", "security_camera_02": r"camara|vigil|seguridad|mira|rastro|detect", "Camera_01": r"foto|imagen|ver|miro|mirar|captur",
+        "vintage_video_camera": r"video|grab|imagen|pelicula|filmar", "binoculars": r"buscar|busca|encontr|explor|vigil|lejos|detect|descubr", "magnifying_glass_01": r"investig|descubr|detalle|analiz|encontr|averigu|lupa|buscar",
+        "Television_01": r"televisor|\btele\b|serie\b|pelicula|pantalla|sala\b|salas", "television_02": r"televisor|pantalla|tele\b|imagen|salas", "filmstrip_projector_8mm": r"pelicula|escena|imagen|proyect|historia",
+        "vintage_radio_transceiver": r"senal|radio|antena|onda|transmit|frecuencia|hablan|comunica", "boombox": r"voz|audio|escuch|sonido|ruido|radio", "cassette_player": r"voz|grab|audio|escuch|mensaje",
+        "portable_cassette_player": r"voz|grab|audio|escuch|mensaje|decir", "Megaphone_01": r"anuncio|titular|portada|publicaron|gritar|avis|alerta",
+        "desk_lamp_arm_01": r"\bluz\b|lampara|noche|oscur|trabajo|escritorio", "Lantern_01": r"\bluz\b|oscur|noche|sombra|miedo|alerta", "vintage_flashlight": r"\bluz\b|buscar|oscur|linterna|encontr",
+        "signal_flashlight": r"senal|alerta|parpade|luz|aviso", "pull_chain_light_socket": r"\bluz\b|encend|apag|bombilla|parpade",
+        "utility_box_01": r"caja|cuadro|electric|conexion|instalar|fabrica", "power_box_01": r"electric|energia|apagon|corriente|enchuf", "metal_toolbox": r"tecnico|arreglar|instal|reparar|herramienta|fabrica",
+        "vintage_suitcase": r"viaj|llevar|mundo|enviar|paquete|llega", "wooden_crate_01": r"paquete|almacen|envio|fabrica|caja", "cardboard_box_01": r"paquete|envio|caja|comprar|compro|tienda",
+        "screwdriver": r"tecnico|arreglar|abrir|instal|reparar|plastico", "adjustable_wrench": r"tecnico|arreglar|ajust|reparar|mecanismo", "seadogs_compass": r"camino|rumbo|dirigi|destino|direccion|guiar|mundo",
+        "modular_electric_cables": r"cable|conecta|enchuf|hdmi|red\b|conexion", "book_encyclopedia_set_01": r"libro|historia|estudio|investig|ley|universidad|siglo",
+        "korean_public_payphone_01": r"llamada|telefono|numero|llamar|marcar",
+    }
+    PROPS_BL = list(BL_TAGS)
+    def elegir_blender(texto, n=3):
+        tn = VIS.norm(texto); pun = {}
+        for pr, rx in BL_TAGS.items():
+            k = len(re.findall(rx, tn)); pun[pr] = k * 2.0 + R_BL.random() * 0.6 - usos_bl.get(pr, 0) * 1.4
+        elegidos = []
         for pr in sorted(pun, key=lambda k: -pun[k]):
-            if usos_bl.get(pr, 0) < 2 and pr != ult_bl[0]: break
-        else:
-            lib = [p_ for p_ in PROPS_BL if p_ != ult_bl[0]]; pr = min(lib, key=lambda k: (usos_bl.get(k, 0), PROPS_BL.index(k)))
-        usos_bl[pr] = usos_bl.get(pr, 0) + 1; ult_bl[0] = pr; GEN_N[0] += 1
-        return pr, GEN_N[0]
+            if usos_bl.get(pr, 0) >= 3 or pr in ult_set or pr in elegidos: continue
+            elegidos.append(pr)
+            if len(elegidos) == n: break
+        for pr in elegidos: usos_bl[pr] = usos_bl.get(pr, 0) + 1
+        ult_set.clear(); ult_set.update(elegidos); ult_bl[0] = elegidos[-1]; GEN_N[0] += 1
+        return elegidos, GEN_N[0]
     def texto_ini(t0, t1):
         """lineas que EMPIEZAN entre t0 y t1 (lo que se dice mientras dura el clip)"""
         out = [l for i, l in enumerate(lineas) if t0 - 0.3 <= ini_lin[i] < t1]
@@ -453,8 +474,11 @@ def main():
                 escenas.append(e); inicios.append(x); x += d; K3[0] = 0; continue
             tx = texto_ini(x, x + 9)
             if x < BL_HASTA:                                               # primeros 5 minutos: clip de Blender (fotorrealista)
-                pr, sem = elegir_blender(tx); fin = corte(x, DUR_BL, DUR_BL - 2.0, tb); d = fin - x
-                escenas.append({"tipo": "blender", "prop": pr, "seed": sem, "dur": round(d, 3), "luz": luz}); K3[0] += 1; prev[0] = "bl:" + pr; inicios.append(x); x += d; continue
+                cand_l = [ini_lin[i] for i in range(len(lineas)) if abs(ini_lin[i] - (x + DUR_BL)) <= 1.1]
+                fin = min(cand_l, key=lambda c: abs(c - (x + DUR_BL))) if cand_l else x + DUR_BL
+                if tb - fin < 3.0: fin = tb
+                fin = min(fin, tb); d = fin - x; prs, sem = elegir_blender(tx, 3 if d >= 4.0 else 2)
+                escenas.append({"tipo": "blender", "props": prs, "seed": sem, "dur": round(d, 3), "luz": luz}); K3[0] += 1; prev[0] = "bl:" + prs[0]; inicios.append(x); x += d; continue
             o = elegir_visual(tx, pref); sala = o.startswith("gen:") and not o.startswith("gen:mesa")
             obj = DUR_SALA if sala else DUR_3D
             fin = corte(x, obj, obj - 2.0, tb); d = fin - x
@@ -503,6 +527,7 @@ def main():
         if e_["tipo"] == "roja": e_["est"] = [1, 2, 3, 4, 5, 0][k_ % 6]
         if e_["tipo"] == "comparar":
             if ncomp >= 2: e_["tema"] = TEMAS_C[ncomp % len(TEMAS_C)]
+            e_["lay"] = [0, 2, 1, 2, 0, 1][ncomp % 6]                        # el segundo ya NO repite el primero: diseños distintos (lado a lado / mitades en diagonal / filas)
             ncomp += 1
         if e_["tipo"] == "3d":
             e_["calidad"] = "alta" if inicios[k_] < 300 else "normal"

@@ -38,7 +38,7 @@ const TEMAS: Record<string, { c1: string; c2: string; izq: string; der: string }
 
 export type Tarjeta = { icono: string; titulo: string; valor: string };
 /** Pantalla de comparacion en pixel art (dos tarjetas crema con icono, titulo y valor + icono central), fondo de color liso con viñeta. */
-export const Comparar: React.FC<{ izq: Tarjeta; der: Tarjeta; centro?: string; tema?: string }> = ({ izq, der, centro = "vs", tema = "rojo" }) => {
+export const Comparar: React.FC<{ izq: Tarjeta; der: Tarjeta; centro?: string; tema?: string; lay?: number }> = ({ izq, der, centro = "vs", tema = "rojo", lay = 0 }) => {
   const f = useCurrentFrame(); const { fps } = useVideoConfig();
   const T = TEMAS[tema] ?? TEMAS.rojo;
   const eI = spring({ frame: f - 3, fps, config: { damping: 12, stiffness: 120 } });
@@ -51,8 +51,29 @@ export const Comparar: React.FC<{ izq: Tarjeta; der: Tarjeta; centro?: string; t
       transform: `translateX(${(1 - e) * lado * 900}px) rotate(${(1 - e) * lado * 6}deg)`, display: "flex", flexDirection: "column", alignItems: "center", justifyContent: "center", gap: 26 }}>
       <div style={{ transform: `translateY(${bob(k)}px)` }}>{PIX(t.icono, 17, color)}</div>
       <div style={{ fontFamily: FUENTE_PIXEL, fontSize: 21, color: "#2a2018", letterSpacing: 1, textAlign: "center", maxWidth: 460, lineHeight: 1.5 }}>{t.titulo}</div>
-      <div style={{ fontFamily: FUENTE_PIXEL, fontSize: t.valor.length > 9 ? 34 : 44, color, textAlign: "center", letterSpacing: 1, textShadow: "3px 3px 0 #14080a22" }}>{t.valor}</div>
+      <div style={{ fontFamily: FUENTE_PIXEL, fontSize: t.valor.length > 9 ? 34 : 44, color, textAlign: "center", letterSpacing: 1, textShadow: "3px 3px 0 #14080a55" }}>{t.valor}</div>
     </div>);
+  if (lay === 2) {                                                         // mitades a pantalla completa separadas por una diagonal
+    const mitad = (t_: Tarjeta, color: string, e_: number, izqL: boolean) => (
+      <div style={{ position: "absolute", top: 0, bottom: 0, [izqL ? "left" : "right"]: 0, width: "56%", background: color, clipPath: izqL ? "polygon(0 0, 100% 0, 82% 100%, 0 100%)" : "polygon(18% 0, 100% 0, 100% 100%, 0 100%)",
+        display: "flex", flexDirection: "column", alignItems: "center", justifyContent: "center", gap: 28, transform: `translateX(${(1 - e_) * (izqL ? -900 : 900)}px)` }}>
+        <div style={{ transform: `translateY(${bob(izqL ? 0 : 2)}px)`, marginLeft: izqL ? -90 : 90 }}>{PIX(t_.icono, 24, "#fff7ec")}</div>
+        <div style={{ fontFamily: FUENTE_PIXEL, fontSize: 24, color: "#fff7ec", marginLeft: izqL ? -90 : 90, letterSpacing: 1 }}>{t_.titulo}</div>
+        <div style={{ fontFamily: FUENTE_PIXEL, fontSize: t_.valor.length > 9 ? 40 : 54, color: "#14080a", background: "#f7ecd4", padding: "14px 26px", border: "5px solid #14080a", marginLeft: izqL ? -90 : 90 }}>{t_.valor}</div>
+      </div>);
+    return (<AbsoluteFill style={{ background: "#14080a" }}>{mitad(izq, T.izq, eI, true)}{mitad(der, T.der, eD, false)}
+      <div style={{ position: "absolute", left: 930, top: 480, width: 120, height: 120, background: "#f7ecd4", border: "5px solid #14080a", display: "flex", alignItems: "center", justifyContent: "center", fontFamily: FUENTE_PIXEL, fontSize: 40, transform: `scale(${eC}) rotate(${(1 - eC) * 120}deg)` }}>VS</div></AbsoluteFill>);
+  }
+  if (lay === 1) {                                                         // dos filas anchas: icono a la izquierda, texto a la derecha
+    const fila = (t_: Tarjeta, color: string, e_: number, k: number) => (
+      <div style={{ width: 1300, height: 270, background: "linear-gradient(160deg,#f7ecd4,#e8d9b8)", border: "5px solid #14080a", boxShadow: "10px 10px 0 #14080a66", display: "flex", alignItems: "center", gap: 60, paddingLeft: 70, transform: `translateX(${(1 - e_) * (k ? 1500 : -1500)}px)` }}>
+        <div style={{ transform: `translateY(${bob(k)}px)` }}>{PIX(t_.icono, 16, color)}</div>
+        <div><div style={{ fontFamily: FUENTE_PIXEL, fontSize: 24, color: "#2a2018" }}>{t_.titulo}</div><div style={{ fontFamily: FUENTE_PIXEL, fontSize: t_.valor.length > 9 ? 44 : 60, color, marginTop: 22, textShadow: "3px 3px 0 #14080a" }}>{t_.valor}</div></div>
+      </div>);
+    return (<AbsoluteFill style={{ background: `radial-gradient(ellipse 80% 75% at 50% 45%, ${T.c1} 0%, ${T.c2} 100%)`, justifyContent: "center", alignItems: "center", gap: 36 }}>
+      <AbsoluteFill style={{ backgroundImage: "linear-gradient(#ffffff0d 2px, transparent 2px), linear-gradient(90deg, #ffffff0d 2px, transparent 2px)", backgroundSize: "60px 60px" }} />
+      {fila(izq, T.izq, eI, 0)}<div style={{ fontFamily: FUENTE_PIXEL, fontSize: 40, color: "#f7ecd4", textShadow: "4px 4px 0 #14080a", transform: `scale(${eC})` }}>VS</div>{fila(der, T.der, eD, 1)}</AbsoluteFill>);
+  }
   const trem = f % 7 === 0 && f > 30 ? 3 : 0;
   return (
     <AbsoluteFill style={{ background: `radial-gradient(ellipse 80% 75% at 50% 45%, ${T.c1} 0%, ${T.c2} 100%)`, justifyContent: "center", alignItems: "center" }}>

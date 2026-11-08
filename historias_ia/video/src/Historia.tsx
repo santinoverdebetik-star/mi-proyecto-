@@ -45,7 +45,7 @@ export const Historia: React.FC<{ escenas: Escena[]; voz?: string; musica?: stri
           {e.tipo === "foto" && <Foto archivo={e.archivo} luz={e.luz} v={e.v} pos={e.pos} est={e.est} marco={e.marco} />}
           {e.tipo === "imagen" && <Imagen archivo={e.archivo} brillo={e.brillo} />}
           {e.tipo === "roja" && <Roja variante={e.variante} etiqueta={e.etiqueta} v={e.v} est={e.est} />}
-          {e.tipo === "comparar" && <Comparar izq={e.izq} der={e.der} centro={e.centro} tema={e.tema} />}
+          {e.tipo === "comparar" && <Comparar izq={e.izq} der={e.der} centro={e.centro} tema={e.tema} lay={e.lay} />}
           </AbsoluteFill>
           </Transicion>
         </Series.Sequence>

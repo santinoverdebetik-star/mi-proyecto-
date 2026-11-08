@@ -6,7 +6,7 @@ def get(u, dest=None):
     d = urllib.request.urlopen(urllib.request.Request(u, headers={"User-Agent": "IA-Descontrolada/1.0"}), timeout=120).read()
     if dest: os.makedirs(os.path.dirname(dest), exist_ok=True); open(dest, "wb").write(d)
     return d
-for m in ["alarm_clock_01", "classic_laptop", "desk_lamp_arm_01", "security_camera_01", "Television_01", "vintage_radio_transceiver", "modular_electric_cables", "book_encyclopedia_set_01", "mantel_clock_01", "wall_clock", "korean_public_payphone_01", "portable_cassette_player"]:
+for m in ["alarm_clock_01", "classic_laptop", "desk_lamp_arm_01", "security_camera_01", "Television_01", "vintage_radio_transceiver", "modular_electric_cables", "book_encyclopedia_set_01", "mantel_clock_01", "wall_clock", "korean_public_payphone_01", "portable_cassette_player"]+["Camera_01", "boombox", "cassette_player", "binoculars", "magnifying_glass_01", "retro_multimeter", "security_camera_02", "television_02", "vintage_video_camera", "filmstrip_projector_8mm", "signal_flashlight", "vintage_flashlight", "metal_toolbox", "screwdriver", "power_box_01", "utility_box_01", "seadogs_compass", "vintage_suitcase", "vintage_stapler", "binder_notebook", "Megaphone_01", "Lantern_01", "wooden_crate_01", "cardboard_box_01", "adjustable_wrench", "vintage_telephone_wall_clock", "pull_chain_light_socket"]:
     fl = json.loads(get(f"https://api.polyhaven.com/files/{m}")); g = fl["gltf"]["1k"]["gltf"]; base = f"{A}/{m}/"
     get(g["url"], base + os.path.basename(g["url"]))
     for rel, info in g.get("include", {}).items(): get(info["url"], base + rel)
